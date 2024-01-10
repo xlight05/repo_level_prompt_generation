@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Usuarios>
+    <Usuario>
+        <nome>admin</nome>
+        <senha>uniceub</senha>
+        <perfil>Administrador</perfil>
+    </Usuario>
+    <Usuario>
+        <nome>user</nome>
+        <senha>uniceub</senha>
+        <perfil>Usuario</perfil>
+    </Usuario>
+        <Usuario>
+        <nome>teste</nome>
+        <senha>uniceub</senha>
+        <perfil>Visitante</perfil>
+    </Usuario>
+</Usuarios>

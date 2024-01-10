@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd" >
+
+<!-- 
+
+ Common Validations for RegisterAction
+======================================
+
+Authors : Yohan Liyanage
+
+Version : 16 - September - 2008
+Since 	: 16 - September - 2008
+
+ -->
+<validators>
+
+	<field name="CBNo">
+		<field-validator type="required">
+			<message>CB Number is required</message>
+		</field-validator>
+	</field>
+		
+</validators>

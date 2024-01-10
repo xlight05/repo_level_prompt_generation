@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/59/trunk/eShop/WEB-INF
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/51/trunk/eShop/WEB-INF/web.xml
+END
+.faces-config.xml.jsfdia
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/49/trunk/eShop/WEB-INF/.faces-config.xml.jsfdia
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/58/trunk/eShop/WEB-INF/persistence.xml
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/51/trunk/eShop/WEB-INF/faces-config.xml
+END
+pretty-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/47/trunk/eShop/WEB-INF/pretty-config.xml
+END

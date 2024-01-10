@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/156/trunk/DataSource
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/31/trunk/DataSource/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/31/trunk/DataSource/.project
+END
+.springBeans
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/31/trunk/DataSource/.springBeans
+END
+build.properties
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/31/trunk/DataSource/build.properties
+END

@@ -1,0 +1,50 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    xmlns:tx="http://myfaces.apache.org/tobago/extension"
+    id="spyInc" >
+        
+        <tc:panel>
+    <f:facet name="layout">
+        <tc:gridLayout columns="*" rows="22px;*;22px" />
+    </f:facet>
+    
+    <tx:selectOneChoice label="#{messages.spy}"  value="#{SpyUserBean.userLabel}" >
+         <f:facet name="change">
+                <tc:command action="#{SpyUserBean.reload}" />
+            </f:facet>
+            <f:selectItems value="#{SpyUserBean.userLabels}" />
+    </tx:selectOneChoice>
+    
+    <tc:textarea value="#{SpyUserBean.spyInfo}" />
+    
+    <tc:panel>
+        <f:facet name="layout">
+            <tc:gridLayout columns="*;60px;80px;60px;60px;*;" rows="*" />
+        </f:facet>
+        <tc:out value="" />
+        <tc:button label="#{messages.clear}" action="#{SpyUserBean.clear}" width="60px"/>
+        <tc:button label="#{messages.disconnect}" action="#{SpyUserBean.disconnect}" width="80px"/>
+        <tc:button label="#{messages.close}" action="#{SpyUserBean.close}" width="60px"/>
+        <tc:button label="#{messages.reload}" action="#{SpyUserBean.reload}" width="60px"/>
+        <tc:out value="" />
+    </tc:panel>
+    
+                                <tc:attribute name="renderedPartially" value="errorPopup"/>
+                            <tc:popup width="250px" height="100px" id="errorPopup" rendered="#{SpyUserBean.showErrorPopup}">
+                                <tc:box label="#{SpyUserBean.errorHeader}">
+                                    <tc:panel>
+                                        <f:facet name="layout">
+                                            <tc:gridLayout columns="*" rows="*;22px" />
+                                        </f:facet>
+                                        <tc:out value="#{SpyUserBean.errorMessage}" />
+                                        <tc:button action="#{SpyUserBean.closeLoginErrorPopup}" label="#{messages.ok}" >
+                                            <tc:attribute name="popupClose" value="afterSubmit"/>
+                                        </tc:button>
+                                    </tc:panel>    
+                                </tc:box>
+                            </tc:popup>
+    
+    </tc:panel>
+</f:subview>

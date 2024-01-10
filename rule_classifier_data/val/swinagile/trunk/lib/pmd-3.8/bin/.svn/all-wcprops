@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin
+END
+designer.bat
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/designer.bat
+END
+pmd.bat
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/pmd.bat
+END
+pmd.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/pmd.sh
+END
+designer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/designer.sh
+END
+cygwin-run.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/cygwin-run.sh
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/build.xml
+END
+cpd.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/cpd.sh
+END
+cpdgui.bat
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/8/trunk/lib/pmd-3.8/bin/cpdgui.bat
+END

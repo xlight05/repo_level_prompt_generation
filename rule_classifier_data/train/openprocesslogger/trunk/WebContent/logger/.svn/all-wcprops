@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/4/trunk/WebContent/logger
+END
+logging.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4/trunk/WebContent/logger/logging.js
+END
+subscriptions.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4/trunk/WebContent/logger/subscriptions.js
+END
+itemsettings.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/4/trunk/WebContent/logger/itemsettings.html
+END
+loggermain.html
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/WebContent/logger/loggermain.html
+END
+datamodel.html
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/4/trunk/WebContent/logger/datamodel.html
+END

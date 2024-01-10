@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="cms-example-ear">
+		<wb-resource deploy-path="/" source-path="/resource"/>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/jbpm/jbpm-jpdl/3.2.2/jbpm-jpdl-3.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/antlr/antlr-runtime/3.0/antlr-runtime-3.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/commons-lang/commons-lang/2.4/commons-lang-2.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/commons-digester/commons-digester/1.8/commons-digester-1.8.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/com/sun/facelets/jsf-facelets/1.1.15.B1/jsf-facelets-1.1.15.B1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/jboss/el/jboss-el/1.0_02.CR2/jboss-el-1.0_02.CR2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/commons-collections/commons-collections/3.2/commons-collections-3.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/quartz/quartz/1.6.0/quartz-1.6.0.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/mvel/mvel14/1.2.21/mvel14-1.2.21.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/jboss-seam-ui/2.1.1.GA/jboss-seam-ui-2.1.1.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/jboss-seam-debug/2.1.1.GA/jboss-seam-debug-2.1.1.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/jboss-seam-jul/2.1.1.GA/jboss-seam-jul-2.1.1.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/drools/drools-compiler/4.0.4/drools-compiler-4.0.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/drools/drools-core/4.0.4/drools-core-4.0.4.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="lib/" handle="module:/classpath/var/M2_REPO/org/richfaces/framework/richfaces-impl/3.3.0.GA/richfaces-impl-3.3.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/" handle="module:/classpath/var/M2_REPO/org/jboss/seam/jboss-seam/2.1.1.GA/jboss-seam-2.1.1.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/richfaces/ui/richfaces-ui/3.3.0.GA/richfaces-ui-3.3.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/richfaces/framework/richfaces-api/3.3.0.GA/richfaces-api-3.3.0.GA.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/" handle="module:/resource/cms-example/cms-example">
+			<dependent-object/>
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/" handle="module:/resource/cms-example-ejb/cms-example-ejb">
+			<dependent-object/>
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/" handle="module:/resource/seamlets-components-core/seamlets-components-core">
+			<dependent-object/>
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/" handle="module:/resource/seamlets-security/seamlets-security">
+			<dependent-object/>
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module archiveName="seamlets-cms-transformer.jar" deploy-path="/" handle="module:/resource/seamlets-cms-transformer/seamlets-cms-transformer">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module archiveName="seamlets-core.jar" deploy-path="/" handle="module:/resource/seamlets-core/seamlets-core">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+	</wb-module>
+</project-modules>

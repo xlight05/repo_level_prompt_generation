@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/9/Let%20It%20Bee/test
+END
+data.yml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/9/Let%20It%20Bee/test/data.yml
+END
+BasicTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/9/Let%20It%20Bee/test/BasicTest.java
+END
+ApplicationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/9/Let%20It%20Bee/test/ApplicationTest.java
+END
+Application.test.html
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/9/Let%20It%20Bee/test/Application.test.html
+END

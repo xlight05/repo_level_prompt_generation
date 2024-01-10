@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<title>Tr Example</title>
+	</head>
+	<body>
+		
+		<table>
+			
+			<!-- This ends up being a simple Label component because
+			the class of the myText property is not a List -->
+			<tr>
+				<td wicket:id="myText"></td>
+			</tr>
+			
+			<!-- This ends up being a ListView component because
+			the class of the names property is a List -->
+			<tr wicket:id="names">
+				<td wicket:id="toString()"></td>
+			</tr>
+		</table>
+	</body>
+</html>

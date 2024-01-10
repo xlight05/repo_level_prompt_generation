@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich" xmlns:s="http://jboss.com/products/seam/taglib"
+	template="/layout/template.xhtml">
+
+	<!-- page parameter -->
+	<ui:param name="showHotLinks" value="true" />
+	<ui:param name="showInfoLinks" value="false" />
+	<ui:param name="showTitle" value="true" />
+	<ui:param name="showSubtitle" value="true" />
+	<ui:param name="showNavigationView" value="true" />
+	<ui:param name="showLogout" value="#{applicationconfig.showLogout}" />
+	<ui:param name="showSystemMessages" value="false" />
+	<ui:param name="showIdle" value="false" />
+	
+	<!-- needed for template -->
+	<ui:param name="process" value="#{permissionsAdmin}" />
+
+	<ui:define name="body">
+
+		<h:form name="form">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="form">
+				<tr>
+					<td class="form-head" style="text-align: left">#{messages['PermissionsAdminProcess.form']}</td>
+				</tr>
+
+				<tr>
+					<td class="form-label" style="text-align: left"><rich:messages id="messages" errorClass="errortext"
+						errorMarkerClass="errortext" errorLabelClass="errortext" globalOnly="true">
+						<f:facet name="infoMarker">
+							<h:graphicImage value="/images/common/decoration/info.gif" />
+						</f:facet>
+						<f:facet name="warnMarker">
+							<h:graphicImage value="/images/common/decoration/warn.gif" />
+						</f:facet>
+						<f:facet name="errorMarker">
+							<h:graphicImage value="/images/common/decoration/error.gif" />
+						</f:facet>
+						<f:facet name="fatalMarker">
+							<h:graphicImage value="/images/common/decoration/fatal.gif" />
+						</f:facet>
+					</rich:messages> #{messages['PermissionsAdminProcess.permission']}</td>
+				</tr>
+				<tr>
+					<td class="form-input" style="text-align: left"><s:decorate>
+						<h:inputText id="permissionName" value="#{permissionsAdmin.permissionName}">
+							<s:validate />
+						</h:inputText>
+					</s:decorate>
+					<rich:message for="permissionName" styleClass="errortext" />
+					</td>
+				</tr>
+
+				<tr>
+					<td class="form-foot" align="right">
+					<a4j:commandButton id="addPermission"
+						rendered="#{s:hasPermission('Show','PermissionAdminEdit', null)}"
+						value="#{messages['button.add']}"
+						action="#{permissionsAdmin.addPermission()}"
+						reRender="table_container, permissionName"
+						status="commonstatus"
+						styleClass="button" />
+					</td>
+				</tr>
+			</table>
+
+
+			<br />
+
+			<s:div id="table_container">
+				<rich:dataTable id="permissionTable" cellpadding="0" cellspacing="0" border="0" width="100%" columnsWidth="92%,8%"
+					styleClass="data" headerClass="data" columnClasses="data"
+					rowClasses="data-rowA, data-rowB"
+					var="permission" value="#{permissions}">
+					<f:facet name="header">
+						<rich:columnGroup>
+							<h:column>#{messages['PermissionsAdminProcess.identifier']}</h:column>
+						</rich:columnGroup>
+					</f:facet>
+					<rich:column style="text-align: right;">
+				        	#{permission.getIdentifier()}
+				    </rich:column>
+					<rich:column style="text-align: center;" rendered="#{s:hasPermission('Show','GroupsAdminEdit', null)}">
+						<s:button id="editBotton" value="#{messages['button.edit']}" view="/useradministration/GroupsAdminEdit.xhtml"
+							styleClass="button">
+							<f:param name="groupToEdit" value="#{group.getIdentifier()}" />
+						</s:button>
+					</rich:column>
+					<rich:column style="text-align: center;">
+						<s:button id="deleteButton"
+							title="#{permission.identifier}"
+							rendered="#{s:hasPermission('Show','PermissionAdminDelete', null)}"
+							action="#{permissionsAdmin.deletePermission(permission)}"
+							value="#{messages['button.delete']}"
+							styleClass="button toConfirm" />
+					</rich:column>
+				</rich:dataTable>
+				<rich:jQuery selector=".toConfirm" query="each(function(){jQuery(this).replaceOnClick({id:'modal-confirm-window', title:'#{messages['PermissionsAdminProcess.delete-message']}', ok_label:'#{messages['PermissionsAdminProcess.delete-message.ok']}', cancel_label:'#{messages['PermissionsAdminProcess.delete-message.cancel']}'});})"/>
+				<rich:jQuery selector="#permissionTable tr:odd" query="mouseover(function(){jQuery(this).removeClass('data-rowA');jQuery(this).addClass('active-row');})"/>
+			    <rich:jQuery selector="#permissionTable tr:odd" query="mouseout(function(){jQuery(this).addClass('data-rowA');jQuery(this).removeClass('active-row');})"/>
+			    <rich:jQuery selector="#permissionTable tr:even" query="mouseover(function(){jQuery(this).removeClass('data-rowB');jQuery(this).addClass('active-row');})"/>
+			    <rich:jQuery selector="#permissionTable tr:even" query="mouseout(function(){jQuery(this).addClass('data-rowB');jQuery(this).removeClass('active-row');})"/>
+			</s:div>
+		</h:form>
+		<rich:spacer height="20"/>
+	</ui:define>
+</ui:composition>

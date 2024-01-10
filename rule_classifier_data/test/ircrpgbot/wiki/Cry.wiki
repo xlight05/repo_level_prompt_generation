@@ -1,0 +1,20 @@
+#summary Skill description
+#sidebar Spells
+
+Table of Contents
+<wiki:toc max_depth="3">
+
+==Information==
+||Duration||5 Rounds||
+||Element||[Force]||
+
+==Description==
+Cry is a de/buff spell that affects two full teams of people. For your allied team, Cry will increase your [Power] and [Constitution] by 5, and for the opposing team it is cast on, it will lower each members Power and Constitution by 5.
+
+==Classes==
+||Class Name||Cost||Learned at||
+||Barbarian||15 Rage||Level 1||
+||Bloodbarian||50 HP||Level 1||
+
+==SVN File==
+More information on Cry can be found [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/spells/barbarian-cry.js here].

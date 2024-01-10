@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections
+END
+SortedList.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/SortedList.js
+END
+Collections.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/Collections.js
+END
+Graph.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/Graph.js
+END
+SkipList.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/SkipList.js
+END
+Queue.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/Queue.js
+END
+BinaryTree.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/BinaryTree.js
+END
+Dictionary.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/Dictionary.js
+END
+Stack.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/Stack.js
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/__package__.js
+END
+ArrayList.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/ArrayList.js
+END
+Set.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/collections/Set.js
+END

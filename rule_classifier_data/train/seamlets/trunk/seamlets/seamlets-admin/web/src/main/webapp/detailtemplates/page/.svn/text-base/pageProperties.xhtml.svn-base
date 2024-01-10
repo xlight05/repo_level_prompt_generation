@@ -1,0 +1,93 @@
+<ui:fragment
+	xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich"
+    xmlns:a4j="http://richfaces.org/a4j">
+    
+		<h:panelGrid columns="2" cellpadding="0" cellspacing="0" styleClass="pageProperties">
+		   	<s:decorate id="displayNameField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.id']}</ui:define>
+				<h:outputText value="#{selectedPage.id}" />
+			</s:decorate>
+			
+			<s:decorate id="lastUserNameField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.lastuser']}</ui:define>
+				<h:outputText value="#{selectedPage.lastAccesUser}" />
+			</s:decorate>
+			
+			<s:decorate id="createdField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.created']}</ui:define>
+				<h:outputText value="#{selectedPage.created}">
+					<s:convertDateTime pattern="dd. MMMMM yyyy HH:mm:ss.SSS z" />
+				</h:outputText>
+			</s:decorate>
+			
+			<s:decorate id="updatedField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.update']}</ui:define>
+				<h:outputText value="#{selectedPage.updated}">
+					<s:convertDateTime pattern="dd. MMMMM yyyy HH:mm:ss.SSS z" />
+				</h:outputText>
+			</s:decorate>
+			
+			<s:decorate id="domainField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.domain']}</ui:define>
+				<h:outputText value="#{selectedPage.domain}" />
+			</s:decorate>
+			
+			<s:fragment rendered="#{selectedPage.parentFolder == null}">&#160;</s:fragment>
+			
+			<s:decorate id="parentFolderField" template="/layout/display.xhtml" rendered="#{selectedPage.parentFolder != null}">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.parentfolder']}</ui:define>
+				<h:outputText value="#{selectedPage.parentFolder.name}" />
+			</s:decorate>
+				
+			<s:decorate id="displayNameFieldTemplate" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.displayName']}</ui:define>
+				<h:inputText id="displayName" required="true"
+					value="#{selectedPage.displayName}">
+					<a4j:support event="onkeyup" reRender="displayNameFieldTemplate"
+						ajaxSingle="true" ignoreDupResponses="true" bypassUpdates="true"
+						eventsQueue="saveDisableQueu" requestDelay="3000" />
+				</h:inputText>
+			</s:decorate>
+			
+			<s:decorate id="titleFieldTemplate" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.title']}</ui:define>
+				<h:inputText id="title" required="true"
+					value="#{selectedPage.title}">
+					<a4j:support event="onkeyup" reRender="titleFieldTemplate"
+						ajaxSingle="true" ignoreDupResponses="true" bypassUpdates="true"
+						eventsQueue="saveDisableQueu" requestDelay="3000" />
+				</h:inputText>
+			</s:decorate>
+			
+			<s:decorate id="viewIdFieldTemplate" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.viewid']}</ui:define>
+				<h:outputText value="#{selectedPage.urlPath}" />
+				<h:inputText id="viewId" required="true"
+					value="#{selectedPage.viewID}">
+					<a4j:support event="onkeyup" reRender="viewIdFieldTemplate"
+						ajaxSingle="true" ignoreDupResponses="true" bypassUpdates="true"
+						eventsQueue="saveDisableQueu" requestDelay="3000" />
+				</h:inputText>
+				<h:outputText value=".seam" />
+			</s:decorate>
+			
+			<s:decorate id="templateFieldTemplate" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.pageselected.template']}</ui:define>
+				<h:selectOneMenu value="#{selectedPage.template}" 
+	        		id="template" required="true">
+	        		<f:converter converterId="componentsEntityConverter" />
+		        	<s:selectItems value="#{templateList.resultList}" 
+		        		var="template" label="#{template.displayName}" noSelectionLabel="-"/>
+					<a4j:support event="onchange" reRender="templateFieldTemplate"
+						ajaxSingle="true" ignoreDupResponses="true" bypassUpdates="true"
+						eventsQueue="saveDisableQueu" />
+		        </h:selectOneMenu>
+			</s:decorate>
+		</h:panelGrid>
+				    	
+</ui:fragment>

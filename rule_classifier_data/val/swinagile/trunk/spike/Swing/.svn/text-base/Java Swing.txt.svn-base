@@ -1,0 +1,52 @@
+
+Java Swing
+Spike Plan
+Name: Java Swing Spike
+
+CVS Module/Location: none.
+
+Background/Context:
+Need Swing for US-1 and on.
+
+Goals/Risks:
+Team's lack of operational experience with Java Swing.
+
+Deliverables:
+Source code.
+
+Resources: Ben Hall.
+
+Planned start date: 26th September 2006
+Deadline: 27th September 2006
+
+Current status:
+Beginning.
+
+Analysis/Planning/Design notes (done by the developer):
+
+
+
+
+Spike outcomes
+This section captures and communicates the outcomes of the spike against each of the various goals and risks; it also outlines any open issues. In practice, this section will move to the top of the document and replace the initial goals/risks section.
+
+Goal/Risk [these are the same as in the plan, but now additional information is added (if needed) to indicate progress made in the spike]
+
+Example: The risk is that developers do not have sufficient confidence in Technology-Y's ability to perform well under load. The goal is to understand better how the performance of Technology-Y degrades as the number of users/transactions increases.
+
+Tasks undertaken:
+[Show only the key tasks that are likely to help another developer/reader]
+
+* Started the test with 20 concurrent users running 5 sequential transactions, increased user load to 50 concurrent users.
+
+What we found out:
+Graph/Screen shot/outcome list/notes
+
+Open issues/risks:
+[List out the issues and risks that you have been unable to resolve at the end of the spike. You may have uncovered a whole range of new risks as well]
+* Risk xyz (new)
+
+
+Recommendations [Optional]:
+* You may state that another spike is required to resolve new issues identified (or) indicate that this
+spike has increased the teams confidence in XYZ and move on.

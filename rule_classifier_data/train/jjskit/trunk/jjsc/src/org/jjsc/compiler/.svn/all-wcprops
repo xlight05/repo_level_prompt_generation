@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/82/trunk/jjsc/src/org/jjsc/compiler
+END
+CompilationUnitCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/compiler/CompilationUnitCompiler.java
+END
+MethodCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/compiler/MethodCompiler.java
+END
+VirtualStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/31/trunk/jjsc/src/org/jjsc/compiler/VirtualStack.java
+END
+BooleanExpressionsCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/61/trunk/jjsc/src/org/jjsc/compiler/BooleanExpressionsCompiler.java
+END
+FieldCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/compiler/FieldCompiler.java
+END
+CompilationBufferBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/63/trunk/jjsc/src/org/jjsc/compiler/CompilationBufferBuilder.java
+END
+ExceptionFlowGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/compiler/ExceptionFlowGraphBuilder.java
+END
+OpcodesGraphNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/61/trunk/jjsc/src/org/jjsc/compiler/OpcodesGraphNode.java
+END
+OpcodesGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/61/trunk/jjsc/src/org/jjsc/compiler/OpcodesGraphBuilder.java
+END
+CompilationErrorHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/compiler/CompilationErrorHandler.java
+END
+OpcodesCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/80/trunk/jjsc/src/org/jjsc/compiler/OpcodesCompiler.java
+END
+CompilationError.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/compiler/CompilationError.java
+END
+DelayedMethodVisitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/80/trunk/jjsc/src/org/jjsc/compiler/DelayedMethodVisitor.java
+END
+Namespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/compiler/Namespace.java
+END
+ClassCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/82/trunk/jjsc/src/org/jjsc/compiler/ClassCompiler.java
+END

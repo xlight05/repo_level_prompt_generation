@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Math-Mech eShop</title>
+<link href="/admin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h:outputLink value="cats">root</h:outputLink>
+<h:outputText value="->" rendered="#{admin.catsPage.currentCat!=null}" />
+<ui:repeat value="#{admin.catsPage.parentCategories}" var="parent">
+	<h:outputLink value="cats?id=#{parent.id}">
+		<h:outputText value="#{parent.name}" />
+	</h:outputLink>
+	<h:outputText value="->" />
+</ui:repeat>
+<h:outputText value="#{admin.catsPage.currentCat.name}" />
+
+
+<h:dataTable value="#{admin.catsPage.childCategories}" var="category"
+	styleClass="data_table">
+
+	<h:column>
+		<h:outputText value="#{category.name}" />
+	</h:column>
+	<h:column>
+		<h:outputLink value="cats?id=#{category.id}">select</h:outputLink>
+	</h:column>
+
+	<h:column>
+		<h:outputLink value="add_product">
+		<f:param name="id" value="#{category.id}"/>
+		<h:outputText value="add products" />
+		</h:outputLink>
+	</h:column>
+
+	<h:column>
+		<h:form>
+			<h:commandLink action="#{admin.catsPage.removeCategory}"
+				value="delete">
+				<f:param name="cid" value="#{category.id}" />
+			</h:commandLink>
+		</h:form>
+	</h:column>
+
+</h:dataTable>
+<h:form>
+	<h:inputText value="#{admin.catsPage.newCatName}" required="true" />
+	<h:commandButton action="#{admin.catsPage.addCategory}"
+		value="add categoty" />
+</h:form>
+</body>
+</html>

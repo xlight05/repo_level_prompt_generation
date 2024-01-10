@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs
+END
+XSAnnotation.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSAnnotation.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/package-summary.html
+END
+XSNamespaceItem.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSNamespaceItem.html
+END
+XSConstants.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSConstants.html
+END
+XSModelGroup.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSModelGroup.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/package-tree.html
+END
+ElementPSVI.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/ElementPSVI.html
+END
+PSVIProvider.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/PSVIProvider.html
+END
+XSComplexTypeDefinition.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSComplexTypeDefinition.html
+END
+XSFacet.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSFacet.html
+END
+XSImplementation.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSImplementation.html
+END
+XSModelGroupDefinition.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSModelGroupDefinition.html
+END
+XSAttributeGroupDefinition.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSAttributeGroupDefinition.html
+END
+XSMultiValueFacet.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSMultiValueFacet.html
+END
+AttributePSVI.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/AttributePSVI.html
+END
+XSException.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSException.html
+END
+XSElementDeclaration.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSElementDeclaration.html
+END
+XSModel.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSModel.html
+END
+XSNotationDeclaration.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSNotationDeclaration.html
+END
+XSParticle.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSParticle.html
+END
+XSSimpleTypeDefinition.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSSimpleTypeDefinition.html
+END
+XSTerm.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSTerm.html
+END
+XSIDCDefinition.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSIDCDefinition.html
+END
+XSAttributeDeclaration.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSAttributeDeclaration.html
+END
+XSValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSValue.html
+END
+LSInputList.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/LSInputList.html
+END
+XSAttributeUse.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSAttributeUse.html
+END
+ShortList.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/ShortList.html
+END
+XSNamedMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSNamedMap.html
+END
+ItemPSVI.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/ItemPSVI.html
+END
+StringList.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/StringList.html
+END
+XSWildcard.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSWildcard.html
+END
+XSTypeDefinition.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSTypeDefinition.html
+END
+XSObjectList.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSObjectList.html
+END
+XSLoader.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSLoader.html
+END
+XSObject.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSObject.html
+END
+XSNamespaceItemList.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/XSNamespaceItemList.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xs/org/apache/xerces/xs/package-frame.html
+END

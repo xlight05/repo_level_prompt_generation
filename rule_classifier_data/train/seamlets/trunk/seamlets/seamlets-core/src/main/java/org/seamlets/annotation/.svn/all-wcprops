@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/449/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/annotation
+END
+CookieValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/449/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/annotation/CookieValue.java
+END
+SaveCookies.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/426/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/annotation/SaveCookies.java
+END
+LoadCookies.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/426/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/annotation/LoadCookies.java
+END
+CookieSavedState.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/426/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/annotation/CookieSavedState.java
+END

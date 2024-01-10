@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io
+END
+Connection.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/Connection.java
+END
+InputConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/InputConnection.java
+END
+ServerSocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/ServerSocketConnection.java
+END
+OutputConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/OutputConnection.java
+END
+SocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/SocketConnection.java
+END
+ContentConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/ContentConnection.java
+END
+Connector.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/Connector.java
+END
+ConnectionNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/ConnectionNotFoundException.java
+END
+StreamConnectionNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/StreamConnectionNotifier.java
+END
+StreamConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/bt/javax/microedition/io/StreamConnection.java
+END

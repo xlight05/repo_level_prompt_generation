@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/services/r4spring/annotations
+END
+SemanticService.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/services/r4spring/annotations/SemanticService.java
+END
+KnowledgeDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/services/r4spring/annotations/KnowledgeDatabase.java
+END
+Variable.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/services/r4spring/annotations/Variable.java
+END
+SemanticFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/services/r4spring/annotations/SemanticFactory.java
+END
+SessionVariables.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/services/r4spring/annotations/SessionVariables.java
+END

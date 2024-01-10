@@ -1,0 +1,33 @@
+
+<script language="JavaScript" type="text/javascript">
+var SUBSCRIPTION_TAB = null;
+var SELECTED_ADDRESS = null;
+function fillLoggerView(obj){
+	dojo.subscribe("dataModelTree",null,onDataModelTree);		
+}
+
+function onDataModelTree(message){
+	if(message.event=="execute"){
+		SELECTED_ADDRESS = message.item;
+		ar tabCon = dijit.byId('logTaskSettings');
+		if(SUBSCRIPTION_TAB==null)
+			SUBSCRIPTION_TAB = new dojox.layout.ContentPane({id:'subSettingsContainer', title:'Subscription settings', closable:true});
+   		tabCon.addChild(DATA_TAB,dijit.byId("tabs"));
+		dijit.byId('subSettingsContainer').setHref('logger/itemsettings.html');
+		dijit.byId('subSettingsContainer').onLoad = loadSubscriptionData;
+	}
+}
+
+function loadSubscriptionData(){
+	if(SELECTED_ITEM!=null){
+		fillSubscriptionView(SELECTED_ITEM);
+	}
+}
+</script>
+
+<div dojoType="dijit.layout.TabContainer" id="mainLoggerTabContainer" style="overflow: scrollable">
+	<div dojoType="dojox.layout.ContentPane" id="logTaskSettings" title="Log task settings" href="logger/datamodel.html">
+	</div>	
+</div>
+	
+ 

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ======================================================================= -->
+	<!-- ${spring.model.javaName} DAO's (iBatis) - CREATE/READ/UPDATE/PAGING                     -->
+	<!-- ======================================================================= -->
+	<bean id="${spring.dao.instanceName}" parent="abstractDao">
+		<property name="proxyInterfaces" value="${spring.dao.javaPackage}.${spring.dao.javaName}" />
+		<property name="target">
+			<bean class="${spring.daoImpl.javaPackage}.${spring.daoImpl.javaName}">
+				<constructor-arg value="${spring.model.javaPackage}.${spring.model.javaName}" />
+				<property name="createHelper" ref="createHelper" />
+				<property name="readHelper" ref="readHelper" />
+				<property name="updateHelper" ref="updateHelper" />
+				<property name="deleteHelper" ref="deleteHelper" />
+				<property name="pagingHelper" ref="pagingHelper" />
+			</bean>
+		</property>
+	</bean>
+
+	<bean id="${spring.auditDao.instanceName}" parent="abstractDao">
+		<property name="proxyInterfaces" value="org.xfuze.dao.AuditAwareDao" />
+		<property name="target">
+			<bean class="org.xfuze.dao.impl.ibatis.AuditAwareDaoImpl">
+				<constructor-arg value="${spring.auditDao.model.javaPackage}.${spring.auditDao.model.javaName}" />
+				<property name="createHelper" ref="createHelper" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- ======================================================================= -->
+	<!-- ${spring.model.javaName} Service                                                        -->
+	<!-- ======================================================================= -->
+	<bean id="${spring.service.instanceName}" parent="abstractService">
+		<property name="proxyInterfaces" value="${spring.service.javaPackage}.${spring.service.javaName}" />
+		<property name="target">
+			<bean class="${spring.serviceImpl.javaPackage}.${spring.serviceImpl.javaName}">
+				<property name="sequenceDao" ref="sequenceDao" />
+				<property name="${spring.dao.instanceName}" ref="${spring.dao.instanceName}" />
+				<property name="auditDao" ref="${spring.auditDao.instanceName}" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- ======================================================================= -->
+	<!-- Controller - LIST                                                       -->
+	<!-- ======================================================================= -->
+	<bean id="${spring.controllerList.instanceName}" class="${spring.controllerList.javaPackage}.${spring.controllerList.javaName}">
+		<property name="activityService" ref="activityService" />
+		<property name="${spring.service.instanceName}" ref="${spring.service.instanceName}" />
+	</bean>
+
+	<!-- ======================================================================= -->
+	<!-- Controller - FORM                                                       -->
+	<!-- ======================================================================= -->
+	<bean id="${spring.controllerForm.instanceName}" class="${spring.controllerForm.javaPackage}.${spring.controllerForm.javaName}">
+		<property name="validator">
+			<bean class="${spring.validator.javaPackage}.${spring.validator.javaName}" />
+		</property>
+		<property name="formView" value="${spring.controllerForm.viewName}" />
+		<property name="successView" value="${spring.controllerForm.viewName}" />
+		<property name="activityService" ref="activityService" />
+		<property name="${spring.service.instanceName}" ref="${spring.service.instanceName}" />
+	</bean>
+

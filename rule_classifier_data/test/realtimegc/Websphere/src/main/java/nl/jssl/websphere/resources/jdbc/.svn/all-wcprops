@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jdbc
+END
+DataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jdbc/DataSource.java
+END
+JDBCProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jdbc/JDBCProvider.java
+END

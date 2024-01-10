@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 19
+/svn/!svn/ver/5/src
+END
+aop.xml
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/5/src/aop.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/5/src/build.xml
+END
+c3p0.properties
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/5/src/c3p0.properties
+END
+infrared-web.properties
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/5/src/infrared-web.properties
+END
+infrared-agent.properties
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/src/infrared-agent.properties
+END
+dyad.inspect
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/5/src/dyad.inspect
+END
+build_deploy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/5/src/build_deploy.xml
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/12/trunk/bigmail/WEB-INF/src
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/log4j.properties
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8/trunk/bigmail/WEB-INF/src/config.properties
+END
+Readme-PathSetting.txt
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/trunk/bigmail/WEB-INF/src/Readme-PathSetting.txt
+END

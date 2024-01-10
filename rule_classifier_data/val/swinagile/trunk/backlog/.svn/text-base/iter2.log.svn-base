@@ -1,0 +1,33 @@
+Determine package name from extracted metrics data [AMRINDER, ANDREW 15-OCT-2006]
+Calculate number of packages in a version [AMRINDER, ANDREW 15-OCT-2006]
+ExtractedClassDataTest Unit Test to validate package count calculation [AMRINDER, ANDREW 15-OCT-2006]
+Create summary of fan in/out data in version data.[AW/IAN 15-OCT-2006]
+Method to return chart for graphic viewing [IAN 15-OCT-2006]
+Intention for ExtractedVersionData [ASIRI/ANDREW 13-OCT-2006]
+Intention for ExtractedVersionMetrics [ASIRI/ANDREW 13-OCT-2006]
+Flesh out tests for ExtractVersionMetricsTest [ANDREW 15-OCT-2006]
+Simple Line Count script for project source code metrics [ANDREW 15-OCT-2006]
+Fix warnings in project source code [ANDREW 15-OCT-2006]
+Storage class for Class Metrics Data
+Storage class for Version Metrics Data[Asiri-Ian 15 OCT-2006]
+Storage class for Version Configuration Data
+Serialize and desirialize for Version Metics data and configuration data
+Metrics extraction from given list of class/jar files [ASIRI/ANDREW 13-OCT-2006]
+Investigation of byte code metrics vs lines of optcodes [ASIRI/ANDREW 13-OCT-2006]
+Calculate FAN-IN list [ASIRI/ANDREW 17-OCT-2006]
+Postpone metrics extraction for version
+Access already processed data without reextracting
+Test case for processing a class data [ANDREW 17-OCT-2006]
+Test case to test accuracy of Metrics data
+Test case for invalid input files
+Test case for FAN-IN and FAN-OUT Analysis [ANDREW 16-OCT-2006]
+Fix event listener firing during metrics generation [ANDREW 17-OCT-2006]
+Fix Emma test coverage error for non-instrumented interface class file dependencies [ANDREW 17-OCT-2006]
+Write intention for XStreamUtility [ANDREW 17-OCT-2006]
+Write intention for FileSystemUtilities [ANDREW 17-OCT-2006]
+Update intention for ExtractedVersionData [ANDREW 17-OCT-2006]
+Write intention for ClassMetricExtractor [ANDREW 17-OCT-2006]
+Flesh out Project Test Coverage [ANDREW 17-OCT-2006]
+Flesh out ExtractVersionMetrics Test Coverage [ANDREW 17-OCT-2006]
+Intention for ChartMaker[Ian - Ben 16-OCT-2006]
+Unit testing for ChartMaker [Ian 17-OCT-2006]

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/core/session/factory/exception
+END
+SemanticSessionCreationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/core/session/factory/exception/SemanticSessionCreationException.java
+END

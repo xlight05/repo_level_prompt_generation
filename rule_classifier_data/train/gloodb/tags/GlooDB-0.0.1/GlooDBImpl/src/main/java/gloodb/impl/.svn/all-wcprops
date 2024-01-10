@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl
+END
+FlushItemTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/FlushItemTransaction.java
+END
+ObjectWarehouseTxContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ObjectWarehouseTxContext.java
+END
+UndoTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/UndoTransaction.java
+END
+RollbackSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RollbackSegment.java
+END
+StoreOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/StoreOperation.java
+END
+UndoUpdateTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/UndoUpdateTransaction.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/package.html
+END
+EmbeddedRepositoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/EmbeddedRepositoryFactory.java
+END
+GetKeysTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/GetKeysTransaction.java
+END
+EmbeddedRepositoryConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/EmbeddedRepositoryConfiguration.java
+END
+ContainsTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ContainsTransaction.java
+END
+UndoNewTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/UndoNewTransaction.java
+END
+RepositoryImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RepositoryImplementation.java
+END
+Transaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/Transaction.java
+END
+RepositoryAdmin.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RepositoryAdmin.java
+END
+RestoreTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RestoreTransaction.java
+END
+ObjectWarehouse.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ObjectWarehouse.java
+END
+UndoRemoveTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/UndoRemoveTransaction.java
+END
+BeginTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/BeginTransaction.java
+END
+CommitTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/CommitTransaction.java
+END
+RollbackTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RollbackTransaction.java
+END
+ObjectDBRepositoryStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ObjectDBRepositoryStrategy.java
+END
+ObjectWarehouseBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ObjectWarehouseBuilder.java
+END
+NoTransactionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/NoTransactionException.java
+END
+ObjectIdsQueryImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ObjectIdsQueryImplementation.java
+END
+StoreTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/StoreTransaction.java
+END
+RepositoryFacade.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RepositoryFacade.java
+END
+RemoveTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/RemoveTransaction.java
+END
+ObjectMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/impl/ObjectMap.java
+END

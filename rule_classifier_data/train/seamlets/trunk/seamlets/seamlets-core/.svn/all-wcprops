@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/449/trunk/seamlets/seamlets-core
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/53/trunk/seamlets/seamlets-core/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/317/trunk/seamlets/seamlets-core/pom.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/449/trunk/seamlets/seamlets-core/.classpath
+END

@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12/trunk/SolAgentPlatform/src/com/intel/bluetooth
+END
+ServiceRecordsRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/ServiceRecordsRegistry.java
+END
+BluetoothStackBlueSoleil.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackBlueSoleil.java
+END
+DiscoveryListenerAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/DiscoveryListenerAdapter.java
+END
+UtilsJavaSE5.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/UtilsJavaSE5.java
+END
+SearchServicesDeviceNotReachableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SearchServicesDeviceNotReachableException.java
+END
+BluetoothRFCommServerConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothRFCommServerConnection.java
+END
+SDPOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SDPOutputStream.java
+END
+BluetoothStackOSX.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackOSX.java
+END
+BlueCoveImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BlueCoveImpl.java
+END
+BluetoothStackBlueZConsts.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/12/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackBlueZConsts.java
+END
+DebugLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/DebugLog.java
+END
+SearchServicesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SearchServicesException.java
+END
+BluetoothConnectionParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConnectionParams.java
+END
+BluetoothRFCommConnectionNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothRFCommConnectionNotifier.java
+END
+UtilsJavaSE.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/UtilsJavaSE.java
+END
+NativeTestInterfaces.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/NativeTestInterfaces.java
+END
+SelectServiceHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SelectServiceHandler.java
+END
+NotImplementedError.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/NotImplementedError.java
+END
+BluetoothL2CAPServerConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothL2CAPServerConnection.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/Utils.java
+END
+WeakVectorFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/WeakVectorFactory.java
+END
+NativeLibLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/NativeLibLoader.java
+END
+BluetoothRFCommInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothRFCommInputStream.java
+END
+BluetoothStackToshiba.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackToshiba.java
+END
+BluetoothRFCommOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothRFCommOutputStream.java
+END
+BluetoothL2CAPConnectionNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothL2CAPConnectionNotifier.java
+END
+BlueCoveConfigProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BlueCoveConfigProperties.java
+END
+IBMJ9Helper.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/IBMJ9Helper.java
+END
+RemoteDeviceHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/RemoteDeviceHelper.java
+END
+BluetoothStackWIDCOMM.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackWIDCOMM.java
+END
+BluetoothServerConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothServerConnection.java
+END
+BlueCoveLocalDeviceProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BlueCoveLocalDeviceProperties.java
+END
+NotSupportedIOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/NotSupportedIOException.java
+END
+BluetoothStackWIDCOMMSDPInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackWIDCOMMSDPInputStream.java
+END
+BluetoothConnectionNotifierBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConnectionNotifierBase.java
+END
+ServiceRecordImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/ServiceRecordImpl.java
+END
+BluetoothStackMicrosoft.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackMicrosoft.java
+END
+SDPInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SDPInputStream.java
+END
+UtilsStringTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/UtilsStringTokenizer.java
+END
+ThreadLocalWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/ThreadLocalWrapper.java
+END
+BluetoothStackBlueZNativeTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/12/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackBlueZNativeTests.java
+END
+BluetoothConnectionNotifierServiceRecordAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConnectionNotifierServiceRecordAccess.java
+END
+BluetoothStackExtension.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackExtension.java
+END
+BluetoothRFCommClientConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothRFCommClientConnection.java
+END
+NotSupportedRuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/NotSupportedRuntimeException.java
+END
+BluetoothConnectionNotifierParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConnectionNotifierParams.java
+END
+BluetoothRFCommConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothRFCommConnection.java
+END
+BluetoothStack.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStack.java
+END
+NotImplementedIOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/NotImplementedIOException.java
+END
+BluetoothStackBlueZ.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/12/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothStackBlueZ.java
+END
+BluetoothConsts.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConsts.java
+END
+SearchServicesRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SearchServicesRunnable.java
+END
+MicroeditionConnector.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/MicroeditionConnector.java
+END
+SearchServicesThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SearchServicesThread.java
+END
+SearchServicesTerminatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/SearchServicesTerminatedException.java
+END
+RetrieveDevicesCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/RetrieveDevicesCallback.java
+END
+BluetoothL2CAPClientConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothL2CAPClientConnection.java
+END
+BluetoothConnectionAccess.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConnectionAccess.java
+END
+BluetoothL2CAPConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothL2CAPConnection.java
+END
+DeviceInquiryRunnable.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/DeviceInquiryRunnable.java
+END
+BluetoothConnectionAccessAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/BluetoothConnectionAccessAdapter.java
+END
+DeviceInquiryThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/DeviceInquiryThread.java
+END

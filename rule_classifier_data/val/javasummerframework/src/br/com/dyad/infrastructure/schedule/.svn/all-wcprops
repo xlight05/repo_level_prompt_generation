@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule
+END
+ScheduleWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/ScheduleWindow.java
+END
+RunningTasks.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/RunningTasks.java
+END
+StartSchedule.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/StartSchedule.java
+END
+DyadJob.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/DyadJob.java
+END
+ScheduleType.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/ScheduleType.java
+END
+TarefaDeTeste.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/TarefaDeTeste.java
+END
+ScheduleStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/ScheduleStatus.java
+END
+DyadJobListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/DyadJobListener.java
+END
+SystemScheduler.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/SystemScheduler.java
+END
+ScheduledTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/schedule/ScheduledTask.java
+END

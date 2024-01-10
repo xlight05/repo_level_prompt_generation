@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project basedir="." default="all" name="dovetaildb">
+    <property environment="env"/>
+    <property name="VER" value="0.4.0"/>
+    <property name="ECLIPSE_HOME" value="../../../eclipse"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.junit4_4.1.0.1/junit-4.1.jar"/>
+    </path>
+    <path id="dovetaildb.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+    	<fileset dir="lib">
+			<include name="**/*.jar"/>
+    	</fileset>
+    </path>
+	
+	<target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src" excludes="**/*.launch, **/*.java"/>
+        </copy>
+    </target>
+	
+    <target depends="init" name="build">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+		<replaceregexp file="src/dovetaildb/Main.java"  match="VERSION=&quot;(.*)&quot;" flags="m" replace="VERSION=&quot;0.3.8&quot;"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="build/classes" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="dovetaildb.classpath"/>
+        </javac>
+    </target>
+
+	<!--
+	<target name="dist" depends="build" description="Generates distributable">
+		<mkdir dir="dist"/>
+	    <mkdir dir="dist/lib" />
+
+	    <jar jarfile="dist/lib/dovetaildb.jar" basedir="build"/>
+
+	    <manifestclasspath property="mf.classpath" jarfile="dist/lib/CC.jar">
+	    	<classpath refid="dovetaildb.classpath" />
+	    </manifestclasspath>
+	    
+		<echo message="Build Classpath: ${dovetaildb.classpath}" />
+		<echo message="Manifest Classpath: ${mf.classpath}" />
+
+	    <jar jarfile="dist/lib/CC.jar" basedir="${build}">
+	        <manifest>
+	            <attribute name="Main-Class" value="dovetaildb.Main"/>
+	            <attribute name="Class-Path" value="${mf.classpath}"/> 
+	        </manifest>
+	    </jar>
+
+	</target>
+	-->
+	<target name="all" depends="build">
+	</target>
+
+
+
+	
+	<!--
+	
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.5"/>
+    <property name="source" value="1.5"/>
+    <path id="Web App Libraries.libraryclasspath"/>
+    <path id="JUnit 4.libraryclasspath">
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.junit4_4.1.0.1/junit-4.1.jar"/>
+    </path>
+    <path id="jsapp-server.classpath">
+        <pathelement location="build/classes"/>
+        <path refid="Web App Libraries.libraryclasspath"/>
+        <path refid="JUnit 4.libraryclasspath"/>
+        <pathelement location="../jetty-6.1.10/lib/jetty-6.1.10.jar"/>
+        <pathelement location="../jetty-6.1.10/lib/jetty-util-6.1.10.jar"/>
+        <pathelement location="../jetty-6.1.10/lib/servlet-api-2.5-6.1.10.jar"/>
+        <pathelement location="../jetty-6.1.10/lib/ext/jetty-servlet-tester-6.1.10.jar"/>
+        <pathelement location="../jetty-6.1.10/lib/ext/jetty-sslengine-6.1.10.jar"/>
+        <pathelement location="../trove-2.0.4/lib/trove-2.0.4.jar"/>
+    </path>
+
+	<target name="init">
+        <mkdir dir="build/classes"/>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="src" excludes="**/*.launch, **/*.java"/>
+        </copy>
+        <copy includeemptydirs="false" todir="build/classes">
+            <fileset dir="entsrc" excludes="**/*.launch, **/*.java"/>
+        </copy>
+    </target>
+
+	<target name="clean">
+        <delete dir="build/classes"/>
+    </target>
+	
+	<target name="docs">
+		<style basedir="../jsapp-mgmt/WebContent" destdir="build/distdoc" includes="*.xml" extension=".html" style="../jsapp-mgmt/WebContent/framework.xslt">
+			<param name="docset" expression="dist"/>
+		</style>
+		<style basedir="../jsapp-mgmt/WebContent" destdir="build/sitedoc" includes="*.xml" extension=".html" style="../jsapp-mgmt/WebContent/framework.xslt">
+			<param name="docset" expression="site"/>
+		</style>
+		<copy todir="build/sitedoc"> <fileset dir="../jsapp-mgmt/WebContent" includes="*.html"/> </copy>
+	</target>
+	
+    <target name="fatjar-ent" depends="build">
+        <fatjar.build output="dovetaildb-ent.jar">
+            <fatjar.manifest mainclass="dovetaildb.Main"/>
+            <fatjar.filesource path="C:\phil\jsapp\jsapp-server\build\classes" relpath="" />
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\jetty-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\jetty-util-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\servlet-api-2.5-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\ext\jetty-sslengine-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\je-3.3.75\lib\je-3.3.75.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\trove-2.0.4\lib\trove-2.0.4.jar" relpath=""/>
+        </fatjar.build>
+    </target>
+	
+    <target name="fatjar" depends="build">
+        <fatjar.build output="dovetaildb.jar">
+            <fatjar.manifest mainclass="dovetaildb.Main"/>
+            <fatjar.filesource path="C:\phil\jsapp\jsapp-server\build\classes" relpath="">
+                <fatjar.exclude relpath="dovetaildb/cluster/"/>
+                <fatjar.exclude relpath="dovetaildb/hosted/"/>
+            </fatjar.filesource>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\jetty-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\jetty-util-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\servlet-api-2.5-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\jetty-6.1.10\lib\ext\jetty-sslengine-6.1.10.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\je-3.3.75\lib\je-3.3.75.jar" relpath=""/>
+            <fatjar.jarsource file="C:\phil\jsapp\trove-2.0.4\lib\trove-2.0.4.jar" relpath=""/>
+        </fatjar.build>
+    </target>
+	
+	
+	<target name="dist" depends="fatjar,docs">
+		<mkdir dir="build/dist/lib"/>
+		<mkdir dir="build/dist/dovetaildb"/>
+		<copy todir="build/dist/css"> <fileset dir="../jsapp-mgmt/WebContent/css"/> </copy>
+		<copy todir="build/dist/img"> <fileset dir="../jsapp-mgmt/WebContent/img"/> </copy>
+		<copy todir="build/dist/js">  <fileset dir="../jsapp-mgmt/WebContent/js"/>  </copy>
+		<copy    file="build/distdoc/running.html"   tofile="build/dist/running.html"/>
+		<copy    file="build/distdoc/manage.html"    tofile="build/dist/manage.html"/>
+		<replace file="build/distdoc/manage.html"  token="dovetaildb.millstonecw.com" value="localhost:&lt;your port here&gt;"/>
+		<copy    file="dovetaildb/server.properties" tofile="build/dist/dovetaildb/server.properties"/>
+		<copy    file="dovetaildb.jar"               tofile="build/dist/lib/dovetaildb.jar"/>
+
+		<copy todir="build/site/css"> <fileset dir="../jsapp-mgmt/WebContent/css"/> </copy>
+		<copy todir="build/site/img"> <fileset dir="../jsapp-mgmt/WebContent/img"/> </copy>
+		<copy todir="build/site/js">  <fileset dir="../jsapp-mgmt/WebContent/js"/> </copy>
+		<copy todir="build/site">     <fileset dir="build/sitedoc"/> </copy>
+		
+		
+		<mkdir dir="dist"/>
+		<zip destfile="dist/dovetaildb-${VER}.zip" basedir="build/dist" />
+
+		<tar tarfile="dist/dovetaildb-${VER}.tar" basedir="build/dist"/>
+		<gzip zipfile="dist/dovetaildb-${VER}.tar.gz" src="dist/dovetaildb-${VER}.tar"/>
+		<delete file="dist/dovetaildb.tar-${VER}"/>
+		<delete dir="build/dist"/>
+			
+	</target>
+	
+	<target name="all" depends="dist,fatjar-ent">
+	</target>
+-->
+	
+</project>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+Spring Bean Definition for Web Layer Security 
+=============================================
+
+Authors : Yohan Liyanage
+
+Version : 15 - September - 2008
+Since 	: 08 - September - 2008
+
+ -->
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:security="http://www.springframework.org/schema/security"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd
+		http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-2.0.xsd">
+
+	<import resource="services-context.xml"/>
+	
+	<!-- Spring Security Configuration -->
+	
+	<security:http auto-config="true" access-decision-manager-ref="accessDecisionManager">
+		<security:intercept-url pattern="/student/**" access="ROLE_STUDENT"/>
+		<security:intercept-url pattern="/staff/**" access="ROLE_STAFF"/>
+		<security:intercept-url pattern="/account/**" access="ROLE_USER"/>
+		<security:intercept-url pattern="/network/**" access="ROLE_USER"/>
+		<security:intercept-url pattern="/admin/academic/**" access="ROLE_ACADEMIC_ADMIN"/>
+		<security:intercept-url pattern="/admin/staff/**" access="ROLE_STAFF_ADMIN, ROLE_SYS_ADMIN"/>
+		<security:intercept-url pattern="/admin/system/**" access="ROLE_SYS_ADMIN"/>
+		<security:intercept-url pattern="/admin/tech/**" access="ROLE_TECH_SUPPORT, ROLE_SYS_ADMIN"/>
+		<security:intercept-url pattern="/admin/**" access="ROLE_ACADEMIC_ADMIN,ROLE_STAFF_ADMIN,ROLE_SYS_ADMIN,ROLE_TECH_SUPPORT"/>
+		<security:intercept-url pattern="/root/**" access=""/>
+		<security:form-login login-page="/sign-in.action" authentication-failure-url="/sign-in.action?login_error=true" login-processing-url="/signin" default-target-url="/account/home.action"/>
+		<security:logout logout-url="/signout"/>
+	</security:http>
+
+	<security:authentication-provider user-service-ref="userService"/>
+		
+	<bean id="accessDecisionManager" class="org.springframework.security.vote.AffirmativeBased">
+		<property name="decisionVoters">
+			<list>
+				<ref local="roleVoter"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="roleVoter" class="org.springframework.security.vote.RoleVoter" />
+</beans>

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/6/trunk/doc
+END
+infinispan-sample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/4/trunk/doc/infinispan-sample.xml
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/6/trunk/doc/README
+END
+jgroups-udp-sample.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/4/trunk/doc/jgroups-udp-sample.xml
+END
+HISTORY
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/6/trunk/doc/HISTORY
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/4/trunk/doc/LICENSE
+END

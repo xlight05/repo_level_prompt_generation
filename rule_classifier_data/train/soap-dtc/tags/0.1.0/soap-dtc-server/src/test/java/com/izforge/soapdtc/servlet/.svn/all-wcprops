@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/java/com/izforge/soapdtc/servlet
+END
+HttpSoapServiceServletTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/java/com/izforge/soapdtc/servlet/HttpSoapServiceServletTest.java
+END
+WsdlDtcProviderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/java/com/izforge/soapdtc/servlet/WsdlDtcProviderTest.java
+END
+StaticResourceWsdlProviderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/java/com/izforge/soapdtc/servlet/StaticResourceWsdlProviderTest.java
+END

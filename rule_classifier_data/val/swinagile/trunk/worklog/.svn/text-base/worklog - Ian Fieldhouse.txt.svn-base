@@ -1,0 +1,317 @@
+HIT8098 Agile Development  TP4 2006
+
+Worklog of Ian Fieldhouse; Stud No 5485673
+
+Week 1 
+2 - 9 August 2006
+Contribution – NA - no project yet
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+I spent 2 hours on Sunday morning learning a little more Java as this is not a language I have used a lot before
+
+What are you currently working on? NA
+What do you plan to work on next? NA
+What are the issues that you currently face? NA
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) - NA
+Reflection on the project (no bullet points for this area) NA
+
+Work Log
+Type	Date	Duration	Description
+O	Wednesday, 2 August 2006	180	Lecture and Labs
+O	Thursday, 3 August 2006	60	Discussion and Blog Reading 
+U	Sunday, 6 August 2006	120	Java self tuition
+O	Sunday, 6 August 2006	60	Discussion and Blog Reading 
+O	Wednesday, 9 August 2006	30	Blog writing
+O	Wednesday, 9 August 2006	30	Journal Update
+ 	 	 	 
+ 	Total	8	Hrs
+			
+			
+
+
+
+Week 2 
+9 - 16 August 2006
+Contribution – NA - no project yet
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+I spent another 2 hours on Sunday morning learning a little more Java as this is not a language I have used a lot before
+
+What are you currently working on? 
+Assignment 3 – the vision statement  was the main focus for this week. This highlighted that I was a little unsure of what was meant by Domain Goals (as opposed to any other sort)
+
+What do you plan to work on next? NA
+What are the issues that you currently face? NA
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) - NA
+Reflection on the project (no bullet points for this area) NA
+
+Work Log
+Type	Date	Duration	Description
+O	Wednesday, 9 August 2006	120	Lecture and Labs
+O	Thursday, 10 August 2006	60	Discussion writing and Blog Reading 
+U	Sunday, 13 August 2006	120	Java tuition
+P	Sunday, 13 August 2006	240	Vision Statement
+O	Sunday, 13 August 2006	30	Discussion and Blog Reading 
+O	Tuesday, 15 August 2006	90	Discussion & Blog writing, reading 
+O	Wednesday, 16 August 2006	60	Vision Statement
+ 	 	 	 
+ 	Total	12	Hrs
+			
+			
+
+
+
+Week 3 
+17 - 23 August 2006
+Contribution 
+Two meetings were held to establish user stories and various models and I attended both taking full part in discussions. I also managed the write up of the submission and took the photos for the blog.
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+The experience in applying some of the modelling techniques was useful.
+
+What are you currently working on? 
+Assignment 4 – putting together the user stories and models.
+
+What do you plan to work on next? 
+The coming week I am completing the first spike and am concentrating on understanding what JFreeChart is and how to use it.
+
+What are the issues that you currently face? 
+None
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues).
+Modelling concepts could be somewhat better.
+
+Reflection on the project (no bullet points for this area)
+	Project as a team has only just commenced, hence we are in the feeling out stage as a team. Some very quiet members which should change as the project continues. I felt our submission for Assignment 4 was a little light
+
+Work Log
+Type	Date	Duration	Description
+O	Wednesday, 16 August 2006	90	Lecture and Labs
+O	Sunday, 20 August 2006	60	Discussion writing and Blog Reading 
+P	Sunday, 20 August 2006	90	Assignment work 
+P	Monday, 21 August 2006 	120	Team meeting
+P	Tuesday, 22 August 2006 	120	Team meeting
+O	Wednesday, 23 August 2006	60	User story write up 
+O	Wednesday, 23 August 2006	30	Diary write up
+ 	 	 	 
+ 	Total	9.5	Hrs
+			
+			
+
+
+Week 4 
+23 - 30 August 2006
+Contribution 
+Spike completion was this week’s task. I have successfully investigated JFreeChart and shown that it is simple to use and provides the capability that we need.
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+Through completing the task I needed to make more use of a java IDE. I chose to use Sun Enterprise Studio as I wanted a simple GUI designer, so am now more familiar with the general java world
+
+What are you currently working on? 
+Spike 1 was the main topic for this week, hence I developed a small application that showed the creation of different types, displayed these charts on the screen and saved them to file.
+
+What do you plan to work on next?
+There are still a few items to tidy up on Spike 1. I would like to implement Ant to build the library source code, and hence have a local copy of the API documentation.
+Spike 2 will involve looking at byte code reading.
+
+What are the issues that you currently face? None
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) 
+Learning – not struggling
+
+Reflection on the project 
+The spike has done exactly what it was intended – clear up some of the mysteries. The two areas I had no idea as to how we would approach them was creating charts and reading byte code. The charting is now very clear – and a lot simpler than I had imagined. Spike 2 should clear up the byte code reading
+
+Work Log
+Type	Date	Duration	Description
+O	Wednesday, 23 August 2006	180	Lecture and Labs
+P	Wednesday, 23 August 2006	60	Spike web survey 
+P	Friday, 25 August 2006	60	Spike reading
+P	Saturday, 26 August 2006	180	Spike – development of demo app
+U	Tuesday, 29 August 2006	30	Ant investigation 
+O	Tuesday, 29 August 2006	60	Discussion & Blog writing, reading
+P	Wednesday, 30 August 2006	60	Spike writeup
+O	Wednesday, 30 August 2006	30	Diary writeup
+ 	 	 	 
+ 	Total	11	Hrs
+			
+
+			
+Week 4 
+23 - 30 August 2006
+Contribution 
+Spike completion was this week’s task. I have successfully investigated JFreeChart and shown that it is simple to use and provides the capability that we need.
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+Through completing the task I needed to make more use of a java IDE. I chose to use Sun Enterprise Studio as I wanted a simple GUI designer, so am now more familiar with the general java world
+
+What are you currently working on? 
+Spike 1 was the main topic for this week, hence I developed a small application that showed the creation of different types, displayed these charts on the screen and saved them to file.
+
+What do you plan to work on next?
+There are still a few items to tidy up on Spike 1. I would like to implement Ant to build the library source code, and hence have a local copy of the API documentation.
+Spike 2 will involve looking at byte code reading.
+
+What are the issues that you currently face? None
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) 
+Learning – not struggling
+
+Reflection on the project 
+The spike has done exactly what it was intended – clear up some of the mysteries. The two areas I had no idea as to how we would approach them was creating charts and reading byte code. The charting is now very clear – and a lot simpler than I had imagined. Spike 2 should clear up the byte code reading
+
+Work Log
+Type	Date				Duration	Description
+O	Wednesday, 23 August 2006	180	Lecture and Labs
+P	Wednesday, 23 August 2006	60	Spike web survey 
+P	Friday, 25 August 2006	60	Spike reading
+P	Saturday, 26 August 2006	180	Spike – development of demo app
+U	Tuesday, 29 August 2006	30	Ant investigation 
+O	Tuesday, 29 August 2006	60	Discussion & Blog writing, reading
+P	Wednesday, 30 August 2006	60	Spike writeup
+O	Wednesday, 30 August 2006	30	Diary writeup
+ 	 	 	 
+ 	Total	11	Hrs
+
+
+Weeks 5 - 7 MIA
+
+Week 8
+20 - 27 September 2006
+Contribution 
+Attended team meeting on Monday
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+Nothing significant - still partly MIA
+
+What are you currently working on? 
+Agreed to take on user stories relating to JFreeChart - 5,6,7 & 9
+
+What do you plan to work on next?
+Integrating the code with the full application
+
+What are the issues that you currently face? Time
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) 
+Learning – not struggling
+
+Reflection on the project 
+Based on the user stories provided I'm comfortable with the work currently expected, however with only 4 weeks left team communication may be the biggest hurdle.
+
+Work Log
+Type	Date		Duration	Description
+P	26/09/06	120		Meeting
+P	27/09/06	60		Catch up on team blogs etc
+
+ 		Total	3	Hrs
+
+Week 9
+27 Sept - 4 October 2006
+Contribution 
+Designed and started coding of classes for User stories 5-9 - really a rerun of what should've happened last week.
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+First attempted use of SVN and Tortoise.
+
+What are you currently working on? 
+User stories 5,6,7 & 9
+
+What do you plan to work on next?
+Integrating the code with the full application
+
+What are the issues that you currently face? 
+Time availability - 10 hours doesn't sound like much until you try and find it..............
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) 
+Java basic syntax - I know what I want to do - just takes 3 times as long.
+
+Reflection on the project 
+Application seems to be taking form now - should actually have something useful next week.
+
+Work Log
+Type	Date		Duration	Description
+P	30/09/06	90		Class design
+P	01/10/06	120		Coding of classes
+P	03/10/06	60		SVN setup
+P	03/10/06	60		Coding
+U	04/10/06	60		SVN attempting setup
+
+ 		Total	6.5	Hrs
+
+Week 9
+4 October - 11 October 2006
+Contribution 
+
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+Understand more about the way Eclipse projects work and Ant build process
+
+
+What are you currently working on? 
+Trying to integrate with other code.
+
+What do you plan to work on next?
+HTML output of charts.
+
+What are the issues that you currently face? 
+Administrative issues - getting eclipse projects sorted etc.
+
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) 
+Eclipse and java projects
+
+
+Reflection on the project 
+Starting to get behind - hence we need more communication to happen just to coordinate a few issues and get us underway again.
+
+
+Work Log
+Type	Date		Duration	Description
+P	04/10/06	180		Lecture / lab
+P	05/10/06	60		SVN setup - finally working
+P	06/10/06	60		Udate of logs, discussion board
+P	07/10/06	180		Coding and understanding JUnit
+P	10/10/06	60		Updating on team work, blog, worklog etc
+U	10/10/06	60		Understanding Ant
+U	11/10/06	60		Cleaning up results of trying to understand Ant and projects
+
+ 		Total	11	Hrs
+
+Week 10
+11 October - 18 October 2006
+Contribution 
+
+
+Individual learning (new techniques/technologies/practices that you have picked up)
+
+
+
+What are you currently working on? 
+
+
+What do you plan to work on next?
+
+
+What are the issues that you currently face? 
+
+
+
+Areas you are struggling with (Knowledge/Skill/Technology gaps, People/Time issues) 
+
+
+
+Reflection on the project 
+
+
+Work Log
+Type	Date		Duration	Description
+P	11/10/06	210		Lecture / lab / team meeting
+P	12/10/06	90		Write up iteration, more Eclipse set up	
+U	14/10/06	60		Eclipse project set up frustrations
+P	14/10/06	60		Pair programming review
+U	15/10/06	30		Update of wiki
+P	15/10/06	180		Pair programming
+P	16/10/06	180		Pair programming
+P	17/10/06	
+
+ 		Total	7	Hrs

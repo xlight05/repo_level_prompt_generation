@@ -1,0 +1,377 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/109/trunk/TargetPlatform/target
+END
+com.springsource.org.hibernate-3.3.1.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.org.hibernate-3.3.1.GA.jar
+END
+gwt-sl-osgi-0.1.5b.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/79/trunk/TargetPlatform/target/gwt-sl-osgi-0.1.5b.jar
+END
+com.springsource.org.junit-4.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.junit-4.4.0.jar
+END
+gwtextux-osgi-3.0-alpha.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/93/trunk/TargetPlatform/target/gwtextux-osgi-3.0-alpha.jar
+END
+com.springsource.javax.servlet.jsp-2.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.javax.servlet.jsp-2.1.0.jar
+END
+spring-test-2.5.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/trunk/TargetPlatform/target/spring-test-2.5.5.jar
+END
+spring-osgi-core-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/22/trunk/TargetPlatform/target/spring-osgi-core-1.1.2.jar
+END
+com.springsource.org.apache.commons.io-1.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.apache.commons.io-1.4.0.jar
+END
+com.springsource.org.apache.commons.digester-1.8.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.apache.commons.digester-1.8.0.jar
+END
+com.springsource.org.aopalliance-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.aopalliance-1.0.0.jar
+END
+com.springsource.antlr-2.7.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.antlr-2.7.7.jar
+END
+org.springframework.web-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.web-2.5.6.jar
+END
+org.springframework.aop-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.aop-2.5.6.jar
+END
+com.springsource.javassist-3.3.0.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.javassist-3.3.0.ga.jar
+END
+com.springsource.slf4j.org.apache.commons.logging-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.slf4j.org.apache.commons.logging-1.5.6.jar
+END
+com.springsource.javax.xml.stream-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.javax.xml.stream-1.0.1.jar
+END
+com.springsource.javax.servlet.jsp.jstl-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.javax.servlet.jsp.jstl-1.1.2.jar
+END
+org.springframework.context-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.context-2.5.6.jar
+END
+org.springframework.transaction-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.transaction-2.5.6.jar
+END
+org.springframework.beans-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.beans-2.5.6.jar
+END
+org.springframework.core-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.core-2.5.6.jar
+END
+com.springsource.org.dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.dom4j-1.6.1.jar
+END
+com.springsource.org.apache.commons.beanutils-1.7.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.apache.commons.beanutils-1.7.0.jar
+END
+jasper.osgi-5.5.23-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/trunk/TargetPlatform/target/jasper.osgi-5.5.23-SNAPSHOT.jar
+END
+spring-osgi-extender-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/22/trunk/TargetPlatform/target/spring-osgi-extender-1.1.2.jar
+END
+com.springsource.org.objectweb.asm-1.5.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.objectweb.asm-1.5.3.jar
+END
+com.springsource.net.sf.cglib-2.1.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.net.sf.cglib-2.1.3.jar
+END
+com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.com.mchange.v2.c3p0-0.9.1.2.jar
+END
+org.springframework.jdbc-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.jdbc-2.5.6.jar
+END
+gwt-user-osgi-1.5.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/109/trunk/TargetPlatform/target/gwt-user-osgi-1.5.3.jar
+END
+jta.osgi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/TargetPlatform/target/jta.osgi.jar
+END
+com.springsource.org.jgroups-2.5.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.org.jgroups-2.5.1.jar
+END
+gwtext-osgi-2.0.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/47/trunk/TargetPlatform/target/gwtext-osgi-2.0.6.jar
+END
+com.springsource.javax.persistence-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/TargetPlatform/target/com.springsource.javax.persistence-1.0.0.jar
+END
+spring-osgi-web-extender-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/22/trunk/TargetPlatform/target/spring-osgi-web-extender-1.1.2.jar
+END
+com.springsource.org.apache.commons.pool-1.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.org.apache.commons.pool-1.4.0.jar
+END
+com.springsource.org.apache.taglibs.standard-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.apache.taglibs.standard-1.1.2.jar
+END
+gwt_servlet-osgi_1.5.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/109/trunk/TargetPlatform/target/gwt_servlet-osgi_1.5.3.jar
+END
+org.eclipse.osgi-3.5.0.v20081201-1815.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.eclipse.osgi-3.5.0.v20081201-1815.jar
+END
+com.springsource.javax.servlet-2.5.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.javax.servlet-2.5.0.jar
+END
+com.springsource.org.apache.commons.collections-3.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.apache.commons.collections-3.2.0.jar
+END
+com.springsource.slf4j.api-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.slf4j.api-1.5.6.jar
+END
+com.springsource.org.hibernate.annotations.common-3.3.0.ga.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/8/trunk/TargetPlatform/target/com.springsource.org.hibernate.annotations.common-3.3.0.ga.jar
+END
+log4j.osgi-1.2.15-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/trunk/TargetPlatform/target/log4j.osgi-1.2.15-SNAPSHOT.jar
+END
+com.springsource.org.apache.commons.lang-2.4.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.apache.commons.lang-2.4.0.jar
+END
+com.springsource.org.aspectj.runtime-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.aspectj.runtime-1.6.1.jar
+END
+catalina.start.osgi-1.0-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/TargetPlatform/target/catalina.start.osgi-1.0-SNAPSHOT.jar
+END
+catalina.osgi-5.5.23-SNAPSHOT.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/trunk/TargetPlatform/target/catalina.osgi-5.5.23-SNAPSHOT.jar
+END
+spring-osgi-io-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/22/trunk/TargetPlatform/target/spring-osgi-io-1.1.2.jar
+END
+com.springsource.javax.el-2.1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.javax.el-2.1.0.jar
+END
+com.springsource.slf4j.log4j-1.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.slf4j.log4j-1.5.6.jar
+END
+com.springsource.org.objectweb.asm.attrs-1.5.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.objectweb.asm.attrs-1.5.3.jar
+END
+spring-osgi-annotation-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/22/trunk/TargetPlatform/target/spring-osgi-annotation-1.1.2.jar
+END
+com.springsource.org.aspectj.weaver-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.aspectj.weaver-1.6.1.jar
+END
+com.springsource.org.hibernate.annotations-3.4.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/9/trunk/TargetPlatform/target/com.springsource.org.hibernate.annotations-3.4.0.GA.jar
+END
+org.springframework.orm-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.orm-2.5.6.jar
+END
+com.springsource.org.apache.commons.el-1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/13/trunk/TargetPlatform/target/com.springsource.org.apache.commons.el-1.0.0.jar
+END
+spring-osgi-web-1.1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/22/trunk/TargetPlatform/target/spring-osgi-web-1.1.2.jar
+END
+org.springframework.context.support-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.context.support-2.5.6.jar
+END
+org.springframework.web.servlet-2.5.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/79/trunk/TargetPlatform/target/org.springframework.web.servlet-2.5.6.jar
+END
+com.springsource.org.hsqldb-1.8.0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/trunk/TargetPlatform/target/com.springsource.org.hsqldb-1.8.0.9.jar
+END
+com.springsource.org.hibernate.ejb-3.4.0.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/8/trunk/TargetPlatform/target/com.springsource.org.hibernate.ejb-3.4.0.GA.jar
+END

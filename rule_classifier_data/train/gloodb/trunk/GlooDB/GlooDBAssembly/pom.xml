@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.gloodb</groupId>
+	<artifactId>GlooDBAssembly</artifactId>
+	<version>0.0.2-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>GlooDBAssembly</name>
+	<description>GlooDBAssembly</description>
+	
+	<url>http://code.google.com/p/gloodb/</url>
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:svn:http://gloodb.googlecode.com/svn/trunk/GlooDB/</connection>
+		<developerConnection>scm:svn:https://gloodb.googlecode.com/svn/trunk/GlooDB/</developerConnection>
+		<url>http://gloodb.googlecode.com/svn/trunk/GlooDB/</url>
+	</scm>
+	<issueManagement>
+		<system>Google Code</system>
+		<url>http://code.google.com/p/gloodb/issues/list</url>
+	</issueManagement>
+	<developers>
+		<developer>
+			<id>dinoo333</id>
+			<name>Dino Octavian</name>
+			<email>dinoo333@gmail.com</email>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>-8</timezone>
+		</developer>
+	</developers>
+
+	<modules>
+		<module>../GlooDBParent</module>
+		<module>../GlooDBApi</module>
+		<module>../GlooDBImpl</module>
+		<module>../GlooDBImplFile</module>
+		<module>../GlooDBImplMem</module>
+		<module>../GlooDBEnterprise</module>
+		<module>../GlooDBTutorial</module>
+	</modules>
+</project>

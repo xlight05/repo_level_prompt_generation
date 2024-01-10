@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/resources/com/izforge/soapdtc
+END
+simple-soap-message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/resources/com/izforge/soapdtc/simple-soap-message.xml
+END
+empty-soap-message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/resources/com/izforge/soapdtc/empty-soap-message.xml
+END
+simple-fault.xml
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/resources/com/izforge/soapdtc/simple-fault.xml
+END
+message-with-fault.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/resources/com/izforge/soapdtc/message-with-fault.xml
+END

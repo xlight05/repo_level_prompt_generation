@@ -1,0 +1,58 @@
+#summary Embedding POJOs in persistent objects.
+
+= Embedding Java Objects =
+
+Using the Embedded utility class, the programmer can embed serializable POJOs within other persistent objects. Each embedded objects is persisted as a standalone object. Its id is calculated from the id of the container object and a unique name (programatically provided):
+{{{
+    public Embedded(Serializable containerId, Serializable id) {
+        super(PersistencyAttributes.getId(Embedded.class, containerId, id));
+        ...
+    }
+}}}
+
+The embedded object life cycle is fully controlled using public methods of the embedded reference:
+ * fetch: loads and caches the embedded object from the repository.
+ * flush: updates the value in the repository.
+ * remove: marks the object deleted. Next flush removes the embedded object from the repository.
+ * reset: clears the cache. All not-yet-flushed changes will be lost.
+ * set: sets the value of the embedded object. Changes are not persisted until the flush is called. Setting to null is same as remove.
+ * setDirty: sets the existent embedded value as dirty. Next flush will update.
+ * setReference: this operation is unsupported.
+
+The container can use [PersistencyCallbacks Pre / Post callbacks] to manage the embedded's object state.
+
+{{{
+  public class Container implements Serializable {
+      @Identity private final Serializable id;
+
+      private final Embedded<SerializablePOJO> embedded;
+
+      public Container(Serializable id) {
+        this.id = id;
+        this.embedded = new Embedded<SerializablePOJO>(id, "embedded");
+      }
+
+      @PostCreate 
+      @PostUpdate
+      void postCreateOrUpdate(Repository repository) {
+          this.embedded.flush(repository);
+      }
+
+      @PostRemove
+      void postRemove(Repository repository) {
+          this.embedded.remove(repository);
+          this.embedded.flush(repository);
+      }
+
+      public void setSerializablePOJO(SerializablePOJO value) {
+          this.embedded.set(value);
+      }
+
+      public Reference<SerializablePOJO> getSerializablePOJO() {
+          return this.embedded;
+      }
+ }
+}}}
+
+----
+[ImplementingLazyLoading Previous] [Associations Next]

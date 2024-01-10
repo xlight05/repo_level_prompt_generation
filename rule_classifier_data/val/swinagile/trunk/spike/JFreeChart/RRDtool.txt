@@ -1,0 +1,65 @@
+
+RRDtool
+RRDtool Spike Plan
+
+CVS Module/Location: not under version control
+
+Overview:
+
+The RRDtool is an Open Source Logging & Graphing application used to store and display time-series data. RRD is the acronym for Round Robin Database. The RRDtool web site located at http://oss.oetiker.ch/rrdtool/ provides a great deal of information and support for the use of this product. There is currently no comparable tool available in terms of features, extensibility and ease of use.
+
+Background/Context:
+
+
+The RRDtool is being evaluated as a comparison to the alternative option of JFreeChart, which requires a great deal more programmatic understanding and work effort to achieve a similar level of results. If RRDtool meets the requirements for graph generation then it will save a considerable amount of work.
+
+Goals/Risks:
+
+
+The primary goal of this tool will be the generation of all metrics graphics used in the presentation of the reports. Secondary goals will be to crystallise the data storage mechanism and data structure required for report graphic generation.
+
+The primary risk is that we are unsure whether the application can be used to generate graphs that are not time-series-based. Additionally, it has been at least 5 years since I last evaluated this product.
+
+Deliverables:
+
+
+1. Description of product usage.
+2. Product requirements for data structure used to generate graphs
+3. Product requirements for data storage mechanism
+4. Example code to show use or integration with RRDtool product
+
+Resources: Mr Andrew Cowan [esquire]
+
+Planned start date: 24 August 2006
+Deadline: 30 August 2006
+
+Current status: Cancelled
+
+Analysis/Planning/Design:
+
+After initial evaluation, this spike was cancelled because the RRDtool does not provide suitable functionality for generating non-time-series graphs.
+
+
+
+
+RRDtool Spike Outcomes
+
+Goal/Risk:
+
+The primary goal of this tool will be the generation of all metrics graphics used in the presentation of the reports. Secondary goals will be to crystallise the data storage mechanism and data structure required for report graphic generation.
+
+Tasks undertaken:
+
+I performed an initial evaluation and review of RRDtool.
+
+What we found out:
+
+RRDtool does not provide functionality to generate non-time-series-based graphics.
+
+Open issues/risks:
+
+RRDtool is not suitable for the purposes of our project.
+
+Recommendations:
+
+Move on with evaluation of JFreeChart.

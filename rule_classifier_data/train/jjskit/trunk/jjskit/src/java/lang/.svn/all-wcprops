@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang
+END
+System.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/System.java
+END
+Throwable.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/Throwable.java
+END
+ClassLoader.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/ClassLoader.js
+END
+ClassLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/ClassLoader.java
+END
+SuppressWarnings.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/SuppressWarnings.java
+END
+StackTraceElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/StackTraceElement.java
+END
+Exception.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/Exception.java
+END
+ClassCastException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/80/trunk/jjskit/src/java/lang/ClassCastException.java
+END
+ClassNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/ClassNotFoundException.java
+END
+Object.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/Object.js
+END
+RuntimeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/80/trunk/jjskit/src/java/lang/RuntimeException.java
+END
+Enum.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/Enum.java
+END
+Comparable.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/Comparable.java
+END
+Class.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/Class.java
+END
+Object.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/Object.java
+END
+CloneNotSupportedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/80/trunk/jjskit/src/java/lang/CloneNotSupportedException.java
+END
+String.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/String.java
+END

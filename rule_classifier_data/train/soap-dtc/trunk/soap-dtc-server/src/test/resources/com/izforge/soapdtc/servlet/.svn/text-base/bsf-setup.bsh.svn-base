@@ -1,0 +1,22 @@
+import com.izforge.soapdtc.SoapMessage;
+import com.izforge.soapdtc.servlet.IServiceEndpointHandler;
+import org.dom4j.QName;
+
+daService = new IServiceEndpointHandler() {
+    public SoapMessage handleRequestResponse(SoapMessage inMessage, String soapAction)
+    {
+        return inMessage;
+    }
+
+    public SoapMessage handleSollicitResponse(String soapAction)
+    {
+        return null;
+    }
+
+    public boolean isSoapHeaderHandled(QName headerQName)
+    {
+        return false;
+    }
+};
+
+servlet.addPathInfoMapping("/da-service", daService);

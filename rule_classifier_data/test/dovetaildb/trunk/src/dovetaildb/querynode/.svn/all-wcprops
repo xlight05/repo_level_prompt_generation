@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/39/trunk/src/dovetaildb/querynode
+END
+AndNotQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/33/trunk/src/dovetaildb/querynode/AndNotQueryNode.java
+END
+OrderedOrQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/OrderedOrQueryNode.java
+END
+FilterLiteralsQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/FilterLiteralsQueryNode.java
+END
+WrappingQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/WrappingQueryNode.java
+END
+FlatOrQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/FlatOrQueryNode.java
+END
+NodeHeap.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/37/trunk/src/dovetaildb/querynode/NodeHeap.java
+END
+FilteredQueryNodeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/34/trunk/src/dovetaildb/querynode/FilteredQueryNodeTest.java
+END
+FilteredQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/36/trunk/src/dovetaildb/querynode/FilteredQueryNode.java
+END
+AndQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/AndQueryNode.java
+END
+AbstractQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/AbstractQueryNode.java
+END
+LiteralRangeQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/36/trunk/src/dovetaildb/querynode/LiteralRangeQueryNode.java
+END
+QueryNodeTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/src/dovetaildb/querynode/QueryNodeTemplate.java
+END
+HeapQueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/HeapQueryNode.java
+END
+QueryNodeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/33/trunk/src/dovetaildb/querynode/QueryNodeTest.java
+END
+QueryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/38/trunk/src/dovetaildb/querynode/QueryNode.java
+END

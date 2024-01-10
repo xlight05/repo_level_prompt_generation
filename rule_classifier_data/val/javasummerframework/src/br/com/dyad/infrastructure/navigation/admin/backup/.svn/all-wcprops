@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/backup
+END
+JdbcBackup.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/backup/JdbcBackup.java
+END
+JdbcImport.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/backup/JdbcImport.java
+END
+Create.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/backup/Create.java
+END
+Restore.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/backup/Restore.java
+END
+JdbcExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/backup/JdbcExport.java
+END

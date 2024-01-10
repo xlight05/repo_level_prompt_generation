@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/6/trunk/healpix-rangeset/src/org/asterope/healpix
+END
+PixTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/healpix-rangeset/src/org/asterope/healpix/PixTools.java
+END
+Region.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/Region.java
+END
+PixToolsNested.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/PixToolsNested.java
+END
+LongPacker.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/trunk/healpix-rangeset/src/org/asterope/healpix/LongPacker.java
+END
+LongRangeIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/LongRangeIterator.java
+END
+LongRangeSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6/trunk/healpix-rangeset/src/org/asterope/healpix/LongRangeSet.java
+END
+PixToolsVector3d.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/healpix-rangeset/src/org/asterope/healpix/PixToolsVector3d.java
+END
+LongList.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/LongList.java
+END
+LongRangeSetBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/healpix-rangeset/src/org/asterope/healpix/LongRangeSetBuilder.java
+END
+BitManipulation.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/BitManipulation.java
+END
+licence.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/licence.txt
+END
+PixToolsUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/PixToolsUtils.java
+END
+HealpixException.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/HealpixException.java
+END
+LongIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/LongIterator.java
+END
+LongCollection.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/LongCollection.java
+END
+LongSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/2/trunk/healpix-rangeset/src/org/asterope/healpix/LongSet.java
+END

@@ -1,0 +1,119 @@
+<!-- Used as datastorage for saving the task -->
+<div style="display: none;" id="taskNameSubDiv"></div>
+<div style="display: none;" id="addressName"></div>
+
+<div id="onTriggers" class="formArea">		
+	<input dojoType="dijit.form.CheckBox" id="onExternalTrigger" name="logType4" value="OnExternalTrigger" type="checkbox" onClick="subscriptions_dimOptions();"> 
+	<label for="onExternalTrigger" class="formArea">Report on external trigger(s)</label>
+	
+	<div class="formSubArea" id="addressvaluelist"></div>
+	
+	<div class="formSubArea" id="newtrigger" class="divider">
+		<select id="addressvalues" name="addressvalues" autocomplete="off" onchange="subscriptions_renderAddressValueOptions();">
+		</select>
+
+		<div id="addressvalueoptions"></div>
+	</div>
+	
+	<div id="equalityNew" class="formSubArea">
+		<input id="equalityValueNew" dojoType="dijit.form.TextBox" type="text" autocomplete="off"> 
+		<label for="equalityValueNew" class="formArea">Equality value</label>
+	</div>
+
+	<div id="limitTypeNew" class="formSubArea">
+		<input id="limitValueNew" dojoType="dijit.form.NumberTextBox" type="text" autocomplete="off">
+		<label for="limitValueNew" class="formArea">Limit</label>
+	</div>
+
+	<div id="scopeTypeNew" class="formSubArea">
+		<input id="bottomScopeNew" dojoType="dijit.form.NumberTextBox" type="text" autocomplete="off">
+		<label for="bottomScopeNew" class="formArea">Lower scope limit</label>
+		<br>
+		<input id="topScopeNew" dojoType="dijit.form.NumberTextBox" type="text" autocomplete="off"> 
+		<label for="topScopeNew" class="formArea">Upper scope limit</label>
+	</div>
+	
+	<div class="aright">
+		<button id="addtriggerbutton" dojoType="dijit.form.Button" onclick="subscriptions_addTrigger();" value="Add trigger" title="Add trigger" name="baddtrigger" disabled="disabled">Add Trigger</button>
+	</div>
+	<br class="clear">
+</div>
+
+<div id="onchangevalues" class="formArea">
+	<input dojoType="dijit.form.CheckBox" id="onChange" name="logType1" value="OnChange" type="checkbox" onClick="subscriptions_dimOptions();"> 
+	<label for="onChange" class="formArea">Report on changed value</label>
+</div>
+
+<div id="restofvalues">
+	
+	<div class="formArea">
+		<div>
+			<input dojoType="dijit.form.CheckBox" id="onInterval"name="logType2" value="OnInterval" type="checkbox">
+			<label for="onInterval" class="formArea">Report on time interval</label>
+		</div>
+	
+		<div class="formSubArea">
+			<input dojoType="dijit.form.NumberTextBox" id="intervalTime" name="interval" value="100" type="text" constraints="{min: 1, max:86400000,places:0}" promptMessage="Enter time between 1 ms to 24 h (8640000 ms) in ms" autocomplete="off" required="true" invalidMessage="Invalid interval">
+			<label for="intervalTime" class="formArea">Interval ms</label>
+		</div>
+	</div>
+
+	<div id="mainSectionTrigger" class="formArea">
+		<div>
+			<input dojoType="dijit.form.CheckBox" id="onTrigger" name="logType3" value="OnTrigger" type="checkbox">
+			<label for="onTrigger" class="formArea">Report on trigger</label>
+		</div>
+
+		<div class="formSubArea">
+			<select id="triggerSignal" name="trigger" onChange="subscriptions_triggerTypeChanged();" autocomplete="off">
+			</select> 
+			<label for="triggerSignal" class="formArea">Trigger signal</label>
+		</div>
+
+		<div id="equality" class="formSubArea">
+			<input id="equalityValue" dojoType="dijit.form.TextBox" type="text" autocomplete="off"> 
+			<label for="equalityValue" class="formArea">Equality value</label>
+		</div>
+
+		<div id="limitType" class="formSubArea">
+			<input id="limitValue" dojoType="dijit.form.NumberTextBox" type="text" autocomplete="off">
+			<label for="limitValue" class="formArea">Limit</label>
+		</div>
+
+		<div id="scopeType" class="formSubArea">
+			<input id="bottomScope" dojoType="dijit.form.NumberTextBox" type="text" autocomplete="off">
+			<label for="bottomScope" class="formArea">Lower scope limit</label>
+			<br>
+			<input id="topScope" dojoType="dijit.form.NumberTextBox" type="text" autocomplete="off"> 
+			<label for="topScope" class="formArea">Upper scope limit</label>
+		</div>
+	</div>
+	
+	<div id="sectionRingBuffer" class="formArea">
+		<div>
+			<input dojoType="dijit.form.CheckBox" id="useRingBuffer" name="ringBuffer" value="off" type="checkBox"> 
+			<label for="useRingBuffer" class="formArea">Use ring buffer.</label>
+		</div>
+		
+		<div class="formSubArea">
+			<input dojoType="dijit.form.NumberTextBox" id="bufferBeforeTrigger" name="sizeBeforeTrigger" type="text" autocomplete="off"> 
+			<label for="bufferBeforeTrigger" class="formArea">Size before trigger</label>
+			<br>
+			<input dojoType="dijit.form.NumberTextBox" id="bufferAfterTrigger" name="sizeAfterTrigger" type="text" autocomplete="off"> 
+			<label for="bufferAfterTrigger" class="formArea">Size after trigger</label>
+		</div>
+
+		<div class="formSubArea">
+			<select id="sizeType" name="typeOfSize" autocomplete="false">
+				<option selected="" id="bufUsingSeconds">seconds</option>
+				<option id="bufUsingValues">values</option>
+			</select> 
+			<label for="sizeType" class="formArea">Size type</label>
+		</div>
+	</div>
+</div>
+
+<div class="aright">
+	<button dojoType="dijit.form.Button" onclick="subscriptions_cancel();" value="Cancel" title="Cancel" name="bcancel">Cancel</button>
+	<button dojoType="dijit.form.Button" onclick="subscriptions_save();">Save</button>
+</div>

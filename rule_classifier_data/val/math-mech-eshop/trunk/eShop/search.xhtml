@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+<ui:composition template="/mainTemplate.xhtml">
+	<ui:define name="content">
+		
+		<c:forEach items="#{search.searchResult}"
+			var="product">			
+				<div class="product_in_list">
+					<c:if test="#{permissions.userHaveRightsToEditProduct}">
+						<div class="product_edit_panel">
+						<h:outputLink value="admin/edit_product">
+							<f:param name="id" value="#{product.id}"/>
+							<h:outputText value="edit" />
+						</h:outputLink>
+						</div>
+					</c:if>
+					<div class="product_name"> 
+						<h:outputLink value="/product">
+							<f:param name="id" value="#{product.id}"/>						
+							<h3><h:outputText value="#{product.name}" /></h3>
+						</h:outputLink>
+					</div>
+					<div class="product_photo">
+						<a	href="img/#{product.photoFileName}" rel="photo"
+							title="#{product.name}"> 
+                			<img src="img/#{product.photoFileName}" width="100"/> 
+           				</a>
+					</div>					
+					<div class="product_description"> 
+						<h:outputText value="#{product.description}" />
+					</div>
+					<div class="product_price"> 
+						<h:outputText value="#{product.price} rur" />
+					</div>
+				</div>
+		</c:forEach>
+	</ui:define>
+</ui:composition>
+</html>

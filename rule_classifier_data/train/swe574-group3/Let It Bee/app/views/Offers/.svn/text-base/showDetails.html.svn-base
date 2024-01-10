@@ -1,0 +1,233 @@
+#{extends 'logged_user.html' /}
+#{set title:'Offer Detail' /}
+
+<div id="main" style="padding-top:0px">
+  <div class="post" style="padding:top:0px">
+    <div class="right">
+      <h3>${offerItem.title}</h3>
+<iframe src="https://www.facebook.com/plugins/like.php?href=${(request.base+request.url).urlEncode().raw()}" scrolling="no" frameborder="0" style="border:none; width:450px; height:30px; margin-left:30px;"></iframe>
+
+      <div class="restrictions">
+	<h4>Details for Offer</h4>
+	<ul>
+	  <li>
+	    <label style="width:150px;">Title</label>
+	    ${offerItem.title}
+	  </li>
+	  <li>
+	    <label style="width:150px;">Description</label>
+	    ${offerItem.description}
+	  </li>
+	  <li>
+	    <label style="width:150px;">Is Virtual?</label>
+	    <span id="txtVirtual"></span>
+	    <input type="checkbox" style="visibility: hidden; display: none" id="chkVir" ${offerItem.is_virtual ? 'checked':''} />
+	  </li>	 
+	  #{if offerItem.county_name}
+	  <li>
+	    <label style="width:150px;">County</label>
+	    	${offerItem.county_name}
+	  </li>
+	  #{/if}
+	  #{if offerItem.district_name}
+	  <li>
+	    <label style="width:150px;">District</label>
+	    	${offerItem.district_name}
+	  </li>
+	  #{/if}	
+	  <li>
+         <label style="width:150px;">Valid Until</label>
+	  		${offerItem.endDate.format('dd MMMM yyyy')}
+      </li>          
+      <li>
+	    <label style="width:150px;">Is Reoccurrent?</label>
+	    <span id="txtRec"></span>
+	    <input type="checkbox" style="visibility: hidden; display: none" id="chkRec" ${offerItem.reoccure ? 'checked':''} />
+	  </li>		    
+	  <li id="liDays">
+	  		<label id="lblDays1" style="color:inherit; font-weight:normal; position:relative;left:150px; width:339px; display:block;padding-top:6px;">
+            <span id="spnDays">&nbsp;Monday&nbsp;&nbsp;
+       		<input id="chkMonday" onclick='disableClick(this);' style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_monday" ${offerItem.is_rec_monday ? 'checked':''} />&nbsp;&nbsp;&nbsp;Tuesday
+       		<input id="chkTuesday" onclick='disableClick(this);'  style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_tuesday" ${offerItem.is_rec_tuesday ? 'checked':''}/>&nbsp;&nbsp;&nbsp;Wednesday
+       		<input id="chkWednesday" onclick='disableClick(this);' style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_wednesday" ${offerItem.is_rec_wednesday ? 'checked':''}/></span></label>  
+       		<label id="lblDays2" onclick='disableClick(this);' style="color:inherit; font-weight:normal; position:relative;left:150px; width:339px; padding-top:7px;padding-bottom:7px; display:block;">&nbsp;Thursday
+       		<input id="chkThursday" onclick='disableClick(this);' style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_thursday" ${offerItem.is_rec_thursday ? 'checked':''}/>&nbsp;&nbsp;&nbsp;Friday&nbsp;&nbsp;&nbsp;
+       		<input id="chkFriday" onclick='disableClick(this);'  style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_friday" ${offerItem.is_rec_friday ? 'checked':''}/>&nbsp;&nbsp;&nbsp;Saturday&nbsp;&nbsp;&nbsp;&nbsp;
+       		<input id="chkSaturday" onclick='disableClick(this);'  style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_saturday" ${offerItem.is_rec_saturday ? 'checked':''}/>&nbsp;&nbsp;&nbsp;Sunday
+       		<input id="chkSunday" onclick='disableClick(this);'  style="width:13px;height:13px;padding:0;margin:0;vertical-align:bottom;position:relative;top:-4px;*overflow:hidden;border:none;" 
+       			   type="checkbox" name="offerItem.is_rec_sunday" ${offerItem.is_rec_sunday ? 'checked':''}/></label>
+	  </li>	  
+	  <li id="liRecTime">    		
+	      		<label style="width:150px;">Recurring Between</label> 		
+	      	    <span>${offerItem.reocc_start_hour} - ${offerItem.reocc_end_hour}</span>
+	      	    <input style="display:none; visibility: hidden" id="txtRecFrom" type="text" readonly="readonly" value="${offerItem.reocc_start_hour}"  />
+	      	    <input style="display:none; visibility: hidden" id="txtRecTo" type="text" readonly="readonly" value="${offerItem.reocc_end_hour}"  />
+	  </li>  
+        </ul>
+          <div class="apply_menu">
+    #{if (someoneElsesOffer && !hasApplied) }
+    <a class="apply" href="@{Handshakes.bindToOffer(offerItem.id)}">Apply</a>
+    #{/if}
+    #{if hasApplied}
+    <a class="cancel" href="@{Handshakes.cancelApplication(handshakeId)}">Cancel</a>
+    #{/if}
+  </div>
+      </div>
+    </div>
+    
+    
+    <div class="left">
+      <a href="@{Users.profile(offerOwner.id)}">
+	#{if offerOwner.photo.exists()}
+	<img src="@{Application.showUserPhoto(offerOwner.id)}
+" alt="${offerOwner.fullname}" class="avatar" />
+	#{/if}
+	#{else}
+    	<img src="/public/images/lbi02.png" class="avatar">
+	#{/else}
+      </a>
+      <div class="post-meta">
+        <ul>
+          <li class="user">          
+           <a href="@{Users.profile(offerOwner.id)}">           
+          	${offerItem.user.fullname}</a>
+          	<script type="text/javascript">
+			 $(document).ready( function() {
+				 deger = ${offerItem.user.reputation};  
+					for(i = 1; i < 6; i++)
+					{
+						if( i > deger)
+						{
+							$('#user_star_area').append('<img class="imgNon" style="width:15px;" src="/public/images/stars0.png" />');  
+						}
+						else
+						{
+							$('#user_star_area').append('<img class="imgNon" style="width:15px;" src="/public/images/stars1.png" />'); 
+						}
+					}
+				});
+			  </script>
+		      <div id="user_star_area" style="width:130px; text-align: right;">
+		      
+		      </div>          	
+          	</li>
+          <li><h4>Honey Combs</h4>${offerItem.credit}</li>
+        </ul>
+      </div>
+    </div>    
+    <div class="post-meta">
+      <h4>tags</h4>
+      <p>
+      #{list items:offerItem.tags, as:'offerTag'}
+      <a href="@{Offers.search(offerTag)}">${offerTag}</a>
+      #{/list}
+      </p>
+    </div>
+
+  </div>
+
+
+  #{if isOfferOwner}
+  <ul>
+  #{if userApplications}
+  #{list items: userApplications, as:'userApplication'}
+  <div class="active_users">
+    <div class="user">
+      <div class="left_">
+        <div class="image">
+          <div align="center">
+    <a href="@{Users.profile(userApplication.getKey().id)}">
+      #{if userApplication.getKey().photo.exists()}
+      <img alt=" ${userApplication.getKey().fullname}'s avatar" src="@{Application.showUserPhoto(userApplication.getKey().id)}" class="lemiddleavatar"/>
+      #{/if}
+      #{else}
+      <img alt="Default Avatar" src="/public/images/lbi02.png" class="lepetitavatar" />
+      #{/else}
+    </a>
+
+	  </div>
+        </div>
+        <div class="credits">
+          <div align="center">${userApplication.getKey().balance} Honey Combs</div>
+        </div>
+        <div class="handshake_link">
+	    <a href="@{Handshakes.accept(userApplication.getValue().id)}">Accept</a>
+        </div>
+	<br/>
+	<div class="ignore_link">
+	  <a href="@{Handshakes.ignore(userApplication.getValue().id)}">Ignore</a>
+        </div>
+
+      </div>
+      <div class="right_">
+        <ul>
+          <li>
+            User: <strong>${userApplication.getKey().fullname}</strong>
+          </li>
+          <!-- <li> -->
+          <!--   Favourite Tags: <a href="#">Books</a> <a href="#">Swimming</a> -->
+          <!-- </li> -->
+          <!-- <li> -->
+          <!--   Recent Offer: <a href="#">Reading Book</a> with <a href="#">Ertug Karamatli</a> (2 days ago) -->
+          <!-- </li> -->
+          <!-- <li> -->
+          <!--   Recent Request: <a href="#">Reading Book</a> with <a href="#">Ertug Karamatli</a> (2 days ago) -->
+          <!-- </li> -->
+          <!-- <li> -->
+          <!--   14 handshake in last 3 months! -->
+          <!-- </li> -->
+        </ul>
+      </div>
+      
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+
+  #{/list}
+  #{/if}
+  </ul>
+  #{/if}
+
+</div>
+
+<script>
+	function disableClick(input){
+		 input.checked == true ? input.checked = false : input.checked = true;
+		}
+	if(document.getElementById("chkVir").checked == 0)
+	{	  		
+		document.getElementById("txtVirtual").innerHTML = "No";	  		
+	}
+	else 
+	{
+ 	document.getElementById("txtVirtual").innerHTML = "Yes";
+	}
+	
+ 	if(document.getElementById("chkRec").checked == 0)
+  	{ 		
+ 		document.getElementById("liDays").style.visibility = "hidden";
+  		document.getElementById("liDays").style.display= "none";
+ 		
+  		document.getElementById("lblDays1").style.visibility = "hidden";
+  		document.getElementById("lblDays1").style.display= "none";
+  		document.getElementById("lblDays2").style.visibility = "hidden";
+  		document.getElementById("lblDays2").style.display = "none";
+  		
+  		document.getElementById("txtRec").innerHTML = "No";	  		
+  	}
+  	else 
+	{
+	 	document.getElementById("txtRec").innerHTML = "Yes";
+  	}
+	if(document.getElementById("txtRecFrom").value == document.getElementById("txtRecTo").value)	
+	{
+  		document.getElementById("liRecTime").style.visibility = "hidden";
+  		document.getElementById("liRecTime").style.display= "none";
+  	}
+</script>

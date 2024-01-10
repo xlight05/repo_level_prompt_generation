@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet
+END
+ISoapHeaderHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet/ISoapHeaderHandler.java
+END
+StaticResourceWsdlProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet/StaticResourceWsdlProvider.java
+END
+IServiceEndpointHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet/IServiceEndpointHandler.java
+END
+HttpSoapServiceServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet/HttpSoapServiceServlet.java
+END
+IWsdlProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet/IWsdlProvider.java
+END
+WsdlDtcProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/28/branches/0.1/soap-dtc-server/src/main/java/com/izforge/soapdtc/servlet/WsdlDtcProvider.java
+END

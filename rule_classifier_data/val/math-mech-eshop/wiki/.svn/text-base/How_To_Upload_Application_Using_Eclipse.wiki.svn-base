@@ -1,0 +1,20 @@
+#summary Uploading From Eclipse.
+
+= Как загрузить свое приложение используя Eclipse =
+
+Загрузить свое приложение в Google App Engine можно двумя способами 
+ # используя Eclipse
+ # использую командную строку
+
+Здесь рассматривается загрузка через Eclipse Plugin (его установку смотри <a href="http://code.google.com/p/math-mech-eshop/wiki/Google_App_Engine">здесь</a>)
+
+= Загрузка =
+ <b>1)</b> После создания примерного проекта (использовав плагин для Eclipse) или скачивания его с svn, в директории *war\WEB-INF* должен появится файл appengine-web.xml<br><a target='_blank' href='http://img150.imageshack.us/img150/9140/wiki1.jpg'><img src='http://img150.imageshack.us/img150/9140/wiki1.th.jpg' border='0'/></a> <br>
+ <b>2)</b> Открываем этот файл  и в теге application пишем имя нашего приложения на Google App Engine и версию приложения. Потом сохраняем. <br><a target='_blank' href='http://img230.imageshack.us/img230/7128/wiki2.jpg'><img src='http://img230.imageshack.us/img230/7128/wiki2.th.jpg' border='0'/></a><br>
+ <b>3)</b> После этого нажимаем на кнопку на панели инструментов<br> <a target='_blank' href='http://img301.imageshack.us/img301/5540/wiki3.jpg'><img src='http://img301.imageshack.us/img301/5540/wiki3.th.jpg' border='0'/></a><br>
+ <b>4)</b> В открывшемся окне вводим аккаунт Google (как на почта ) и пароль (тоже почтовый)<br> <a target='_blank' href='http://img152.imageshack.us/img152/7429/wiki4.jpg'><img src='http://img152.imageshack.us/img152/7429/wiki4.th.jpg' border='0'/></a><br>
+
+===НО!===
+Цитирую гугл:
+ * April 2009: During this "early look" of Google App Engine for Java, the ability to upload Java applications to App Engine is reserved for a limited number of developer accounts. All users will be able to upload Java apps when we do a full release of Google App Engine for Java in the near future. 
+ * Так что хоть аккаунт для нашего приложения был запрошен, но не факт, что его еще выдают, поэтому может так случится, что до тех пока они не будут расширять количество пользователей (сейчас максимум 10000 разработчиков могут получить аккаунты), придется тестировать приложение на локальной машине.

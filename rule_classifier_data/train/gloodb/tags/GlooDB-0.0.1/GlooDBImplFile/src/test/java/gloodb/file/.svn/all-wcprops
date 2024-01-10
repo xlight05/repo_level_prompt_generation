@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file
+END
+FileBasedTransactionalRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedTransactionalRepositoryTest.java
+END
+FileBasedNestedTransactionRollbackRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedNestedTransactionRollbackRepositoryTest.java
+END
+FileBasedTopTransactionRollbackRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedTopTransactionRollbackRepositoryTest.java
+END
+FileBasedNonTransactionalRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedNonTransactionalRepositoryTest.java
+END
+FileBasedTimeOperationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedTimeOperationTest.java
+END
+FileBasedInterceptorAndCallbacksTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedInterceptorAndCallbacksTest.java
+END
+FileBasedNestedTransactionCommitRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedNestedTransactionCommitRepositoryTest.java
+END
+FileBasedTopTransactionCommitRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/file/FileBasedTopTransactionCommitRepositoryTest.java
+END

@@ -1,0 +1,35 @@
+========== BUILDING ==========
+
+1. Copy Make.defs.sample to Make.defs and fill in the details to match
+   your system.
+2. To build type 'make'.  To see all the make targets type
+   './maketargets'
+
+
+========== CODE ==========
+
+The code repository is here:
+
+  http://code.google.com/p/jloogle/
+
+You can see this by passing the '-c' or '--code' options on the
+command line.
+
+
+========== INSTALL ==========
+
+sudo make install
+
+
+========== RUNNING ==========
+
+YOu can run by:
+
+1. The script 'jloogle' will run after building. 
+2. Running the jar as 'java -jar jloogle.jar'
+3. Typing 'java Main'
+
+
+========== UNINSTALL ==========
+
+sudo make uninstall

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<infinispan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="urn:infinispan:config:5.0 http://www.infinispan.org/schemas/infinispan-config-5.0.xsd"
+    xmlns="urn:infinispan:config:5.0">
+
+    <global>
+        <shutdown hookBehavior="DONT_REGISTER"/>
+        <!-- clusterName controls which processes join the cluster -->
+        <!-- nodeName will be used in logs, make it unique on each server -->
+        <transport clusterName="shib-idp" nodeName="shib-node-1">
+            <properties>
+                <property name="configurationFile" value="$IDP_HOME$/conf/jgroups-udp.xml"/>
+            </properties>
+        </transport>
+    </global>
+
+    <default>
+	<storeAsBinary enabled="true"/>
+        <clustering mode="distribution">
+            <sync/>
+            <hash numOwners="3" />
+            <stateTransfer chunkSize="4096" fetchInMemoryState="true" />
+        </clustering>
+    </default>
+
+    <namedCache name="session" />
+    
+</infinispan>

@@ -1,0 +1,23 @@
+#container layers
+layer.application=classpath:META-INF/test/web/layers/application-context.xml
+layer.registry=classpath:META-INF/test/web/layers/services-registry.xml
+#services-configuration
+
+#core-services-log
+log.service.type=log4j
+log.service.aop.pointcut=execution(* org.jsemantic.jcontainer.common.*.*(..))
+log.service.aop.args=jpj
+
+#core-services-aop-profiling
+service.aop.profiling.pointcut=execution(* org.jsemantic.jcontainer.common.*.*(..))
+service.aop.profiling.args=jpj
+#services-aop-default
+service.aop.log.pointcut=execution(* org.jsemantic.jcontainer.common.*.*(..))
+service.aop.log.args=jpj
+
+#embedded-container-service
+embedded.service.layer.registry =classpath:META-INF/test/web/services/embedded-contenedor-service/layers/services-registry.xml
+
+
+
+

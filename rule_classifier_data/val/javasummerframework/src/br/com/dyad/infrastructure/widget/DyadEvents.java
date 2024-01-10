@@ -1,0 +1,37 @@
+package br.com.dyad.infrastructure.widget;
+
+public enum DyadEvents {
+	
+	onCalcField,
+	onBeforeChange,
+	onAfterChange,
+	onBeforeInsert,
+	onAfterInsert,
+	onInsert,
+	onBeforeScroll,
+	onAfterScroll,
+	onScroll,
+	onBeforePost,
+	onAfterPost,
+	onPost,
+	onBeforeDelete,
+	onAfterDelete,
+	onDelete,
+	onBeforeCancel,
+	onAfterCancel,
+	onCancel,
+	onBeforeEdit,
+	onAfterEdit,
+	onEdit,
+	onMasterScroll,
+	onBeforeExpand,
+	onExpand,
+	onAfterExpand,
+	onBeforeCollapse,
+	onCollapse,
+	onAfterCollapse,
+	onBeforeSearch,
+	onSearch,
+	onAfterSearch,
+	onClose
+}

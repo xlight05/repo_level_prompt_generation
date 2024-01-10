@@ -1,0 +1,4 @@
+<c:template xmlns:c="http://aluminumproject.googlecode.com/core">
+	AdminConfig.create('StringNameSpaceBinding', node, [['name', '${name}'], ['nameInNameSpace', '${jndiName}'], ['stringToBind',
+	"stringToBind"]])
+</c:template>

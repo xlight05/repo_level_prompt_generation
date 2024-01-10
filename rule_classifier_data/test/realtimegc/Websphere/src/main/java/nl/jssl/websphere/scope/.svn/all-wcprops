@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope
+END
+SubScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/SubScope.java
+END
+Scope.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/Scope.java
+END
+CellScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/CellScope.java
+END
+ClusterScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/ClusterScope.java
+END
+ScopeContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/ScopeContainer.java
+END
+NodeScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/NodeScope.java
+END
+ServerScope.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/scope/ServerScope.java
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/445/trunk/seamlets/seamlets-components-core
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/98/trunk/seamlets/seamlets-components-core/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/324/trunk/seamlets/seamlets-components-core/pom.xml
+END
+hibernate-console.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/63/trunk/seamlets/seamlets-components-core/hibernate-console.properties
+END
+seamlets-components-core.launch
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/71/trunk/seamlets/seamlets-components-core/seamlets-components-core.launch
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/145/trunk/seamlets/seamlets-components-core/.classpath
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb
+END
+UniqueIndexImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/592/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/UniqueIndexImplementation.java
+END
+OneToOneAssociationImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/592/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/OneToOneAssociationImplementation.java
+END
+POJOAssociationFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/POJOAssociationFactory.java
+END
+OneToManyAssociationImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/OneToManyAssociationImplementation.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/349/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/package.html
+END
+ManyToManyAssociationImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/592/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/ManyToManyAssociationImplementation.java
+END
+NonUniqueIndexImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/associations/objectdb/NonUniqueIndexImplementation.java
+END

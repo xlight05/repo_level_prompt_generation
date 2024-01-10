@@ -1,0 +1,80 @@
+<div id="conteudoInterno">
+    <div class="listagem">
+        <h2>Exemplo de Listagem</h2>
+        <form action="" method="post" class="inline">
+            <fieldset>
+                <legend>Filtro de alunos</legend>
+                <p class="span-5">
+                    <label for="filtroNome">Nome:</label>
+                    <input type="text" class="" id="filtroNome" name="filtroNome" value="" />
+                </p>
+                <p class="span-7">
+                    <label for="filtroCurso">Curso:</label>
+                    <select id="filtroCurso" name="filtroCurso">
+                        <option value="1">Ci&ecirc;ncia da Computa&ccedil;&atilde;o</option>
+
+                        <option value="2">Engenharia da Computa&ccedil;&atilde;o</option>
+                    </select>
+                </p>
+                <p class="span-4">
+                    <label for="filtroTurno">Turno:</label>
+                    <select id="filtroTurno" name="filtroTurno">
+                        <option value="1">Matutino</option>
+                        <option value="2">Vespertino</option>
+                        <option value="3">Noturno</option>
+                    </select>
+                </p>
+                <p class="span-2 last right">
+                    <input type="submit" value="Filtrar" class="button" />
+                </p>
+            </fieldset>
+
+        </form>
+        <table class="listagem">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Curso</th>
+                    <th>Turno</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href=#>Aluno</a></td>
+                    <td>Ci&ecirc;ncia da Computa&ccedil;&atilde;o</td>
+                    <td>Noturno</td>
+                </tr>
+                <tr>
+                    <td><a href=#>Aluno</a></td>
+                    <td>Ci&ecirc;ncia da Computa&ccedil;&atilde;o</td>
+                    <td>Noturno</td>
+                </tr>
+                <tr>
+                    <td><a href=#>Aluno</a></td>
+                    <td>Ci&ecirc;ncia da Computa&ccedil;&atilde;o</td>
+                    <td>Noturno</td>
+                </tr>
+                <tr>
+                    <td><a href=#>Aluno</a></td>
+                    <td>Ci&ecirc;ncia da Computa&ccedil;&atilde;o</td>
+                    <td>Noturno</td>
+                </tr>
+                <tr>
+                    <td><a href=#>Aluno</a></td>
+                    <td>Ci&ecirc;ncia da Computa&ccedil;&atilde;o</td>
+                    <td>Noturno</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="paginacao">
+            <ul class="right">
+                <li class="ui-state-default ui-corner-all seta"><a href="#" class="ui-icon ui-icon-triangle-1-w">P&aacute;gina Anterior</a></li>
+                <li class="ui-state-default ui-corner-all ui-state-hover">1</li>
+                <li class="ui-state-default ui-corner-all"><a href="#">2</a></li>
+                <li class="ui-state-default ui-corner-all"><a href="#">3</a></li>
+                <li class="ui-state-default ui-corner-all seta last"><a href="#" class="ui-icon ui-icon-triangle-1-e">Pr&oacute;xima P&aacute;gina</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>

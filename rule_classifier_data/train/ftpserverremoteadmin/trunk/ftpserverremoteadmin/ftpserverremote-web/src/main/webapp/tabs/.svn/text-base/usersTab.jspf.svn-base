@@ -1,0 +1,134 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    id="usersInc" >
+    
+    <tc:panel>
+        <f:facet name="layout">
+            <tc:gridLayout rows="400px;*" />
+        </f:facet>       
+        
+        
+        <tc:panel>
+            <f:facet name="layout">
+                <tc:gridLayout columns="150px;*" />
+            </f:facet>
+            
+            <tc:label value="#{messages.server}" />
+            <tc:selectOneChoice  value="#{UserBean.server}">
+                <f:selectItems value="#{UserBean.servers}" />
+            </tc:selectOneChoice>    
+            
+            <tc:label value="#{messages.user}" />
+            <tc:selectOneChoice  value="#{UserBean.userLabel}">
+                <f:facet name="change">
+                    <tc:command action="#{UserBean.userChanged}" />
+                </f:facet>
+                <f:selectItems value="#{UserBean.userLabels}" />
+            </tc:selectOneChoice> 
+            
+            <tc:label value="#{messages.name}" />
+            <tc:in value="#{UserBean.name}" />
+            
+            <tc:label value="#{messages.password}" />   
+            <tc:panel>
+                <f:facet name="layout">
+                    <tc:gridLayout columns="*;*" />
+                </f:facet>
+                <tc:in value="#{UserBean.password}" id="passwordField" password="true" />
+                
+                <tc:button label="#{messages.generate}" width="60px" action="#{UserBean.generate}">
+                    <tc:attribute name="renderedPartially" value="passGenPopup"/>
+                    <f:facet name="popup">
+                        <tc:popup width="150px" height="80px" id="passGenPopup">
+                            <tc:box label="Generated password">
+                                <tc:panel>
+                                    <f:facet name="layout">
+                                        <tc:gridLayout columns="*"/>
+                                    </f:facet>
+                                    <tc:out value="#{UserBean.password}" />
+                                    <tc:button label="OK" action="#{UserBean.reloadUser}">
+                                        <tc:attribute name="popupClose" value="afterSubmit"/>
+                                    </tc:button>
+                                </tc:panel>    
+                            </tc:box>
+                        </tc:popup>
+                    </f:facet>
+                </tc:button>      
+                
+            </tc:panel>
+            
+            <tc:label value="#{messages.retype_password}" />
+            <tc:in value="#{UserBean.retypePassword}" password="true" />
+            
+            <tc:label value="#{messages.set_password}" /> 
+            <tc:selectBooleanCheckbox value="#{UserBean.passwordSet}"/>
+            
+            <tc:label value="#{messages.root_directory}" />
+            <tc:in value="#{UserBean.rootDirectory}" />
+            
+            <tc:label value="#{messages.enabled}" />
+            <tc:selectBooleanCheckbox value="#{UserBean.enabled}"/>
+            
+            <tc:label value="#{messages.write_permission}" />
+            <tc:selectBooleanCheckbox value="#{UserBean.writePermission}"/>
+            
+            <tc:label value="#{messages.maxLoginFromSameIP}" />
+            <tc:in value="#{UserBean.maxLoginFromSameIP}" />
+            
+            <tc:label value="#{messages.maxLoginNumber}" />
+            <tc:in value="#{UserBean.maxLoginNumber}" />
+            
+            <tc:label value="#{messages.max_idle_time}"/>
+            <tc:selectOneChoice value="#{UserBean.maxIdleTime}" >
+                <f:selectItems value="#{UserBean.maxIdleTimes}" />
+            </tc:selectOneChoice>
+            
+            <tc:label value="#{messages.max_upload}"/>
+            <tc:selectOneChoice value="#{UserBean.maxUpload}" >
+                <f:selectItems value="#{UserBean.maxUploads}" />
+            </tc:selectOneChoice>
+            
+            <tc:label value="#{messages.max_download}"/>
+            <tc:selectOneChoice value="#{UserBean.maxDownload}" >
+                <f:selectItems value="#{UserBean.maxDownloads}" />
+            </tc:selectOneChoice>
+            
+            <tc:out />
+            
+            <tc:panel>
+                <f:facet name="layout">
+                    <tc:gridLayout columns="*;70px;70px;70px;*"/>
+                </f:facet>
+                <tc:out />
+                <tc:button label="Save" width="60px" action="#{UserBean.save}" />
+                <tc:button label="Delete" width="60px" action="#{UserBean.delete}" />
+                <tc:button label="Reload" width="60px" action="#{UserBean.reload}" />
+                <tc:out />
+            </tc:panel>
+            
+            
+            
+        </tc:panel>
+    <tc:attribute name="renderedPartially" value="userErrorPopup"/>
+        <tc:popup width="250px" height="100px" id="userErrorPopup" rendered="#{UserBean.showErrorPopup}">
+            <tc:box label="#{UserBean.errorHeader}">
+                <tc:panel>
+                    <f:facet name="layout">
+                        <tc:gridLayout columns="*" rows="*;22px" />
+                    </f:facet>
+                    <tc:out value="#{UserBean.errorMessage}" />
+                    <tc:button action="#{UserBean.closeErrorPopup}" label="#{messages.ok}" >
+                        <tc:attribute name="popupClose" value="afterSubmit"/>
+                    </tc:button>
+                </tc:panel>    
+            </tc:box>
+    </tc:popup>
+    
+    </tc:panel>
+    
+
+    
+    </f:subview>
+

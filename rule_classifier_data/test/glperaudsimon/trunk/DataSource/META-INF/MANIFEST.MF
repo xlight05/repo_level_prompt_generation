@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: DataSource Plug-in
+Bundle-SymbolicName: DataSource
+Bundle-Version: 1.0.0
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Import-Package: javax.sql,
+ org.osgi.framework;version="1.4.0",
+ org.springframework.context.support;version="2.5.6"
+Require-Bundle: com.springsource.com.mchange.v2.c3p0;bundle-version="0.9.1"

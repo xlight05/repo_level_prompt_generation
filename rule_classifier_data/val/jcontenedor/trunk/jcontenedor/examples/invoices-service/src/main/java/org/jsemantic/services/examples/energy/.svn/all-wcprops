@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy
+END
+InvoiceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/InvoiceFactory.java
+END
+MockDataGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/MockDataGenerator.java
+END

@@ -1,0 +1,134 @@
+#summary GlooDB Configurations
+
+= Embedded GlooDB Configuration =
+
+== File Based Repository ==
+ * below is the sample spring configuration of a non-encrypted file based embedded repository which uses block storage.
+{{{
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <!-- Repository instance, intercepted by a RepositoryLoggerInterceptor -->
+	<bean name="Repository" factory-bean="EmbeddedRepositoryFactory" factory-method="interceptRepository">
+		<constructor-arg ref="AdminRepository"/>
+		<constructor-arg>
+			<list>
+				<bean class="gloodb.utils.RepositoryLoggerInterceptor">
+					<constructor-arg>
+						<bean class="java.util.logging.Logger" factory-method="getLogger">
+							<constructor-arg value="..."/>
+						</bean>
+					</constructor-arg>
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+
+         <!-- Provide access to the repository itself, for admin purposes -->
+	<bean name="AdminRepository" factory-bean="EmbeddedRepositoryFactory" factory-method="buildRepository">
+		<constructor-arg ref="RepositoryConfiguration"/>
+	</bean>
+
+        <!-- Repository configuration; in this example: unencrypted file based repository w/ block storage -->
+	<bean name="RepositoryConfiguration" class="gloodb.impl.EmbeddedRepositoryConfiguration">
+		<constructor-arg ref="RepositoryStrategy"/>
+		<constructor-arg ref="StorageStrategy"/>
+		<constructor-arg ref="TransactionStrategy"/>
+	</bean>	
+
+         <!-- Repository initializer, if any -->	
+	<bean name="RepositoryInitializer" class="...RepositoryInitializer"/>
+	
+        <!-- Namespace here -->
+	<bean name="NameSpace" class="java.lang.String" factory-method="valueOf">
+		<constructor-arg value="..."/>
+	</bean>
+
+        <!-- Repository configuration details -->
+	<bean name="RepositoryStrategy" class="gloodb.impl.ObjectDBRepositoryStrategy" />
+
+	<bean name="StorageStrategy" class="gloodb.file.storage.block.BlockStorageStrategy">
+		<constructor-arg>
+			<bean class="gloodb.file.storage.block.BlockStorageConfiguration">
+				<constructor-arg ref="NameSpace"/>
+				<constructor-arg>
+					<bean class="javax.crypto.NullCipher"/>
+				</constructor-arg>
+				<constructor-arg>
+					<bean class="javax.crypto.NullCipher"/>
+				</constructor-arg>
+			</bean>
+		</constructor-arg>
+		<constructor-arg><null/></constructor-arg>
+	</bean>
+	
+	<bean name="TransactionStrategy" class="gloodb.file.txmgr.FileTxManagerStrategy">
+		<constructor-arg>
+			<bean class="gloodb.file.txmgr.DefaultFileTxLogConfiguration">
+				<constructor-arg ref="NameSpace"/>
+				<constructor-arg>
+					<bean class="javax.crypto.NullCipher"/>
+				</constructor-arg>
+				<constructor-arg>
+					<bean class="javax.crypto.NullCipher"/>
+				</constructor-arg>
+			</bean>
+		</constructor-arg>
+		<constructor-arg><null/></constructor-arg>
+	</bean>
+	
+	<bean name="EmbeddedRepositoryFactory" class="gloodb.impl.EmbeddedRepositoryFactory">
+		<property name="initializer" ref="RepositoryInitializer"/>
+	</bean>
+</beans>
+
+}}}
+
+ * use the !FileBasedRepositoryFactory for simpler configuration (but less flexibility).
+
+
+{{{
+
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+        <!-- Repository instance, intercepted by a RepositoryLoggerInterceptor -->
+	<bean name="Repository" factory-bean="FileBasedRepositoryFactory" factory-method="interceptRepository">
+		<constructor-arg ref="AdminRepository"/>
+		<constructor-arg>
+			<list>
+				<bean class="gloodb.utils.RepositoryLoggerInterceptor">
+					<constructor-arg>
+						<bean class="java.util.logging.Logger" factory-method="getLogger">
+							<constructor-arg value="..."/>
+						</bean>
+					</constructor-arg>
+				</bean>
+			</list>
+		</constructor-arg>
+	</bean>
+
+         <!-- Provide access to the repository itself, for admin purposes -->
+	<bean name="AdminRepository" factory-bean="FileBasedRepositoryFactory" factory-method="buildRepository">
+		<constructor-arg ref="RepositoryConfiguration"/>
+	</bean>
+
+         <!-- Repository initializer, if any -->	
+	<bean name="RepositoryInitializer" class="...RepositoryInitializer"/>
+	
+        <!-- Namespace here -->
+	<bean name="NameSpace" class="java.lang.String" factory-method="valueOf">
+		<constructor-arg value="..."/>
+	</bean>
+	
+	<bean name="FileBasedRepositoryFactory" class="gloodb.file.FileBasedRepositoryFactory">
+		<property name="initializer" ref="RepositoryInitializer"/>
+	</bean>
+</beans>
+
+}}}

@@ -1,0 +1,99 @@
+README -- 3 July 2012
+
+To use this storage service with Shibboleth, the following configuration changes must be made:
+
+1. internal.xml
+
+You must modify the Shibboleth configuration file internal.xml to load the Infinispan storage service by adding
+the following XML:
+
+    <!-- The Clareity Infinispan based storage service. You must disable the base Shibboleth storage service -->
+    <!-- to use this one. This one is only needed for cluster support. -->
+    <bean id="shibboleth.StorageService" class="net.clareitysecurity.shibboleth.storage.InfinispanStorageService" 
+        depends-on="shibboleth.LogbackLogging">
+        <constructor-arg value="$IDP_HOME$/conf/infinispan.xml" />
+    </bean>
+
+This XML must be added to the copy of internal.xml in your Shibboleth build directory tree. This will be at:
+
+    <build diretory>/src/installer/resources/conf-tmpl/internal.xml
+    
+This way it will be present when you build Shibboleth for the first time (or rebuild and rewrite configuration files).
+
+If you are not going to rebuild and overwrite the configuration files, then you must modify the internal.xml file
+in your Shibboleth conf directory. The place holder value of $IDP_HOME$ must be replaced with the correct path for
+your infinispan.xml file. It is recommended to place it in the Shibboleth conf directory along with the rest of the 
+configuration files.
+
+Once you add the new bean for the storage service, you must also disable the default one in internal.xml:
+
+    <!--
+    <bean id="shibboleth.StorageService" class="edu.internet2.middleware.shibboleth.common.util.EventingMapBasedStorageService" depends-on="shibboleth.LogbackLogging"/>
+    -->
+
+2. web.xml
+
+In order for the Infinispan storage service to know when an object has changed, a filter is used at the web application
+layer to notice changes and re-store the information to the storage service. Shibboleth does not have a concept of telling
+the storage service an object has changed, it only adds and removes objects as needed.
+
+In the web.xml add the following filter definition:
+
+    <!--  Add Clareity cluster filter for Infinispan storage service -->
+    <filter>
+        <filter-name>ClareityStorageFilter</filter-name>
+        <filter-class>net.clareitysecurity.shibboleth.storage.ClusterFilter</filter-class>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>ClareityStorageFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
+This one must be added to the web.xml in the Shibboleth build directory tree:
+
+    <build directory>/src/main/webapp/WEB-INF/web.xml
+    
+Note that if you do not add the filter, then the Java container running Shibboleth will hang on shutdown.
+
+3. infinispan.xml
+
+You must also provide an infinispan.xml file for the Infinispan engine to use for configuration. It must be placed
+in the location referenced by the bean configuration in the internal.xml file. A sample file is available in the
+doc directory (where this README is). The storage service does not care how Infinispan is configured. You may
+configure Infinispan according to what it supports that best fits your needs. Please refer to the Infinispan documentation
+for more details of how it can be configured.
+
+4. jgroups-udp.xml
+
+This file is referenced by the Infinispan configuration file. Infinispan uses jgroups as its transport mechanism. The
+sample file provided in the docs directory uses multi-cast UDP. You must ensure that multi-cast is supported by
+your network configuration. Most Linux distros do not enable it by default.
+
+5. infinispan-storage-service-x.y.z-jar
+
+You must place a copy of the jar file in the Shibboleth build directory lib directory:
+
+    <build directory>/lib
+    
+When the install script is run, it will bundle the jar file inside the war.
+
+6. Dependent Jars
+
+The binary distribution zip file also contains all of the required Infinispan jars needed for operation. They should 
+also be placed in the lib directory of the Shibboleth build directory:
+
+    <build directory>/lib
+    
+
+
+
+
+
+
+
+
+
+
+
+

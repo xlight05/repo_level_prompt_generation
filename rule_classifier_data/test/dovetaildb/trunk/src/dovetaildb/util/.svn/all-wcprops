@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/40/trunk/src/dovetaildb/util
+END
+Base64.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/4/trunk/src/dovetaildb/util/Base64.java
+END
+DeltaMapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/23/trunk/src/dovetaildb/util/DeltaMapTest.java
+END
+DeltaMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/src/dovetaildb/util/DeltaMap.java
+END
+PubliclyCloneable.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/src/dovetaildb/util/PubliclyCloneable.java
+END
+LiteralList.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/15/trunk/src/dovetaildb/util/LiteralList.java
+END
+Dirty.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/39/trunk/src/dovetaildb/util/Dirty.java
+END
+LiteralHashMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/15/trunk/src/dovetaildb/util/LiteralHashMap.java
+END
+JsConversions.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/trunk/src/dovetaildb/util/JsConversions.java
+END
+JsConversionsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/34/trunk/src/dovetaildb/util/JsConversionsTest.java
+END
+UUID.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/4/trunk/src/dovetaildb/util/UUID.java
+END
+CheckpointableHeap.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/26/trunk/src/dovetaildb/util/CheckpointableHeap.java
+END
+CheckpointableHeapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/26/trunk/src/dovetaildb/util/CheckpointableHeapTest.java
+END
+Checkpointable.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/25/trunk/src/dovetaildb/util/Checkpointable.java
+END
+LiteralHashSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/4/trunk/src/dovetaildb/util/LiteralHashSet.java
+END
+UtilTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/23/trunk/src/dovetaildb/util/UtilTest.java
+END
+Util.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/40/trunk/src/dovetaildb/util/Util.java
+END
+MappedIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/12/trunk/src/dovetaildb/util/MappedIterator.java
+END

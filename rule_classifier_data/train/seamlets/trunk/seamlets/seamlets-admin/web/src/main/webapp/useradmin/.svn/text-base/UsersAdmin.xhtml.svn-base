@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich" xmlns:s="http://jboss.com/products/seam/taglib"
+	template="/layout/template.xhtml">
+
+	<!-- page parameter -->
+	<ui:param name="showHotLinks" value="true" />
+	<ui:param name="showInfoLinks" value="false" />
+	<ui:param name="showTitle" value="true" />
+	<ui:param name="showSubtitle" value="true" />
+	<ui:param name="showNavigationView" value="true" />
+	<ui:param name="showLogout" value="#{applicationconfig.showLogout}" />
+	<ui:param name="showSystemMessages" value="false" />
+	<ui:param name="showIdle" value="false" />
+	
+	<!-- content -->
+	<ui:define name="body">
+		<h:form id="input">
+			<s:div rendered="#{s:hasPermission('Show','UsersAdminAdd', null)}">
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="form">
+					<tr>
+						<td class="form-head" style="text-align: left" colspan="3">
+							#{messages['UsersAdminProcess.formAdd']}
+						</td>
+					</tr>
+					<tr>
+						<td class="form-label" style="text-align: left" colspan="3">
+							<rich:message for="userAdminAddMessages"
+								errorClass="errortext"
+								errorMarkerClass="errortext"
+								errorLabelClass="errortext">
+								<f:facet name="infoMarker">
+									<h:graphicImage value="/images/common/decoration/info.gif" />
+								</f:facet>
+								<f:facet name="warnMarker">
+									<h:graphicImage value="/images/common/decoration/warn.gif" />
+								</f:facet>
+								<f:facet name="errorMarker">
+									<h:graphicImage value="/images/common/decoration/error.gif" />
+								</f:facet>
+								<f:facet name="fatalMarker">
+									<h:graphicImage value="/images/common/decoration/fatal.gif" />
+								</f:facet>
+							</rich:message>
+						</td>
+					</tr>
+					<tr>
+						<td class="form-label" style="text-align: left" colspan="2">
+							<h:outputText id="userAdminAddMessages" value="#{messages['UsersAdminProcess.user']}"/> 
+						</td>
+						<td width="100%">&#160;</td>
+					</tr>
+					<tr>
+						<td class="form-label" style="text-align: left" colspan="2">
+							<s:decorate>
+								<h:inputText id="newloginname" value="#{usersAdmin.newLoginname}">
+									<s:validate />
+								</h:inputText>
+							</s:decorate>
+							<rich:message for="newloginname" styleClass="errortext" />
+						</td>
+						<td width="100%">&#160;</td>
+					</tr>
+					<tr>
+						<td class="form-label" style="text-align: left" >
+							#{messages['UsersAdminProcess.password']}
+						</td>
+						<td class="form-label" style="text-align: left" >
+							#{messages['UsersAdminProcess.confirmPassword']}
+						</td>
+						<td width="100%">&#160;</td>
+					</tr>
+					<tr>
+						<td class="form-label" style="text-align: left" >
+							<s:decorate>
+								<h:inputSecret id="password" value="#{usersAdmin.password}">
+									<s:validate />
+								</h:inputSecret>
+							</s:decorate>
+							<rich:message for="password" styleClass="errortext" />
+						</td>
+						<td class="form-label" style="text-align: left" >
+							<s:decorate>
+								<h:inputSecret id="confirmPassword" value="#{usersAdmin.confirmPassword}">
+									<s:validate />
+								</h:inputSecret>
+							</s:decorate>
+							<rich:message for="confirmPassword" styleClass="errortext" />
+						</td>
+						<td width="100%">&#160;</td>
+					</tr>
+					<tr>
+						<td class="form-foot" align="right" colspan="3">
+							<a4j:commandButton id="addButton"
+								action="#{usersAdmin.addUser}"
+								value="#{messages['button.add']}"
+								status="commonstatus"
+								reRender="table_container, newloginname, password, confirmPassword, username"
+								type="submit"
+								styleClass="button"/>
+						</td>
+					</tr>
+				</table>
+				<br/>
+			</s:div>
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="form">
+				<tr>
+					<td class="form-head" style="text-align: left" colspan="3">
+						#{messages['UsersAdminProcess.formQuery']}
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left" colspan="3">
+						<rich:message for="userAdminQueryMessages"
+							errorClass="errortext"
+							errorMarkerClass="errortext"
+							errorLabelClass="errortext">
+							<f:facet name="infoMarker">
+								<h:graphicImage value="/images/common/decoration/info.gif" />
+							</f:facet>
+							<f:facet name="warnMarker">
+								<h:graphicImage value="/images/common/decoration/warn.gif" />
+							</f:facet>
+							<f:facet name="errorMarker">
+								<h:graphicImage value="/images/common/decoration/error.gif" />
+							</f:facet>
+							<f:facet name="fatalMarker">
+								<h:graphicImage value="/images/common/decoration/fatal.gif" />
+							</f:facet>
+						</rich:message>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left">
+						<h:outputText id="userAdminQueryMessages" value="#{messages['UsersAdminProcess.user']}"/> 
+					</td>
+					<td class="form-label" style="text-align: left">
+						#{messages['UsersAdminProcess.groupFilter']}
+					</td>
+					<td width="100%">&#160;</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left">
+						<h:inputText id="username" value="#{usersAdmin.username}"/>
+					</td>
+					<td class="form-label" style="text-align: left">
+						<h:selectOneMenu id="selectgroupmenu" value="#{usersAdmin.selectedGroup}">
+							<s:selectItems
+								noSelectionLabel="-"
+								hideNoSelection="false"
+								value="#{usersAdmin.groups}"
+								var="group"
+								label="#{group.identifier}"/>
+						</h:selectOneMenu>
+					</td>
+					<td width="100%">&#160;</td>
+				</tr>
+				<tr>
+					<td class="form-foot" align="right" colspan="3">
+						<a4j:commandButton id="showButton"
+							action="#{usersAdmin.showUser}"
+							value="#{messages['button.query']}"
+							status="commonstatus"
+							reRender="table_container"
+							type="submit"
+							styleClass="button" />
+					</td>
+				</tr>
+			</table>
+
+			<br />
+
+			<s:div id="table_container">
+				<rich:dataTable id="userTable" 
+					cellpadding="0" cellspacing="0" border="0" width="100%" columnsWidth="84%,8%,8%"
+					styleClass="data" headerClass="data" columnClasses="data" 
+					rowClasses="data-rowA,data-rowB" 
+					var="user" value="#{users}">
+					<f:facet name="header">
+						<rich:columnGroup>
+							<h:column>User</h:column>
+							<h:column>&#160;</h:column>
+							<h:column>&#160;</h:column>
+						</rich:columnGroup>
+					</f:facet>
+					<rich:column style="text-align: right;">
+				        	#{user.name}
+				        </rich:column>
+					<rich:column style="text-align: center;" rendered="#{s:hasPermission('Show','UsersAdminEdit', null)}">
+						<s:link id="editBotton" 
+							rendered="#{s:hasPermission('Show','UsersAdminEdit', null)}"
+							action="#{usersAdminEdit.popup(user)}"
+							value="#{messages['button.edit']}" 
+							view="/administration/UsersAdminEdit.xhtml" 
+							styleClass="button"
+							target="_blank"/>
+					</rich:column>
+					<rich:column style="text-align: center;">
+						<s:button 
+							id="deleteButton" 
+							title="#{user.name}"
+							rendered="#{s:hasPermission('Show','UsersAdminDelete', null)}"
+							action="#{usersAdmin.deleteUser}" 
+							value="#{messages['button.delete']}" 
+							styleClass="button toConfirm"/>
+					</rich:column>
+				</rich:dataTable>
+				<rich:jQuery selector=".toConfirm" query="each(function(){jQuery(this).replaceOnClick({id:'modal-confirm-window', title:'#{messages['UsersAdminProcess.delete-message']}', ok_label:'#{messages['UsersAdminProcess.delete-message.ok']}', cancel_label:'#{messages['UsersAdminProcess.delete-message.cancel']}'});})"/>
+				<rich:jQuery selector="#userTable tr:odd"
+					query="mouseover(function(){jQuery(this).removeClass('data-rowA');jQuery(this).addClass('active-row');})" />
+				<rich:jQuery selector="#userTable tr:odd"
+					query="mouseout(function(){jQuery(this).addClass('data-rowA');jQuery(this).removeClass('active-row');})" />
+				<rich:jQuery selector="#userTable tr:even"
+					query="mouseover(function(){jQuery(this).removeClass('data-rowB');jQuery(this).addClass('active-row');})" />
+				<rich:jQuery selector="#userTable tr:even"
+					query="mouseout(function(){jQuery(this).addClass('data-rowB');jQuery(this).removeClass('active-row');})" />
+			</s:div>
+		</h:form>
+		<rich:spacer height="20"/>
+	</ui:define>
+</ui:composition>

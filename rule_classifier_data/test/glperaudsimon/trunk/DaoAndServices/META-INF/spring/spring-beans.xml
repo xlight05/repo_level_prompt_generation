@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:osgi="http://www.springframework.org/schema/osgi"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd
+	http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+		
+	<!-- ########################################################################### -->
+	<!-- # Configuration de la persistence pour les DAO.						   # -->
+	<!-- # Utilisation de l'entityManagerFactory du bundle Entities				   # -->
+	<!-- ########################################################################### -->			
+			
+	<!-- Gestion des transactions -->
+	<tx:annotation-driven transaction-manager="txManager"/>
+	<bean id="txManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactoryOsgi" />
+	</bean>
+		
+	<!-- Annotations de persistence -->
+	<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+
+	<osgi:reference id="entityManagerFactoryOsgi" interface="javax.persistence.EntityManagerFactory" />
+
+
+	<!-- ########################################################################### -->
+	<!-- # Déclaration des beans Dao et Service pour les Pays et Villes	   # -->
+	<!-- ########################################################################### -->	
+
+	<!-- Déclaration des beans Dao et Service de gestion des villes -->
+	<bean id="villeDao" class="fr.epsi.epsi5.dao.VilleDaoImpl">
+		<property name="entityManagerFactory" ref="entityManagerFactoryOsgi"/>
+	</bean>
+	<bean id="villeService" class="fr.epsi.epsi5.services.VilleServiceImpl">
+		<property name="dao" ref="villeDao"/>
+	</bean>
+	
+	<!-- Déclaration des beans Dao et Service de gestion des pays -->
+	<bean id="paysDao" class="fr.epsi.epsi5.dao.PaysDaoImpl">
+		<property name="entityManagerFactory" ref="entityManagerFactoryOsgi"/>
+	</bean>
+	<bean id="paysService" class="fr.epsi.epsi5.services.PaysServiceImpl">
+		<property name="dao" ref="paysDao"/>
+	</bean>
+
+
+	<!-- ########################################################################### -->
+	<!-- # Exposition des services					  							   # -->
+	<!-- ########################################################################### -->
+	<!-- Service des villes -->
+	<osgi:service id="villeServiceOSGI" ref="villeService" interface="fr.epsi.epsi5.services.IVilleService"/>
+	<!-- Service des pays -->
+	<osgi:service id="paysServiceOSGI" ref="paysService" interface="fr.epsi.epsi5.services.IPaysService"/>
+</beans>

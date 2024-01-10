@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<bean id="activeMQService" name="activeMQService"
+		class="org.jsemantic.services.amqservice.impl.ActiveMQServiceImpl"
+		autowire="byName" lazy-init="true" scope="prototype">
+		<property name="connector" value="tcp://localhost:61616" />
+		<property name="jmxUsed" value="false" />
+	</bean>
+	
+</beans>

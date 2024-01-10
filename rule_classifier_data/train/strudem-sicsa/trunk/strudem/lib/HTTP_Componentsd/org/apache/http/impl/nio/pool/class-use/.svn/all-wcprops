@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/pool/class-use
+END
+BasicNIOConnFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/pool/class-use/BasicNIOConnFactory.html
+END
+BasicNIOConnPool.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/pool/class-use/BasicNIOConnPool.html
+END
+BasicNIOPoolEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/pool/class-use/BasicNIOPoolEntry.html
+END

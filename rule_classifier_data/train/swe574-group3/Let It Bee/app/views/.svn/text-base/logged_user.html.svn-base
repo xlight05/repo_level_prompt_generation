@@ -1,0 +1,51 @@
+#{extends 'main.html' /}
+
+<div id="content">
+  <div id="main" style="padding-top:0px">
+    #{doLayout /}
+  </div>
+
+  <div id="sidebar"  style="border:0px solid #aaa; padding-top:0px;">
+    
+    <div class="sidemenu" align="left">
+      <h3>Menu</h3>
+      Welcome, ${user.fullname}!<br />
+      <a href="@{Users.ownProfile()}">
+      #{if user.photo.exists()}
+      <img style="height:120px; width:120px;" class="avatar" src="@{Application.showUserPhoto(user.id)}" alt="${user.fullname}" title="Your Profile Photo" style="margin-top:10px; display:block;" />
+      #{/if}
+      #{else}
+      <img style="height:120px; width:120px;" src="/public/images/lbi02.png" alt="Default User Avatar" title="Your Profile Photo" style="margin-top:10px; display:block;"  />
+      #{/else}
+      </a><br />
+      <style>
+		  .create_offer {
+	background-color:#090;
+	-moz-border-radius:8px;
+	border-radius:8px;
+}
+.create_offer a {
+	color:#fff !important;
+}
+</style>
+      <ul>
+        <li class="create_offer"><a href="@{Offers.create()}"><span style="font-size:16px; font-weight: bolder; color: white" >Create Offer</span></a></li>
+        <li class="create_offer"><a href="@{Requests.create()}"><span style="font-size:16px; font-weight: bolder; color: white" >Create Request</span></a></li>
+		<li><a href="@{Offers.search()}">Search Offers</a></li>
+		<li><a href="@{Requests.search()}">Search Requests</a></li>
+		<li><a href="@{Handshakes.search()}">Search Handshakes</a></li>
+	<li><a href="@{Handshakes.list()}">My Handshakes</a></li>
+        <li><a href="@{Offers.list()}">My Offers</a></li>
+        <li><a href="@{Requests.list()}">My Requests</a></li>
+	<li><a href="@{Users.ownProfile()}">My Profile</a></li>
+	<li><a href="@{Users.editProfile()}">Edit Profile</a></li>
+	<li><a href="@{Secure.logout()}">Logout</a></li>
+      </ul>
+    </div>
+    
+   <!-- <div class="popular">
+      <h3>Recent Comments</h3>
+      <p>No recent comments</p>
+    </div> --> 
+  </div>
+</div>

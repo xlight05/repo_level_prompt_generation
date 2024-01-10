@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb
+END
+RepositoryInitializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/RepositoryInitializer.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/57/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Version.java
+END
+NumberVersionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/NumberVersionManager.java
+END
+Identity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/321/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Identity.java
+END
+PostRestore.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/310/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PostRestore.java
+END
+Embedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Embedded.java
+END
+Interceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/608/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Interceptor.java
+END
+RepositoryStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/350/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/RepositoryStrategy.java
+END
+ReadOnlyQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/461/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/ReadOnlyQuery.java
+END
+PostRemove.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/310/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PostRemove.java
+END
+PreRemove.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PreRemove.java
+END
+LockingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/294/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/LockingException.java
+END
+RepositoryConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/349/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/RepositoryConfiguration.java
+END
+RepositoryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/RepositoryFactory.java
+END
+SortingCriteria.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/321/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/SortingCriteria.java
+END
+PostCreate.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/310/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PostCreate.java
+END
+PreCreate.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PreCreate.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/323/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/package.html
+END
+Dependency.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/612/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Dependency.java
+END
+Lazy.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Lazy.java
+END
+Repository.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/618/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Repository.java
+END
+GlooException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/321/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/GlooException.java
+END
+PersistencyAttributes.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PersistencyAttributes.java
+END
+Cloner.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Cloner.java
+END
+PostUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/310/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PostUpdate.java
+END
+PreUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PreUpdate.java
+END
+KeyViolationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/313/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/KeyViolationException.java
+END
+PersistentNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/285/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/PersistentNotFoundException.java
+END
+RepositoryInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/618/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/RepositoryInterceptor.java
+END
+Reference.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Reference.java
+END
+AggregateIdentity.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/AggregateIdentity.java
+END
+QueryResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/591/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/QueryResult.java
+END
+Query.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/571/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Query.java
+END
+CannotCompleteTxException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/237/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/CannotCompleteTxException.java
+END
+Intercepted.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/321/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Intercepted.java
+END
+UpdateQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/461/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/UpdateQuery.java
+END
+EncryptionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/237/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/EncryptionException.java
+END
+SystemObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/349/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/SystemObject.java
+END
+VersionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/237/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/VersionManager.java
+END

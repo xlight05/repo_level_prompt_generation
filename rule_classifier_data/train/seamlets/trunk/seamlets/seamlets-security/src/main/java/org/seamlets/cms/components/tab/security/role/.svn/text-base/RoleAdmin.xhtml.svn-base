@@ -1,0 +1,166 @@
+<ui:fragment xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich">
+
+	<ui:fragment rendered="#{securityTab.viewStateRole == 'list'}">	
+
+	    <h:form id="roleSearch" styleClass="edit">
+	
+	        <rich:panel header="Role Search Filter" switchType="ajax">
+	        
+	        	<h:panelGrid columns="3">
+	
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Rolename</ui:define>
+		                <h:inputText id="rolename" value="#{roleList.role.rolename}"/>
+		            </s:decorate>
+		           
+		    	</h:panelGrid>
+	
+		   	</rich:panel>
+		   	
+		   	<div class="actionButtonsContainerList">
+		        <div class="actionButtons">
+	            	<h:commandButton id="search" value="Search" action="#{securityTab.queryRole}"/>
+            		<s:button id="reset" value="Reset" includePageParams="false"/>
+	            	<s:button action="#{securityTab.createRole}"
+			                    id="create"
+			                 value="Create role"/>
+	        	</div>
+		   	</div>
+			   	
+	    </h:form>
+
+		<h:form id="roleTable">
+		    <rich:panel styleClass="resultTable">
+	        	<f:facet name="header">Role Search Results</f:facet>
+			    <div class="results" id="roleList">
+			
+				    <h:outputText value="The role search returned no results."
+				               rendered="#{empty roleList.resultList}"/>
+				
+				    <rich:dataTable id="roleList"
+				                var="_role"
+				              value="#{roleList.dataModel}"
+				           rendered="#{not empty roleList.resultList}">
+				        <h:column>
+				            <f:facet name="header">
+				                <ui:include src="/layout/sort.xhtml">
+				                    <ui:param name="entityList" value="#{roleList}"/>
+				                    <ui:param name="propertyLabel" value="Rolename"/>
+				                    <ui:param name="propertyPath" value="role.rolename"/>
+				                </ui:include>
+				            </f:facet>
+				            <h:outputText value="#{_role.rolename}"/>
+				        </h:column>
+				        <rich:column styleClass="action">
+				            <f:facet name="header">Action</f:facet>
+				            <s:link action="#{securityTab.editRole}"
+				                   value="Edit"
+				                      id="roleEdit">
+				            	<f:param name="roleId" value="#{_role.id}"/>
+				        	</s:link>
+				        </rich:column>
+				    </rich:dataTable>
+				    
+				    <rich:spacer height="5"/>
+				    <rich:datascroller align="right" for="roleList" maxPages="20" 
+						fastControls="auto" id="sc2" rendered="#{not empty roleList.resultList}"/>
+		    	</div>
+	    	</rich:panel>
+		</h:form>
+    </ui:fragment>
+    
+    <rich:panel styleClass="resultEdit" rendered="#{securityTab.viewStateRole == 'edit' || securityTab.viewStateRole == 'create'}">
+        <f:facet name="header">#{roleHome.managed ? 'Edit' : 'Add'} Role</f:facet>
+        
+        <h:form id="role" styleClass="edit">
+			
+			<h:panelGrid columns="2">
+	            <s:decorate id="rolenameField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Rolename</ui:define>
+	                <h:inputText id="rolename"
+	                       disabled="#{userHome.managed}"
+	                       required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{roleHome.instance.rolename}">
+	                    <a4j:support event="onblur" reRender="rolenameField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	       	</h:panelGrid>
+	       	
+	       	<rich:separator height="2" lineType="beveled"/>
+	       	
+	       	<rich:listShuttle id="roleAdminEditList"
+				sourceListWidth="200" sourceListHeight="300"
+				targetListWidth="200" targetListHeight="300"
+				required="false"
+				showButtonLabels="false"
+				fastMoveControlsVisible="false"
+				orderControlsVisible="false"
+				style="height: 100%;"
+				fastOrderControlsVisible="false"
+				sourceCaptionLabel="#{messages['useradmin.permission-available']}"
+	            targetCaptionLabel="#{messages['useradmin.permission-assigned']}"
+				sourceValue="#{securityTab.availablePermissions}"
+	            targetValue="#{securityTab.assignedPermissions}"
+	            converter="#{org.jboss.seam.ui.EntityConverter}"
+	            var="permission">
+	            <rich:column styleClass="normal">
+	            	 <f:facet name="header">
+	            	 	#{messages['useradmin.header.permission.target']}
+	            	 </f:facet>
+	            	#{permission.target}
+	            </rich:column>
+	            <rich:column styleClass="normal">
+	            	 <f:facet name="header">
+	            	 	#{messages['useradmin.header.permission.action']}
+	            	 </f:facet>
+	            	#{permission.action}
+	            </rich:column>
+<!--	            <a4j:support event="onlistchanged" action="#{usersadminEdit.sort}" -->
+<!--	            	status="commonstatus"-->
+<!--	            	eventsQueue="userEditQueue"-->
+<!--	            	reRender="userAdminEditList"/>-->
+	        </rich:listShuttle>
+            
+            <div class="actionButtonsContainer">
+		        <div class="actionButtons">
+	            	<div class="requiredContainer" style="left: 10px;" >
+		                <span class="required">*</span>
+		                required fields
+		            </div>
+	
+		            <h:commandButton 
+                          value="Add"
+                         action="#{securityTab.saveRole}"
+                       disabled="#{!roleHome.wired}"
+                       rendered="#{!roleHome.managed}"/>
+
+		            <h:commandButton 
+		                          value="Save"
+		                         action="#{securityTab.saveRole}"
+		                       rendered="#{roleHome.managed}"/>
+		
+		            <h:commandButton 
+		                          value="Delete"
+		                         action="#{securityTab.removeRole}"
+		                      immediate="true"
+		                       rendered="#{roleHome.managed}"/>
+		
+		          	
+		            <s:button 
+		                   value="Cancel"
+		                   action="#{securityTab.cancelRoleEdit}"/>
+		
+		        </div>
+			</div>
+		</h:form>
+	</rich:panel>
+
+</ui:fragment>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/43/trunk/strudem/src/java
+END
+admin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/42/trunk/strudem/src/java/admin.xml
+END
+profesor.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/43/trunk/strudem/src/java/profesor.xml
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/42/trunk/strudem/src/java/struts.xml
+END

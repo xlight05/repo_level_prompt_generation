@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io
+END
+HttpResponseWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/HttpResponseWriter.html
+END
+SocketInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/SocketInputBuffer.html
+END
+SocketOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/SocketOutputBuffer.html
+END
+HttpRequestParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/HttpRequestParser.html
+END
+AbstractMessageWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/AbstractMessageWriter.html
+END
+HttpTransportMetricsImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/HttpTransportMetricsImpl.html
+END
+ContentLengthInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/ContentLengthInputStream.html
+END
+ContentLengthOutputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/ContentLengthOutputStream.html
+END
+DefaultHttpRequestParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/DefaultHttpRequestParser.html
+END
+HttpResponseParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/HttpResponseParser.html
+END
+ChunkedInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/ChunkedInputStream.html
+END
+ChunkedOutputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/ChunkedOutputStream.html
+END
+DefaultHttpResponseParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/DefaultHttpResponseParser.html
+END
+AbstractSessionInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/AbstractSessionInputBuffer.html
+END
+AbstractSessionOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/AbstractSessionOutputBuffer.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/package-frame.html
+END
+AbstractMessageParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/AbstractMessageParser.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/package-use.html
+END
+IdentityInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/IdentityInputStream.html
+END
+HttpRequestWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/HttpRequestWriter.html
+END
+IdentityOutputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/IdentityOutputStream.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/package-tree.html
+END

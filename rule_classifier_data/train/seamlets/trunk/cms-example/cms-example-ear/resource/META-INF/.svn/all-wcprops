@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/427/trunk/cms-example/cms-example-ear/resource/META-INF
+END
+application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/401/trunk/cms-example/cms-example-ear/resource/META-INF/application.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/427/trunk/cms-example/cms-example-ear/resource/META-INF/MANIFEST.MF
+END
+jboss-app.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/13/trunk/cms-example/cms-example-ear/resource/META-INF/jboss-app.xml
+END

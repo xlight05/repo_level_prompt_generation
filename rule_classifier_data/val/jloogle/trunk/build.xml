@@ -1,0 +1,23 @@
+<project name="jloogle" basedir="." default="upload">
+
+  <property file="${user.home}/.ftp.properties"/>
+  <property name="name" value="${ant.project.name}"/>
+  <property name="ftp.remotedir" value="/public_html/${name}"/>
+
+  <target name="upload">
+    <ftp action="put"
+         server="${ftp.server}"
+         remotedir="${ftp.remotedir}"
+         userid="${ftp.userid}"
+         password="${ftp.password}"
+         verbose="yes">
+      <fileset dir=".">
+        <include name="index.php"/>
+        <include name="Parser.html"/>
+        <include name="${name}.jar"/>
+        <include name="${name}-src.tar.gz"/>
+      </fileset>
+    </ftp>  
+  </target>
+
+</project>

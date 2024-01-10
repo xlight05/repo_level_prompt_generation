@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===========================================================================
+	//   UPDATE - update
+	============================================================================ -->
+	<update id="update" parameterClass="${sqlmap.model.instanceName}">
+		UPDATE ${sqlmap.tableName} SET
+			<#list sqlmap.updateFields as field>
+			${field.databaseFieldName} = #${field.javaFieldName},jdbcType=${field.jdbcType}#<#if field_has_next>,</#if>
+			</#list>
+		WHERE
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName} = #${field.javaFieldName}# <#if field_has_next>AND</#if>
+			</#list>
+	</update>

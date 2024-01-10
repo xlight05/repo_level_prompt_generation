@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich" xmlns:s="http://jboss.com/products/seam/taglib"
+	template="/layout/template.xhtml">
+
+	<!-- page parameter -->
+	<ui:param name="showHotLinks" value="false" />
+	<ui:param name="showInfoLinks" value="false" />
+	<ui:param name="showTitle" value="true" />
+	<ui:param name="showSubtitle" value="true" />
+	<ui:param name="showNavigationView" value="false" />
+	<ui:param name="showLogout" value="false" />
+	<ui:param name="showSystemMessages" value="false" />
+	<ui:param name="showIdle" value="false" />
+	
+	<ui:define name="body">
+		<h:form id="input">
+			<table width="40%" border="0" cellspacing="0" cellpadding="0" class="form">
+				<tr>
+					<td class="form-head" style="text-align: left;">
+						#{messages['UsersAdminEditProcess.form']}
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left;">
+						<rich:messages for="userAdminEditMessages"
+							errorClass="errortext"
+							errorMarkerClass="errortext"
+							errorLabelClass="errortext"
+							style="margin-left: 8px;">
+							<f:facet name="infoMarker">
+								<h:graphicImage value="/images/common/decoration/info.gif" />
+							</f:facet>
+							<f:facet name="warnMarker">
+								<h:graphicImage value="/images/common/decoration/warn.gif" />
+							</f:facet>
+							<f:facet name="errorMarker">
+								<h:graphicImage value="/images/common/decoration/error.gif" />
+							</f:facet>
+							<f:facet name="fatalMarker">
+								<h:graphicImage value="/images/common/decoration/fatal.gif" />
+							</f:facet>
+						</rich:messages>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left;" >
+						<table cellspacing="0" cellpadding="0" style="height: 100%">
+							<tr>
+								<td class="form-label" width="238" style="text-align: left;" colspan="2">
+									<h:outputText id="userAdminEditMessages" 
+										value="#{messages['UsersAdminEditProcess.password']}"/>
+								</td>
+								<td class="form-label" style="text-align: left; padding-left: 0px;" colspan="2">
+									#{messages['UsersAdminEditProcess.confirmPassword']}
+								</td>
+							</tr>
+							<tr>
+								<td class="form-label" width="200" style="text-align: left;" >
+									<s:decorate>
+										<h:inputSecret id="password" value="#{usersAdminEdit.password}" 
+											style="width: 200px;">
+											<s:validate />
+										</h:inputSecret>
+									</s:decorate>
+									<rich:message for="password" styleClass="errortext" />
+								</td>
+								<td width="38">&#160;</td>
+								<td class="form-label" width="200" style="text-align: left; padding-left: 0px;" >
+									<s:decorate>
+										<h:inputSecret id="confirmPassword" value="#{usersAdminEdit.confirmPassword}"
+										style="width: 200px;">
+											<s:validate />
+										</h:inputSecret>
+									</s:decorate>
+									<rich:message for="confirmPassword" styleClass="errortext" />
+								</td>
+								<td width="38">&#160;</td>
+							</tr>
+						</table>
+					</td>
+				</tr>	
+				<tr>
+					<td class="form-input" style="text-align: left;">
+						<rich:listShuttle id="userAdminEditList"
+							sourceListWidth="200" sourceListHeight="#{usersAdminEdit.height}"
+							targetListWidth="200" targetListHeight="#{usersAdminEdit.height}"
+							required="false"
+							showButtonLabels="false"
+							fastMoveControlsVisible="false"
+							orderControlsVisible="false"
+							style="height: 100%;"
+							fastOrderControlsVisible="false"
+							sourceCaptionLabel="#{messages['UsersAdminEditProcess.groups-available']}"
+				            targetCaptionLabel="#{messages['UsersAdminEditProcess.groups-assigned']}"
+							sourceValue="#{usersAdminEdit.availableGroups}"
+				            targetValue="#{usersAdminEdit.assignedGroups}"
+				            var="items"
+				            converter="#{usersAdminEdit.converter}">
+				            <f:facet name="copyControlDisabled">
+				            	<h:graphicImage value="/images/common/button/add.gif"
+									width="22" 
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-add']}"
+									title="#{messages['UsersAdminEditProcess.groups-add']}" 
+									class="selector"
+									border="0"
+									align="left" />
+				            </f:facet>
+				            <f:facet name="copyControl">
+				            	<h:graphicImage value="/images/common/button/add.gif"
+									width="22" 
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-add']}"
+									title="#{messages['UsersAdminEditProcess.groups-add']}" 
+									class="selector"
+									border="0"
+									align="left" />
+				            </f:facet>
+				            <f:facet name="removeControlDisabled">
+				            	<h:graphicImage value="/images/common/button/remove.gif"
+									width="22"
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-remove']}"
+									title="#{messages['UsersAdminEditProcess.groups-remove']}"
+									class="selector"
+									border="0"
+									align="left" />
+				            </f:facet>
+				            <f:facet name="removeControl">
+				            	<h:graphicImage value="/images/common/button/remove.gif"
+									width="22"
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-remove']}"
+									title="#{messages['UsersAdminEditProcess.groups-remove']}"
+									class="selector"
+									border="0"
+									align="left" />
+				            </f:facet>
+				            <rich:column styleClass="normal">
+				                #{items.identifier}
+				            </rich:column>
+				            <a4j:support event="onlistchanged" action="#{usersAdminEdit.sort}" 
+				            	status="commonstatus"
+				            	eventsQueue="userEditQueue"
+				            	reRender="userAdminEditList"/>
+				        </rich:listShuttle>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-foot" align="right">
+						<a4j:commandButton id="saveButton"
+							action="#{usersAdminEdit.save}"
+							value="#{messages['button.save']}"
+							type="submit"
+							status="commonstatus"
+							eventsQueue="userEditQueue"
+							styleClass="button" />
+					</td>
+				</tr>
+			</table>
+		</h:form>
+		<rich:spacer height="20"/>
+	</ui:define>
+</ui:composition>

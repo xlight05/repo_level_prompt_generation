@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<!-- 
+
+Struts2 Configuration
+=====================
+
+Authors : Yohan Liyanage
+
+Version : 15 - September - 2008
+Since 	: 15 - September - 2008
+
+ -->
+ 
+<struts>
+	<!-- Enable Development Mode -->
+	<constant name="struts.devMode" value="true" />
+	
+	<!-- Use Spring Container to Lookup Beans -->
+	<constant name="struts.objectFactory" value="spring" />
+	
+	<!-- Struts2 Action Extensions -->
+	<constant name="struts.action.extension" value="action,form" />
+	
+	<!-- Default Package -->
+	<package name="af-default" extends="struts-default">
+		
+		
+		<interceptors>
+			<!-- Authentication Aware Intercepter -->
+			<interceptor name="authaware" class="lk.apiit.friends.web.struts2.interceptors.AuthenticationAwareInterceptor" />
+			
+			<!-- Custom Intercepter Stack with AuthenticationAwareIntercepter -->
+			<interceptor-stack name="authawareStack">
+				<interceptor-ref name="authaware" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+			
+			<!-- Authentication Aware Token Session Stack -->
+			<interceptor-stack name="tokenSessionAuthawareStack">
+				<interceptor-ref name="tokenSession" />
+				<interceptor-ref name="authawareStack" />
+			</interceptor-stack>
+			
+			<!-- Token Session Stack on Default Stack  -->
+			<interceptor-stack name="tokenSessionStack">
+				<interceptor-ref name="tokenSession" />
+				<interceptor-ref name="authawareStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<default-interceptor-ref name="authawareStack" />
+		
+	</package>
+	
+	<!-- Root -->
+	<package name="af-root" extends="af-default" namespace="/">
+		<action name="home">
+			<result>/root/index.jsp</result>
+		</action>
+					
+		<action name="sign-in">
+			<result>/root/login.jsp</result>
+		</action>
+
+	</package>
+	
+
+	
+	<!-- Registration -->
+	<package name="af-registration" extends="af-default" namespace="/registration">
+
+		<action name="register">
+			<result>/registration/register.jsp</result>
+		</action>	
+		
+		<action name="type" class="lk.apiit.friends.web.struts2.actions.account.RegisterAction" method="input">
+			<result>/registration/type.jsp</result>
+		</action>	
+
+		<action name="select-type" class="lk.apiit.friends.web.struts2.actions.account.RegisterAction" method="selectType">
+			<result name="student" type="redirectAction">student</result>
+			<result name="staff" type="redirectAction">staff</result>
+		</action>
+		
+		<action name="student" class="lk.apiit.friends.web.struts2.actions.account.RegisterAction" method="input">
+			<result>/registration/student.jsp</result>
+		</action>	
+
+		<action name="staff" class="lk.apiit.friends.web.struts2.actions.account.RegisterAction" method="input">
+			<result>/registration/staff.jsp</result>
+		</action>	
+						
+		<action name="registerstudent" class="lk.apiit.friends.web.struts2.actions.account.RegisterAction" method="registerStudent">
+			<interceptor-ref name="tokenSessionStack" />
+			<result name="input">/registration/student.jsp</result>
+			<result>/registration/done.jsp</result>
+		</action>	
+		
+		<action name="registerstaff" class="lk.apiit.friends.web.struts2.actions.account.RegisterAction" method="registerStaff">
+			<interceptor-ref name="tokenSessionStack" />
+			<result name="input">/registration/staff.jsp</result>
+			<result>/registration/done.jsp</result>
+		</action>
+	</package>
+	
+	<!-- Account -->
+	<package name="af-register" extends="af-default" namespace="/account">
+		<action name="home" class="lk.apiit.friends.web.struts2.actions.account.AccountAction">
+			<result>/account/index.jsp</result>
+		</action>
+	</package>
+</struts>

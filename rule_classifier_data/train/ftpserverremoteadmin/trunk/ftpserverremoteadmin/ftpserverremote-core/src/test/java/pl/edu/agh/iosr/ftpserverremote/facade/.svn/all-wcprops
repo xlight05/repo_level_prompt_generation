@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/264/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/facade
+END
+ServerSideFacadeImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/264/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/facade/ServerSideFacadeImplTest.java
+END
+FakeConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/127/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/facade/FakeConnection.java
+END

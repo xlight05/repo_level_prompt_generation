@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.gloodb</groupId>
+	<artifactId>GlooDBImplMem</artifactId>
+	<version>0.0.1</version>
+	<name>GlooDBImplMem</name>
+	<description>Memory implementation of the gloodb repository.</description>
+	<packaging>jar</packaging>
+
+	<url>http://code.google.com/p/gloodb/</url>
+	<licenses>
+		<license>
+			<name>Apache 2</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<connection>scm:svn:http://gloodb.googlecode.com/svn/tags/GlooDB-0.0.1</connection>
+		<url>http://gloodb.googlecode.com/svn/tags/GlooDB-0.0.1</url>
+	  <developerConnection>scm:svn:https://gloodb.googlecode.com/svn/tags/GlooDB-0.0.1/GlooDBImplMem</developerConnection>
+  </scm>
+	<issueManagement>
+		<system>Google Code</system>
+		<url>http://code.google.com/p/gloodb/issues/list</url>
+	</issueManagement>
+	<developers>
+		<developer>
+			<id>dinoo333</id>
+			<name>Dino Octavian</name>
+			<email>dinoo333@gmail.com</email>
+			<roles>
+				<role>architect</role>
+				<role>developer</role>
+			</roles>
+			<timezone>-8</timezone>
+		</developer>
+	</developers>
+
+	<parent>
+		<artifactId>GlooDBParent</artifactId>
+		<groupId>com.gloodb</groupId>
+		<version>0.0.1</version>
+	</parent>
+
+	<dependencies>
+		<!-- Test dependencies -->
+		<dependency>
+			<groupId>com.gloodb</groupId>
+			<artifactId>GlooDBApi</artifactId>
+			<classifier>tests</classifier>
+		</dependency>
+		<dependency>
+			<groupId>com.gloodb</groupId>
+			<artifactId>GlooDBImpl</artifactId>
+			<classifier>tests</classifier>
+		</dependency>
+
+		<!-- Release dependencies -->
+		<dependency>
+			<groupId>com.gloodb</groupId>
+			<artifactId>GlooDBApi</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.gloodb</groupId>
+			<artifactId>GlooDBImpl</artifactId>
+		</dependency>
+	</dependencies>
+</project>

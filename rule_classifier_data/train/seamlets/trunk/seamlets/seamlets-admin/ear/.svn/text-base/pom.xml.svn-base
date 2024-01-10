@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.seamlets.cms</groupId>
+		<artifactId>seamlets-admin</artifactId>
+		<version>1.0.0.A1-SNAPSHOT</version>
+	</parent>
+
+	<groupId>org.seamlets.cms</groupId>
+	<artifactId>seamlets-admin-ear</artifactId>
+	<packaging>ear</packaging>
+	<name>Seamlets Admin EAR Project</name>
+	<version>${project.parent.version}</version>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>${project.parent.artifactId}-ejb</artifactId>
+			<version>${project.parent.version}</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>${project.parent.groupId}</groupId>
+			<artifactId>${project.parent.artifactId}-web</artifactId>
+			<version>${project.parent.version}</version>
+			<type>war</type>
+		</dependency>
+	</dependencies>
+
+	<build>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-ear-plugin</artifactId>
+
+				<configuration>
+					<defaultLibBundleDir>lib/</defaultLibBundleDir>
+					<generateApplicationXml>true</generateApplicationXml>
+					<generatedDescriptorLocation>src/main/resources/META-INF</generatedDescriptorLocation>
+					<version>5</version>
+					<jboss>
+						<version>4.2</version>
+						<unauthenticated-principal>guest</unauthenticated-principal>
+						<loader-repository>seam.jboss.org:loader=seamlets-admin.ear</loader-repository>
+					</jboss>
+					<modules>
+						<webModule>
+							<groupId>${project.parent.groupId}</groupId>
+							<artifactId>${project.parent.artifactId}-web</artifactId>
+							<contextRoot>/admin</contextRoot>
+							<unpack>deploy.exploded</unpack>
+							<bundleFileName>${project.parent.artifactId}-web.war</bundleFileName>
+						</webModule>
+						<ejbModule>
+							<groupId>${project.parent.groupId}</groupId>
+							<artifactId>${project.parent.artifactId}-ejb</artifactId>
+							<bundleFileName>${project.parent.artifactId}-ejb.jar</bundleFileName>
+							<unpack>deploy.exploded</unpack>
+						</ejbModule>
+						<ejbModule>
+							<groupId>org.seamlets.cms</groupId>
+							<artifactId>seamlets-components-core</artifactId>
+							<bundleFileName>seamlets-components-core.jar</bundleFileName>
+							<unpack>deploy.exploded</unpack>
+						</ejbModule>
+						<ejbModule>
+							<groupId>org.jboss.seam</groupId>
+							<artifactId>jboss-seam</artifactId>
+						</ejbModule>
+					</modules>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

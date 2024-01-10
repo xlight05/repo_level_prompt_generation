@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/model
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/model/User.java
+END
+LoginDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/model/LoginDetails.java
+END
+UserRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7/trunk/apiitfriends/src/lk/apiit/friends/model/UserRole.java
+END
+Staff.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/model/Staff.java
+END
+StaffType.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/model/StaffType.java
+END
+Student.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/model/Student.java
+END
+RoleTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/model/RoleTypes.java
+END

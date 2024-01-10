@@ -1,0 +1,33 @@
+#summary Tutorials: Creating a new persistent object without transactions.
+#labels Phase-Support
+
+{{{
+                SimplePersistent persistentObject = new SimplePersistent("1");
+                persistentObject.setValue("Hello World");
+                
+                repository.create(persistentObject);
+}}}
+
+ # Create the object and set its values. 
+ # Add it to the repository using the create method.
+ # The parameters of the create method are:
+  * the new instance of the persistent object.
+  * the return value is the instance of the newly created persistent object. Use this value for further persistence operations.
+
+Create method ensures an object with the same identity doesn't exist in the repository, otherwise a !KeyViolationException is thrown.
+
+{{{
+                assertFalse(repository.contains("1"));
+                repository.create(new SimplePersistent("1"));
+                // Will throw KeyViolationException
+                repository.create(new SimplePersistent("1"));
+}}}
+
+----
+===== Related Articles =====
+ * [WritingASimplePersistentClass].
+ * TransactionalCreate.
+
+===== Related Tutorial Test Cases =====
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleCreateTest.java SimpleCreateTest]
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/CreateWithKeyViolationTest.java CreateWithKeyViolationTest]

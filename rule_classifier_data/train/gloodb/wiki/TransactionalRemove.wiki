@@ -1,0 +1,30 @@
+#summary Tutorials: Removing an object using transactions.
+
+{{{
+		Repository tx = repository.begin();
+		try {
+                        tx.remove(id);
+			tx.commit();
+		} catch (GlooException ex) {
+			tx.rollback();
+		}
+
+
+}}}
+
+ # Begin a transaction. 
+ # Remove the object and commit the transaction. To undo the changes invoke rollback.
+
+Until commit is invoked:
+ * other concurent transactions will not observe the remove operation (the object still exists in the repository). Non-transactional operations on repository (i.e. top level transaction) do observe the not-yet-commited remove.
+ * child transactions do observe the not-yet-commited remove.
+ * the behaviour of the remove method is same as the [NonTransactionalRemove non-transactional remove].
+
+Until commit or rollback are invoked on the transaction:
+ * the object identity is locked. Other concurrent transaction trying to create, remove or update this object will throw a !LockingException.
+
+----
+Related tutorial articles:
+ * NonTransactionalRemove
+Related tutorial test cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleRemoveTest.java SimpleRemoveTest]

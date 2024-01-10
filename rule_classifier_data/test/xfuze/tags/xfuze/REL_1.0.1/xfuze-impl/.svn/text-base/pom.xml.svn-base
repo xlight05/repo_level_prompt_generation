@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.xfuze</groupId>
+		<artifactId>xfuze</artifactId>
+		<version>1.0.1</version>
+	</parent>
+
+	<groupId>org.xfuze</groupId>
+	<artifactId>xfuze-impl</artifactId>
+	<version>1.0.1</version>
+
+	<name>xFuze - impl</name>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>src/main/resources/sqlmap</directory>
+				<excludes>
+					<exclude>Sequence.xml</exclude>
+				</excludes>
+			</resource>
+		</resources>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.xfuze</groupId>
+			<artifactId>xfuze-lang</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.xfuze</groupId>
+			<artifactId>xfuze-api</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+	</dependencies>
+
+</project>

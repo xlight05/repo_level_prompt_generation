@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_Id" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>
+		Localisation
+	</display-name>
+
+	<!-- Dossier dans lequel se situe tous les fichiers web -->
+	<context-param>
+		<param-name>web.filepath</param-name>
+		<param-value>fr.epsi.epsi5.Web</param-value>
+	</context-param>
+
+	<!-- Nom de l'application à afficher -->
+	<context-param>
+		<param-name>web.appname</param-name>
+		<param-value>Localisation</param-value>
+	</context-param>
+	
+	<!-- Classe du Contexte -->
+	<context-param>
+		<param-name>contextClass</param-name>
+		<param-value>org.springframework.osgi.web.context.support.OsgiBundleXmlWebApplicationContext</param-value>
+	</context-param>
+	
+	<!-- Listener fournit par Spring -->
+	<listener>
+		<listener-class>
+			org.springframework.web.context.ContextLoaderListener
+		</listener-class>
+	</listener>
+	
+	<servlet>
+    	<servlet-name>springmvc</servlet-name>
+	    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+	    <init-param>
+			<param-name>contextClass</param-name>
+			<param-value>org.springframework.osgi.web.context.support.OsgiBundleXmlWebApplicationContext</param-value>
+		</init-param>
+    	<load-on-startup>2</load-on-startup>
+  	</servlet>
+  	<servlet-mapping>
+    	<servlet-name>springmvc</servlet-name>
+    	<url-pattern>*.rpc</url-pattern>
+  	</servlet-mapping>
+  	
+	<!-- Page d'accueil -->	
+	<welcome-file-list>
+		<welcome-file>fr.epsi.epsi5.Web/Web.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

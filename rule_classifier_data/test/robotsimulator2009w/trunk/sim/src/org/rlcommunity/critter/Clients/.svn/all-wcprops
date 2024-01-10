@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Clients
+END
+KeyboardClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Clients/KeyboardClient.java
+END
+DiscoInterfaceClientHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Clients/DiscoInterfaceClientHandler.java
+END
+TwoWheeledRobotControllerClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Clients/TwoWheeledRobotControllerClient.java
+END
+DropClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Clients/DropClient.java
+END
+DiscoInterfaceServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/44/trunk/sim/src/org/rlcommunity/critter/Clients/DiscoInterfaceServer.java
+END

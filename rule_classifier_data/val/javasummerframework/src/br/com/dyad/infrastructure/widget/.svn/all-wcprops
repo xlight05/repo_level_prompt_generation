@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget
+END
+BaseServerWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/BaseServerWidget.java
+END
+DyadEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/DyadEvents.java
+END
+Window.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/Window.java
+END
+BaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/BaseAction.java
+END
+WidgetListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/WidgetListener.java
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/Action.java
+END
+Interaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/Interaction.java
+END
+ActionMenuItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/ActionMenuItem.java
+END

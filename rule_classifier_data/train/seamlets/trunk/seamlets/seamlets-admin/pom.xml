@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>org.seamlets.jboss.seam</groupId>
+		<version>2.1.1.GA</version>
+	</parent>
+	<groupId>org.seamlets.cms</groupId>
+	<artifactId>seamlets-admin</artifactId>
+	<packaging>pom</packaging>
+	<version>1.0.0.A1-SNAPSHOT</version>
+	<name>Seamlets Admin Application</name>
+
+
+	<modules>
+		<module>ejb</module>
+		<module>web</module>
+		<module>ear</module>
+	</modules>
+
+	<properties>
+		<version.richfaces>3.3.0.GA</version.richfaces>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.primefaces</groupId>
+			<artifactId>primefaces-ui</artifactId>
+			<version>0.8.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.5.6</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>log4j</artifactId>
+					<groupId>log4j</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+		<dependency>
+			<groupId>org.seamlets</groupId>
+			<artifactId>seamlets-core</artifactId>
+			<version>1.0.0.A2-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>org.seamlets</groupId>
+			<artifactId>seamlets-components-core</artifactId>
+			<version>1.0.0.A2-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>org.seamlets</groupId>
+			<artifactId>seamlets-facelets</artifactId>
+			<version>1.0.0.A2-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.seamlets</groupId>
+			<artifactId>seamlets-security</artifactId>
+			<version>1.0.0.A2-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+		<dependency>
+			<groupId>org.seamlets</groupId>
+			<artifactId>seamlets-resource</artifactId>
+			<version>1.0.0.A2-SNAPSHOT</version>
+			<type>ejb</type>
+		</dependency>
+	</dependencies>
+
+</project>

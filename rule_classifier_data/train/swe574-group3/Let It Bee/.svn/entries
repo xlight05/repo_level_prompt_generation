@@ -1,0 +1,123 @@
+10
+
+dir
+51
+http://swe574-group3.googlecode.com/svn/Let%20It%20Bee
+http://swe574-group3.googlecode.com/svn
+
+
+
+2012-06-03T19:23:45.229213Z
+51
+baran.ipek@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8b484775-a231-dd4d-756d-78e22d149351
+
+app
+dir
+
+tmp
+dir
+
+.classpath
+file
+
+
+
+
+2016-03-21T21:42:00.734214Z
+c7376a260c00bd0f3307f5f8e6704b22
+2012-04-09T17:49:34.204647Z
+9
+user321name@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7356
+
+eclipse
+dir
+
+.project
+file
+
+
+
+
+2016-03-21T21:42:00.734214Z
+7aa387f32688318ad219e48c6f8a2c1c
+2012-04-09T17:49:34.204647Z
+9
+user321name@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1254
+
+conf
+dir
+
+modules
+dir
+
+data
+dir
+
+public
+dir
+
+.settings
+dir
+
+test
+dir
+

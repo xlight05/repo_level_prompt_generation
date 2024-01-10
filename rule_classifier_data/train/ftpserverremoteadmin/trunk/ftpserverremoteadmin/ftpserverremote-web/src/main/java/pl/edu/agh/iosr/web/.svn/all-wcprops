@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/357/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web
+END
+IpRestrictorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/354/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/IpRestrictorBean.java
+END
+FileDataBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/218/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/FileDataBean.java
+END
+StatisticsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/357/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/StatisticsBean.java
+END
+SpyUserBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/278/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/SpyUserBean.java
+END
+BeanUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/267/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/BeanUtil.java
+END
+UserBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/353/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/UserBean.java
+END
+ConnectionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/244/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/ConnectionBean.java
+END
+LogBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/345/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/LogBean.java
+END
+ConfigurationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/355/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/ConfigurationBean.java
+END
+MessagesBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/347/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/MessagesBean.java
+END
+AdminBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/338/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/AdminBean.java
+END

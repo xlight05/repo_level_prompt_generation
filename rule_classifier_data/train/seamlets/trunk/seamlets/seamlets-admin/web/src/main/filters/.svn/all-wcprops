@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/filters
+END
+tomcat.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/filters/tomcat.properties
+END
+jboss.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/filters/jboss.properties
+END

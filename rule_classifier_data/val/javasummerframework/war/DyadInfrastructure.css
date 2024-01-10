@@ -1,0 +1,277 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+.pc-template-btn {
+  display: block;
+  font-size: 16pt
+}
+
+#pc-template-img {
+  margin-top: 20px;
+}
+
+.ux-toolmenu-sep {
+	background-color:#18191a;
+	border-bottom:1px solid #858789;
+	display:block;
+	font-size:1px;
+	line-height:1px;
+	margin:2px 3px;
+}
+.calculated-field {
+	background-color:#FFE000;
+}
+.startmenu-logout {
+	background-image: url( resources/images/default/logout.gif ) !important;
+}
+
+.startmenu-settings {
+	background-image: url( resources/images/default/gears.gif ) !important;
+}
+
+.startmenu-lock {
+	background-image: url( resources/images/default/icon_padlock.png ) !important;
+}
+
+.startmenu-process {
+	background-image: url( resources/images/default/grid.png ) !important;
+}
+
+.startmenu-folder {
+	background-image: url( resources/images/default/folder.png ) !important;
+}
+
+.startmenu-module{
+	background-image: url( resources/images/default/package.png ) !important;
+}
+
+.startmenu-help{
+	background-image: url( resources/images/default/help.png ) !important;
+}
+
+.startmenu-database{
+	background-image: url( resources/images/default/database.png ) !important;
+}
+
+.startmenu-user{
+	background-image: url( resources/images/default/user.png ) !important;
+}
+
+.progress-user{
+	background-image: url( resources/images/default/clock.png )
+}
+
+.startmenu-usergroup{
+	background-image: url( resources/images/default/groupuser.png ) !important;
+}
+
+.startmenu-schueduler{
+	background-image: url( resources/images/default/clock.png ) !important;
+}
+
+.startmenu-databasecreate{
+	background-image: url( resources/images/default/database_go.png ) !important;
+}
+
+.startmenu-databaserestore{
+	background-image: url( resources/images/default/database_gear.png ) !important;
+}
+
+.startmenu-dataexplorer{
+	background-image: url( resources/images/default/find.png ) !important;
+}
+
+.startmenu-navigation{
+	background-image: url( resources/images/default/chart_organisation.png ) !important;
+}
+
+.startmenu-updaterecord{
+	background-image: url( resources/images/default/building_go.png ) !important;
+}
+
+.login-user{
+	background-image: url( resources/images/default/lock.png ) !important;
+}
+
+.prompt-user{
+	background-image: url( resources/images/default/help.png ) !important;
+}
+
+.unlock-session-user{
+	background-image: url( resources/images/default/lock_open.png ) !important;
+}
+
+.x-status-text {
+	margin: 0;;
+	font: normal 12px tahoma, arial, helvetica, sans-serif;
+	white-space: nowrap;
+	color: black !important;
+}
+
+.x-status-text-error {
+	margin: 0;;
+	font: normal 12px tahoma, arial, helvetica, sans-serif;
+	white-space: nowrap;
+	color: red !important;
+}
+
+.icon-wait {
+  background: url(resources/images/default/wait.gif) no-repeat !important;
+}
+
+.process-actionmenu{
+	background-image: url( resources/images/default/wrench_orange.png ) !important;
+}
+
+.process-action{
+	background-image: url( resources/images/default/lightning.png ) !important;
+}
+
+.process-go{
+	background-image: url( resources/images/default/resultset_next.png ) !important;
+}
+
+.process-back{
+	background-image: url( resources/images/default/resultset_previous.png ) !important;
+}
+
+.process-print{
+	background-image: url( resources/images/default/printer.png ) !important;
+}
+
+.process-layouts{
+	background-image: url( resources/images/default/page_white_text.png ) !important;	
+}
+
+
+.x-info-tc {
+  background: transparent url( resources/images/default/top-bottom.gif) repeat-x 0 0;
+  overflow: hidden;
+}
+.x-info-tl {
+  background: transparent url( resources/images/default/corners-sprite.gif) no-repeat 0 0;
+  padding-left: 6px;
+  zoom: 1;
+}
+.x-info-tr {
+  background: transparent url( resources/images/default/corners-sprite.gif) no-repeat right 0;
+  zoom: 1;
+  padding-right: 6px;
+}
+.x-info-bc {
+  background: transparent url( resources/images/default/top-bottom.gif) repeat-x 0 bottom;
+  zoom: 1;
+  font-size: 0px;
+}
+.x-info-bl {
+  background: transparent url( resources/images/default/corners-sprite.gif) no-repeat 0 bottom;
+  padding-left: 6px;
+  zoom: 1;
+}
+
+.x-info-br {
+  background: transparent url( resources/images/default/corners-sprite.gif) no-repeat right bottom;
+  padding-right: 6px;
+  zoom: 1;
+}
+
+.grid-insert{
+	background-image: url( resources/images/default/add.png ) !important;	
+}
+
+.grid-post{
+	background-image: url( resources/images/default/accept.png ) !important;	
+}
+
+.grid-delete{
+	background-image: url( resources/images/default/delete.png ) !important;	
+}
+
+.grid-cancel{
+	background-image: url( resources/images/default/cancel.png ) !important;	
+}
+
+.grid-exportation{
+	background-image: url( resources/images/default/script_lightning.png ) !important;	
+}
+
+.grid-log{
+	background-image: url( resources/images/default/lightbulb.png ) !important;	
+}
+
+.grid-search{
+	background-image: url( resources/images/default/zoom.png ) !important;	
+}
+.grid-changeview{
+	background-image: url( resources/images/default/plugin.png ) !important;	
+}
+
+.x-form-labelgroup {
+  padding: 2px 3px 3px 0px;
+  font-size: 12px;
+  color:#15428b;
+  font:bold 11px tahoma,arial,verdana,sans-serif;
+}
+
+.grid-pageprevious{
+	background-image: url( resources/images/default/page_previous.png ) !important;	
+}
+
+.grid-recordprevious{
+	background-image: url( resources/images/default/record_previous.png ) !important;	
+}
+
+.grid-recordnext{
+	background-image: url( resources/images/default/record_next.png ) !important;	
+}
+
+.grid-pagenext{
+	background-image: url( resources/images/default/page_next.png ) !important;	
+}
+
+.x-form-content-align-right {
+	text-align: right;
+}
+
+.x-form-edition {	
+	border:1px solid #ffCC00;
+}
+
+.x-form-label-customized {
+  padding: 2px 3px 3px 0px;
+  font-size: 12px;
+  color:#15428b;
+  font: 11px tahoma,arial,verdana,sans-serif;
+}
+
+.x-tab-item-customized {
+    background-color:#dfe8f6;
+}
+
+
+/* Override standard grid styles (add colour to vertical grid lines) */
+.x-grid3-col {
+    border-left:  1px solid #FFFFFF;
+    border-right: 1px solid #EEEEEE;
+}
+
+/* Also remove padding from table data (to compensate for added grid lines) */
+.x-grid3-row td, .x-grid3-summary-row td {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.exception-dialog-error{
+	background-image: url( resources/images/default/cancel.png ) !important;	
+}
+.exception-dialog-treated-error{
+	background-image: url( resources/images/default/shared/warning.gif ) !important;	
+}
+.license-icon{
+	background-image: url( resources/images/default/database_gear.png ) !important;	
+}
+
+.startmenu-template{
+	background-image: url( resources/images/default/wand.png ) !important;
+}

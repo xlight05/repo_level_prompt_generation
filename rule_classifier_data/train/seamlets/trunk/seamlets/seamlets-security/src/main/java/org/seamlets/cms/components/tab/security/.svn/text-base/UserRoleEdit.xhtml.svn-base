@@ -1,0 +1,85 @@
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:a="http://richfaces.org/a4j"
+    xmlns:rich="http://richfaces.org/rich"
+    template="layout/template.xhtml">
+
+<ui:define name="body">
+
+    <h:form id="userRole" styleClass="edit">
+
+        <rich:panel>
+            <f:facet name="header">#{userRoleHome.managed ? 'Edit' : 'Add'} User role</f:facet>
+
+
+            <s:decorate id="idField" template="layout/edit.xhtml">
+                <ui:define name="label">Id</ui:define>
+                <h:inputText id="id"
+                       required="true"
+                       disabled="#{userRoleHome.managed}"
+                          value="#{userRoleHome.instance.id.id}">
+                    <a:support event="onblur" reRender="idField" bypassUpdates="true" ajaxSingle="true"/>
+                </h:inputText>
+            </s:decorate>
+
+            <s:decorate id="usernameField" template="layout/edit.xhtml">
+                <ui:define name="label">Username</ui:define>
+                <h:inputText id="username"
+                       disabled="#{userRoleHome.managed}"
+                      required="true"
+                          size="15"
+                     maxlength="15"
+                         value="#{userRoleHome.instance.id.username}">
+                    <a:support event="onblur" reRender="usernameField" bypassUpdates="true" ajaxSingle="true"/>
+                </h:inputText>
+            </s:decorate>
+
+            <div style="clear:both">
+                <span class="required">*</span>
+                required fields
+            </div>
+
+        </rich:panel>
+
+        <div class="actionButtons">
+
+            <h:commandButton id="save"
+                          value="Save"
+                         action="#{userRoleHome.persist}"
+                       disabled="#{!userRoleHome.wired}"
+                       rendered="#{!userRoleHome.managed}"/>
+
+            <h:commandButton id="update"
+                          value="Save"
+                         action="#{userRoleHome.update}"
+                       rendered="#{userRoleHome.managed}"/>
+
+            <h:commandButton id="delete"
+                          value="Delete"
+                         action="#{userRoleHome.remove}"
+                      immediate="true"
+                       rendered="#{userRoleHome.managed}"/>
+
+            <s:button id="cancelEdit"
+                   value="Cancel"
+             propagation="end"
+                    view="/UserRole.xhtml"
+                rendered="#{userRoleHome.managed}"/>
+
+            <s:button id="cancelAdd"
+                   value="Cancel"
+             propagation="end"
+                    view="/#{empty userRoleFrom ? 'UserRoleList' : userRoleFrom}.xhtml"
+                rendered="#{!userRoleHome.managed}"/>
+
+        </div>
+    </h:form>
+
+</ui:define>
+
+</ui:composition>

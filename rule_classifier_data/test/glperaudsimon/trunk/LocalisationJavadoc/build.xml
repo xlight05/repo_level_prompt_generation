@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+	<property name="workspaceRoot" value="../"/>
+	<property name="workspaceRoot" value="../"/>
+
+
+    <target name="javadoc">
+    	<path id="classpath"> 		
+            <fileset dir="${workspaceRoot}TargetPlatform">
+                <include name="**/*.jar" />
+            </fileset>
+    	</path>
+    	
+    	<path id="sourcepath">
+    		<pathelement path="${workspaceRoot}Entities/src"/>
+    		<pathelement path="${workspaceRoot}DaoAndServices/src"/>
+    		<pathelement path="${workspaceRoot}Web.war/src"/>
+    	</path>
+    	
+        <javadoc access="public" charset="UTF-8" source="5" classpathref="classpath" sourcepathref="sourcepath" destdir="doc"/>
+    </target>
+</project>

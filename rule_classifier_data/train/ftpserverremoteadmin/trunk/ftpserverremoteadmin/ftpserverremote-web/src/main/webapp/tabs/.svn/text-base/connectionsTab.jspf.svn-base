@@ -1,0 +1,61 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    id="connectionsInc" >
+    
+        
+   <tc:panel>
+        
+        <f:facet name="layout">
+            <tc:gridLayout rows="1*;22px" />
+        </f:facet>     
+
+    
+    <tc:sheet columns="1*;1*;1*;1*;1*" value="#{ConnectionBean.connections}"
+              var="connection" state="#{ConnectionBean.sheetState}"
+              rows="25"
+              showRowRange="left" showPageRange="right" showDirectLinks="center"
+              showHeader="true">
+        
+        <tc:column id="server" label="#{messages.server}" sortable="true"
+                   rendered="true">
+            <tc:out value="#{connection.serverHostname}"/>
+        </tc:column>
+        
+        <tc:column id="user" label="#{messages.user}" sortable="true"
+                   rendered="true">
+            <tc:out value="#{connection.userName}" />
+        </tc:column>
+        
+        
+        <tc:column id="login_time" label="#{messages.login_time}" sortable="true"
+                   rendered="true">
+            <tc:out value="#{connection.loginTime}"/>
+        </tc:column>
+        
+        <tc:column id="lastaccess_time" label="#{messages.last_access}" sortable="true"
+                   rendered="true">
+            <tc:out value="#{connection.lastAccessTime}"/>
+        </tc:column>
+        
+        <tc:column id="user_ip" label="#{messages.ip}" sortable="true"
+                   rendered="true">
+            <tc:out value="#{connection.ip}"/>
+        </tc:column>
+        
+    </tc:sheet>
+    
+    <tc:panel>
+        <f:facet name="layout">
+            <tc:gridLayout columns="*;90px;70px;70px;*" rows="22px" />
+        </f:facet>
+        <tc:out value="" /> 
+        <tc:button label="#{messages.disconnect}" action="#{ConnectionBean.disconnect}" width="80px"/>
+        <tc:button label="#{messages.spy}" action="#{ConnectionBean.spyUser}" width="60px"/>
+        <tc:button label="#{messages.reload}" action="#{ConnectionBean.reload}" width="60px"/>
+        <tc:out value="" /> 
+    </tc:panel> 
+    
+    </tc:panel>
+    </f:subview>

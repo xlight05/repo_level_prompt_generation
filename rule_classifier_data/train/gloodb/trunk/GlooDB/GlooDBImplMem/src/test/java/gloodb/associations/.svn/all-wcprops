@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/590/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/associations
+END
+MemoryBasedUniqueIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/associations/MemoryBasedUniqueIndexTest.java
+END
+MemoryBasedOneToOneAssociationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/associations/MemoryBasedOneToOneAssociationTest.java
+END
+MemoryBasedOneToManyAssociationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/associations/MemoryBasedOneToManyAssociationTest.java
+END
+MemoryBasedNonUniqueIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/associations/MemoryBasedNonUniqueIndexTest.java
+END
+MemoryBasedManyToManyAssociationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/590/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/associations/MemoryBasedManyToManyAssociationTest.java
+END

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template xmlns="http://seamlets.org/cms/template"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://seamlets.org/cms/template http://seamlets.org/cms/template-1.0.xsd"
+	displayName="Default Template" importer="#{fileTemplateImporter}">
+	<viewparts>
+		<viewpart name="body" sortorder="0"/>
+	</viewparts>
+</template>

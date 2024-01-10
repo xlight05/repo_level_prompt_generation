@@ -1,0 +1,27 @@
+Configuración   Mauricio	2   Listo
+Usuarios        Mauricio	2   Listo
+Perfil          Mauricio	2   Listo
+Cerrar Sesión   Mauricio	2   Listo
+Alumnos         Mily            2   
+Historial Académico Luis	2   
+Grupos          Gilberto	2   Listo
+Asistencias     Luis            2   
+Profesor        Charly          2   Listo
+Mi Horario      Charly          2   
+Horarios        Gilberto	2   Listo
+Mis Grupos      Gilberto	2   Listo
+Institución     -               2   -
+Aulas           Mauricio	2   Listo
+Edificios       Mily            3   
+Ubicaciones     Charly          3   Listo
+Cuatrimestres   Mily            3   
+Materias        Mily            3   
+Unidades        Martin          3   Listo
+Especialidades  Martin          3   Listo
+Carreras        Martin          3   Listo
+Periodos        Charly          3   Listo
+
+
+6/22=   27%     proceso     08/11/2012
+10/22=  45%     proceso     09/11/2012
+14/22=  63%     proceso     10/11/2012

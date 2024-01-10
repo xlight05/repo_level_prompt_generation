@@ -1,0 +1,1 @@
+rmiregistry 1199 -J-classpath -J..\..\..\

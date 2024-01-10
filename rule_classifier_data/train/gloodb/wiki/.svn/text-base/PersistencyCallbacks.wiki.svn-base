@@ -1,0 +1,101 @@
+#summary Using persistency callbacks.
+
+= Persistency Callbacks =
+
+Using annotations, persistent classes can specify CRUD pre / post callback methods. Each annotation can be used only once per class. Callback methods can have any visibility and must have the following signature:
+ {{{ 
+  void anyNameYouChoose(Repository repository)
+}}} 
+
+Methods annotated with
+ * @!PostRestore: invoked after the object has been restored.  Use !PostRestore callbacks to inject transient dependencies. Note that, transient values are reset after create and update (after remove too, but it makes less sense to inject when the object has been removed).
+==== Example 1: Injecting dependencies using persistency callbacks. ====
+{{{
+  public class Foo implements Serializable {
+     @Identity private Serializable id;
+      private transient Repository repository;
+
+      ...
+
+     @PostRestore 
+     @PostCreate
+     @PostUpdate
+     void injectTransientValues(Repository repository) {
+         this.repository = repository;
+     }
+}
+}}}
+ * @!PreCreate: invoked before the object is created. Throwing an exception prevents the object create. Use this callback to implement constraints and, where suitable, relationships maintenance.
+ * @!PostCreate: invoked after the object is created. Use this callback to implement relationships maintenance.
+ * @!PreUpdate: invoked before the object is updated. Throwing an exception prevents the object update. Use this callback to implement constraints and, where suitable, relationships maintenance.
+ * @!PostUpdate: invoked after the object is updated. Use this callback to implement relationships maintenance.
+==== Example 2: Using Pre / Post callbacks to manage relationships. ====
+{{{
+  public class Foo implements Serializable {
+      @Identity private final Serializable id;
+      private final Serializable parentId;
+
+      public Foo(Serializable id, Serializable parentid) {
+           this.parentId = parentId;
+      }
+
+      @PreCreate void preCreate(Repository repository) throws NullFooParentConstraintViolation { 
+            // Non-nullable parent condition
+            if(this.parentId == null) throw new NullFooParentConstraintViolation("Null parent id found");
+            if(!repository.contains(this.parentId)) throw new NullFooParentConstraintViolation(
+                      String.format("No parent record found for id %", parentId.toString));
+      }
+
+      @PostCreate void postCreate(Repository repository) { 
+            ParentFoo parent = (ParentFoo)repositoy.restore(this.parentId);
+
+            // Update the parent relationship.
+            parent.addChild(this.id);
+            repository.update(parent);
+      }
+
+      @PostRemove void postRemove(Repository repository) {
+            ParentFoo parent = (ParentFoo)repository.restore(this.parentId);
+
+            // No need to update the relationship if this a parent remove cascade.
+            if(parent != null) {
+               // Update the parent relationship
+               parent.removeChild(this.id);
+               repository.update(parent);
+            }
+      }
+  }
+}}}
+ * @!PreRemove: invoked before the object is removed. Throwing an exception prevents the object remove. Use this callback to implement constraints and, where suitable, relationships maintenance.
+ * @!PostRemove: invoked after the object is removed. Use this callback to implement relationships maintenance.
+==== Example 3: Using !PostRemove to cascade delete ====
+{{{
+  public class FooParent implements Serializable {
+      @Identity private final Serializable id;
+      private final List<Serializable> childrenIds;
+
+      public FooParent(Serializable id) {
+           this.id = id;
+           this.children = new ArrayList<Serializable>();
+      } 
+
+     public void addChild(Serializable childId) {
+          this.children.add(childId);
+     }
+
+     public void removeChild(Serializable childId) {
+         this.children.remove(childId);
+     }
+
+     @PostRemove
+      void postRemove(Repository repository) {
+            // Cascade the remove.
+            for(Serializable childId: this.childrenIds) {
+                repository.remove(childId);
+            }
+      }
+  }
+}}}
+
+----
+[OptimisticLockingUsingVersion Previous] [PersistencyInterceptors Next]

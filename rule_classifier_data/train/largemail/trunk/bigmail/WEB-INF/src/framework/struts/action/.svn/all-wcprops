@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/action
+END
+CheckoutUploadAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/action/CheckoutUploadAction.java
+END
+ReloadStrutsConfigAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/action/ReloadStrutsConfigAction.java
+END
+LocalizeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/action/LocalizeAction.java
+END
+MailTransferAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/action/MailTransferAction.java
+END

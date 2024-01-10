@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use
+END
+Authorization.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/Authorization.html
+END
+SkipValidation.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/SkipValidation.html
+END
+Calculated.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/Calculated.html
+END
+Customize.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/Customize.html
+END
+NotCustomizable.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/NotCustomizable.html
+END
+Singleton.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/Singleton.html
+END
+CacheClass.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/CacheClass.html
+END
+MetaField.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/MetaField.html
+END
+SendToClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/SendToClient.html
+END
+MetaGrid.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/MetaGrid.html
+END
+Test.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/class-use/Test.html
+END

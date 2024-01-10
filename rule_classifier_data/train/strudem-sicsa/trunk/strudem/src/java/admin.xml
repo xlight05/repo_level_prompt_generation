@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="admin" namespace="/admin" extends="struts-default,json-default"> 
+        <interceptors>
+            <interceptor name="interceptorAutenticacion" class="session.InterAutenticacion" />
+            <interceptor-stack name="secureStack">
+                <interceptor-ref name="interceptorAutenticacion" />
+                <interceptor-ref name="defaultStack" />
+            </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="secureStack" />
+
+        <global-results>
+            <result name="login" type="redirect">/login.action</result>
+        </global-results>
+        <action name="configuracion">
+            <result>/admin/configuracion.jsp</result>
+        </action>
+        <action name="cerrarSession" class="bean.LoginBean" method="cerrarSession">
+            <result name="success" type="redirect">/login.jsp</result>
+        </action>
+        <action name="admin" class="bean.LoginBean" method="tipoUsuarioActual">
+            <result name="success">/admin/index.jsp</result>
+            <result name="error">/login.jsp</result>
+        </action>
+        
+        
+        <action name="usuarioNuevo" class="bean.UsuarioBean" method="cargarPagina">
+            <result name="success">/admin/usuarioInsertar.jsp</result>
+        </action>
+        <action name="usuarioInsertar" class="bean.UsuarioBean" method="insertar">
+            <result name="none" type="redirect">/admin/usuarioInsertar.jsp</result>
+            <result name="success">/admin/usuarioLista.jsp</result>
+            <result name="error" type="redirect">/admin/usuarioInsertar.jsp</result>
+        </action>
+        <action name="usuarioLista" class="bean.UsuarioBean" method="consultas" >
+            <result name="success">/admin/usuarioLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="usuarioModificar" class="bean.UsuarioBean" method="modificarRegistro">
+            <result name="input">/admin/usuarioModificar.jsp</result>
+            <result name="success">/admin/usuarioLista.jsp</result>
+            <result name="error">/admin/usuarioModificar.jsp</result>
+        </action>
+        <action name="usuarioEditar" class="bean.UsuarioBean" method="consultaUsuario">
+            <result name="success">/admin/usuarioModificar.jsp</result>
+            <result name="error">/admin/usuarioLista.jsp</result>
+        </action>
+        
+        
+        <action name="aulaNuevo" class="bean.AulaBean" method="cargarPagina">
+            <result name="success">/admin/aulaInsertar.jsp</result>
+        </action>
+        <action name="aulaInsertar" class="bean.AulaBean" method="insertar">
+            <result name="none" type="redirect">/admin/aulaInsertar.jsp</result>
+            <result name="success">/admin/aulaLista.jsp</result>
+            <result name="error" type="redirect">/admin/aulaInsertar.jsp</result>
+        </action>
+        <action name="aulaLista" class="bean.AulaBean" method="consultas" >
+            <result name="success">/admin/aulaLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="aulaModificar" class="bean.AulaBean" method="modificarRegistro">
+            <result name="input">/admin/aulaModificar.jsp</result>
+            <result name="success">/admin/aulaLista.jsp</result>
+            <result name="error">/admin/aulaModificar.jsp</result>
+        </action>
+        <action name="aulaEditar" class="bean.AulaBean" method="consultaAula">
+            <result name="success">/admin/aulaModificar.jsp</result>
+            <result name="error">/admin/aulaLista.jsp</result>
+        </action>
+        
+        <action name="grupoLista" class="bean.GruposBean" method="consultas">
+            <result name="success">/admin/gruposLista.jsp</result>
+        </action>
+
+        <action name="profesorNuevo" class="bean.ProfesorBean" method="cargarPagina">
+            <result name="success">/admin/profesorInsertar.jsp</result>
+        </action>
+        <action name="profesorInsertar" class="bean.ProfesorBean" method="insertar">
+            <result name="none" type="redirect">/admin/profesorInsertar.jsp</result>
+            <result name="success">/admin/profesorLista.jsp</result>
+            <result name="error" type="redirect">/admin/profesorInsertar.jsp</result>
+        </action>
+        <action name="profesorLista" class="bean.ProfesorBean" method="consultas" >
+            <result name="success">/admin/profesorLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="profesorModificar" class="bean.ProfesorBean" method="modificarRegistro">
+            <result name="input">/admin/profesorModificar.jsp</result>
+            <result name="success">/admin/profesorLista.jsp</result>
+            <result name="error">/admin/profesorModificar.jsp</result>
+        </action>
+        <action name="profesorEditar" class="bean.ProfesorBean" method="consultaProfesor">
+            <result name="success">/admin/profesorModificar.jsp</result>
+            <result name="error">/admin/profesorLista.jsp</result>
+        </action>
+        
+
+        <action name="periodoNuevo" class="bean.PeriodoBean" method="cargarPagina">
+            <result name="success">/admin/periodoInsertar.jsp</result>
+        </action>
+        <action name="periodoInsertar" class="bean.PeriodoBean" method="insertar">
+            <result name="none" type="redirect">/admin/periodoInsertar.jsp</result>
+            <result name="success">/admin/periodoLista.jsp</result>
+            <result name="error" type="redirect">/admin/periodoInsertar.jsp</result>
+        </action>
+        <action name="periodoLista" class="bean.PeriodoBean" method="consultas" >
+            <result name="success">/admin/periodoLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="periodoModificar" class="bean.PeriodoBean" method="modificarRegistro">
+            <result name="input">/admin/periodoModificar.jsp</result>
+            <result name="success">/admin/periodoLista.jsp</result>
+            <result name="error">/admin/periodoModificar.jsp</result>
+        </action>
+        <action name="periodoEditar" class="bean.PeriodoBean" method="consultaPeriodo">
+            <result name="success">/admin/periodoModificar.jsp</result>
+            <result name="error">/admin/periodoLista.jsp</result>
+        </action>
+        
+        <action name="carreraNuevo" class="bean.CarreraBean" method="cargarPagina">
+            <result name="success">/admin/carreraInsertar.jsp</result>
+        </action>
+        <action name="carreraInsertar" class="bean.CarreraBean" method="insertar">
+            <result name="none" type="redirect">/admin/carreraInsertar.jsp</result>
+            <result name="success">/admin/carreraLista.jsp</result>
+            <result name="error" type="redirect">/admin/carreraInsertar.jsp</result>
+        </action>
+        <action name="carreraLista" class="bean.CarreraBean" method="consultas" >
+            <result name="success">/admin/carreraLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        
+        <action name="carreraModificar" class="bean.CarreraBean" method="modificarRegistro">
+            <result name="input">/admin/carreraModificar.jsp</result>
+            <result name="success">/admin/carreraLista.jsp</result>
+            <result name="error">/admin/carreraModificar.jsp</result>
+        </action>
+        <action name="carreraEditar" class="bean.CarreraBean" method="consultaCarrera">
+            <result name="success">/admin/carreraModificar.jsp</result>
+            <result name="error">/admin/carreraLista.jsp</result>
+        </action>
+        
+        
+        
+        
+        
+        <action name="especialidadNuevo" class="bean.EspecialidadBean" method="cargarPagina">
+            <result name="success">/admin/especialidadInsertar.jsp</result>
+        </action>
+        <action name="especialidadInsertar" class="bean.EspecialidadBean" method="insertar">
+            <result name="none" type="redirect">/admin/especialidadInsertar.jsp</result>
+            <result name="success">/admin/especialidadLista.jsp</result>
+            <result name="error" type="redirect">/admin/especialidadInsertar.jsp</result>
+        </action>
+        <action name="especialidadLista" class="bean.EspecialidadBean" method="consultas" >
+            <result name="success">/admin/especialidadLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="especialidadModificar" class="bean.EspecialidadBean" method="modificarRegistro">
+            <result name="input">/admin/especialidadModificar.jsp</result>
+            <result name="success">/admin/especialidadLista.jsp</result>
+            <result name="error">/admin/especialidadModificar.jsp</result>
+        </action>
+        <action name="especialidadEditar" class="bean.EspecialidadBean" method="consultaEspecialidad">
+            <result name="success">/admin/especialidadModificar.jsp</result>
+            <result name="error">/admin/especialidadLista.jsp</result>
+        </action>
+        
+        
+        <action name="ubicacionNuevo" class="bean.UbicacionBean" method="cargarPagina">
+            <result name="success">/admin/ubicacionInsertar.jsp</result>
+        </action>
+        <action name="ubicacionInsertar" class="bean.UbicacionBean" method="insertar">
+            <result name="none" type="redirect">/admin/ubicacionInsertar.jsp</result>
+            <result name="success">/admin/ubicacionLista.jsp</result>
+            <result name="error" type="redirect">/admin/ubicacionInsertar.jsp</result>
+        </action>
+        <action name="ubicacionLista" class="bean.UbicacionBean" method="consultas" >
+            <result name="success">/admin/ubicacionLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="ubicacionModificar" class="bean.UbicacionBean" method="modificarRegistro">
+            <result name="input">/admin/ubicacionModificar.jsp</result>
+            <result name="success">/admin/ubicacionLista.jsp</result>
+            <result name="error">/admin/ubicacionModificar.jsp</result>
+        </action>
+        <action name="ubicacionEditar" class="bean.UbicacionBean" method="consultaUbicacion">
+            <result name="success">/admin/ubicacionModificar.jsp</result>
+            <result name="error">/admin/ubicacionLista.jsp</result>
+        </action>
+        <action name="MiHorarioLista" class="bean.MiHorarioBean" method="MiHorarioLista">
+            <result name="success">/admin/MiHorarioLista.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="misGrupos" class="bean.MisGruposBean" method="misGrupos">
+            <result name="success">/admin/MisGrupos.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="seleccionHorario" class="bean.SeleccionHorarioBean" method="seleccionHorario">
+            <result name="success">/admin/SeleccionHorario.jsp</result>
+            <result name="error">/admin/index.jsp</result>
+        </action>
+        <action name="horariosTodos" class="bean.HorariosTodosBean" method="horariosTodos">
+            <result name="success">/admin/HorariosTodos.jsp</result> 
+            <result name="erros">/admin/login.jsp</result>
+        </action>
+        
+        
+    </package>
+</struts>
+

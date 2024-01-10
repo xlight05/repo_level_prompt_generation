@@ -1,0 +1,214 @@
+#{extends 'logged_user.html' /}
+#{set title:'Handshake Details' /}
+
+<script src="@{'/public/javascripts/handshake-detail.js'}" type="text/javascript" charset="${_response_encoding}"></script>
+
+<div id="main" style="padding-top:0px">
+  <div class="post" style="padding:top:0px">
+    <div class="right">
+      <h3>
+	#{if handshake.isOriginallyAnOffer}
+	${handshake.offer.title}
+	#{/if}
+	#{else}
+	${handshake.request.title}
+	#{/else}
+      </h3>
+      <p>${handshake.offer.description}</p>
+      <div class="restrictions">
+	<h4>Details for Handshake "${handshake.offer.title}""
+	</h4>
+	
+	<ul>
+
+	  <li>
+	    <label>Description</label>
+	    ${handshake.offer.description}
+	  </li>
+
+          <li>
+            <label>Offerer</label>
+	    ${handshake.offer.user.fullname}
+          </li>
+          
+          <li>
+            <label>Requester</label>
+	    ${handshake.request.user.fullname}
+          </li>
+          
+          
+          <li>
+            <label>Date of Handshake</label>
+	    ${handshake.creationDate}
+          </li>
+          
+          
+          <li>
+            <label>Honey Combs Made</label>
+	    ${handshake.offer.credit}
+          </li>
+          
+	#{if handshake.isOriginallyAnOffer}
+
+          <li>
+            <label>Offer End Date</label>
+	    ${handshake.offer.endDate}
+          </li>
+    #{/if}
+   	
+   	#{else}
+   
+          <li>
+            <label>Request End Date</label>
+	    ${handshake.request.endDate}
+          </li>
+	#{/else}   
+
+          
+        </ul>
+        
+      </div>
+    </div>
+    
+    <div class="left">
+      <div class="post-meta">
+        <ul>
+          <li><h4>Offerer</h4>${handshake.offer.user.fullname}</li>
+
+	  <a href="@{Users.profile(handshake.offer.user.id)}">
+	  #{if handshake.offer.user.photo.exists()}
+	  <img alt=" ${handshake.offer.user.fullname}'s avatar" src="@{Application.showUserPhoto(handshake.offer.user.id)}" class="lemiddleavatar"/>
+	  #{/if}
+	  #{else}
+	  <img alt="Default Avatar" src="/public/images/lbi02.png" class="lepetitavatar" />
+	  #{/else}
+	  </a>
+
+          <li><h4>Requester</h4>${handshake.request.user.fullname}</li>
+
+	  <a href="@{Users.profile(handshake.request.user.id)}">
+	  #{if handshake.request.user.photo.exists()}
+	  <img alt=" ${handshake.request.user.fullname}'s avatar" src="@{Application.showUserPhoto(handshake.request.user.id)}" class="lemiddleavatar"/>
+	  #{/if}
+	  #{else}
+	  <img alt="Default Avatar" src="/public/images/lbi02.png" class="lepetitavatar" />
+	  #{/else}
+	  </a>
+
+        </ul>
+      </div>
+    </div>
+    
+    <div class="post-meta">
+      <h4>tags</h4>
+      <p>
+	#{if handshake.offer.tags}
+	${handshake.offer.tags.join(', ')}
+	#{/if}
+	#{else}
+	${handshake.request.tags.join(', ')}
+	#{/else}
+      </p>
+      
+      #{if handshakeParticipant}      
+      <div class="apply_menu">
+	#{if handshake.status == models.Handshake.Status.ACCEPTED}
+	<a style="width:130px" class="apply" href="@{Handshakes.start(handshake.id)}">Start</a>
+	<a style="width:130px" class="cancel" href="@{Handshakes.cancel(handshake.id)}">Cancel</a>
+	#{/if}
+	#{if handshake.status == models.Handshake.Status.STARTED}
+	<a style="width:130px" class="apply" href="@{Handshakes.end(handshake.id)}">End</a>
+	#{/if}
+      </div>
+      #{/if}
+      
+    </div>
+  </div>
+  
+  
+  
+  <div class="post-bottom-section">
+    <div class="tab_left">
+      <ul>
+        <li>
+          <a href="#" class="active" target_content="content-1">Comments (${commentCount})</a>
+        </li>
+      </ul>
+    </div>
+    <div class="right tab_right">
+      
+      
+      <div id="content-1" class="tab_content">
+        <span class="title">Comments</span>
+        <ol class="commentlist">
+          #{list items:comments, as:'comment'}
+          <li class="depth-1">
+            <div class="comment-info">
+	      
+	      <a href="@{Users.profile(comment.user.id)}">
+	      #{if comment.user.photo.exists()}
+	      <img alt=" ${comment.user.fullname}'s avatar" src="@{Application.showUserPhoto(comment.user.id)}" class="lepetitavatar"/>
+	      #{/if}
+	      #{else}
+	      <img alt="Default Avatar" src="/public/images/lbi02.png" class="lepetitavatar" />
+	      #{/else}
+	      </a>
+	      <cite> <a href="@{Users.profile(comment.user.id)}">${comment.user.fullname}</a> Says: <br />
+                <span class="comment-data">${comment.date.format('dd MMMM yyyy, hh:mm')}</span>
+	      </cite>
+	    </div> 
+            <div class="comment-text">
+              <p>${comment.text}</p>
+               #{if comment.rating != null}
+               		<script type="text/javascript">
+					 $(document).ready( function() {
+						 rate = ${comment.rating};  
+							for(i = 1; i < 6; i++)
+							{
+								if( i > rate)
+								{
+									$('#rating_star_area').append('<img class="imgNon" style="width:15px;" src="/public/images/stars0.png" />');  
+								}
+								else
+								{
+									$('#rating_star_area').append('<img class="imgNon" style="width:15px;" src="/public/images/stars1.png" />'); 
+								}
+							}
+						});
+					  </script>
+					   <div id="rating_star_area"+ style="width:200px; text-align: right;">
+		      
+		     			</div>   
+              	<!--  	<p>Rating: ${comment.rating} / 5</p> -->
+               #{/if}
+            </div>
+          </li>
+          #{/list}
+        </ol>
+        #{if commentability }
+        <form action="@{Handshakes.saveComment(handshake.id)}" method="post" id="commentform">
+          <p>
+          <label for="rating">Rating</label>
+          <select id="rating"  name="rating">
+	  			<option value="5" selected="selected">5</option>
+	  			<option value="4">4</option>	
+	  		    <option value="3">3</option>
+	  		    <option value="2">2</option>
+	  		    <option value="1">1</option>			
+			</select> 
+			<br />
+            <label for="message">Your Message</label>
+            <br />
+            <textarea id="message" name="message" rows="10" cols="20" tabindex="4"></textarea>
+          </p>
+          <p class="no-border">
+            <input class="button" type="submit" value="Submit Comment" tabindex="5" />
+          </p>
+        </form>
+        #{/if}
+      </div>
+      
+    </div>
+  </div>
+
+</div>

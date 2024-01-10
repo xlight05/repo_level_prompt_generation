@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/jjsc-test/src/org/jjsc/compiler
+END
+ConditionsTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/56/trunk/jjsc-test/src/org/jjsc/compiler/ConditionsTestCase.java
+END
+MethodCompilerTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/82/trunk/jjsc-test/src/org/jjsc/compiler/MethodCompilerTestCase.java
+END
+ExceptionHandlerTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/57/trunk/jjsc-test/src/org/jjsc/compiler/ExceptionHandlerTestCase.java
+END
+MethodsInvocationTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/59/trunk/jjsc-test/src/org/jjsc/compiler/MethodsInvocationTestCase.java
+END
+EarlyBugsTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/82/trunk/jjsc-test/src/org/jjsc/compiler/EarlyBugsTestCase.java
+END
+OperatorsTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/59/trunk/jjsc-test/src/org/jjsc/compiler/OperatorsTestCase.java
+END
+CyclesTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59/trunk/jjsc-test/src/org/jjsc/compiler/CyclesTestCase.java
+END
+BooleanOperationsTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/53/trunk/jjsc-test/src/org/jjsc/compiler/BooleanOperationsTestCase.java
+END
+MiscellaneousTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/trunk/jjsc-test/src/org/jjsc/compiler/MiscellaneousTestCase.java
+END

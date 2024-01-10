@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/94/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis
+END
+CountHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/68/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/CountHelper.java
+END
+ReadHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/68/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/ReadHelper.java
+END
+CreateReadUpdateDeleteAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/94/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/CreateReadUpdateDeleteAwareDaoImpl.java
+END
+HelperSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/HelperSupport.java
+END
+DeleteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/68/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/DeleteHelper.java
+END
+UpdateHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/68/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/UpdateHelper.java
+END
+CreateHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/68/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/CreateHelper.java
+END
+PagingHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/80/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/helper/ibatis/PagingHelper.java
+END

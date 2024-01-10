@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use
+END
+ContentType.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/ContentType.html
+END
+FileEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/FileEntity.html
+END
+HttpEntityWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/HttpEntityWrapper.html
+END
+BasicHttpEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/BasicHttpEntity.html
+END
+ContentProducer.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/ContentProducer.html
+END
+BufferedHttpEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/BufferedHttpEntity.html
+END
+ContentLengthStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/ContentLengthStrategy.html
+END
+ByteArrayEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/ByteArrayEntity.html
+END
+AbstractHttpEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/AbstractHttpEntity.html
+END
+SerializableEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/SerializableEntity.html
+END
+StringEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/StringEntity.html
+END
+InputStreamEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/InputStreamEntity.html
+END
+EntityTemplate.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/entity/class-use/EntityTemplate.html
+END

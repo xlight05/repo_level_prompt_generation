@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters
+END
+CrimsonDOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/CrimsonDOMAdapter.java
+END
+OracleV1DOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/OracleV1DOMAdapter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/package.html
+END
+OracleV2DOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/OracleV2DOMAdapter.java
+END
+XML4JDOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/XML4JDOMAdapter.java
+END
+DOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/DOMAdapter.java
+END
+JAXPDOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/JAXPDOMAdapter.java
+END
+AbstractDOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/AbstractDOMAdapter.java
+END
+XercesDOMAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/adapters/XercesDOMAdapter.java
+END

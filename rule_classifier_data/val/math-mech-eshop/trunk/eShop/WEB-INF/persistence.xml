@@ -1,0 +1,33 @@
+<persistence>
+
+	<persistence-unit name="main">
+
+		<!-- 
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>  -->
+
+
+
+
+		<properties>
+		
+			<property name="hibernate.archive.autodetection" value="class"/>
+			<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+			<property name="hibernate.hbm2ddl.auto">update<!-- 'create-drop means that tables will drop and create again on every deploy' --></property>
+			<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+			<property name="hibernate.connection.charSet">UTF-8</property>
+
+
+			<!--
+				Username and password must be set in "AntFiles/server.properties"
+				file. Ant script automatic past it here
+			-->			
+			
+			<property name="hibernate.connection.url">jdbc:mysql://{server}:{port}/{username}?useUnicode=true&amp;characterEncoding=UTF-8</property>
+			<property name="hibernate.connection.password">{password}</property>
+			<property name="hibernate.connection.username">{username}</property>
+
+
+		</properties>
+	</persistence-unit>
+
+</persistence>

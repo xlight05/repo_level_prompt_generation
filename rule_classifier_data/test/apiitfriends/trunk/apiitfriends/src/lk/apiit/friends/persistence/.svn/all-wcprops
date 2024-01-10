@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/persistence
+END
+BaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/persistence/BaseDao.java
+END
+ObjectNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/persistence/ObjectNotFoundException.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/persistence/UserDao.java
+END

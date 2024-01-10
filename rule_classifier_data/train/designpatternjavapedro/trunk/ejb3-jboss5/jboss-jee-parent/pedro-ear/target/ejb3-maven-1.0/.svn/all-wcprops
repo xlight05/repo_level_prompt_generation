@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0
+END
+pedro-ejb-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/pedro-ejb-1.0.jar
+END
+commons-collections-3.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/commons-collections-3.2.jar
+END
+commons-lang-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/commons-lang-2.3.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/commons-logging-1.1.1.jar
+END
+mysql-connector-java-5.0.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/mysql-connector-java-5.0.2.jar
+END
+jbossall-client-4.2.2.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/jbossall-client-4.2.2.GA.jar
+END
+pedro-web-1.0.war
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0/pedro-web-1.0.war
+END

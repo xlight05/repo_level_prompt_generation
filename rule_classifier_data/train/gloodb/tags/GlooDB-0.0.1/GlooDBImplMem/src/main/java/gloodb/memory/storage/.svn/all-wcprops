@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage
+END
+MemoryStorageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/MemoryStorageFactory.java
+END
+MemoryStorageConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/MemoryStorageConfiguration.java
+END
+MemoryStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/MemoryStorage.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/package.html
+END
+MemoryAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/MemoryAddress.java
+END
+MemoryStorageProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/MemoryStorageProxy.java
+END
+MemoryStorageStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/main/java/gloodb/memory/storage/MemoryStorageStrategy.java
+END

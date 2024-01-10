@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/7/trunk/realtimegc/bin
+END
+jcommon-1.0.12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/realtimegc/bin/jcommon-1.0.12.jar
+END
+rtgc.jar
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/7/trunk/realtimegc/bin/rtgc.jar
+END
+jfreechart-1.0.9.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/realtimegc/bin/jfreechart-1.0.9.jar
+END
+rtgc.bat
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/4/trunk/realtimegc/bin/rtgc.bat
+END
+joda-time-1.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/realtimegc/bin/joda-time-1.6.jar
+END
+commons-logging-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/realtimegc/bin/commons-logging-1.1.1.jar
+END
+rtgc.sh
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/4/trunk/realtimegc/bin/rtgc.sh
+END

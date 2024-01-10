@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/450/trunk/seamlets/seamlets-resource/src/main/java/org/seamlets/resource/tools
+END
+BlobTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/441/trunk/seamlets/seamlets-resource/src/main/java/org/seamlets/resource/tools/BlobTool.java
+END
+HibernateBlobTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/450/trunk/seamlets/seamlets-resource/src/main/java/org/seamlets/resource/tools/HibernateBlobTool.java
+END

@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/153/RPGBot/scripts/spells
+END
+robot-chargeup.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/144/RPGBot/scripts/spells/robot-chargeup.js
+END
+bloodknight-froststrike.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/145/RPGBot/scripts/spells/bloodknight-froststrike.js
+END
+bard-songofathena.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/149/RPGBot/scripts/spells/bard-songofathena.js
+END
+warlock-silence.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/145/RPGBot/scripts/spells/warlock-silence.js
+END
+robot-electrorestore.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/144/RPGBot/scripts/spells/robot-electrorestore.js
+END
+barbarian-double.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/118/RPGBot/scripts/spells/barbarian-double.js
+END
+mage-lightning.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/145/RPGBot/scripts/spells/mage-lightning.js
+END
+cleric-regen.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/145/RPGBot/scripts/spells/cleric-regen.js
+END
+druid-vinewrap.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-vinewrap.js
+END
+bard-songofcrono.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/153/RPGBot/scripts/spells/bard-songofcrono.js
+END
+bloodknight-parastrike.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/145/RPGBot/scripts/spells/bloodknight-parastrike.js
+END
+mage-ice.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/145/RPGBot/scripts/spells/mage-ice.js
+END
+bard-songofzeus.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/149/RPGBot/scripts/spells/bard-songofzeus.js
+END
+glasscannon-blast.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/151/RPGBot/scripts/spells/glasscannon-blast.js
+END
+_SPELL_TEMPLATE.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/135/RPGBot/scripts/spells/_SPELL_TEMPLATE.js
+END
+druid-recover.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-recover.js
+END
+rogue-jab.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/153/RPGBot/scripts/spells/rogue-jab.js
+END
+bard-songofares.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/149/RPGBot/scripts/spells/bard-songofares.js
+END
+warlock-fear.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/123/RPGBot/scripts/spells/warlock-fear.js
+END
+druid-heal.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-heal.js
+END
+robot-electrospark.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/144/RPGBot/scripts/spells/robot-electrospark.js
+END
+waterwizard-tidalwave.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/153/RPGBot/scripts/spells/waterwizard-tidalwave.js
+END
+waterwizard-undinetears.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/119/RPGBot/scripts/spells/waterwizard-undinetears.js
+END
+druid-natureguard.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-natureguard.js
+END
+bard-songofartemis.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/149/RPGBot/scripts/spells/bard-songofartemis.js
+END
+mage-fire.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/145/RPGBot/scripts/spells/mage-fire.js
+END
+druid-earthrupture.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-earthrupture.js
+END
+druid-meditate.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-meditate.js
+END
+druid-drain.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-drain.js
+END
+bard-songofhades.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/149/RPGBot/scripts/spells/bard-songofhades.js
+END
+warlock-poison.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/123/RPGBot/scripts/spells/warlock-poison.js
+END
+rogue-stab.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/153/RPGBot/scripts/spells/rogue-stab.js
+END
+bloodknight-flamestrike.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/145/RPGBot/scripts/spells/bloodknight-flamestrike.js
+END
+cleric-heal.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/145/RPGBot/scripts/spells/cleric-heal.js
+END
+cleric-holy.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/145/RPGBot/scripts/spells/cleric-holy.js
+END
+waterwizard-bubblespray.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/123/RPGBot/scripts/spells/waterwizard-bubblespray.js
+END
+barbarian-cry.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/123/RPGBot/scripts/spells/barbarian-cry.js
+END
+druid-poison.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/128/RPGBot/scripts/spells/druid-poison.js
+END
+barbarian-cleave.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/118/RPGBot/scripts/spells/barbarian-cleave.js
+END

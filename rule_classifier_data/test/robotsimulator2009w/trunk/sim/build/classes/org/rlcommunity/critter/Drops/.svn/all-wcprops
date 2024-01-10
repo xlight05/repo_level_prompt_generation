@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops
+END
+DropInterface.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/DropInterface.class
+END
+CritterControlDrop$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterControlDrop$1.class
+END
+CritterStateDrop$motor_struct.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterStateDrop$motor_struct.class
+END
+CritterControlDrop$MotorMode.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterControlDrop$MotorMode.class
+END
+DropFactory.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/DropFactory.class
+END
+CritterStateDrop$vector_struct.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterStateDrop$vector_struct.class
+END
+CritterControlDrop$LedMode.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterControlDrop$LedMode.class
+END
+CritterControlDrop.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterControlDrop.class
+END
+CritterStateDrop.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterStateDrop.class
+END
+CritterStateDrop$PowerSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/CritterStateDrop$PowerSource.class
+END
+DropFactory$CurrentClassGetter.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/DropFactory$CurrentClassGetter.class
+END
+SimulatorDrop.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/2/trunk/sim/build/classes/org/rlcommunity/critter/Drops/SimulatorDrop.class
+END

@@ -1,0 +1,14 @@
+#summary Spell scripting information
+#sidebar Classes
+
+[http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/spells/spelltemplate.js Here is the template for spells] -- it contains every function for the spell, and they're all documented so you know what's what. Make sure you read the foreward -- I have several warnings about functions in there.
+
+Eventually, I will write up a validator so you can check scripts against the validator without having to guess and hope (at least, check for script errors -- it can't do runtime errors). If you have any questions, and would like to investigate all of the code yourself, check [http://code.google.com/p/ircrpgbot/source/browse/#svn%2FRPGBot%2Fsrc here].
+
+I have also converted the basic fire spell from Java to Javascript, you can see the Java version [http://code.google.com/p/ircrpgbot/source/diff?spec=svn17&r=17&format=side&path=/RPGBot/src/spells/Fire.java here] (apologies for the diff'd version -- the real version was removed) and the Javascript version [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/spells/basic-fire.js here]. Hopefully that should help make more clear how the transformation from one to the other works.
+
+The "general useful function list" can be found [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/helpful_functions.txt here].
+
+Submission guidelines: 
+  * All spells should be in the form "mainclass-spellname.js" Ex: "barbarian-cry.js" "mage-fire.js"
+  * All spells must be a *single word only* -- multi-word names do not work.

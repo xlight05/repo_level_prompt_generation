@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/60/trunk/eShop
+END
+deploy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/54/trunk/eShop/deploy.xml
+END
+redirect.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/40/trunk/eShop/redirect.xhtml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/51/trunk/eShop/.classpath
+END
+search.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/46/trunk/eShop/search.xhtml
+END
+index.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/43/trunk/eShop/index.xhtml
+END
+userDataToOrder.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/52/trunk/eShop/userDataToOrder.xhtml
+END
+login.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/50/trunk/eShop/login.xhtml
+END
+orderConfirmationContent.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/51/trunk/eShop/orderConfirmationContent.xhtml
+END
+styles.css
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/60/trunk/eShop/styles.css
+END
+rootTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/43/trunk/eShop/rootTemplate.xhtml
+END
+mainTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/50/trunk/eShop/mainTemplate.xhtml
+END
+product.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/60/trunk/eShop/product.xhtml
+END
+colorbox.css
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/39/trunk/eShop/colorbox.css
+END
+admin.css
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/37/trunk/eShop/admin.css
+END
+register.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/49/trunk/eShop/register.xhtml
+END
+error.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/50/trunk/eShop/error.xhtml
+END
+.tomcatplugin
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/26/trunk/eShop/.tomcatplugin
+END
+cart.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/56/trunk/eShop/cart.xhtml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/26/trunk/eShop/.project
+END
+orderDataForUnrigistred.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/51/trunk/eShop/orderDataForUnrigistred.xhtml
+END
+orders.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/50/trunk/eShop/orders.xhtml
+END

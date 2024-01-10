@@ -1,0 +1,135 @@
+python3 create_hole_data.py --proj_name sol-agent-platform --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name sol-agent-platform --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name sol-agent-platform --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name gloodb --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name gloodb --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name gloodb --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name rsbotownversion --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name rsbotownversion --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name rsbotownversion --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name jjskit --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name jjskit --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name jjskit --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name ftpserverremoteadmin --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name ftpserverremoteadmin --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name ftpserverremoteadmin --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name openprocesslogger --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name openprocesslogger --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name openprocesslogger --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name strudem-sicsa --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name strudem-sicsa --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name strudem-sicsa --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name seamlets --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name seamlets --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name seamlets --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name healpix-rangeset --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name healpix-rangeset --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name healpix-rangeset --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name quidsee --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name quidsee --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name quidsee --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name mobileexpensetracker --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name mobileexpensetracker --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name mobileexpensetracker --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name swe574-group3 --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name swe574-group3 --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name swe574-group3 --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name largemail --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name largemail --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name largemail --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name soap-dtc --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name soap-dtc --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name soap-dtc --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name designpatternjavapedro --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name designpatternjavapedro --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name designpatternjavapedro --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name myt5lib --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name myt5lib --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name myt5lib --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name exogdx --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name exogdx --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name exogdx --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name tapestry-sesame --base_dir gcode-data --data_split train
+python3 parse_tree.py --proj_name tapestry-sesame --base_dir rule_classifier_data/train
+python3 check_duplication.py --proj_name tapestry-sesame --base_dir rule_classifier_data/train
+python3 create_hole_data.py --proj_name javasummerframework --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name javasummerframework --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name javasummerframework --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name tinwiki --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name tinwiki --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name tinwiki --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name teammates-shakthi --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name teammates-shakthi --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name teammates-shakthi --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name jcontenedor --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name jcontenedor --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name jcontenedor --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name jloogle --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name jloogle --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name jloogle --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name swinagile --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name swinagile --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name swinagile --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name math-mech-eshop --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name math-mech-eshop --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name math-mech-eshop --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name jata4test --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name jata4test --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name jata4test --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name navigablep2p --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name navigablep2p --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name navigablep2p --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name springlime --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name springlime --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name springlime --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name sohocms --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name sohocms --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name sohocms --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name tyrond --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name tyrond --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name tyrond --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name infinispan-storage-service --base_dir gcode-data --data_split val
+python3 parse_tree.py --proj_name infinispan-storage-service --base_dir rule_classifier_data/val
+python3 check_duplication.py --proj_name infinispan-storage-service --base_dir rule_classifier_data/val
+python3 create_hole_data.py --proj_name project-pt-diaoc --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name project-pt-diaoc --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name project-pt-diaoc --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name dovetaildb --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name dovetaildb --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name dovetaildb --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name robotsimulator2009w --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name robotsimulator2009w --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name robotsimulator2009w --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name ircrpgbot --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name ircrpgbot --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name ircrpgbot --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name xfuze --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name xfuze --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name xfuze --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name realtimegc --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name realtimegc --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name realtimegc --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name fswuniceubtemplates --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name fswuniceubtemplates --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name fswuniceubtemplates --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name glperaudsimon --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name glperaudsimon --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name glperaudsimon --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name apiitfriends --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name apiitfriends --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name apiitfriends --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name qwikioffice-java --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name qwikioffice-java --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name qwikioffice-java --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name xiaonei-java-api --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name xiaonei-java-api --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name xiaonei-java-api --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name wicketbits --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name wicketbits --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name wicketbits --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name hucourses --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name hucourses --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name hucourses --base_dir rule_classifier_data/test
+python3 create_hole_data.py --proj_name gwt-plugindetect --base_dir gcode-data --data_split test
+python3 parse_tree.py --proj_name gwt-plugindetect --base_dir rule_classifier_data/test
+python3 check_duplication.py --proj_name gwt-plugindetect --base_dir rule_classifier_data/test

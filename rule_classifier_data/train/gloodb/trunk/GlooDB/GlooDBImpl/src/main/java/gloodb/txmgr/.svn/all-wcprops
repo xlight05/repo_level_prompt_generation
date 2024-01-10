@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/617/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr
+END
+TxLogFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/88/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxLogFactory.java
+END
+TxManagerInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/354/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxManagerInterceptor.java
+END
+TxLogConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/132/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxLogConfiguration.java
+END
+TxManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/237/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxManager.java
+END
+TxManagerStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/353/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxManagerStrategy.java
+END
+TxManagerImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/617/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxManagerImplementation.java
+END
+TxLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/132/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxLog.java
+END
+TxManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/353/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxManagerFactory.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/243/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/package.html
+END
+TxLogWriteTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxLogWriteTransaction.java
+END
+TxLogReadTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/237/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxLogReadTransaction.java
+END
+TxLogEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/237/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxLogEntry.java
+END
+TxContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/126/trunk/GlooDB/GlooDBImpl/src/main/java/gloodb/txmgr/TxContext.java
+END

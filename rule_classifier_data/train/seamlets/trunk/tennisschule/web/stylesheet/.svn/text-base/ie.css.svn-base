@@ -1,0 +1,24 @@
+
+#navi-menu {
+	height:220px;
+	width:155px;
+	margin-left: 0;
+}
+
+#impressum img {
+	position:relative;
+	float:left;
+	left:20px;
+	top:10px;
+}
+
+#impressum a {
+	position:relative;
+	float:left;
+	left:24px;
+	top:9px;
+}
+
+h3 {
+	font-size: 13pt;	
+}

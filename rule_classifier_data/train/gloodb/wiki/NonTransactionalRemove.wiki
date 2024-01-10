@@ -1,0 +1,11 @@
+#summary Tutorials: Removing a persistent object without transactions.
+#labels Phase-Support
+
+{{{
+		repository.remove(persistenObjectId);
+
+}}}
+
+Invoke remove  while specifying an identity to delete an object from the repository. The method returns the removed object or null when the repository doesn't contain the requested identity.
+
+Related test case: [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleRemoveTest.java SimpleRemoveTest]

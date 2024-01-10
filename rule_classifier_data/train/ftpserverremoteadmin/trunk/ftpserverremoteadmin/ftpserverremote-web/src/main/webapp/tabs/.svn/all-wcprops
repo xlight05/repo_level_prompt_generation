@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/355/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs
+END
+fileTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/276/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/fileTab.jspf
+END
+usersTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/275/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/usersTab.jspf
+END
+logTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/275/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/logTab.jspf
+END
+connectionsTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/244/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/connectionsTab.jspf
+END
+directoryTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/276/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/directoryTab.jspf
+END
+statisticTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/225/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/statisticTab.jspf
+END
+configurationTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/355/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/configurationTab.jspf
+END
+messagesTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/321/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/messagesTab.jspf
+END
+ipRestrictorTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/294/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/ipRestrictorTab.jspf
+END
+spyTab.jspf
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/278/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/tabs/spyTab.jspf
+END

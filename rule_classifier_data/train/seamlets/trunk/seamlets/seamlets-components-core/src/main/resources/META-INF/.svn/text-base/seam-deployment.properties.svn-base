@@ -1,0 +1,4 @@
+# A colon-separated list of annotation types to handle
+org.jboss.seam.deployment.annotationTypes=org.seamlets.cms.annotations.TabView:org.seamlets.cms.annotations.PageContent:org.seamlets.cms.annotations.Template
+# For standard deployment
+org.jboss.seam.deployment.deploymentHandlers=org.seamlets.cms.deploy.template.DotTemplateDotXmlDeploymentHandler

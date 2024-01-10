@@ -1,0 +1,7 @@
+requests
+numpy
+tree_sitter
+javac_parser
+tqdm
+openai==0.28
+transformers

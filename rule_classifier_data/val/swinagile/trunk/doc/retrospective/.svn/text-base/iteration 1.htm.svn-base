@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+  
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!--Description: Agile Development Iteration Retrospective -->
+<!--Author: Ian Fieldhouse -->
+<!--Team:Full-Timers-->
+<!--Date: Oct 12 2006 -->
+
+<head>
+	
+	<title>Agile Development Iteration Retrospective</title>
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta name="author" content="Ian Fieldhouse"/>
+	<meta name="description" content="Iteration Retrospective"/>
+	<meta name="keywords" content="Swinburne, Agile Development, Retrospective"/>
+	
+</head>
+
+<body>
+<div id="header">
+<h1>Iteration Retrospective - #0/1</h1>
+<strong><p>Team - Full Timers</p>
+<p>Meeting Date - Wednesday 11 October, 2006</p></strong>
+</div>
+<br/>
+<h2>Major Achievements / Challenges Overcome</h2>
+<ul>
+	<li>Set up of the build process</li>
+	<li>Initial GUI design implementation</li>
+</ul>
+<p>Little else was achieved and iteration 1 was not really achieved.</p>
+
+<h2>Significant choices / Decisions</h2>
+<ul>
+	<li>Swing was chosen as the GUI library.</li>
+	<li>JFreeChart was chosen over RRD due to ease of use and known functionality that is required for the Metric Tool.</li>
+	<li>Decision to use TortoiseSVN instead of Subclipse</li>
+</ul>
+
+<h2>What is working well?</h2>
+<ul>
+	<li>Tortoise & SVN have been working smoothly apart from Swinburne wireless firewall problems.</li>
+	<li>Xstreme has been found to be easy to use and work with</li>
+	<li>JFreeChart has also been found to be very easy to produce charts</li>
+</ul>
+
+<h2>Current Challenges</h2>
+<ul>
+	<li><strong>Communication</strong>: the most significant issue for the team at the moment is the lack of communication
+	and insufficient team meetings. This has been made obvious through the lack of progress</li>
+	<li><strong>Code Integration</strong>: the team now has several pieces of code that cover most of
+	the user stories, however they are not linked together properly</li>
+	<li><strong>Google Code Speed</strong> has been found to be slower than anticipated hence it
+	can only really be used for source control and not maintaining large libraries</li>
+</ul>
+
+<h2>Risks</h2>
+<p>The only significant risk currently is team motivation</p>
+
+
+
+</body>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security
+END
+PermissionTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security/PermissionTypes.java
+END
+Groups.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security/Groups.java
+END
+PermissionWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security/PermissionWindow.java
+END
+Users.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security/Users.java
+END
+CreatePermissionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security/CreatePermissionBean.java
+END
+SecurityUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/admin/security/SecurityUtil.java
+END

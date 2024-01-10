@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex
+END
+OBEXHeaderSetImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXHeaderSetImpl.java
+END
+OBEXServerOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXServerOperation.java
+END
+OBEXServerOperationGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXServerOperationGet.java
+END
+OBEXTCPServiceRecordImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXTCPServiceRecordImpl.java
+END
+OBEXClientOperationPut.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXClientOperationPut.java
+END
+OBEXServerSessionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXServerSessionImpl.java
+END
+OBEXOperationInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXOperationInputStream.java
+END
+OBEXOperationOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXOperationOutputStream.java
+END
+OBEXClientOperationGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXClientOperationGet.java
+END
+OBEXClientOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXClientOperation.java
+END
+OBEXUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXUtils.java
+END
+OBEXOperation.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXOperation.java
+END
+OBEXConnectionParams.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXConnectionParams.java
+END
+OBEXOperationReceive.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXOperationReceive.java
+END
+OBEXClientSessionImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXClientSessionImpl.java
+END
+BlueCoveOBEX.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/BlueCoveOBEX.java
+END
+OBEXOperationDelivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXOperationDelivery.java
+END
+OBEXSessionNotifierImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXSessionNotifierImpl.java
+END
+UnsupportedInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/UnsupportedInputStream.java
+END
+MD5DigestWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/MD5DigestWrapper.java
+END
+OBEXOperationCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXOperationCodes.java
+END
+OBEXSessionBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXSessionBase.java
+END
+OBEXAuthentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXAuthentication.java
+END
+OBEXServerOperationPut.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/obex/OBEXServerOperationPut.java
+END

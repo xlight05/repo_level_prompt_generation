@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/cldr/nls/fr
+END
+number.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/cldr/nls/fr/number.js
+END
+currency.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/cldr/nls/fr/currency.js
+END
+gregorian.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/cldr/nls/fr/gregorian.js
+END

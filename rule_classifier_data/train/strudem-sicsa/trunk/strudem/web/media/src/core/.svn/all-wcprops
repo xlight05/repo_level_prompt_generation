@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core
+END
+core.init.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.init.js
+END
+core.sizing.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.sizing.js
+END
+core.data.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.data.js
+END
+core.processing.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.processing.js
+END
+core.support.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.support.js
+END
+core.page.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.page.js
+END
+core.state.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.state.js
+END
+core.columns.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.columns.js
+END
+core.length.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.length.js
+END
+core.ajax.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.ajax.js
+END
+core.filter.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.filter.js
+END
+core.constructor.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.constructor.js
+END
+core.sort.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.sort.js
+END
+core.info.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.info.js
+END
+core.scrolling.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.scrolling.js
+END
+core.draw.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/29/trunk/strudem/web/media/src/core/core.draw.js
+END

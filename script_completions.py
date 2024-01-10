@@ -31,7 +31,7 @@ def main():
     for repo in os.listdir(base_dir):
       for mode in modes:
         if mode == 'codex':
-          command = "python generate_completions.py --mode " + mode \
+          command = "python3 generate_completions.py --mode " + mode \
                     + " --total_context_len " + str(total_context_length)\
                     + " --base_dir " + base_dir\
                     + " --repo_name " + repo\
@@ -48,7 +48,7 @@ def main():
                   for top_k in rule_specific_hyperparams['top_k']:
                     for rule_context_format in rule_specific_hyperparams['rule_context_formatting']:
                         if top_k == -1:
-                          command = "python generate_completions.py --mode " + mode\
+                          command = "python3 generate_completions.py --mode " + mode\
                                     + " --context_location " + context_location\
                                     + " --context_type " + context_type\
                                     + " --context_division_ratio " + str(context_ratio) \

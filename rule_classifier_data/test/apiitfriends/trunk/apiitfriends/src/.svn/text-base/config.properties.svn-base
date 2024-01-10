@@ -1,0 +1,14 @@
+db.username=af_admin
+db.password=apiitfriends
+db.url=jdbc:mysql://localhost/apiitfriends
+db.driverclass=com.mysql.jdbc.Driver
+db.jpa.database=MYSQL
+db.jpa.showsql=true
+db.jpa.generateddl=false
+db.jpa.databasePlatform=org.hibernate.dialect.MySQL5Dialect
+mail.velocity.templates=META-INF/velocity
+mail.smtp.hostname=localhost
+mail.smtp.port=25
+mail.smtp.username=
+mail.smtp.password=
+mail.smtp.auth=false

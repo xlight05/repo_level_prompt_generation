@@ -1,0 +1,102 @@
+
+ASM 3.0 and Code Metrics Library
+Spike Plan: ASM 3.0 and Code Metrics Library
+
+CVS Module/Location: not under version control
+
+Overview:
+
+The Code Metrics Library, in the form of the 'ClassMetricExtractor.java' source code, will be used to collect and output code metrics from the target Jar file for our project. The ClassMetricExtractor class relies on functionality contained in the ASM 3.0 jar library.
+
+Background/Context:
+
+This spike is being performed to evaluate the metrics library (ClassMetricExtractor and the ASM 3.0 library) to determine whether the required level of functionality and reliability is present. And to best determine how we can extend/leverage this functionality in our application.
+
+Goals/Risks:
+
+- Verify that the code provided works as expected (verify 7-8 different sample data files).
+- Check Fanout metric works as expected
+- Add code for FanIn extraction
+- Test that FanIn is also working properly
+- Extract numbers to indicate size (op-codes)
+- Extract the number of methods
+- Extract the number of fields
+- Evaluate reliability
+- Refactor code
+
+Deliverables:
+
+Spike documentation of outcomes.
+Provide URL link to sample data and source code.
+
+Resources: Mrs. Andrew Cowan.
+
+Planned Start Date: Monday 4 September 2006
+Deadline: Wednesday 6 September 2006
+
+Current Status:
+
+Partially complete, initial documentation completed, but am still refactoring code to provide extended metrics analysis.
+Analysis/Planning/Design Notes:
+
+See project Wiki: http://swin-agile.wetpaint.com
+
+
+Spike Outcomes
+
+Goal/Risk:
+
+- Verify that the code provided works as expected (verify 7-8 different sample data files).
+- Check Fanout metric works as expected
+- Add code for FanIn extraction
+- Test that FanIn is also working properly
+- Extract numbers to indicate size (op-codes)
+- Extract the number of methods
+- Extract the number of fields
+- Evaluate reliability
+- Refactor code
+
+Tasks undertaken:
+
+Compiled and examined ClassMetricExtractor library.
+Refactor code to provide extended metrics analysis.
+Reviewed functionality provided by ASM 3.0 library
+
+What we found out:
+
+The simple output from the library is as follows:
+
+> set CLASSPATH=C:\Program Files\Java\jdk1.5.0_07\lib;.\asm-all-3.0_beta2.jar;.
+> javac *.java
+> java ClassMetricExtractor ClassMetricExtractor.class
+Processing: ClassMetricExtractor.class
+0 0 32 9 34 217 72 9 17 122 5 19 10 79 C ClassMetricExtractor java/lang/Object
+Dependencies:
+java/util/Set
+java/lang/StringBuilder
+java/io/FileInputStream
+java/util/HashSet
+org/objectweb/asm/ClassReader
+java/lang/Object
+java/util/Iterator
+java/lang/System
+ClassMetricExtractor$1
+org/objectweb/asm/Type
+java/io/InputStream
+java/io/PrintStream
+java/util/List
+org/objectweb/asm/tree/ClassNode
+java/io/IOException
+java/lang/String
+java/lang/Integer
+ClassMetricExtractor
+org/objectweb/asm/tree/AbstractInsnNode
+
+Open issues/risks:
+
+Complexity of ASM 3.0 due to minimal understanding of byte code and Java 5 language features.
+Have not evaluated reliability of information.
+
+Recommendations:
+
+Continue spike to complete refactoring of code example.

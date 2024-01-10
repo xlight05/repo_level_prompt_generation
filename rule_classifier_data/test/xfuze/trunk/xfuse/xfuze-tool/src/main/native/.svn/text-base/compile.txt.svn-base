@@ -1,0 +1,6 @@
+cd /cygdrive/c/Temp/java-jni-xfuze
+export JDK=/cygdrive/c/Java/jdk-1.6.0_11
+
+gcc -mno-cygwin -D_JNI_IMPLEMENTATION_ -I$JDK/include -I$JDK/include/win32 -Wl,--add-stdcall-alias -shared -o libsysmon.dll SystemInformation.c /lib/w32api/libpsapi.a
+
+

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/126/RPGBot/src/shared
+END
+AIConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/RPGBot/src/shared/AIConstants.java
+END
+Observer.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/122/RPGBot/src/shared/Observer.java
+END
+Eventful.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/122/RPGBot/src/shared/Eventful.java
+END
+Elements.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/122/RPGBot/src/shared/Elements.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/122/RPGBot/src/shared/Constants.java
+END
+ClassFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/26/RPGBot/src/shared/ClassFinder.java
+END
+Subject.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/26/RPGBot/src/shared/Subject.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/122/RPGBot/src/shared/Event.java
+END
+RestrictedNumber.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/126/RPGBot/src/shared/RestrictedNumber.java
+END
+Initializer.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/120/RPGBot/src/shared/Initializer.java
+END
+SpellTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/26/RPGBot/src/shared/SpellTypes.java
+END

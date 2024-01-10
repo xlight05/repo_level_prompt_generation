@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/431/trunk/seamlets/seamlets-core/src/main/resources/META-INF
+END
+seam-deployment.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/426/trunk/seamlets/seamlets-core/src/main/resources/META-INF/seam-deployment.properties
+END
+seam.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/107/trunk/seamlets/seamlets-core/src/main/resources/META-INF/seam.properties
+END
+components.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/128/trunk/seamlets/seamlets-core/src/main/resources/META-INF/components.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/431/trunk/seamlets/seamlets-core/src/main/resources/META-INF/MANIFEST.MF
+END

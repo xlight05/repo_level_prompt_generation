@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/target/classes/META-INF
+END
+weblogic.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/target/classes/META-INF/weblogic.xml
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/target/classes/META-INF/persistence.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/target/classes/META-INF/MANIFEST.MF
+END

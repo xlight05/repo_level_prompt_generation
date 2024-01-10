@@ -1,0 +1,190 @@
+options {
+  MULTI=true;
+  NODE_DEFAULT_VOID=true;
+  DEBUG_PARSER=false;
+  STATIC=false;
+}
+
+PARSER_BEGIN(Parser)
+
+  public class Parser {
+
+    public static void main(String[] args) throws ParseException {
+
+    }
+  }
+
+PARSER_END(Parser)
+
+// --------------------------------------------------
+// Lexer
+// --------------------------------------------------
+
+/* Skip whitespace */
+SKIP : { " " | "\t" | "\n" | "\r" }
+
+MORE :
+{
+  "//" : IN_SINGLE_LINE_COMMENT
+|
+  "#"  : IN_SINGLE_LINE_COMMENT
+}
+
+<IN_SINGLE_LINE_COMMENT>
+SPECIAL_TOKEN :
+{
+  <SINGLE_LINE_COMMENT: "\n" | "\r" | "\r\n" > : DEFAULT
+}
+
+<IN_SINGLE_LINE_COMMENT>
+MORE :
+{
+  < ~[] >
+}
+
+/* Reserved words */
+TOKEN: {
+  < AND: "&" | "and" >
+    | < OR: "|" | "or" >
+    | < LPAREN: "(" >
+    | < RPAREN: ")" >
+    | < BANG: "!" | "not" >
+
+
+    | < IMPORT: "import" >
+    | < RETURNS: "returns" >
+    | < ARG: "arg" >
+    | < THROWS: "throws" >
+    | < NAME: "name" >
+
+    | < TRUE: "true" >
+    | < FALSE: "false" >
+}
+
+/* Regular Expression */
+TOKEN :
+{
+  < REGEXP: ~["/"] >
+}
+
+/* Identifiers */
+TOKEN: {
+  < ID: (["A"-"Z", "a"-"z", "0"-"9", "_", "$", ".", "[", "]"])+ >
+}
+
+// --------------------------------------------------
+// Parser
+// --------------------------------------------------
+
+
+ASTStart Start() #Start : {}
+{
+  Imports()
+    ( Exp() )*
+    <EOF>
+    { return jjtThis; }
+}
+
+void Imports() #Imports : {}
+{
+  ( Import() ) *
+}
+
+void Import() : {}
+{
+  <IMPORT> IdExpr() ( ".*" )?
+}
+
+void Exp() : {}
+{
+  OrExpr() | NegExpr() | <LPAREN> Exp() <RPAREN>
+}
+
+void NegExpr() #Neg : {}
+{
+  <BANG> Exp()
+}
+
+void OrExpr() : {}
+{
+  (
+   AndExpr() ( <OR> AndExpr() )*
+   ) #Or(>1)
+}
+
+void AndExpr() : {}
+{
+  (
+   LitExpr() ( <AND> LitExpr() )*
+   ) #And(>1)
+}
+
+void LitExpr() : {}
+{
+  ReturnsExpr() | ArgExpr() | ThrowsExpr() | NameExpr() 
+    | TrueExpr() | FalseExpr()
+}
+
+void TrueExpr() #True : {}
+{
+  <TRUE>
+}
+
+void FalseExpr() #False : {}
+{
+  <FALSE>
+}
+
+void ReturnsExpr() #Returns : {}
+{
+  <RETURNS> TypeExpr()
+}
+
+void ArgExpr() #Arg : {}
+{
+  <ARG> TypeExpr()
+}
+
+void ThrowsExpr() #Throws : {}
+{
+  <THROWS> TypeExpr()
+}
+
+void NameExpr() #Name : {}
+{
+  <NAME> IdExpr()
+}
+
+void TypeExpr() : {}
+{
+  "(" SimpleTypeExpr() ")" | SimpleTypeExpr()
+}
+
+void SimpleTypeExpr() : {}
+{
+  IdExpr() | RegExpExpr()
+}
+
+void IdExpr() : {}
+{
+  "(" SimpleIdExpr() ")" | SimpleIdExpr()
+}
+
+void SimpleIdExpr() #Id :
+{ 
+  Token t;
+}
+{
+  t=<ID>
+    { jjtThis.setName(t.image); }
+}
+
+void RegExpExpr() #RegExp :
+{ 
+  Token t;
+}
+{
+  "/" t=<REGEXP> "/" 
+    { jjtThis.setName(t.image); }
+}
+

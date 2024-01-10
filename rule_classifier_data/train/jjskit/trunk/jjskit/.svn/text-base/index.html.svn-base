@@ -1,0 +1,10 @@
+<html>
+<head>
+<link rel="stylesheet" href="js/unit/style/unit.css"/>
+<script type="text/javascript" src="bin/j.js"></script>
+<script type="text/javascript" src="bin/junit.js"></script>
+<script type="text/javascript" src="bin/tests.js"></script>
+</head>
+<body onload="J.unit()">
+</body>
+</html>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/90/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl
+END
+CreateAwareServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl/CreateAwareServiceImpl.java
+END
+CountAwareServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/2/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl/CountAwareServiceImpl.java
+END
+ReadAwareServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/2/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl/ReadAwareServiceImpl.java
+END
+ServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/90/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl/ServiceImpl.java
+END
+UpdateAwareServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl/UpdateAwareServiceImpl.java
+END
+DeleteAwareServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/2/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/service/impl/DeleteAwareServiceImpl.java
+END

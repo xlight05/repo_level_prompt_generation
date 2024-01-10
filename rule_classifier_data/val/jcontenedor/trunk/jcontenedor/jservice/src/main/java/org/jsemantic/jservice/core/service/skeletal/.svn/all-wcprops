@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/main/java/org/jsemantic/jservice/core/service/skeletal
+END
+AbstractService.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/main/java/org/jsemantic/jservice/core/service/skeletal/AbstractService.java
+END
+AbstractManagedService.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/main/java/org/jsemantic/jservice/core/service/skeletal/AbstractManagedService.java
+END

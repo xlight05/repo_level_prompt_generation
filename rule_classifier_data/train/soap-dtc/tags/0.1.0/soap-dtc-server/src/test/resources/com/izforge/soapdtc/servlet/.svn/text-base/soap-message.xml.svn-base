@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope">
+    <env:Header>
+        <t:transaction xmlns:t="urn:mytransaction">
+            <t:id>123456789</t:id>
+        </t:transaction>
+        <h:plop xmlns:h="urn:plop:da:plop" env:mustUnderstand="1">Coin Coin</h:plop>
+    </env:Header>
+    <env:Body>
+        <s:sales xmlns:s="urn:sales">
+            <s:product>Banana split</s:product>
+            <s:quantity>5</s:quantity>
+            <s:customer>Mr Bean</s:customer>
+        </s:sales>
+    </env:Body>
+</env:Envelope>

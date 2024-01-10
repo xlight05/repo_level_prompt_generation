@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Controls
+END
+Controller.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Controls/Controller.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Controls/Node.java
+END
+Observation.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Controls/Observation.java
+END
+TwoWheeledRobot.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Controls/TwoWheeledRobot.java
+END
+NeuralNet.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/81/trunk/sim/src/org/rlcommunity/critter/Controls/NeuralNet.java
+END
+HTController.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/75/trunk/sim/src/org/rlcommunity/critter/Controls/HTController.java
+END
+DefaultTwoWheeledController.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/71/trunk/sim/src/org/rlcommunity/critter/Controls/DefaultTwoWheeledController.java
+END
+Controllable.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Controls/Controllable.java
+END
+MBController.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/Controls/MBController.java
+END

@@ -1,0 +1,26 @@
+#summary First version functionality
+#labels Phase-Design,requirements,version
+
+= Version 1.0 Functionality =
+
+The first version is a translation to java language, mantaining qwikioffice philosophy, and is prepared to include desktop configuration into the database.
+
+
+= Requeriments =
+
+  * An aplication server which support java server pages (Tomcat, JBoss, Grassfish)
+  * JSEE 1.5 version or higest.
+  * Extjs 2.0 minimum.
+  * Database jdbc connector for MySQL (you have to decide which database you'll use)
+
+= In progress =
+
+This version doesn't save desktop configuration into the database, is prepared to manage desktop configuration, load sample modules.
+
+At this time  I'm working to include a java class to manage load modules, load preference data and save all preferences changes into the database. 
+
+With previous changes, I hope to have a stable version mantaining basic functionality and will be prepared to include more modules,
+
+  * *Admin Users* 
+  * *Admin Modules*, install new modules into desktop.
+  

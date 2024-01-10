@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/86/trunk/xfuse/xfuze-tool/src/main/resources
+END
+config-general.properties
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/80/trunk/xfuse/xfuze-tool/src/main/resources/config-general.properties
+END
+config-database.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/53/trunk/xfuse/xfuze-tool/src/main/resources/config-database.properties
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/86/trunk/xfuse/xfuze-tool/src/main/resources/config.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/24/trunk/xfuse/xfuze-tool/src/main/resources/log4j.properties
+END

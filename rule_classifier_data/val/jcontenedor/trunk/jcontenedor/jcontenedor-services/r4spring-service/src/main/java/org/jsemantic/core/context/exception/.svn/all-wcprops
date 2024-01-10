@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/core/context/exception
+END
+SemanticContextCreationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/core/context/exception/SemanticContextCreationException.java
+END

@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <parent>
+	<groupId>pl.edu.agh.iosr</groupId>
+	<artifactId>ftpserverremote</artifactId>
+	<version>1.0-SNAPSHOT</version>
+    </parent>
+      <modelVersion>4.0.0</modelVersion>
+  <groupId>pl.edu.agh.iosr</groupId>
+  <artifactId>ftpserverremote-core</artifactId>
+  <packaging>jar</packaging>
+  <name>FtpServer Remote Admin Core</name>
+  <description>FtpServer Remote Admin Core is a module provading interface responsible for communication between web interface and FtpServer (user commands passing). </description>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+	<groupId>pl.edu.agh.iosr</groupId>
+	<artifactId>ftpserverremote-model</artifactId>
+	<version>${project.version}</version>
+    </dependency>
+    <dependency>
+	<groupId>pl.edu.agh.iosr</groupId>
+	<artifactId>ftpserverremote-db</artifactId>
+	<version>${project.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ftpserver</groupId>
+      <artifactId>ftpserver-core</artifactId>
+      <version>1.0-incubator-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.ftpserver</groupId>
+      <artifactId>ftplet-api</artifactId>
+      <version>1.0-incubator-SNAPSHOT</version>
+    </dependency>
+<dependency>
+    <groupId>springframework</groupId>
+    <artifactId>spring-dao</artifactId>
+    <version>1.2-rc2</version>
+</dependency>
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-core</artifactId>
+    <version>2.5</version>
+</dependency>
+    <dependency>
+	    <groupId>org.slf4j</groupId>
+		<artifactId>slf4j-jdk14</artifactId>
+		<version>1.4.3</version>
+    </dependency>
+  </dependencies>
+     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>

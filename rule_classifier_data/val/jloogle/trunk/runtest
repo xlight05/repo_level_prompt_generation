@@ -1,0 +1,8 @@
+#!/bin/sh
+# -*- shell-script -*-
+
+infile=$1
+file=`basename $infile`
+expected="expected/$file"
+
+java Main $@

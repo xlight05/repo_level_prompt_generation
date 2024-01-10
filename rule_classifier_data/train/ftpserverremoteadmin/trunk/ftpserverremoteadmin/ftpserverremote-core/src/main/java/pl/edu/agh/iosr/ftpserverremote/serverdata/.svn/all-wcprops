@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/365/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata
+END
+ServerSideLogListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/348/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerSideLogListener.java
+END
+ServerDataContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/!svn/ver/362/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataContainer.java
+END
+ServerSideFileObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/312/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerSideFileObserver.java
+END
+ServerSideConnectionObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/363/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerSideConnectionObserver.java
+END
+ServerDataContainerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/362/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataContainerImpl.java
+END
+ServerDataListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/348/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataListener.java
+END
+ServerSideConnectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/345/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerSideConnectionManager.java
+END
+ServerDataListenerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/348/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataListenerImpl.java
+END
+DataContainerNotAssignedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/362/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/DataContainerNotAssignedException.java
+END
+ServerDataProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/348/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataProvider.java
+END
+ServerStatisticsInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/363/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerStatisticsInfo.java
+END
+ServerLogsLevelProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 151
+/svn/!svn/ver/365/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerLogsLevelProvider.java
+END
+ServerSideStatisticsObserver.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/357/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerSideStatisticsObserver.java
+END
+IServerDataListenerConfigurable.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/362/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/serverdata/IServerDataListenerConfigurable.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/57/trunk/eShop/AntFiles
+END
+server.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/57/trunk/eShop/AntFiles/server.properties
+END
+tomcatTask.properties
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/24/trunk/eShop/AntFiles/tomcatTask.properties
+END
+catalina-ant.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/24/trunk/eShop/AntFiles/catalina-ant.jar
+END
+ant-contrib-1.0b2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/24/trunk/eShop/AntFiles/ant-contrib-1.0b2.jar
+END

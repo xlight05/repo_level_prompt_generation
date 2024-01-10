@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao
+END
+PagingAwareDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/PagingAwareDao.java
+END
+SequenceDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/SequenceDao.java
+END
+CountAwareDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/CountAwareDao.java
+END
+ReadAwareDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/ReadAwareDao.java
+END
+DaoException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/DaoException.java
+END
+Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/Dao.java
+END
+UpdateAwareDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/UpdateAwareDao.java
+END
+DeleteAwareDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/DeleteAwareDao.java
+END
+CreateAwareDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-api/src/main/java/org/xfuze/dao/CreateAwareDao.java
+END

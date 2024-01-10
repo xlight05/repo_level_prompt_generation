@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/444/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template
+END
+TemplateContainerComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/146/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template/TemplateContainerComparator.java
+END
+DotTemplateDotXmlDeploymentHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/146/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template/DotTemplateDotXmlDeploymentHandler.java
+END
+FileTemplateImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/444/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template/FileTemplateImporter.java
+END
+TemplateImporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/146/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template/TemplateImporter.java
+END
+Templates.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/402/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template/Templates.java
+END
+TemplateContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/146/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/deploy/template/TemplateContainer.java
+END

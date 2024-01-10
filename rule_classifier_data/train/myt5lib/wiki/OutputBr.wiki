@@ -1,0 +1,102 @@
+#summary Um componente para formatar a visualização de números de CPF e CNPJ.
+
+Componente para "output" de dados, não para "input".
+
+== TestOutputBr.java ==
+
+{{{
+public class TestOutputBr {
+	
+	private String _cpf_correto = "12345678901";
+	public String getCpf_correto() { return _cpf_correto; }
+	public void setCpf_correto(String cpf_correto) { _cpf_correto = cpf_correto; }
+	
+	private String _cpf_longo = "123456789123456789";
+	public String getCpf_longo() { return _cpf_longo; }
+	public void setCpf_longo(String cpf_longo) { _cpf_longo = cpf_longo; }
+	
+	private String _cpf_faltadigite = "123456";
+	public String getCpf_faltadigite() { return _cpf_faltadigite; }
+	public void setCpf_faltadigite(String cpf_faltadigite) { _cpf_faltadigite = cpf_faltadigite; }
+
+	private String _cnpj_correto = "12345678912345";
+	public String getCnpj_correto() { return _cnpj_correto; }
+	public void setCnpj_correto(String cnpj_correto) { _cnpj_correto = cnpj_correto; }
+	
+	private String _cnpj_longo = "123456789123456789123456789";
+	public String getCnpj_longo() { return _cnpj_longo; }
+	public void setCnpj_longo(String cnpj_longo) { _cnpj_longo = cnpj_longo; }
+	
+	private String _cnpj_faltadigite = "123456789";
+	public String getCnpj_faltadigite() { return _cnpj_faltadigite; }
+	public void setCnpj_faltadigite(String cnpj_faltadigite) { _cnpj_faltadigite = cnpj_faltadigite; }
+	
+}
+}}}
+
+== TestOutputBr.tml ==
+
+{{{
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+	<head>
+		<title>Output Br</title>
+	</head>
+
+	<body>
+		<center>
+
+			<h1>Output Br (Brazil) - CPF e CNPJ</h1>
+
+			<p> Formatacao de CPF <br/>
+				<span t:type="myt5lib/OutputBr" value="cpf_correto" format="literal:cpf" />
+			</p>
+
+			<p> CPF muito longo<br/>
+				<t:myt5lib.OutputBr value="cpf_longo" format="literal:cpf" />
+			</p>
+			
+			<p> CPF incompleto<br/>
+				<span t:type="myt5lib/OutputBr" value="cpf_faltadigite" format="literal:cpf" />
+			</p>
+			
+			<p> Formatacao de CNPJ <br/>
+				<span t:type="myt5lib/OutputBr" value="cnpj_correto" format="literal:cnpj" />
+			</p>
+			
+			<p> CNPJ muito longo <br/>
+				<span t:type="myt5lib/OutputBr" value="cnpj_longo" format="literal:cnpj" />
+			</p>
+			
+			<p> CNPJ incompleto <br/>
+				<span t:type="myt5lib/OutputBr" value="cnpj_faltadigite" format="literal:cnpj" />
+			</p>
+			
+		</center>
+	</body>
+</html>
+
+}}}
+
+== Testando ==
+
+{{{
+Output Br (Brazil) - CPF e CNPJ
+
+Formatacao de CPF
+123.456.789-01
+
+CPF muito longo
+123.456.789-12...
+
+CPF incompleto
+123.456.???-??
+
+Formatacao de CNPJ
+12.345.678/9123-45
+
+CNPJ muito longo
+12.345.678/9123-45...
+
+CNPJ incompleto
+12.345.678/9???-??
+}}}

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/annotation
+END
+Annotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/Annotation.java
+END
+ElementType.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/ElementType.java
+END
+Inherited.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/Inherited.java
+END
+Native.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/82/trunk/jjskit/src/java/lang/annotation/Native.java
+END
+Target.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/Target.java
+END
+RetentionPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/RetentionPolicy.java
+END
+Documented.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/Documented.java
+END
+Retention.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/jjskit/src/java/lang/annotation/Retention.java
+END

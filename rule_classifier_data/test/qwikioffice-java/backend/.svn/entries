@@ -1,0 +1,77 @@
+10
+
+dir
+15
+http://qwikioffice-java.googlecode.com/svn/backend
+http://qwikioffice-java.googlecode.com/svn
+
+
+
+2012-04-11T20:23:22.473529Z
+11
+rcrespopanizo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+5c62dfce-b48c-e163-8d9e-94203883d877
+
+web
+dir
+
+build.xml
+file
+
+
+
+
+2016-02-13T13:41:15.304111Z
+b8befe73e36451e0e888698e93f92e30
+2012-04-11T20:23:22.473529Z
+11
+rcrespopanizo
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3424
+
+test
+dir
+
+conf
+dir
+
+nbproject
+dir
+
+src
+dir
+

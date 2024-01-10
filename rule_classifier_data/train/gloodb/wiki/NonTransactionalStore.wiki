@@ -1,0 +1,23 @@
+#summary Storing (creating or updating) a persistent object without using transactions.
+
+{{{
+                // Create an object if not already in the repository
+                SimplePersistent persistentObject = new SimplePersistent("1").setValue("Initial");
+                repository.store(persistentObject);
+                
+                persistentObject = (SimplePersistent) repository.restore("1");
+                
+                // A second call to store will update the object.
+                persistentObject.setValue("First Value");
+                repository.store(persistentObject);
+}}}
+
+ # Restore the persistent object or create a new instance if this is a new object. 
+ # Update the object properties. 
+ # Create or update the object by invoking the store method.
+
+If the repository contains another object with the same identity, the object is [NonTransactionalUpdate updated]. Otherwise, a new persistent object is [NonTransactionalCreate created].
+
+----
+Related test case:
+ *  [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleStoreTest.java SimpleStoreTest]

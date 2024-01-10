@@ -1,0 +1,25 @@
+//progressBar.jsp
+  body { font: 11px Lucida Grande, Verdana, Arial, Helvetica, sans serif; }
+  #progressBar { padding-top: 5px; }
+  #progressBarBox { width: 350px; height: 10px; border: 1px inset; background: #eee;}
+  #progressBarBoxContent { width: 0; height: 10px; border-right: 1px solid #444; background: #9ACB34; }
+.layer1{position:absolute; top:207; left:10; width:602; height:150; background-color: #f4f4f4; }
+.row {margin: 0 0 1px 0; 	background-color:#eeeeee; padding: 0 4px 0 4px;	}
+.label {width:150px; float: left;}
+.data {	margin:10px 0 0 0; padding:0px; border:0; width:400px; text-align: left;}
+.value {}
+
+FIELDSET {width: 600px;background-color: #f9f9f9; border: 1px solid #b3b3b3; font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding: 10px; padding-top: 0px;}
+LEGEND   {background-color: #f0f0f0; border: 1px solid #b3b3b3; font: bold 13px Arial; padding: 2px;}
+.div1, .file_list {text-align: left; color: #484B50;}
+.div1 {width: 100%; padding: 10px;}
+.upload_input input {font: 12px Arial; border: 1px solid #636363; margin-top: 1px; width: 100%;}
+.file_list {width: 100%; border: 0px solid #434343; background-color: #ffffff;}
+.file_list input, .myForm {font: 12px Arial; border: 1px solid #636363; margin-top: 1px;}
+
+
+//upload_view.jsp
+.message {width: 90%; height: 70px; border: 1px solid #909090; font: 11px Arial; margin-top: 5px; text-align: left; padding-left: 3px; background-color: #f9f9f9; overflow: auto;}
+.btn     {font: 12px Arial; border: 1px solid #a3a3a3; background-color: #e9e9e9; margin-top: 3px; margin-bottom: 5px;}
+.bar_table {width: 100px; background-color: #707070;}
+.bar_table TR TD {border: none;}

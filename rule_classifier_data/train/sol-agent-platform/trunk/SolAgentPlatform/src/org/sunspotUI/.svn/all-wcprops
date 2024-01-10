@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/39/trunk/SolAgentPlatform/src/org/sunspotUI
+END
+SolAgentPlatformView.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/39/trunk/SolAgentPlatform/src/org/sunspotUI/SolAgentPlatformView.java
+END
+GroupConnectionsView.form
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/GroupConnectionsView.form
+END
+MessageView.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/MessageView.java
+END
+ContactUsView.form
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/ContactUsView.form
+END
+SunSpotSnifferView.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/SunSpotSnifferView.java
+END
+AboutSolView.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/AboutSolView.java
+END
+PortsView.form
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/PortsView.form
+END
+BluetoothDevicesView.form
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/BluetoothDevicesView.form
+END
+GroupNameView.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/GroupNameView.java
+END
+SunSpotView.form
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/SunSpotView.form
+END
+GroupConnectionsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/GroupConnectionsView.java
+END
+SunSpotServicesView.form
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/SunSpotServicesView.form
+END
+ContactUsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/ContactUsView.java
+END
+SolAgentPlatformView.form
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/39/trunk/SolAgentPlatform/src/org/sunspotUI/SolAgentPlatformView.form
+END
+MessageView.form
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/MessageView.form
+END
+PortsView.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/PortsView.java
+END
+BluetoothDevicesView.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/BluetoothDevicesView.java
+END
+SunSpotSnifferView.form
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/SunSpotSnifferView.form
+END
+AboutSolView.form
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/AboutSolView.form
+END
+SunSpotView.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/SunSpotView.java
+END
+GroupNameView.form
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/GroupNameView.form
+END
+SunSpotServicesView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotUI/SunSpotServicesView.java
+END

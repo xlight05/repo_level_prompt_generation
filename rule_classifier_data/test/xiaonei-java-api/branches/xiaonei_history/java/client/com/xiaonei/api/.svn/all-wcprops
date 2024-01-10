@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api
+END
+XiaoneiRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/XiaoneiRestClient.java
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/Pair.java
+END
+XiaoneiMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/XiaoneiMethod.java
+END
+IXiaoneiRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/IXiaoneiRestClient.java
+END
+IPair.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/IPair.java
+END
+ProfileField.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/ProfileField.java
+END
+IXiaoneiMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/IXiaoneiMethod.java
+END
+ApplicationProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/ApplicationProperty.java
+END
+XiaoneiException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/XiaoneiException.java
+END
+XiaoneiSignatureUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/XiaoneiSignatureUtil.java
+END
+XiaoneiParam.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/XiaoneiParam.java
+END
+AbstractXiaoneiRestClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/AbstractXiaoneiRestClient.java
+END
+TemplatizedAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/TemplatizedAction.java
+END
+ErrorCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/ErrorCode.java
+END
+ApplicationPropertySet.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/90/branches/xiaonei_history/java/client/com/xiaonei/api/ApplicationPropertySet.java
+END

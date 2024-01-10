@@ -1,0 +1,13 @@
+#!/bin/sh
+# -*- shell-script -*-
+
+DIR=`dirname $0`
+JAR=$DIR/../lib/jloogle.jar
+if [ -f $JAR ]; then
+    CLASSPATH=$JAR
+else
+    CLASSPATH=.
+fi
+
+java -classpath $CLASSPATH Main "$@"
+

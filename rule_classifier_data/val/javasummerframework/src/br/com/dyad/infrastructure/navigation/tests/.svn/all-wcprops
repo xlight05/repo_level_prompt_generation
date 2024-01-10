@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests
+END
+BeanEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/BeanEditor.java
+END
+TesteThreadAspect.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteThreadAspect.java
+END
+TesteBigIntegerWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteBigIntegerWindow.java
+END
+TesteCampoCalculado.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteCampoCalculado.java
+END
+MostraUsuario.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/MostraUsuario.java
+END
+EntityTemporario.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/EntityTemporario.java
+END
+CustomTeste.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/CustomTeste.java
+END
+TesteBaseProp.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteBaseProp.java
+END
+TesteHtmlEditor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteHtmlEditor.java
+END
+TesteBigInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteBigInteger.java
+END
+WindowDeTeste.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/WindowDeTeste.java
+END
+TesteProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteProxy.java
+END
+JavaApplicationTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/JavaApplicationTests.java
+END
+TesteUpload.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteUpload.java
+END
+GridTeste.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/GridTeste.java
+END
+TesteHtmlEditorTempBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteHtmlEditorTempBean.java
+END
+TesteEventosField.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteEventosField.java
+END
+TempWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TempWindow.java
+END
+TesteJUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteJUnit.java
+END
+CustomTeste2.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/CustomTeste2.java
+END
+TesteAspecto.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteAspecto.java
+END
+ExemploDeCriacaoDeWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/ExemploDeCriacaoDeWindow.java
+END
+WindowCampoTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/WindowCampoTime.java
+END
+TesteDeSocket.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteDeSocket.java
+END
+UsandoClasseComCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/UsandoClasseComCache.java
+END
+TestData.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TestData.java
+END
+TesteProgress.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteProgress.java
+END
+TesteTreeGrid.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteTreeGrid.java
+END
+TesteDataList.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/tests/TesteDataList.java
+END

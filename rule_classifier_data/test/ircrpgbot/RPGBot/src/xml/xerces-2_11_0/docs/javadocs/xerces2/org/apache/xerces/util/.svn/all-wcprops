@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util
+END
+SAXMessageFormatter.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SAXMessageFormatter.html
+END
+XMLLocatorWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLLocatorWrapper.html
+END
+AttributesProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/AttributesProxy.html
+END
+ErrorHandlerWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/ErrorHandlerWrapper.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/package-tree.html
+END
+DOMErrorHandlerWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/DOMErrorHandlerWrapper.html
+END
+ErrorHandlerProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/ErrorHandlerProxy.html
+END
+ShadowedSymbolTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/ShadowedSymbolTable.html
+END
+DefaultErrorHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/DefaultErrorHandler.html
+END
+XMLResourceIdentifierImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLResourceIdentifierImpl.html
+END
+EntityResolverWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/EntityResolverWrapper.html
+END
+DOMEntityResolverWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/DOMEntityResolverWrapper.html
+END
+SecurityManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SecurityManager.html
+END
+URI.MalformedURIException.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/URI.MalformedURIException.html
+END
+ParserConfigurationSettings.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/ParserConfigurationSettings.html
+END
+LocatorProxy.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/LocatorProxy.html
+END
+SynchronizedSymbolTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SynchronizedSymbolTable.html
+END
+SymbolTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SymbolTable.html
+END
+DOMUtil.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/DOMUtil.html
+END
+XMLCatalogResolver.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLCatalogResolver.html
+END
+SymbolTable.Entry.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SymbolTable.Entry.html
+END
+SAXLocatorWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SAXLocatorWrapper.html
+END
+DOMInputSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/DOMInputSource.html
+END
+HTTPInputSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/HTTPInputSource.html
+END
+EntityResolver2Wrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/EntityResolver2Wrapper.html
+END
+XMLStringBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLStringBuffer.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/package-frame.html
+END
+XMLGrammarPoolImpl.Entry.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLGrammarPoolImpl.Entry.html
+END
+XMLGrammarPoolImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLGrammarPoolImpl.html
+END
+XMLEntityDescriptionImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLEntityDescriptionImpl.html
+END
+EncodingMap.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/EncodingMap.html
+END
+JAXPNamespaceContextWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/JAXPNamespaceContextWrapper.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/package-summary.html
+END
+SoftReferenceSymbolTable.SREntryData.html
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SoftReferenceSymbolTable.SREntryData.html
+END
+SoftReferenceSymbolTable.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SoftReferenceSymbolTable.html
+END
+XMLAttributesImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLAttributesImpl.html
+END
+NamespaceSupport.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/NamespaceSupport.html
+END
+SAXInputSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SAXInputSource.html
+END
+SoftReferenceSymbolTable.SREntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SoftReferenceSymbolTable.SREntry.html
+END
+XMLChar.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLChar.html
+END
+URI.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/URI.html
+END
+AugmentationsImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/AugmentationsImpl.html
+END
+XML11Char.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XML11Char.html
+END
+DatatypeMessageFormatter.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/DatatypeMessageFormatter.html
+END
+MessageFormatter.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/MessageFormatter.html
+END
+SymbolHash.Entry.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SymbolHash.Entry.html
+END
+SymbolHash.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/SymbolHash.html
+END
+StAXLocationWrapper.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/StAXLocationWrapper.html
+END
+XMLSymbols.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/XMLSymbols.html
+END
+NamespaceSupport.Prefixes.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/NamespaceSupport.Prefixes.html
+END
+StAXInputSource.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/StAXInputSource.html
+END
+IntStack.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/util/IntStack.html
+END

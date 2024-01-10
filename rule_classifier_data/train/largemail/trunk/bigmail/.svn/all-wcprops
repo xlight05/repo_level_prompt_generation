@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/12/trunk/bigmail
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/3/trunk/bigmail/.cvsignore
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/bigmail/.classpath
+END
+reload.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/3/trunk/bigmail/reload.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/3/trunk/bigmail/header.jsp
+END
+.tomcatplugin
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/3/trunk/bigmail/.tomcatplugin
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/3/trunk/bigmail/error.jsp
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/3/trunk/bigmail/.project
+END
+progressBar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/10/trunk/bigmail/progressBar.jsp
+END
+result.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/bigmail/result.jsp
+END
+upload_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/11/trunk/bigmail/upload_view.jsp
+END
+.amateras
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/3/trunk/bigmail/.amateras
+END

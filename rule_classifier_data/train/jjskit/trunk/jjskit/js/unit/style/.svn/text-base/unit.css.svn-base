@@ -1,0 +1,111 @@
+.j-unit {
+	position:absolute;
+	top:25px;
+	left:100px;
+	_width: expression((document.body.clientWidth-200)+'px');
+	_height: expression((document.body.clientHeight-50)+'px');
+	bottom:25px;
+	right:100px;
+	border:1px solid #0f561b;
+	background: #eaf9ed;
+}
+
+.j-unit,.j-unit-summary, .j-unit-summary-error {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.j-unit-title {
+	font: bold 14px Verdana,Tahoma,Arial;
+	color: #0f561b;
+	float:left;
+	padding:5px;
+}
+
+.j-unit-content {
+	float:left;
+	width:100%;
+}
+
+.j-unit-close {
+	float: right;
+	width:16px;
+	height:16px;
+	background: url('close.png') no-repeat;
+	position:relative;
+	top:3px;
+	right:3px;
+}
+
+.j-unit-summary, .j-unit-summary-error {
+	font: bold 12px Verdana,Tahoma,Arial;
+	padding: 5px 0 5px 5px;
+	margin:0 5px 0 5px;
+}
+
+.j-unit-summary {
+	color: #eaf9ed;
+	background-color: #0f561b;
+}
+
+.j-unit-summary-error {
+	color: #bcaaaa;
+	background-color: #421717;
+}
+
+.j-unit-fail, .j-unit-skip, .j-unit-pass {
+	background-color: #ffffff;
+	margin: 5px 5px 0 5px;
+	padding:5px;
+}
+
+.j-unit-pass {
+	border: 1px solid #0f561b;
+}
+
+.j-unit-fail, .j-unit-skip, .j-unit-desc {
+	border: 1px solid #421717;
+}
+.j-unit-desc {
+	padding:5px;
+	margin: 5px;
+}
+.j-unit-skip-head,.j-unit-skip-item,.j-unit-fail-head,.j-unit-fail-item, .j-unit-pass-head,.j-unit-pass-item {
+	padding-bottom:3px;
+}
+.j-unit-skip-head,.j-unit-skip-item,.j-unit-fail-head,.j-unit-fail-item {
+	color: #421717;
+	
+}
+.j-unit-pass-head,.j-unit-pass-item {
+	color: #0f561b;
+}
+.j-unit-fail-item {
+	background: url('fail.png') no-repeat;
+}
+.j-unit-skip-item {
+	background: url('skip.png') no-repeat;
+}
+.j-unit-pass-item {
+	background: url('pass.png') no-repeat;
+}
+.j-unit-skip-head,.j-unit-fail-head,.j-unit-pass-head {
+	font: bold 11px Verdana,Tahoma,Arial;
+}
+.j-unit-skip-item,.j-unit-fail-item,.j-unit-pass-item,.j-unit-desc {
+	font: 11px Verdana,Tahoma,Arial;
+	padding-left: 20px;
+	_height:20px;
+}
+.j-unit-expand,.j-unit-collapse{
+	float:right;
+	width:16px;
+	height:16px;
+}
+.j-unit-expand{
+	background: url('expand.png') no-repeat;
+}
+.j-unit-collapse{
+	background: url('collapse.png') no-repeat;
+}

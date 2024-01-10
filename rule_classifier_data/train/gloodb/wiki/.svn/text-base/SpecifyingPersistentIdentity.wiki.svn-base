@@ -1,0 +1,71 @@
+#summary Specifying persistent object identities
+
+= Defining Identity =
+
+Object identity is a serializable object which GlooDB uses as a unique object retrieval key. Each persistent object must provide a unique identity object. The identity is defined at the class level using @Identity annotation.
+
+There are 3 ways of defining object identities:
+ * annotating 1 or many fields with @Identity.
+ * annotating the class with @Identity.  Can work in conjunction with field annotations.
+ * a single @Identity annotation specified on a class method.
+
+==== Example 1: Single field identity ====
+{{{
+    class Foo implements Serializable {
+        @Identity 
+        private Serializable id;
+
+        // ...
+    }
+}}}
+
+==== Example 2: Multiple field identity ====
+The Identity.idx indicates the index of the annotated field in the key. The default value is 0.
+
+{{{
+    class Foo implements Serializable {
+        @Identity
+        private Serializable id0;
+
+        @Identity(idx = 1)
+        private Serializable id1;
+    }
+}}}
+
+==== Example 3: Class identity (singleton) ====
+Placing the @Identity on the class creates a persistent singleton object.
+{{{
+    @Identity
+    class Foo implements Serializable {
+    }
+}}}
+
+==== Example 4: Class and filed identities ====
+Class and field identities can be used together.
+{{{
+    @Identity
+    class Foo implements Serializable {
+        @Identity(idx = 1)
+        private Serializable id;
+    }
+}}}
+
+==== Example 5: Method (calculated) identity ====
+{{{
+    class Foo implements Serializable {
+        private String id0;
+        private String id1;
+
+        @Identity
+        String getId() {
+            // Calculate the id
+            return String.format("%s-%s", id0, id1);
+        }
+    }
+}}}
+
+----
+[WritingASimplePersistentClass Previous] [RuntimeObjectIdentity Next]
+
+Related Test Cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentIdentityTest.java PersistentIdentityTest]

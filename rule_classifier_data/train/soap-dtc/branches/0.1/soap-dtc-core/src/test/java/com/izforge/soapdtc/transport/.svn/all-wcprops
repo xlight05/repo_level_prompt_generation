@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/java/com/izforge/soapdtc/transport
+END
+HttpSoapTransportWithDummyServletTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/java/com/izforge/soapdtc/transport/HttpSoapTransportWithDummyServletTest.java
+END
+DummyServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/java/com/izforge/soapdtc/transport/DummyServlet.java
+END
+AbstractHttpSoapTransportTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/28/branches/0.1/soap-dtc-core/src/test/java/com/izforge/soapdtc/transport/AbstractHttpSoapTransportTest.java
+END

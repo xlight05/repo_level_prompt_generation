@@ -1,0 +1,443 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget
+END
+ContextMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ContextMenu.js
+END
+Manager.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Manager.js
+END
+SortableTable.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SortableTable.js
+END
+TaskBar.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TaskBar.js
+END
+validate.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/validate.js
+END
+Tooltip.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Tooltip.js
+END
+Button2.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Button2.js
+END
+SlideShow.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SlideShow.js
+END
+LinkPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/LinkPane.js
+END
+AccordionContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/AccordionContainer.js
+END
+Menu.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Menu.js
+END
+FloatingPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/FloatingPane.js
+END
+GoogleMap.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/GoogleMap.js
+END
+ContentPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ContentPane.js
+END
+Spinner.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Spinner.js
+END
+Select.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Select.js
+END
+LayoutContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/LayoutContainer.js
+END
+DomWidget.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DomWidget.js
+END
+TitlePane.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TitlePane.js
+END
+Editor.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Editor.js
+END
+AnimatedPng.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/AnimatedPng.js
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/__package__.js
+END
+CiviCrmDatePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/CiviCrmDatePicker.js
+END
+TreeContextMenu.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeContextMenu.js
+END
+RichText.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/RichText.js
+END
+TimePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TimePicker.js
+END
+InlineEditBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/InlineEditBox.js
+END
+DropdownContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DropdownContainer.js
+END
+Wizard.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Wizard.js
+END
+Chart.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Chart.js
+END
+TreeLoadingController.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeLoadingController.js
+END
+ShowSlide.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ShowSlide.js
+END
+TreeBasicController.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeBasicController.js
+END
+AccordionPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/AccordionPane.js
+END
+TreeNode.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeNode.js
+END
+Editor2.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Editor2.js
+END
+ComboBox.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ComboBox.js
+END
+HtmlWidget.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/HtmlWidget.js
+END
+DocPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DocPane.js
+END
+YahooMap.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/YahooMap.js
+END
+Show.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Show.js
+END
+SwtWidget.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SwtWidget.js
+END
+MenuItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/MenuItem.js
+END
+MonthlyCalendar.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/MonthlyCalendar.js
+END
+Checkbox.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Checkbox.js
+END
+DropdownButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DropdownButton.js
+END
+DropdownDatePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DropdownDatePicker.js
+END
+Editor2Toolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Editor2Toolbar.js
+END
+SvgButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SvgButton.js
+END
+SplitContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SplitContainer.js
+END
+Dialog.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Dialog.js
+END
+PopUpButton.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/PopUpButton.js
+END
+TreeControllerExtension.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeControllerExtension.js
+END
+SvgWidget.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SvgWidget.js
+END
+TreeRPCController.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeRPCController.js
+END
+TabContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TabContainer.js
+END
+DebugConsole.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DebugConsole.js
+END
+Parse.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Parse.js
+END
+Button.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Button.js
+END
+DatePicker.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/DatePicker.js
+END
+ResizeHandle.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ResizeHandle.js
+END
+ShowAction.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ShowAction.js
+END
+ResizableTextarea.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ResizableTextarea.js
+END
+Widget.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Widget.js
+END
+SimpleDropdownButtons.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/SimpleDropdownButtons.js
+END
+Menu2.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Menu2.js
+END
+FisheyeList.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/FisheyeList.js
+END
+ColorPalette.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/ColorPalette.js
+END
+Tree.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Tree.js
+END
+Rounded.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Rounded.js
+END
+TreeSelector.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/TreeSelector.js
+END
+Toolbar.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Toolbar.js
+END
+Toggler.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/Toggler.js
+END

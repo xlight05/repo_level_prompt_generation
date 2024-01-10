@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope"
+               xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <soap:Header>
+    </soap:Header>
+    <soap:Body>
+        <soap:Fault>
+            <soap:Code>
+                <soap:Value>soap:Sender</soap:Value>
+                <soap:Subcode>
+                    <soap:Value>m:MessageTimeout</soap:Value>
+                </soap:Subcode>
+            </soap:Code>
+            <soap:Reason>
+                <soap:Text xml:lang="en">Sender Timeout</soap:Text>
+            </soap:Reason>
+            <soap:Detail>
+                <m:MaxTime xmlns:m="urn:foo">P5M</m:MaxTime>
+            </soap:Detail>
+        </soap:Fault>
+    </soap:Body>
+</soap:Envelope>

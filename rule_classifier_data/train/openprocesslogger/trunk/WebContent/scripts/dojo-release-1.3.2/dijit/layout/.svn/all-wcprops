@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout
+END
+ContentPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/ContentPane.js
+END
+SplitContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/SplitContainer.js
+END
+LayoutContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/LayoutContainer.js
+END
+_LayoutWidget.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/_LayoutWidget.js
+END
+BorderContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/BorderContainer.js
+END
+LinkPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/LinkPane.js
+END
+AccordionContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/AccordionContainer.js
+END
+AccordionPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/AccordionPane.js
+END
+StackContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/StackContainer.js
+END
+StackController.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/StackController.js
+END
+TabContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/TabContainer.js
+END
+TabController.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dijit/layout/TabController.js
+END

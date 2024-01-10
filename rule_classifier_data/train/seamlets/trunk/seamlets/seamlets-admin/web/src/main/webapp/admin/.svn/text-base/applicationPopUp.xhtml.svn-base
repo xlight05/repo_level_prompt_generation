@@ -1,0 +1,62 @@
+<s:fragment xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{addApplicationAction.show}">
+	<rich:modalPanel id="applicationPopUp" minWidth="350" minHeight="100" autosized="true" 
+		moveable="false" showWhenRendered="true" >
+		<f:facet name="header">
+			#{messages['admin.application.popup.header']}
+		</f:facet>
+		<f:facet name="controls">
+            <h:panelGroup>
+            	<s:link id="hidelinkApp"
+	            			 action="#{addApplicationAction.hideDialog}">
+                	<h:graphicImage value="/img/modal/close.png" style="cursor:pointer"
+                		title="#{messages['action.cancel']}"/>
+               	</s:link>
+                <rich:componentControl for="addDomainPopUp" attachTo="hidelinkApp" operation="hide" event="onclick"/>
+            </h:panelGroup>
+        </f:facet>
+	
+		<p>#{messages['admin.application.popup.message']}</p>
+		
+		<h:form>
+			<s:decorate id="nameField" template="/layout/edit.xhtml">
+	        	<ui:define name="label">#{messages['admin.application.popup.nameField']}</ui:define>
+	            <h:inputText id="name" required="true"
+	            	value="#{addApplicationAction.application.name}">
+	               	<a4j:support event="onkeyup" reRender="nameField, save" ajaxSingle="true"
+	               		ignoreDupResponses="true" eventsQueue="saveDisableQueu" focus="name" requestDelay="1000"/>
+	            </h:inputText>
+	        </s:decorate>
+	           
+	        <s:decorate id="startWorkingField" template="/layout/edit.xhtml">
+	        	<ui:define name="label">#{messages['admin.application.popup.startWorkingField']}</ui:define>
+	            <h:selectBooleanCheckbox id="startAc"
+	            	value="#{addApplicationAction.startWorking}"/>
+	        </s:decorate>
+	           
+	        <div style="clear:both"/>
+			<rich:separator height="1" lineType="solid"/>
+	        <div style="text-align: right;">
+	            <h:commandButton id="save"
+	                value="#{messages['action.applay']}"
+	                disabled="#{addApplicationAction.application.name == null || addApplicationAction.application.name == ''}" 
+	                action="#{addApplicationAction.addApplication}"
+	                eventsQueue="saveDisableQueu"
+	                reRender="main">
+	            	<s:defaultAction/>
+	            </h:commandButton>
+	            <s:button id="cancel"
+	            	reRender="main"
+	            	action="#{addApplicationAction.hideDialog}"
+	                value="#{messages['action.cancel']}"/>
+	           <rich:componentControl for="addDomainPopUp" attachTo="cancel" operation="hide" event="onclick"/>
+	        </div>
+        </h:form>
+	</rich:modalPanel>
+</s:fragment>

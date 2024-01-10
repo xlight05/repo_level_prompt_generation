@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl
+END
+SSLSetupHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/SSLSetupHandler.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/package-use.html
+END
+SSLMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/SSLMode.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/package-tree.html
+END
+SSLIOSession.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/reactor/ssl/SSLIOSession.html
+END

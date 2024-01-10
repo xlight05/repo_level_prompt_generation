@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/main/java/com/izforge/soapdtc
+END
+SoapFault.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/main/java/com/izforge/soapdtc/SoapFault.java
+END
+SoapConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/main/java/com/izforge/soapdtc/SoapConstants.java
+END
+SoapMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/main/java/com/izforge/soapdtc/SoapMessage.java
+END
+SoapMessageUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/main/java/com/izforge/soapdtc/SoapMessageUtils.java
+END

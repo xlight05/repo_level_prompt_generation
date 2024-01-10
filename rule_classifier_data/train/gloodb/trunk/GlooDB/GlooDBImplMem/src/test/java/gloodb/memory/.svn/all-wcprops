@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory
+END
+MemoryBasedTopTransactionCommitRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedTopTransactionCommitRepositoryTest.java
+END
+MemoryBasedNestedTransactionCommitRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedNestedTransactionCommitRepositoryTest.java
+END
+MemoryBasedInterceptorAndCallbacksTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedInterceptorAndCallbacksTest.java
+END
+MemoryBasedTopTransactionRollbackRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedTopTransactionRollbackRepositoryTest.java
+END
+MemoryBasedTransactionalRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedTransactionalRepositoryTest.java
+END
+MemoryBasedNestedTransactionRollbackRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedNestedTransactionRollbackRepositoryTest.java
+END
+MemoryBasedNonTransactionalRepositoryTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedNonTransactionalRepositoryTest.java
+END
+MemoryBasedTimeOperationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/575/trunk/GlooDB/GlooDBImplMem/src/test/java/gloodb/memory/MemoryBasedTimeOperationTest.java
+END

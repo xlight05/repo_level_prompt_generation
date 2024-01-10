@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/servicerules/drools/session/factory
+END
+SemanticSessionFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/servicerules/drools/session/factory/SemanticSessionFactoryImpl.java
+END
+SemanticSessionUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/r4spring-service/src/main/java/org/jsemantic/servicerules/drools/session/factory/SemanticSessionUtil.java
+END

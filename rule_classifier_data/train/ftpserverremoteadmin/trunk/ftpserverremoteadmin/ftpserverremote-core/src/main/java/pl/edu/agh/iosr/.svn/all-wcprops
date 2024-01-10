@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/372/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/Context.java
+END
+CommunicationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/CommunicationException.java
+END
+IdNotRecognizedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/IdNotRecognizedException.java
+END
+CommandFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/CommandFactory.java
+END
+RemoteServerStarter.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/364/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/RemoteServerStarter.java
+END
+CommandFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/CommandFactoryImpl.java
+END
+ServiceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ServiceFactory.java
+END
+DefaultContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/364/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/DefaultContext.java
+END
+FilteredDataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/366/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/FilteredDataService.java
+END
+DataAccessException.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/DataAccessException.java
+END
+ServiceFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ServiceFactoryImpl.java
+END
+ServerNotSupportedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/358/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ServerNotSupportedException.java
+END
+RMIConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/364/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/RMIConfig.java
+END

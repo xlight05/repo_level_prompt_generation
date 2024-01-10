@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use
+END
+EnglishReasonPhraseCatalog.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/EnglishReasonPhraseCatalog.html
+END
+SocketHttpServerConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/SocketHttpServerConnection.html
+END
+AbstractHttpClientConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/AbstractHttpClientConnection.html
+END
+DefaultHttpClientConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/DefaultHttpClientConnection.html
+END
+NoConnectionReuseStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/NoConnectionReuseStrategy.html
+END
+DefaultHttpRequestFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/DefaultHttpRequestFactory.html
+END
+SocketHttpClientConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/SocketHttpClientConnection.html
+END
+HttpConnectionMetricsImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/HttpConnectionMetricsImpl.html
+END
+AbstractHttpServerConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/AbstractHttpServerConnection.html
+END
+DefaultHttpServerConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/DefaultHttpServerConnection.html
+END
+DefaultConnectionReuseStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/DefaultConnectionReuseStrategy.html
+END
+DefaultHttpResponseFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/class-use/DefaultHttpResponseFactory.html
+END

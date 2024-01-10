@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/341/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/iprestrictor
+END
+FakeConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/341/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/iprestrictor/FakeConnection.java
+END
+FakeRowSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/341/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/iprestrictor/FakeRowSet.java
+END
+FakeStatement.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/341/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/iprestrictor/FakeStatement.java
+END
+DBIPRestrictorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/341/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/iprestrictor/DBIPRestrictorTest.java
+END
+FakeDataSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/341/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/iprestrictor/FakeDataSource.java
+END

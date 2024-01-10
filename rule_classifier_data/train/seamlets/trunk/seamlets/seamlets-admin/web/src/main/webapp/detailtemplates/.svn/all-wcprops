@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/web/src/main/webapp/detailtemplates
+END
+nonSelectedTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/detailtemplates/nonSelectedTemplate.xhtml
+END
+folderSelectedTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/detailtemplates/folderSelectedTemplate.xhtml
+END
+pageSelectedTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/413/trunk/seamlets/seamlets-admin/web/src/main/webapp/detailtemplates/pageSelectedTemplate.xhtml
+END
+applicationSelectedTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/detailtemplates/applicationSelectedTemplate.xhtml
+END
+domainSelectedTemplate.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/web/src/main/webapp/detailtemplates/domainSelectedTemplate.xhtml
+END

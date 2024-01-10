@@ -1,0 +1,59 @@
+<h:form
+	xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich"
+    xmlns:a4j="http://richfaces.org/a4j">
+
+	<rich:dragIndicator id="treeDragIndicator">
+        <f:facet name="single">
+            <f:verbatim>
+                {marker}<b>{label}</b> 
+            </f:verbatim>
+        </f:facet>
+    </rich:dragIndicator>
+	
+	<rich:panel styleClass="pageTemplateContent" bodyClass="pageTemplateBody" id="pagePanel">
+    	<f:facet name="header">#{messages['detailtemplate.pageselected.header']}</f:facet>
+    	<rich:tabPanel switchType="ajax" styleClass="pageTabPanel" 
+    		selectedTab="#{pageStructureController.selectedTab}"
+			width="100%" height="100%">
+			<rich:tab name="Properties" 
+				label="#{messages['admin.page.tab.properties']}"
+				reRender="pagePanel"
+				labelWidth="200"
+				styleClass="pageTab">
+		    	<ui:include src="/detailtemplates/page/pageProperties.xhtml" />
+		    </rich:tab>
+			<rich:tab name="Structure" 
+				label="#{messages['admin.page.tab.structure']}"
+				reRender="pagePanel"
+				labelWidth="200"
+				styleClass="pageTab">
+				<ui:include src="/detailtemplates/page/pageStructure.xhtml" />
+			</rich:tab>
+		</rich:tabPanel>
+		<div class="actionButtonsContainer">
+	        <div class="requiredContainer">
+	            <span class="required">*</span>
+	            required fields
+	        </div>
+	        <div class="actionButtons">
+		   		<h:commandButton id="update"
+		        	value="#{messages['action.save']}"
+		        	eventsQueue="saveDisableQueu"
+		        	reRender="main"
+		            action="#{pageController.updatePage}"/>
+		       	<h:commandButton id="delete"
+		        	value="#{messages['action.remove']}"
+		        	eventsQueue="saveDisableQueu"
+		        	reRender="main"
+		        	onclick="if(!confirm('#{messages['detailtemplate.folderselected.remove.confirm']}')){return false;}"
+		            action="#{pageController.removePage}"/>
+	       	</div>
+	   </div>	
+	</rich:panel>
+	
+</h:form>

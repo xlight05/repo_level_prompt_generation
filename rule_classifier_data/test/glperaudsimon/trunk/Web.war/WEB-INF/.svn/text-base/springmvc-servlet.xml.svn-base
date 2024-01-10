@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:osgi="http://www.springframework.org/schema/osgi"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+
+	<import resource="applicationContext.xml" />
+
+	<!--#######################################################################-->
+	<!--# 			Configuration des services GWT et leur mapping			  #-->
+	<!--#######################################################################-->
+
+	<bean id="paysService" class="fr.epsi.epsi5.server.services.PaysServiceGWTImpl">
+		<property name="paysService" ref="paysServiceOSGI"/>
+	</bean>
+	
+	<bean id="villeService" class="fr.epsi.epsi5.server.services.VilleServiceGWTImpl">
+		<property name="paysService" ref="paysServiceOSGI"/>
+		<property name="villeService" ref="villeServiceOSGI"/>
+	</bean>
+	
+	<bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+              <prop key="/fr.epsi.epsi5.Web/PaysService.rpc">paysService</prop>
+              <prop key="/fr.epsi.epsi5.Web/VilleService.rpc">villeService</prop>
+            </props>
+        </property>
+    </bean>
+</beans>

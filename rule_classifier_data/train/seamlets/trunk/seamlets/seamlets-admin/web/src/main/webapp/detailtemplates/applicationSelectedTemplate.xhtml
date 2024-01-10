@@ -1,0 +1,70 @@
+<h:form
+ 	xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich"
+    xmlns:a4j="http://richfaces.org/a4j">
+
+	<rich:panel styleClass="pageTemplateContent" bodyClass="pageTemplateBody">
+    	<f:facet name="header">#{messages['detailtemplate.applicationselected.header']}</f:facet>
+   
+	   	<h:panelGrid columns="2">
+		   	<s:decorate id="displayNameField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.applicationselected.id']}</ui:define>
+				<h:outputText value="#{applicationController.aktiveApplication.id}" />
+			</s:decorate>
+			
+			<s:decorate id="lastUserNameField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.applicationselected.lastuser']}</ui:define>
+				<h:outputText value="#{applicationController.aktiveApplication.lastAccesUser}" />
+			</s:decorate>
+			
+			<s:decorate id="createdField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.applicationselected.created']}</ui:define>
+				<h:outputText value="#{applicationController.aktiveApplication.created}">
+					<s:convertDateTime pattern="dd. MMMMM yyyy HH:mm:ss.SSS z" />
+				</h:outputText>
+			</s:decorate>
+			
+			<s:decorate id="updatedField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.applicationselected.update']}</ui:define>
+				<h:outputText value="#{applicationController.aktiveApplication.updated}">
+					<s:convertDateTime pattern="dd. MMMMM yyyy HH:mm:ss.SSS z" />
+				</h:outputText>
+			</s:decorate>
+			
+			<s:decorate id="nameField" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.applicationselected.displayname']}</ui:define>
+				<h:inputText id="displayname" required="true"
+					value="#{applicationController.aktiveApplication.name}">
+					<a4j:support event="onkeyup" reRender="nameField"
+						ajaxSingle="true" ignoreDupResponses="true" bypassUpdates="true"
+						eventsQueue="saveDisableQueu" requestDelay="3000" />
+				</h:inputText>
+			</s:decorate>
+		</h:panelGrid>
+		
+		<rich:separator height="2" lineType="solid"/>
+		
+        <div class="actionButtonsContainer">
+	        <div class="requiredContainer">
+	            <span class="required">*</span>
+	            required fields
+	        </div>
+	        <div class="actionButtons">
+		   		<h:commandButton id="update"
+		        	value="#{messages['action.save']}"
+		        	eventsQueue="saveDisableQueu"
+		        	reRender="main"
+		            action="#{applicationController.updateApplication}"/>
+		       	<h:commandButton id="delete"
+		        	value="#{messages['action.remove']}"
+		        	onclick="if(!confirm('#{messages['detailtemplate.applicationselected.remove.confirm']}')){return false;}"
+		            action="#{applicationController.removeApplication}"/>
+	       	</div>
+	   </div>
+	</rich:panel>
+	
+</h:form>

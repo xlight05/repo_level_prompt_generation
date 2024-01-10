@@ -1,0 +1,73 @@
+<h:form id="pageForm" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{addPageAction.show}">
+	<rich:modalPanel id="addPagePopUp" minWidth="350" minHeight="100"
+		autosized="true" moveable="false" showWhenRendered="true">
+		<f:facet name="header">
+			#{messages['admin.addPage.popup.header']}
+		</f:facet>
+		<f:facet name="controls">
+			<h:panelGroup>
+				<a4j:commandLink id="hidelink" action="#{addPageAction.hideDialog}">
+					<h:graphicImage value="/img/modal/close.png" style="cursor:pointer"
+						title="#{messages['admin.addPage.action.cancel']}" />
+				</a4j:commandLink>
+				<rich:componentControl for="addPagePopUp" attachTo="hidelink"
+					operation="hide" event="onclick" />
+			</h:panelGroup>
+		</f:facet>
+
+		<p>#{messages['admin.addPage.popup.message']}</p>
+
+		<s:decorate id="displayNameField" template="/layout/edit.xhtml">
+			<ui:define name="label">#{messages['admin.addPage.popup.displayname']}</ui:define>
+			<h:inputText id="displayname" required="true"
+				value="#{addPageAction.pageDefinition.displayName}">
+				<a4j:support event="onkeyup" reRender="displayNameField, save"
+					ajaxSingle="true" ignoreDupResponses="true"
+					eventsQueue="saveDisableQueu" requestDelay="3000" />
+			</h:inputText>
+		</s:decorate>
+		
+		<s:decorate id="viewidField" template="/layout/edit.xhtml">
+			<ui:define name="label">#{messages['admin.addPage.popup.viewid']}</ui:define>
+			<h:outputText value="#{addPageAction.pageDefinition.urlPath}" />
+			<h:inputText id="viewid" required="true"
+				value="#{addPageAction.pageDefinition.viewID}">
+				<a4j:support event="onkeyup" reRender="viewidField, save"
+					ajaxSingle="true" ignoreDupResponses="true"
+					eventsQueue="saveDisableQueu" requestDelay="3000" />
+			</h:inputText>
+			<h:outputText value=".seam" />
+		</s:decorate>
+		
+		<s:decorate id="titleField" template="/layout/edit.xhtml">
+			<ui:define name="label">#{messages['admin.addPage.popup.title']}</ui:define>
+			<h:inputText id="name" required="true"
+				value="#{addPageAction.pageDefinition.title}">
+				<a4j:support event="onkeyup" reRender="titleField, save"
+					ajaxSingle="true" ignoreDupResponses="true"
+					eventsQueue="saveDisableQueu" requestDelay="3000" />
+			</h:inputText>
+		</s:decorate>
+		
+		<div style="clear:both"/>
+		<rich:separator height="1" lineType="solid"/>
+        <div style="text-align: right;">
+	        <a4j:commandButton id="save"
+				disabled="#{not addPageAction.valid}" reRender="main"
+				value="#{messages['admin.addPage.action.applay']}"
+				action="#{addPageAction.addPage}">
+				<s:defaultAction />
+			</a4j:commandButton>
+			<a4j:commandButton id="cancel" reRender="main"
+			action="#{addPageAction.hideDialog}"
+			value="#{messages['admin.addPage.action.cancel']}" />
+		</div>
+	</rich:modalPanel>
+</h:form>

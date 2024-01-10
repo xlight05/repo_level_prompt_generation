@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<decorators defaultdir="/decorators">
+
+	<!-- Specify patterns to be decorated. Default path for decorator pages, "/decorators/". -->
+
+	<!-- Excludes will never be decorated by Sitemesh. -->
+	<excludes>
+		<pattern>/exclude/*</pattern>
+		<pattern>/images/*</pattern>
+		<pattern>/javascript/*</pattern>
+		<pattern>/css/*</pattern>
+		<pattern>/tinymce/*</pattern>
+		<pattern>/cmsEdit/*</pattern>
+		<pattern>*print*</pattern>
+	</excludes>
+
+	<!-- Main decoration for reading. -->
+	<decorator name="mainDefault" page="./scotia/main.jsp">
+		<pattern>/web/wiki/*</pattern>
+	</decorator>
+
+	<decorator name="mainTin" page="./tin/main.jsp">
+		<pattern>/web/wikiTin/*</pattern>
+	</decorator>
+	<decorator name="mainJin" page="./jin/main.jsp">
+		<pattern>/web/wikiJin/*</pattern>
+	</decorator>
+</decorators>

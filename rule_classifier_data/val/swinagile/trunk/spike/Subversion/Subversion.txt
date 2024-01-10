@@ -1,0 +1,57 @@
+
+Subversion
+Spike Plan Template
+Spike Plan
+Name Eclipse plugin for Subversion.
+
+CVS ModuleLocation None.
+
+
+Overview
+Previous spike detailed whether it was possible to utilise Google Codes repository. After it was identified that this is possible, it was envisioned that we should investigate using Subversion with Eclipse.
+
+BackgroundContext
+The IDE that we are using is Eclipse and we want an easy way of source control and versioning.
+
+GoalsRisks
+The goal of this spike is to investigate a subversion plugin to Eclipse and minimize the learning needed for team members to understand Subversion.
+
+
+Deliverables
+- Installation document.
+- Help by request.
+
+Resources Ben Hall (1845454)
+
+Deadline Wednesday, 6 September 2006
+
+AnalysisPlanningDesign notes (done by the developer)
+- Subclipse name of the plugin.
+- Available for Eclipse versions 2.x and 3.x
+- Need to restart Eclipse
+
+1 Spike Outcomes Template
+Spike outcomes
+Subclipse worked with out problems and provided the ability to commit and update code.
+
+GoalRisk
+The risk is that the development team do not have sufficient confidence in the technology Subversion to handle code versioning properly. The goal is to better understand how Subversion works.
+
+Tasks undertaken
+- Installed Subclipse to Eclipse.
+- Checked out repository of Google Code.
+- Modified readme.txt.
+- Updated to verify that I have a current version.
+- Then committed file.
+
+What we found out
+- Installation guide at httpsubclipse.tigris.orginstall.html.
+- Look around httpsubclipse.tigris.org for
+- Screen shots
+- Downloads
+- Installation
+- FAQ
+- Documentation
+
+Open issuesrisks
+No open issues.

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN"
+ "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+ 
+ <taglib>
+  <tlibversion>1.0</tlibversion>
+  <jspversion>1.1</jspversion>
+  <shortname>s1</shortname>
+  <uri>SvgTaglib</uri>
+  <info>Taglib for svg graphs</info>
+<tag>
+    <name>AnalogSvgGraph</name>
+    <tagclass>com.ipbyran.opl.web.svg.components.AnalogGraphTag</tagclass>
+    <bodycontent>empty</bodycontent>
+    <info>Svg graph generator</info>
+    <attribute>
+      <name>graphProxy</name>
+      <required>true</required>
+      <rtexprvalue>true</rtexprvalue>
+    </attribute>
+</tag>
+<tag>
+  <name>ZoomSquareView</name>
+  <tagclass>com.ipbyran.opl.web.svg.components.ZoomSquareTag</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info>Zoom buttons for svg graphs</info>
+</tag>
+<tag>
+  <name>AnalogChartShell</name>
+  <tagclass>se.openprocesslogger.svg.taglib.AnalogChartShell</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+<tag>
+  <name>DigitalChartShell</name>
+  <tagclass>se.openprocesslogger.svg.taglib.DigitalChartShell</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+<tag>
+  <name>BarChartShell</name>
+  <tagclass>se.openprocesslogger.svg.taglib.BarChartShell</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+<tag>
+  <name>EventChartShell</name>
+  <tagclass>se.openprocesslogger.svg.taglib.EventChartShell</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+<tag>
+  <name>Markers</name>
+  <tagclass>se.openprocesslogger.svg.taglib.Markers</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+<tag>
+  <name>MouseMarkers</name>
+  <tagclass>se.openprocesslogger.svg.taglib.MouseMarker</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+<tag>
+  <name>ZoomSquare</name>
+  <tagclass>se.openprocesslogger.svg.taglib.ZoomSquare</tagclass>
+  <bodycontent>empty</bodycontent>
+  <info></info>
+</tag>
+</taglib>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/libs/ldscripts
+END
+lib_ui_test.ld
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/libs/ldscripts/lib_ui_test.ld
+END
+main_test.ld
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/libs/ldscripts/main_test.ld
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils
+END
+Pair.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/Pair.java
+END
+ComparableComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/ComparableComparator.java
+END
+Equality.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/Equality.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/package.html
+END
+StringComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/StringComparator.java
+END
+FileUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/FileUtils.java
+END
+InvalidTransactionModeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/InvalidTransactionModeException.java
+END
+RepositorySysoutInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/RepositorySysoutInterceptor.java
+END
+DateComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/DateComparator.java
+END
+Sequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/Sequence.java
+END
+TransactionController.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/utils/TransactionController.java
+END

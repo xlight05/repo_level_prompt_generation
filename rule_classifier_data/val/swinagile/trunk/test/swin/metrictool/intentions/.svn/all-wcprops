@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/8/trunk/test/swin/metrictool/intentions
+END
+FileSystemUtilitiesIntention.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/8/trunk/test/swin/metrictool/intentions/FileSystemUtilitiesIntention.java
+END
+ExtractedVersionDataIntention.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/test/swin/metrictool/intentions/ExtractedVersionDataIntention.java
+END
+ClassMetricExtractorIntention.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/8/trunk/test/swin/metrictool/intentions/ClassMetricExtractorIntention.java
+END
+ExtractVersionMetricsIntention.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/8/trunk/test/swin/metrictool/intentions/ExtractVersionMetricsIntention.java
+END
+XStreamUtilityIntention.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/8/trunk/test/swin/metrictool/intentions/XStreamUtilityIntention.java
+END

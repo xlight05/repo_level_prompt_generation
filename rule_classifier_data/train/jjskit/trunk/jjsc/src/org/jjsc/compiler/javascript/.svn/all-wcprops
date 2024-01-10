@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/81/trunk/jjsc/src/org/jjsc/compiler/javascript
+END
+JavaScriptToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/72/trunk/jjsc/src/org/jjsc/compiler/javascript/JavaScriptToken.java
+END
+JavaScriptLang.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/73/trunk/jjsc/src/org/jjsc/compiler/javascript/JavaScriptLang.java
+END
+JavaScriptParseError.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/65/trunk/jjsc/src/org/jjsc/compiler/javascript/JavaScriptParseError.java
+END
+TagProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/72/trunk/jjsc/src/org/jjsc/compiler/javascript/TagProcessor.java
+END
+ResourcesResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/65/trunk/jjsc/src/org/jjsc/compiler/javascript/ResourcesResolver.java
+END
+JavaScriptBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/81/trunk/jjsc/src/org/jjsc/compiler/javascript/JavaScriptBuilder.java
+END
+IncludeTagProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/72/trunk/jjsc/src/org/jjsc/compiler/javascript/IncludeTagProcessor.java
+END
+VersionTagProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/72/trunk/jjsc/src/org/jjsc/compiler/javascript/VersionTagProcessor.java
+END
+TodoTagProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/72/trunk/jjsc/src/org/jjsc/compiler/javascript/TodoTagProcessor.java
+END
+JavaScriptTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/81/trunk/jjsc/src/org/jjsc/compiler/javascript/JavaScriptTokenizer.java
+END

@@ -1,0 +1,17 @@
+#Sat Jan 31 18:39:51 CET 2009
+action.package=org.seamlets.components.core.session
+action.sources=/seamlets-components-core/src/main/resources
+eclipse.preferences.version=1
+model.package=org.seamlets.components.core.entity
+model.sources=/seamlets-components-core/src/main/resources
+seam.ear.project=seamlets-components-core
+seam.ejb.project=seamlets-components-core
+seam.project.connection.profile=CMS DB
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/seamlets-components-core/src/main/resources
+seam.runtime.name=jboss-seam-2.1.1.GA
+seam.test.creating=false
+seam.test.project=seamlets-components-core
+test.package=org.seamlets.components.core.test
+test.sources=/seamlets-components-core/src/main/resources

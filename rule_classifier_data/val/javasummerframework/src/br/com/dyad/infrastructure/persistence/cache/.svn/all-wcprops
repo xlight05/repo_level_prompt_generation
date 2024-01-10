@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/cache
+END
+Cache.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/cache/Cache.java
+END
+HibernateAppTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/cache/HibernateAppTransaction.java
+END
+CacheDataList.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/cache/CacheDataList.java
+END
+UpdateCacheThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/cache/UpdateCacheThread.java
+END

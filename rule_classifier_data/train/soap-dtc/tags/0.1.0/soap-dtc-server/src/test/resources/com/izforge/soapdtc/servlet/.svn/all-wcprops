@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet
+END
+not-a-wsdl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet/not-a-wsdl.txt
+END
+bsf-setup.properties
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet/bsf-setup.properties
+END
+bsf-setup.bsh
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet/bsf-setup.bsh
+END
+soap-message.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet/soap-message.xml
+END
+wsdl-dtc-wsdl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet/wsdl-dtc-wsdl.xml
+END
+wsdl-dtc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/31/tags/0.1.0/soap-dtc-server/src/test/resources/com/izforge/soapdtc/servlet/wsdl-dtc.xml
+END

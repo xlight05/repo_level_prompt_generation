@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<title>Span Example</title>
+	</head>
+	<body>
+		
+		<!-- This ends up being a simple Label component because
+		the class of the myText property is not a List -->
+		<span wicket:id="myText"></span>
+		<br/>
+		
+		<!-- This ends up being a ListView component because
+		the class of the names property is a List -->
+		<span wicket:id="names"> loop:
+			<!-- Iterating over a list of Strings so the value
+			to put in the span tag is just the toString() method -->
+			<span wicket:id="toString()"></span>
+			<br/>
+		</span>
+	</body>
+</html>

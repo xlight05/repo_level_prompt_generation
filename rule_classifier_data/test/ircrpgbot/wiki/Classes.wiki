@@ -1,0 +1,26 @@
+#summary Navigation information
+
+=Navigation=
+==[Classes]==
+  * [Barbarian]
+  * [Bard]
+  * [Bloodbarian]
+  * [BloodKnight Blood Knight]
+  * [Cleric]
+  * [Druid]
+  * [Fighter]
+  * [GlassCannon Glass Cannon]
+  * [Juggernaut]
+  * [Mage]
+  * [Robot]
+  * [Rogue]
+  * [Warlock]
+  * [WaterWizard Water Wizard]
+==Other==
+  * [Commands]
+  * [Spells]
+  * [Planned]
+  * [NewPlanning Planning]
+==API==
+  * [SpellScripting Spell Scripting]
+  * [ClassScripting Class Scripting]

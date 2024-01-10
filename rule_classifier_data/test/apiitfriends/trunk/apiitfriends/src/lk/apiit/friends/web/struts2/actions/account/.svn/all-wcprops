@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/account
+END
+RegisterAction-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/account/RegisterAction-validation.xml
+END
+AccountAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/account/AccountAction.java
+END
+RegisterAction-registerstaff-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/account/RegisterAction-registerstaff-validation.xml
+END
+RegisterAction-registerstudent-validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/account/RegisterAction-registerstudent-validation.xml
+END
+RegisterAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/account/RegisterAction.java
+END

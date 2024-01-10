@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/30/trunk/eShop/AntFiles/serverLibs
+END
+jsp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/30/trunk/eShop/AntFiles/serverLibs/jsp-api.jar
+END
+el-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/30/trunk/eShop/AntFiles/serverLibs/el-api.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/30/trunk/eShop/AntFiles/serverLibs/servlet-api.jar
+END
+commons-logging-api-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/30/trunk/eShop/AntFiles/serverLibs/commons-logging-api-1.1.1.jar
+END

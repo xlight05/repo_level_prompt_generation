@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Math-Mech eShop</title>
+<link href="/admin.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<h:dataTable value="#{admin.groupsPage.groups}" var="group">
+	<h:column>
+		<h:outputText value="#{group.name}" />
+	</h:column>
+	<h:column>
+		<h:dataTable value="#{group.permissions}" var="permission">
+			<h:column>
+				<h:outputText value="#{permission}" />
+			</h:column>
+		</h:dataTable>
+	</h:column>
+	<h:column>
+		<h:outputLink value="edit_group?id=#{group.id}">
+			<h:outputText value="edit" />
+		</h:outputLink>
+	</h:column>
+	<h:column>
+		<h:form>
+			<h:commandLink action="#{admin.groupsPage.removeGroup}" value="delete">
+				<f:param name="id" value="#{group.id}" />
+			</h:commandLink>
+			<h:outputText value="!unsafe!"/>
+		</h:form>		
+	</h:column>
+	
+</h:dataTable>
+<h:form>
+	<h:commandButton action="#{admin.groupsPage.addGroup}"
+		value="add group" />
+</h:form>
+</body>
+</html>

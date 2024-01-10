@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+
+Spring Bean Definition for Services Layer
+=========================================
+
+Authors : Yohan Liyanage
+
+Version : 14 - September - 2008
+Since 	: 08 - September - 2008
+
+ -->
+ 
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<import resource="persistence-context.xml"/>
+
+	<!-- Mail Service -->
+	<bean id="mailService" class="lk.apiit.friends.service.mail.impl.MailServiceVelocityImpl">
+		<property name="templatePath" value="${mail.velocity.templates}" />
+		<property name="mailSender">
+			
+			<!-- Spring JavaMail Sender -->
+			<bean class="org.springframework.mail.javamail.JavaMailSenderImpl">
+				<property name="host" value="${mail.smtp.hostname}" />
+				<property name="username" value="${mail.smtp.username}"/>
+				<property name="password" value="${mail.smtp.password}"/>
+				<property name="port" value="${mail.smtp.port}"/>
+				<property name="javaMailProperties">
+					<props>
+						<prop key="mail.smtp.auth">${mail.smtp.auth}</prop>
+					</props>
+				</property>
+			</bean>
+		</property>
+		
+		<property name="velocityEngine">
+			
+			<!-- Spring Velocity Engine Factory -->
+			<bean class="org.springframework.ui.velocity.VelocityEngineFactoryBean">
+				<property name="velocityProperties">
+					<props>
+						<prop key="resource.loader">class</prop>
+						<prop key="class.resource.loader.class">
+							org.apache.velocity.runtime.resource.loader.ClasspathResourceLoader
+						</prop>
+					</props>
+				</property>
+			</bean>
+		</property>
+	</bean>
+	
+	<!-- User Service -->
+	<bean id="userService" class="lk.apiit.friends.service.impl.UserServiceImpl">
+		<property name="userDao" ref="userDao" />
+	</bean>
+
+</beans>

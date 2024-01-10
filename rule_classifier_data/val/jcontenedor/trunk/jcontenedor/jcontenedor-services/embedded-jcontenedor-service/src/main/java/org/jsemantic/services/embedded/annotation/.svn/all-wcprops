@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/embedded-jcontenedor-service/src/main/java/org/jsemantic/services/embedded/annotation
+END
+EmbeddedHttpServiceAnnotationProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 185
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/embedded-jcontenedor-service/src/main/java/org/jsemantic/services/embedded/annotation/EmbeddedHttpServiceAnnotationProcessor.java
+END
+EmbeddedjContenedorConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 179
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/embedded-jcontenedor-service/src/main/java/org/jsemantic/services/embedded/annotation/EmbeddedjContenedorConfiguration.java
+END
+EmbeddedjContenedor.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/embedded-jcontenedor-service/src/main/java/org/jsemantic/services/embedded/annotation/EmbeddedjContenedor.java
+END

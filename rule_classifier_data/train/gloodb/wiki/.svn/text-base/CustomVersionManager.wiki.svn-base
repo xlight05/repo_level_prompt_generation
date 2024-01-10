@@ -1,0 +1,23 @@
+#summary Using a custom version manager.
+
+= Using a Custom Version Manager =
+
+A !VersionManager implements the version increment strategy. The !VersionManager is specified in the  manager parameter of the @Version annotation (default  !NumberVersionManager).
+
+{{{
+    public class MyVersionManager implements VersionManager {
+	void increment(Serializable original, Serializable copy, Field field) {
+            // ... implementation here
+        }
+    }
+
+    public class PersistentObject implements Serializable {
+        @Identity String id;
+        @Version(manager=MyVersionManager.class) long version;
+
+         public PersistentObject(String id) {this.id = id;}
+         public changeObjectState() { ... }
+    }
+}}}
+----
+[OptimisticLockingUsingVersion Previous] [TransactionLocking Next]

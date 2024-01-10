@@ -1,0 +1,22 @@
+<div id="conteudoInterno">
+    <form action="Controller" method="post" class="inline">
+        <input type="hidden" name="map" id="map" value="Exemplos.mensagens"/>
+        <fieldset>
+            <legend>Formul&aacute;rio para exemplos de mensagens</legend>
+            <label for="pTipoMensagem">Tipo da Mensagem:</label>
+            <select id="pTipoMensagem" name="pTipoMensagem" >
+                <option value="" selected>Selecione</option>
+                <option value="Notice">Notice</option>
+                <option value="Info" >Info</option>
+                <option value="Error" >Error</option>
+                <option value="Success" >Success</option>
+            </select>
+            <br/>
+            <label for="pMensagemText">Texto da Mensagem:</label>
+            <input type="text" class="text required" id="pMensagemText"
+                   name="pMensagemText" value="mensagem da Action" />
+            <br/>
+            <a class="button ajaxSubmit" href="">Execultar</a>
+        </fieldset>
+    </form>
+</div>

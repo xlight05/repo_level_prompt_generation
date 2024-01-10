@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/resources/META-INF
+END
+security.drl
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/88/trunk/seamlets/seamlets-security/src/main/resources/META-INF/security.drl
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/61/trunk/seamlets/seamlets-security/src/main/resources/META-INF/ejb-jar.xml
+END
+seam.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/61/trunk/seamlets/seamlets-security/src/main/resources/META-INF/seam.properties
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/resources/META-INF/persistence.xml
+END
+components.xml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/resources/META-INF/components.xml
+END

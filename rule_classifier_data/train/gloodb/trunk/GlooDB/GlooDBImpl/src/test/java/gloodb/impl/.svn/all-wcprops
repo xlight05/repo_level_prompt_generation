@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/604/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/impl
+END
+ObjectWarehouseImplementationTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/586/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/impl/ObjectWarehouseImplementationTestBase.java
+END
+RollbackSegmentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/604/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/impl/RollbackSegmentTest.java
+END
+RepositoryFacadeTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/379/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/impl/RepositoryFacadeTestBase.java
+END
+ObjectMapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/333/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/impl/ObjectMapTest.java
+END
+ObjectWarehouseTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/317/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/impl/ObjectWarehouseTestBase.java
+END

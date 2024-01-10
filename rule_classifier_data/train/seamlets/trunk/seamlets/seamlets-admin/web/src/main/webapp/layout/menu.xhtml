@@ -1,0 +1,46 @@
+<h:form xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:c="http://java.sun.com/jsp/jstl/core"
+    xmlns:rich="http://richfaces.org/rich"
+    rendered="#{pageInfo.showToolBar}">
+	<rich:toolBar itemSeparator="line" height="26">
+	    <a4j:status>
+	        <f:facet name="start">
+	            <h:graphicImage  value="/img/ajax-loader.gif"/>
+	        </f:facet>
+	        <f:facet name="stop">
+	            <h:graphicImage  value="/img/ajax-stop.gif"/>
+	        </f:facet>
+	    </a4j:status>
+	    <rich:toolBarGroup location="left">
+	    	<h:outputLabel value="#{messages['admin.toolbar.application']}" 
+	    		for="aktiveApplicationMenu"/>
+	    	<h:selectOneMenu value="#{applicationController.aktiveApplication}" 
+	        	id="aktiveApplicationMenu">
+	        	<s:selectItems value="#{applicationList.resultList}" var="applicationItem" label="#{applicationItem.name}" noSelectionLabel="-"/>
+				<f:converter converterId="componentsEntityConverter" />
+				<rich:toolTip for="aktiveApplicationMenu"
+					value="#{messages['admin.toolbar.application']}"/>
+				<a4j:support event="onchange" reRender="left, tabContainer" eventsQueue="aktiveApplication" ignoreDupResponses="true"/>
+	        </h:selectOneMenu>
+	        <h:commandLink action="#{addApplicationAction.showDialog}" reRender="left">
+	        	<h:graphicImage value="/img/admingui/application_add.png" height="16" 
+	        		styleClass="hover" title="#{messages['admin.toolbar.addapplication']}"/>
+	        </h:commandLink>
+	    </rich:toolBarGroup>
+	    <rich:dropDownMenu binding="#{tabViewProvider.dropDownMenu}" id="viewMenu"/>
+	    <rich:toolBarGroup location="right">
+	    	ID:#{conversation.id} | RID:#{conversation.rootId} | P:#{conversation.parentId} | N:#{conversation.nested} | L:#{conversation.longRunning} | 
+	    	<h:outputText value="signed in as: #{identity.username}" rendered="#{identity.loggedIn}"/>
+	        <s:link view="/login/login.xhtml" value="Login" rendered="#{not identity.loggedIn}" propagation="none"/>
+	        <s:link view="/admin/admin.xhtml" action="#{identity.logout}" rendered="#{identity.loggedIn}" propagation="none">
+	        	<h:graphicImage title="Logout" styleClass="hover" 
+	        		value="/img/admingui/logout.png" height="16" alt="Logout"/>
+	        </s:link>
+	    </rich:toolBarGroup>
+	</rich:toolBar>
+</h:form>

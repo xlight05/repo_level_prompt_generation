@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/checkstyle
+END
+checkstyle-text.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/checkstyle/checkstyle-text.xsl
+END
+checkstyle-xdoc.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/checkstyle/checkstyle-xdoc.xsl
+END
+checkstyle-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/checkstyle/checkstyle-frames.xsl
+END

@@ -1,0 +1,88 @@
+#summary Use Cloning to improve performance.
+
+= Cloning vs Copying by Serialization / Deserialization =
+
+GlooDB copies persistent objects  on pretty much every operation. There are several reasons requiring this behaviour:
+ * isolation: references to persistent objects are not shared (i.e. assertNotSame(repository.restore(id), repository.restore(id)));
+ * consistency w/ disk and network serialization behaviours
+
+GlooDB uses the Cloner utility class to make object copies. By default, objects are copied using serialization / deserialization. However, if the persistent object is Cloneable and defines its clone method, the utility uses cloning.
+
+Example 1: Cloning an object using the Cloner utility
+{{{
+   MyPersistent original = someValue;
+   MyPersistent copy = Cloner.deepCopy(original);
+}}}
+
+*Important Note*
+In order to fulfill the isolation and consistency requirements, deep cloning implementations should be used.
+
+== Results ==
+
+Based on unit test result the a significant performance increase is observed when using cloning, as illustrated in the sample data below (of no statistical significance):
+==== Table 1: Memory based repository implementation ====
+
+An in memory repository implementation is used.
+
+|| *Operation* || *Serialization^1^* || *Cloning^1^* || *Gain* ||
+||Create|| 174 ||69 || 60% || 
+||Contains (not cached)|| 8 ||6 || 25% ||
+||Contains (cached)|| 9 || 7|| 22% ||
+||Update (not cached)|| 243 || 33|| 86% ||
+||Update (cached)|| 241 || 33|| 86% ||
+||Store new|| 180 || 36|| 80% ||
+||Store existent (not cached)|| 253 ||40 || 84% ||
+||Store existent (cached)|| 253 || 44||  82% ||
+||Restore (not cached)|| 7 || 6 || 14% ||
+||Restore (cached)|| 7 || 5 || 28% ||
+||Remove (not cached)|| 179 || 34|| 78% ||
+||Remove (cached)|| 184 || 34|| 81% ||
+
+^1^ all times in microseconds
+
+==== Table 2: File based  w/o storage repository implementation ====
+
+A file based transaction log is used, connected to a null storage. Essentially, the database is entirely loaded in memory. This model can be employed as long as the entire dataset fits in memory.
+
+|| *Operation* || *Serialization^1^* || *Cloning^1^* || *Gain* ||
+||Create|| 286 || 101 || 68% ||
+||Contains (not cached)|| 9 || 7 || 22% ||
+||Contains (cached)|| 9 || 8 || 11% ||
+||Update (not cached)|| 448 || 95|| 78% ||
+||Update (cached)|| 345 || 93 || 73% ||
+||Store new|| 288 || 100 || 65% ||
+||Store existent (not cached)|| 359 || 101|| 71% ||
+||Store existent (cached)|| 357 || 105 || 72% ||
+||Restore (not cached)||  9 || 7|| 22% ||
+||Restore (cached)||7 || 6|| 14% ||
+||Remove (not cached)|| 267 ||90 || 66% ||
+||Remove (cached)|| 259 ||90 || 65% ||
+
+^1^ all times in microseconds
+
+==== Table 3: File based w/ block storage repository implementation ====
+
+A file based transaction log is used, connected to a block storage. In this configuration,  most frequently used data is cached in memory, while least used data is stored onto disk.
+
+|| *Operation* || *Serialization^1^* || *Cloning^1^* || *Gain* ||
+||Create|| 174 || 76 || 56% ||
+||Contains (not cached)|| 11 || 8 || 27% ||
+||Contains (cached)|| 9 || 4|| 55% ||
+||Update (not cached)|| 240 || 120|| 50% ||
+||Update (cached)|| 185 || 62|| 66% ||
+||Store new|| 164 || 74|| 54% ||
+||Store existent (not cached)|| 282 || 132|| 53% ||
+||Store existent (cached)|| 201 || 70 || 65% ||
+||Restore (not cached)|| 9 || 5 || 44% ||
+||Restore (cached)|| 6 || 3 || 50% ||
+||Remove (not cached)|| 358 || 245 || 31% ||
+||Remove (cached)|| 155 || 61 || 60% ||
+
+^1^ all times in microseconds
+
+----
+
+Related Test Cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/TimeOperationTestBase.java TimeOperationTestBase]
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleSerializable.java SimpleSerializable]
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleCloneable.java SimpleCloneable]

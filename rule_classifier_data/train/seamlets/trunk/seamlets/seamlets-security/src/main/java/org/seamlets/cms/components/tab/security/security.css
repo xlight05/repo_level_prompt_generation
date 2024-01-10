@@ -1,0 +1,38 @@
+.securityTab {
+	position: absolute;
+	top: 25px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+}
+
+div.actionButtonsContainerList {
+	height: 30px;
+	background-color: #CCC;
+}
+
+div.resultTable {
+	position: absolute;
+	top: 151px;
+	left: 11px;
+	right: 11px;
+	bottom: 10px;
+	width: auto;
+	height: auto;
+}
+
+div.permissionTable {
+	top: 181px;
+}
+
+div.resultEdit {
+	position: absolute;
+	top: 35px;
+	left: 11px;
+	right: 11px;
+	bottom: 10px;
+	width: auto;
+	height: auto;
+}

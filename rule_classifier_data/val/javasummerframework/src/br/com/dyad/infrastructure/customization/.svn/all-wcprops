@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization
+END
+ExecuteCustomization.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/ExecuteCustomization.java
+END
+CustomType.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/CustomType.java
+END
+ClasspathIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/ClasspathIterator.java
+END
+ClasspathList.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/ClasspathList.java
+END
+Customizable.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/Customizable.java
+END
+CustomLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/CustomLoader.java
+END
+MethodConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/customization/MethodConfig.java
+END

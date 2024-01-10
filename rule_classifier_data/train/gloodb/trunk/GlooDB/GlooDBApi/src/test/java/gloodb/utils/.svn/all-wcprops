@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils
+END
+LazyTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/LazyTestBase.java
+END
+EqualityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/EqualityTest.java
+END
+TopLevelTransactionControllerTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/571/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/TopLevelTransactionControllerTestBase.java
+END
+ClonerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/359/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/ClonerTest.java
+END
+TransactionControllerTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/571/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/TransactionControllerTestBase.java
+END
+EmbeddedTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/EmbeddedTestBase.java
+END
+ComparatorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/utils/ComparatorTest.java
+END

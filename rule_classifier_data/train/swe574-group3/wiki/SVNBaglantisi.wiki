@@ -1,0 +1,22 @@
+google code sayfamızdan source'a girip yeni şifre oluşturun(aksi halde hiçbirşey yaqzma hakkınız olmaz)
+
+Eclipse için svn plugini indirilir ve kurulur
+
+window>open perspective>svn repository explorer
+
+svn repository explorer'a sağ tıklanır add(new?) repository denir
+
+https://swe574-group3.googlecode.com/svn adresi verilir
+
+ardından repository explorer'a eklenmiş olan yeni repository'e tıklanır 
+letitbee klasörü checkout yapılır. 
+
+Hatırladığım kadarıyla böyle alınıyordu proje.
+
+Unutmadan, Talat'ın SVN kurulumda bahsettiği classpath değişikliklerini yapmak gerekebilir.
+
+yukarıdaki senaryo tamamen gerçeğe uymayabilir, dediğim gibi hatırladığım kadaıyle böyle, eksik, hatalı bir bilgi varsa düzeltirsiniz artık.
+
+Bua arada claspath.'i commit ettirmiyorum(lock ettim) zira herkesinki farklı olacak.
+
+Kolay gelsin

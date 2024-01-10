@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title>Form Example</title>
+	</head>
+	<body>
+		
+		<!-- without a matching myForm component in the Java code
+		a auto generated form component will be created -->
+		<form wicket:id="myForm">
+			<input type="text" wicket:id="myText"></input>
+			<br/>
+			
+			<input type="checkbox" wicket:id="myCheck"></input> My Check Box
+			<br/>
+			
+			<input type="radio" wicket:id="myRadio@names"></input>
+			<br/>
+			
+			<!-- Simple drop down -->
+			<select wicket:id="myDropDown@names"></select>
+			<br/>
+			
+			<!-- List box -->
+			<select wicket:id="myList@names" size="2"></select>
+			<br/>
+			
+			<!-- Multiple select list box -->
+			<select wicket:id="myMultiList@names" multiple size="2"></select>
+			<br/>
+			
+			<input type="submit" wicket:id="mySubmit"></input> </form>
+	</body>
+</html>

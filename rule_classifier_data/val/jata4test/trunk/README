@@ -1,0 +1,38 @@
+Jata 0.1
+
+Jata is a framework for black box testing like TTCN-3(but it's java). It can works for protocol testing, api testing and other functional test, also load or performance test.
+
+Sample:
+
+1. jata.example.tiny
+	It's a little test for communication between abstract port and system port. It's not entire testing.
+	Run the jata.example.tiny.Tester to start the test. The line 24 (ads.send(mc);) will send the message to jata.example.tiny.Sys, and the "Adapter" function will handle it.
+	
+2. jata.example.yahoo_api
+	It show a standard usage of Jata. The system under testing is yahoo's api(http://developer.yahoo.com/answers/).
+	Run the jata.example.yahoo_api.Yahoo_Api_TestCase to start the test.
+	
+3. jata.example.remoteApdater
+	It's a testing with 2 abstract components and a remote system port. It test a rough password checker. The test struct like this:
+
+	 ##############            ###############
+	 #          +----+       +----+          #
+   #          |Port|_______|Port|          #  
+   #   MTC    | MP |       | PM |   PTC    #
+   #          +----+       +----+          #
+	 #   +----+   #            #    +----+   #
+	 #   |Port|   #            #    |Port|   #
+	 ####| MS |####            #####| PS |####
+	     +----+                     +----+
+         |                          |
+       +----+                     +....+
+ 	     |Port|                     :Port:         
+   ####| SM |#####################: SP :####     
+   #   +----+                     +....+   #     +=======+
+   #                 SYS            |      #     [ Port  ]
+   #                                +------------[ SP    ]
+   #########################################     [ Server]
+                                                 +=======+
+   
+   Run the StartRMI.bat and StartRemote.bat in jata\example\remoteApdater to start the remote port server, then run the jata.example.remoteApdater.Tester.
+   

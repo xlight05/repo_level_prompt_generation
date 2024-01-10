@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/353/trunk/seamlets/seamlets-admin/deploy/local
+END
+server.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/deploy/local/server.xml
+END
+seamlets-admin-ds.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/353/trunk/seamlets/seamlets-admin/deploy/local/seamlets-admin-ds.xml
+END
+host.txt
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/deploy/local/host.txt
+END

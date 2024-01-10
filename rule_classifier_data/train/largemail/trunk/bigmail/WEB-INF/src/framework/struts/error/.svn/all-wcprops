@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/error
+END
+MailCreateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/error/MailCreateException.java
+END
+MailTransferException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/error/MailTransferException.java
+END

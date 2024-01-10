@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <display-name>seamlets-admin-ear</display-name>
+  <module>
+    <web>
+      <web-uri>seamlets-admin-web-1.0.0.A1-SNAPSHOT.war</web-uri>
+      <context-root>/admin</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>jboss-seam-2.1.1.GA.jar</ejb>
+  </module>
+  <module>
+    <ejb>seamlets-admin-ejb-1.0.0.A1-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <ejb>seamlets-components-core-1.0.0.A2-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <ejb>seamlets-security-1.0.0.A2-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <ejb>seamlets-default-components-1.0.0.A2-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <java>seamlets-core-1.0.0.A2-SNAPSHOT.jar</java>
+  </module>
+  <module>
+    <java>seamlets-facelets-1.0.0.A2-SNAPSHOT.jar</java>
+  </module>
+</application>

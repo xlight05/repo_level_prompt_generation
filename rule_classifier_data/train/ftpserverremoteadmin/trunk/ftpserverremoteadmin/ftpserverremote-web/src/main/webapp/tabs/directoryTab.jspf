@@ -1,0 +1,84 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    id="directoryInc" >
+        
+    <tc:panel>
+    <f:facet name="layout">
+        <tc:gridLayout columns="*" rows="*;22px" />
+    </f:facet>
+    
+    <tc:tabGroup>
+        
+        <tc:tab label="#{messages.created}">
+             <tc:sheet columns="1*;1*;1*" value="#{FileDataBean.createdDirs}"
+              var="created_dirs" state=""
+                rows="25" showRowRange="left" showPageRange="right" showDirectLinks="center"
+                showHeader="true">
+    
+                <tc:column id="server" label="#{messages.server}" sortable="true"
+                        rendered="true">
+                    <tc:out value="#{created_dirs.serverHostname}"/>
+                </tc:column>
+    
+                <tc:column id="created_directory" label="#{messages.directory}" sortable="true"
+                        rendered="true">
+                    <tc:out value="#{created_dirs.fileName}" />
+                </tc:column>
+    
+    
+                <tc:column id="creater_user" label="#{messages.user}" sortable="true"
+                        rendered="true">
+                    <tc:out value="#{created_dirs.userName}"/>
+                </tc:column>
+        
+                <tc:column id="creation_time" label="#{messages.time}" sortable="true"
+                            rendered="true">
+                        <tc:out value="#{created_dirs.date}"/>
+                </tc:column>
+             </tc:sheet>
+        </tc:tab>
+        
+        <tc:tab label="#{messages.removed}">
+             <tc:sheet columns="1*;1*;1*" value="#{FileDataBean.removedDirs}"
+              var="rem_dirs" state=""
+                rows="25" showRowRange="left" showPageRange="right" showDirectLinks="center"
+                showHeader="true">
+    
+                <tc:column id="server" label="#{messages.server}" sortable="true"
+                        rendered="true">
+                    <tc:out value="#{rem_dirs.serverHostname}"/>
+                </tc:column>
+    
+                <tc:column id="removed_directory" label="#{messages.directory}" sortable="true"
+                        rendered="true">
+                    <tc:out value="#{rem_dirs.fileName}" />
+                </tc:column>
+    
+    
+                <tc:column id="removed_user" label="#{messages.user}" sortable="true"
+                        rendered="true">
+                    <tc:out value="#{rem_dirs.userName}"/>
+                </tc:column>
+        
+                <tc:column id="remove_time" label="#{messages.time}" sortable="true"
+                            rendered="true">
+                        <tc:out value="#{rem_dirs.date}"/>
+                </tc:column>
+             </tc:sheet>
+        </tc:tab>
+        
+    </tc:tabGroup>
+    
+    <tc:panel>
+       <f:facet name="layout">
+            <tc:gridLayout columns="*;60px;60px;*" rows="*" />
+        </f:facet>
+        <tc:out value="" />
+        <tc:button label="#{messages.reload}" action="#{FileDataBean.reload}" width="60px"/>
+        <tc:button label="#{messages.clear}"  action="#{FileDataBean.clearDirs}" width="60px"/>
+        <tc:out value="" />
+        </tc:panel>
+</tc:panel>
+</f:subview>

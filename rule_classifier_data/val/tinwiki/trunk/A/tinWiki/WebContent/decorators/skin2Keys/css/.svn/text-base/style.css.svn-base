@@ -1,0 +1,134 @@
+/**
+ * Contains common css which over-ride html tags that already exist.
+ * Put application decorator level elements here.
+ *
+ * @author      Tin Pham
+ * @version     1.0
+ * @css level   (2 and W3C Compliant)
+ */
+
+a:hover {
+	color: #E1080A;
+	background: #FFFFAC;
+}
+ 
+body {
+	margin-top: 0px;
+	padding-top: 0px;
+	margin-left: 0px;
+	font: 80% sans-serif;
+	background: #4b4b4d url(/tinWiki/decorators/skinDefault/images/bkgnd_pattern.png);
+}
+
+blockquote {
+	background-color: #ffffdf;
+	border: thin solid black;
+	padding: 0px 6px 0px 12px;
+}
+
+pre {
+	color: white;
+	background: black;
+	font: 100% "Courier New";
+	padding: 3px;
+}
+
+/* for commenting in a pre tag */
+pre em {
+	font-style: normal;
+	color: fuchsia;
+}
+
+/* to represent a variable in a pre tag */
+pre strong {
+	font-style: normal;
+	color: orange;
+}
+
+table {
+	border: none;
+	border-collapse: collapse;
+	empty-cells: show;
+	font: inherit;
+	margin-bottom: 10px;
+}
+
+table caption {
+	font-size: 115%;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+th, thead {
+	background-color: #E2E2E2; 
+	border: 1px solid #7C7C94; 
+	border-right-color: #B5B5B5; 
+	border-bottom-color: #B5B5B5;
+	padding: 3px;
+	text-align: center;
+}
+
+tr {
+	border: 1px solid #7C7C94; 
+	background-color: #FFFFFF; 
+	cursor: pointer;
+}
+
+td {
+	cursor: default;
+	padding: 5px; 
+	border-right: 1px solid #EAE9E1; 
+	border-bottom: 1px solid #EAE9E1; 
+	color: black;
+	vertical-align: top;
+}
+
+td h1 {
+	font: bold 105% sans-serif;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+
+td p {
+	padding: 0px;
+	margin: 0px;
+}
+
+td ul {
+	padding: 0px 5px 0px 18px;
+	margin: 0px;
+}
+
+img {
+	border: none;
+}
+
+hr {
+	height: 1px;
+	color: #aaa;
+	background-color: #aaa;
+	border: 0;
+	margin: .2em 0 .2em 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: black;
+	background: none;
+	font-weight: normal;
+	margin: 0;
+	padding-top: .5em;
+	padding-bottom: .17em;
+	border-bottom: 1px solid #aaa;
+}
+h1 { font-size: 188%; }
+h2 { font-size: 150%; }
+h3, h4, h5, h6 {
+	border-bottom: none;
+	font-weight: bold;
+}
+h3 { font-size: 132%; }
+h4 { font-size: 116%; }
+h5 { font-size: 100%; }
+h6 { font-size: 80%;  }

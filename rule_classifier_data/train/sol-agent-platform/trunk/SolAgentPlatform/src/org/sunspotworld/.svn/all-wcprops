@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/43/trunk/SolAgentPlatform/src/org/sunspotworld
+END
+SunSpotConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/SunSpotConnection.java
+END
+BluetoothMulticast.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/BluetoothMulticast.java
+END
+TCPListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/39/trunk/SolAgentPlatform/src/org/sunspotworld/TCPListener.java
+END
+ClassifyConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/ClassifyConnection.java
+END
+SunSpotHostApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/43/trunk/SolAgentPlatform/src/org/sunspotworld/SunSpotHostApplication.java
+END
+AuroraMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/43/trunk/SolAgentPlatform/src/org/sunspotworld/AuroraMessage.java
+END
+SenderConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/SenderConnection.java
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/Service.java
+END
+TypeConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/TypeConnection.java
+END
+UDPBroadcaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/UDPBroadcaster.java
+END
+Events.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/Events.java
+END
+TCPConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/43/trunk/SolAgentPlatform/src/org/sunspotworld/TCPConnection.java
+END
+BTListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/BTListener.java
+END
+GroupConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/40/trunk/SolAgentPlatform/src/org/sunspotworld/GroupConnection.java
+END
+SunSpotListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/SunSpotListener.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/Status.java
+END
+MulticastConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/MulticastConnection.java
+END
+BTConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/33/trunk/SolAgentPlatform/src/org/sunspotworld/BTConnection.java
+END

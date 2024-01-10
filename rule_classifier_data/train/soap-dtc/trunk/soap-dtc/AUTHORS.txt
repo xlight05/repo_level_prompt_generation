@@ -1,0 +1,17 @@
+This file contains the list of the people who have developed and contributed
+code to this project.
+
+  Maintainers
+  ===========
+
+* Julien Ponge <julien.ponge@gmail.com>
+
+  Developers
+  ==========
+
+* (none yet)
+
+  Contributors
+  ============
+
+* (none yet)

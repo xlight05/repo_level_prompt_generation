@@ -1,0 +1,16 @@
+<project name="DyadInfrastructure2" default="ftp-warfile" basedir=".">
+	
+	<target name="dyadinfrastructure" >
+    	<ant antfile="src/build.xml" dir="${basedir}"  />
+  	</target>
+	
+	<target name="ftp-warfile" depends="dyadinfrastructure">
+		<echo message="Enviando para o servidor" />
+		<ftp server="10.85.8.236" remotedir="/usr/tomcat_6.0.18/webapps"
+			userid="salutis" password="dyad" depends="true"
+			binary="true" verbose="true" ignoreNoncriticalErrors="true">
+			<fileset file="${basedir}/dist/dyadinfrastructure.war" />
+		</ftp>
+	</target>
+
+</project>

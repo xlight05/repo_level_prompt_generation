@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions
+END
+AbstractBaseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/AbstractBaseAction.java
+END
+AbstractAuthAwareAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/web/struts2/actions/AbstractAuthAwareAction.java
+END

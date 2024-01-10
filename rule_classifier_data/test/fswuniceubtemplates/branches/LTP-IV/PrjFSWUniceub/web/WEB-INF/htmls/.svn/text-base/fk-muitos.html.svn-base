@@ -1,0 +1,60 @@
+<meta charset="utf-8">
+<script>
+    $(function() {
+        $( "#dialog:ui-dialog" ).dialog( "destroy" );
+
+        $('#LV').click(function() {
+            $('#divMensagem').dialog("open")
+        });
+
+        $("#divMensagem").load("Controller?map=fk-muitos_Filtrar").dialog({
+            autoOpen: false,
+            height: 500,
+            width: 600,
+            modal: true,
+            buttons: {
+                Ok: function() {
+                    $( this ).dialog( "close" );
+                }
+            }
+        });
+    });
+</script>
+<div id="conteudoInterno">
+    <h2>FK - Poucos registros</h2>
+    <div>
+        <p>Deverá ser utilizada para acesso a campos Foreign Key com muitos registros.</p>
+    </div>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Exemplo de campos FK</legend>
+            <p>
+                <label for="Exemplo1">Exemplo 1</label><br/>
+                <input type="hidden" id="idtExemplo1" name="idtExemplo1" />
+                <input type="text" id="nomeExemplo1" name="nomeExemplo1" maxlength="80" size="30" value="" readonly  />
+                <input type=button value="LV" id="LV">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar" />
+                <input type="reset" value="Limpar" />
+            </p>
+
+        </fieldset>
+    </form>
+    <div class="error">
+        Mensagem com a classe <strong>.error</strong>. <a href="#">Link</a>.
+    </div>
+    <div class="notice">
+        Mensagem com a classe <strong>.notice</strong>. <a href="#">Link</a>.
+    </div>
+
+    <div class="info">
+        Mensagem com a classe <strong>.info</strong>. <a href="#">Link</a>.
+    </div>
+    <div class="success">
+        Mensagem com a classe <strong>.success</strong>. <a href="#">Link</a>.
+    </div>
+</div>
+
+<div id="divMensagem"></div>

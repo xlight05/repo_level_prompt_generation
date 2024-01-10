@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/42/trunk/strudem/src/java/bean
+END
+PaseListaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/PaseListaBean.java
+END
+FormatoAsistencia.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/FormatoAsistencia.java
+END
+EstadoListaAlumnoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/EstadoListaAlumnoBean.java
+END
+AlumnoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/AlumnoBean.java
+END
+ProfesorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/ProfesorBean.java
+END
+CuatrimestreBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/20/trunk/strudem/src/java/bean/CuatrimestreBean.java
+END
+consultaPaseLista.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/40/trunk/strudem/src/java/bean/consultaPaseLista.java
+END
+GrupoProfesorListaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/strudem/src/java/bean/GrupoProfesorListaBean.java
+END
+MiHorarioBean_1.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/40/trunk/strudem/src/java/bean/MiHorarioBean_1.java
+END
+alummnoBeanPaseLista.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/40/trunk/strudem/src/java/bean/alummnoBeanPaseLista.java
+END
+MateriaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/40/trunk/strudem/src/java/bean/MateriaBean.java
+END
+AulaBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/strudem/src/java/bean/AulaBean.java
+END
+HistorialAcademicoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/24/trunk/strudem/src/java/bean/HistorialAcademicoBean.java
+END
+paseListaEstadoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/40/trunk/strudem/src/java/bean/paseListaEstadoBean.java
+END
+UsuarioBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/UsuarioBean.java
+END
+ClaseBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/38/trunk/strudem/src/java/bean/ClaseBean.java
+END
+MisGruposBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/MisGruposBean.java
+END
+SeleccionHorarioBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/SeleccionHorarioBean.java
+END
+MiHorarioBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/MiHorarioBean.java
+END
+UbicacionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12/trunk/strudem/src/java/bean/UbicacionBean.java
+END
+UnidadesBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/UnidadesBean.java
+END
+HorariosTodosBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/HorariosTodosBean.java
+END
+PeriodoBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/37/trunk/strudem/src/java/bean/PeriodoBean.java
+END
+horarioBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/strudem/src/java/bean/horarioBean.java
+END
+UnidadBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/24/trunk/strudem/src/java/bean/UnidadBean.java
+END
+EspecialidadBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/15/trunk/strudem/src/java/bean/EspecialidadBean.java
+END
+LoginBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/LoginBean.java
+END
+EdificioBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/20/trunk/strudem/src/java/bean/EdificioBean.java
+END
+GrupoProfesorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/GrupoProfesorBean.java
+END
+CarreraBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/src/java/bean/CarreraBean.java
+END
+GruposBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/strudem/src/java/bean/GruposBean.java
+END

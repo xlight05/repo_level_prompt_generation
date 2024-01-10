@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal
+END
+DocumentTraversal.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/DocumentTraversal.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/package-frame.html
+END
+TreeWalker.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/TreeWalker.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/package-tree.html
+END
+NodeFilter.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/NodeFilter.html
+END
+NodeIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/org/w3c/dom/traversal/NodeIterator.html
+END

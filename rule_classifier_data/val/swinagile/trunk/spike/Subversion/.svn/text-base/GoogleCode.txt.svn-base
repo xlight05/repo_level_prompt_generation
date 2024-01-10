@@ -1,0 +1,82 @@
+Spike Plan											
+Name: Google Code Repository
+
+CVS Module/Location: None
+
+Overview
+This spike is being undertaken on the grounds that the team has limited knowledge regarding Google code repository.
+
+Background/Context:
+This spike was planned because of a lack of a code repository. This code repository is a necessary component of an effective IT team and should be available.
+
+Goals/Risks:
+The goal of this spike is to prove that a code repository is possible with Google, Subversion and team members with limited Subversion/CVS experience. Use of a code repository increases productivity and reduces the risk of inconsistent releases.
+
+Deliverables:
+There will be created a How To document about utilising Subversion to connect to an established source repository. Finished Date: Tuesday, August 29, 2006.
+
+Resources: Ben Hall (1845454)
+
+Deadline: Wednesday, 30th August
+------------------------------------------------------------------------------------------------------
+
+Analysis/Planning/Design notes
+-	Google Code requires an account with Google.
+-	TortoiseSVN seems to be a viable option for connection to Google Code repository.
+-	Additional feature: Issues logger.
+-	Available technology freely available.
+
+
+Spike outcomes										
+------------------------------------------------------------------------------------------------------
+Goal/Risk:
+The goal of this spike is to prove that a code repository is possible with Google, Subversion and team members with limited Subversion/CVS experience. The goal is to determine the 
+
+Tasks undertaken:
+-Creation of Google Code repository.
+-Connection to Google Code repository using TortoiseSVN.
+-Added a readme.txt file. 
+
+What we found out:
+Code repository available through Google code and also can manage issues for our team.
+
+Open issues/risks:
+-Team members need Google accounts.
+-Suitability of Subversion with Eclipse IDE was not investigated. 
+
+Recommendations:
+Google Code and Subversion are technologies that can be used to facilitate synchronization of code.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------
+
+Google Code - How to use
+
+1.	If you don’t have a Google account you need to register to have the ability to be a member or administrator of a Google code repository. 
+a.	https://www.google.com/accounts/CreateAccount
+b.	Once connected contact captainhall@gmail.com (me) and I will add you to the administration group.
+2.	Download TortoiseSVN, it is freely available from the web. 
+a.	http://tortoisesvn.net/downloads
+b.	Install TortoiseSVN, which will require a restart.
+c.	Checkout repository: URL https://code.google.com/p/adp-fulltimers/ 
+REMEMBER https not http for committing and updating code.
+d.	You will need to go to the Google code web site to get a randomly generated password. This is needed to update, commit and add to the repository.
+3.	Go to http://code.google.com/p/adp-fulltimers/
+

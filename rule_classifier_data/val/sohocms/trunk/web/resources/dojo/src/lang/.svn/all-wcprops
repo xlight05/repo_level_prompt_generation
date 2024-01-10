@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang
+END
+array.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/array.js
+END
+declare.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/declare.js
+END
+assert.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/assert.js
+END
+Lang.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/Lang.js
+END
+type.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/type.js
+END
+extras.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/extras.js
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/__package__.js
+END
+repr.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/repr.js
+END
+common.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/common.js
+END
+func.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang/func.js
+END

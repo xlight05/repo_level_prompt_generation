@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.izforge.soap-dtc</groupId>
+    <version>0.1-SNAPSHOT</version>
+    <artifactId>soap-dtc</artifactId>
+
+    <name>SOAP-DTC - Simple SOAP for Java</name>
+    <description>SOAP-DTC is a simple and minimalist set of SOAP libraries for Java.</description>
+    <url>http://www.izforge.com/soap-dtc/</url>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>../soap-dtc-core</module>
+        <module>../soap-dtc-server</module>
+    </modules>
+
+    <organization>
+        <name>Julien Ponge</name>
+        <url>http://www.izforge.com/</url>
+    </organization>
+    <inceptionYear>2006,2007</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>MIT/X11-style license</name>
+            <url>LICENSE.txt</url>
+        </license>
+    </licenses>
+
+    <build>
+        <plugins>
+
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptors>
+                        <descriptor>src/main/assembly/src.xml</descriptor>
+                    </descriptors>
+                </configuration>
+            </plugin>
+
+        </plugins>
+    </build>
+
+    <issueManagement>
+        <system>Google Code</system>
+        <url>http://code.google.com/p/soap-dtc/issues/list</url>
+    </issueManagement>
+
+    <scm>
+        <connection>scm:svn:http://soap-dtc.googlecode.com/svn/trunk</connection>
+        <developerConnection>scm:svn:https://soap-dtc.googlecode.com/svn/trunk/</developerConnection>
+        <url>http://soap-dtc.googlecode.com/svn/</url>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>repository</id>
+            <name>Repository to upload to a web server.</name>
+            <url>file://${basedir}/../repository</url>
+        </repository>
+    </distributionManagement>
+
+</project>

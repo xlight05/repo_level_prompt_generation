@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<import resource="dataSource.xml"/>
+	<bean id="userDao"
+          class="pl.edu.agh.iosr.ftpserverremote.dataaccess.UserHibernateDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+    </bean>
+	<bean id="adminDao"
+          class="pl.edu.agh.iosr.ftpserverremote.dataaccess.AdminHibernateDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+    </bean>
+	<bean id="ipRestrictionDao"
+          class="pl.edu.agh.iosr.ftpserverremote.dataaccess.IpRestrictionHibernateDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+    </bean>
+	<bean id="messageDao"
+          class="pl.edu.agh.iosr.ftpserverremote.dataaccess.MessageHibernateDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+    </bean>
+	<bean id="serverDao"
+          class="pl.edu.agh.iosr.ftpserverremote.dataaccess.ServerHibernateDAO">
+        <property name="hibernateTemplate" ref="hibernateTemplate"/>
+    </bean>
+    <bean id="hibernateTemplate"
+          class="org.springframework.orm.hibernate3.HibernateTemplate">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate3.LocalSessionFactoryBean">
+        <property name="mappingResources">
+            <list>
+                <value>user.hbm.xml</value>
+                <value>admin.hbm.xml</value>
+                <value>iprestriction.hbm.xml</value>
+                <value>message.hbm.xml</value>
+                <value>server.hbm.xml</value>
+            </list>
+        </property>
+        <property name="hibernateProperties">
+            <props>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5Dialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+        <property name="dataSource">
+            <ref bean="dataSource"/>
+        </property>
+    </bean>    
+</beans>

@@ -1,0 +1,15 @@
+#Wed Oct 11 16:33:20 EST 2006
+dir.src=${basedir}\\src
+dir.classes=${basedir}\\classes
+dir.lib=${basedir}\\lib
+dir.config=${basedir}\\config
+dir.test=${basedir}\\test
+dir.instr=${basedir}\\instr
+dir.target=${basedir}\\target
+dir.doc=${basedir}\\doc
+dir.javadoc=${dir.doc}\\api
+dir.coverage=${dir.doc}\\coverage
+dir.reports=${dir.doc}\\reports
+dir.pmd=${dir.doc}\\pmd
+javadoc.j2se.version=1.5.0
+javac.debug=on

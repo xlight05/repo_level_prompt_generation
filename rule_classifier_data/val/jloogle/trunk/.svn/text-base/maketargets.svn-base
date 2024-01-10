@@ -1,0 +1,24 @@
+#!/usr/bin/env perl
+
+my $infile;
+if ($#ARGV < 0) {
+    $infile = "Makefile";
+} else {
+    $infile = shift @ARGV;
+}
+
+my @targets = ();
+open(infile,"<$infile") || die "Cannot read $infile: $!\n";
+while (<infile>) {
+    chomp;
+    if (m/^([^%\$\:]+)\:/) {
+        my $target = $1;
+        push @targets, ($target);
+    }
+}
+close(infile);
+foreach my $target (sort @targets) {
+    print "$target\n";
+}
+
+

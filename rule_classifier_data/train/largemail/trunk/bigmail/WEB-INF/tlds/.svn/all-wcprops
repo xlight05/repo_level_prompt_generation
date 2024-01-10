@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds/struts-bean.tld
+END
+struts-template.tld
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds/struts-template.tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds/struts-logic.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds/struts-tiles.tld
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tlds/struts-nested.tld
+END

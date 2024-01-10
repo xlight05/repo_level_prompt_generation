@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/14/trunk/soap-dtc-core/src/main/assembly
+END
+src.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/14/trunk/soap-dtc-core/src/main/assembly/src.xml
+END
+bin.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/13/trunk/soap-dtc-core/src/main/assembly/bin.xml
+END

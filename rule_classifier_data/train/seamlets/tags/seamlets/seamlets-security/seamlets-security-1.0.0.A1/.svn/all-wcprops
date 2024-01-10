@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/pom.xml
+END
+seamlets-security.launch
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/seamlets-security.launch
+END
+hibernate-console.properties
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/hibernate-console.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/.project
+END

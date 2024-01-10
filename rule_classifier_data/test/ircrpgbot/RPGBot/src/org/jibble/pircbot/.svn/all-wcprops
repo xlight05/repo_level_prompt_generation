@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/121/RPGBot/src/org/jibble/pircbot
+END
+Queue.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/Queue.java
+END
+DccManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/DccManager.java
+END
+InputThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/InputThread.java
+END
+ReplyConstants.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/ReplyConstants.java
+END
+OutputThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/OutputThread.java
+END
+DccChat.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/DccChat.java
+END
+IdentServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/IdentServer.java
+END
+IrcException.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/IrcException.java
+END
+DccFileTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/DccFileTransfer.java
+END
+Colors.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/Colors.java
+END
+TrustingSSLSocketFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/121/RPGBot/src/org/jibble/pircbot/TrustingSSLSocketFactory.java
+END
+PircBot.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/9/RPGBot/src/org/jibble/pircbot/PircBot.java
+END
+NickAlreadyInUseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/NickAlreadyInUseException.java
+END
+IrcUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/IrcUser.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/RPGBot/src/org/jibble/pircbot/User.java
+END

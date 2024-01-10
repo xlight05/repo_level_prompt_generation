@@ -1,0 +1,32 @@
+# initial data for testing
+
+User(bob):
+  email: bob@gmail.com
+  password: secret
+  fullname: Bob Loblaw
+  address: Babiali
+  isAdmin: false
+  balance: -8
+  reputation: 3
+
+User(milhouse):
+  email: milhouse@gmail.com
+  password: lisa
+  fullname: Milhouse van Houten
+  address: Springfield
+  isAdmin: false
+  balance: 13
+  reputation: 5
+
+User(reducto):
+  email: mreducto@gmail.com
+  password: shrink
+  fullname: Myron Reducto
+  address: Williams Street
+
+City(all):
+  name: All
+
+County(all):
+  name: All
+  city: all

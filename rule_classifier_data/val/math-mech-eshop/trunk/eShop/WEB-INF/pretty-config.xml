@@ -1,0 +1,61 @@
+<pretty-config
+	xmlns="http://ocpsoft.com/prettyfaces-xsd"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ocpsoft.com/prettyfaces-xsd 
+	http://ocpsoft.com/xml/ns/prettyfaces/pretty-1.0.xsd">
+	
+	<url-mapping id="index">
+		<pattern>/</pattern>		
+		<view-id>/index.jsf </view-id>		
+	</url-mapping>
+	
+	<url-mapping id="cart">
+		<pattern>/cart</pattern>		
+		<view-id>/cart.jsf </view-id>		
+	</url-mapping>
+	
+	<url-mapping id="orders">
+		<pattern>/orders</pattern>		
+		<view-id>/orders.jsf </view-id>		
+	</url-mapping>
+	
+	<url-mapping id="category">
+		<pattern>/category</pattern>		
+		<query-param name="id">#{navigation.catId}</query-param>
+		<view-id>#{navigation.getPageId}</view-id>				
+	</url-mapping>
+	
+	<url-mapping id="product">
+		<pattern>/product</pattern>		
+		<query-param name="id">#{productPage.displayedProductId}</query-param>
+		<view-id>/product.jsf</view-id>				
+	</url-mapping>			
+	
+	<url-mapping id="admin">
+		<pattern>/admin/</pattern>		
+		<view-id>/admin/content.jsf </view-id>		
+	</url-mapping>
+	
+	<url-mapping id="adminQuery">
+		<pattern>/admin/#{adminRedirector.pageRequest}</pattern>			
+		<view-id>#{adminRedirector.getPage}</view-id>	
+	</url-mapping>
+	
+	<url-mapping id="login">
+		<pattern>/login</pattern>
+		<view-id>/login.jsf</view-id>	
+	</url-mapping>
+	
+	<url-mapping id="search">
+		<pattern>/search</pattern>			
+		<view-id>/search.jsf</view-id>		
+	</url-mapping>
+	
+	<url-mapping id="register">
+		<pattern>/register</pattern>			
+		<view-id>/register.jsf</view-id>		
+	</url-mapping>
+	
+	
+	
+</pretty-config>

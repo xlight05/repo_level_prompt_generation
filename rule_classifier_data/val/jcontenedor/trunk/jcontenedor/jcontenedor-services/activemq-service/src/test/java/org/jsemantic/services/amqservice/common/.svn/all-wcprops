@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/test/java/org/jsemantic/services/amqservice/common
+END
+ConsumerTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/test/java/org/jsemantic/services/amqservice/common/ConsumerTool.java
+END
+RequesterTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/test/java/org/jsemantic/services/amqservice/common/RequesterTool.java
+END
+ProducerTool.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/test/java/org/jsemantic/services/amqservice/common/ProducerTool.java
+END

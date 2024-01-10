@@ -1,0 +1,15 @@
+# Server properties for ant script 
+host.username=eshop2
+host.server=s156.eatj.com
+host.password=vinogradoff
+
+tomcat.server=${host.username}.${host.server}
+tomcat.manager.url=http://${tomcat.server}/manager
+tomcat.username=admin
+tomcat.password=${host.password}
+
+db.password=${host.password}
+db.username=${host.username}
+db.server=localhost
+#eatj.com mySQL 5.0 port
+db.port=3307

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <package name="profesor" namespace="/profesor" extends="struts-default,json-default">
+        <interceptors>
+            <interceptor-ref name="defaultStack">
+                <param name="validation.excludeMethods">cargarPagina,consultas,consultaUsuario,consultaAlumno,alumnoEditar,consultaProfesor,consultaMateria,inactivar</param>
+            </interceptor-ref>
+        </interceptors>
+        <action name="profesor">
+            <result>/profesor/index.jsp</result>
+        </action>
+        <action name="cerrarSession" class="bean.LoginBean" method="cerrarSession">
+            <result name="success" type="redirect">/login.jsp</result>
+        </action>
+        <action name="GrupoProfesorLista" class="bean.GrupoProfesorBean" method="grupoProfesor">
+            <result name="success">/profesor/template.jsp</result>
+            <result name="error">login.jsp</result>
+        </action>
+        
+        <action name="alumnoNuevo" class="bean.AlumnoBean" method="cargarPagina">
+            <result name="success">/profesor/alumnoInsertar.jsp</result>
+        </action>
+        <action name="alumnoInsertar" class="bean.AlumnoBean" method="insertar">
+            <result name="none" type="redirect">/profesor/alumnoInsertar.jsp</result>
+            <result name="success">/profesor/alumnoLista.jsp</result>
+            <result name="error" type="redirect">/profesor/alumnoInsertar.jsp</result>
+        </action>
+        <action name="alumnoLista" class="bean.AlumnoBean" method="consultas" >
+            <result name="success">/profesor/alumnoLista.jsp</result>
+            <result name="error">/profesor/index.jsp</result>
+        </action>
+        <action name="alumnoModificar" class="bean.AlumnoBean" method="modificarRegistro">
+            <result name="input">/profesor/alumnoModificar.jsp</result>
+            <result name="success">/profesor/alumnoLista.jsp</result>
+            <result name="error">/profesor/alumnoModificar.jsp</result>
+        </action>
+        <action name="alumnoEditar" class="bean.AlumnoBean" method="consultaMateria">
+            <result name="success">/profesor/alumnoModificar.jsp</result>
+            <result name="error">/profesor/alumnoLista.jsp</result>
+        </action>
+    </package>
+</struts>
+

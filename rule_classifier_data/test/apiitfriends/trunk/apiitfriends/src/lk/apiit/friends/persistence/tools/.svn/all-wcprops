@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/persistence/tools
+END
+SchemaPopulate.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/persistence/tools/SchemaPopulate.java
+END
+SchemaGen.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/persistence/tools/SchemaGen.java
+END
+SchemaSupport.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/persistence/tools/SchemaSupport.java
+END
+SchemaDrop.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/persistence/tools/SchemaDrop.java
+END

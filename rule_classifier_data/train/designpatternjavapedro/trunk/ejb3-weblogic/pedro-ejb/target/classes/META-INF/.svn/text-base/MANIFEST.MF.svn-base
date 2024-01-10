@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Built-By: Pedro Daniel Aoki
+Build-Jdk: 1.6.0_32
+Class-Path: persistence-api-1.0.jar svnservice-client-0.0.1-SNAPSHOT.j
+ ar commons-collections-3.2.jar commons-lang-2.3.jar commons-logging-1
+ .1.1.jar mysql-connector-java-5.0.2.jar
+Created-By: Maven Integration for Eclipse
+

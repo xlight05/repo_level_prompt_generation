@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/145/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/exception
+END
+MissingAnnotationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/145/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/exception/MissingAnnotationException.java
+END
+NoEditViewAvailableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/145/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/exception/NoEditViewAvailableException.java
+END

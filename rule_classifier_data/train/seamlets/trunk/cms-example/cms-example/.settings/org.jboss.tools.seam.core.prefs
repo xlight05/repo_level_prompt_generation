@@ -1,0 +1,17 @@
+#Tue Feb 03 19:26:57 CET 2009
+action.package=de.webarts.cms.example.session
+action.sources=/cms-example-ejb/ejbModule
+eclipse.preferences.version=1
+model.package=de.webarts.cms.example.entity
+model.sources=/cms-example-ejb/ejbModule
+seam.ear.project=cms-example-ear
+seam.ejb.project=cms-example-ejb
+seam.project.connection.profile=CMS DB
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/cms-example/WebContent
+seam.runtime.name=jboss-seam-2.1.1.GA
+seam.test.creating=false
+seam.test.project=cms-example-test
+test.package=de.webarts.cms.example.test
+test.sources=/cms-example-test/test-src

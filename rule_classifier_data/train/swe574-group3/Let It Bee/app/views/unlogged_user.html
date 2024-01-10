@@ -1,0 +1,71 @@
+#{extends 'main.html' /}
+
+<div id="content">
+  <div id="main" style="padding-top:0px">
+    #{doLayout /}
+  </div>
+      <div id="sidebar"  style="border:0px solid #aaa; padding-top:0px;">
+      <div class="about-me">
+        <h3>Login</h3>
+	
+        <form action="@{Secure.authenticate()}" method="POST" class="login">
+        	#{if flash.error}
+			<p class="ikaz" style="padding:5px 5px; margin:5px;">Wrong Email or Password! Please try again.</span>
+			#{/if}
+        	<ul class="login">
+            	<li>
+                  <label style="width:100px;">Email</label>
+                  <input type="text" name="username" value="${flash.username}" style="width:180px" />
+                </li>
+                <li>
+                  <label style="width:100px;">Password</label>
+                    <input type="password" name="password" style="width:180px" />
+                </li>
+                <li>
+                  <input type="submit" class="login_button" value="Login" style="float:left; width:90px;" />
+                </li>
+                <li>
+                  <input type="button" class="login_button" style="margin-left:10px; width:90px;" value="Register" onclick="window.location='@{Users.register()}'" />
+                </li>
+            </ul>
+        </form>
+      </div>
+      
+     <br/>
+     <div class="sidemenu">
+        <h3>Popular Offers For the Last 30 Days</h3>                 
+          <div class="tag_cloud" style="text-transform:none !important;">  
+          <ul>
+          <br/>
+             
+           #{list items:tagCloudOffer, as:'tagItem'}
+           <li class = "${tagItem.CssClass}">  
+             ${tagItem.name}           
+           </li>
+           #{/list}
+          </ul>          
+            <!-- <ul>
+	      #{list items:models.Tag.find('select name from Tag group by name order by count(*) desc').fetch(6), as:'poptag'}
+	      ${poptag}
+	      #{/list}
+            </ul>-->
+          </div>
+      </div> 
+            
+      <div class="sidemenu">
+        <h3>Popular Requests For the Last 30 Days</h3>                 
+          <div class="tag_cloud" style="text-transform:none !important;">  
+          <ul>
+          <br/>
+             
+           #{list items:tagCloudRequest, as:'tagItem'}
+           <li class = "${tagItem.CssClass}">  
+             ${tagItem.name}           
+           </li>
+           #{/list}
+          </ul>         
+          </div>
+      </div> 
+
+    </div>
+</div>

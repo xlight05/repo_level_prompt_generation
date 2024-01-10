@@ -1,0 +1,30 @@
+Spring DAO Helper's Config:
+
+{{{
+	<!-- ======================================================================= -->
+	<!-- DAO Helper's (iBatis)                                                   -->
+	<!-- ======================================================================= -->
+	<bean id="createHelper" class="org.xfuze.dao.helper.ibatis.CreateHelper">
+		<property name="sqlMapClient" ref="sqlMapClient" />
+	</bean>
+
+	<bean id="readHelper" class="org.xfuze.dao.helper.ibatis.ReadHelper">
+		<property name="sqlMapClient" ref="sqlMapClient" />
+	</bean>
+
+	<bean id="updateHelper" class="org.xfuze.dao.helper.ibatis.UpdateHelper">
+		<property name="sqlMapClient" ref="sqlMapClient" />
+	</bean>
+
+	<bean id="deleteHelper" class="org.xfuze.dao.helper.ibatis.DeleteHelper">
+		<property name="sqlMapClient" ref="sqlMapClient" />
+	</bean>
+
+	<bean id="countHelper" class="org.xfuze.dao.helper.ibatis.CountHelper">
+		<property name="sqlMapClient" ref="sqlMapClient" />
+	</bean>
+
+	<bean id="pagingHelper" class="org.xfuze.dao.helper.ibatis.PagingHelper">
+		<property name="sqlMapClient" ref="sqlMapClient" />
+	</bean>
+}}}

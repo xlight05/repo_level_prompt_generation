@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/12/trunk/bigmail/WEB-INF
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/struts-nested.tld
+END
+struts-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/10/trunk/bigmail/WEB-INF/struts-config.xml
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/struts-html.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/struts-bean.tld
+END
+validation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/validation.xml
+END
+.struts-config.xml.strutside
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/10/trunk/bigmail/WEB-INF/.struts-config.xml.strutside
+END
+dwr.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/dwr.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/web.xml
+END
+validator-rules.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/validator-rules.xml
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/.cvsignore
+END
+tiles-defs.xml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/tiles-defs.xml
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/struts-logic.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/struts-tiles.tld
+END

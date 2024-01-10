@@ -1,0 +1,26 @@
+Dear $firstname,
+
+Welcome to APIIT Friends, where you can keep in touch with your colleagues and staff of APIIT, and to be up-to-date regarding events at APIIT.
+
+This email is sent to inform you that your registration at APIIT Friends is successful. You have provided us following details during registration:
+	
+	User Name		: $username
+	Your Name		: $firstname $lastname
+	Membership Type	: $type
+	
+You are required to confirm these details in order to activate your account. If these details are accurate and you wish to continue your registration, please browse to following address:
+
+$confirm_url
+
+If above mentioned details are inaccurate, you may modify the details and re-apply by browsing to following address:
+
+$modify_url
+
+If you did not register at APIIT Friends, please click following link to delete the account:
+
+$del_url
+
+Please note that this is an auto-generated email. Do not reply to this mail. If you have any inquiry, you are welcome to send an email to $support_address.
+
+Thank You.
+APIIT Friends

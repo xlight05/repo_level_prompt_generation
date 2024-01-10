@@ -1,0 +1,14 @@
+#summary GlooDB Tips.
+#labels Phase-Support
+
+= Common Mistakes =
+
+ == Embedded Value ==
+ # Embedded value is reset after updating the object.
+  ** The embedded value is not cloned correctly. Check the clone method
+ # Embedded value is not flushed in !PostUpdate / !PostCreate
+  ** Use !PreCreate or !PreUpdate to flush the embedded value instead of Post callbacks (at post time the embedded value has been persisted already and reset to not-fetched not-dirty).
+
+== Association ==
+ # Cannot find and object in a collection of objects (contains returns false) returned from an association.
+  ** Implement the equal method for the object which compares object identities to establish equality.

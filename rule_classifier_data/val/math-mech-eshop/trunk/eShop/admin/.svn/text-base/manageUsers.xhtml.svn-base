@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<link href="/admin.css" rel="stylesheet" type="text/css" />
+<title>Math-Mech eShop</title>
+</head>
+<f:view>
+	<body>
+	<h:dataTable value="#{admin.foundUsers}" var="foundUser"
+		styleClass="data_table">
+
+		<f:facet name="header">
+			<h:outputText value="found users:" />
+		</f:facet>
+
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="id" />
+			</f:facet>
+			<h:outputText value="#{foundUser.id}"></h:outputText>
+		</h:column>
+
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="login" />
+			</f:facet>
+			<h:outputText value="#{foundUser.login}"></h:outputText>
+		</h:column>
+
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="name" />
+			</f:facet>
+			<h:outputText value="#{foundUser.name}"></h:outputText>
+		</h:column>
+
+		<h:column>
+			<f:facet name="header">
+				<h:outputText value="group" />
+			</f:facet>
+			<h:outputLink value="#{admin.editGroupPage.request}">
+				<f:param name="id" value="#{foundUser.group.id}"/>
+				<h:outputText value="#{foundUser.group.name}" />
+			</h:outputLink>
+		</h:column>
+
+		<h:column>
+			<h:outputLink value="edit_user?id=#{foundUser.id}">edit</h:outputLink>
+		</h:column>
+
+		<h:column>
+			<h:form>
+				<h:commandLink action="#{admin.usersPage.removeUser}" value="delete">
+					<f:param name="id" value="#{foundUser.id}" />
+				</h:commandLink>
+			</h:form>
+		</h:column>
+
+
+		<f:facet name="footer">
+			<h:outputText value="The End" />
+		</f:facet>
+
+	</h:dataTable>
+	<h:form>
+		<h:commandButton action="#{admin.usersPage.addUser}" value="addUser" />
+	</h:form>
+	</body>
+</f:view>
+</html>

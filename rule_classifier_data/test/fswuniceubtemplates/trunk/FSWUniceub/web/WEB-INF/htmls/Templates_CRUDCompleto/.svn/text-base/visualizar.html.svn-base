@@ -1,0 +1,20 @@
+<div id="conteudoInterno">
+    <h2>{TIPO_PAGINA}</h2>
+    <input type="hidden" value="{IDT_USUARIO}" class="" name="idtUsuario" id="idtUsuario">
+    <a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar botaoTitulo" role="button">Editar</a>
+    <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir botaoTitulo" role="button">Excluir</a>
+    <a href="Controller?map=Templates_CRUDCompleto.listar" class="button ajaxConteudo botaoTitulo">Voltar</a>
+    <div class="visualizacaoEntidade">
+        <p><strong>Id:</strong> {IDT_USUARIO}</p>
+        <p><strong>Nome:</strong> {NME_USUARIO}</p>
+        <p><strong>Login:</strong> {USR_LOGIN}</p>
+        <p><strong>Senha:</strong> {PWD_LOGIN}</p>
+        <p><strong>E-mail:</strong> {URL_USUARIO}</p>
+        <p><strong>Bloco:</strong> {END_BLOCO}</p>
+        <p><strong>Sala:</strong> {END_SALA}</p>
+        <p><strong>Ramal:</strong> {TEL_RAMAL}</p>
+        <p><strong>Observa&ccedil;&atilde;o:</strong> {OBS_USUARIO}</p>
+        <p><strong>Status:</strong> {OBS_USUARIO}</p>
+        <p><strong>Permiss&otilde;es:</strong> {OBS_USUARIO}</p>
+    </div>
+</div>

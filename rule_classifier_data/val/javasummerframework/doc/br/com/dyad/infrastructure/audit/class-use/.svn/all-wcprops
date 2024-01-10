@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use
+END
+UndoRedoLogResult.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use/UndoRedoLogResult.html
+END
+HibernateAuditLogListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use/HibernateAuditLogListener.html
+END
+UndoRedoLog.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use/UndoRedoLog.html
+END
+AuditTrail.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use/AuditTrail.html
+END
+AuditSynchronization.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use/AuditSynchronization.html
+END
+NotAuditable.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/audit/class-use/NotAuditable.html
+END

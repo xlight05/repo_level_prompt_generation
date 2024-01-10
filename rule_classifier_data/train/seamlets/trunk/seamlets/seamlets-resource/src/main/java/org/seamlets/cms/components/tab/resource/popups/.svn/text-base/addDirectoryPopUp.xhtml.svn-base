@@ -1,0 +1,55 @@
+<s:fragment xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{resourceTab.showDialog}">
+	<rich:modalPanel id="resourceDirectoryAddPopup" minWidth="350" minHeight="100" autosized="true" 
+		moveable="false" showWhenRendered="true">
+		<f:facet name="header">
+			#{messages['resource.adddirectory.popup.header']}
+		</f:facet>
+		<f:facet name="controls">
+            <h:panelGroup>
+            	<s:link id="hidelinkResourceDirectory"
+	            			 action="#{resourceTab.hideDirectoryDialog}">
+                	<h:graphicImage value="/img/modal/close.png" style="cursor:pointer"
+                		title="#{messages['action.cancel']}"/>
+               	</s:link>
+                <rich:componentControl for="resourceDirectoryAddPopup" attachTo="hidelinkResourceDirectory" operation="hide" event="onclick"/>
+            </h:panelGroup>
+        </f:facet>
+	
+		<p>#{messages['resource.adddirectory.popup.message']}</p>
+		
+		<h:form>
+			<s:decorate id="nameField" template="/layout/edit.xhtml">
+	               <ui:define name="label">#{messages['resource.adddirectory.popup.name']}</ui:define>
+	               <h:inputText id="name" required="true"
+	                            value="#{resourceTab.directoryName}">
+	               	<a4j:support event="onkeyup" reRender="nameField, save" ajaxSingle="true"
+	               		ignoreDupResponses="true" eventsQueue="saveDisableQueu" requestDelay="3000"/>
+	               </h:inputText>
+	           </s:decorate>
+	
+	        <div style="clear:both"/>
+			<rich:separator height="1" lineType="solid"/>
+	        <div style="text-align: right;">
+	            <h:commandButton id="save" 
+	           		disabled="#{resourceTab.directoryName == null || resourceTab.directoryName == ''}"
+	           		reRender="main"
+	                value="#{messages['action.applay']}"
+	                action="#{resourceTab.addDirectory}">
+	            	<s:defaultAction/>
+	            </h:commandButton>
+	            <s:button id="cancel"
+	            	reRender="resourceTree"
+	            	action="#{resourceTab.hideDirectoryDialog}"
+	                value="#{messages['action.cancel']}"/>
+	            <rich:componentControl for="resourceDirectoryAddPopup" attachTo="cancel" operation="hide" event="onclick"/>
+	        </div>
+		</h:form>
+	</rich:modalPanel>
+</s:fragment>

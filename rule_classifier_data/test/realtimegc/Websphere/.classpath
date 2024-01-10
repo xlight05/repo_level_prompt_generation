@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-aop/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-aop-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-aop/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-aop-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-web/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-web-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-web/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-web-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-jdbc/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-jdbc-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-jdbc/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-jdbc-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-context/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-context-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-context/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-context-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-tx/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-tx-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-tx/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-tx-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-jms/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-jms-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-jms/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-jms-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-beans/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-beans-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-beans/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-beans-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-core/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-core-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-core/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-core-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/javax.mail/mail/f4a7485e40fa96e2fd05aa50f7736057/sources/mail-1.4.4-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/javax.mail/mail/f4a7485e40fa96e2fd05aa50f7736057/jars/mail-1.4.4.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-test/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-test-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-test/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-test-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/junit/junit/f4a7485e40fa96e2fd05aa50f7736057/sources/junit-4.8.1-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/junit/junit/f4a7485e40fa96e2fd05aa50f7736057/jars/junit-4.8.1.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/commons-logging/commons-logging/f4a7485e40fa96e2fd05aa50f7736057/sources/commons-logging-1.1.1-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/commons-logging/commons-logging/f4a7485e40fa96e2fd05aa50f7736057/jars/commons-logging-1.1.1.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/aopalliance/aopalliance/f4a7485e40fa96e2fd05aa50f7736057/sources/aopalliance-1.0-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/aopalliance/aopalliance/f4a7485e40fa96e2fd05aa50f7736057/jars/aopalliance-1.0.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/commons-pool/commons-pool/f4a7485e40fa96e2fd05aa50f7736057/sources/commons-pool-1.3-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/commons-pool/commons-pool/f4a7485e40fa96e2fd05aa50f7736057/jars/commons-pool-1.3.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-context-support/f4a7485e40fa96e2fd05aa50f7736057/sources/spring-context-support-2.5.6-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/org.springframework/spring-context-support/f4a7485e40fa96e2fd05aa50f7736057/jars/spring-context-support-2.5.6.jar" exported="true"/>
+	<classpathentry sourcepath="/home/stijn/.gradle/caches/artifacts-4/javax.activation/activation/f4a7485e40fa96e2fd05aa50f7736057/sources/activation-1.1-sources.jar" kind="lib" path="/home/stijn/.gradle/caches/artifacts-4/javax.activation/activation/f4a7485e40fa96e2fd05aa50f7736057/jars/activation-1.1.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/xom-1.2.5.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-ds-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/jopt-simple-3.2.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-xml-serialiser-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/juel-2.2.1.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-xml-parser-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/slf4j-api-1.6.0.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/logback-core-0.9.24.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-core-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-g11n-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-aluscript-parser-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-mail-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-io-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-servlet-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-el-expressions-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-xml-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/logback-classic-0.9.24.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/javassist-3.13.0-GA.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-text-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-html-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-core-library-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-cli-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/aluminum-aludoc-0.7.jar" exported="true"/>
+	<classpathentry kind="lib" path="/home/stijn/apps/aluminum/lib/slf4j-api-1.6.1.jar" exported="true"/>
+</classpath>

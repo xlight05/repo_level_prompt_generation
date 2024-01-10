@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/pool/class-use
+END
+BasicConnFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/pool/class-use/BasicConnFactory.html
+END
+BasicConnPool.html
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/pool/class-use/BasicConnPool.html
+END
+BasicPoolEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/pool/class-use/BasicPoolEntry.html
+END

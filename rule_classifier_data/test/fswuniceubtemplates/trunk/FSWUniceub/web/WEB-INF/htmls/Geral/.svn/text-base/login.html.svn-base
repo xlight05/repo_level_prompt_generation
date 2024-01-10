@@ -1,0 +1,18 @@
+<div id="conteudoInterno">
+    <form action="Controller" method="POST" id="formLogin" class="">
+        <input type="hidden" name="map" id="map" value="inicio">
+        <h3>Login</h3>
+        <p>
+            <label for="login">Usu&aacute;rio:</label>
+            <input type="text" class="text" id="login" name="login" value="Admin" />
+        </p>
+        <p>
+            <label for="pass">Senha:</label>
+            <input type="password" class="text" id="pass" name="pass" value="uniceub" />
+        </p>
+        <p class="right">
+            <input class="submitRefresh" type="submit" value="Entrar">
+        </p>
+        <hr class="clear"/>
+    </form>
+</div>

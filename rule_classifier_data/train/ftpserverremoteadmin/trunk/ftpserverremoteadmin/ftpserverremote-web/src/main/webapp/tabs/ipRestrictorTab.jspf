@@ -1,0 +1,77 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    id="ipRestrictorInc" >
+    
+    <tc:panel>
+        
+        <f:facet name="layout">
+            <tc:gridLayout rows="1*;22px;22px" />
+        </f:facet>
+        
+        <tc:sheet columns="2*;2*;1*"
+                  var="ip_restrictions" state="#{IpRestrictorBean.sheetState}"
+                  rows="25"
+                  showRowRange="left" showPageRange="right" showDirectLinks="center"
+                  showHeader="true"
+                  selectable="single"
+                  value="#{IpRestrictorBean.ipRestrictionsList}">
+            <tc:column id="server" label="#{messages.server}" sortable="true"
+                       rendered="true">
+                <tc:selectOneChoice  value="#{ip_restrictions.hostname}">
+                    <f:selectItems value="#{IpRestrictorBean.serversIP}" />
+                </tc:selectOneChoice>    
+            </tc:column>
+            
+            <tc:column id="ip_pattern" label="#{messages.ip_pattern}" sortable="false"
+                       rendered="true">
+                <tc:in value="#{ip_restrictions.ipPattern}" />
+            </tc:column>
+            
+            
+            <tc:column id="permission" label="#{messages.permission}" sortable="false"
+                       rendered="true">
+                <tc:selectBooleanCheckbox value="#{ip_restrictions.permissionBoolean}" />
+            </tc:column>
+            
+        </tc:sheet>
+        
+        <tc:panel>
+            <f:facet name="layout">
+                <tc:gridLayout columns="*;70px;70px;70px;70px;90px;*" rows="*" />
+            </f:facet>
+            <tc:out value="" /> 
+            <tc:button label="#{messages.add}" action="#{IpRestrictorBean.add}" width="60px"/>
+            <tc:button label="#{messages.insert}" action="#{IpRestrictorBean.insert}" width="60px"/>
+            <tc:button label="#{messages.remove}" action="#{IpRestrictorBean.remove}" width="60px"/>
+            <tc:button label="#{messages.move_up}" action="#{IpRestrictorBean.move_up}" width="60px"/>
+            <tc:button label="#{messages.move_down}" action="#{IpRestrictorBean.move_down}" width="80px"/>
+        <tc:out value="" /> 
+    </tc:panel> 
+    
+    <tc:panel>
+        <f:facet name="layout">
+            <tc:gridLayout columns="*;70px;70px;*" rows="*" />
+        </f:facet>
+        <tc:out value="" /> 
+        <tc:button label="#{messages.save}" action="#{IpRestrictorBean.save}" width="60px"/>
+        <tc:button label="#{messages.reload}" action="#{IpRestrictorBean.reload}" width="60px"/>
+        <tc:out value="" /> 
+    </tc:panel> 
+    <tc:attribute name="renderedPartially" value="ipRestrictorErrorPopup"/>
+        <tc:popup width="250px" height="100px" id="ipRestrictorErrorPopup" rendered="#{IpRestrictorBean.showErrorPopup}">
+            <tc:box label="#{IpRestrictorBean.errorHeader}">
+                <tc:panel>
+                    <f:facet name="layout">
+                        <tc:gridLayout columns="*" rows="*;22px" />
+                    </f:facet>
+                    <tc:out value="#{IpRestrictorBean.errorMessage}" />
+                    <tc:button action="#{IpRestrictorBean.closeErrorPopup}" label="#{messages.ok}" >
+                        <tc:attribute name="popupClose" value="afterSubmit"/>
+                    </tc:button>
+                </tc:panel>    
+            </tc:box>
+    </tc:popup>
+</tc:panel>
+</f:subview>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/81/trunk/jjsc-test/src/org/jjsc/compiler/javascript
+END
+JavaScriptCompilationTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/65/trunk/jjsc-test/src/org/jjsc/compiler/javascript/JavaScriptCompilationTestCase.java
+END
+JavaScriptBuilderTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/65/trunk/jjsc-test/src/org/jjsc/compiler/javascript/JavaScriptBuilderTestCase.java
+END
+JavaScriptTokenizerTestCase.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/81/trunk/jjsc-test/src/org/jjsc/compiler/javascript/JavaScriptTokenizerTestCase.java
+END

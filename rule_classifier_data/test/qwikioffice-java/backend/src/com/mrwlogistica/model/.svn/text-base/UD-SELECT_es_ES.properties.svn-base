@@ -1,0 +1,5 @@
+
+_BEANBASE_count_query=SELECT COUNT(*) FROM ( #query ) V
+
+_BEANBASE_paged_query=SELECT * FROM ( #query ) V LIMIT #inirow,#endrow
+

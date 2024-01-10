@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business
+END
+ToBuomLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/ToBuomLogic.java
+END
+PhieuDangKyLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/PhieuDangKyLogic.java
+END
+ThanhPhoLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/ThanhPhoLogic.java
+END
+ChiTietBaoLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/ChiTietBaoLogic.java
+END
+LoaiBangLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/LoaiBangLogic.java
+END
+KhachHangLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/KhachHangLogic.java
+END
+DuongLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/DuongLogic.java
+END
+HinhAnhLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/HinhAnhLogic.java
+END
+DiaOcLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/DiaOcLogic.java
+END
+DangNhapLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/DangNhapLogic.java
+END
+ThongKeThangLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/DiaOC_WebServ/src/java/Business/ThongKeThangLogic.java
+END
+LoaiDiaOCLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/LoaiDiaOCLogic.java
+END
+QCBaoLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/QCBaoLogic.java
+END
+GiaTienQCBaoLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/GiaTienQCBaoLogic.java
+END
+GiaTienQCToBuomLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/GiaTienQCToBuomLogic.java
+END
+ThamSoLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/src/java/Business/ThamSoLogic.java
+END
+QCBangLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/QCBangLogic.java
+END
+GiaTienQCBangLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/GiaTienQCBangLogic.java
+END
+ThongKeDiaOcLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/src/java/Business/ThongKeDiaOcLogic.java
+END
+PhuongLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/PhuongLogic.java
+END
+BaoLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/BaoLogic.java
+END
+ThongKeSoLuongKhachHangLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/src/java/Business/ThongKeSoLuongKhachHangLogic.java
+END
+NoiDungLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Business/NoiDungLogic.java
+END
+QuanLogic.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Business/QuanLogic.java
+END

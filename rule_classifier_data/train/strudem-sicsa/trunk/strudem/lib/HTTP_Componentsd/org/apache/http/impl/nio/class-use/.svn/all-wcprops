@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use
+END
+DefaultHttpServerIODispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultHttpServerIODispatch.html
+END
+DefaultServerIOEventDispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultServerIOEventDispatch.html
+END
+SSLNHttpClientConnectionFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/SSLNHttpClientConnectionFactory.html
+END
+NHttpConnectionBase.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/NHttpConnectionBase.html
+END
+DefaultNHttpClientConnectionFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultNHttpClientConnectionFactory.html
+END
+DefaultNHttpServerConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultNHttpServerConnection.html
+END
+SSLClientIOEventDispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/SSLClientIOEventDispatch.html
+END
+DefaultHttpClientIODispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultHttpClientIODispatch.html
+END
+DefaultClientIOEventDispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultClientIOEventDispatch.html
+END
+SSLNHttpServerConnectionFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/SSLNHttpServerConnectionFactory.html
+END
+DefaultNHttpClientConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultNHttpClientConnection.html
+END
+DefaultNHttpServerConnectionFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/DefaultNHttpServerConnectionFactory.html
+END
+SSLServerIOEventDispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/class-use/SSLServerIOEventDispatch.html
+END

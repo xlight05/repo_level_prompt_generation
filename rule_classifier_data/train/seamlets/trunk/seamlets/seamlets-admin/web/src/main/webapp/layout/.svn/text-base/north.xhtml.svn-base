@@ -1,0 +1,13 @@
+<s:fragment xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:s="http://jboss.com/products/seam/taglib">
+	<div id="header">
+		<span class="header">Bitcube Rapid Webcomponent System</span>
+	</div>
+	<div id="menu">
+		<ui:include src="menu.xhtml"/>
+	</div>
+</s:fragment>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/java/org/jsemantic/jcontenedor/parser
+END
+JContenedorFactoryBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/java/org/jsemantic/jcontenedor/parser/JContenedorFactoryBean.java
+END
+JContenedorDefinitionParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/java/org/jsemantic/jcontenedor/parser/JContenedorDefinitionParser.java
+END
+JContenedorNameSpaceHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/java/org/jsemantic/jcontenedor/parser/JContenedorNameSpaceHandler.java
+END

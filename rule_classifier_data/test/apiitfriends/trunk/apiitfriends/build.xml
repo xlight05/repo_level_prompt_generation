@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+Ant Build Script for APIIT-Friends
+==================================
+
+Authors : Yohan Liyanage
+
+Version : 12 - September - 2008
+Since 	: 08 - September - 2008
+-->
+
+<project name="APIITFriends" basedir=".">
+
+	<property file="build.properties" />
+
+	<property name="src.dir" value="${basedir}/src" />
+	<property name="bin.dir" value="${basedir}/bin" />
+	<property name="web.dir" value="${basedir}/WebContent" />
+	<property name="lib.dir" value="${basedir}/lib" />
+	<property name="export.dir" value="${basedir}" />
+
+	<path id="basepath">
+		<fileset dir="${lib.dir}" includes="**/*.jar" />
+	</path>
+
+	<target name="clean" description="cleans build directories">
+		<delete dir="${bin.dir}" />
+		<mkdir dir="${bin.dir}" />
+		<delete file="${export.dir}/${ant.project.name}.war" />
+	</target>
+
+	<target name="build" depends="clean" description="compiles the source">
+		<javac classpathref="basepath" srcdir="${src.dir}" destdir="${bin.dir}" verbose="true" />
+		<copy todir="${bin.dir}">
+			<fileset dir="${src.dir}">
+				<include name="**/*.xml" />
+				<include name="**/*.properties" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="war" depends="build" description="generates the war file">
+		<war destfile="${export.dir}/${ant.project.name}.war" webxml="${web.dir}/WEB-INF/web.xml">
+			<classes dir="${bin.dir}" />
+			<lib dir="${lib.dir}" includes="*.jar" />
+			<fileset dir="${web.dir}">
+				<include name="**/*.*" />
+			</fileset>
+		</war>
+	</target>
+
+	<target name="deploy" depends="war, undeploy" description="deploys the war file into tomcat server">
+		<copy file="${export.dir}/${ant.project.name}.war" todir="${deploy.dir}" />
+	</target>
+	
+	<target name="undeploy" description="undeploys the war file into tomcat server">
+		<delete file="${deploy.dir}/${ant.project.name}.war" />
+	</target>
+</project>

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/associations
+END
+FileBasedOneToOneAssociationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/associations/FileBasedOneToOneAssociationTest.java
+END
+FileBasedOneToManyAssociationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/associations/FileBasedOneToManyAssociationTest.java
+END
+FileBasedNonUniqueIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/associations/FileBasedNonUniqueIndexTest.java
+END
+FileBasedUniqueIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/test/java/gloodb/associations/FileBasedUniqueIndexTest.java
+END

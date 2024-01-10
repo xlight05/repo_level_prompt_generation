@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<version>1.0</version>
+		<groupId>org.jsemantic</groupId>
+		<artifactId>jcontenedor</artifactId>
+	</parent>
+	<groupId>org.jsemantic.services</groupId>
+	<artifactId>embedded-jcontenedor-service</artifactId>
+	<version>${embedded-jcontenedor-service.version}</version>
+	<packaging>jar</packaging>
+	<name>embedded-jcontainer-service</name>
+	<description></description>
+	<dependencies>
+		<dependency>
+			<groupId>org.jsemantic</groupId>
+			<artifactId>jservice</artifactId>
+			<version>${jservice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsemantic.jcontenedor</groupId>
+			<artifactId>jcontenedor-core</artifactId>
+			<version>${jcontenedor-core.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsemantic.services</groupId>
+			<artifactId>http-service</artifactId>
+			<version>${http-service.version}</version>
+		</dependency>
+	</dependencies>
+</project>

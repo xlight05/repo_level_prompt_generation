@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd
+END
+XMLSimpleType.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLSimpleType.html
+END
+XMLAttributeDecl.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLAttributeDecl.html
+END
+DTDGrammarBucket.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/DTDGrammarBucket.html
+END
+DTDGrammar.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/DTDGrammar.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/package-frame.html
+END
+XMLDTDLoader.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLDTDLoader.html
+END
+XMLEntityDecl.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLEntityDecl.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/package-tree.html
+END
+XMLDTDProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLDTDProcessor.html
+END
+DTDGrammar.QNameHashtable.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/DTDGrammar.QNameHashtable.html
+END
+XML11DTDProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XML11DTDProcessor.html
+END
+XMLContentSpec.Provider.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLContentSpec.Provider.html
+END
+XMLDTDDescription.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLDTDDescription.html
+END
+XMLElementDecl.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLElementDecl.html
+END
+XMLDTDValidator.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLDTDValidator.html
+END
+XMLNSDTDValidator.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLNSDTDValidator.html
+END
+XMLNotationDecl.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLNotationDecl.html
+END
+XML11DTDValidator.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XML11DTDValidator.html
+END
+XML11NSDTDValidator.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XML11NSDTDValidator.html
+END
+XMLContentSpec.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLContentSpec.html
+END
+XMLDTDValidatorFilter.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/dtd/XMLDTDValidatorFilter.html
+END

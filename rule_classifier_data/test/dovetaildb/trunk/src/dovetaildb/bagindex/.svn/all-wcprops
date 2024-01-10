@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/38/trunk/src/dovetaildb/bagindex
+END
+BagIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/BagIndexTest.java
+END
+BagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/BagIndex.java
+END
+PrefixCompressedBagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/38/trunk/src/dovetaildb/bagindex/PrefixCompressedBagIndex.java
+END
+PrefixCompressedBagIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/PrefixCompressedBagIndexTest.java
+END
+BlueSteelBagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/trunk/src/dovetaildb/bagindex/BlueSteelBagIndex.java
+END
+BlueSteelBagIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/BlueSteelBagIndexTest.java
+END
+WrappingBagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/WrappingBagIndex.java
+END
+RangeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/34/trunk/src/dovetaildb/bagindex/RangeTest.java
+END
+Range.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/32/trunk/src/dovetaildb/bagindex/Range.java
+END
+BlueSteelStackRec.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/trunk/src/dovetaildb/bagindex/BlueSteelStackRec.java
+END
+TrivialBagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/TrivialBagIndex.java
+END
+TrivialBagIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/dovetaildb/bagindex/TrivialBagIndexTest.java
+END
+BagIndexUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15/trunk/src/dovetaildb/bagindex/BagIndexUtil.java
+END
+FsBlueSteelBagIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/FsBlueSteelBagIndexTest.java
+END
+MemoryBlueSteelBagIndexTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/33/trunk/src/dovetaildb/bagindex/MemoryBlueSteelBagIndexTest.java
+END
+EditRec.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/30/trunk/src/dovetaildb/bagindex/EditRec.java
+END
+FsBlueSteelBagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/38/trunk/src/dovetaildb/bagindex/FsBlueSteelBagIndex.java
+END
+MemoryBlueSteelBagIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/23/trunk/src/dovetaildb/bagindex/MemoryBlueSteelBagIndex.java
+END

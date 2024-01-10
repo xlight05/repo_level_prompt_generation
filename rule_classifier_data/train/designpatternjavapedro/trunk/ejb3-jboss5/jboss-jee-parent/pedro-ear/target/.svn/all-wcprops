@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target
+END
+application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/application.xml
+END
+ejb3-maven-1.0.ear
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ear/target/ejb3-maven-1.0.ear
+END

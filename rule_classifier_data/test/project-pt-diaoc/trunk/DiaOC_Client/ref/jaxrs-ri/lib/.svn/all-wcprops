@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/lib
+END
+jersey-client.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/lib/jersey-client.jar
+END
+jersey-container-servlet.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/lib/jersey-container-servlet.jar
+END
+jersey-server.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/lib/jersey-server.jar
+END
+jersey-common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/lib/jersey-common.jar
+END
+jersey-container-servlet-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/lib/jersey-container-servlet-core.jar
+END

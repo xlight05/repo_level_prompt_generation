@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<version>1.0</version>
+		<groupId>org.jsemantic</groupId>
+		<artifactId>jcontenedor</artifactId>
+	</parent>
+	<groupId>org.jsemantic.services</groupId>
+	<artifactId>mvc-service</artifactId>
+	<version>${mvcservice.version}</version>
+	<packaging>jar</packaging>
+	<name>mvc-service</name>
+	<description></description>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.jsemantic</groupId>
+			<artifactId>jservice</artifactId>
+			<version>${jservice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.el</groupId>
+			<artifactId>el-api</artifactId>
+			<version>1.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jsp-api</artifactId>
+			<version>2.0</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>jboss</groupId>
+			<artifactId>jboss-el</artifactId>
+			<version>2.0.0.BETA1</version>
+		</dependency>
+	</dependencies>
+</project>

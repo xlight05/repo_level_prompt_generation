@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/strudem/lib/javaee-endorsed-api-6.0
+END
+webservices-api-osgi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/strudem/lib/javaee-endorsed-api-6.0/webservices-api-osgi.jar
+END
+jaxb-api-osgi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/strudem/lib/javaee-endorsed-api-6.0/jaxb-api-osgi.jar
+END
+javaee6-doc-api.zip
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/strudem/lib/javaee-endorsed-api-6.0/javaee6-doc-api.zip
+END
+javax.annotation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/strudem/lib/javaee-endorsed-api-6.0/javax.annotation.jar
+END

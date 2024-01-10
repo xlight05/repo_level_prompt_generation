@@ -1,0 +1,15 @@
+#summary Installation notes
+
+== !QuidSee Installation == 
+
+[http://code.google.com/p/quidsee/downloads/list Download] the latest quidsee zip file to your computer. 
+
+Choose _Open_ when prompted or double-click the file after it is finished. 
+
+https://lh5.googleusercontent.com/-uKvvCkqmJlg/TlubQ4wmEWI/AAAAAAAAAnU/hQB3z-7nk5Q/s800/Extract%252520from%252520archive.png
+
+Extract the entire folder to any location on your computer, such as your Desktop.
+
+Now it is ready to use. Open the extracted folder and double-click the QuidSee.exe to start it.
+
+https://lh6.googleusercontent.com/-5dC5-zqbgBk/TlubQzr_UEI/AAAAAAAAAnY/jvbw1TswGU4/s800/Run%252520it.png

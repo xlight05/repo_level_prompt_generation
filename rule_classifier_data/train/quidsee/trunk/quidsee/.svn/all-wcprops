@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/20/trunk/quidsee
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/19/trunk/quidsee/pom.xml
+END
+log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/3/trunk/quidsee/log.txt
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/7/trunk/quidsee/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/3/trunk/quidsee/.project
+END
+gen-jni-headers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/7/trunk/quidsee/gen-jni-headers.sh
+END

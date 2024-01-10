@@ -1,0 +1,8 @@
+<web-app xmlns="http://geronimo.apache.org/xml/ns/j2ee/web-1.1">
+    <environment>
+        <moduleId>
+            <artifactId>HUCourses</artifactId>
+        </moduleId>
+    </environment>
+    <context-root>/server</context-root>
+</web-app>

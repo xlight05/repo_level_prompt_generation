@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/153/RPGBot/src/commands
+END
+LeaveCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/37/RPGBot/src/commands/LeaveCommand.java
+END
+ClassesCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/RPGBot/src/commands/ClassesCommand.java
+END
+StartCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/RPGBot/src/commands/StartCommand.java
+END
+JoinCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/RPGBot/src/commands/JoinCommand.java
+END
+AutoLoginCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/37/RPGBot/src/commands/AutoLoginCommand.java
+END
+ReloadCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/34/RPGBot/src/commands/ReloadCommand.java
+END
+AttackCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/105/RPGBot/src/commands/AttackCommand.java
+END
+LoginCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/RPGBot/src/commands/LoginCommand.java
+END
+LogoutCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/37/RPGBot/src/commands/LogoutCommand.java
+END
+ChangeClassCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/37/RPGBot/src/commands/ChangeClassCommand.java
+END
+LevelupCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/153/RPGBot/src/commands/LevelupCommand.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/118/RPGBot/src/commands/Command.java
+END
+PlayersCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/26/RPGBot/src/commands/PlayersCommand.java
+END
+RegisterCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/26/RPGBot/src/commands/RegisterCommand.java
+END
+DefendCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/131/RPGBot/src/commands/DefendCommand.java
+END
+TeamCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/26/RPGBot/src/commands/TeamCommand.java
+END
+HelpCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/139/RPGBot/src/commands/HelpCommand.java
+END
+GMSkipCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/139/RPGBot/src/commands/GMSkipCommand.java
+END
+CastCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/141/RPGBot/src/commands/CastCommand.java
+END
+GainExpCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/35/RPGBot/src/commands/GainExpCommand.java
+END

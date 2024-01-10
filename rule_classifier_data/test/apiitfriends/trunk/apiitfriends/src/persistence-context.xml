@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+
+Spring Bean Definition for Persistence Layer
+============================================
+
+Authors : Yohan Liyanage
+
+Version : 12 - September - 2008
+Since 	: 08 - September - 2008
+
+ -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+		http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+	<!-- Configure from the config.properties file in class path -->
+	<context:property-placeholder location="classpath:config.properties"/>
+	
+		
+	<!-- Support for PersistenceContext injection -->
+	<bean class="org.springframework.orm.jpa.support.PersistenceAnnotationBeanPostProcessor" />
+	
+	<!-- Apache DBCP Data Source -->
+	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+		<property name="url" value="${db.url}" />
+		<property name="username" value="${db.username}" />
+		<property name="password" value="${db.password}" />
+		<property name="driverClassName" value="${db.driverclass}" />
+	</bean>
+	
+	<!-- JPA Entity Manager Factory (Spring Configured) -->
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceXmlLocation" value="classpath:META-INF/persistence.xml" />
+		<property name="persistenceUnitName" value="APIITFriends" />
+		<property name="dataSource" ref="dataSource" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				<property name="databasePlatform" value="${db.jpa.databasePlatform}" />
+				<property name="database" value="${db.jpa.database}" />
+				<property name="generateDdl" value="${db.jpa.generateddl}" />
+				<property name="showSql" value="${db.jpa.showsql}" />
+			</bean>
+		</property>
+	</bean>
+
+	<!-- JPA Transaction Manager -->	
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+
+	<!-- Enable Transaction Annotations -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+
+	
+	<!-- DAO Definitions -->
+	<bean id="userDao" class="lk.apiit.friends.persistence.impl.jpa.UserDaoJpaImpl">
+		<property name="entityManagerFactory" ref="entityManagerFactory" />
+	</bean>
+</beans>

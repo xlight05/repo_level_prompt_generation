@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===========================================================================
+	//   SELECT - COUNT - selectCount
+	============================================================================ -->
+	<select id="selectCount" resultClass="java.lang.Integer">
+		SELECT COUNT(*) FROM ${sqlmap.tableName}
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - COUNT - selectCountConjunctionAnywhere
+	============================================================================ -->
+	<select id="selectCountConjunctionAnywhere" parameterClass="${sqlmap.model.instanceName}" resultClass="java.lang.Integer">
+		SELECT COUNT(*) FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<!-- LIKE MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} LIKE #${field.javaFieldName},handler=${sqlmap.likeHandlerAlias}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - COUNT - selectCountConjunctionExact
+	============================================================================ -->
+	<select id="selectCountConjunctionExact" parameterClass="${sqlmap.model.instanceName}" resultClass="java.lang.Integer">
+		SELECT COUNT(*) FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - COUNT - selectCountDisjunctionAnywhere
+	============================================================================ -->
+	<select id="selectCountDisjunctionAnywhere" parameterClass="${sqlmap.model.instanceName}" resultClass="java.lang.Integer">
+		SELECT COUNT(*) FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<!-- LIKE MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} LIKE #${field.javaFieldName},handler=${sqlmap.likeHandlerAlias}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - COUNT - selectCountDisjunctionExact
+	============================================================================ -->
+	<select id="selectCountDisjunctionExact" parameterClass="${sqlmap.model.instanceName}" resultClass="java.lang.Integer">
+		SELECT COUNT(*) FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+	</select>

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity
+END
+SystemConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/SystemConfig.java
+END
+UserShortcut.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/UserShortcut.java
+END
+GroupAuthorization.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/GroupAuthorization.java
+END
+Entidade.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/Entidade.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/User.java
+END
+GroupAndUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/GroupAndUser.java
+END
+MasterDetail.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/MasterDetail.java
+END
+UserFieldValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/UserFieldValue.java
+END
+UserStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/UserStatus.java
+END
+ProductLicense.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/ProductLicense.java
+END
+Language.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/Language.java
+END
+Teste.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/Teste.java
+END
+NavigatorEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/NavigatorEntity.java
+END
+SecurityPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/SecurityPolicy.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/Permission.java
+END
+UserGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/UserGroup.java
+END
+Reference.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/Reference.java
+END
+UserProfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/UserProfile.java
+END
+KeyGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/KeyGenerator.java
+END
+AbstractEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/AbstractEntity.java
+END
+Auth.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/Auth.java
+END
+DatabaseFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/DatabaseFile.java
+END
+GroupPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/GroupPermission.java
+END
+KeyRange.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/KeyRange.java
+END
+LogTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/LogTypes.java
+END
+BaseEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/entity/BaseEntity.java
+END

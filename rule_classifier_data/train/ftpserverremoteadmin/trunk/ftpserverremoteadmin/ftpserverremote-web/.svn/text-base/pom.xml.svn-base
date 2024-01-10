@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <parent>
+        <groupId>pl.edu.agh.iosr</groupId>
+        <artifactId>ftpserverremote</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>pl.edu.agh.iosr</groupId>
+    <artifactId>ftpserverremote-web</artifactId>
+    <packaging>war</packaging>
+    <name>FtpServer Remote Admin Web</name>
+    <description>FtpServer Remote Admin Web is a module containing Servlets and JSP sites displayed to user and making up application's web interface</description>
+    
+    <dependencies>
+        <dependency>
+            <groupId>javax.servlet.jsp</groupId>
+            <artifactId>jsp-api</artifactId>
+            <version>2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.faces</groupId>
+            <artifactId>jsf-api</artifactId>
+            <version>1.2_02</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.faces</groupId>
+            <artifactId>jsf-impl</artifactId>
+            <version>1.2-b19</version>
+        </dependency>
+        <dependency>
+            <groupId>pl.edu.agh.iosr</groupId>
+            <artifactId>ftpserverremote-model</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>pl.edu.agh.iosr</groupId>
+            <artifactId>ftpserverremote-db</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>pl.edu.agh.iosr</groupId>
+            <artifactId>ftpserverremote-core</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>taglibs</groupId>
+            <artifactId>standard</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.7.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-collections</groupId>
+            <artifactId>commons-collections</artifactId>
+            <version>3.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-digester</groupId>
+            <artifactId>commons-digester</artifactId>
+            <version>1.8</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>xml-apis</groupId>
+                    <artifactId>xml-apis</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-fileupload</groupId>
+            <artifactId>commons-fileupload</artifactId>
+            <version>1.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-lang</groupId>
+            <artifactId>commons-lang</artifactId>
+            <version>2.3</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>commons-logging</groupId>
+            <artifactId>commons-logging</artifactId>
+            <version>1.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>jstl</groupId>
+            <artifactId>jstl</artifactId>
+            <version>1.1.2</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>jsp-api</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        
+        
+        <dependency>
+            <groupId>servletapi</groupId>
+            <artifactId>servletapi</artifactId>
+            <version>2.3</version>
+            <scope>provided</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>3.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.myfaces.tobago</groupId>
+            <artifactId>tobago-theme-richmond</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.myfaces.tobago</groupId>
+            <artifactId>tobago-theme-charlotteville</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.myfaces.tobago</groupId>
+            <artifactId>tobago-theme-speyside</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.myfaces.tobago</groupId>
+            <artifactId>tobago-theme-standard</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.myfaces.tobago</groupId>
+            <artifactId>tobago-theme-scarborough</artifactId>
+            <version>1.0.12</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.myfaces.tobago</groupId>
+            <artifactId>tobago-core</artifactId>
+            <version>1.0.12</version>
+            <scope>compile</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>sun.jdk</groupId>
+                    <artifactId>tools</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        
+    </dependencies>
+    <build>
+        <finalName>ftpserverremote-web</finalName>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>RELEASE</version>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <profiles>
+        <profile>
+            <id>netbeans-public</id>
+            <activation>
+                <property>
+                    <name>netbeans.execution</name>
+                    <value>true</value>
+                </property>
+            </activation>
+            <build />
+            <properties>
+                <netbeans.deployment.server.type>Tomcat60</netbeans.deployment.server.type>
+            </properties>
+        </profile>
+    </profiles>
+    <properties>
+        <netbeans.hint.deploy.server>Tomcat60</netbeans.hint.deploy.server>
+    </properties>
+</project>
+

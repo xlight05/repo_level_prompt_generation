@@ -1,0 +1,13 @@
+#summary Restoring a persistent object without transactions.
+
+{{{
+    SimplePersistent obj = (SimplePersistent)repository.restore("1");
+}}}
+
+Invoke the restore method while providing the object identity to fetch from the repository. Null is returned when the repository doesn't contain the specified identity.
+
+The non-transactional restore returns the latest object value, including updates of not-yet-commited transactions.
+
+----
+Related articles
+ * [WritingASimplePersistentClass].

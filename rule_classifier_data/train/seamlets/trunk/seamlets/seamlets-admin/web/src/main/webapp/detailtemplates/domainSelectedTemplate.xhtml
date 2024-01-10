@@ -1,0 +1,98 @@
+<h:form
+ 	xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich"
+    xmlns:a4j="http://richfaces.org/a4j">
+
+	<rich:panel styleClass="pageTemplateContent" bodyClass="pageTemplateBody">
+    	<f:facet name="header">#{messages['detailtemplate.domainselected.header']}</f:facet>
+   
+	   	<h:panelGrid columns="2">
+		   	<s:decorate id="displayNameField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.domainselected.id']}</ui:define>
+				<h:outputText value="#{selectedDomain.id}" />
+			</s:decorate>
+			
+			<s:decorate id="lastUserNameField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.domainselected.lastuser']}</ui:define>
+				<h:outputText value="#{selectedDomain.lastAccesUser}" />
+			</s:decorate>
+			
+			<s:decorate id="createdField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.domainselected.created']}</ui:define>
+				<h:outputText value="#{selectedDomain.created}">
+					<s:convertDateTime pattern="dd. MMMMM yyyy HH:mm:ss.SSS z" />
+				</h:outputText>
+			</s:decorate>
+			
+			<s:decorate id="updatedField" template="/layout/display.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.domainselected.update']}</ui:define>
+				<h:outputText value="#{selectedDomain.updated}">
+					<s:convertDateTime pattern="dd. MMMMM yyyy HH:mm:ss.SSS z" />
+				</h:outputText>
+			</s:decorate>
+			
+			<s:decorate id="rootUrlField" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.domainselected.rootUrl']}</ui:define>
+				<h:inputText id="displayname" required="true"
+					value="#{selectedDomain.rootUrl}">
+					<a4j:support event="onkeyup" reRender="rootUrlField"
+						ajaxSingle="true" ignoreDupResponses="true" bypassUpdates="true"
+						eventsQueue="saveDisableQueu" requestDelay="3000" />
+				</h:inputText>
+			</s:decorate>
+			
+			<style>
+        		.myinplace{
+		            cursor:pointer; 
+		        }
+		        .myhover {
+		            color: #{a4jSkin.generalTextColor};
+		            background-color :#{a4jSkin.tipBorderColor};
+		        }       
+		    </style>
+		    
+			<s:decorate id="applicationField" template="/layout/edit.xhtml">
+				<ui:define name="label">#{messages['detailtemplate.domainselected.application']}</ui:define>
+				<rich:inplaceSelect id="applicationFieldInplace" value="#{selectedDomain.application}"  openOnEdit="true"
+					defaultLabel="#{selectedDomain.application.name}"
+		            showControls="true" layout="block"
+		            required="true"
+		            viewClass="myinplace" changedClass="myinplace"
+		            changedHoverClass="myhover" viewHoverClass="myhover">
+					<s:selectItems value="#{applicationList}" var="applicationItem" label="#{applicationItem.name}"/>
+					<f:converter converterId="componentsEntityConverter" />
+				</rich:inplaceSelect>
+			</s:decorate>
+		</h:panelGrid>
+		
+		<rich:separator height="2" lineType="solid"/>
+		
+		<div class="actionButtonsContainer">
+	        <div class="requiredContainer">
+	            <span class="required">*</span>
+	            required fields
+	        </div>
+	        <div class="actionButtons">
+		   		<input type="hidden" class="oldApplication" value="#{selectedDomain.application.name}" />
+				<input type="hidden" class="oldApplicationConfirm" value="#{messages['detailtemplate.domainselected.move.application.confirm']}" />
+		   		<h:commandButton id="update"
+		        	value="#{messages['action.save']}"
+		        	eventsQueue="saveDisableQueu"
+		        	reRender="main"
+		        	onclick="if(!checkApplication()){return false;}"
+		            action="#{domainContoller.updateDomain}"/>
+		       	<h:commandButton id="delete"
+		        	value="#{messages['action.remove']}"
+		        	eventsQueue="saveDisableQueu"
+		        	reRender="main"
+		        	onclick="if(!confirm('#{messages['detailtemplate.domainselected.remove.confirm']}')){return false;}"
+		            action="#{domainContoller.removeDomain}"/>
+	       	</div>
+	   </div>
+	</rich:panel>
+	
+</h:form>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<assembly>
+
+    <id>src</id>
+    <formats>
+        <format>zip</format>
+        <format>tar.bz2</format>
+    </formats>
+
+    <fileSets>
+
+         <fileSet>
+            <directory>../soap-dtc</directory>
+            <outputDirectory></outputDirectory>
+            <includes>
+                <include>*.txt</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+           <includes>
+                <include>pom.xml</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src</directory>
+        </fileSet>
+
+    </fileSets>
+
+</assembly>

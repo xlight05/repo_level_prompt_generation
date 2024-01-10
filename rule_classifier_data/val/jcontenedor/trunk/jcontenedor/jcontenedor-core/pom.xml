@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<version>1.0</version>
+		<groupId>org.jsemantic</groupId>
+		<artifactId>jcontenedor</artifactId>
+	</parent>
+	<version>${jcontenedor-core.version}</version>
+	<groupId>org.jsemantic.jcontenedor</groupId>
+	<artifactId>jcontenedor-core</artifactId>
+	<packaging>jar</packaging>
+	<name>jcontenedor-core</name>
+	<properties>
+		<jcontenedor.version>1.0-SNAPSHOT</jcontenedor.version>
+		<jcontenedor-core.version>0.6.0-SNAPSHOT</jcontenedor-core.version>
+		<http-service.version>0.0.2-SNAPSHOT</http-service.version>
+		<loggingservice.version>0.1.1-SNAPSHOT</loggingservice.version>
+		<db-service.version>0.0.2-SNAPSHOT</db-service.version>
+	</properties>
+
+	<description></description>
+		<dependencies>
+		<dependency>
+			<groupId>org.jsemantic</groupId>
+			<artifactId>jservice</artifactId>
+			<version>${jservice.version}</version>
+		</dependency>
+		<!-- standard services -->
+		<dependency>
+			<groupId>org.jsemantic.services</groupId>
+			<artifactId>logging-service</artifactId>
+			<version>${loggingservice.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsemantic.services</groupId>
+			<artifactId>http-service</artifactId>
+			<version>${http-service.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.jsemantic.services</groupId>
+			<artifactId>db-service</artifactId>
+			<version>${db-service.version}</version>
+		</dependency>
+	</dependencies>
+</project>

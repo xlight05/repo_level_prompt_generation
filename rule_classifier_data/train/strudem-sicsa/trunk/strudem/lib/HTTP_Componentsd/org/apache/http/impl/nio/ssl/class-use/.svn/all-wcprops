@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/ssl/class-use
+END
+SSLServerIOEventDispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/ssl/class-use/SSLServerIOEventDispatch.html
+END
+SSLClientIOEventDispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/ssl/class-use/SSLClientIOEventDispatch.html
+END

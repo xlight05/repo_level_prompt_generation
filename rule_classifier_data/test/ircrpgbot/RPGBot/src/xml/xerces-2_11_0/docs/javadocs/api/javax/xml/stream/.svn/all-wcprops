@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream
+END
+Location.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/Location.html
+END
+XMLInputFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLInputFactory.html
+END
+XMLStreamWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLStreamWriter.html
+END
+XMLStreamConstants.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLStreamConstants.html
+END
+XMLOutputFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLOutputFactory.html
+END
+FactoryConfigurationError.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/FactoryConfigurationError.html
+END
+XMLResolver.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLResolver.html
+END
+XMLReporter.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLReporter.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/package-frame.html
+END
+XMLEventReader.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLEventReader.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/package-summary.html
+END
+EventFilter.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/EventFilter.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/package-tree.html
+END
+XMLEventFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLEventFactory.html
+END
+XMLStreamException.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLStreamException.html
+END
+XMLStreamReader.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLStreamReader.html
+END
+XMLEventWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/XMLEventWriter.html
+END
+StreamFilter.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/api/javax/xml/stream/StreamFilter.html
+END

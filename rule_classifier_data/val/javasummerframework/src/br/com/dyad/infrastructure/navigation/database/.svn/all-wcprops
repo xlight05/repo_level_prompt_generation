@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database
+END
+CreateKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database/CreateKey.java
+END
+RecordUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database/RecordUpdate.java
+END
+SystemConfigWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database/SystemConfigWindow.java
+END
+SchemaUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database/SchemaUpdate.java
+END
+ClassExplorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database/ClassExplorer.java
+END
+SchemaUpdateBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/navigation/database/SchemaUpdateBean.java
+END

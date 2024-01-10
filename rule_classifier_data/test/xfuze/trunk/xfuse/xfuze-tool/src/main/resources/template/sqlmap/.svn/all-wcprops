@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/81/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap
+END
+sqlmap-insert.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/22/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-insert.xml
+END
+sqlmap-count.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/31/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-count.xml
+END
+sqlmap-page-mssql2000.xml
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/80/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-page-mssql2000.xml
+END
+sqlmap-page-mysql.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/81/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-page-mysql.xml
+END
+sqlmap-select.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/70/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-select.xml
+END
+sqlmap-delete.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/20/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-delete.xml
+END
+sqlmap-update.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/20/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap-update.xml
+END
+sqlmap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/17/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/sqlmap.xml
+END

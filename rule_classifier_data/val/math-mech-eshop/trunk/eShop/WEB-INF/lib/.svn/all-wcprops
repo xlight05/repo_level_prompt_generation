@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/51/trunk/eShop/WEB-INF/lib
+END
+antlr-2.7.6.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/antlr-2.7.6.jar
+END
+jsf-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/jsf-api.jar
+END
+slf4j-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/slf4j-api.jar
+END
+datatypes.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/datatypes.dtd
+END
+commons-beanutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/commons-beanutils.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/commons-logging.jar
+END
+slf4j-log4j12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/slf4j-log4j12.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/jstl.jar
+END
+html_basic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/html_basic.tld
+END
+dom4j-1.6.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/dom4j-1.6.1.jar
+END
+log4j.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/log4j.jar
+END
+XMLSchema.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/XMLSchema.dtd
+END
+commons-io-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/33/trunk/eShop/WEB-INF/lib/commons-io-1.4.jar
+END
+jsf-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/jsf-impl.jar
+END
+commons-collections-3.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/commons-collections-3.2.1.jar
+END
+commons-fileupload-1.2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/33/trunk/eShop/WEB-INF/lib/commons-fileupload-1.2.1.jar
+END
+persistence-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/persistence-api.jar
+END
+hibernate-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/hibernate-annotations.jar
+END
+iText-2.1.5.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/51/trunk/eShop/WEB-INF/lib/iText-2.1.5.jar
+END
+javassist-3.4.GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/javassist-3.4.GA.jar
+END
+hibernate-tools.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/hibernate-tools.jar
+END
+standard.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/standard.jar
+END
+jsf_core.tld
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/jsf_core.tld
+END
+hibernate-commons-annotations.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/hibernate-commons-annotations.jar
+END
+jsf-facelets.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/32/trunk/eShop/WEB-INF/lib/jsf-facelets.jar
+END
+hibernate-entitymanager.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/hibernate-entitymanager.jar
+END
+commons-el.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/32/trunk/eShop/WEB-INF/lib/commons-el.jar
+END
+jta-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/jta-1.1.jar
+END
+commons-digester.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/24/trunk/eShop/WEB-INF/lib/commons-digester.jar
+END
+web-facesconfig_1_0.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/web-facesconfig_1_0.dtd
+END
+web-facesconfig_1_1.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/web-facesconfig_1_1.dtd
+END
+tomahawk12-1.1.8.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/33/trunk/eShop/WEB-INF/lib/tomahawk12-1.1.8.jar
+END
+hibernate3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/hibernate3.jar
+END
+ocpsoft-pretty-faces-1.2.3_GA.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/30/trunk/eShop/WEB-INF/lib/ocpsoft-pretty-faces-1.2.3_GA.jar
+END

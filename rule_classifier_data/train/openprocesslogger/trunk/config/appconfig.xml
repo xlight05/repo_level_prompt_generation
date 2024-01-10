@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>OPL Properties</comment>
+<entry key="databasePath">C:\projectdata\simulatorDB</entry>
+<entry key="templatePath"></entry>
+<entry key="odePath">controlsystems.xml</entry>
+<entry key="templateName">templates.xml</entry>
+</properties>

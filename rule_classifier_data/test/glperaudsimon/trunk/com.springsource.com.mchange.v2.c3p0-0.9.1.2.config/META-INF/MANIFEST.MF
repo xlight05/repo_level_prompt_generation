@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Config Fragment
+Bundle-SymbolicName: com.springsource.com.mchange.v2.c3p0_0.9.1.2.config
+Bundle-Version: 1.0.0
+Bundle-Vendor: SPRINGSOURCE
+Fragment-Host: com.springsource.com.mchange.v2.c3p0;bundle-version="0.9.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: com.springsource.org.hsqldb;bundle-version="1.8.0"

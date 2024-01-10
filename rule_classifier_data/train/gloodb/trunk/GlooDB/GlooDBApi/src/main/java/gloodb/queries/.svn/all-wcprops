@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries
+END
+CompositeQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries/CompositeQuery.java
+END
+ComposableQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/573/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries/ComposableQuery.java
+END
+ObjectIdsQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/461/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries/ObjectIdsQuery.java
+END
+AbstractComposableReadOnlyQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/573/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries/AbstractComposableReadOnlyQuery.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/323/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries/package.html
+END
+AbstractComposableUpdateQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/573/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/queries/AbstractComposableUpdateQuery.java
+END

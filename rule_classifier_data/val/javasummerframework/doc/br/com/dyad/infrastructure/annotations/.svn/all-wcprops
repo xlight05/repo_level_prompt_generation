@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/package-tree.html
+END
+CacheClass.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/CacheClass.html
+END
+MetaField.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/MetaField.html
+END
+SendToClient.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/SendToClient.html
+END
+MetaGrid.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/MetaGrid.html
+END
+Authorization.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/Authorization.html
+END
+Calculated.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/Calculated.html
+END
+Singleton.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/Singleton.html
+END
+Test.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/Test.html
+END
+SkipValidation.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/SkipValidation.html
+END
+Customize.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/Customize.html
+END
+NotCustomizable.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/NotCustomizable.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/annotations/package-frame.html
+END

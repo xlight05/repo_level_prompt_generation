@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/graph
+END
+GraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/graph/GraphBuilder.java
+END
+ChartProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/graph/ChartProperties.java
+END
+DataGraphBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/graph/DataGraphBuilder.java
+END
+ZoomSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/graph/ZoomSettings.java
+END

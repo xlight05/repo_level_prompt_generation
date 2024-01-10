@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service
+END
+DataModelService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/DataModelService.java
+END
+NavigatorService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/NavigatorService.java
+END
+SendMailService.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/SendMailService.java
+END
+SynchronizerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/SynchronizerService.java
+END
+GenericServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/GenericServiceImpl.java
+END
+UserProfileService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/UserProfileService.java
+END
+ConnectionService.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/ConnectionService.java
+END
+HibernateTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/HibernateTree.java
+END
+RestoreServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/RestoreServiceImpl.java
+END
+LoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/LoginService.java
+END
+LogoutService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/LogoutService.java
+END
+LookupService.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/LookupService.java
+END
+ClientWebService.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/ClientWebService.java
+END
+DefaultLoginService.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/DefaultLoginService.java
+END
+GetSessionId.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/GetSessionId.java
+END
+ConfirmPasswordService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/ConfirmPasswordService.java
+END
+DyadService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/DyadService.java
+END
+GetDatabaseFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/GetDatabaseFile.java
+END
+PersistenceService.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/PersistenceService.java
+END

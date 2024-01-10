@@ -1,0 +1,122 @@
+<div id="conteudoInterno">
+    <h1>Lista de Registros</h1>
+    <a href="Controller?map=Templates_CRUDCompleto.novo.formulario" class="novo botaoTitulo" role="button">Novo Elemento</a>
+    <table class="grid">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Email</th>
+                <th>Ramal</th>
+                <th>Bloco</th>
+                <th>Sala</th>
+                <th>A&ccedil;&otilde;es</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="hidden" value="1" class="" name="idtUsuario" id="idtUsuario">Administrador</td>
+                <td>admin@gmail.com</td>
+                <td>3452</td>
+                <td>Sul</td>
+                <td>11</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Fulano</td>
+                <td>Fulano@gmail.com</td>
+                <td>4574</td>
+                <td>Sul</td>
+                <td>10</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="2" class="" name="idtUsuario" id="idtUsuario">Ciclano</td>
+                <td>cilano@gmail.com</td>
+                <td>6334</td>
+                <td>Norte</td>
+                <td>10</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Beltrano</td>
+                <td>Beltrano@gmail.com</td>
+                <td>9962</td>
+                <td>Sul</td>
+                <td>13</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Maria</td>
+                <td>maria@gmail.com</td>
+                <td>3458</td>
+                <td>Norte</td>
+                <td>25</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Jo&atilde;o</td>
+                <td>joao@gmail.com</td>
+                <td>0368</td>
+                <td>Sul</td>
+                <td>19</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Carlos</td>
+                <td>carlos@gmail.com</td>
+                <td>8436</td>
+                <td>Sul</td>
+                <td>52</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Lucia</td>
+                <td>lucia@gmail.com</td>
+                <td>9432</td>
+                <td>Leste</td>
+                <td>40</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Luana</td>
+                <td>luana@gmail.com</td>
+                <td>4574</td>
+                <td>Oeste</td>
+                <td>20</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Mauro</td>
+                <td>Mauro@gmail.com</td>
+                <td>8345</td>
+                <td>Leste</td>
+                <td>80</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Maisa</td>
+                <td>maisa@gmail.com</td>
+                <td>7345</td>
+                <td>Oeste</td>
+                <td>17</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr> 
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Silvio</td>
+                <td>Silvio@gmail.com</td>
+                <td>9022</td>
+                <td>Sul</td>
+                <td>15</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+            <tr>
+                <td><input type="hidden" value="4" class="" name="idtUsuario" id="idtUsuario">Chico</td>
+                <td>chico@gmail.com</td>
+                <td>4674</td>
+                <td>Oeste</td>
+                <td>10</td>
+                <td><a href="Controller?map=Templates_CRUDCompleto.visualizar" class="visualizar" role="button">Visualizar</a><a href="Controller?map=Templates_CRUDCompleto.editar.formulario" class="editar" role="button">Editar</a> <a href="Controller?map=Templates_CRUDCompleto.excluir.Templates_CRUDCompleto.listar" class="excluir" role="button">Excluir</a></td>
+            </tr>
+        </tbody>
+    </table>
+</div>

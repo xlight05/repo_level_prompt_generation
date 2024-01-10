@@ -1,0 +1,215 @@
+<ui:fragment xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich">
+
+	<ui:fragment rendered="#{securityTab.viewStatePermission == 'list'}">	
+
+	    <h:form id="permissionSearch" styleClass="edit">
+	
+	        <rich:panel header="Permission Search Filter" switchType="ajax">
+	        
+	        	<h:panelGrid columns="3">
+	
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Target</ui:define>
+		                <h:inputText id="target" value="#{permissionList.permission.target}"/>
+		            </s:decorate>
+		            
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Action</ui:define>
+		                <h:inputText id="action" value="#{permissionList.permission.action}"/>
+		            </s:decorate>
+		
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Discriminator</ui:define>
+		                <h:inputText id="discriminator" value="#{permissionList.permission.discriminator}"/>
+		            </s:decorate>
+		
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Recipient</ui:define>
+		                <h:inputText id="recipient" value="#{permissionList.permission.recipient}"/>
+		            </s:decorate>
+		
+		    	</h:panelGrid>
+	
+		   	</rich:panel>
+		   	
+		   	<div class="actionButtonsContainerList">
+		        <div class="actionButtons">
+	            	<h:commandButton id="search" value="Search" action="#{securityTab.queryPermission}"/>
+            		<s:button id="reset" value="Reset" includePageParams="false"/>
+	            	<s:button action="#{securityTab.createPermission}"
+			                    id="create"
+			                 value="Create permission"/>
+	        	</div>
+		   	</div>
+			   	
+	    </h:form>
+
+	
+	    <rich:panel styleClass="resultTable permissionTable">
+        	<f:facet name="header">Permission Search Results</f:facet>
+		    <div class="results" id="permissionList">
+		
+			    <h:outputText value="The permission search returned no results."
+			               rendered="#{empty permissionList.resultList}"/>
+			
+			    <rich:dataTable id="permissionList"
+			                var="_permission"
+			              value="#{permissionList.dataModel}"
+			           rendered="#{not empty permissionList.resultList}">
+			        <h:column>
+			            <f:facet name="header">
+			                <ui:include src="/layout/sort.xhtml">
+			                    <ui:param name="entityList" value="#{permissionList}"/>
+			                    <ui:param name="propertyLabel" value="Action"/>
+			                    <ui:param name="propertyPath" value="permission.action"/>
+			                </ui:include>
+			            </f:facet>
+			            <h:outputText value="#{_permission.action}"/>
+			        </h:column>
+			        <h:column>
+			            <f:facet name="header">
+			                <ui:include src="/layout/sort.xhtml">
+			                    <ui:param name="entityList" value="#{permissionList}"/>
+			                    <ui:param name="propertyLabel" value="Discriminator"/>
+			                    <ui:param name="propertyPath" value="permission.discriminator"/>
+			                </ui:include>
+			            </f:facet>
+			            <h:outputText value="#{_permission.discriminator}"/>
+			        </h:column>
+			        <h:column>
+			            <f:facet name="header">
+			                <ui:include src="/layout/sort.xhtml">
+			                    <ui:param name="entityList" value="#{permissionList}"/>
+			                    <ui:param name="propertyLabel" value="Recipient"/>
+			                    <ui:param name="propertyPath" value="permission.recipient"/>
+			                </ui:include>
+			            </f:facet>
+			            <h:outputText value="#{_permission.recipient}"/>
+			        </h:column>
+			        <h:column>
+			            <f:facet name="header">
+			                <ui:include src="/layout/sort.xhtml">
+			                    <ui:param name="entityList" value="#{permissionList}"/>
+			                    <ui:param name="propertyLabel" value="Target"/>
+			                    <ui:param name="propertyPath" value="permission.target"/>
+			                </ui:include>
+			            </f:facet>
+			            <h:outputText value="#{_permission.target}"/>
+			        </h:column>
+			        <rich:column styleClass="action">
+			            <f:facet name="header">Action</f:facet>
+			            <s:link action="#{securityTab.editPermission}"
+			                   value="Edit"
+			                      id="permissionEdit">
+				            	<f:param name="permissionId" value="#{_permission.permissionId}"/>
+				        	</s:link>
+			        </rich:column>
+			    </rich:dataTable>
+			    
+			    <rich:spacer height="5"/>
+			    <rich:datascroller align="right" for="permissionList" maxPages="20" 
+					fastControls="auto" id="sc3" rendered="#{not empty permissionList.resultList}"/>
+						
+	    	</div>
+    	</rich:panel>
+
+    </ui:fragment>
+    
+    <rich:panel styleClass="resultEdit" rendered="#{securityTab.viewStatePermission == 'edit' || securityTab.viewStatePermission == 'create'}">
+        <f:facet name="header">#{permissionHome.managed ? 'Edit' : 'Add'} Permission</f:facet>
+        
+        <h:form id="permission" styleClass="edit">
+			
+			<h:panelGrid columns="2">
+	            <s:decorate id="actionField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Action</ui:define>
+	                <h:inputText id="rolename"
+	                       disabled="#{userHome.managed}"
+	                       required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{permissionHome.instance.action}">
+	                    <a4j:support event="onblur" reRender="actionField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	
+	
+	            <s:decorate id="discriminatorField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Discriminator</ui:define>
+	                <h:inputText id="rolename"
+	                       disabled="#{userHome.managed}"
+	                       required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{permissionHome.instance.discriminator}">
+	                    <a4j:support event="onblur" reRender="discriminatorField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	
+	
+	            <s:decorate id="recipientField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Recipient</ui:define>
+	                <h:inputText id="rolename"
+	                       disabled="#{userHome.managed}"
+	                       required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{permissionHome.instance.recipient}">
+	                    <a4j:support event="onblur" reRender="recipientField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	
+	
+	            <s:decorate id="targetField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Target</ui:define>
+	                <h:inputText id="rolename"
+	                       disabled="#{userHome.managed}"
+	                       required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{permissionHome.instance.target}">
+	                    <a4j:support event="onblur" reRender="targetField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	       	</h:panelGrid>
+            
+            <div class="actionButtonsContainer">
+		        <div class="actionButtons">
+	            	<div class="requiredContainer" style="left: 10px;" >
+		                <span class="required">*</span>
+		                required fields
+		            </div>
+	
+		            <h:commandButton 
+                          value="Add"
+                         action="#{securityTab.savePermission}"
+                       disabled="#{!permissionHome.wired}"
+                       rendered="#{!permissionHome.managed}"/>
+
+		            <h:commandButton 
+		                          value="Save"
+		                         action="#{securityTab.savePermission}"
+		                       rendered="#{permissionHome.managed}"/>
+		
+		            <h:commandButton 
+		                          value="Delete"
+		                         action="#{securityTab.removePermission}"
+		                      immediate="true"
+		                       rendered="#{permissionHome.managed}"/>
+		
+		            <s:button 
+		                   value="Cancel"
+		                    action="#{securityTab.cancelPermissionEdit}"/>
+		
+		        </div>
+			</div>
+		</h:form>
+	</rich:panel>
+
+</ui:fragment>

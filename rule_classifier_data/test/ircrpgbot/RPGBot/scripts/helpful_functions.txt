@@ -1,0 +1,229 @@
+**********************************
+
+
+
+
+   Team Functions
+**********************************
+
+//get all of the members of a team
+Team.getMembers() : ArrayList<Mob>
+
+//get the name of the team
+Team.getName() : String
+
+//get the battle the team is involved with
+Team.getInvolvement() : Battle
+
+***********************************
+    *****   ******  *********
+   ** * **  *    *  *       **
+   ** * **  *    *  *    ****
+   ** * **  *    *  *       **
+   ** * **  ******  *********
+   
+   Mob Functions
+***********************************
+
+//returns the name of the mob
+Mob.getName() : String
+
+//returns the class of the mob
+Mob.getCharacterClass() : CharacterClass
+
+//gets the mobs team
+Mob.getTeam() : Team
+
+//gets a list of all spells affecting the mob
+Mob.getSpells() : ArrayList<Spell>
+
+//calculate how much damage the mob will deal against target
+Mob.calcDamage(Mob target) : int
+
+//do the actual taking of damage, checking for death, etc.
+Mob.takeDamage(int, Mob, Spell) : void
+
+//check if the mob has a spell in the spell list
+Mob.affectedBySpell(String) : boolean
+
+//attack another mob
+Mob.attack(Mob) : void
+
+//returns a list of spells that have the given element, but aren't necessarily only that element
+Mob.getSpellsByElement(long) : Spell[]
+
+
+***********************************
+
+
+    Spell Functions
+***********************************
+
+//get the mob this spell is affecting
+Spell.getAffecting() : Mob
+
+//get the base damage of this spell
+Spell.getBaseDamage() : int
+
+//get the class that casted this spell
+Spell.getCastedClass() : CharacterClass
+
+//get the element this spell represents
+@see shared.Elements (http://code.google.com/p/ircrpgbot/source/browse/RPGBot/src/shared/Elements.java)
+Spell.getElement() : long
+
+//get the spell description
+Spell.getDescription() : String
+
+//get the remaining duration of the spell
+Spell.getDuration() : int
+
+//check if the spell is a buff
+//buff spells are calculated when modifying damage (examples on this will be made later, but the Defend spell is a great example right now)
+Spell.isBuff() : boolean
+
+//get the type of the spell (percent, direct)
+Spell.getType() : String
+
+//check the probability of an event (0<x<100)
+Spell.prob(int x) : boolean
+
+//get a random number between 1 and x
+Spell.rand(int x) : int
+
+//get a random number between x and y
+Spell.rand(int x, int y) : int
+
+//clean up a spell (remove from list & tell it to finalize)
+Spell.cleanUp(boolean) : void
+
+***********************************
+
+
+	CharacterClass Functions
+***********************************
+
+//get the element representing this class
+@see shared.Elements (http://code.google.com/p/ircrpgbot/source/browse/RPGBot/src/shared/Elements.java)
+CharacterClass.getElement() : long
+
+//get the characters level (not a number -- do more work to get that)
+CharacterClass.getLevel() : RestrictedNumber
+
+//get the characters power
+CharacterClass.getPower() : RestrictedNumber
+
+//get the characters magic
+CharacterClass.getMagic() : RestrictedNumber
+
+//get the characters hp -- do not modify directly (use takeDamage)
+CharacterClass.getHp() : RestrictedNumber
+
+//get the characters other stat (rage, mana, etc)
+CharacterClass.getOther() : RestrictedNumber
+
+//get the characters luck
+CharacterClass.getLuck() : RestrictedNumber
+
+//get the characters constitution
+CharacterClass.getCon() : RestrictedNumber
+
+//get the characters name
+CharacterClass.getName() : String
+
+//get the mob representing this class
+CharacterClass.getMyMob() : Mob
+
+//make the mob take damage
+CharacterClass.takeDamage(int, Mob, Spell) : void
+
+//get the base damage for this class (this is not modifiable)
+CharacterClass.calcBaseDamage() : int
+
+//modify incoming damage (flat out)
+CharacterClass.calcReductions(int) : int
+
+//modify incoming damage (from a spell
+CharacterClass.calcReductions(Spell) : int
+
+//set the element for this class
+@see shared.Elements (http://code.google.com/p/ircrpgbot/source/browse/RPGBot/src/shared/Elements.java)
+CharacterClass.setElement(long) : void
+
+
+***********************************
+
+
+	RestrictedNumber Functions
+***********************************
+
+//check if the stat is at max
+RestrictedNumber.atMax() : boolean
+
+//check if the stat is at it's minimum
+RestrictedNumber.atMin() : boolean
+
+//decrease the bonus aspect of this stat
+RestrictedNumber.decreaseBonus(int) : void
+
+//get the boosted value of this stat
+RestrictedNumber.getBoosted() : int
+
+//get the current value of this stat
+RestrictedNumber.getCurrent() : int
+
+//get the maximum value of the stat
+RestrictedNumber.getMaximum() : int
+
+//get the minimum value of this stat
+RestrictedNumber.getMinimum() : int
+
+//get the current+boosted total of this stat
+RestrictedNumber.getTotal() : int
+
+//get the name of this stat
+RestrictedNumber.getName() : String
+
+//check whether this stat is greater than a number
+RestrictedNumber.greaterThan(int) : boolean
+
+//check whether this stat (current/maximum) is greater than a percentage
+RestrictedNumber.greaterThanPercent(int) : boolean
+
+//increase the bonus aspect of this stat
+RestrictedNumber.increaseBonus(int) : void
+
+//check whether this stat is less than a number
+RestrictedNumber.lessThan(int) : boolean
+
+//check whether this stat (current/maximum) is less than a percentage
+RestrictedNumber.lessThanPercent(int) : boolean
+
+//make the stat go to it's maximum value
+RestrictedNumber.toMaximum() : void
+
+//make the stat go to it's minimum value
+RestrictedNumber.toMinimum() : void
+
+//return a percentage of total/maximum (this can be >100%)
+RestrictedNumber.asPercent() : int
+***********************************
+
+
+	Battle Functions
+***********************************
+
+//forcibly change the turn of the battle
+Battle.changeTurn() : void
+
+//get the mob whose turn it is
+Battle.getCurTurn() : Mob
+
+//check what the consolation exp is set to
+Battle.getConsolationExp() : int
+
+//get all of the teams in this battle
+Battle.getTeams() : ArrayList<Team>
+
+//change the current turn
+Battle.setCurTurn(Mob) : void

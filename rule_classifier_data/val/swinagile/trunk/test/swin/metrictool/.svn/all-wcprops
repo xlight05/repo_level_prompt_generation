@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/8/trunk/test/swin/metrictool
+END
+OperationHandlerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8/trunk/test/swin/metrictool/OperationHandlerTest.java
+END
+ChartMakerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/8/trunk/test/swin/metrictool/ChartMakerTest.java
+END
+ExtractedClassDataTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8/trunk/test/swin/metrictool/ExtractedClassDataTest.java
+END
+ProjectTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8/trunk/test/swin/metrictool/ProjectTest.java
+END
+ExtractVersionMetricsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/8/trunk/test/swin/metrictool/ExtractVersionMetricsTest.java
+END

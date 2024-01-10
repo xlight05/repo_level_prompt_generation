@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE faces-config PUBLIC
+"-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+"http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+<faces-config>
+    
+    
+    <application>
+        <locale-config>
+            <default-locale>en</default-locale>
+        </locale-config>
+        <message-bundle>locale</message-bundle>
+    </application>
+    <managed-bean>
+        <managed-bean-name>UserBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.UserBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>LogBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.LogBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>AdminBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.AdminBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ConfigurationBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.ConfigurationBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>MessagesBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.MessagesBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>IpRestrictorBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.IpRestrictorBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>ConnectionBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.ConnectionBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>FileDataBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.FileDataBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>StatisticsBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.StatisticsBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+    <managed-bean>
+        <managed-bean-name>SpyUserBean</managed-bean-name>
+        <managed-bean-class>pl.edu.agh.iosr.web.SpyUserBean</managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+</faces-config>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11/trunk/ExoGDX/src/de/exobros/exogdx/sbg
+END
+GameState2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/trunk/ExoGDX/src/de/exobros/exogdx/sbg/GameState2D.java
+END
+MenuState.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6/trunk/ExoGDX/src/de/exobros/exogdx/sbg/MenuState.java
+END
+MenuSetup.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6/trunk/ExoGDX/src/de/exobros/exogdx/sbg/MenuSetup.java
+END
+MenuEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/6/trunk/ExoGDX/src/de/exobros/exogdx/sbg/MenuEntry.java
+END
+StateBasedGame.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/9/trunk/ExoGDX/src/de/exobros/exogdx/sbg/StateBasedGame.java
+END
+GameState.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/9/trunk/ExoGDX/src/de/exobros/exogdx/sbg/GameState.java
+END
+LoadingScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/trunk/ExoGDX/src/de/exobros/exogdx/sbg/LoadingScreen.java
+END

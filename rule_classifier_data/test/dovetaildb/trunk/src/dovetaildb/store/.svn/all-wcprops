@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/39/trunk/src/dovetaildb/store
+END
+BytesInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/31/trunk/src/dovetaildb/store/BytesInterface.java
+END
+VarPosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/4/trunk/src/dovetaildb/store/VarPosition.java
+END
+MappedBytesInterfaceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/38/trunk/src/dovetaildb/store/MappedBytesInterfaceTest.java
+END
+ChannelBasedMappedFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/22/trunk/src/dovetaildb/store/ChannelBasedMappedFile.java
+END
+MappedBytesInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/trunk/src/dovetaildb/store/MappedBytesInterface.java
+END
+ChunkedMemoryMappedFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/31/trunk/src/dovetaildb/store/ChunkedMemoryMappedFile.java
+END

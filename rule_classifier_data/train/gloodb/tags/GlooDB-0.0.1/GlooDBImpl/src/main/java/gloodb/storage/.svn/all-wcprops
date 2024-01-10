@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage
+END
+StorageInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/StorageInterceptor.java
+END
+Storage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/Storage.java
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/Address.java
+END
+StorageFullException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/StorageFullException.java
+END
+StorageProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/StorageProxy.java
+END
+StorageStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/StorageStrategy.java
+END
+StorageConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/StorageConfiguration.java
+END
+StorageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/StorageFactory.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/main/java/gloodb/storage/package.html
+END

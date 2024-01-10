@@ -1,0 +1,40 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<h:panelGrid columns="2">
+	<h:outputLabel value="Name:" />
+	<h:inputText required="true" value="#{registration.register.name}" />
+
+	<h:outputLabel value="Surname:" />
+	<h:inputText required="true" value="#{registration.register.surname}" />
+
+	<h:outputLabel value="e-mail:" />
+	<h:inputText required="true" value="#{registration.register.email}" />
+
+	<h:outputLabel value="Phone:" />
+	<h:inputText required="false" value="#{registration.register.phone}" />
+
+	<h:outputLabel value="City:" />
+	<h:inputText required="true"
+		value="#{registration.register.address.city}" />
+
+	<h:outputLabel value="Street:" />
+	<h:inputText required="true"
+		value="#{registration.register.address.street}" />
+
+	<h:outputLabel value="Building:" />
+	<h:inputText required="true"
+		value="#{registration.register.address.building}" />
+
+	<h:outputLabel value="Apartament:" />
+	<h:inputText required="true"
+		value="#{registration.register.address.apartment}" />
+
+	<h:outputLabel value="Postal code:" />
+	<h:inputText required="false"
+		value="#{registration.register.address.postal_code}" />
+</h:panelGrid>
+</html>

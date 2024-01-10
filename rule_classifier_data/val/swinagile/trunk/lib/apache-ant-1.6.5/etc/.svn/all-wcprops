@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc
+END
+jdepend.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/jdepend.xsl
+END
+mmetrics-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/mmetrics-frames.xsl
+END
+maudit-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/maudit-frames.xsl
+END
+log.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/log.xsl
+END
+junit-noframes.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/junit-noframes.xsl
+END
+ant-bootstrap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/ant-bootstrap.jar
+END
+jdepend-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/jdepend-frames.xsl
+END
+tagdiff.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/tagdiff.xsl
+END
+junit-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/junit-frames.xsl
+END
+coverage-frames.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/coverage-frames.xsl
+END
+junit-frames-xalan1.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/junit-frames-xalan1.xsl
+END
+changelog.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/etc/changelog.xsl
+END

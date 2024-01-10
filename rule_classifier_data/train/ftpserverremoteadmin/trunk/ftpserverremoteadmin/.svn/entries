@@ -1,0 +1,77 @@
+10
+
+dir
+373
+http://ftpserverremoteadmin.googlecode.com/svn/trunk/ftpserverremoteadmin
+http://ftpserverremoteadmin.googlecode.com/svn
+
+
+
+2008-01-18T12:21:09.758993Z
+373
+borysb
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+e10797d3-a33c-0410-bf06-131e215c061e
+
+ftpserverremote-db
+dir
+
+ftpserverremote-core
+dir
+
+ftpserverremote-web
+dir
+
+src
+dir
+
+ftpserverremote-model
+dir
+
+pom.xml
+file
+
+
+
+
+2016-02-13T06:17:42.412717Z
+99a55a7fd9da9f07b5692de635f4ce28
+2008-01-16T11:58:58.437361Z
+371
+agn.janowska
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12290
+

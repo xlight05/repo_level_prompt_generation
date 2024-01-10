@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<ui:composition template="/rootTemplate.xhtml">
+	<ui:define name="header">
+		<f:loadBundle basename="ApplicationMessages" var="messages"/>
+		<div id="logo">
+			<h:outputLink value="#{navigation.mainPage}">
+				<h:graphicImage value="images/matmex.gif"/>
+			</h:outputLink>
+		</div>
+		<div id="search_panel">
+			<h:form >
+				
+				  <h:inputText value="#{userBean.searchRequest}" 
+				                style="width: 500px;"/> 
+				 <h:commandButton action="search" value="#{messages.SEARCH}" />
+			</h:form>
+		</div>		
+	</ui:define>
+
+
+	<ui:define name="footer">
+			<h:outputText value="(c) 2009 Math-Mech e-Shop team"/>
+	</ui:define>
+
+	<ui:define name="menu">
+		<h:dataTable value="#{navigation.rootCategories}" var="category">
+			<h:column>
+				<h:outputLink value="category?id=#{category.id}" styleClass="menu_1level_item">
+					<h:outputText value="#{category.name}" />
+				</h:outputLink>
+				
+				<h:dataTable value="#{navigation.firstLevelsChildCategories}" var="subcat"
+					rendered="#{navigation.firstLevelCategory==category}">
+					<h:column>
+						<h:outputLink value="category?id=#{subcat.id}" styleClass="menu_2level_item">
+							<h:outputText value="#{subcat.name}"/>
+						</h:outputLink>
+					</h:column>
+				</h:dataTable>
+
+			</h:column>
+		</h:dataTable>
+	</ui:define>
+	<ui:define name="user_panel">
+		<h:form>
+		<c:if test="#{!userBean.authorised}">
+			<h:outputLink value="/login">
+				<h:outputText value="Login" />
+			</h:outputLink>			
+		</c:if>
+		<c:if test="#{userBean.authorised}">
+			<h:commandLink action="#{auth.logout}" value="logout" />
+		</c:if>
+		<h:outputText value=" | " />
+		<h:outputLink value="/cart">
+			<h:outputText value="My cart" />
+		</h:outputLink>
+		<c:if test="#{userBean.authorised}">
+			<h:outputText value=" | " />
+			<h:outputLink value="/orders">
+				<h:outputText value="My orders" />
+			</h:outputLink>
+		</c:if>
+		</h:form>	
+	</ui:define>
+
+</ui:composition>
+
+</html>

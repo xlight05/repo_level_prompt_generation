@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/22/trunk/DiaOC_WebServ/nbproject
+END
+project.properties
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/8/trunk/DiaOC_WebServ/nbproject/project.properties
+END
+project.xml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/DiaOC_WebServ/nbproject/project.xml
+END
+genfiles.properties
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8/trunk/DiaOC_WebServ/nbproject/genfiles.properties
+END
+rest-build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8/trunk/DiaOC_WebServ/nbproject/rest-build.xml
+END
+ant-deploy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/nbproject/ant-deploy.xml
+END
+build-impl.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8/trunk/DiaOC_WebServ/nbproject/build-impl.xml
+END

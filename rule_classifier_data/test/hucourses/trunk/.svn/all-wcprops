@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/19/trunk
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/12/trunk/.project
+END
+HUCourses-shell
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/19/trunk/HUCourses-shell
+END
+HUCourses-compile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/19/trunk/HUCourses-compile
+END
+HUCourses.war
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/19/trunk/HUCourses.war
+END
+HUCourses.launch
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/19/trunk/HUCourses.launch
+END
+gwtext.jar
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/19/trunk/gwtext.jar
+END
+HUCourses.sql
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/12/trunk/HUCourses.sql
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/19/trunk/build.xml
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/19/trunk/.classpath
+END

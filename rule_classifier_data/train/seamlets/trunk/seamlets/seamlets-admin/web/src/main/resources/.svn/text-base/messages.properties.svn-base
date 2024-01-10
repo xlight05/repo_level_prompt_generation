@@ -1,0 +1,114 @@
+action.save=Save
+action.remove=Delete
+action.cancel=Abbrechen
+action.applay=Show History
+
+application.update=Application was updated.
+application.remove=Application was deleted.
+
+domain.update=Domain was updated.
+domain.remove=Domain was deleted.
+
+folder.update=Page was updated.
+folder.remove=Page was deleted.
+
+page.update=Page was updated.
+page.remove=Page was removed.
+
+admin.toolbar.application=Aktive Anewendung:
+admin.toolbar.application.tooltip=Zum ändern der aktiven Anwendung clicken
+admin.toolbar.addapplication=Eine neue Anwendung anlegen
+admin.toolbar.menu.views=Ansicht
+admin.toolbar.menu.views.showUser=Benutzer
+admin.toolbar.menu.views.showCMS=CMS
+
+admin.navigation.header=Navigation
+admin.navigation.adddomain=Create new Domain
+admin.navigation.addfolder=Create new Folder
+admin.navigation.addpage=Create new Page
+
+
+admin.application.popup.header=Create Application
+admin.application.popup.message=Es konnte keine Anwendung gefunden werden. Es wird aber eine solche ben\u00F6tigt\! Deshalb legen Sie jetzt bitte eine an.
+admin.application.popup.nameField=Anwendungsname
+admin.application.popup.startWorkingField=Als aktive Anwendung starten
+
+
+admin.adddomain.popup.header=Create new Domain in der Anwendung '#{applicationController.aktiveApplication.name} (ID:#{applicationController.aktiveApplication.id})'
+admin.adddomain.popup.message=Bitte geben Sie die URL an, unter der die neue Domain aufzurufen seien soll.
+admin.adddomain.popup.rootUrl=URL
+
+
+admin.addfolder.popup.header=Create new Navigation Folder under #{addFolderAction.title}
+admin.addfolder.popup.message=Bitte geben Sie den Namen für den neuen Ordner ein.
+admin.addfolder.popup.name=Name
+
+
+admin.addPage.popup.header= Create new Pagedefinition
+admin.addPage.popup.displayname=Seitenname
+admin.addPage.popup.message=Bitte geben Sie die nötigen Daten zum anlegen einer neuen Seite an.
+admin.addPage.popup.viewid=ViewID
+admin.addPage.popup.title=Seitentitel
+
+
+admin.tab.cms=CMS
+admin.tab.user=USER
+admin.tab.close=Tab schließen
+
+
+detailtemplate.nonselected.header=Bitte wählen Sie ein zu bearbeitendes Element aus dem Navigationsbereich.
+detailtemplate.applicationselected.header=Anwengungs Details
+detailtemplate.domainselected.header=Domain Details
+detailtemplate.folderselected.header=Navigations-Ordner Details
+detailtemplate.pageselected.header=Seitendefinitions Details
+
+detailtemplate.applicationselected.id = Anwendungs-ID
+detailtemplate.applicationselected.lastuser = Letzte Änderung durch User
+detailtemplate.applicationselected.created = Erstellt
+detailtemplate.applicationselected.update = Letzte Änderung
+detailtemplate.applicationselected.displayname = Anwendungsname
+detailtemplate.applicationselected.remove.confirm= Wollen Sie diese Anwendung \\'\#{aktiveApplication.name}\\' wirklich l\u00F6schen?
+
+detailtemplate.domainselected.id = Domain-ID
+detailtemplate.domainselected.lastuser = Letzte Änderung durch User
+detailtemplate.domainselected.created = Erstellt
+detailtemplate.domainselected.update = Letzte Änderung
+detailtemplate.domainselected.rootUrl = Domain-URL
+detailtemplate.domainselected.application = Zu Anwendung gehörend
+detailtemplate.domainselected.move.application.confirm= Wollen Sie diese Domain wirklich in eine andere Anwendung verschieben?
+detailtemplate.domainselected.remove.confirm= Wollen Sie diese Domain \\'\#{selectedDomain.rootUrl}\\' wirklich l\u00F6schen?
+
+detailtemplate.folderselected.id = Ordner-ID
+detailtemplate.folderselected.lastuser=Letzte Änderung durch User
+detailtemplate.folderselected.created = Erstellt
+detailtemplate.folderselected.update = Letzte Änderung
+detailtemplate.folderselected.application = Zu Anwendung gehörend
+detailtemplate.folderselected.domain = Zu Domain
+detailtemplate.folderselected.parentfolder = Unter dem Ordner
+detailtemplate.folderselected.name = Ordnername
+detailtemplate.folderselected.remove.confirm= Wollen Sie diese Seite \\'\#{selectedPage.displayName}\\' wirklich l\u00F6schen?
+
+detailtemplate.pageselected.id = Seiten-ID
+detailtemplate.pageselected.lastuser=Letzte Änderung durch User
+detailtemplate.pageselected.created = Erstellt
+detailtemplate.pageselected.update = Letzte Änderung
+detailtemplate.pageselected.domain = Zu Domain
+detailtemplate.pageselected.parentfolder = Unter dem Ordner
+detailtemplate.pageselected.displayName = Anzeigename
+detailtemplate.pageselected.title=Seitentitel
+detailtemplate.pageselected.viewid=ViewId der Seite
+detailtemplate.pageselected.template=Template
+detailtemplate.pageselected.page.structur=Seiten-Struktur
+detailtemplate.pageselected.page.component=Seiten-Komponente
+
+admin.page.tab.properties=Properties
+admin.page.tab.structure=Structure
+
+admin.user.navigation.header = Available Users
+admin.user.navigation.adduser = Add new User
+
+components.header = Komponenten
+
+simple = Einfache Komponenten
+
+

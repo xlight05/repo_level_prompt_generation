@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd">
+<struts-config>
+  <data-sources>
+  </data-sources>
+  <!--
+  ========== Data Sources Definitions =================================== 
+        Define your Struts data sources in a file called struts-data-sources.xml and place
+        it in your merge directory.
+       ========== Form Bean Definitions ===================================
+  -->
+  <form-beans>
+    <form-bean name="fileForm" type="framework.struts.form.FileForm"/>
+    <form-bean name="mailForm" type="framework.struts.form.MailForm"/>
+  </form-beans>
+  <global-exceptions>
+  </global-exceptions>
+  <global-forwards>
+  </global-forwards>
+  <!--
+  If you have non XDoclet forms, define them in a file called struts-forms.xml and
+             place it in your merge directory.
+         ========== Global Exceptions Definitions =================================== 
+        Define your exceptions in a file called global-exceptions.xml and place
+        it in your merge directory.
+       ========== Global Forward Definitions =================================== 
+        Define your forwards in a file called global-forwards.xml and place
+        it in your merge directory.
+       ========== Action Mapping Definitions ===================================
+  -->
+  <action-mappings>
+    <action path="/processUpload" name="fileForm" 
+    	type="framework.struts.action.CheckoutUploadAction" 
+    	scope="request" validate="true" input="/progressBar.jsp" 
+    	parameter="action" unknown="false">
+      <forward name="Success" redirect="true" path="/progressBar.jsp"/>
+    </action>
+    <action path="/locale" type="framework.struts.action.LocalizeAction" validate="false" unknown="false">
+      <forward name="Success" redirect="false" path="/upload_view.jsp"/>
+    </action>
+    <action path="/mailTransfer" name="mailForm" type="framework.struts.action.MailTransferAction" scope="request" validate="true" input="/upload_view.jsp" unknown="false">
+      <exception type="javax.mail.SendFailedException" key="error.send.mail" path="/upload_view.jsp"/>
+      <exception type="javax.mail.MessagingException" key="error.messaging.exception" path="/upload_view.jsp"/>
+      <forward name="Success" redirect="false" path="/result.jsp"/>
+    </action>
+    <action path="/reload" type="framework.struts.action.ReloadStrutsConfigAction" validate="true" unknown="false">
+    </action>
+    <action path="/upload_view" name="mailForm" scope="request" type="org.apache.struts.actions.ForwardAction" 
+    	validate="false" parameter="/upload_view.jsp">
+    </action>
+    <action path="/progress_view" type="org.apache.struts.actions.ForwardAction" 
+    	validate="false" parameter="/progressBar.jsp">
+    </action>
+    <action path="/download" type="org.apache.struts.actions.ForwardAction" 
+    	input="/result.jsp" 
+    	parameter="/Download">
+    </action>
+    <action path="/ProgressBarServlet" type="org.apache.struts.actions.ForwardAction" validate="false" input="/progressBar.jsp" parameter="/ProgressBarServlet">
+    </action>
+  </action-mappings>
+  <controller contentType="text/html;charset=UTF-8" 
+  	locale="true" multipartClass="framework.struts.processor.CustomMultipartRequestHandler" nocache="true" 
+	processorClass="framework.struts.processor.MyAppRequestProcessor"/>
+  <message-resources parameter="framework.struts.resources.ApplicationResources" null="false"/>
+  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+    <set-property property="pathnames" value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+  </plug-in>
+</struts-config>

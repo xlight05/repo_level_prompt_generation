@@ -1,0 +1,58 @@
+#summary Tutorials: Creating a new persistent object with transactions.
+#labels Phase-Support
+
+{{{
+                SimplePersistent persistentObject = new SimplePersistent("1");
+                persistentObject.setValue("Hello World");
+
+                Repository tx = repository.begin();
+                try {
+                        tx.create(persistentObject);
+                        tx.commit();
+                } catch (Exception ex) {
+                        tx.rollback();
+                }
+}}}
+
+ # Create the object and set its values. 
+ # Begin the transaction. The begin method returns a repository which internally is associated with the newly started transaction. 
+ # With the returned repository, create the new persistent instance.
+ # Complete the transaction. 
+  * Invoke commit to complete the transaction. 
+  * Invoke rollback to undo the changes and remove the new object.
+
+Until commit is invoked:
+ * other concurent transactions do not observe the new object. Non-transactional operations on repository (i.e. top level transaction) does observe the not-yet-commited object.
+ * child transactions do observe the not-yet-commited object.
+ * the behaviour of the create method is same as the [NonTransactionalCreate non-transactional create].
+
+Until commit or rollback are invoked on the transaction:
+ * the object identity is locked. Other concurrent transaction trying to create, remove or update this object will throw a !LockingException.
+
+*Note:* No object is created when create throws an exception. However, the transaction is not marked for rollback and it can still commit.
+
+{{{
+                SimplePersistent persistentObject = new SimplePersistent("1");
+		persistentObject.setValue("First Value");
+		
+		Repository tx = repository.begin();
+		try {
+			tx.create(persistentObject);
+		} catch(KeyViolationException kve) {
+			// The transaction is unaffected by the exception and
+			// it can still commit or rollback.
+			tx.rollback();
+		} catch(Exception ex) {
+			tx.rollback();
+			throw ex;
+		}
+}}}
+
+----
+
+===== Related Articles =====
+ * [WritingASimplePersistentClass]
+ * [NonTransactionalCreate]
+
+===== Related Tutorial Test Cases =====
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/CreateWithKeyViolationTest.java CreateWithKeyViolationTest]

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 21
+/svn/!svn/ver/7/trunk
+END
+jaas.config
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/7/trunk/jaas.config
+END
+workspace.xml
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/7/trunk/workspace.xml
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/7/trunk/build.xml
+END

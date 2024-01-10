@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/exceptions
+END
+FileRecivingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/exceptions/FileRecivingException.java
+END
+UserNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/exceptions/UserNotFoundException.java
+END

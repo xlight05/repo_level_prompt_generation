@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<ui:composition template="/mainTemplate.xhtml">
+	<ui:define name="content">
+		<h:messages layout="table" globalOnly="true" />
+		<div class="order_product_list">
+			<h:panelGrid columns="2" styleClass = "productsTable">
+				<h:dataTable value="#{orders.currentOrderProducts}" var="product"
+					rowClasses="oddRow, evenRow"
+					headerClass="headerTable">
+	
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Name" />
+						</f:facet>
+						<h:outputText value="#{product.name}" />
+					</h:column>
+	
+	
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Price" />
+						</f:facet>
+						<h:outputText value="#{product.price}" />
+					</h:column>
+				</h:dataTable>
+	
+				<h:dataTable value="#{orders.productsAmount}" var="amount"
+					rowClasses="oddRow, evenRow"
+					headerClass="headerTable">
+					<f:facet name="header">
+						<h:outputText value="Amount in order" />
+					</f:facet>
+					<h:column>
+						<h:outputText value="#{amount}" />
+					</h:column>
+				</h:dataTable>
+				
+				<h:outputText value="Total price: #{orders.currentOrder.count} rur" />
+			</h:panelGrid>
+		</div>
+
+
+		<div class="order_command_buttons"><h:form>
+			<h:commandButton action="#{orders.confirmOrder}" value="confirm" />
+		</h:form></div>
+	</ui:define>
+</ui:composition>
+</html>

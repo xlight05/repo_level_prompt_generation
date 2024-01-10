@@ -1,0 +1,77 @@
+10
+
+dir
+8
+http://swinagile.googlecode.com/svn/trunk/doc
+http://swinagile.googlecode.com/svn
+
+
+
+2006-10-17T13:26:17.942712Z
+8
+waasiri
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+412cf2d3-121c-0410-800d-e313b49dca01
+
+Release Notes.txt
+file
+
+
+
+
+2016-02-15T05:52:20.462260Z
+a2884be8ec6033118d951a8cad63c3f3
+2006-10-17T13:26:17.942712Z
+8
+waasiri
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12000
+
+api
+dir
+
+coverage
+dir
+
+reports
+dir
+
+retrospective
+dir
+
+pmd
+dir
+

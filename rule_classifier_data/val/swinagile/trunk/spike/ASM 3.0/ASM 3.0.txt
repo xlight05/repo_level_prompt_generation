@@ -1,0 +1,164 @@
+
+ASM 3.0
+ASM3.0 Spike Plan
+
+CVS Module/Location: not under version control
+
+
+Overview:
+
+ASM 3.0 is a Java bytecode manipulation framework allowing dynamic generation and manipulation of Java bytecode. The product web site is: http://asm.objectweb.org/
+
+The site also provides a beneficial Tutorial for ASM 2.0, which can be located at http://asm.objectweb.org/doc/tutorial-asm-2.0.html
+
+Background/Context:
+
+
+Our client has informed us that the metrics library we will use to extract code-based metrics is based upon the ASM framework. It will be important to gain insight into the functionality of the ASM framework for this reason.
+
+Goals/Risks:
+
+
+Gain an understanding of the functionality provided by the ASM framework in regards to static analysis of code metrics.
+
+The major risk driving this spike is the complexity of reverse engineering compiled bytecode and subsequently identifying and extracting code-metrics for the given class file.
+
+Deliverables:
+
+
+Provide a walkthrough describing the installation and configuration of the ASM framework – delivered Saturday 26 August.
+
+Provide example code that describes the function of relevant aspects of the framework – delivered Monday 28 August.
+
+Provide an example of a method by which metrics information could be attained from a class file – delivered Tuesday 29 August.
+
+* See attached source code files and design notes.
+
+Resources: Mr. Andrew Cowan
+
+Planned Start Date: Friday 25 August
+Deadline: Wednesday 30 August
+
+Current status: Complete
+
+Analysis/Planning/Design Notes:
+
+The following walkthrough anticipates a good understanding of command line java-fu. If necessary, please review the javac and java command line options and read the following Recap Guidelines:
+
+Recap Compiling, Executing and Jar'ing Java Code
+http://www.cs.usfca.edu/~parrt/course/601/lectures/java.tools.html
+
+
+The example code used to demonstrate runtime interrogation of Java class files.
+
+/***
+* ASM 3.0 ClassDump Example
+* Copyright (c) 2006 Andrew Cowan
+* All rights reserved.
+*
+* Based on the ASM3.0 DependencyTracker
+*
+*/
+package org.objectweb.asm.example;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Iterator;
+import java.util.List;
+
+import org.objectweb.asm.ClassReader;
+import org.objectweb.asm.tree.ClassNode;
+import org.objectweb.asm.tree.FieldNode;
+import org.objectweb.asm.tree.MethodNode;
+import org.objectweb.asm.tree.InnerClassNode;
+
+/**
+* ASM3.0 ClassDump example.
+*
+* @author Andrew Cowan - 4044363
+*
+* @see
+*/
+public class ClassDump
+{
+public static void main(final String[] args) throws IOException
+{
+ClassNode cv = new ClassNode();
+
+FileInputStream file = new FileInputStream(args[0]);
+new ClassReader(file).accept(cv, 0);
+
+System.out.println();
+System.out.println("Analysing source file: " + cv.sourceFile);
+System.out.println();
+System.out.println("name: " + cv.name);
+System.out.println("superName: " + cv.superName);
+
+System.out.println();
+System.out.println("interfaces:");
+Iterator<String> interfaces = cv.interfaces.iterator();
+while (interfaces.hasNext()) {
+String _interface = interfaces.next();
+System.out.println(" " + _interface);
+}
+
+System.out.println();
+System.out.println("fields:");
+Iterator<FieldNode> fields = cv.fields.iterator();
+while (fields.hasNext()) {
+FieldNode field = fields.next();
+System.out.println(" " + field.desc + " " + field.name + " = '" + field.value + "'");
+}
+
+System.out.println();
+System.out.println("methods:");
+Iterator<MethodNode> methods = cv.methods.iterator();
+while (methods.hasNext()) {
+MethodNode method = methods.next();
+System.out.print(" " + method.desc + " " + method.name + "()");
+boolean _throws = false;
+Iterator<String> exceptions = method.exceptions.iterator();
+while (exceptions.hasNext())
+{
+String exception = exceptions.next();
+String prefix = (_throws)? ", " : " throws ";
+System.out.print(prefix + exception);
+_throws = true;
+}
+System.out.println();
+}
+}
+}
+
+Please review the complete walkthrough on the team Wiki at http://swin-agile.wetpaint.com
+
+ASM3.0 Spike Outcomes
+
+Goals/Risks:
+
+Gain an understanding of the functionality provided by the ASM framework in regards to static analysis of code metrics.
+
+As anticipated, there is significant effort required to extract and analyse code-based metrics using the ASM framework. It is expected that a good deal more effort will be required to determine and quantify the runtime expense and exact nature of metrics that we will be able to collect using this tool. Currently too much risk weighs on functionality we will be provided in the client’s metrics library.
+
+Tasks undertaken:
+
+While installing and evaluating the ASM 3.0 framework, I generated a simple guideline to walk developers through the tasks necessary to install and compile Java source code dependent on the ASM framework.
+
+While evaluating the framework and reading through documentation, I experimented with several areas of the framework useful for the static analysis of Java bytecode. These examples are included on the team Wiki.
+
+During this activity, using the basic understanding I had achieved, I created example code in the form of ClassDump.java. This Java application was successfully able to open and interrogate a compiled Java class file.
+
+What we found out:
+
+The framework makes heavy use of the Visitor Pattern.
+The framework provides a wealth of information about compiled Java bytecode. It will be difficult to isolate exactly those aspects we are required to analyse.
+In some ways the approach we should take with this framework will be similar to that used for grammar parsers.
+
+Open issues/risks:
+
+In terms of code complexity and analysis, there are many Java languages features that have not being discussed in terms of metrics. Eg: Class constructors, Inner classes, Public fields, Public Constants, Anonymous Classes, Attributes and Annotation analysis. This items need to be tagged and identified by listing all of the information we can obtain via ASM and then clarifying whether we need to account for it.
+Currently the greatest risk is still that we do not know what functionality we will need to implement ourselves and what functionality will be provided by the client’s metrics tool.
+
+Recommendations:
+
+While we have gained insight into the workings of the ASM framework, a knowledge gap remains. We need to learn more about the client metrics library and how it integrates into ASM. If this is not possible then further analysis of this framework should commence to alleviate any further risk.

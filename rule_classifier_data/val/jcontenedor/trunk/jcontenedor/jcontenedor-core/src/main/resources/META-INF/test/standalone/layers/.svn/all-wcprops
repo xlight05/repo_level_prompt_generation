@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/resources/META-INF/test/standalone/layers
+END
+application-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/resources/META-INF/test/standalone/layers/application-context.xml
+END
+services-registry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-core/src/main/resources/META-INF/test/standalone/layers/services-registry.xml
+END

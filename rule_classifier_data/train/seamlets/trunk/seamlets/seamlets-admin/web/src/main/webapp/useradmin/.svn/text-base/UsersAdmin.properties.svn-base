@@ -1,0 +1,26 @@
+# for users admin process
+
+page.administration.UsersAdmin.title = Users Administration
+page.administration.UsersAdmin.subtitle = Allows the administration of users
+
+UsersAdminProcess.formAdd = Add Users
+UsersAdminProcess.formQuery = Query Users
+UsersAdminProcess.user = Login of User
+UsersAdminProcess.groupFilter = Group Filter
+UsersAdminProcess.identifier = User
+UsersAdminProcess.password = Set password
+UsersAdminProcess.confirmPassword = Confirm password
+UsersAdminProcess.error-add-password = The confirm password is not identical to the password!
+
+UsersAdminProcess.no-users-found = No users found!
+UsersAdminProcess.please-enter-name = Please enter name!
+UsersAdminProcess.characters-allowed = Only "A-Z/0-9/-/_" are allowed!
+UsersAdminProcess.characters-lenght = Min. 5 characters!
+UsersAdminProcess.delete-message = Really delete user :title?
+UsersAdminProcess.delete-message.ok = YES
+UsersAdminProcess.delete-message.cancel = NO
+UsersAdminProcess.delete-error = Could not delete user!
+UsersAdminProcess.delete-success = User was deleted!
+UsersAdminProcess.success-add = User ''#0'' was added!
+UsersAdminProcess.error-add = User could not be added!
+

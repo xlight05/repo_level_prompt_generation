@@ -1,0 +1,295 @@
+html,body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #F0F0F0;
+}
+
+#header {
+	background: #1E4176 url(../img/hd-bg.gif) repeat-x scroll 0 50%;
+	border: 0 none;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: 39px;
+	vertical-align: middle;
+}
+
+span.header {
+	color: white;
+	font-family: tahoma, arial, sans-serif;
+	font-size: 16px;
+	font-size-adjust: none;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: normal;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+
+#menu {
+	position: absolute;
+	top: 39px;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: 26px;
+}
+
+#messages {
+	position: absolute;
+	top: 65px;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: 25px;
+	vertical-align: middle;
+	padding-left: 230px;
+}
+
+#tabContainer {
+	position: absolute;
+	top: 90px;
+	bottom: 26px;
+	left: 5px;
+	right: 5px;
+	width: auto;
+	height: auto;
+	display: block;
+}
+
+table.templateTabPanel {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+}
+
+#left, #cmscontent, div.content, div.left {
+	position: absolute;
+	top: 24px;
+	bottom: 0;
+	width: 220px;
+	height: auto;
+}
+
+#left, div.left {
+	left: 2px;
+	width: 220px;
+}
+
+#cmscontent, div.content {
+	left: 225px;
+	right: 2px;
+	width: auto;
+	display: block;
+}
+
+#footer {
+	position: absolute;
+	clear: both;
+	bottom: 0;
+	left: 5px;
+	right: 5px;
+	width: auto;
+	height: 25px;
+	vertical-align: bottom;
+	/*padding-left: 225px;*/
+}
+
+div.navigationpanel {
+	position: absolute;
+	top: 0px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+}
+
+div.navigationpanelBody {
+	position: absolute;
+	top: 19px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+table.navigationToolbar {
+	background-color: #EDEDED;
+	background-image: none;
+}
+
+td.lable {
+	width: 100%;
+}
+
+td.closer {
+	text-align: right;
+	height: 15px;
+}
+
+img.ahover {
+	border-style: solid;
+	border-color: gray;
+	border-width: 2px;
+}
+
+div.pageTemplateContent {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+}
+
+div.pageTemplateBody {
+	display: block;
+	padding: 0;
+	position: absolute;
+	top: 20px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+}
+
+div.pageComponents {
+	float: left;
+	position: absolute;
+	top: 22px;
+	right: 0;
+	bottom: 31px;
+	width: 210px;
+	height: auto;
+	overflow: hidden;
+}
+
+div.pageStructure {
+	float: left;
+	position: absolute;
+	top: 22px;
+	height: auto;
+	right: 215px;
+	left: 0;
+	bottom: 30px;
+	overflow: auto;
+	display: block;
+}
+
+div.pageStructureTree {
+	clear: left;
+	float: left;
+	position: absolute;
+	left: 2px;
+	top: 0;
+	bottom: 1px;
+	height: auto;
+	width: 210px;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+div.pageComponentDetail {
+	float: left;
+	position: absolute;
+	top: 0;
+	bottom: 1px;
+	left: 215px;
+	right: 0;
+	height: auto;
+	width: auto;
+}
+
+div.pageComponentDetailBody {
+	position: absolute;
+	top: 20px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: auto;
+	width: auto;
+	overflow: auto;
+	padding: 0;
+}
+
+div.actionButtonsContainer {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 30px;
+	width: auto;
+	background-color: #CCC;
+	display: block;
+}
+
+div.requiredContainer {
+	position: absolute;
+	left: 0;
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 5px;
+	float: left;
+}
+
+div.actionButtons {
+	position: absolute;
+	right: 0;
+	float: left;
+	text-align: right;
+	vertical-align: middle;
+	padding-right: 10px;
+}
+
+div.pageBody {
+	display: table;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+tr.top {
+	vertical-align: top;
+}
+
+table.pageProperties {
+	width: 100%;
+}
+
+div.componentsBody {
+	position: absolute;
+	top: 19px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+div.componentPanelTree {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	overflow: auto;
+}

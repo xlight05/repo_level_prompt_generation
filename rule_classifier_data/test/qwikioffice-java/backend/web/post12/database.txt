@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS `uploadf` (
+  `id` int(11) NOT NULL auto_increment,
+  `namalaporan` varchar(100) NOT NULL,
+  `namaFile` varchar(100) NOT NULL,
+  `photo` varchar(100) NOT NULL,
+  `date` varchar(100) NOT NULL
+  PRIMARY KEY  (`id`)
+) ENGINE=MyISAM  ;

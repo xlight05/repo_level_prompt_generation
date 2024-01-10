@@ -1,0 +1,11 @@
+<h1>Инструкция по установке и настройке eclipse</h1>
+
+<b>I.</b> Заходим на сайт <a href="www.eclipse.org/downloads"> и скачиваем оттуда Eclipse for Java EE(выделено на картинке).<br/>
+<a href="http://img17.imageshack.us/my.php?image=71249696.jpg" target="_blank"><img src="http://img17.imageshack.us/img17/3195/71249696.th.jpg" border="0" alt="Free Image Hosting at www.ImageShack.us" /></a><br/>
+
+<b>II.</b> Устанавливаем(просто разархивируем) и запускаем. Видим такую картинку <br>
+<a target='_blank' href='http://img17.imageshack.us/my.php?image=55923445.jpg'><img src='http://img17.imageshack.us/img17/3337/55923445.th.jpg' border='0'/></a><br>
+
+<b>III.</b><a href="http://code.google.com/p/math-mech-eshop/wiki/Google_App_Engine">Устанавливаем плагин для Google App Engine</a><br>
+
+<b>IV.</b><a href="http://code.google.com/p/math-mech-eshop/wiki/SVN">Устанавливаем плагин для SVN</a><br>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:aop="http://www.springframework.org/schema/aop"
+xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+	<bean id="aspectBean" class="org.jsemantic.services.aop.ProfilingAspect"/>
+	
+	<bean id="logAspectBean" class="org.jsemantic.services.aop.DefaultAroundGenericAspect"/>
+	
+	<aop:config>
+		<aop:aspect id="aroundAspect" ref="aspectBean">
+			<aop:around method="execute" pointcut="${service.aop.profiling.pointcut}" arg-names="${service.aop.profiling.args}"/>
+		</aop:aspect>
+		
+		<aop:aspect id="logAroundAspect" ref="logAspectBean">
+			<aop:around method="execute" pointcut="${service.aop.log.pointcut}" arg-names="${service.aop.log.args}"/>
+		</aop:aspect>
+	</aop:config>
+
+</beans>

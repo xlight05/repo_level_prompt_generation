@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:osgi="http://www.springframework.org/schema/osgi"
+		xsi:schemaLocation="
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+		http://www.springframework.org/schema/osgi http://www.springframework.org/schema/osgi/spring-osgi.xsd">
+			
+	<!-- ########################################################################### -->
+	<!-- # Configuration de la source de données								   # -->
+	<!-- ########################################################################### -->	
+	
+	<osgi:reference id="dataSourceOsgi" interface="javax.sql.DataSource" />
+	
+	<!-- ########################################################################### -->
+	<!-- # Configuration de l'EntityManagerFactory								   # -->
+	<!-- ########################################################################### -->	
+	
+	<!-- Déclaration du bean EntityManagerFactory -->
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="dataSource" ref="dataSourceOsgi" />
+		<property name="jpaVendorAdapter">
+			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
+				 <property name="databasePlatform" value="org.hibernate.dialect.HSQLDialect"/> 
+				 <property name="generateDdl" value="false"/>
+			</bean>
+		</property>
+		<property name="persistenceUnitName" value="Localisation"/>
+	</bean>
+		
+	<!-- Traduction des exceptions -->
+	<bean class="org.springframework.dao.annotation.PersistenceExceptionTranslationPostProcessor" />
+	
+	<!-- Exposition de l'EntityManagerFactory sous la forme d'un Service OSGI -->
+	<osgi:service id="entityManagerFactoryOsgi" ref="entityManagerFactory" interface="javax.persistence.EntityManagerFactory" />
+</beans>

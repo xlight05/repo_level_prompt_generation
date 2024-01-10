@@ -1,0 +1,29 @@
+org.apache.commons.logging.Log=org.apache.commons.logging.impl.Log4jCategoryLog
+
+# Set root category priority to DEBUG and its appenders to stdout and R.
+log4j.rootCategory=info, stdout
+
+# debug level message
+# log4j.logger.framework.struts=info
+log4j.logger.framework.struts.actions=debug, R_commons
+
+# debug level message
+log4j.logger.be.telio.mediastore.ui.upload=info
+
+# logfile encoding
+log4j.appender.logfile.Encoding=UTF-8
+
+# configuration for stdout
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=[%d{dd MMM yyyy HH:mm:ss, SSS}] %5p (%F:%L) - %m%n
+
+# configuration for commons.log
+log4j.appender.R_commons=org.apache.log4j.RollingFileAppender
+
+# Position which a log file is created
+log4j.appender.R_commons.File=c:\Temp\commons.log
+log4j.appender.R_commons.MaxFileSize=1024KB
+log4j.appender.R_commons.MaxBackupIndex=10
+log4j.appender.R_commons.layout=org.apache.log4j.PatternLayout
+log4j.appender.R_commons.layout.ConversionPattern=[%d{dd MMM yyyy HH:mm:ss, SSS}] %5p (%F:%L) - %m%n

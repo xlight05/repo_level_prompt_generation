@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+
+	<context-param>
+		<param-name>javax.faces.DEFAULT_SUFFIX</param-name>
+		<param-value>.xhtml</param-value>
+	</context-param>
+
+
+	<!-- Special Debug Output for Development -->
+	<context-param>
+		<param-name>facelets.DEVELOPMENT</param-name>
+		<param-value>true</param-value>
+	</context-param>
+
+	<filter>
+		<filter-name>extensionsFilter</filter-name>
+
+		<filter-class>org.apache.myfaces.component.html.util.ExtensionsFilter</filter-class>
+		<init-param>
+			<param-name>uploadMaxFileSize</param-name>
+			<param-value>100m</param-value>
+		</init-param>
+		<init-param>
+			<param-name>uploadThresholdSize</param-name>
+			<param-value>100k</param-value>
+		</init-param>
+	</filter>
+
+	<filter>
+		<filter-name>Pretty Filter</filter-name>
+		<filter-class>com.ocpsoft.pretty.PrettyFilter</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>extensionsFilter</filter-name>
+		<servlet-name>Faces Servlet</servlet-name>
+		
+		<dispatcher>FORWARD</dispatcher>
+		<dispatcher>REQUEST</dispatcher>
+
+	</filter-mapping>
+
+	<filter-mapping>
+		<filter-name>Pretty Filter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<listener>
+		<listener-class>edu.spbsu.eshop.EShopContextListener</listener-class>
+	</listener>
+
+
+
+	<servlet>
+		<servlet-name>Faces Servlet</servlet-name>
+		<servlet-class>javax.faces.webapp.FacesServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>PdfServlet</servlet-name>
+		<servlet-class>edu.spbsu.eshop.business.pdf.PdfServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Image Sender</servlet-name>
+		<servlet-class>edu.spbsu.eshop.storage.ImageSender</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Faces Servlet</servlet-name>
+		<url-pattern>*.jsf</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>Image Sender</servlet-name>
+		<url-pattern>/img/*</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>PdfServlet</servlet-name>
+		<url-pattern>/confirmation.pdf</url-pattern>
+	</servlet-mapping>
+
+
+
+</web-app>

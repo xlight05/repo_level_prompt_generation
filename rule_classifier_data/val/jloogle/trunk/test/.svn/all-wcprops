@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/20/trunk/test
+END
+ClassToStringTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/15/trunk/test/ClassToStringTest.java
+END
+AllTests.template.start
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/15/trunk/test/AllTests.template.start
+END
+AllTests.template.end
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/15/trunk/test/AllTests.template.end
+END
+AllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/20/trunk/test/AllTests.java
+END
+ParserTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/20/trunk/test/ParserTest.java
+END

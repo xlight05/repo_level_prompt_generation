@@ -1,0 +1,10 @@
+#summary Basic README instructions
+
+= Introduction =
+
+This project implements an Infinispan backed storage service for the Shibboleth IdP v2 project. This is to provide a way to cluster Shibboleth without using Terracotta.
+
+
+= Details =
+
+Please read the *README* file in the doc directory for set up instructions.

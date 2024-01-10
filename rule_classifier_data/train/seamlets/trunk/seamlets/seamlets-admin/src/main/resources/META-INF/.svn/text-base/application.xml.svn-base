@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <display-name>seamlets-admin-ear</display-name>
+  <module>
+    <web>
+      <web-uri>seamlets-admin-web.war</web-uri>
+      <context-root>/admin</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>seamlets-admin-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>jboss-seam-2.1.0.SP1.jar</ejb>
+  </module>
+</application>

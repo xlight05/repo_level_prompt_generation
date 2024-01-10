@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/36/trunk/sim/src/org/rlcommunity/critter/Base
+END
+Force.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Base/Force.java
+END
+RigidBodyDynamicsData.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Base/RigidBodyDynamicsData.java
+END
+Vector2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Base/Vector2D.java
+END

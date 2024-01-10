@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout
+END
+BorderContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/BorderContainer.js
+END
+DragPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/DragPane.js
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/README
+END
+ExpandoPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/ExpandoPane.js
+END
+ScrollPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/ScrollPane.js
+END
+FloatingPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/FloatingPane.js
+END
+ToggleSplitter.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/ToggleSplitter.js
+END
+GridContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/GridContainer.js
+END
+RadioGroup.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/RadioGroup.js
+END
+ResizeHandle.js
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/ResizeHandle.js
+END
+RotatorContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/RotatorContainer.js
+END
+ContentPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/layout/ContentPane.js
+END

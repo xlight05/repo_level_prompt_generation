@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups
+END
+Groups.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups/Groups.js
+END
+GroupsTree.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups/GroupsTree.js
+END
+GroupsDetail.js
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups/GroupsDetail.js
+END
+GroupsEdit.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups/GroupsEdit.js
+END
+GroupsGrid.js
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups/GroupsGrid.js
+END
+GroupsAdd.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/15/escritorio/web/system/modules/admin/client/lib/groups/GroupsAdd.js
+END

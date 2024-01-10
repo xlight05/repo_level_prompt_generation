@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/86/trunk/xfuse/xfuze-tool
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/86/trunk/xfuse/xfuze-tool/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/5/trunk/xfuse/xfuze-tool/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/66/trunk/xfuse/xfuze-tool/pom.xml
+END

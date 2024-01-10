@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 50
+target
+
+release.properties
+
+pom.xml.releaseBackup
+
+END

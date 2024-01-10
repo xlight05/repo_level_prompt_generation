@@ -2,7 +2,6 @@ import os
 base_data_dir = 'gcode-data'
 
 projects = { 'train': [
-                      'gfsfa',
                       'sol-agent-platform',
                       'gloodb',
                       'rsbotownversion',
@@ -32,7 +31,6 @@ projects = { 'train': [
                       'swinagile', 
                       'math-mech-eshop', 
                       'jata4test', 
-                      'affinity_propagation_java', 
                       'navigablep2p', 
                       'springlime', 
                       'sohocms', 
@@ -62,13 +60,13 @@ commands = []
 for data_split, data_split_repos in projects.items():
   for proj in data_split_repos:
     proj_name = proj.strip()
-    command = "python create_hole_data.py --proj_name " + proj_name \
+    command = "python3 create_hole_data.py --proj_name " + proj_name \
               + " --base_dir " + base_data_dir + " --data_split " + data_split
     commands.append(command)
-    command = "python parse_tree.py --proj_name " + proj_name \
+    command = "python3 parse_tree.py --proj_name " + proj_name \
               + " --base_dir " + os.path.join('rule_classifier_data', data_split)
     commands.append(command)
-    command = "python check_duplication.py --proj_name " + proj_name \
+    command = "python3 check_duplication.py --proj_name " + proj_name \
               + " --base_dir " + os.path.join('rule_classifier_data', data_split)
     commands.append(command)
 

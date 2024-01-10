@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-lang/src/main/java/org/xfuze/model
+END
+TraceAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-lang/src/main/java/org/xfuze/model/TraceAwareModel.java
+END
+Model.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-lang/src/main/java/org/xfuze/model/Model.java
+END
+PagingAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-lang/src/main/java/org/xfuze/model/PagingAwareModel.java
+END
+SequenceAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-lang/src/main/java/org/xfuze/model/SequenceAwareModel.java
+END

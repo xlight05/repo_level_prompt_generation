@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/8/trunk/apiitfriends/src
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/apiitfriends/src/log4j.properties
+END
+web-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/apiitfriends/src/web-context.xml
+END
+config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/apiitfriends/src/config.properties
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/8/trunk/apiitfriends/src/struts.xml
+END
+services-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/6/trunk/apiitfriends/src/services-context.xml
+END
+persistence-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/apiitfriends/src/persistence-context.xml
+END
+security-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/8/trunk/apiitfriends/src/security-context.xml
+END

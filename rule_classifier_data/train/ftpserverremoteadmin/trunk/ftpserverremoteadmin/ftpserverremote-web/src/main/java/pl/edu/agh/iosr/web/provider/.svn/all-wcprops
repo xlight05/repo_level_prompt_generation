@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/328/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/provider
+END
+ServerProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/328/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/provider/ServerProvider.java
+END
+UserProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/328/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/provider/UserProvider.java
+END
+LogProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/328/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/java/pl/edu/agh/iosr/web/provider/LogProvider.java
+END

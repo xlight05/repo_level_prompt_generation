@@ -2,7 +2,6 @@ import os
 base_dir = 'rule_classifier_data'
 
 projects = { 'train': [
-                    'gfsfa',
                     'sol-agent-platform',
                     'gloodb',
                     'rsbotownversion',
@@ -32,7 +31,6 @@ projects = { 'train': [
                     'swinagile', 
                     'math-mech-eshop', 
                     'jata4test', 
-                    'affinity_propagation_java', 
                     'navigablep2p', 
                     'springlime', 
                     'sohocms', 
@@ -62,7 +60,7 @@ commands = []
 for data_split, data_split_repos in projects.items():
   for proj in data_split_repos:
     proj_name = proj.strip()
-    command = "python analyze_results.py --proj_name " + proj_name \
+    command = "python3 analyze_results.py --proj_name " + proj_name \
               + " --base_dir " + base_dir + " --data_split " + data_split
     commands.append(command)
 

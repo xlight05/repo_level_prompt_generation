@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="Shift_JIS" ?>
+<!DOCTYPE form-validation PUBLIC "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.1//EN" "http://jakarta.apache.org/commons/dtds/validator_1_1.dtd">
+
+<form-validation>
+  <!--
+    Define global validation config in validation-global.xml
+  -->
+  <formset>
+  <!--
+    Define form validation config in validation-forms.xml
+  -->
+
+      <form name="mailForm">
+              <field property="content"
+                     depends="required">
+
+                  <arg0 key="mailForm.content"/>
+              </field>
+              <field property="fromAddress"
+                     depends="email">
+
+                  <arg0 key="mailForm.fromAddress"/>
+              </field>
+              <field property="title"
+                     depends="required">
+
+                  <arg0 key="mailForm.title"/>
+              </field>
+              <field property="toAddress"
+                     depends="email">
+
+                  <arg0 key="mailForm.toAddress"/>
+              </field>
+      </form>
+  </formset>
+</form-validation>

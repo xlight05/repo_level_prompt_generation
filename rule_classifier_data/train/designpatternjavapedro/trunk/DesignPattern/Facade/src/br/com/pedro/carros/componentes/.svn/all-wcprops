@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/DesignPattern/Facade/src/br/com/pedro/carros/componentes
+END
+Motor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/24/trunk/DesignPattern/Facade/src/br/com/pedro/carros/componentes/Motor.java
+END
+Farol.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/24/trunk/DesignPattern/Facade/src/br/com/pedro/carros/componentes/Farol.java
+END
+TocaCD.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/24/trunk/DesignPattern/Facade/src/br/com/pedro/carros/componentes/TocaCD.java
+END

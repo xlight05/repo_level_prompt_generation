@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-classic-skin</artifactId>
+    <version>1.0</version>
+  </skin>
+  <body>
+    <links>
+      <item name="Wicket Bits" href="../index.html" />
+    </links>
+    <menu name="About">
+      <item name="Summary" href="index.html" />
+      <item name="Examples" href="examples.html" />
+      <item name="Download" href="http://code.google.com/p/wicketbits/wiki/Repository" />
+    </menu>
+    <menu ref="parent" />
+    <menu name="Modules" ref="modules">
+      <item name="Automagic Core" href="automagic-core/index.html" />
+      <item name="Automagic Annotations" href="automagic-annotations/index.html" />
+      <item name="Automagic Backport" href="automagic-backport/index.html" />
+    </menu>
+    <menu ref="reports" />
+    <menu name="Development">
+      <item name="Project Site" href="http://wicketbits.googlecode.com" />
+    </menu>
+  </body>
+</project>

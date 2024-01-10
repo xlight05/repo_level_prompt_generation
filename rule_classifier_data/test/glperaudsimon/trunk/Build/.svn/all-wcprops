@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/170/trunk/Build
+END
+org.springframework.osgi.log4j.osgi.config_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/167/trunk/Build/org.springframework.osgi.log4j.osgi.config_1.0.0.jar
+END
+DaoAndServices_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/167/trunk/Build/DaoAndServices_1.0.0.jar
+END
+DataSource_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/167/trunk/Build/DataSource_1.0.0.jar
+END
+Web_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/170/trunk/Build/Web_1.0.0.jar
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/167/trunk/Build/.project
+END
+BundlesLauncher_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/167/trunk/Build/BundlesLauncher_1.0.0.jar
+END
+com.springsource.com.mchange.v2.c3p0_0.9.1.2.config_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/167/trunk/Build/com.springsource.com.mchange.v2.c3p0_0.9.1.2.config_1.0.0.jar
+END
+Entities_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/167/trunk/Build/Entities_1.0.0.jar
+END

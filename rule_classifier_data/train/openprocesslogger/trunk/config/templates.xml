@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="template1" class="se.openprocesslogger.templates.LoggingTaskCreator">
+		<constructor-arg index="0" ref="template1.task1"></constructor-arg>
+		<property name="subscriptions">
+			<map>
+				<entry key="Demo Machine/Demo Component 1/Sin(t)" value-ref="template1.task1.subscription1"></entry>
+				<entry key="Demo Machine/Demo Component 1/Cos(t)" value-ref="template1.task1.subscription2"></entry>
+				<entry key="Demo Machine/Demo Component 2/Saw" value-ref="template1.task1.subscription3"></entry>
+				<entry key="Demo Machine/Demo Component 3/Trigg" value-ref="template1.task1.subscription4"></entry>
+				<entry key="Demo Machine/Demo Component 4/test1" value-ref="template1.task1.subscription5"></entry>
+				<entry key="Demo Machine/Demo Component 4/test2" value-ref="template1.task1.subscription6"></entry>
+				<entry key="Demo Machine/Demo Component 4/test3" value-ref="template1.task1.subscription7"></entry>
+				<entry key="Demo Machine/Demo Component 4/test4" value-ref="template1.task1.subscription8"></entry>
+				<entry key="Demo Machine/Demo Component 4/test5" value-ref="template1.task1.subscription9"></entry>
+				<entry key="Demo Machine/Demo Component 4/test6" value-ref="template1.task1.subscription10"></entry>
+				<entry key="Demo Machine/Demo Component 4/test7" value-ref="template1.task1.subscription11"></entry>
+				<entry key="Demo Machine/Demo Component 4/test10" value-ref="template1.task1.subscription14"></entry>
+			</map>
+		</property>
+	</bean>
+
+	<bean id="template1.task1" class="se.openprocesslogger.log.LoggingTask">
+		<constructor-arg index="0" value="Demo Log Task"></constructor-arg>
+		<constructor-arg index="1">
+			<map></map>
+		</constructor-arg>
+		<property name="templateName" value="Demo Log Task" />
+	</bean>
+
+	<bean id="template1.task1.subscription1" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 1/Sin(t)"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription1.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+
+	<bean id="template1.task1.subscription2" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 1/Cos(t)"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription2.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription3" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 2/Saw"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription3.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription4" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 3/Trigg"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription4.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription5" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test1"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription5.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription6" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test2"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription6.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription7" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test3"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription7.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription8" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test4"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription8.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription9" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test5"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription9.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription10" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test6"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription10.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription11" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test7"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription11.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+	<bean id="template1.task1.subscription14" class="se.openprocesslogger.log.Subscription">
+		<constructor-arg index="0"
+			value="Demo Machine/Demo Component 4/test10"></constructor-arg>
+		<property name="trigger" ref="template1.task1.subscription14.trigger" />
+		<property name="onChange" value="true"></property>
+	</bean>
+
+	<!-- Triggers -->
+	<bean id="template1.task1.subscription1.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+
+	<bean id="template1.task1.subscription1.trigger2" class="se.openprocesslogger.log.DigitalTriggerEval">
+		<constructor-arg value="onRisingEdge"></constructor-arg>
+	</bean>
+
+	<bean id="template1.task1.subscription2.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+
+	<bean id="template1.task1.subscription2.trigger2" class="se.openprocesslogger.log.DigitalTriggerEval">
+		<constructor-arg value="onRisingEdge"></constructor-arg>
+	</bean>
+
+	<bean id="template1.task1.subscription3.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+
+	<bean id="template1.task1.subscription3.trigger2" class="se.openprocesslogger.log.DigitalTriggerEval">
+		<constructor-arg value="onRisingEdge"></constructor-arg>
+	</bean>
+
+	<bean id="template1.task1.subscription4.trigger" class="se.openprocesslogger.log.DigitalTriggerEval">
+		<constructor-arg value="onRisingEdge"></constructor-arg>
+	</bean>
+	<bean id="template1.task1.subscription5.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription6.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription7.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription8.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription9.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription10.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription11.trigger" class="se.openprocesslogger.log.AnalogTriggerEval">
+		<constructor-arg value="onOverLimit"></constructor-arg>
+		<property name="limit" value="10"></property>
+	</bean>
+	<bean id="template1.task1.subscription14.trigger" class="se.openprocesslogger.log.DigitalTriggerEval">
+		<constructor-arg value="onRisingEdge"></constructor-arg>
+	</bean>
+</beans>

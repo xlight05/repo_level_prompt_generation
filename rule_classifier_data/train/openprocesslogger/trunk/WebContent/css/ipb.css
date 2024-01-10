@@ -1,0 +1,410 @@
+/*
+	Skriv över thundra CSS för time text box
+*/
+.tundra .dijitTimePickerTick .dijitTimePickerItemInner {
+	font-size:0.6em !important;
+	color: black;
+}
+.tundra .dijitTimePickerItemHover .dijitTimePickerItemInner,
+.tundra .dijitTimePickerItemSelected .dijitTimePickerItemInner {
+	font-size:1em !important;
+}
+.dijitTimePickerItemHover {
+	font-size:1em !important;
+}
+
+/*
+	Loading dialog manipulation
+*/
+#gui_pageloader .dijitDialogTitleBar {
+	display: none !important;
+}
+
+#gui_pageloader .dijitDialogPaneContent {
+	border-style: none !important; 
+}
+
+/*
+	Generella CSS börjar
+*/
+html, body { 
+ 	height: 99%; 
+ 	width: 99%; 
+ 	padding: 4px;
+ 	margin: 0;
+ 	border: 0;
+ 	background: #fff url(../images/bodyBg.gif) repeat-x scroll left top;
+ 	font-family: Tahoma, Arial;
+ 	font-size: 13px;
+}
+
+.dojoxScrollWindow {
+	position:relative;
+}
+
+.dojoxScrollHelper .helperInner {
+	visibility:hidden;
+}
+
+.dojoxScrollHelper {
+	border:1px solid #b7b7b7;
+	width:4px;
+	background:#ededed;
+	height:3px;
+	position:absolute;
+	bottom:2px;
+	left:4px; 
+}
+
+#altStyle .dojoxScrollHelper {
+	-moz-border-radius:3pt;
+	background:#b7cdee;
+	border:2px solid #333;
+	width:3px;
+}
+
+/*
+	Loading text for the accordionpane
+*/
+.loader {
+	margin: 40px 0 0 0;
+	border-style: none !important;
+	cursor: default !important;
+}
+
+.loader:hover {
+	background-color: transparent !important;
+}
+
+.loader span {
+	margin: 0 auto;
+	height: 30px;
+	width: 80px;
+	background: url('../images/loading.gif') no-repeat;
+	background-position: center left;
+	font-weight: bold;
+	color: #888;
+	padding: 12px 0 0 35px;
+	display: block;
+}
+/*
+	Loading properties ends here
+*/
+
+.clear {
+	clear: both;
+}
+
+.aright {
+	float: right;
+}
+
+.aleft {
+	float: left;
+}
+
+.selected {
+	background-color: #ddd;
+}
+
+#logTaskTemplatePaneTable div, #logTaskPaneTable div, #TriggerTable div {
+	cursor: pointer;
+	padding: 2px;
+	clear: both;
+}
+
+#TriggerTable div {
+	border-bottom: 1px solid #ddd;
+}
+
+#TriggerTable h4 {
+	margin: 2px 0 4px 0;
+	font-size: 11px;
+}
+
+#TriggerTable h4 span {
+	color: grey;
+}
+
+#TriggerTable h5 {
+	margin: 2px 0 4px 0;
+	font-size: 10px;
+}
+
+#TriggerTable label {
+	font-weight: bold;
+}
+
+.listcontainer img {
+	vertical-align: middle;
+	margin: 0 6px 0 0;
+}
+
+#logTaskTemplatePaneTable div:hover, #logTaskPaneTable div:hover, #TriggerTable div:hover {
+	background-color: #eee;
+}
+
+.notriggeritem {
+	padding: 2px;
+	color: grey;
+}
+
+.triggertime {
+	font-size: 10px;
+	color: #999;
+	border-style: none !important;
+}
+
+.contentbody {
+	padding: 10px;
+}
+
+#pageheader p {
+	font-size: 9px;
+	float: right;
+	margin: 0px;
+	padding: 2px;
+}
+
+#pageheader h1 {
+	margin: 0 0 10px 0;
+}
+
+#alertfield {
+	margin: -8px -10px 10px -8px;
+	position: relative;
+	text-align: center;
+	background-color: #f00;
+	color: #fff;
+	font-weight: bold;
+}
+
+#alertfield .over {
+	background-color: #f66;
+}
+
+#alertfield a:link, #alertfield a:visited, #alertfield active {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#alertfield a:hover {
+	color: #eee;
+}
+
+#alertfield .message {
+	padding: 6px;
+	border-bottom: 1px solid #d00;
+	cursor: pointer;
+}
+
+#timerContainer {
+	margin: 20px 0 0 0;
+	border-top: 1px solid #ddd;
+}
+
+#timerContainer p {
+	padding: 20px 0 0 0;
+}
+
+#timerContainer .tcolumn {
+	width: 120px;
+	float: left;
+}
+
+#timerContainer .column {
+	width: 300px;
+	float: left;
+}
+
+#logTaskSettingsBody h3 {
+	margin: 10px 0 4px 0;
+}
+
+#logTaskSettingsBody h5 {
+	margin: 5px 0 2px 0;	
+}
+
+.NodeTreeSubInfo {
+	position: relative;
+	padding: 6px 6px 22px 22px;
+	margin: 0 0 0 42px;
+	border-bottom: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	width: 450px;
+}
+
+.textlink {
+	padding: 2px 6px 2px 6px;
+	float: right;
+}
+.textlink:hover {
+	background-color: #ddd;
+}
+
+.buttoncontainer {
+	display: block;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#TemplatesPane, #TasksPane {
+	position: relative;
+}
+
+#main { 
+	height: 100%; 
+	width: 100%; 
+	padding: 0; 
+	border: 0; 
+}
+
+#contentMain { 
+	height: 100%; 
+	width: 100%; 
+	padding: 0; 
+	border: 0; 
+}
+
+#reportIFrame {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+#mainSplit { 
+	margin: 10px; 
+}
+
+#header {
+	margin: 10px;
+}
+
+#subscriptiondialog {
+	width: 450px;
+	min-height: 500px;
+}
+
+.closeicon {
+	cursor: pointer;
+}
+
+#onTriggers h3 {
+	font-size: 13px;
+	font-weight: bold;
+	margin: 8px 0 4px 0;
+}
+
+#onTriggers .divider {
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+	border-top: 1px solid silver;
+}
+
+#addressvaluelist ul {
+	margin: 0;
+}
+
+#addressvaluelist li {
+	margin: 0 0 0 20px;
+}
+
+#addressvaluelist li span {
+	color: grey;
+	font-size: 10px;
+}
+
+#tastTQSwitch {
+	margin: 20px 0 0 10px;
+}
+
+hr.spacer {
+	border: 0;
+	background-color: #ededed;
+	width: 95%;
+	height: 1px;
+} 
+
+td.selectedLogTask {
+	color: #0000FF;
+	font-weight: bold;
+}
+
+td.unSelectedLogTask {
+	color: #000000;
+	font-weight: normal;
+}
+
+div.formArea {
+   border-bottom-style: inset;
+   border-bottom-width: medium;
+   border-top-style: inset;
+   border-left-style: inset;
+   border-right-width: medium;
+   border-right-style: inset;
+   border-left-width: medium;
+   border-top-width: medium;
+   margin: 5px;
+   padding: 5px;
+}
+
+div.formTitleArea {
+   margin: 5px;
+   padding: 5px;
+   font-size: large;
+}
+
+div.formInfoArea {
+   margin: 5px;
+   padding: 5px;
+}
+
+div.formSubArea {
+   padding: 8px 0 0 8px;
+}
+
+label.formArea {
+	font-weight: bold;
+	padding: 0 0 0 5px;
+}
+
+div.subscriptionInfo {
+  margin: 0px;
+  padding: 5px;
+  outline: 1px invert dotted;
+  background: #dde7f2; /* Stolen from .tundra .dijitTreeLabelFocused (dijit/themes/tundra/Tree.css) */
+}
+
+div.subscriptionInfoSurrounding{
+  background:#ffffff;
+  padding:15px
+}
+
+td.loadingTaskClass {
+  fill:blue;
+  font-style:italic;
+}
+
+div.tpcFormComponent {
+  padding: 5px;
+  display: inline;
+}
+
+table.tpc_pulseTable {
+	padding: 20px;
+}
+td.tpc_pulseTable {
+	padding-left: 10px;
+	font-weight:bold;
+}
+
+#calendarContainer {
+	width: 680px;
+}
+
+#calendarDatePickContainer{
+	padding: 10px 0 0 0;
+	clear: both;
+}

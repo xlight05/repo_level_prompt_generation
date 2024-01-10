@@ -1,0 +1,97 @@
+~~ Copyright (c) 2008 Edward Mostrom.
+~~ This file is licensed to You under the Apache License, Version 2.0
+~~ (the "License"); you may not use this file except in compliance with
+~~ the License.  You may obtain a copy of the License at
+~~ 
+~~ http://www.apache.org/licenses/LICENSE-2.0
+~~ 
+~~ Unless required by applicable law or agreed to in writing, software
+~~ distributed under the License is distributed on an "AS IS" BASIS,
+~~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+~~ See the License for the specific language governing permissions and
+~~ limitations under the License.
+
+Automagic
+
+	A Wicket render listner which automatically creates default Java components matching the html markup.
+
+	Allows quick Wicket page development through the auto creation of components
+	by convention and helps separate page design from Java code functionality.
+	The render listener will try to auto-create any components that are
+	not specifically instantiated in code by matching them to a property on a
+	parent CompoundPropertyModel.
+
+	Components that you wish to work differently from the default auto-created
+	versions or components that can't be auto created can be instantiated by hand
+	and added to the parent page or panel.
+
+Java requirements
+
+	Wicket Bits Automagic requires at least Java 1.4. 
+
+Introduction
+
+	A Wicket MarkupContainer is a component that can contain other components. Page, Panel,ListView, and Fragment are all examples of MarkupContainers. After Wicket does its construction of a Page, Automagic is called for each MarkupContainer to do any additional configuration. Automagic makes sure that each MarkupContainer has all of its child components as designed in the html markup.
+
+	If a child component is found to be missing from a MarkupContainer, Automagic first searches up the component heirarchy for a component with a matching name and re-parents it if found.  Any child components still missing are then auto created using basic conventions.
+
+Usage
+
+	Add the listener to the applications list of onBeforeRender listeners:
+
++---
+import org.apache.wicket.protocol.http.WebApplication;
+
+import com.googlecode.wicketbits.render.AutoCreateRenderListener;
+
+public class MyApplication extends WebApplication {
+
+	public void init() {
+		this.addComponentOnBeforeRenderListener(new AutoCreateRenderListener());
+	}
+}
++---
+
+Example
+
+	HTML:
+
++---
+	<html>
+  		...
+  		<body>
+    			<span wicket:id="mylabel"></span>
+  		</body>
+	</html>
++---
+
+	Java:
+
++---
+	public class MyPage extends WebPage {
+		public String mylabel = "Hello World";
+
+		public MyPage() {
+			setModel(new CompoundPropertyModel(this));
+		}
+	}
++---
+
+Auto Creation
+
+	A CompoundPropertyModel is a Wicket model that uses the component's nameas the name of a property to match against on the underlying model object.  The model does not have to be attached directly to the component but can be attached to a parent in the heirarchy.
+
+	Automagic takes the process one step futher by not requiring you to even create the component.  If a property can be found on a CompoundPropertyModel that matches the name given in a wicket:id field in the markup, Automagic will automatically create a Wicket component.  The type of component Automagic creates depends on the markup tag and the class type of the property on the model object.
+
+	A markup tag of type span, div, or td will create a Wicket Label component if the matching property is any class other than a java.util.List.  A markup tag of type span, div, or tr will create a Wicket ListView component if the matching property is a java.util.List class.
+
+	Forms do not require a property and are automatically created any time a Form component is missing.  Form elements (input, select, textarea) are generally created regardless of the underlying property class type.
+
+	Form elements for radio buttons and selects require two models (one for the selected value and one for the list of options) and so require special convention.  The component name uses both property names seperated by an "@" character.  For example "selectedValue@listOfNames".
+
+	Anchor tags require special convention as well.  The href field of the anchor tag is expected to be a class name.  Automagic then resolves the class name and constructs a component from the class if it is derived from AbstractLink.
+
+Separation of View and Control
+
+	Wicket components require a heirarchy that matches the heirarchy designed in the associated markup.  Automagic helps seperate the view from the control by automatically re-parenting any missing components from parent components.  This allows you to add components directly to the page and the markup can change without changing the associated java code.  For the correct components to be re-parented all components within a page or panel must have unique names.
+

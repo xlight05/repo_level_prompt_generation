@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/2/trunk/compile-test/example
+END
+startup_SAM7S.S
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/compile-test/example/startup_SAM7S.S
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/compile-test/example/README
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/compile-test/example/Makefile
+END
+AT91SAM7S64-RAM.ld
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/compile-test/example/AT91SAM7S64-RAM.ld
+END
+interrupt_utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/compile-test/example/interrupt_utils.h
+END

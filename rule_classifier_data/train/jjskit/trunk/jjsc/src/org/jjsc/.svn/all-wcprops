@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/82/trunk/jjsc/src/org/jjsc
+END
+NotStartedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/NotStartedException.java
+END
+ConfigurationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/ConfigurationException.java
+END
+JJSVM.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/67/trunk/jjsc/src/org/jjsc/JJSVM.java
+END
+JJSC.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/82/trunk/jjsc/src/org/jjsc/JJSC.java
+END
+JSC.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/65/trunk/jjsc/src/org/jjsc/JSC.java
+END
+ModuleNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/ModuleNotFoundException.java
+END
+CompilationModuleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/trunk/jjsc/src/org/jjsc/CompilationModuleException.java
+END
+LoadModuleException.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/LoadModuleException.java
+END
+JJSException.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/JJSException.java
+END
+Module.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/Module.java
+END

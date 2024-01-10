@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/test/java/org/jsemantic/services/core
+END
+ManagedServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/test/java/org/jsemantic/services/core/ManagedServiceTest.java
+END
+UnManagedServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/test/java/org/jsemantic/services/core/UnManagedServiceTest.java
+END
+ComponentTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/58/trunk/jcontenedor/jservice/src/test/java/org/jsemantic/services/core/ComponentTest.java
+END

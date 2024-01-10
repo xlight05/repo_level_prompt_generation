@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/logging-service/src/main/resources/META-INF/log-service
+END
+aop-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/logging-service/src/main/resources/META-INF/log-service/aop-service.xml
+END
+log-service.xml
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/logging-service/src/main/resources/META-INF/log-service/log-service.xml
+END

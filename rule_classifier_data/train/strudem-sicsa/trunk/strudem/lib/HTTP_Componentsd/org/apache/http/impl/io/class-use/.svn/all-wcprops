@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use
+END
+DefaultHttpResponseParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/DefaultHttpResponseParser.html
+END
+AbstractSessionInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/AbstractSessionInputBuffer.html
+END
+AbstractSessionOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/AbstractSessionOutputBuffer.html
+END
+AbstractMessageParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/AbstractMessageParser.html
+END
+IdentityInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/IdentityInputStream.html
+END
+HttpRequestWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/HttpRequestWriter.html
+END
+IdentityOutputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/IdentityOutputStream.html
+END
+HttpResponseWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/HttpResponseWriter.html
+END
+SocketInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/SocketInputBuffer.html
+END
+SocketOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/SocketOutputBuffer.html
+END
+HttpTransportMetricsImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/HttpTransportMetricsImpl.html
+END
+AbstractMessageWriter.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/AbstractMessageWriter.html
+END
+HttpRequestParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/HttpRequestParser.html
+END
+ContentLengthInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/ContentLengthInputStream.html
+END
+ContentLengthOutputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/ContentLengthOutputStream.html
+END
+DefaultHttpRequestParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/DefaultHttpRequestParser.html
+END
+HttpResponseParser.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/HttpResponseParser.html
+END
+ChunkedInputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/ChunkedInputStream.html
+END
+ChunkedOutputStream.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/io/class-use/ChunkedOutputStream.html
+END

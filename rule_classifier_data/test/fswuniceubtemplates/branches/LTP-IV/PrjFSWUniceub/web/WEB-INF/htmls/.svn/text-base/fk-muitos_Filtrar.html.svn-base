@@ -1,0 +1,12 @@
+<div id="Filtrar" title="Filtrar" class="lv">
+    <p>
+        <input type="text" id="nome" name="nome" maxlength="80" size="30" readonly />
+        <input type=button value="Filtrar">
+        <br><br>
+        <input type="radio" name="opcao" />Resultado 1<br />
+        <input type="radio" name="opcao" />Resultado 2<br />
+        <input type="radio" name="opcao" />Resultado 3<br />
+        <input type="radio" name="opcao" />Resultado 4<br />
+        <input type="radio" name="opcao" />Resultado 5<br />
+    </p>
+</div>

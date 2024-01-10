@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<f:view contentType="text/html" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	xmlns:s="http://jboss.com/products/seam/taglib">
+<html>
+	<head>
+		<ui:include src="/layout/header.xhtml" />
+	</head>
+	<body>
+		<s:div id="main">
+			<ui:include src="/layout/north.xhtml" />
+			<div id="content">
+				
+				<ui:include src="/layout/globaleMessages.xhtml" />
+				
+				<div class="body">
+					<rich:modalPanel id="loginPopUp" minWidth="350" minHeight="100" autosized="true" 
+						moveable="false" showWhenRendered="true" >
+						<f:facet name="header">
+							#{messages['login.header']}
+						</f:facet>
+						
+				    	<h:form id="login">
+				            
+				            <h:messages globalOnly="true"	styleClass="message" 
+										errorClass="errormsg" infoClass="infomsg" warnClass="warnmsg"/>
+				
+				            <div class="dialog">
+				                <h:panelGrid columns="2" rowClasses="prop" columnClasses="name,value">
+				                    <h:outputLabel for="username">#{messages['login.username']}</h:outputLabel>
+				                    <h:inputText id="username"
+				                              value="#{credentials.username}"/>
+				                    <h:outputLabel for="password">#{messages['login.password']}</h:outputLabel>
+				                    <h:inputSecret id="password"
+				                                value="#{credentials.password}"/>
+				                    <h:outputLabel for="rememberMe">#{messages['login.rememberme']}</h:outputLabel>
+				                    <h:selectBooleanCheckbox id="rememberMe"
+				                                          value="#{identity.rememberMe}"/>
+				                </h:panelGrid>
+				            </div>
+							
+							<div style="clear:both"/>
+				
+					        <div style="text-align: right;">
+					            <h:commandButton id="loginButton" value="#{messages['login.login']}" action="#{identity.login}">
+					            	<s:defaultAction/>
+					            </h:commandButton>
+					            <rich:componentControl for="loginPopUp" attachTo="loginButton"
+									operation="hide" event="onclick" />
+					        </div>
+				    	</h:form>
+					</rich:modalPanel>
+				</div>
+			</div>
+		</s:div>
+		
+	</body>
+</html>
+</f:view>

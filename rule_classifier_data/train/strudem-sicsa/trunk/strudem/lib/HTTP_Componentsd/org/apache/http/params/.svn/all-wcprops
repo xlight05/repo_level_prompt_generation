@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params
+END
+HttpProtocolParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpProtocolParams.html
+END
+HttpConnectionParamBean.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpConnectionParamBean.html
+END
+AbstractHttpParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/AbstractHttpParams.html
+END
+HttpParamsNames.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpParamsNames.html
+END
+HttpProtocolParamBean.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpProtocolParamBean.html
+END
+HttpAbstractParamBean.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpAbstractParamBean.html
+END
+CoreConnectionPNames.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/CoreConnectionPNames.html
+END
+CoreProtocolPNames.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/CoreProtocolPNames.html
+END
+SyncBasicHttpParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/SyncBasicHttpParams.html
+END
+HttpParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpParams.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/package-use.html
+END
+BasicHttpParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/BasicHttpParams.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/package-tree.html
+END
+DefaultedHttpParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/DefaultedHttpParams.html
+END
+HttpConnectionParams.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/params/HttpConnectionParams.html
+END

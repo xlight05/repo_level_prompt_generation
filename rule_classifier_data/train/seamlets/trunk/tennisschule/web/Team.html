@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Tennisschule im Tennispark Steinbach</title>
+	<meta http-equiv="Content-Type"
+		content="text/html; charset=utf-8" />
+	<meta name="language" content="de" />
+	<meta name="author" content="Daniel Zwicker" />
+	
+	<link rel="icon" href="img/favicon.png" type="image/png" />
+	<link rel="SHORTCUT ICON" href="img/favicon.ico" type="image/ico" />
+	<link rel="stylesheet" type="text/css" href="stylesheet/style.css"/>
+	
+	<!--[if IE]>
+    	<link rel="stylesheet" type="text/css" href="stylesheet/ie.css"/>
+  	<![endif]-->
+	
+	<meta name="keywords"
+		content="Bad Homburg,Steinbach,Eschborn,Oberursel,Kronberg,Oberhöchstadt,
+		tennis,training,jugendtraining,jugend,hobby,hobbyspielertennistraining,halle,hallentraining" />
+	<script language="javascript" src="scripts/jquery-1.2.6.js"></script>
+	
+	<script type="text/javascript">
+		var $ = jQuery.noConflict();
+	</script>
+	
+	<!-- Cornor -->
+	<script language="javascript" src="scripts/jquery.curvycorners.js"></script>
+	
+	<!-- NavigationMenu -->
+	<link type="text/css" rel="stylesheet" href="stylesheet/jDrawer.css" media="screen"/>
+	<script type="text/javascript" src="scripts/jquery.jDrawer.js"></script>
+	
+	<!-- png fix -->
+	<script type="text/javascript" src="scripts/jquery.pngFix.js"></script>
+	
+	<!-- Gallery -->
+	<link rel="stylesheet" type="text/css" href="stylesheet/spacegallery.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="stylesheet/custom.css" media="screen" />
+	<script type="text/javascript" src="scripts/eye.js"></script>
+	<script type="text/javascript" src="scripts/utils.js"></script>
+	<script type="text/javascript" src="scripts/spacegallery.js"></script> 
+	
+	<!-- Flash -->
+	<script type="text/javascript" src="scripts/jquery.flash.js"></script>
+	
+	<script type="text/javascript">
+		// initialise plugins
+		jQuery(document).ready(function(){ 
+			jQuery("#center").corner({
+				  tl: { radius: 6 },
+				  tr: false,
+				  bl: false,
+				  br: false
+			});
+	        jQuery("#content").corner({
+				  tl: { radius: 6 },
+				  tr: { radius: 6 },
+				  bl: { radius: 6 },
+				  br: { radius: 6 }
+			});
+	        jQuery("#navi").corner({
+				  tl: false,
+				  tr: false,
+				  bl: { radius: 6 },
+				  br: { radius: 6 }
+			});
+			jQuery("#navi-menu").jDrawer({
+				speed: 500,
+				sticky: true,
+				buffer: 50,
+				color: "#d8deed"
+			});
+			jQuery("#myGallery").spacegallery({
+				loadingClass: 'loading',
+				perspective: 120,
+				duration: 400,
+				minScale: 0.05
+			});
+			jQuery('#trainerSlide').flash(
+			        { src: 'flash/trainerSlide.swf',
+			          width: 161,
+			          height: 164 },
+			        { version: 9 }
+			    );
+			
+			if(jQuery.browser.msie)
+			{	
+				jQuery(document).pngFix({blankgif: 'img/blank.gif'});
+			}
+	    }); 
+	</script>
+</head>
+<body>
+	<div style="width:100%;height:100%;background: #D4D4D4 url('img/background.jpg') repeat-x scroll 0 0" align="center">
+		<div style="position:relative;top:75px;width:850px;height:490px;background-color:transparent;">
+			<div style="position:relative;width:100%;height:34px;clear:left;background-image:url('img/Top.gif');">
+				<a class="bottomlink" href="Kontakt.html"
+					style="position:relative;left:570px;top:3px;float:left;">
+					<img width="42" height="21" border="0" src="img/Navigation/kontakt.gif" />
+					<span style="font-size: 11pt;
+						font-weight: bold; font-family: Comic Sans MS;
+						left: 5px; position: relative; top: -4px;">Kontakt</span>
+				</a>
+			</div>
+			<div id="center" style="position:relative;width:100%;height:100%;background-color:white;clear:left;">
+				<div style="position:relative;width:165px;height:88px;float:left;left:3px;top:5px;background:url('img/logo.jpg');">
+				</div>
+				<div style="vertical-align:bottom;position:relative;left:7px;top:5px;width:156px;height:88px;float:left;background-image: url('img/Elemente/Bildergalerien.jpg');" align="right">
+					<a href="Galerien.html" style="position:relative;top:80px;right:5px;" class="toplink">&gt;&gt; Bildergalerie</a>
+				</div>
+				<div style="position:relative;left:12px;top:5px;width:156px;height:88px;float:left;background-image: url('img/Elemente/Technikvideos.jpg');" align="right">
+					<a href="movie/Videos.html" style="position:relative;top:80px;right:5px;" class="toplink">&gt;&gt; Technikvideos</a>
+				</div>
+				<div style="position:relative;left:17px;top:5px;width:189px;height:88px;float:left;background-image: url('img/Elemente/Events.jpg');" align="right">
+					<a href="Team.html" style="position:relative;top:80px;right:5px;" class="toplink">&gt;&gt; Team</a>
+				</div>
+				<div style="position:relative;width:161px;height:324px;float:left;left:21px;top:5px;background:url('img/Elemente/TeaserBild.jpg');">
+				</div>
+				<div id="navi" 
+					style="position:relative;width:165px;height:386px;float:left;left:3px;top:-225px;background-color:#d8deed;">
+					<div class="title-l">
+						<div class="title-r">
+							<div class="title"><center>Seiten Auswahl</center></div>
+						</div>
+					</div>
+					<center>
+						<ul class="jDrawer jDrawer-top" id="navi-menu">
+							<li style="z-index: 4; top: -10px;" class="jDrawer-item">
+								<div class="jDrawer-item-border-1">
+									<div class="jDrawer-item-border-2">
+										<div class="jDrawer-item-border-3">
+											<div style="" class="jDrawer-content" align="left">
+												<a href="Wir-ueber-uns.html">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													WIR ÜBER UNS
+												</a>
+												<br/>
+												<a href="Preislisten.html" style="position:relative;top:3px;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													PREISLISTEN
+												</a>
+												<div class="jDrawer-handle">
+													<h3>TENNISSCHULE</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li style="z-index: 2; top: 130px;" class="jDrawer-item">
+								<div class="jDrawer-item-border-1">
+									<div class="jDrawer-item-border-2">
+										<div class="jDrawer-item-border-3">
+											<div style="" class="jDrawer-content" align="left">
+												<a href="Zwicker.html" style="font-size:7.1pt;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													DIETMAR ZWICKER
+												</a>
+												<br/>
+												<a href="Matthews.html" style="position:relative;top:3px;font-size:6.3pt;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													LAURENCE MATTHEWS
+												</a>
+												<br/>
+												<a href="Neuendorff.html" style="position:relative;top:6px;font-size:7.1pt;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													ERIC NEUENDORFF
+												</a>
+												<div class="jDrawer-handle">
+													<h3>PROFILE</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li style="z-index: 3; top: 60px;" class="jDrawer-item">
+								<div class="jDrawer-item-border-1">
+									<div class="jDrawer-item-border-2">
+										<div class="jDrawer-item-border-3">
+											<div style="" class="jDrawer-content" align="left">
+												<a href="Jugendarbeit.html">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													JUGENDARBEIT
+												</a>
+												<br/>
+												<a href="Hobbyspieler.html" style="position:relative;top:3px;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													HOBBYSPIELER
+												</a>
+												<br/>
+												<a href="Juengstentraining.html" style="position:relative;top:6px;font-size:7.1pt;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													JÜNGSTENTRAINING
+												</a>
+												<div class="jDrawer-handle">
+													<h3>KONZEPTE</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+							<li style="z-index: 2; top: 130px;" class="jDrawer-item jDrawer-active">
+								<div class="jDrawer-item-border-1">
+									<div class="jDrawer-item-border-2">
+										<div class="jDrawer-item-border-3">
+											<div style="" class="jDrawer-content" align="left">
+												<a href="Galerien.html">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													BILDERGALERIE
+												</a>
+												<br/>
+												<a href="movie/Videos.html" style="position:relative;top:3px;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													TECHNIKVIDEOS
+												</a>
+												<br/>
+												<a href="Team.html" style="position:relative;top:6px;font-size:7.1pt;">
+													<img src="img/Elemente/pfeilegruen.gif" style="border:0;"/>
+													TEAM
+												</a>
+												<div class="jDrawer-handle">
+													<h3>MEDIATHEK</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</center>
+				</div>
+				<div id="content" style="position:relative;float:left;width:510px;height:379px;left:7px;top:-214px;background-color:#13379E;">
+					<span style="color: #FFFFFF; font-size: 11pt; font-weight: bold;
+						font-family: Comic Sans MS;left:20px;
+						position:absolute;top:30px;">UNSER TEAM</span>
+					<div id="myGallery" class="spacegallery" style="color: #FFFFFF;
+						left:20px;top:15px;width:93%;
+						position:absolute;">
+						<img src="team/team-06.jpg" alt="" />
+						<img src="team/team-05.jpg" alt="" />
+						<img src="team/team-04.jpg" alt="" />
+						<img src="team/team-03.jpg" alt="" />
+						<img src="team/team-02.jpg" alt="" />
+						<img src="team/team-01.jpg" alt="" />
+					</div>
+				</div>
+				<div id="trainerSlide" style="position:relative;width:161px;height:164px;float:right;right:2px;top:10px;">
+				</div>
+			</div>
+			<div id="impressum" style="position:relative;width:100%;height:35px;background-image:url('img/Bottom.gif');" align="left">
+				<img src="img/Elemente/pfeilegruen.gif"/>
+				<a href="impressum.html" class="bottomlink">IMPRESSUM</a>
+			</div>
+		</div>		
+	</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/82/trunk/jjsc/src/org/jjsc/compiler/special
+END
+NativeClassCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/compiler/special/NativeClassCompiler.java
+END
+CompilationUtilsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/82/trunk/jjsc/src/org/jjsc/compiler/special/CompilationUtilsManager.java
+END
+SpecialCompiler.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/64/trunk/jjsc/src/org/jjsc/compiler/special/SpecialCompiler.java
+END

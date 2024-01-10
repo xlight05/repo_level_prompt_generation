@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<decorators defaultdir="/decorators">
+
+	<!-- Specify patterns to be decorated. Default path for decorator pages, "/decorators/". -->
+
+	<!-- Excludes will never be decorated by Sitemesh. -->
+	<excludes>
+		<pattern>/exclude/*</pattern>
+		<pattern>/images/*</pattern>
+		<pattern>/javascript/*</pattern>
+		<pattern>/css/*</pattern>
+		<pattern>/tinymce/*</pattern>
+		<pattern>/cmsEdit/*</pattern>
+		<pattern>*print*</pattern>
+	</excludes>
+
+	<!-- Main decoration for reading. -->
+	<decorator name="mainDefault" page="./skinDefault/main.jsp">
+		<pattern>/wikiData/default/*</pattern>
+	</decorator>
+
+	<decorator name="mainPham" page="./skinDefaultPham/main.jsp">
+		<pattern>/wikiData/pham/*</pattern>
+	</decorator>
+
+	<decorator name="main2Keys" page="./skin2Keys/main.jsp">
+		<pattern>/wikiData/2Keys/*</pattern>
+	</decorator>
+
+	<decorator name="printableLemonBistro" page="./skinLemonBistro/simple.jsp">
+		<pattern>/wikiData/lemon/Driving_Directions.*</pattern>
+	</decorator>
+
+	<decorator name="mainLemonBistro" page="./skinLemonBistro/main.jsp">
+		<pattern>/wikiData/lemon/*</pattern>
+	</decorator>
+	
+</decorators>

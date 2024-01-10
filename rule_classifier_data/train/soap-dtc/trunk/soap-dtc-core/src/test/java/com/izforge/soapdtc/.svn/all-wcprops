@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/test/java/com/izforge/soapdtc
+END
+SoapMessageTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/test/java/com/izforge/soapdtc/SoapMessageTest.java
+END
+SoapFaultTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/23/trunk/soap-dtc-core/src/test/java/com/izforge/soapdtc/SoapFaultTest.java
+END

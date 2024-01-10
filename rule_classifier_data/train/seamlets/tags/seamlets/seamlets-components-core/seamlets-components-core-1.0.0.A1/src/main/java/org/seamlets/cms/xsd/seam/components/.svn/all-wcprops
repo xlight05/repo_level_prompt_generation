@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/Action.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/ObjectFactory.java
+END
+MultiValuedProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/MultiValuedProperty.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/Event.java
+END
+MapProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/MapProperty.java
+END
+Component.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/Component.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/package-info.java
+END
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/Property.java
+END
+Components.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/Components.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/xsd/seam/components/Factory.java
+END

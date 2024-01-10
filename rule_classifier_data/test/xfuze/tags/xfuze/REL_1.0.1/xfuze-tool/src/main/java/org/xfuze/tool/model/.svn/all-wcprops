@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model
+END
+PrimaryKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/PrimaryKey.java
+END
+SqlMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/SqlMap.java
+END
+ServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/ServiceTest.java
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/Service.java
+END
+Model.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/Model.java
+END
+Schema.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/Schema.java
+END
+SqlMapField.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/SqlMapField.java
+END
+BaseObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/BaseObject.java
+END
+Spring.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/Spring.java
+END
+Dao.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/Dao.java
+END
+SchemaField.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/SchemaField.java
+END
+ModelField.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/ModelField.java
+END
+JavaObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/JavaObject.java
+END
+SqlMapTypeAlias.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/SqlMapTypeAlias.java
+END
+ServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/ServiceImpl.java
+END
+DaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/java/org/xfuze/tool/model/DaoImpl.java
+END

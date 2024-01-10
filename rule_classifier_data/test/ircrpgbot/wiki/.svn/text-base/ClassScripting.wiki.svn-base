@@ -1,0 +1,15 @@
+#summary Class scripting information
+#sidebar Classes
+
+The template for classes can be found [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/classes/classtemplate.js here]. It is a bit different than the spell one, keep that in mind.
+
+To see the code for any class, feel free to look [http://code.google.com/p/ircrpgbot/source/browse/#svn%2FRPGBot%2Fscripts%2Fclasses%253Fstate%253Dclosed here].
+
+
+Here's an example:
+Cleric: [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/src/classes/Cleric.java?r=34 Java] [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/classes/cleric.js Javascript]
+
+The "general useful function list" can be found [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/helpful_functions.txt here].
+
+Submission guidelines:
+  * All classes should be in the form "lowercaseclassname.js" ("waterwizard.js" "barbarian.js")

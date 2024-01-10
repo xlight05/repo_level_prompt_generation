@@ -1,0 +1,10 @@
+<module>
+      <inherits name='com.google.gwt.user.User'/>
+      <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+
+      <entry-point class='org.zls.client.HUCourses'/>
+
+      <stylesheet src='HUCourses.css' />
+
+      <servlet path="/server" class="org.zls.server.ServerServiceImpl" />	
+</module>

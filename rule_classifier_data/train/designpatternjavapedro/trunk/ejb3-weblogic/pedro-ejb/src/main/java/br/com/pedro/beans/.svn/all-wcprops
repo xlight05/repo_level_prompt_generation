@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/src/main/java/br/com/pedro/beans
+END
+CustomerInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/src/main/java/br/com/pedro/beans/CustomerInterface.java
+END
+ProcessPayment.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/src/main/java/br/com/pedro/beans/ProcessPayment.java
+END
+CabinInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/37/trunk/ejb3-weblogic/pedro-ejb/src/main/java/br/com/pedro/beans/CabinInterface.java
+END

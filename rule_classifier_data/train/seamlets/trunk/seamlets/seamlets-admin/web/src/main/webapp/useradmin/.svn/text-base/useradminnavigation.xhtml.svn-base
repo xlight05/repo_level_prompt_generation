@@ -1,0 +1,52 @@
+<s:div styleClass="left" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{pageInfo.showNavigationView}">
+	<h:form styleClass="navigationToolbar">
+	    <rich:panel bodyClass="navigationpanel" styleClass="navigationpanel">
+	        <f:facet name="header">
+	       		#{messages['admin.user.navigation.header']}
+	        </f:facet>
+		    	<rich:toolBar height="34" styleClass="navigationToolbar" itemSeparator="line">
+		    		<rich:toolBarGroup location="right" itemSeparator="line">
+		    					
+		    			<a4j:commandLink action="#{addDomainAction.showDialog}" 
+		    				reRender="main">
+		    				<h:graphicImage value="/img/admingui/add.png" styleClass="hover" 
+		    					width="24" title="#{messages['admin.user.navigation.adduser']}"/>
+		    			</a4j:commandLink>
+					</rich:toolBarGroup>
+				</rich:toolBar>
+				<rich:tree id="navigationTree" style="width:220px"
+					reRender="main"
+					switchType="client" 
+					ajaxSubmitSelection="true">
+	            	<rich:treeNodesAdaptor nodes="#{userManager.listUsersByName()}" var="userNode" >
+	            		<rich:treeNode icon="/img/admingui/application_treenode.png"
+	            			iconLeaf="/img/admingui/user.png">
+	            			<h:outputText value="#{userNode.lastName}, #{userNode.firstName} (#{userNode.username})" />
+	            		</rich:treeNode>
+	            		
+	            		<rich:treeNodesAdaptor nodes="#{userNode.applications}" var="applicationNode" >
+		            		<rich:treeNode icon="/img/admingui/application_treenode.png"
+		            			iconLeaf="/img/admingui/application_treenode.png">
+		            			<h:outputText value="#{applicationNode.name}" />
+		            		</rich:treeNode>
+	            		</rich:treeNodesAdaptor>
+	            		
+	            		<rich:treeNodesAdaptor nodes="#{userNode.domains}" var="domainNode" >
+	            			<rich:treeNode icon="/img/admingui/application_treenode.png"
+		            			iconLeaf="/img/admingui/domain_treenode.png">
+		            			<h:outputText value="#{domainNode.application}/#{domainNode.rootUrl}" />
+		            		</rich:treeNode>
+	            		</rich:treeNodesAdaptor>
+	            		
+	            	</rich:treeNodesAdaptor>
+	        	</rich:tree>
+	    </rich:panel>
+    </h:form> 
+</s:div>

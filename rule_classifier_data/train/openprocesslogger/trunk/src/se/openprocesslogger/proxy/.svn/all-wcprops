@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy
+END
+OplControllerProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/OplControllerProxy.java
+END
+LoggingTaskData.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/LoggingTaskData.java
+END
+TriggerProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/TriggerProxy.java
+END
+SubscriptionProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/SubscriptionProxy.java
+END
+LogTaskProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/LogTaskProxy.java
+END
+TransformUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/TransformUtilities.java
+END
+Diagnostics.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/Diagnostics.java
+END
+DiagnosticsProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/DiagnosticsProxy.java
+END

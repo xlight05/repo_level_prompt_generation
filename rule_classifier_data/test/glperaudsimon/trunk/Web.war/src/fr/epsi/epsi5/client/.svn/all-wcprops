@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client
+END
+CenterWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/153/trunk/Web.war/src/fr/epsi/epsi5/client/CenterWidget.java
+END
+WestWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client/WestWidget.java
+END
+IHMRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/154/trunk/Web.war/src/fr/epsi/epsi5/client/IHMRegistry.java
+END
+GoogleMapPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/153/trunk/Web.war/src/fr/epsi/epsi5/client/GoogleMapPanel.java
+END
+Web.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/154/trunk/Web.war/src/fr/epsi/epsi5/client/Web.java
+END
+CustomToastWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/149/trunk/Web.war/src/fr/epsi/epsi5/client/CustomToastWindow.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/153/trunk/Web.war/src/fr/epsi/epsi5/client/package.html
+END

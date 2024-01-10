@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+
+<!DOCTYPE faces-config PUBLIC
+  "-//Sun Microsystems, Inc.//DTD JavaServer Faces Config 1.1//EN"
+  "http://java.sun.com/dtd/web-facesconfig_1_1.dtd">
+
+<!-- =========== FULL CONFIGURATION FILE ================================== -->
+
+<faces-config>
+    
+    <managed-bean>
+        <description>
+            Creates an instance of a NodeType value object
+        </description>
+        <managed-bean-name>NodeType</managed-bean-name>
+        <managed-bean-class>
+            nl.sanderspies.cms.view.nodetype.NodeTypeVO
+        </managed-bean-class>
+        <managed-bean-scope>session</managed-bean-scope>
+    </managed-bean>
+
+    <managed-bean>
+        <description>
+            Creates an instance of a NodeType value object
+        </description>
+        <managed-bean-name>NodeTypeActionListener</managed-bean-name>
+        <managed-bean-class>
+            nl.sanderspies.cms.view.nodetype.NodeTypeActionListener
+        </managed-bean-class>
+        <managed-bean-scope>application</managed-bean-scope>
+    </managed-bean>
+  
+    <navigation-rule>
+        <from-view-id>/welcomeJSF.jsp</from-view-id>
+        <navigation-case>
+            <from-outcome>success</from-outcome>
+            <to-view-id>/index.jsp</to-view-id>
+        </navigation-case>
+         <navigation-case>
+            <from-outcome>addproperty</from-outcome>
+            <to-view-id></to-view-id>
+        </navigation-case>
+    </navigation-rule>
+</faces-config>

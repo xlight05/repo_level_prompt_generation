@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/153/trunk/Web.war/src/fr/epsi/epsi5/client/services
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/153/trunk/Web.war/src/fr/epsi/epsi5/client/services/package.html
+END
+VilleServiceGWT.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/147/trunk/Web.war/src/fr/epsi/epsi5/client/services/VilleServiceGWT.java
+END
+PaysServiceGWT.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/147/trunk/Web.war/src/fr/epsi/epsi5/client/services/PaysServiceGWT.java
+END
+DTOException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/133/trunk/Web.war/src/fr/epsi/epsi5/client/services/DTOException.java
+END
+AsyncServiceRegistry.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/148/trunk/Web.war/src/fr/epsi/epsi5/client/services/AsyncServiceRegistry.java
+END
+VilleServiceGWTAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/133/trunk/Web.war/src/fr/epsi/epsi5/client/services/VilleServiceGWTAsync.java
+END
+PaysServiceGWTAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/147/trunk/Web.war/src/fr/epsi/epsi5/client/services/PaysServiceGWTAsync.java
+END

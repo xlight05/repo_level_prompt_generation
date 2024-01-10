@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/data
+END
+personal.dtd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/data/personal.dtd
+END
+personal.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/data/personal.xsd
+END
+personal-schema.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/data/personal-schema.xml
+END
+personal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/data/personal.xml
+END

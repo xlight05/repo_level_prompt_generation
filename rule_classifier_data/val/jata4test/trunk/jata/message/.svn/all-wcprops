@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/2/trunk/jata/message
+END
+NoCDMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/2/trunk/jata/message/NoCDMessage.java
+END
+MessageQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/jata/message/MessageQueue.java
+END
+TimeOutMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/jata/message/TimeOutMessage.java
+END
+ComponentDoneMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/jata/message/ComponentDoneMessage.java
+END
+SetTimeMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/jata/message/SetTimeMessage.java
+END
+ICD.java
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/jata/message/ICD.java
+END
+Message.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/jata/message/Message.java
+END

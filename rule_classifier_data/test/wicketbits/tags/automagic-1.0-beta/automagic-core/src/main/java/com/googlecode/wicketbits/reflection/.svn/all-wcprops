@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection
+END
+AbstractReflectionEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/AbstractReflectionEntity.java
+END
+MethodInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/MethodInfo.java
+END
+AttributeInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/AttributeInfo.java
+END
+FieldInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/FieldInfo.java
+END
+ClassInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/ClassInfo.java
+END
+ConstPoolEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/ConstPoolEntry.java
+END
+MemberInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/MemberInfo.java
+END
+ElementValuePairEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/ElementValuePairEntry.java
+END
+AnnotationInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/106/tags/automagic-1.0-beta/automagic-core/src/main/java/com/googlecode/wicketbits/reflection/AnnotationInfo.java
+END

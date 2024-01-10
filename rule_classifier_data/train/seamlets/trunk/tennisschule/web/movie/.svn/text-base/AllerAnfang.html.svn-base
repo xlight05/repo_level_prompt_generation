@@ -1,0 +1,41 @@
+<!-- saved from url=(0013)about:internet -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<meta http-equiv="Content-Type"
+		content="text/html; charset=utf-8" />
+<title>AllerAnfang</title>
+<script language="JavaScript">
+	// Nur für Netscape-Browser.
+	function flashGetHref() { return location.href; }
+	function flashPutHref(href) { location.href = href; }
+	function flashGetTitle() { return document.title; }
+	function flashPutTitle(title) { document.title = title; }
+</script>
+</head>
+<body>
+	<div class="media" style="float: left;">
+		<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="480" height="400" id="AllerAnfang" align="middle">
+			<param name="allowScriptAccess" value="sameDomain" />
+			<param name="movie" value="AllerAnfang.swf" />
+			<param name="loop" value="false" />
+			<param name="quality" value="high" />
+			<param name="bgcolor" value="#ffffff" />
+			<embed src="AllerAnfang.swf" loop="false" quality="high"
+				bgcolor="#ffffff" width="480" height="400" name="AllerAnfang" align="middle"
+				swLiveConnect="true" allowScriptAccess="sameDomain" type="application/x-shockwave-flash"
+				pluginspage="http://www.macromedia.com/go/getflashplayer" />
+		</object>
+	</div>
+	<div style="width: 125px; float: left; height: 403px; padding-left: 10px;
+		background-color: #13379E; color: white; font-size: 12px; line-height: 15px; word-spacing: 1px;">
+		Aller Anfang ist schwer:
+		<br />
+		<font style="font-size: 9px; line-height: 12px;">
+			Wissen sie noch wie es war? Damals, als sie noch nicht
+			 jeden Ball in vollendeter Perfektion getroffen haben.
+			  War gar nicht so einfach so gut zu werden...
+		</font>
+	</div>
+</body>
+</html>

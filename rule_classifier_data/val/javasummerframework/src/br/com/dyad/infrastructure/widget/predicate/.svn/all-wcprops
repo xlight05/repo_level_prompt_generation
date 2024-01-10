@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate
+END
+IntegerPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/IntegerPredicate.java
+END
+TimePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/TimePredicate.java
+END
+ComboPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/ComboPredicate.java
+END
+StringPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/StringPredicate.java
+END
+SimpleDatePredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/SimpleDatePredicate.java
+END
+NumberPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/NumberPredicate.java
+END
+LookupPredicate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/widget/predicate/LookupPredicate.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/entities/template
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/entities/template/package-info.java
+END
+TemplateEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 159
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/entities/template/TemplateEntity.java
+END
+FileTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/entities/template/FileTemplate.java
+END
+CmsTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/svn/!svn/ver/323/tags/seamlets/seamlets-components-core/seamlets-components-core-1.0.0.A1/src/main/java/org/seamlets/cms/entities/template/CmsTemplate.java
+END

@@ -1,0 +1,122 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+	<bean id="simulatedAddressSpace" class="se.opendataexchange.common.AddressSpace">
+	    <property name="name" value="Demo Machine"/>
+	    <property name="mapUnits">
+	        <map>
+	         <entry key="Demo Machine/Demo Component 1" value-ref="simUnit1"></entry>
+	         <entry key="Demo Machine/Demo Component 2" value-ref="simUnit2"></entry>
+	         <entry key="Demo Machine/Demo Component 3" value-ref="simUnit3"></entry>
+	         <entry key="Demo Machine/Demo Component 4" value-ref="simUnit4"></entry>
+	       </map>
+	    </property>
+	</bean>
+
+  <bean id="simUnit1" class="se.opendataexchange.simulator.SimulatedUnit">
+    <constructor-arg value="Demo Machine/Demo Component 1" />
+    <property name="mapValues">
+      <map>
+	      <entry key="Demo Machine/Demo Component 1/Sin(t)" value-ref="simValue11"></entry>
+	      <entry key="Demo Machine/Demo Component 1/Cos(t)" value-ref="simValue12"></entry>
+      </map>
+    </property>
+  </bean>
+  
+  <bean id="simValue11" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 1/Sin(t)"/>
+    <constructor-arg index="1" value="Sin"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  
+  <bean id="simValue12" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 1/Cos(t)"/>
+    <constructor-arg index="1" value="Cos"/>
+    <constructor-arg index="2" value="1000"/>
+  </bean>
+  
+  <bean id="simUnit2" class="se.opendataexchange.simulator.SimulatedUnit">
+    <constructor-arg value="Demo Machine/Demo Component 2" />
+    <property name="mapValues">
+      <map>
+        <entry key="Demo Machine/Demo Component 2/Saw" value-ref="simValue21"></entry>
+      </map>
+    </property>
+  </bean>
+  
+  <bean id="simValue21" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 2/Saw"/>
+    <constructor-arg index="1" value="Saw"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  
+  <bean id="simUnit3" class="se.opendataexchange.simulator.SimulatedUnit">
+    <constructor-arg value="Demo Machine/Demo Component 3" />
+    <property name="mapValues">
+      <map>
+        <entry key="Demo Machine/Demo Component 3/Trigg" value-ref="simValue31"></entry>
+      </map>
+    </property>
+  </bean>
+  
+  <bean id="simValue31" class="se.opendataexchange.simulator.SimulatedDigitalValue">
+    <constructor-arg value="Demo Machine/Demo Component 3/Trigg"/>
+  </bean>
+  
+  <bean id="simUnit4" class="se.opendataexchange.simulator.SimulatedUnit">
+    <constructor-arg value="Demo Machine/Demo Component 4" />
+    <property name="mapValues">
+      <map>
+        <entry key="Demo Machine/Demo Component 4/test1" value-ref="simValue41"></entry>
+        <entry key="Demo Machine/Demo Component 4/test2" value-ref="simValue42"></entry>
+        <entry key="Demo Machine/Demo Component 4/test3" value-ref="simValue43"></entry>
+        <entry key="Demo Machine/Demo Component 4/test4" value-ref="simValue44"></entry>
+        <entry key="Demo Machine/Demo Component 4/test5" value-ref="simValue45"></entry>
+        <entry key="Demo Machine/Demo Component 4/test6" value-ref="simValue46"></entry>
+        <entry key="Demo Machine/Demo Component 4/test7" value-ref="simValue47"></entry>
+        <entry key="Demo Machine/Demo Component 4/test10" value-ref="simValue48"></entry>
+      </map>
+    </property>
+  </bean>
+  
+  <bean id="simValue41" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test1"/>
+    <constructor-arg index="1" value="Saw"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue42" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test2"/>
+    <constructor-arg index="1" value="Sin"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue43" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test3"/>
+    <constructor-arg index="1" value="Cos"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue44" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test4"/>
+    <constructor-arg index="1" value="Saw"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue45" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test5"/>
+    <constructor-arg index="1" value="Sin"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue46" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test6"/>
+    <constructor-arg index="1" value="Cos"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue47" class="se.opendataexchange.simulator.SimulatedAnalogValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test7"/>
+    <constructor-arg index="1" value="Saw"/>
+    <constructor-arg index="2" value="50"/>
+  </bean>
+  <bean id="simValue48" class="se.opendataexchange.simulator.SimulatedDigitalValue">
+    <constructor-arg index="0" value="Demo Machine/Demo Component 4/test10"/>
+    <constructor-arg index="1" value="10"/>
+  </bean>
+</beans>

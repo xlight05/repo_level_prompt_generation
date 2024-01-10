@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms
+END
+QueueConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/QueueConnectionFactory.java
+END
+Topic.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/Topic.java
+END
+ActivationSpecification.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/ActivationSpecification.java
+END
+JMSProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/JMSProvider.java
+END
+Queue.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/Queue.java
+END
+TopicConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/TopicConnectionFactory.java
+END
+ConnectionFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/resources/jms/ConnectionFactory.java
+END

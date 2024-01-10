@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity
+END
+UniqueOrKey.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/UniqueOrKey.html
+END
+Selector.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/Selector.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/package-frame.html
+END
+Field.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/Field.html
+END
+KeyRef.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/KeyRef.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/package-tree.html
+END
+XPathMatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/XPathMatcher.html
+END
+ValueStore.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/ValueStore.html
+END
+IdentityConstraint.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/IdentityConstraint.html
+END
+FieldActivator.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/FieldActivator.html
+END
+Selector.Matcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/Selector.Matcher.html
+END
+Selector.XPath.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/Selector.XPath.html
+END
+Field.Matcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/Field.Matcher.html
+END
+Field.XPath.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/xs/identity/Field.XPath.html
+END

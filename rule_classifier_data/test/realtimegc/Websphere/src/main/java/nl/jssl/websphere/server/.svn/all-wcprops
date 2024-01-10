@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/15/Websphere/src/main/java/nl/jssl/websphere/server
+END
+ApplicationServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/15/Websphere/src/main/java/nl/jssl/websphere/server/ApplicationServer.java
+END
+JVM.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/JVM.java
+END
+WebContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/WebContainer.java
+END
+JvmLogs.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/JvmLogs.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/Log.java
+END
+ProcessLogs.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/ProcessLogs.java
+END
+WebServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/15/Websphere/src/main/java/nl/jssl/websphere/server/WebServer.java
+END
+Port.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/15/Websphere/src/main/java/nl/jssl/websphere/server/Port.java
+END
+EnvironmentEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/EnvironmentEntry.java
+END
+ProcessDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/ProcessDefinition.java
+END
+Ports.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/14/Websphere/src/main/java/nl/jssl/websphere/server/Ports.java
+END
+MemorySettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/server/MemorySettings.java
+END

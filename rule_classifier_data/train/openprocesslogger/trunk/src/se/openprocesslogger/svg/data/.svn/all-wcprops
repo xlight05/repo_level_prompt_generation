@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/data
+END
+CsvFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/data/CsvFormat.java
+END
+DataArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/data/DataArray.java
+END
+ProcDataHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/data/ProcDataHolder.java
+END
+DataDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/data/DataDecoder.java
+END
+DataPoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/data/DataPoint.java
+END

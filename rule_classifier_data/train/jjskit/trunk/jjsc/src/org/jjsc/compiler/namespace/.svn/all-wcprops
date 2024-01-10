@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/59/trunk/jjsc/src/org/jjsc/compiler/namespace
+END
+InstanceMethodNamespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/11/trunk/jjsc/src/org/jjsc/compiler/namespace/InstanceMethodNamespace.java
+END
+JavaTypesNamespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/11/trunk/jjsc/src/org/jjsc/compiler/namespace/JavaTypesNamespace.java
+END
+SimpleNamespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/trunk/jjsc/src/org/jjsc/compiler/namespace/SimpleNamespace.java
+END
+LocalNamespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/30/trunk/jjsc/src/org/jjsc/compiler/namespace/LocalNamespace.java
+END
+NamesGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/59/trunk/jjsc/src/org/jjsc/compiler/namespace/NamesGenerator.java
+END

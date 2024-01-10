@@ -1,0 +1,6 @@
+MIDlet-Name: MET
+MIDlet-Vendor: Ragupathi Palaniappan, ragupathipalaniappan.com
+MIDlet-Version: 1.2.1
+MIDlet-1: Expence Tracker, expense_tracker_icon_32 copy.png, org.met.j2me.MasterMidlet
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0

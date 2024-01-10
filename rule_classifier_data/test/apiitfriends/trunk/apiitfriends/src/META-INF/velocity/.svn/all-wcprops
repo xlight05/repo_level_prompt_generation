@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/6/trunk/apiitfriends/src/META-INF/velocity
+END
+new_user_text.vm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/trunk/apiitfriends/src/META-INF/velocity/new_user_text.vm
+END
+new_user_html.vm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/trunk/apiitfriends/src/META-INF/velocity/new_user_html.vm
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/112/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/exceptions
+END
+TemplateLoadingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/53/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/exceptions/TemplateLoadingException.java
+END
+ViewIdNotManagedBySeamletsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/112/trunk/seamlets/seamlets-core/src/main/java/org/seamlets/exceptions/ViewIdNotManagedBySeamletsException.java
+END

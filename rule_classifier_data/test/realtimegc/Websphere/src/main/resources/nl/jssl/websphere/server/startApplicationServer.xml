@@ -1,0 +1,8 @@
+<c:template xmlns:c="http://aluminumproject.googlecode.com/core">
+#--------------------------------------------------------------
+# start the server 
+#--------------------------------------------------------------
+print "starting server " + ${serverName} + "..."
+AdminControl.startServer(${serverName}, ${nodeName})
+print "done."
+</c:template>

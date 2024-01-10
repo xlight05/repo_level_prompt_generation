@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapeamento>
+    <Menu nome="Inicio" permissao="Administrador,Usuario" url="">
+        <SubMenu nome="Home" permissao="Administrador,Usuario" url="inicio"></SubMenu>
+        <SubMenu nome="Exemplos de Mensagens" permissao="Administrador,Usuario" url="Exemplos.mensagens"></SubMenu>
+        <SubMenu nome="Identidade Visual - Exemplos" permissao="Administrador" url="Exemplos.visual"></SubMenu>
+    </Menu>
+    <Menu nome="Templates" permissao="Administrador" url="">
+        <SubMenu nome="CRUD Simples" permissao="Administrador" url="Templates_CRUDCompleto.listar"></SubMenu>
+        <SubMenu nome="CRUD Em Linha" permissao="Administrador" url="Templates_CRUDInline.listar"></SubMenu>
+        <SubMenu nome="Tabela Dinamica" permissao="Administrador" url="Template_TabelaDinamica.formulario"></SubMenu>
+    </Menu>
+</Mapeamento>
+

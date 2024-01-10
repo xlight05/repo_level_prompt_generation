@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Math-Mech eShop</title>
+</head>
+<f:view>
+	<body>
+	<h:form>
+		<h:panelGrid columns="2">
+			<h:outputLabel value="login" />
+			<h:inputText value="#{admin.editUserPage.customer.login}" />
+
+			<h:outputLabel value="pass" />
+			<h:inputText value="#{admin.editUserPage.customer.password}" />
+			
+			<h:outputText value="group" />
+			<h:selectOneMenu value="#{admin.editUserPage.groupId}">
+				<c:forEach items="#{admin.editUserPage.groups}" var="group">
+					<f:selectItem itemLabel="#{group.name}" itemValue="#{group.id}" />
+				</c:forEach>
+			</h:selectOneMenu>
+			<f:selectItem />
+		</h:panelGrid>
+		<h:commandButton action="#{admin.editUserPage.save}" value="save" />
+	</h:form>
+	</body>
+</f:view>
+</html>

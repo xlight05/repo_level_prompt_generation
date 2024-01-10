@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/87/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema
+END
+FriendsGetResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/FriendsGetResponse.java
+END
+NotificationsSendEmailResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/NotificationsSendEmailResponse.java
+END
+InvitationsGetUserOsInviteCntResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/InvitationsGetUserOsInviteCntResponse.java
+END
+FriendsAreFriendsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/FriendsAreFriendsResponse.java
+END
+AdminGetAllocationResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/AdminGetAllocationResponse.java
+END
+RequestsSendRequestResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/RequestsSendRequestResponse.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/User.java
+END
+FriendInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/FriendInfo.java
+END
+FriendsGetFriendsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/FriendsGetFriendsResponse.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/package-info.java
+END
+FriendsGetAppFriendsResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/FriendsGetAppFriendsResponse.java
+END
+Pay4TestRegOrderResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/86/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/Pay4TestRegOrderResponse.java
+END
+HsInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/HsInfo.java
+END
+UsersGetLoggedInUserResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/UsersGetLoggedInUserResponse.java
+END
+HometownLocation.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/HometownLocation.java
+END
+UsersGetInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/UsersGetInfoResponse.java
+END
+HsHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/HsHistory.java
+END
+FriendsGetAppUsersResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/FriendsGetAppUsersResponse.java
+END
+UniversityInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/UniversityInfo.java
+END
+WorkInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/WorkInfo.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/87/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/ObjectFactory.java
+END
+SessionInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/SessionInfo.java
+END
+ConnectRegisterUsersResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/86/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/ConnectRegisterUsersResponse.java
+END
+ConnectUnregisterUsersResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/86/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/ConnectUnregisterUsersResponse.java
+END
+PayRegOrderResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/PayRegOrderResponse.java
+END
+UniversityHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/UniversityHistory.java
+END
+InvitationsGetOsInfoResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/InvitationsGetOsInfoResponse.java
+END
+WorkHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/WorkHistory.java
+END
+InvitationsGetIsInvitersResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/InvitationsGetIsInvitersResponse.java
+END
+Friend.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/85/trunk/xiaonei-api-java-client/java/client/com/xiaonei/api/schema/Friend.java
+END

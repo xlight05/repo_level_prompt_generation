@@ -1,0 +1,49 @@
+#summary Tutorials
+#labels Phase-Support
+
+= Introduction =
+
+These tutorials give you enough information to bootstrap your GlooDB development. All code samples referred in the articles are implemented as JUnit test cases. To run sample code specify the implementation to test with:
+ * use -Dtype=Memory for testing with in memory repository implementation
+ * use -Dtype=File for testing with file repository implementation
+
+All tutorial source code is in [http://code.google.com/p/gloodb/source/browse/#svn/trunk/GlooDB/GlooDBTutorial%3Fstate%3Dclosed SVN] under GlooDBTutorials project.
+
+== Writing Persistent Classes ==
+ * [WritingASimplePersistentClass Writing a simple persistent class] 
+ * [SpecifyingPersistentIdentity Specifying persistent object identity]
+ * [RuntimeObjectIdentity Accessing object identity at runtime]
+ * [OptimisticLockingUsingVersion Implementing optimistic locking using @Version]
+ * [CustomVersionManager Using a custom version manager]
+ * [TransactionLocking Update transaction object locking]
+ * [PersistencyCallbacks Using pre/post persistency callbacks]
+ * [PersistencyInterceptors Using persistency interceptors]
+ * [References Introduction to references]
+ * [ImplementingLazyLoading Implementing lazy loading]
+ * [ImplementingObjectEmbedding Implementing object embedding]
+ * [Associations Creating associations]
+ * [Indexes Creating indexes]
+ * [MaintainingRelationship Maintaining relationships and indexes]
+ * [Cloning Implementing object cloning for improved performance]
+
+== Non-Transactional CRUD Operations ==
+Non transactional CRUD operations are very fast and they don't incur any  transaction rollback overhead (e.g. undo logs, object locks, etc).  As a draw back, when using GlooDB in non-transactional mode, the programmer has to implement all the undo transaction logic around failed operations.
+ * [NonTransactionalRestore Restoring a persistent object without transactions (dirty read)]
+ * [NonTransactionalCreate Creating a new persistent object without transactions]
+ * [NonTransactionalUpdate Updating a persistent object without transactions]
+ * [NonTransactionalRemove Removing a persistent object without transactions]
+ * [NonTransactionalStore Storing (creating or updating) a persistent object without transactions]
+
+== Transactions and CRUD Operations ==
+Transactional CRUD operations maintain transaction rollback info, enabling rollback semantics.  Update objects are exclusively locked the updating transactions.
+ * [TransactionalRestore Restoring a persistent object using transactions]
+ * [TransactionalCreate Creating a new persistent object using transactions]
+ * [TransactionalUpdate Updating a persistent object using transactions]
+ * [TransactionalRemove Removing a persistent object using transactions]
+ * [TransactionalStore Storing (creating or updating) a persistent object using transactions]
+
+== Coding with GlooDB ==
+ * [Querying Querying the repository]
+ * [MVC MVC with GlooDB]
+ * [UsingTransactionContorllers Implementing controllers using TransactionController]
+ * [Configurations]

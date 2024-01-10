@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/441/trunk/seamlets/seamlets-resource/.settings
+END
+org.eclipse.wst.common.project.facet.core.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/441/trunk/seamlets/seamlets-resource/.settings/org.eclipse.wst.common.project.facet.core.xml
+END
+org.eclipse.jst.common.project.facet.core.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/441/trunk/seamlets/seamlets-resource/.settings/org.eclipse.jst.common.project.facet.core.prefs
+END
+org.maven.ide.eclipse.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/437/trunk/seamlets/seamlets-resource/.settings/org.maven.ide.eclipse.prefs
+END
+org.jboss.tools.seam.core.prefs
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/441/trunk/seamlets/seamlets-resource/.settings/org.jboss.tools.seam.core.prefs
+END
+org.eclipse.wst.common.component
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/437/trunk/seamlets/seamlets-resource/.settings/org.eclipse.wst.common.component
+END

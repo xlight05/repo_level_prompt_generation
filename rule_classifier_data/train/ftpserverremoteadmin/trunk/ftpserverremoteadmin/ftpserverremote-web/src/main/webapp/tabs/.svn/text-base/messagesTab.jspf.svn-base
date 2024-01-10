@@ -1,0 +1,71 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    xmlns:tx="http://myfaces.apache.org/tobago/extension"
+    id="messagesInc" >
+    
+    <tc:panel>
+        <f:facet name="layout">
+            <tc:gridLayout columns="*" rows="22px;*;22px" />
+        </f:facet>
+        
+        <tc:panel>
+            <f:facet name="layout">
+                <tc:gridLayout columns="*" rows="*" />
+            </f:facet>
+            <tx:selectOneChoice label="#{messages.server}" value="#{MessagesBean.server}" >
+                <f:facet name="change">
+                    <tc:command action="#{MessagesBean.serverSelectionChanged}" />
+                </f:facet>
+            <f:selectItems value="#{MessagesBean.servers}" />
+            </tx:selectOneChoice>
+        </tc:panel>
+       
+        
+        <tc:panel>
+            <f:facet name="layout">
+                <tc:gridLayout columns="170px;*" rows="*" />
+            </f:facet>
+            <tc:selectOneListbox value="#{MessagesBean.name}" >
+                <f:facet name="change">
+                    <tc:command action="#{MessagesBean.messageSelectionChanged}" />
+                </f:facet>
+                <f:selectItems value="#{MessagesBean.labels}" />
+            </tc:selectOneListbox>
+            <tc:textarea id="messageArea" value="#{MessagesBean.message}">
+                <f:facet name="change">
+                    <tc:command action="#{MessagesBean.textAreaChanged}" />
+                </f:facet>
+            </tc:textarea>     
+        </tc:panel>                    
+        
+        <tc:panel>
+            <f:facet name="layout">
+                <tc:gridLayout columns="*;70px;70px;70px;70px;*" rows="*" />
+            </f:facet>
+            <tc:out value="" /> 
+            <tc:button label="#{messages.add}" width="60px" action="#{MessagesBean.add}" disabled="#{MessagesBean.addDisabled}"/>
+            <tc:button label="#{messages.delete}" width="60px" action="#{MessagesBean.delete}" disabled="#{MessagesBean.deleteDisabled}"/>
+            <tc:button label="#{messages.save}" width="60px" action="#{MessagesBean.save}" />
+            <tc:button label="#{messages.reload}" width="60px" action="#{MessagesBean.reload}"/>
+        <tc:out value="" /> 
+    </tc:panel> 
+    
+                            <tc:attribute name="renderedPartially" value="errorPopup"/>
+                            <tc:popup width="250px" height="100px" id="errorPopup" rendered="#{MessagesBean.showErrorPopup}">
+                                <tc:box label="#{MessagesBean.errorHeader}">
+                                    <tc:panel>
+                                        <f:facet name="layout">
+                                            <tc:gridLayout columns="*" rows="*;22px" />
+                                        </f:facet>
+                                        <tc:out value="#{MessagesBean.errorMessage}" />
+                                        <tc:button action="#{MessagesBean.closeLoginErrorPopup}" label="#{messages.ok}" >
+                                            <tc:attribute name="popupClose" value="afterSubmit"/>
+                                        </tc:button>
+                                    </tc:panel>    
+                                </tc:box>
+                            </tc:popup>
+                            
+                            </tc:panel>
+</f:subview>

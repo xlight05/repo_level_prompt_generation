@@ -1,0 +1,83 @@
+10
+
+dir
+25
+http://project-pt-diaoc.googlecode.com/svn/trunk/DiaOC_WebServ
+http://project-pt-diaoc.googlecode.com/svn
+
+
+
+2014-01-05T21:05:22.511044Z
+25
+phanhoangduy@gmail.com
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+b71483c9-885f-2adc-f660-9fc02e9d0387
+
+nbproject
+dir
+
+src
+dir
+
+data
+dir
+
+ref
+dir
+
+web
+dir
+
+build.xml
+file
+
+
+
+
+2016-03-15T14:54:02.162135Z
+bae78999770c312e8f057a4da991e4e6
+2013-12-19T11:32:00.821840Z
+3
+phanhoangduy@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3507
+
+test
+dir
+
+dist
+dir
+

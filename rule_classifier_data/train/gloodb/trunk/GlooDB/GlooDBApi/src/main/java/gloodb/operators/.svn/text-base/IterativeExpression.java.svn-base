@@ -1,0 +1,37 @@
+/*
+ * Copyright (c) Dino Octavian.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Apache License, Version 2.0
+ * which accompanies this distribution, and is available at
+ * http://www.apache.org/licenses/LICENSE-2.0.txt
+ *
+ * Contributors:
+ *      Dino Octavian - initial API and implementation
+ */
+package gloodb.operators;
+
+import java.io.Serializable;
+
+/**
+ * Abstract base classes for expressions which can be used with iterators.
+ *
+ * @param <T> The type the expression iterates.
+ */
+public abstract class IterativeExpression<T extends Serializable> extends Expression {
+	private static final long serialVersionUID = 1L;
+
+	@SuppressWarnings("unchecked")
+	@Override
+	public void evaluate(Object...parameters) throws Exception {
+		for(Object o: parameters) {
+			evaluateIteratively((T)o);
+		}
+	}
+
+	/**
+	 * Override this method to implement iterator semantics.
+	 * @param value The iterated value.
+	 * @throws Exception If an exception occurs.
+	 */
+	public abstract void evaluateIteratively(T value) throws Exception;
+}

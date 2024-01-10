@@ -1,0 +1,66 @@
+package Permissions;
+
+import java.security.Principal;
+
+import org.jboss.seam.security.permission.PermissionCheck;
+import org.jboss.seam.security.Role;
+
+rule ManageUsers
+  no-loop
+  activation-group "permissions"
+when
+  check: PermissionCheck(name == "seam.user", granted == false)
+  Role(name == "admin")
+then
+  check.grant();
+end
+
+rule ManageRoles
+  no-loop
+  activation-group "permissions"
+when
+  check: PermissionCheck(name == "seam.role", granted == false)
+  Role(name == "admin")
+then
+  check.grant();
+end
+
+rule ManageApplication
+  no-loop
+  activation-group "permissions"
+when
+  check: PermissionCheck(name == "cms.application", granted == false)
+  Role(name == "admin")
+then
+  check.grant();
+end
+
+rule ManageDomain
+  no-loop
+  activation-group "permissions"
+when
+  check: PermissionCheck(name == "cms.domain", granted == false)
+  Role(name == "admin")
+then
+  check.grant();
+end
+
+rule ManageFolder
+  no-loop
+  activation-group "permissions"
+when
+  check: PermissionCheck(name == "cms.folder", granted == false)
+  Role(name == "admin")
+then
+  check.grant();
+end
+
+rule ManagePage
+  no-loop
+  activation-group "permissions"
+when
+  check: PermissionCheck(name == "cms.page", granted == false)
+  Role(name == "admin")
+then
+  check.grant();
+end

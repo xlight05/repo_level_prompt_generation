@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use
+END
+DirectByteBufferAllocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/DirectByteBufferAllocator.html
+END
+HeapByteBufferAllocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/HeapByteBufferAllocator.html
+END
+ExpandableBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/ExpandableBuffer.html
+END
+ByteBufferAllocator.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/ByteBufferAllocator.html
+END
+SharedInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/SharedInputBuffer.html
+END
+SharedOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/SharedOutputBuffer.html
+END
+SimpleInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/SimpleInputBuffer.html
+END
+SimpleOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/SimpleOutputBuffer.html
+END
+ContentInputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/ContentInputBuffer.html
+END
+ContentOutputBuffer.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/ContentOutputBuffer.html
+END
+BufferInfo.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/util/class-use/BufferInfo.html
+END

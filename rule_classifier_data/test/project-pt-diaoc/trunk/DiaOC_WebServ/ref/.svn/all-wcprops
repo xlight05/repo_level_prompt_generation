@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/8/trunk/DiaOC_WebServ/ref
+END
+javax.ws.rs-api-2.0-sources.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/ref/javax.ws.rs-api-2.0-sources.jar
+END
+sqljdbc4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/ref/sqljdbc4.jar
+END
+jsr311-api-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3/trunk/DiaOC_WebServ/ref/jsr311-api-1.1.1.jar
+END

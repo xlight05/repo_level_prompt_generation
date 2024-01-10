@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/src/br/com/dyad/client/widget
+END
+ChangePassWordDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ChangePassWordDialog.java
+END
+LoginDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/LoginDialog.java
+END
+CloseProcessListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/CloseProcessListener.java
+END
+ClientObjectSincronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ClientObjectSincronizer.java
+END
+ClientAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ClientAction.java
+END
+ClientProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ClientProcess.java
+END
+ClientInteraction.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ClientInteraction.java
+END
+ExceptionDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ExceptionDialog.java
+END
+ClientActionMenuItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/ClientActionMenuItem.java
+END

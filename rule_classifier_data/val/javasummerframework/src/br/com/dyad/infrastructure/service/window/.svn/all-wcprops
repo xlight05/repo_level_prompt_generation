@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window
+END
+RestoreWindowsAfterRefresh.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/RestoreWindowsAfterRefresh.java
+END
+OnCloseAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/OnCloseAction.java
+END
+InteractionBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/InteractionBack.java
+END
+InteractionGo.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/InteractionGo.java
+END
+GridSearchNextOccur.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridSearchNextOccur.java
+END
+GetWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GetWindow.java
+END
+GridDelete.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridDelete.java
+END
+GridLast.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridLast.java
+END
+GridInsert.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridInsert.java
+END
+GridSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridSearch.java
+END
+DestroyWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/DestroyWindow.java
+END
+NewWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/NewWindow.java
+END
+GridPrevious.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridPrevious.java
+END
+ActionClick.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/ActionClick.java
+END
+GridNext.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridNext.java
+END
+GridExpand.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridExpand.java
+END
+GridChangeView.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridChangeView.java
+END
+GridExport.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridExport.java
+END
+TableViewGridSelectRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/TableViewGridSelectRecord.java
+END
+GridLicense.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridLicense.java
+END
+GetFieldInformation.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GetFieldInformation.java
+END
+ExecuteServerMethod.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/ExecuteServerMethod.java
+END
+GridCancel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridCancel.java
+END
+GridPost.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridPost.java
+END
+SetFieldValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/SetFieldValue.java
+END
+GridFirst.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/service/window/GridFirst.java
+END

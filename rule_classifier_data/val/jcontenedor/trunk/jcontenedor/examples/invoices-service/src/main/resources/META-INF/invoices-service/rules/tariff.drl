@@ -1,0 +1,67 @@
+package test
+
+global org.jsemantic.core.context.SemanticContext ctx;
+
+import org.jsemantic.services.examples.energy.model.Tariff;
+
+import java.math.BigDecimal;
+import java.lang.String;
+
+rule "2.0.1 tariff"
+
+	when
+		tar:String()
+		eval (tar.equals("2.0.1"))
+	then
+	
+		String kwh = (String)ctx.getSessionVariable("kwh");
+		String ppower = (String)ctx.getSessionVariable("ppower");
+		String months = (String)ctx.getSessionVariable("months");
+		
+		Tariff tariff = new Tariff();
+		tariff.setKwh(new BigDecimal(kwh));
+		tariff.setPpower(new BigDecimal(ppower));
+		tariff.setPowerMode("1");
+		tariff.setPower(new BigDecimal(5.50));
+		tariff.setMonths(new Integer(months));
+		ctx.addResult("tariff", tariff);
+end
+
+rule "2.0.2 tariff"
+
+	when
+		tar:String()
+		eval (tar.equals("2.0.2"))
+	then
+		
+		String kwh = (String)ctx.getSessionVariable("kwh");
+		String ppower = (String)ctx.getSessionVariable("ppower");
+		String months = (String)ctx.getSessionVariable("months");
+		
+		Tariff tariff = new Tariff();
+		tariff.setKwh(new BigDecimal(kwh));
+		tariff.setPpower(new BigDecimal(ppower));				
+		tariff.setPowerMode("2");
+		tariff.setPower(new BigDecimal(10.2));
+		tariff.setMonths(new Integer(months));
+		ctx.addResult("tariff", tariff);
+end
+
+rule "2.0.3 tariff"
+
+	when
+		tar:String()
+		eval (tar.equals("2.0.3"))
+	then
+		String kwh = (String)ctx.getSessionVariable("kwh");
+		String ppower = (String)ctx.getSessionVariable("ppower");
+		String months = (String)ctx.getSessionVariable("months");
+		
+		Tariff tariff = new Tariff();
+		tariff.setKwh(new BigDecimal(kwh));
+		tariff.setPpower(new BigDecimal(ppower));		
+		tariff.setPowerMode("3");
+		tariff.setPower(new BigDecimal(20.20));
+		tariff.setMonths(new Integer(months));
+		ctx.addResult("tariff", tariff);
+end

@@ -1,0 +1,16 @@
+# for groups admin process
+window.administration.GroupsAdminEdit.title = Edit Group: #{groupsAdminEdit.name}
+page.administration.GroupsAdminEdit.title = Group Administration
+page.administration.GroupsAdminEdit.subtitle = Allows the administration of groups
+
+GroupsAdminEditProcess.form = Edit Group "#{groupsadminEdit.groupname}"
+GroupsAdminEditProcess.permissions-available = Available Permissions
+GroupsAdminEditProcess.permissions-assigned = Assigned Permissions
+GroupsAdminEditProcess.permissions-add = Add Permission
+GroupsAdminEditProcess.permissions-remove = Remove Permission
+GroupsAdminEditProcess.permissions-remove-error = Unable to remove Permission
+GroupsAdminEditProcess.nopermissionfound-error = No Permission found!
+
+GroupsAdminEditProcess.save-success = Group was saved!
+GroupsAdminEditProcess.save-error = Group was not saved!
+GroupsAdminEditProcess.nogroupfound-error =Group not found\!

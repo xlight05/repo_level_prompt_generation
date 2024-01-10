@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex
+END
+ClientSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/ClientSession.java
+END
+PasswordAuthentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/PasswordAuthentication.java
+END
+SessionNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/SessionNotifier.java
+END
+HeaderSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/HeaderSet.java
+END
+Authenticator.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/Authenticator.java
+END
+ResponseCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/ResponseCodes.java
+END
+ServerRequestHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/ServerRequestHandler.java
+END
+Operation.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/obex/Operation.java
+END

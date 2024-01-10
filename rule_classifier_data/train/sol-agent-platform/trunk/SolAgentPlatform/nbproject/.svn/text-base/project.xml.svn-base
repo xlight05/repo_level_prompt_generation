@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <name>SolAgentPlatform</name>
+        </general-data>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/2">
+            <!--Do not use Project Properties customizer when editing this file manually.-->
+            <name>SolAgentPlatform</name>
+            <properties>
+                <property-file>${user.home}/.sunspot.properties</property-file>
+                <property-file>build.properties</property-file>
+                <property-file>${sunspot.home}/default.properties</property-file>
+                <property-file>${netbeans.user}/build.properties</property-file>
+            </properties>
+            <folders>
+                <source-folder>
+                    <label>SolAgentPlatform</label>
+                    <location>.</location>
+                    <encoding>windows-1252</encoding>
+                </source-folder>
+                <source-folder>
+                    <label>src</label>
+                    <type>java</type>
+                    <location>src</location>
+                    <encoding>windows-1252</encoding>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="build">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>host-compile</target>
+                </action>
+                <action name="run">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>host-run</target>
+                </action>
+                <action name="clean">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>clean</target>
+                </action>
+                <action name="rebuild">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>clean</target>
+                    <target>host-compile</target>
+                </action>
+                <action name="debug">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>debug-nb</target>
+                </action>
+                <action name="debug.fix">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>debug-fix</target>
+                    <context>
+                        <property>fix.file</property>
+                        <folder>${src.dir}</folder>
+                        <pattern>\.java$</pattern>
+                        <format>relative-path-noext</format>
+                        <arity>
+                            <one-file-only/>
+                        </arity>
+                    </context>
+                </action>
+                <action name="run.single">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>run-selected-file-in-src</target>
+                    <context>
+                        <property>run.class</property>
+                        <folder>src</folder>
+                        <pattern>\.java$</pattern>
+                        <format>java-name</format>
+                        <arity>
+                            <one-file-only/>
+                        </arity>
+                    </context>
+                </action>
+                <action name="compile.single">
+                    <script>nbproject/ide-file-targets.xml</script>
+                    <target>compile-selected-files-in-src</target>
+                    <context>
+                        <property>files</property>
+                        <folder>src</folder>
+                        <pattern>\.java$</pattern>
+                        <format>relative-path</format>
+                        <arity>
+                            <separated-files>,</separated-files>
+                        </arity>
+                    </context>
+                </action>
+            </ide-actions>
+            <export>
+                <type>folder</type>
+                <location>build</location>
+                <script>nbproject/nbjdk.xml</script>
+                <build-target>host-compile</build-target>
+            </export>
+            <view>
+                <items>
+                    <source-folder style="packages">
+                        <label>src</label>
+                        <location>src</location>
+                    </source-folder>
+                    <source-file>
+                        <location>build.xml</location>
+                    </source-file>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                    <ide-action name="run"/>
+                    <ide-action name="clean"/>
+                    <ide-action name="rebuild"/>
+                    <ide-action name="debug"/>
+                </context-menu>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/3">
+            <compilation-unit>
+                <package-root>src</package-root>
+                <classpath mode="compile">Program FilesNetBeans 7.0platformmodulesextswing-layout-1.0.4.jar;Program FilesNetBeans 7.0javamodulesextAbsoluteLayout.jar;libs/RXTXcomm.jar;libs/ipv6lib_common.jar;libs/multihop_common.jar;libs/signing_host.jar;libs/spotclient_host.jar;libs/spotlib_common.jar;libs/spotlib_host.jar;libs/squawk_common.jar;libs/mail.jar;libs/dsn.jar;libs/imap.jar;libs/mailapi.jar;libs/pop3.jar;libs/smtp.jar;libs/activation.jar</classpath>
+                <built-to>build</built-to>
+                <source-level>1.7</source-level>
+            </compilation-unit>
+        </java-data>
+    </configuration>
+</project>

@@ -1,0 +1,25 @@
+<module>
+      <!-- Inherit the core Web Toolkit stuff.                        -->
+      <inherits name='com.google.gwt.user.User'/>  
+	  
+	  <!-- Inherit the Chrome theme -->
+	  <inherits name='com.google.gwt.user.theme.chrome.Chrome'/>	 
+	      
+      <!-- déclaration du module GwtExt 							  -->
+      <inherits name="com.gwtext.GwtExt"/>
+     
+      <!-- Facultatif : module GwtExt-UX					   		  -->
+      <inherits name="com.gwtextux.GwtExtUx"/>
+      
+      <!-- Facultatif : module GwtExt-UX ToastWindow 				  -->
+      <inherits name="com.gwtextux.ToastWindow"/>
+
+	  <!-- Module pour les DTO -->
+	  <inherits name="fr.epsi.epsi5.EntitiesDTO"/>
+
+      <!-- Specify the app entry point class.                         -->
+      <entry-point class='fr.epsi.epsi5.client.Web'/>   
+      
+      <!-- Compilation uniquement pour Firefox (Utilisé avant la mise en production) -->
+      <!-- <set-property name="user.agent" value="gecko"/> -->    
+</module>

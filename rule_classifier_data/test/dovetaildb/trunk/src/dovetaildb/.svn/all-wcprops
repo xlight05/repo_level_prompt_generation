@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/41/trunk/src/dovetaildb
+END
+ScriptDrivenTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/37/trunk/src/dovetaildb/ScriptDrivenTest.java
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/40/trunk/src/dovetaildb/Action.java
+END
+VintPerfTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/38/trunk/src/dovetaildb/VintPerfTest.java
+END
+UploadCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/40/trunk/src/dovetaildb/UploadCode.java
+END
+script_driven_test.py
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/38/trunk/src/dovetaildb/script_driven_test.py
+END
+StdLib.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/40/trunk/src/dovetaildb/StdLib.java
+END
+StdLibTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/40/trunk/src/dovetaildb/StdLibTest.java
+END
+Main.java
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/40/trunk/src/dovetaildb/Main.java
+END
+MainTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/37/trunk/src/dovetaildb/MainTest.java
+END

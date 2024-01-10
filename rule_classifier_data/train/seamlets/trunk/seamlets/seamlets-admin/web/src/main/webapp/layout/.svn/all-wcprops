@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout
+END
+menu.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/menu.xhtml
+END
+edit.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/edit.xhtml
+END
+display.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/display.xhtml
+END
+sort.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/sort.xhtml
+END
+header.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/header.xhtml
+END
+north.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/413/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/north.xhtml
+END
+globaleMessages.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/layout/globaleMessages.xhtml
+END

@@ -1,0 +1,24 @@
+Category ve subcategory tabloları için:
+
+
+CREATE TABLE category (categoryId SMALLINT UNSIGNED NOT NULL, categoryName VARCHAR(40), PRIMARY KEY(categoryId));
+
+CREATE TABLE subcategory (subcategoryId SMALLINT UNSIGNED NOT NULL, subcategoryName VARCHAR(40), PRIMARY KEY(subcategoryId));
+
+CREATE TABLE category_subcategory (categoryId SMALLINT UNSIGNED NOT NULL, subcategoryId SMALLINT UNSIGNED NOT NULL, PRIMARY KEY(categoryId, subcategoryId) );
+
+ALTER TABLE offer
+ADD categoryId SMALLINT;
+
+ALTER TABLE offer
+ADD subcategoryId SMALLINT;
+
+ALTER TABLE request
+ADD categoryId SMALLINT;
+
+ALTER TABLE request
+ADD subcategoryId SMALLINT;
+
+
+
+

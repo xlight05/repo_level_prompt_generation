@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/__package__.js
+END
+JsonService.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/JsonService.js
+END
+JotService.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/JotService.js
+END
+YahooService.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/YahooService.js
+END
+Deferred.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/Deferred.js
+END
+RpcService.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/RpcService.js
+END
+yahoo.smd
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/rpc/yahoo.smd
+END

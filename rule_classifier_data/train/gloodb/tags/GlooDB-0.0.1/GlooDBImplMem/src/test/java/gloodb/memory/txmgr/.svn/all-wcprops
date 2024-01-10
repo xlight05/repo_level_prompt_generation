@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/memory/txmgr
+END
+MemoryTxLogTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/memory/txmgr/MemoryTxLogTest.java
+END
+MemoryTxManagerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/memory/txmgr/MemoryTxManagerTest.java
+END

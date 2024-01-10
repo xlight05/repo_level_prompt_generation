@@ -1,0 +1,67 @@
+Spike Plan
+Name: JFreeChart Usability   
+
+CVS Module/Location: 
+
+Overview 
+The metric tool to be developed requires output of various charts. JFreeChart has been recommended as the library to use for this purpose and needs assessment and basic understanding of capability.
+
+Background/Context: 
+The spike is required so the team has an understanding of JFreeChart's capabilities and basic knowledge of how to implement the library into the metric tool.
+
+Goals/Risks: 
+
+1.Establish JFreeChart is available for use on project
+2.Obtain basic understanding of JFreeChart library
+3.Implement library in manner representative of required use (ie demonstrate that required charts can be created)
+
+The primary risk that is driving this spike is that none of the team members have used JFreeChart before and hence knowledge of the library and its implementation is low.
+
+Deliverables: 
+1.JFreeChart library plus available documentation
+2.Demonstration code of library implementation
+3.Presentation of demonstration code and explanation of code to team
+
+Resources: Ian Fieldhouse
+
+Planned start date: 23 August, 2006	
+Deadline: 30 August, 2006
+
+
+
+
+
+
+
+
+Analysis/Planning/Design notes (done by the developer): 
+
+JFreeChart Website – www.jfree.org/jfreechart/
+This site provides binary and source code for downloading, demonstrations and the API documentation. There is also a Developer Guide available for $US40 but this was not purchased.
+The API is not easily downloadable but instructions for build include creation of the API.
+The download comes with a binary of a demonstration program. Source code is available with the Developer Guide.
+
+There are several other websites which offer tutorials. These are all essentially the same information, the best of which was available in PDF and a copy has been obtained.
+
+1Spike Outcomes Template
+
+Spike outcomes 
+
+Goal/Risk 
+
+JFreeChart was obtained and was found to simple to use. A simple application was developed that output charts to the screen and file format. It is appropriate to use for this project.
+
+Tasks undertaken: 
+Obtained JFreeChart downloadable files
+Web search for information / tutorials on JFreeChart
+
+
+What we found out:
+JFreeChart has a wide range of chart types and options that can be applied and is more than suitable for the required use. An example of the simple application is shown below.
+
+
+Open issues/risks:
+It would be useful to compile the API documentation which requires the use of Ant (which this user is not familiar with).
+
+Recommendations [Optional]:
+JFreeChart is available and simple to use and it is recommended that the project proceed with its use.

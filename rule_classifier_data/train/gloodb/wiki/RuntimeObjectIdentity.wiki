@@ -1,0 +1,32 @@
+#summary Accessing object identity at runtime.
+
+= Accessing Object Identity at Runtime =
+The !PersistencyAttributes utility enables runtime persistency attributes reflection.
+
+ * getId method calculates an identity object from the fields provided. When multiple fields are specified the method returns an !AggregateIdentity instance.
+{{{
+      Serializable id = PersistencyAttributes.getId("name", 1);
+}}}
+ * getIdForObject method extracts the identity from persistent object.
+{{{
+     Serializable id = PersistencyAttributes.getIdForObject(persistentObject);
+}}}
+ * getIdFromVariant method returns the id associated with the provided parameter. The method can be invoked using either one of:
+  ** a persistent object
+  ** a lazy reference to a persistent object
+  ** an id.
+
+{{{
+    Serializable id = someValue; 
+    PersistentObject persistentObject = (PersistentObject)repository.restore(id);
+    Lazy<PersistentObject> presistentObjectReference = new Lazy<PersistentObject>(id);
+
+    assertEquals(id, PersistencyAttributes.getIdFromVariant(PersistentObject.class, id));
+    assertEquals(id, PersistencyAttributes.getIdFromVariant(PersistentObject.class, persistentObjectReference));
+    assertEquals(id, PersistencyAttributes.getIdFromVarian(PersistentObject.class, persistentObject));
+}}}
+----
+[SpecifyingPersistentIdentity Previous] [OptimisticLockingUsingVersion Next]
+
+Related test cases:
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistencyAttributesTest.java PersistencyAttributesTest]

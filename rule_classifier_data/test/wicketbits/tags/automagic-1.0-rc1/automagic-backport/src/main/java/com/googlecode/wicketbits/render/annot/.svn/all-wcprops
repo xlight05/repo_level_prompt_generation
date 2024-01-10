@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot
+END
+Package.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot/Package.html
+END
+Required.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot/Required.java
+END
+Negative.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot/Negative.java
+END
+Positive.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot/Positive.java
+END
+NotNegative.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot/NotNegative.java
+END
+AnnotationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/141/tags/automagic-1.0-rc1/automagic-backport/src/main/java/com/googlecode/wicketbits/render/annot/AnnotationHandler.java
+END

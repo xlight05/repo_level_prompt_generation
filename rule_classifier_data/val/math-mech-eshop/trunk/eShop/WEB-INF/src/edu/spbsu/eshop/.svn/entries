@@ -1,0 +1,83 @@
+10
+
+dir
+60
+http://math-mech-eshop.googlecode.com/svn/trunk/eShop/WEB-INF/src/edu/spbsu/eshop
+http://math-mech-eshop.googlecode.com/svn
+
+
+
+2009-08-13T11:17:37.598443Z
+59
+v.a.vasilyev89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2002dd86-290c-11de-a435-ffa8d773f76a
+
+hibernate
+dir
+
+dao
+dir
+
+storage
+dir
+
+beans
+dir
+
+admin
+dir
+
+EShopContextListener.java
+file
+
+
+
+
+2016-03-21T16:26:33.865159Z
+0b968e27a44961cbe8d5d1ef413b6737
+2009-07-14T09:55:55.466926Z
+55
+v.a.vasilyev89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+708
+
+business
+dir
+
+exception
+dir
+

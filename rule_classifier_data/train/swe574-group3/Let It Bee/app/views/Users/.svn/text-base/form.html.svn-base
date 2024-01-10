@@ -1,0 +1,159 @@
+#{extends 'main.html' /}
+#{set title:'Register' /}
+
+<div id="content" class="about-me">
+#{if user.id}
+<h3>Edit Profile</h3>
+#{/if}
+#{else}
+<h3>Register</h3>
+#{/else}
+  <form action="@{Users.save()}" method="POST" enctype="multipart/form-data" style="width:630px;">
+<input type="hidden" name="user.id" value="${user.id}" />
+
+    <input type="hidden"  name="user.address" id="user.address" value="${user.address}" />
+  	<input type="hidden"  name="user.longtitude" id="user.longtitude" value="${user.longtitude}" />
+    <input type="hidden"  name="user.langtitude" id="user.langtitude" value="${user.langtitude}" />
+
+
+  <ul class="long_login">
+    <li>
+      <label>Full Name</label>
+      <input type="text" name="user.fullname" value="${user.fullname}" />
+      <span class="error">#{error 'user.fullname' /}</span>
+    </li>
+    <li>
+      <label>Email</label>
+      <input type="text" name="user.email" value="${user.email}" />
+      <span class="error">#{error 'user.email' /}</span>
+    </li>
+    <li>
+      <label>Password</label>
+      <input type="password" name="user.password" value="${user.password}" />
+      <span class="error">#{error 'user.password' /}</span>
+    </li>
+    <li>
+      <label>Address</label>
+      <span id="mapCanvas"></span>
+    </li>
+ 
+    
+    <li>
+     
+      	    <b>Current position:</b>
+            <div id="info"></div>
+            <b>Closest matching address:</b>
+            <div id="address"></div>
+            
+             <div id="district"></div>
+             
+    </li>
+   
+    <li>
+      <label>Photo</label>
+      <input type="file" name="user.photo" />
+    </li>
+  <input type="submit" class="login_button" name="submit" value="Submit" />
+  
+
+  
+  
+  </ul>
+  
+
+  </form>
+</div>
+
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+ <script type="text/javascript">
+            var geocoder = new google.maps.Geocoder();
+
+            function geocodePosition(pos) {
+                geocoder.geocode({
+                    latLng: pos
+                }, function(responses) {
+                    if (responses && responses.length > 0) {
+                        updateMarkerAddress(responses[0].formatted_address);
+    
+                    } else {
+                        updateMarkerAddress('Cannot determine address at this location.');
+                    }
+                });
+            }
+
+           
+
+            function updateMarkerPosition(latLng) {
+                document.getElementById('info').innerHTML = [
+                    latLng.lat(),
+                    latLng.lng()
+            
+                ].join(', ');
+                document.getElementById('user.longtitude').value= latLng.lat();
+                document.getElementById('user.langtitude').value= latLng.lng(); 
+           
+            }
+
+            function updateMarkerAddress(str) {
+                document.getElementById('address').innerHTML = str;
+
+                var address =  str;
+
+                document.getElementById('user.address').value= address;
+
+        
+               
+            }
+            
+        
+
+            function initialize() {
+                var latLng = new google.maps.LatLng(41.00527,28.97696);
+                var map = new google.maps.Map(document.getElementById('mapCanvas'), {
+                    zoom: 8,
+                    center: latLng,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                });
+                var marker = new google.maps.Marker({
+                    position: latLng,
+                    title: 'Point A',
+                    map: map,
+                    draggable: true
+                });
+
+                // Update current position info.
+                updateMarkerPosition(latLng);
+                geocodePosition(latLng);
+
+             google.maps.event.addListener(marker, 'drag', function() {
+                   updateMarkerPosition(marker.getPosition());
+                });
+
+                google.maps.event.addListener(marker, 'dragend', function() {
+                   
+                    geocodePosition(marker.getPosition());
+               
+                });
+            }
+
+            // Onload handler to fire off the app.
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <style type="text/css">
+            #mapCanvas {
+                width: 600px;
+                height: 200px;
+                float: right;
+            }
+            #infoPanel {
+                float: left;
+                margin-left: 10px;
+            }
+            #infoPanel div {
+                margin-bottom: 5px;
+            }
+        </style>
+        
+        
+    

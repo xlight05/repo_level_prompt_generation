@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/package.html
+END
+InTransactionStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/InTransactionStorage.java
+END
+InTransactionAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/InTransactionAddress.java
+END
+InTransactionStorageProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/InTransactionStorageProxy.java
+END
+InTransactionStorageStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/InTransactionStorageStrategy.java
+END
+InTransactionStorageConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/InTransactionStorageConfiguration.java
+END
+InTransactionStorageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplFile/src/main/java/gloodb/file/storage/intransaction/InTransactionStorageFactory.java
+END

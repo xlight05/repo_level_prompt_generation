@@ -1,0 +1,26 @@
+body,div,span,td,th,caption {
+	font-family: 'Trebuchet MS', Verdana, Arial, Sans-Serif;
+	font-size: small;
+}
+
+table {
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	width: 100%;
+	text-align: left;
+}
+
+td {
+	border: 1px solid #CCC;
+}
+
+thead tr th {
+	padding: 2px;
+	color: #030;
+	background-color: #F9F9F9;
+}
+
+tbody tr td {
+	padding: 10px 6px;
+}

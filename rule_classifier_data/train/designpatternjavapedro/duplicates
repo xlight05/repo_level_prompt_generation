@@ -1,0 +1,6 @@
+rule_classifier_data/train/designpatternjavapedro/trunk/ejb3-weblogic/pedro-web/src/main/java/br/com/pedro/web/UserServlet.java
+rule_classifier_data/train/designpatternjavapedro/trunk/ejb3-jboss5/jboss-jee-parent/pedro-web/src/main/java/br/com/pedro/web/UserServlet.java
+rule_classifier_data/train/designpatternjavapedro/trunk/ejb3-weblogic/pedro-ejb/src/main/java/br/com/pedro/dao/UserDao.java
+rule_classifier_data/train/designpatternjavapedro/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ejb/src/main/java/br/com/pedro/dao/UserDao.java
+rule_classifier_data/train/designpatternjavapedro/trunk/ejb3-weblogic/pedro-ejb/src/main/java/br/com/pedro/dao/UserDaoImpl.java
+rule_classifier_data/train/designpatternjavapedro/trunk/ejb3-jboss5/jboss-jee-parent/pedro-ejb/src/main/java/br/com/pedro/dao/UserDaoImpl.java

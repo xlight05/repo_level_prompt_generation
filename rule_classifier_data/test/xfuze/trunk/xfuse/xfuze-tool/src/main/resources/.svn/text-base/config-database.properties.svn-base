@@ -1,0 +1,21 @@
+# Database - MS SQL (SQL Server 2000 JDBC Driver (SP3))
+##################################################
+database.mssql.2000.sp3.driver = com.microsoft.jdbc.sqlserver.SQLServerDriver
+database.mssql.2000.sp3.url = jdbc:microsoft:sqlserver://localhost:1433;selectMethod=cursor;databaseName=DATABASE
+database.mssql.2000.sp3.username = sa
+database.mssql.2000.sp3.password = password
+
+# Database - MS SQL (SQL Server 2005 JDBC Driver 1.2)
+##################################################
+database.mssql.2005.12.driver = com.microsoft.sqlserver.jdbc.SQLServerDriver
+database.mssql.2005.12.url = jdbc:sqlserver://localhost:1433;selectMethod=cursor;databaseName=DATABASE
+database.mssql.2005.12.username = sa
+database.mssql.2005.12.password = password
+
+# Database - MySQL
+##################################################
+database.mysql.driver = com.mysql.jdbc.Driver
+database.mysql.url = jdbc:mysql://elara:3306/KALICO?useUnicode=true&amp;characterEncoding=UTF-8
+database.mysql.username = root
+database.mysql.password = password
+

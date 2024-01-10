@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field
+END
+ClientMemoField.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientMemoField.java
+END
+ClientIntegerField.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientIntegerField.java
+END
+ClientFieldSynchronizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientFieldSynchronizer.java
+END
+ClientTimeField.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientTimeField.java
+END
+ClientComboField.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientComboField.java
+END
+FieldTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/FieldTypes.java
+END
+ClientStringField.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientStringField.java
+END
+ClientLookupField.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientLookupField.java
+END
+ClientHtmlEditorField.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientHtmlEditorField.java
+END
+ClientMasterDetailField.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientMasterDetailField.java
+END
+ClientField.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientField.java
+END
+ClientBooleanField.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientBooleanField.java
+END
+ClientUploadField.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientUploadField.java
+END
+ClientSimpleDateField.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientSimpleDateField.java
+END
+ClientNumberField.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientNumberField.java
+END
+ClientLabelGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/5/src/br/com/dyad/client/widget/field/ClientLabelGroup.java
+END

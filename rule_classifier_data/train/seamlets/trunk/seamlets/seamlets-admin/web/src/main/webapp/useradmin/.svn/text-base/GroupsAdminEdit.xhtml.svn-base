@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich" xmlns:s="http://jboss.com/products/seam/taglib"
+	template="/layout/template.xhtml">
+
+	<!-- page parameter -->
+	<ui:param name="showHotLinks" value="false" />
+	<ui:param name="showInfoLinks" value="false" />
+	<ui:param name="showTitle" value="true" />
+	<ui:param name="showSubtitle" value="true" />
+	<ui:param name="showNavigationView" value="false" />
+	<ui:param name="showLogout" value="false" />
+	<ui:param name="showSystemMessages" value="false" />
+	<ui:param name="showIdle" value="false" />
+	
+	<ui:define name="body">
+		<h:form id="input">
+			<table border="0" cellspacing="0" cellpadding="0" class="form">
+				<tr>
+					<td class="form-head" style="text-align: left;">
+						#{messages['GroupsAdminEditProcess.form']}
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left;">
+						<rich:messages for="groupAdminEditMessages"
+							errorClass="errortext"
+							errorMarkerClass="errortext"
+							errorLabelClass="errortext">
+							<f:facet name="infoMarker">
+								<h:graphicImage value="/images/common/decoration/info.gif" />
+							</f:facet>
+							<f:facet name="warnMarker">
+								<h:graphicImage value="/images/common/decoration/warn.gif" />
+							</f:facet>
+							<f:facet name="errorMarker">
+								<h:graphicImage value="/images/common/decoration/error.gif" />
+							</f:facet>
+							<f:facet name="fatalMarker">
+								<h:graphicImage value="/images/common/decoration/fatal.gif" />
+							</f:facet>
+						</rich:messages>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-input" style="text-align: left;">
+						<rich:listShuttle id="groupAdminEditMessages"
+							sourceListWidth="200" sourceListHeight="#{groupsAdminEdit.height}"
+							targetListWidth="200" targetListHeight="#{groupsAdminEdit.height}"
+							required="false"
+							showButtonLabels="false"
+							fastMoveControlsVisible="false"
+							orderControlsVisible="false"
+							style="height: 100%;"
+							fastOrderControlsVisible="false"
+							sourceCaptionLabel="#{messages['GroupsAdminEditProcess.permissions-available']}"
+				            targetCaptionLabel="#{messages['GroupsAdminEditProcess.permissions-assigned']}"
+							sourceValue="#{groupsAdminEdit.availablePermissions}"
+				            targetValue="#{groupsAdminEdit.assignedPermissions}"
+				            var="items"
+				            converter="#{groupsAdminEdit.converter}">
+				            <f:facet name="copyControlDisabled">
+				            	<h:graphicImage value="/images/common/button/add.gif"
+									width="22" 
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-add']}"
+									title="#{messages['UsersAdminEditProcess.groups-add']}" 
+									class="selector"
+									border="0"
+									align="center" />
+				            </f:facet>
+				            <f:facet name="copyControl">
+				            	<h:graphicImage value="/images/common/button/add.gif"
+									width="22" 
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-add']}"
+									title="#{messages['UsersAdminEditProcess.groups-add']}" 
+									class="selector"
+									border="0"
+									align="center" />
+				            </f:facet>
+				            <f:facet name="removeControlDisabled">
+				            	<h:graphicImage value="/images/common/button/remove.gif"
+									width="22"
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-remove']}"
+									title="#{messages['UsersAdminEditProcess.groups-remove']}"
+									class="selector"
+									border="0"
+									align="left" />
+				            </f:facet>
+				            <f:facet name="removeControl">
+				            	<h:graphicImage value="/images/common/button/remove.gif"
+									width="22"
+									height="22"
+									alt="#{messages['UsersAdminEditProcess.groups-remove']}"
+									title="#{messages['UsersAdminEditProcess.groups-remove']}"
+									class="selector"
+									border="0"
+									align="left" />
+				            </f:facet>
+				            <rich:column styleClass="normal">
+				                #{items.identifier}
+				            </rich:column>
+				            <a4j:support event="onlistchanged" action="#{groupsAdminEdit.sort}" 
+				            	status="commonstatus"
+				            	eventsQueue="groupEditQueue"
+				            	reRender="groupAdminEditMessages"/>
+				        </rich:listShuttle>
+					</td>
+				</tr>
+
+				<tr>
+					<td class="form-foot" align="right">
+						<a4j:commandButton id="saveButton"
+							action="#{groupsAdminEdit.save}"
+							value="#{messages['button.save']}"
+							status="commonstatus"
+							eventsQueue="groupEditQueue"
+							type="submit"
+							styleClass="button" />
+					</td>
+				</tr>
+			</table>
+		</h:form>
+		<rich:spacer height="20"/>
+	</ui:define>
+</ui:composition>

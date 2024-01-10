@@ -1,0 +1,176 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+h3 {
+	margin: 0px;
+}
+
+#header {
+	clear: left;
+	width: 100%;
+	background-color: #6699FF;
+}
+
+#menu {
+	clear: left;
+	float: left;
+	width: 20%;
+	background-color: #6699FF;
+	overflow: hidden;
+}
+
+#content {
+	float: left;
+	width: 80%;
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+	padding-bottom: 2.5em;
+	min-height: 100%;
+}
+
+#footer {
+	clear: left;
+	left: 0;
+	height: 2.5em;
+	width: 100%;
+	bottom: 0;
+	background-color: #6699FF;
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+	
+
+#logo {
+	width: 400px;
+	float: left;
+	height: 125px;
+	background-color: #6699FF;
+	overflow: hidden;
+}
+
+#search_panel {
+	padding-top: 50px;
+	height: 75px;
+	background-color: #6699FF;
+	overflow: hidden;
+}
+
+.menu_1level_item {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu_2level_item {
+	text-decoration: none;
+}
+
+.product_in_list {
+	position: relative;
+	width: 400px;
+	border: solid black;
+	margin: 10px;
+	background-color: #FF9900;
+}
+
+.product_name {
+	text-align: center;
+	position: relative;
+	background-color: #efefef;
+	border-bottom: solid 1px #d0d0d0;
+	bottom: 0px;
+	vertical-align: bottom;
+}
+
+.product_photo {
+	float: left;
+	padding: 0px 10px 0px 10px;
+}
+
+.product_price {
+	padding: 5px;
+	clear: left;
+	text-align: right;
+	font: bold;
+}
+
+.product_edit_panel {
+	z-index: 1;
+	padding: 0px 5px;
+	position: absolute;
+	right: 0;
+	text-align: right;
+	border-left: 1px solid;
+}
+
+#user_panel {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding: 0px 2px;
+	border: solid black 1px;
+	background-color: #00FF00;
+}
+
+.comment_sender {
+	background-color: #f2f2f2;
+}
+
+.comment_text {
+	padding-left: 40px;
+}
+
+.product_comment {
+	position: relative;
+	background-color: #fbfbfb;
+	margin: 10px 0px;
+	border: solid #e0e0e0 1px;
+}
+
+.delete_comment_link {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.product_page_comments_list {
+	
+}
+
+.order_state {
+	background-color: #CCFFCC;
+}
+
+.order_product_list {
+	background-color: #CCFFCC;
+	padding-left: 20px;
+	text-align: right;
+}
+
+.oddRow {
+	background-color: orange;
+}
+
+.evenRow {
+	background-color: white;
+}
+
+.productsTable {
+	margin-top: 10px;
+	border: solid #6699FF 2px;
+}
+
+.product_amount {
+	background: url(images/icoWarning.gif) 5px 50% no-repeat;
+	border: 1px solid #E20074;
+	width: 100%;
+	font-weight: bold;
+	color: #E20074;
+	padding: 5px 5px 5px 35px;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	clear: both;
+}

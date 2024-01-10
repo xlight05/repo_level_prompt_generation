@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/21/trunk/src/org/met/j2me
+END
+SettingsCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/21/trunk/src/org/met/j2me/SettingsCanvas.java
+END
+GenericMenuCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/20/trunk/src/org/met/j2me/GenericMenuCanvas.java
+END
+ExpenseSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/trunk/src/org/met/j2me/ExpenseSplitter.java
+END
+HelpCustomItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/trunk/src/org/met/j2me/HelpCustomItem.java
+END
+RGBPresenter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20/trunk/src/org/met/j2me/RGBPresenter.java
+END
+SimpleCustomItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/20/trunk/src/org/met/j2me/SimpleCustomItem.java
+END
+ExpenseCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/16/trunk/src/org/met/j2me/ExpenseCanvas.java
+END
+DateSplitter.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/trunk/src/org/met/j2me/DateSplitter.java
+END
+SettingsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/16/trunk/src/org/met/j2me/SettingsFilter.java
+END
+ReportsCustomItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/20/trunk/src/org/met/j2me/ReportsCustomItem.java
+END
+ExpenseItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/5/trunk/src/org/met/j2me/ExpenseItem.java
+END
+WelcomeCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/1/trunk/src/org/met/j2me/WelcomeCanvas.java
+END
+MasterMidlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/20/trunk/src/org/met/j2me/MasterMidlet.java
+END
+ReportsCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/trunk/src/org/met/j2me/ReportsCanvas.java
+END
+SplashScreen.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/11/trunk/src/org/met/j2me/SplashScreen.java
+END

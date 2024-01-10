@@ -1,0 +1,29 @@
+== Versions ==
+
+||1.0-beta||Stable Release||
+||1.0-SNAPSHOT||Current Development||
+
+== Maven Repository ==
+
+Wicket Bits repository provided from googlecode.com:
+
+                http://wicketbits.googlecode.com/svn/maven
+
+== Maven pom file example==
+{{{
+	<dependency>
+		<groupId>com.googlecode.wicketbits</groupId>
+		<artifactId>automagic-core</artifactId>
+		<version>1.0-beta</version>
+	</dependency>
+}}}
+{{{
+	<repositories>	
+		<repository>
+			<id>wicketbits-repo</id>
+			<name>Wicket Bits Repository</name>
+			<url>http://wicketbits.googlecode.com/svn/maven</url>
+			<layout>default</layout>
+		</repository>
+	</repositories>
+}}}

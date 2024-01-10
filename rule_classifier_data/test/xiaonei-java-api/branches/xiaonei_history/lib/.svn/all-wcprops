@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/90/branches/xiaonei_history/lib
+END
+jaxb-api-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/90/branches/xiaonei_history/lib/jaxb-api-2.1.jar
+END
+servlet-api-2.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/90/branches/xiaonei_history/lib/servlet-api-2.4.jar
+END
+jsr173-api-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/90/branches/xiaonei_history/lib/jsr173-api-1.0.jar
+END
+commons-logging-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/90/branches/xiaonei_history/lib/commons-logging-1.1.jar
+END
+log4j-1.2.12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/90/branches/xiaonei_history/lib/log4j-1.2.12.jar
+END
+junit-3.8.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/90/branches/xiaonei_history/lib/junit-3.8.1.jar
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/90/branches/xiaonei_history/lib/activation.jar
+END
+jaxb-impl-2.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/90/branches/xiaonei_history/lib/jaxb-impl-2.1.jar
+END
+json_simple.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/90/branches/xiaonei_history/lib/json_simple.jar
+END
+json-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/90/branches/xiaonei_history/lib/json-1.0.jar
+END

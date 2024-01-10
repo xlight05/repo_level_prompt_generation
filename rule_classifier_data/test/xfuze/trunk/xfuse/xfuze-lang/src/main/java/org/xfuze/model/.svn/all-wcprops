@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/86/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model
+END
+TraceAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/45/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model/TraceAwareModel.java
+END
+Model.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/70/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model/Model.java
+END
+PagingAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/37/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model/PagingAwareModel.java
+END
+AuditAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/86/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model/AuditAwareModel.java
+END
+SequenceAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model/SequenceAwareModel.java
+END
+StaleStateAwareModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/77/trunk/xfuse/xfuze-lang/src/main/java/org/xfuze/model/StaleStateAwareModel.java
+END

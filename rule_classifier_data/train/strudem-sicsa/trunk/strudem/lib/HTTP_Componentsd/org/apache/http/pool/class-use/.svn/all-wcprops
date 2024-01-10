@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use
+END
+ConnFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use/ConnFactory.html
+END
+ConnPool.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use/ConnPool.html
+END
+ConnPoolControl.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use/ConnPoolControl.html
+END
+PoolStats.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use/PoolStats.html
+END
+PoolEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use/PoolEntry.html
+END
+AbstractConnPool.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/pool/class-use/AbstractConnPool.html
+END

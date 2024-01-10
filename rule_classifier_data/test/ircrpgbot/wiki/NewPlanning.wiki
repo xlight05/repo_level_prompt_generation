@@ -1,0 +1,3 @@
+#summary View the planning as it happens.
+#sidebar Classes
+<wiki:gadget url="http://ircrpgbot.googlecode.com/svn/hack.xml" height="800" width="100%">

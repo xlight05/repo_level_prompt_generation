@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>Math-Mech eShop</title>
+
+<link type="text/css" media="screen" rel="stylesheet" href="colorbox.css" />
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("a[rel='photo']").colorbox({transition:"fade"});
+			});
+		</script>
+ 
+<link href="/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<div>
+	<div id="header"><ui:insert name="header">Default Title</ui:insert></div>
+	<div id="menu"><ui:insert name="menu">menu</ui:insert></div>
+	<div id="content"><ui:insert name="content">content</ui:insert></div>
+	<div id="footer"><ui:insert name="footer">footer</ui:insert></div>
+	<div id="user_panel"><ui:insert name="user_panel">userPanel</ui:insert></div>
+</div>
+</body>
+
+</html>

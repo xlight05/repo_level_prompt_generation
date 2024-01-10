@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/2/trunk/openocd
+END
+critterbot_jlink.cfg
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/openocd/critterbot_jlink.cfg
+END
+critterbot_jlink.script
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/openocd/critterbot_jlink.script
+END

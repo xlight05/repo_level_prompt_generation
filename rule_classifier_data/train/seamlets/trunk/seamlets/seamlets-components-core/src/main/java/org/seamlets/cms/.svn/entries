@@ -1,0 +1,61 @@
+10
+
+dir
+453
+http://seamlets.googlecode.com/svn/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms
+http://seamlets.googlecode.com/svn
+
+
+
+2009-03-13T23:58:34.548565Z
+444
+daniel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+8c54a198-0cc1-11de-a021-8b77bb4f2096
+
+provider
+dir
+
+list
+dir
+
+deploy
+dir
+
+annotations
+dir
+
+xsd
+dir
+
+exception
+dir
+
+entities
+dir
+
+components
+dir
+
+tab
+dir
+
+comparator
+dir
+
+configuration
+dir
+

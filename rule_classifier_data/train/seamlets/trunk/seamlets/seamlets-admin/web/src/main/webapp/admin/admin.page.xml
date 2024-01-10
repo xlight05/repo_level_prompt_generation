@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page xmlns="http://jboss.com/products/seam/pages" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://jboss.com/products/seam/pages http://jboss.com/products/seam/pages-2.1.xsd">
+	
+	<!-- Application -->
+	<navigation from-action="#{applicationController.removeApplication}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	
+	<!-- Domain -->
+	<navigation from-action="#{addDomainAction.addDomain}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	<navigation from-action="#{domainContoller.removeDomain}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	
+	<!-- Folder -->
+	<navigation from-action="#{addFolderAction.addFolder}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	<navigation from-action="#{folderController.removeFolder}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	
+	<!-- Page -->
+	<navigation from-action="#{addPageAction.addPage}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	<navigation from-action="#{pageController.removePage}">
+		<end-conversation before-redirect="true"/>
+		<redirect view-id="/admin/admin.xhtml"/>
+	</navigation>
+	
+</page>

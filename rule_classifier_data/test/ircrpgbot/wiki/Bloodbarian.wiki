@@ -1,0 +1,25 @@
+#summary Bloodbarian class description
+#sidebar Classes
+Table of Contents
+<wiki:toc max_depth="3">
+
+==Description==
+The Bloodbarian is a physical-damage oriented class, with a twist. They focus on dealing physical damage and trying to stay alive. Every attack they deal heals them for 75% of the damage dealt, however, every turn they lose 10% of their hp (not from the maximum). Thus, they will often be floating around the bottom end of their HP, factoring in regeneration and hp usage. Also, any skills used will detract from HP instead of another source.
+
+==Main Purpose==
+The Barbarian serves as a high damage dealer.
+
+==Statistics==
+The Bloodbarian primarily uses Power and HP.
+
+=== Prerequisites ===
+||Class||Level||
+||Barbarian||5||
+
+=== Skills ===
+  * [Cry]
+  * [Cleave]
+  * [DoubleTap]
+
+=== SVN File ===
+Technical information, as well as other information, can be found [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/classes/bloodbarian.js here].

@@ -1,0 +1,21 @@
+Spring Sequence DAO Config:
+
+{{{
+	<!-- ======================================================================= -->
+	<!-- DAO's (iBatis)                                                          -->
+	<!-- ======================================================================= -->
+	<bean id="abstractDao" class="org.springframework.aop.framework.ProxyFactoryBean" abstract="true" />
+
+	<!-- ======================================================================= -->
+	<!-- Sequence DAO (iBatis)                                                   -->
+	<!-- ======================================================================= -->
+	<bean id="sequenceDao" parent="abstractDao">
+		<property name="proxyInterfaces" value="org.xfuze.dao.SequenceDao" />
+		<property name="target">
+			<bean class="org.xfuze.dao.impl.ibatis.SequenceDaoImpl">
+				<property name="sqlMapClient" ref="sqlMapClient" />
+			</bean>
+		</property>
+	</bean>
+
+}}}

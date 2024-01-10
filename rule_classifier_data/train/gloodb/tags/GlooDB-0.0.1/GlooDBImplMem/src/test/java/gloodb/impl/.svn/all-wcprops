@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/impl
+END
+MemoryBasedRepositoryFacadeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/impl/MemoryBasedRepositoryFacadeTest.java
+END
+MemoryBasedObjectWarehouseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/impl/MemoryBasedObjectWarehouseTest.java
+END
+MemoryBasedObjectWarehouseImplementationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImplMem/src/test/java/gloodb/impl/MemoryBasedObjectWarehouseImplementationTest.java
+END

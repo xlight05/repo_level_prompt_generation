@@ -1,0 +1,3 @@
+1. Los agentes Bluetooth deben primero "LeaveGroup" y posteriormente "unregisterAgent"
+2. ¿Cuando dejamos el grupo desregistramos el agente de la plataforma? Yo creo que no.
+3. Preguntar las PERFOMATIVE si pueden ser CONFIRM o FAILURE -> Respuesta: FAILURE si falla algo.

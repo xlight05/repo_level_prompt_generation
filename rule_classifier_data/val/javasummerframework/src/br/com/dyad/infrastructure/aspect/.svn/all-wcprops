@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect
+END
+OverrideAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/OverrideAspect.aj
+END
+LogExceptionAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/LogExceptionAspect.aj
+END
+DisableActionAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/DisableActionAspect.aj
+END
+LogHibernateAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/LogHibernateAspect.aj
+END
+OnCalcFieldAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/OnCalcFieldAspect.aj
+END
+SetFieldEvents.aj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/SetFieldEvents.aj
+END
+HibernateSessionAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/HibernateSessionAspect.aj
+END
+FactoryAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/FactoryAspect.aj
+END
+SetOldValueAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/SetOldValueAspect.aj
+END
+UserInfoAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/UserInfoAspect.aj
+END
+SendToClientAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/SendToClientAspect.aj
+END
+ExecuteWidgetListenerAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/ExecuteWidgetListenerAspect.aj
+END
+SysReferenceAspect.aj
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/aspect/SysReferenceAspect.aj
+END

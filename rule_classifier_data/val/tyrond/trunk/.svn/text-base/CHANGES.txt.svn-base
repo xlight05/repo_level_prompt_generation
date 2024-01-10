@@ -1,0 +1,6 @@
+---------0.1--2009-07-17----------
+实现一个 TTServer 的 java 客户端。
+
+实现基本的 TTServer 二进制协议：get、mget、put、putkeep、putcat、putshl、putnr、out、addInt、vsiz、iterinit、iternext、rnum、size、stat。
+
+未实现的协议：fwmkeys、adddouble、ext、sync、optimize、vanish、copy、restore、setmst、misc。

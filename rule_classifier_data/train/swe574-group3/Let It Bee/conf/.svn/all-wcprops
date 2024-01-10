@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/9/Let%20It%20Bee/conf
+END
+dependencies.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/Let%20It%20Bee/conf/dependencies.yml
+END
+messages
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/9/Let%20It%20Bee/conf/messages
+END
+application.conf
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/Let%20It%20Bee/conf/application.conf
+END
+initial-data.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/9/Let%20It%20Bee/conf/initial-data.yml
+END
+routes
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/9/Let%20It%20Bee/conf/routes
+END

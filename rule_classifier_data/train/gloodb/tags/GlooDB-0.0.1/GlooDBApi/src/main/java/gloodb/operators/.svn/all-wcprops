@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/package.html
+END
+GetLazy.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/GetLazy.java
+END
+GetIds.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/GetIds.java
+END
+Get.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/Get.java
+END
+FetchLazy.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/FetchLazy.java
+END
+FlushEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/FlushEmbedded.java
+END
+Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/Store.java
+END
+ResetEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/ResetEmbedded.java
+END
+JointIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/JointIterator.java
+END
+WrapAsLazy.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/WrapAsLazy.java
+END
+Remove.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/Remove.java
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/Expression.java
+END
+Clone.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/Clone.java
+END
+SetEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/SetEmbedded.java
+END
+RemoveEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBApi/src/main/java/gloodb/operators/RemoveEmbedded.java
+END

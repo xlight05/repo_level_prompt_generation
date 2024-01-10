@@ -1,0 +1,269 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/86/trunk/sim/src/org/rlcommunity/critter
+END
+SimulatorDrawWorld.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorDrawWorld.java
+END
+SimulatorObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorObject.java
+END
+ObjectState.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectState.java
+END
+FloorMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/84/trunk/sim/src/org/rlcommunity/critter/FloorMap.java
+END
+SimulatorState.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorState.java
+END
+RayIntersection.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/RayIntersection.java
+END
+ObjectStateDiffuseLightSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateDiffuseLightSource.java
+END
+SimulatorComponentBump.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorComponentBump.java
+END
+SimulatorComponentWheel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/49/trunk/sim/src/org/rlcommunity/critter/SimulatorComponentWheel.java
+END
+Polygon.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/75/trunk/sim/src/org/rlcommunity/critter/Polygon.java
+END
+Episode.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/83/trunk/sim/src/org/rlcommunity/critter/Episode.java
+END
+ObjectStateMotor.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateMotor.java
+END
+SimulatorComponentDynamics.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/49/trunk/sim/src/org/rlcommunity/critter/SimulatorComponentDynamics.java
+END
+Collision.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Collision.java
+END
+Ray.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Ray.java
+END
+ObjectStateWRobotDynamics.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/77/trunk/sim/src/org/rlcommunity/critter/ObjectStateWRobotDynamics.java
+END
+ObjectStateWheel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateWheel.java
+END
+InterfaceInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/InterfaceInputStream.java
+END
+InterfaceOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/InterfaceOutputStream.java
+END
+Scene.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Scene.java
+END
+SimulatorAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/64/trunk/sim/src/org/rlcommunity/critter/SimulatorAgent.java
+END
+ObjectStateDiffuseLightSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/48/trunk/sim/src/org/rlcommunity/critter/ObjectStateDiffuseLightSensor.java
+END
+Wall.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Wall.java
+END
+SimulatorComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorComponent.java
+END
+SimulatorComponentControl.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorComponentControl.java
+END
+SimulatorEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/84/trunk/sim/src/org/rlcommunity/critter/SimulatorEngine.java
+END
+SimulatorViz.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorViz.java
+END
+robotop2.png
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/robotop2.png
+END
+ObjectStateWRobotDrivable.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/64/trunk/sim/src/org/rlcommunity/critter/ObjectStateWRobotDrivable.java
+END
+StopperImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/64/trunk/sim/src/org/rlcommunity/critter/StopperImpl.java
+END
+ObjectStateLightSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateLightSource.java
+END
+ObjectStateOmnidrive.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateOmnidrive.java
+END
+SimulatorMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/SimulatorMain.java
+END
+ObjectStateBumpSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateBumpSensor.java
+END
+robotop.png
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/robotop.png
+END
+Drivable.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Drivable.java
+END
+Turn.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/75/trunk/sim/src/org/rlcommunity/critter/Turn.java
+END
+ObjectStateLightSensor.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateLightSensor.java
+END
+SimulatorComponentLight.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/47/trunk/sim/src/org/rlcommunity/critter/SimulatorComponentLight.java
+END
+Stopper.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/Stopper.java
+END
+SimulatorVizEvents.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorVizEvents.java
+END
+ObjectStateDynamics.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/ObjectStateDynamics.java
+END
+SimulatorComponentDiffuseLight.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/35/trunk/sim/src/org/rlcommunity/critter/SimulatorComponentDiffuseLight.java
+END
+SimulatorAgentCritterBot.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/85/trunk/sim/src/org/rlcommunity/critter/SimulatorAgentCritterBot.java
+END

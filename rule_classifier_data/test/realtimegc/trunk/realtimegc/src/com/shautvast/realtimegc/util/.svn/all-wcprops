@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/5/trunk/realtimegc/src/com/shautvast/realtimegc/util
+END
+TailStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/trunk/realtimegc/src/com/shautvast/realtimegc/util/TailStream.java
+END
+PatternSkippingReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/PatternSkippingReader.java
+END
+RegionReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/RegionReader.java
+END
+FileNameGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/FileNameGenerator.java
+END
+BlockingStringBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/BlockingStringBuffer.java
+END
+ConcatReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/ConcatReader.java
+END
+NBInputStreamReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/NBInputStreamReader.java
+END
+TeeReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/TeeReader.java
+END
+NBBufferedInputStreamReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/3/trunk/realtimegc/src/com/shautvast/realtimegc/util/NBBufferedInputStreamReader.java
+END

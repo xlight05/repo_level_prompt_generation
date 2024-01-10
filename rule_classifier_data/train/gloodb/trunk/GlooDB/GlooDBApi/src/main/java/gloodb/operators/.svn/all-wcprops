@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators
+END
+FlushEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/FlushEmbedded.java
+END
+Store.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Store.java
+END
+ResetEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/ResetEmbedded.java
+END
+Remove.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Remove.java
+END
+WrapAsLazy.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/WrapAsLazy.java
+END
+JointIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/JointIterator.java
+END
+ReferenceGet.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/ReferenceGet.java
+END
+Expression.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Expression.java
+END
+Join.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Join.java
+END
+Clone.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Clone.java
+END
+Intersect.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Intersect.java
+END
+FillEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/FillEmbedded.java
+END
+SetEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/SetEmbedded.java
+END
+RemoveEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/RemoveEmbedded.java
+END
+ReferenceFetch.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/ReferenceFetch.java
+END
+Diff.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Diff.java
+END
+Iterators.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Iterators.java
+END
+IterativeExpression.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/IterativeExpression.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/package.html
+END
+GetIds.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/GetIds.java
+END
+Carthesian.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Carthesian.java
+END
+Restore.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Restore.java
+END
+ExpressionedInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/ExpressionedInterceptor.java
+END
+Union.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Union.java
+END
+Iterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/Iterator.java
+END
+SetOperators.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/operators/SetOperators.java
+END

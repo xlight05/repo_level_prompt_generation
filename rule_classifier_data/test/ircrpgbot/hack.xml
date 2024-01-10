@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<Module>
+  <ModulePrefs title="Google Doc Hack" /> 
+  <Content type="html">
+     <![CDATA[ 
+       <iframe src="https://docs.google.com/document/d/1-os5D_kpqzo1IsaPoKrzDGwLpdNI0RSVlJu74T_GM2s/edit?hl=en&pli=1#" height="100%" width="100%" scrolling="no">
+     ]]>
+  </Content> 
+</Module>

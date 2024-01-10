@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/65/trunk/jjsc/src/org/jjsc/modules
+END
+OSGiModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/modules/OSGiModule.java
+END
+FileSystemModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/modules/FileSystemModule.java
+END
+RelativeFileSystemResourcesResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/65/trunk/jjsc/src/org/jjsc/modules/RelativeFileSystemResourcesResolver.java
+END
+JarModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/jjsc/src/org/jjsc/modules/JarModule.java
+END

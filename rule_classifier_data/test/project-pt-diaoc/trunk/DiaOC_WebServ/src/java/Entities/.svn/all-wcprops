@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/22/trunk/DiaOC_WebServ/src/java/Entities
+END
+THAMSO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/THAMSO.java
+END
+SqlDateAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/22/trunk/DiaOC_WebServ/src/java/Entities/SqlDateAdapter.java
+END
+THONGKEDIAOC.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/THONGKEDIAOC.java
+END
+PHUONG.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/PHUONG.java
+END
+BAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/BAO.java
+END
+QUAN.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/QUAN.java
+END
+TOBUOM.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/TOBUOM.java
+END
+GIATIEN_TOBUOM.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/GIATIEN_TOBUOM.java
+END
+PHIEUDANGKY.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Entities/PHIEUDANGKY.java
+END
+THANHPHO.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/THANHPHO.java
+END
+CHITIETBAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/CHITIETBAO.java
+END
+KHACHHANG.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/KHACHHANG.java
+END
+DUONG.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/DUONG.java
+END
+LOAIBANG.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/LOAIBANG.java
+END
+HINHANH.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/HINHANH.java
+END
+DIAOC.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/DIAOC.java
+END
+DANGNHAP.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/22/trunk/DiaOC_WebServ/src/java/Entities/DANGNHAP.java
+END
+DIACHI.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/22/trunk/DiaOC_WebServ/src/java/Entities/DIACHI.java
+END
+THONGKETHANG.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/22/trunk/DiaOC_WebServ/src/java/Entities/THONGKETHANG.java
+END
+QC_BAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Entities/QC_BAO.java
+END
+GIATIEN_QC_BAO.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/GIATIEN_QC_BAO.java
+END
+LOAIDIAOC.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/LOAIDIAOC.java
+END
+NOIDUNGQC.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/NOIDUNGQC.java
+END
+GIATIEN_QC_BANG.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/GIATIEN_QC_BANG.java
+END
+QC_BANG.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/14/trunk/DiaOC_WebServ/src/java/Entities/QC_BANG.java
+END

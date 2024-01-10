@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/gcf/socket
+END
+SocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/gcf/socket/SocketConnection.java
+END
+ServerSocketConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/9/trunk/SolAgentPlatform/src/com/intel/bluetooth/gcf/socket/ServerSocketConnection.java
+END

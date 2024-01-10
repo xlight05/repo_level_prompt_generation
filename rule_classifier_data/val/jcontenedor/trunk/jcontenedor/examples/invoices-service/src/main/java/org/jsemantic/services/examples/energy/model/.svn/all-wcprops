@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/model
+END
+MeterReading.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/model/MeterReading.java
+END
+Tariff.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/model/Tariff.java
+END
+Invoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/model/Invoice.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices-service/src/main/java/org/jsemantic/services/examples/energy/model/Customer.java
+END

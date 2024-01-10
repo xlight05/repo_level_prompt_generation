@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service
+END
+LOAIDIAOC_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/LOAIDIAOC_Resource.java
+END
+QCBAO_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/QCBAO_Resource.java
+END
+NOIDUNGQC_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/NOIDUNGQC_Resource.java
+END
+THAMSO_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/THAMSO_Resource.java
+END
+THONGKESLKHACHHANG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/THONGKESLKHACHHANG_Resource.java
+END
+QCBANG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/QCBANG_Resource.java
+END
+THONGKEDIAOC_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/THONGKEDIAOC_Resource.java
+END
+PHUONG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/PHUONG_Resource.java
+END
+BAO_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Service/BAO_Resource.java
+END
+GIATIENBAO_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/GIATIENBAO_Resource.java
+END
+QUAN_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/QUAN_Resource.java
+END
+TOBUOM_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/TOBUOM_Resource.java
+END
+GIATIENTOBUOM_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/GIATIENTOBUOM_Resource.java
+END
+PHIEUDANGKY_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/PHIEUDANGKY_Resource.java
+END
+GIATIENBANG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/GIATIENBANG_Resource.java
+END
+THANHPHO_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/THANHPHO_Resource.java
+END
+CHITIETBAO_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Service/CHITIETBAO_Resource.java
+END
+KHACHHANG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/KHACHHANG_Resource.java
+END
+DUONG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/DUONG_Resource.java
+END
+LOAIBANG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/LOAIBANG_Resource.java
+END
+HINHANH_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/HINHANH_Resource.java
+END
+HOST_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/HOST_Resource.java
+END
+DIAOC_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/DIAOC_Resource.java
+END
+DANGNHAP_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/17/trunk/DiaOC_WebServ/src/java/Service/DANGNHAP_Resource.java
+END
+THONGKETHANG_Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/24/trunk/DiaOC_WebServ/src/java/Service/THONGKETHANG_Resource.java
+END
+ApplicationConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/23/trunk/DiaOC_WebServ/src/java/Service/ApplicationConfig.java
+END

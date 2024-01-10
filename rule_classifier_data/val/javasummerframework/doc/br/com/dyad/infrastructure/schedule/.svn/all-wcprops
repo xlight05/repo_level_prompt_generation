@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule
+END
+DyadJob.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/DyadJob.html
+END
+ScheduleType.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/ScheduleType.html
+END
+TarefaDeTeste.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/TarefaDeTeste.html
+END
+ScheduleStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/ScheduleStatus.html
+END
+DyadJobListener.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/DyadJobListener.html
+END
+ScheduledTask.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/ScheduledTask.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/package-frame.html
+END
+SystemScheduler.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/SystemScheduler.html
+END
+ScheduleWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/ScheduleWindow.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/package-use.html
+END
+RunningTasks.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/RunningTasks.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/package-tree.html
+END
+StartSchedule.html
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/schedule/StartSchedule.html
+END

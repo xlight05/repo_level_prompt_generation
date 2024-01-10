@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/90/branches/xiaonei_history/java/test
+END
+TestNotificationsRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestNotificationsRestAPI.java
+END
+testUrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/testUrl.java
+END
+TestFriendsRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestFriendsRestAPI.java
+END
+TestRequestsRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestRequestsRestAPI.java
+END
+Config.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/Config.java
+END
+TestRESTAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestRESTAPI.java
+END
+TestProfileRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestProfileRestAPI.java
+END
+TestUsersRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestUsersRestAPI.java
+END
+TestFeedRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestFeedRestAPI.java
+END
+TestGetAllocationAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestGetAllocationAPI.java
+END
+TestInvitationsRestAPI.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/90/branches/xiaonei_history/java/test/TestInvitationsRestAPI.java
+END

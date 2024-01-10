@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db
+END
+DataChunk.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/DataChunk.java
+END
+DataBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/DataBuffer.java
+END
+LogTaskSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/LogTaskSaver.java
+END
+LogTaskFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/LogTaskFetcher.java
+END
+IEventStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/IEventStore.java
+END
+DataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/DataProcessor.java
+END
+DBUpdater.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/DBUpdater.java
+END
+DataSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/DataSaver.java
+END
+DataFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/DataFetcher.java
+END
+ILogTaskFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/ILogTaskFetcher.java
+END
+OPLDatabase.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/OPLDatabase.java
+END
+IDataProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/IDataProcessor.java
+END
+ProcessedDataFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/ProcessedDataFetcher.java
+END
+EventSaver.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/EventSaver.java
+END
+EventFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/EventFetcher.java
+END
+IDataFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/IDataFetcher.java
+END
+RawDataFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/RawDataFetcher.java
+END
+IEventFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/db/IEventFetcher.java
+END

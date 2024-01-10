@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/src/main/java/org/seamlets/identity/home
+END
+PermissionHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/src/main/java/org/seamlets/identity/home/PermissionHome.java
+END
+UserHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/src/main/java/org/seamlets/identity/home/UserHome.java
+END
+RoleHome.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/319/tags/seamlets/seamlets-security/seamlets-security-1.0.0.A1/src/main/java/org/seamlets/identity/home/RoleHome.java
+END

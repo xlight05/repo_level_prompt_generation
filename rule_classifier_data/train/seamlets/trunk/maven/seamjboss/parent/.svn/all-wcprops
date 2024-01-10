@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/412/trunk/maven/seamjboss/parent
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/18/trunk/maven/seamjboss/parent/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/18/trunk/maven/seamjboss/parent/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/412/trunk/maven/seamjboss/parent/pom.xml
+END

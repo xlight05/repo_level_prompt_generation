@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd
+END
+Selector.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Selector.js
+END
+Source.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Source.js
+END
+Container.js
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Container.js
+END
+move.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/move.js
+END
+autoscroll.js
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/autoscroll.js
+END
+common.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/common.js
+END
+Mover.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Mover.js
+END
+Moveable.js
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Moveable.js
+END
+Manager.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Manager.js
+END
+TimedMoveable.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/TimedMoveable.js
+END
+Avatar.js
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojo/dnd/Avatar.js
+END

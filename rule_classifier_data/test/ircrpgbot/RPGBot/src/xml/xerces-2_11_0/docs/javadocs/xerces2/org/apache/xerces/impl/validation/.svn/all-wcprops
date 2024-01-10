@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/package-frame.html
+END
+ValidationManager.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/ValidationManager.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/package-tree.html
+END
+ValidationState.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/ValidationState.html
+END
+ConfigurableValidationState.html
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/ConfigurableValidationState.html
+END
+EntityState.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/validation/EntityState.html
+END

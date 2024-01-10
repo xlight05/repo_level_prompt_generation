@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/entity/class-use
+END
+EntitySerializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/entity/class-use/EntitySerializer.html
+END
+DisallowIdentityContentLengthStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/entity/class-use/DisallowIdentityContentLengthStrategy.html
+END
+StrictContentLengthStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/entity/class-use/StrictContentLengthStrategy.html
+END
+EntityDeserializer.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/entity/class-use/EntityDeserializer.html
+END
+LaxContentLengthStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/entity/class-use/LaxContentLengthStrategy.html
+END

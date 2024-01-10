@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE validators PUBLIC "-//OpenSymphony Group//XWork Validator 1.0.2//EN" "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd" >
+
+<!-- 
+
+ Common Validations for RegisterAction
+======================================
+
+Authors : Yohan Liyanage
+
+Version : 16 - September - 2008
+Since 	: 16 - September - 2008
+
+ -->
+<validators>
+
+	<field name="username">
+		<field-validator type="required">
+			<message>Username is required</message>
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="minLength">5</param>
+			<param name="maxLength">20</param>
+			<message>Username length should be between ${minLength} and ${maxLength}</message>
+		</field-validator>
+	</field>
+	
+	<field name="password">
+		<field-validator type="required">
+			<message>Password is required</message>
+		</field-validator>
+		<field-validator type="stringlength">
+			<param name="minLength">5</param>
+			<param name="maxLength">40</param>
+			<message>Password length should be between ${minLength} and ${maxLength}</message>
+		</field-validator>
+	</field>
+	
+	<field name="email">
+		<field-validator type="required">
+			<message>Email Address is required</message>
+		</field-validator>
+		<field-validator type="email">
+			<message>Email Address is invalid</message>
+		</field-validator>
+	</field>
+	
+	<field name="firstName">
+		<field-validator type="required">
+			<message>First Name is required</message>
+		</field-validator>
+	</field>
+	
+	<field name="lastName">
+		<field-validator type="required">
+			<message>Last Name is required</message>
+		</field-validator>
+	</field>	
+	
+</validators>

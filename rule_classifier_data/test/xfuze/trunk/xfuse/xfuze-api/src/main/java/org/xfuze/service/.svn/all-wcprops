@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/85/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service
+END
+Service.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/Service.java
+END
+UpdateAwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/UpdateAwareService.java
+END
+DeleteAwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/DeleteAwareService.java
+END
+CreateAwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/CreateAwareService.java
+END
+PagingAwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/35/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/PagingAwareService.java
+END
+CountAwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/CountAwareService.java
+END
+ReadAwareService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/ReadAwareService.java
+END
+ServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/xfuse/xfuze-api/src/main/java/org/xfuze/service/ServiceException.java
+END

@@ -1,0 +1,7 @@
+		 <Host name="bitcube" autoDeploy="false" deployOnStartup="false" deployXML="false"
+			configClass="org.jboss.web.tomcat.security.config.JBossContextConfig">
+			<Alias>bitcube.seamlets.de</Alias>
+			<Valve className="org.jboss.web.tomcat.service.jca.CachedConnectionValve"
+                cachedConnectionManagerObjectName="jboss.jca:service=CachedConnectionManager"
+                transactionManagerObjectName="jboss:service=TransactionManager" />
+         </Host>

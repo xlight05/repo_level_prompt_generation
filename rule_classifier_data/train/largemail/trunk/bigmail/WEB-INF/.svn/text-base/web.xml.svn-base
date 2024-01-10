@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app >
+   <distributable/>
+
+    <!--
+    To use non XDoclet filters, create a filters.xml file that
+    contains the additional filters (eg Sitemesh) and place it in your
+    project's merge dir.  Don't include filter-mappings in this file,
+    include them in a file called filter-mappings.xml and put that in
+    the same directory.
+    -->
+
+    <!--
+    To use non XDoclet filter-mappings, create a filter-mappings.xml file that
+    contains the additional filter-mappings and place it in your
+    project's merge dir.
+    -->
+
+    <!--
+    To use non XDoclet listeners, create a listeners.xml file that
+    contains the additional listeners and place it in your
+    project's merge dir.
+    -->
+
+   <servlet>
+      <servlet-name>Download</servlet-name>
+      <display-name>File Download Servlet</display-name>
+      <servlet-class>framework.struts.servlet.DownloadServlet</servlet-class>
+
+   </servlet>
+   <servlet>
+      <servlet-name>action</servlet-name>
+      <display-name>Struts Action Servlet</display-name>
+      <servlet-class>framework.struts.servlet.MyAppServlet</servlet-class>
+
+      <init-param>
+         <param-name>config</param-name>
+         <param-value>/WEB-INF/struts-config.xml</param-value>
+      </init-param>
+      <init-param>
+         <param-name>debug</param-name>
+         <param-value>0</param-value>
+      </init-param>
+
+      <load-on-startup>1</load-on-startup>
+
+   </servlet>
+
+ <servlet>
+        <servlet-name>dwr-invoker</servlet-name>
+        <display-name>DWR Servlet</display-name>
+        <servlet-class>uk.ltd.getahead.dwr.DWRServlet</servlet-class>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <init-param>
+            <param-name>logLevel</param-name>
+            <param-value>WARN</param-value>
+        </init-param>
+</servlet>
+
+  <servlet-mapping>
+        <servlet-name>dwr-invoker</servlet-name>
+        <url-pattern>/dwr/*</url-pattern>
+    </servlet-mapping>
+
+   <servlet-mapping>
+      <servlet-name>Download</servlet-name>
+      <url-pattern>/Download</url-pattern>
+   </servlet-mapping>
+   <servlet-mapping>
+      <servlet-name>action</servlet-name>
+      <url-pattern>*.do</url-pattern>
+   </servlet-mapping>
+
+   <!--
+   To specify mime mappings, create a file named mime-mappings.xml, put it in your project's mergedir.
+   Organize mime-mappings.xml following this DTD slice:
+
+   <!ELEMENT mime-mapping (extension, mime-type)>
+   -->
+
+   	<welcome-file-list>
+		<welcome-file>upload_view.jsp</welcome-file>
+	</welcome-file-list>
+
+   <!--
+   To specify error pages, create a file named error-pages.xml, put it in your project's mergedir.
+   Organize error-pages.xml following this DTD slice:
+
+   <!ELEMENT error-page ((error-code | exception-type), location)>
+   -->
+
+    <taglib>
+    <taglib-uri>/WEB-INF/tlds/struts-bean.tld</taglib-uri>
+    <taglib-location>/WEB-INF/tlds/struts-bean.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/WEB-INF/tlds/struts-html.tld</taglib-uri>
+    <taglib-location>/WEB-INF/tlds/struts-html.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/WEB-INF/tlds/struts-logic.tld</taglib-uri>
+    <taglib-location>/WEB-INF/tlds/struts-logic.tld</taglib-location>
+  </taglib>
+  <taglib>
+    <taglib-uri>/WEB-INF/tlds/struts-nested.tld</taglib-uri>
+    <taglib-location>/WEB-INF/tlds/struts-nested.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/WEB-INF/tlds/struts-template.tld</taglib-uri>
+    <taglib-location>/WEB-INF/tlds/struts-template.tld</taglib-location>
+  </taglib>
+
+  <taglib>
+    <taglib-uri>/WEB-INF/tlds/struts-tiles.tld</taglib-uri>
+    <taglib-location>/WEB-INF/tlds/struts-tiles.tld</taglib-location>
+  </taglib>  
+
+   <!--
+   To set up security settings for your web app, create a file named web-security.xml, put it in your project's mergedir.
+   Organize web-security.xml following this DTD slice:
+
+   <!ELEMENT security-constraint (display-name?, web-resource-collection+, auth-constraint?, user-data-constraint?)>
+   <!ELEMENT web-resource-collection (web-resource-name, description?, url-pattern*, http-method*)>
+   <!ELEMENT web-resource-name (#PCDATA)>
+   <!ELEMENT url-pattern (#PCDATA)>
+   <!ELEMENT http-method (#PCDATA)>
+   <!ELEMENT user-data-constraint (description?, transport-guarantee)>
+   <!ELEMENT transport-guarantee (#PCDATA)>
+
+   <!ELEMENT login-config (auth-method?, realm-name?, form-login-config?)>
+   <!ELEMENT auth-method (#PCDATA)>
+   <!ELEMENT realm-name (#PCDATA)>
+   <!ELEMENT form-login-config (form-login-page, form-error-page)>
+   <!ELEMENT form-login-page (#PCDATA)>
+   <!ELEMENT form-error-page (#PCDATA)>
+   -->
+
+</web-app>

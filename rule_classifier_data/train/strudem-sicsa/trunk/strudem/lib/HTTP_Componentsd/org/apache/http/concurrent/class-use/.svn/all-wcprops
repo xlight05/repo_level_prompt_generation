@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/concurrent/class-use
+END
+Cancellable.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/concurrent/class-use/Cancellable.html
+END
+FutureCallback.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/concurrent/class-use/FutureCallback.html
+END
+BasicFuture.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/concurrent/class-use/BasicFuture.html
+END

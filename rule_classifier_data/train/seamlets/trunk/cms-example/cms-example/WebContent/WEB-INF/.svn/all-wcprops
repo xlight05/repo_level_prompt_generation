@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/401/trunk/cms-example/cms-example/WebContent/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/104/trunk/cms-example/cms-example/WebContent/WEB-INF/faces-config.xml
+END
+components.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/127/trunk/cms-example/cms-example/WebContent/WEB-INF/components.xml
+END
+jboss-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/401/trunk/cms-example/cms-example/WebContent/WEB-INF/jboss-web.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/WEB-INF/web.xml
+END
+pages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/WEB-INF/pages.xml
+END
+.faces-config.xml.jsfdia
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/WEB-INF/.faces-config.xml.jsfdia
+END

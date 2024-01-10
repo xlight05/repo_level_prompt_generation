@@ -1,0 +1,19 @@
+#_DML=SELECT * FROM T_ENVIO
+
+#_DML_COLUMNS = {\
+                 "ENVIO":{"type":"Double","mask":"","oper":"=","colname":"envio"},\
+                 "CODENVCLIENTE":{"type":"String","mask":"","oper":"=","colname":"codenvcliente"},\
+                 "BLOQUEADO":{"type":"String","mask":"","oper":"=","colname":"bloqueado"},\
+                 "NOMBRE":{"type":"String","mask":"","oper":"LIKE","colname":"nombre"},\
+                 "EMAIL":{"type":"String","mask":"","oper":"LIKE","colname":"email"},\
+                 "FECCOM":{"type":"Date","mask":"dd/MM/yyyy","oper":"=","colname":"feccom"},\
+                 "FECGRAB":{"type":"Date","mask":"dd/MM/yyyy","oper":"=","colname":"fecgrab"}}
+
+_DML=SELECT * FROM T_PAIS
+_DML_COLUMNS = {\
+                 "CODIGO":{"type":"String","mask":"","oper":"=","colname":"CODIGO"},\
+                 "DESCRIPCION":{"type":"String","mask":"","oper":"=","colname":"DESCRIPCION"}\
+               }
+
+
+

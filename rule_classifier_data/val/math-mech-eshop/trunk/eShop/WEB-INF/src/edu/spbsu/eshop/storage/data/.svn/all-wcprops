@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/56/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data
+END
+Address.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Address.java
+END
+Order.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Order.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Group.java
+END
+Category.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Category.java
+END
+EShopPersistanceUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/EShopPersistanceUnit.java
+END
+Product.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/56/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Product.java
+END
+Customer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Customer.java
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/storage/data/Comment.java
+END

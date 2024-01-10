@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/373/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources
+END
+admin.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/89/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/admin.hbm.xml
+END
+user.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/113/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/user.hbm.xml
+END
+iprestriction.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/116/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/iprestriction.hbm.xml
+END
+message.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/91/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/message.hbm.xml
+END
+springConfiguration.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/230/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/springConfiguration.xml
+END
+dataSource.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/373/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/dataSource.xml
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/37/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/log4j.properties
+END
+server.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/121/trunk/ftpserverremoteadmin/ftpserverremote-db/src/test/resources/server.hbm.xml
+END

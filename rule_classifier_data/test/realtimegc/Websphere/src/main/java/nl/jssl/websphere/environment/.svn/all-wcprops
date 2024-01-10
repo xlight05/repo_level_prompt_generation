@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/15/Websphere/src/main/java/nl/jssl/websphere/environment
+END
+VirtualHost.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/11/Websphere/src/main/java/nl/jssl/websphere/environment/VirtualHost.java
+END
+NameSpaceBinding.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/15/Websphere/src/main/java/nl/jssl/websphere/environment/NameSpaceBinding.java
+END

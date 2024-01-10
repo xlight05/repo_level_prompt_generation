@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/ear/EarContent/META-INF
+END
+jboss-app.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/353/trunk/seamlets/seamlets-admin/ear/EarContent/META-INF/jboss-app.xml
+END
+application.__xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/403/trunk/seamlets/seamlets-admin/ear/EarContent/META-INF/application.__xml
+END
+application.xml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/ear/EarContent/META-INF/application.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/431/trunk/seamlets/seamlets-admin/ear/EarContent/META-INF/MANIFEST.MF
+END

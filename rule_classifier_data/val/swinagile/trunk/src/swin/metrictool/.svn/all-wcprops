@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/8/trunk/src/swin/metrictool
+END
+MetricsExtractionEventListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/8/trunk/src/swin/metrictool/MetricsExtractionEventListener.java
+END
+FileSystemUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/trunk/src/swin/metrictool/FileSystemUtilities.java
+END
+HistIOTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8/trunk/src/swin/metrictool/HistIOTools.java
+END
+ChartMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ChartMaker.java
+END
+ExtractedVersionData.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ExtractedVersionData.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/src/swin/metrictool/Version.java
+END
+ProjectCreation.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ProjectCreation.java
+END
+Histogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/trunk/src/swin/metrictool/Histogram.java
+END
+OperationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/8/trunk/src/swin/metrictool/OperationHandler.java
+END
+ExtractVersionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ExtractVersionException.java
+END
+ProjectList.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ProjectList.java
+END
+ExtractedClassData.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ExtractedClassData.java
+END
+MetricsExtractEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/trunk/src/swin/metrictool/MetricsExtractEvent.java
+END
+ClassMetricExtractor.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ClassMetricExtractor.java
+END
+FanType.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/src/swin/metrictool/FanType.java
+END
+Project.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/src/swin/metrictool/Project.java
+END
+ExtractVersionMetrics.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/8/trunk/src/swin/metrictool/ExtractVersionMetrics.java
+END
+XStreamUtility.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/8/trunk/src/swin/metrictool/XStreamUtility.java
+END
+VersionConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/8/trunk/src/swin/metrictool/VersionConfig.java
+END
+GrowthType.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/src/swin/metrictool/GrowthType.java
+END

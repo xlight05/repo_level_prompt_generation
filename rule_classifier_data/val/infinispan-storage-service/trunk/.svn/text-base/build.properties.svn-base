@@ -1,0 +1,26 @@
+project.name=infinispan-storage-service
+project.version=1.0.0
+
+work.home=${env.WORK_HOME}
+jaguar.home=${env.JAGUAR_HOME}
+tools.home=${env.TOOLS_HOME}
+lib.home=${jaguar.home}/lib
+tomcat.home=${env.TOMCAT_HOME}
+shib.home=${env.SHIB_HOME}
+
+# distribution and packaging 
+dist.name=${project.name}-${project.version}.jar
+
+build.dir=build
+build.classes.dir=${build.dir}/classes
+build.lib.dir=${build.dir}/lib
+schema.dir=resource/schema
+spring.dir=resource/spring
+src.dir=src
+gensrc.dir=gensrc
+sql.dir=sql
+dist.dir=dist
+conf.dir=conf
+test.dir=test
+test.results.dir=${test.dir}/test_results
+

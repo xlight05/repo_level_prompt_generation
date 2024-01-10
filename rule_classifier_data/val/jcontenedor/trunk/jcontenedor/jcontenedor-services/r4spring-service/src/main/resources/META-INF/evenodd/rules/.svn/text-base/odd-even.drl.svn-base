@@ -1,0 +1,24 @@
+package test
+
+global org.jsemantic.core.context.SemanticContext ctx;
+
+rule "par"
+
+	when
+		number:Integer()
+		eval(number.intValue() % 2 == 0)
+		
+	then
+		ctx.addResult(number, new Boolean(true));	
+end
+
+rule "impar"
+
+	when	
+		number:Integer()
+		eval(number.intValue() % 2 != 0)
+	then
+		ctx.addResult(number, new Boolean(false));
+end
+
+

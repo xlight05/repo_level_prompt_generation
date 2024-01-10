@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Build-Jdk: 1.6.0_32
+Implementation-Title: pedro-ear
+Implementation-Vendor-Id: br.com.pedro
+Built-By: Aoki
+Created-By: Maven Integration for Eclipse
+Implementation-Version: 
+

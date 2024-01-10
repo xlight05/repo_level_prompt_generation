@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/95/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/handler
+END
+LikeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/2/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/handler/LikeHandler.java
+END
+ChangeTypeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/89/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/handler/ChangeTypeHandler.java
+END
+PrefixMatchHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/95/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/handler/PrefixMatchHandler.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/main/java/org/jsemantic/services/amqservice/annotation
+END
+ActiveMQServiceConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 165
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/main/java/org/jsemantic/services/amqservice/annotation/ActiveMQServiceConfiguration.java
+END
+ActiveMQServiceAnnotationProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 171
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/main/java/org/jsemantic/services/amqservice/annotation/ActiveMQServiceAnnotationProcessor.java
+END
+ActiveMQService.java
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/activemq-service/src/main/java/org/jsemantic/services/amqservice/annotation/ActiveMQService.java
+END

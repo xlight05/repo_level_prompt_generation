@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF8"?>
+
+<specification
+        xmlns:wsdl-dtc="http://www.izforge.com/soap-dtc/wsdl-dtc"
+        xmlns:echo="urn:testing:echo"
+        xmlns="http://www.izforge.com/soap-dtc/wsdl-dtc"
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!--
+        The endpoint data
+    -->
+    <endpoint>
+        <name>Echo</name>
+        <namespace>urn:testing:echo</namespace>
+    </endpoint>
+
+    <!--
+        The XML Schema definition
+    -->
+    <xsd:schema targetNamespace="urn:testing:echo">
+        <xsd:element name="onestring">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="str" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+        <xsd:element name="twostrings">
+            <xsd:complexType>
+                <xsd:sequence>
+                    <xsd:element name="str1" type="xsd:string"/>
+                    <xsd:element name="str2" type="xsd:string"/>
+                </xsd:sequence>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+
+    <!--
+        The sole operation:
+            * send two strings in the input message
+            * get them back in the output message, plus:
+                - a concatenation both in the header
+                - a concatenation in the header
+    -->
+    <operation name="Echo" soapAction="echo">
+        <input>
+            <header></header>
+            <body>
+                <part name="twostrings" element="echo:twostrings" />
+            </body>
+        </input>
+        <output>
+            <header>
+                <part name="onestring" element="echo:onestrings" />
+            </header>
+            <body>
+                <part name="onestring" element="echo:onestrings" />
+                <part name="twostrings" element="echo:twostrings" />
+            </body>
+        </output>
+    </operation>
+
+</specification>

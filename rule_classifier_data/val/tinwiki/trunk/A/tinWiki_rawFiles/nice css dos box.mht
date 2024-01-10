@@ -1,0 +1,546 @@
+From: <Saved by Windows Internet Explorer 7>
+Subject: aptitude versus apt-get
+Date: Fri, 1 Jun 2007 17:43:42 -0400
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C7A474.65609AE0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C7A474.65609AE0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.psychocats.net/ubuntu/aptitude
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>aptitude versus apt-get</TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"aptitude versus apt-get" name=3Dkeywords>
+<META content=3D"aptitude versus apt-get" name=3Ddescription><LINK=20
+href=3D"http://www.psychocats.net/ubuntu/styles.css" rel=3Dstylesheet =
+css?=20
+type?text>
+<META content=3D"MSHTML 6.00.6000.16441" name=3DGENERATOR></HEAD>
+<BODY>
+<TABLE cellSpacing=3D0 cellPadding=3D10 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD vAlign=3Dtop width=3D240 bgColor=3D#eae5da>
+      <DIV class=3Dregular><SPAN class=3Dtitle>Just =
+Beginning</SPAN><BR><A=20
+      =
+href=3D"http://www.psychocats.net/ubuntu/index">Introduction</A><BR><A=20
+      title=3D"Offsite Link" =
+href=3D"http://ubuntuforums.org/showthread.php?t=3D63315"=20
+      target=3D_top>Is Ubuntu for You?</A>*<BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/whichbuntu">Which Ubuntu =
+to=20
+      pick?</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/partitioning">Plan=20
+      Partitions</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/iso">Download=20
+      and Burn Ubuntu</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/maciso">Burn ISO from =
+Mac</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/installing">Install =
+Desktop CD=20
+      Ubuntu</A><BR><A title=3D"Offsite Link"=20
+      href=3D"http://users.bigpond.net.au/hermanzone" =
+target=3D_top>Install=20
+      Alternate CD Ubuntu</A>*<BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/minimal">Modest =
+Specs</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/terminal">Where's the=20
+      Terminal?</A><BR><A=20
+      =
+href=3D"http://www.psychocats.net/ubuntu/passwordinterminal">Password in =
+
+      Terminal</A><BR><A=20
+      =
+href=3D"http://www.psychocats.net/ubuntu/installingsoftware">Install=20
+      Software</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/sources">Extra=20
+      Repositories</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/permissions">File=20
+      Permissions</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/security">Security in =
+Ubuntu</A>=20
+      <P><SPAN class=3Dtitle>Next Steps</SPAN><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/nvidia">Install Nvidia=20
+      Drivers</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/mountwindows">Mount =
+Windows</A><BR><!--=0A=
+<a =
+href=3D"http://pykeylogger.sourceforge.net/wiki/index.php/Ubuntu:Chronicl=
+es#Install_Firefox_1.5" target=3D"_top" title=3D"Offsite Link">Install =
+Firefox</a><br>=0A=
+--><A=20
+      href=3D"http://www.psychocats.net/ubuntu/flash">Install =
+Flash</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/mp3">Install MP3 =
+Playback</A><BR><A=20
+      title=3D"Offsite Link"=20
+      =
+href=3D"http://pykeylogger.sourceforge.net/wiki/index.php/Ubuntuzilla#Ins=
+tall_Official_Mozilla_Build_of_Firefox"=20
+      target=3D_top>Install New Firefox</A>*<BR><A title=3D"Offsite =
+Link"=20
+      =
+href=3D"http://pykeylogger.sourceforge.net/wiki/index.php/Ubuntu:Chronicl=
+es#Install_Swiftfox"=20
+      target=3D_top>Install Swiftfox</A>*<BR><A title=3D"Offsite Link"=20
+      =
+href=3D"http://pykeylogger.sourceforge.net/wiki/index.php/Ubuntuzilla#Ins=
+tall_Official_Mozilla_Build_of_Thunderbird">Install=20
+      Thunderbird</A>*<BR><A =
+href=3D"http://www.psychocats.net/ubuntu/wine">Use=20
+      Wine</A>=20
+      <P><SPAN class=3Dtitle>Beyond the Basics</SPAN><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/aptitude">aptitude v.=20
+      apt-get</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/backup">Backing=20
+      up Ubuntu</A><BR><A title=3D"Offsite Link"=20
+      href=3D"http://www.ubuntu.com/getubuntu/upgrading">Upgrade =
+Ubuntu</A>*<BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/separatehome">Make a =
+/home=20
+      partition</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/ies4linux">Install =
+Internet=20
+      Explorer</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/mountlinux">Mount =
+Linux</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/partimage">Use =
+PartImage</A><BR><!-- <a href=3D"songbird">Install Songbird</a> --><!-- =
+<a href=3D"firstclass">Install FirstClass</a> -->
+      <P><SPAN class=3Dtitle>Playing Around</SPAN><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/kdegnome">KDE/Gnome=20
+      Comparison</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/gnome">Install=20
+      Gnome</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/kde">Install=20
+      KDE</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/xubuntu">Install=20
+      XFCE</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/xpde">Install=20
+      XPDE</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/puregnome">Pure=20
+      Gnome</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/purekde">Pure=20
+      KDE</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/purexfce">Pure=20
+      XFCE</A><BR><A =
+href=3D"http://www.psychocats.net/ubuntu/kde-core">A faster=20
+      KDE</A><BR><A=20
+      =
+href=3D"http://www.psychocats.net/ubuntu/nonautilusplease">Replacing=20
+      Nautilus</A>=20
+      <P><SPAN class=3Dtitle>Troubleshooting</SPAN><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/nox">No graphical =
+login</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/sudo">Can't =
+sudo</A><BR><A=20
+      href=3D"http://www.psychocats.net/ubuntu/graphicalsudo">Graphical =
+sudo</A>=20
+      <P>* Off-site link <!--=0A=
+<span class=3D"title">A PDF Ubuntu Beginner's Guide</span><br>=0A=
+<a href=3D"http://ubuntu.xgn.com.br/ubuntu_user_guide.pdf" =
+target=3D"_top">Mirror #1</a><br>=0A=
+<a href=3D"http://alpha-toxic.hit.bg/Linux/Ubuntu/ubuntu_user_guide.pdf" =
+target=3D"_top">Mirror #2</a><br>=0A=
+<a href=3D"http://www.xs4all.nl/~acben/ubuntu_user_guide_05.11.pdf" =
+target=3D"_top">Mirror #3</a><br>=0A=
+<a =
+href=3D"http://box.net/public/benplaut/dfiles/ubuntu_user_guide_05.11.pdf=
+" target=3D"_top">Mirror #4</a>=0A=
+<a href=3D"resources.html" title=3D"importable to Firefox">Great Linux =
+Bookmarks</a><br>--></P></DIV></TD>
+    <TD vAlign=3Dtop>
+      <H1>aptitude versus apt-get</H1>
+      <DIV class=3Dregular>
+      <P><B>Important Update</B><BR>Apparently the new version of =
+<I>apt-get</I>=20
+      in Edgy Eft (Ubuntu 6.10) has a function that allows you to remove =
+unused=20
+      dependencies when removing an application:=20
+      <DIV class=3Dterminal>sudo apt-get autoremove =
+<I>applicationname</I></DIV>
+      <P>So the points outlined on this page about using <I>aptitude</I> =
+over=20
+      <I>apt-get</I> are largely irrelevant if you're using Edgy Eft =
+(6.10),=20
+      Feisty Fawn (7.04), or any future version of Ubuntu.=20
+      <P><B>Information Relevant to Older Versions of Ubuntu</B><BR>You =
+may=20
+      notice that many Ubuntu websites ask you to install software using =
+the=20
+      <I>apt-get</I> command. Others may use the <I>aptitude</I> command =
+
+      instead. In many ways, they're the same in that they both draw =
+from the=20
+      repositories in your /etc/apt/sources.list to retrieve and install =
+
+      software.=20
+      <P>Below is the demonstrated difference, though, at least for =
+Ubuntu 6.06=20
+      and earlier. The example displayed is the package <I>kword</I>, =
+but it=20
+      works the same for any package that has dependencies.=20
+      <P>Both <I>aptitude</I> and <I>apt-get</I> will install =
+<I>kword</I> and=20
+      its dependencies (<I>kspread, kword-data,</I> and =
+<I>libwv2-1c2</I>), but=20
+      only <I>aptitude</I> will actually remove the dependencies when=20
+      <I>kword</I> is removed (and only if no other packages depend on =
+those=20
+      dependencies).=20
+      <P><B>Note</B>: In order for <I>aptitude</I> to work properly, you =
+must=20
+      first do an <I>update</I>, then an <I>install</I>. Also, you =
+cannot=20
+      install with <I>apt-get</I> or Synaptic and then expect to have=20
+      dependencies removed by uninstalling with <I>aptitude</I>.=20
+      <P>If you were unfortunate enough to use <I>apt-get</I>, and you =
+want to=20
+      clean out some unused dependencies, you can install and use=20
+      <I>deborphan</I> or the graphical frontend <I><A=20
+      href=3D"http://www.marzocca.net/linux/goshots.html"=20
+      target=3D_top>gtkorphan</A></I> (now available in Dapper if you <A =
+
+      href=3D"http://www.psychocats.net/ubuntu/sources">enable extra=20
+      repositories</A>). Naturally, you would install it this way:
+      <P>
+      <DIV class=3Dterminal>sudo aptitude update<BR>sudo aptitude =
+install=20
+      gtkorphan</DIV>
+      <P>On to the demonstrations...=20
+      <P><B>Aptitude Demonstration</B>:
+      <P>
+      <DIV class=3Dterminal>username@ubuntu:~$ sudo aptitude update =
+&amp;&amp;=20
+      sudo aptitude install kword <BR>Password: <BR>Reading package =
+lists...=20
+      Done <BR>Building dependency tree... Done <BR>Reading extended =
+state=20
+      information <BR>Initializing package states... Done <BR>Building =
+tag=20
+      database... Done <BR>Get:1 http://security.ubuntu.com =
+dapper-security=20
+      Release.gpg [189B] <BR>Get:2 http://archive.ubuntu.com dapper =
+Release.gpg=20
+      [189B] <BR>Get:3 http://archive.ubuntu.com dapper-updates =
+Release.gpg=20
+      [189B] <BR>Get:4 http://security.ubuntu.com dapper-security =
+Release=20
+      [27.0kB] <BR>Get:5 http://archive.ubuntu.com dapper-backports =
+Release.gpg=20
+      [189B] <BR>Hit http://archive.ubuntu.com dapper Release <BR>Get:6=20
+      http://archive.ubuntu.com dapper-updates Release [27.0kB] <BR>Ign=20
+      http://packages.freecontrib.org dapper Release.gpg <BR>Ign=20
+      http://packages.freecontrib.org dapper Release <BR>Get:7=20
+      http://archive.ubuntu.com dapper-backports Release [19.6kB] =
+<BR>Ign=20
+      http://packages.freecontrib.org dapper/free Packages <BR>Get:8=20
+      http://security.ubuntu.com dapper-security/main Packages [14.4kB] =
+<BR>Hit=20
+      http://archive.ubuntu.com dapper/main Packages <BR>Get:9=20
+      http://archive.ubuntu.com dapper/restricted Packages [4571B] =
+<BR>Hit=20
+      http://archive.ubuntu.com dapper/main Sources <BR>Get:10=20
+      http://archive.ubuntu.com dapper/restricted Sources [1478B] =
+<BR>Hit=20
+      http://archive.ubuntu.com dapper/universe Packages <BR>Hit=20
+      http://archive.ubuntu.com dapper/universe Sources <BR>Get:11=20
+      http://archive.ubuntu.com dapper/multiverse Packages [95.2kB] =
+<BR>Ign=20
+      http://packages.freecontrib.org dapper/non-free Packages =
+<BR>Get:12=20
+      http://security.ubuntu.com dapper-security/restricted Packages =
+[14B]=20
+      <BR>Get:13 http://security.ubuntu.com dapper-security/main Sources =
+[3593B]=20
+      <BR>Get:14 http://security.ubuntu.com dapper-security/restricted =
+Sources=20
+      [14B] <BR>Get:15 http://security.ubuntu.com =
+dapper-security/universe=20
+      Packages [3762B] <BR>Get:16 http://security.ubuntu.com=20
+      dapper-security/universe Sources [14B] <BR>Ign=20
+      http://packages.freecontrib.org dapper/free Sources <BR>Ign=20
+      http://packages.freecontrib.org dapper/non-free Sources <BR>Get:17 =
+
+      http://archive.ubuntu.com dapper/multiverse Sources [46.6kB] =
+<BR>Hit=20
+      http://packages.freecontrib.org dapper/free Packages <BR>Get:18=20
+      http://archive.ubuntu.com dapper-updates/main Packages =
+[10.2kB]<BR>Get:19=20
+      http://archive.ubuntu.com dapper-updates/restricted Packages=20
+      [14B]<BR>Get:20 http://archive.ubuntu.com dapper-updates/main =
+Sources=20
+      [9006B]<BR>Get:21 http://archive.ubuntu.com =
+dapper-updates/restricted=20
+      Sources [14B]<BR>Get:22 http://archive.ubuntu.com =
+dapper-backports/main=20
+      Packages [14B]<BR>Get:23 http://archive.ubuntu.com=20
+      dapper-backports/restricted Packages [14B]<BR>Get:24=20
+      http://archive.ubuntu.com dapper-backports/universe Packages=20
+      [14B]<BR>Get:25 http://archive.ubuntu.com =
+dapper-backports/multiverse=20
+      Packages [14B]<BR>Hit http://packages.freecontrib.org =
+dapper/non-free=20
+      Packages<BR>Hit http://packages.freecontrib.org dapper/free =
+Sources<BR>Hit=20
+      http://packages.freecontrib.org dapper/non-free Sources<BR>Fetched =
+263kB=20
+      in 2s (89.0kB/s)<BR>Reading package lists... Done<BR>Reading =
+package=20
+      lists... Done<BR>Building dependency tree... Done<BR>Reading =
+extended=20
+      state information<BR>Initializing package states... =
+Done<BR>Building tag=20
+      database... Done<BR>The following NEW packages will be =
+automatically=20
+      installed:<BR>kspread kword-data libwv2-1c2<BR>The following NEW =
+packages=20
+      will be installed:<BR>kspread kword kword-data libwv2-1c2<BR>0 =
+packages=20
+      upgraded, 4 newly installed, 0 to remove and 0 not =
+upgraded.<BR>Need to=20
+      get 6613kB of archives. After unpacking 18.9MB will be used.<BR>Do =
+you=20
+      want to continue? [Y/n/?] y<BR>Writing extended state =
+information...=20
+      Done<BR>Get:1 http://archive.ubuntu.com dapper/main kspread=20
+      1:1.5.0-0ubuntu9 [2276kB]<BR>Get:2 http://archive.ubuntu.com =
+dapper/main=20
+      libwv2-1c2 0.2.2-5 [225kB]<BR>Get:3 http://archive.ubuntu.com =
+dapper/main=20
+      kword-data 1:1.5.0-0ubuntu9 [1590kB]<BR>Get:4 =
+http://archive.ubuntu.com=20
+      dapper/main kword 1:1.5.0-0ubuntu9 [2522kB]<BR>Fetched 6613kB in =
+45s=20
+      (146kB/s)<BR>Selecting previously deselected package =
+kspread.<BR>(Reading=20
+      database ... 110852 files and directories currently=20
+      installed.)<BR>Unpacking kspread (from=20
+      .../kspread_1%3a1.5.0-0ubuntu9_i386.deb) ...<BR>Selecting =
+previously=20
+      deselected package libwv2-1c2.<BR>Unpacking libwv2-1c2 (from=20
+      .../libwv2-1c2_0.2.2-5_i386.deb) ...<BR>Selecting previously =
+deselected=20
+      package kword-data.<BR>Unpacking kword-data (from=20
+      .../kword-data_1%3a1.5.0-0ubuntu9_all.deb) ...<BR>Selecting =
+previously=20
+      deselected package kword.<BR>Unpacking kword (from=20
+      .../kword_1%3a1.5.0-0ubuntu9_i386.deb) ...<BR>Setting up kspread=20
+      (1.5.0-0ubuntu9) ...
+      <P>Setting up libwv2-1c2 (0.2.2-5) ...=20
+      <P>Setting up kword-data (1.5.0-0ubuntu9) ...=20
+      <P>Setting up kword (1.5.0-0ubuntu9) ...=20
+      <P>username@ubuntu:~$ sudo aptitude remove kword<BR>Reading =
+package=20
+      lists... Done<BR>Building dependency tree... Done<BR>Reading =
+extended=20
+      state information<BR>Initializing package states... =
+Done<BR>Building tag=20
+      database... Done<BR><B>The following packages are unused and will =
+be=20
+      REMOVED:<BR>kspread kword-data libwv2-1c2<BR>The following =
+packages will=20
+      be REMOVED:<BR>kword</B><BR>0 packages upgraded, 0 newly =
+installed, 4 to=20
+      remove and 0 not upgraded.<BR>Need to get 0B of archives. After =
+unpacking=20
+      18.9MB will be freed.<BR>Do you want to continue? [Y/n/?] =
+y<BR>Writing=20
+      extended state information... Done<BR>(Reading database ... 111678 =
+files=20
+      and directories currently installed.)<BR>Removing kword =
+...<BR>Removing=20
+      kspread ...<BR>Removing kword-data ...<BR>Removing libwv2-1c2=20
+      ...<BR>username@ubuntu:~$</P></DIV>
+      <P><B>Apt-get Demonstration</B>:=20
+      <P>
+      <DIV class=3Dterminal>username@ubuntu:~$ sudo apt-get update =
+&amp;&amp; sudo=20
+      apt-get install kword<BR>Get:1 http://security.ubuntu.com =
+dapper-security=20
+      Release.gpg [189B]<BR>Get:2 http://archive.ubuntu.com dapper =
+Release.gpg=20
+      [189B]<BR>Get:3 http://archive.ubuntu.com dapper-updates =
+Release.gpg=20
+      [189B]<BR>Get:4 http://archive.ubuntu.com dapper-backports =
+Release.gpg=20
+      [189B]<BR>Hit http://security.ubuntu.com dapper-security =
+Release<BR>Hit=20
+      http://archive.ubuntu.com dapper Release<BR>Hit =
+http://archive.ubuntu.com=20
+      dapper-updates Release<BR>Hit http://security.ubuntu.com=20
+      dapper-security/main Packages<BR>Hit http://archive.ubuntu.com=20
+      dapper-backports Release<BR>Hit http://archive.ubuntu.com =
+dapper/main=20
+      Packages<BR>Hit http://archive.ubuntu.com dapper/restricted=20
+      Packages<BR>Hit http://archive.ubuntu.com dapper/main =
+Sources<BR>Ign=20
+      http://packages.freecontrib.org dapper Release.gpg<BR>Hit=20
+      http://security.ubuntu.com dapper-security/restricted =
+Packages<BR>Hit=20
+      http://security.ubuntu.com dapper-security/main Sources<BR>Hit=20
+      http://security.ubuntu.com dapper-security/restricted =
+Sources<BR>Hit=20
+      http://archive.ubuntu.com dapper/restricted Sources<BR>Hit=20
+      http://archive.ubuntu.com dapper/universe Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper/universe Sources<BR>Hit=20
+      http://archive.ubuntu.com dapper/multiverse Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper/multiverse Sources<BR>Ign=20
+      http://packages.freecontrib.org dapper Release<BR>Hit=20
+      http://archive.ubuntu.com dapper-updates/main Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper-updates/restricted =
+Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper-updates/main Sources<BR>Hit=20
+      http://archive.ubuntu.com dapper-updates/restricted Sources<BR>Hit =
+
+      http://security.ubuntu.com dapper-security/universe =
+Packages<BR>Hit=20
+      http://security.ubuntu.com dapper-security/universe Sources<BR>Ign =
+
+      http://packages.freecontrib.org dapper/free Packages<BR>Ign=20
+      http://packages.freecontrib.org dapper/non-free Packages<BR>Ign=20
+      http://packages.freecontrib.org dapper/free Sources<BR>Ign=20
+      http://packages.freecontrib.org dapper/non-free Sources<BR>Hit=20
+      http://packages.freecontrib.org dapper/free Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper-backports/main Packages<BR>Hit=20
+      http://packages.freecontrib.org dapper/non-free Packages<BR>Hit=20
+      http://packages.freecontrib.org dapper/free Sources<BR>Hit=20
+      http://archive.ubuntu.com dapper-backports/restricted =
+Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper-backports/universe =
+Packages<BR>Hit=20
+      http://archive.ubuntu.com dapper-backports/multiverse =
+Packages<BR>Hit=20
+      http://packages.freecontrib.org dapper/non-free Sources<BR>Fetched =
+4B in=20
+      2s (2B/s)<BR>Reading package lists... Done<BR>Reading package =
+lists...=20
+      Done<BR>Building dependency tree... Done<BR>The following extra =
+packages=20
+      will be installed:<BR>kspread kword-data libwv2-1c2<BR>Suggested=20
+      packages:<BR>koffice-doc-html<BR>The following NEW packages will =
+be=20
+      installed:<BR>kspread kword kword-data libwv2-1c2<BR>0 upgraded, 4 =
+newly=20
+      installed, 0 to remove and 0 not upgraded.<BR>Need to get =
+0B/6613kB of=20
+      archives.<BR>After unpacking 18.9MB of additional disk space will =
+be=20
+      used.<BR>Do you want to continue [Y/n]? y<BR>Selecting previously=20
+      deselected package kspread.<BR>(Reading database ... 110852 files =
+and=20
+      directories currently installed.)<BR>Unpacking kspread (from=20
+      .../kspread_1%3a1.5.0-0ubuntu9_i386.deb) ...<BR>Selecting =
+previously=20
+      deselected package libwv2-1c2.<BR>Unpacking libwv2-1c2 (from=20
+      .../libwv2-1c2_0.2.2-5_i386.deb) ...<BR>Selecting previously =
+deselected=20
+      package kword-data.<BR>Unpacking kword-data (from=20
+      .../kword-data_1%3a1.5.0-0ubuntu9_all.deb) ...<BR>Selecting =
+previously=20
+      deselected package kword.<BR>Unpacking kword (from=20
+      .../kword_1%3a1.5.0-0ubuntu9_i386.deb) ...<BR>Setting up kspread=20
+      (1.5.0-0ubuntu9) ...
+      <P>Setting up libwv2-1c2 (0.2.2-5) ...=20
+      <P>Setting up kword-data (1.5.0-0ubuntu9) ...=20
+      <P>Setting up kword (1.5.0-0ubuntu9) ...=20
+      <P>username@ubuntu:~$ sudo apt-get remove kword<BR>Reading package =
+
+      lists... Done<BR>Building dependency tree... Done<BR><B>The =
+following=20
+      packages will be REMOVED:<BR>kword</B><BR>0 upgraded, 0 newly =
+installed, 1=20
+      to remove and 0 not upgraded.<BR>Need to get 0B of =
+archives.<BR>After=20
+      unpacking 7000kB disk space will be freed.<BR>Do you want to =
+continue=20
+      [Y/n]? y<BR>(Reading database ... 111678 files and directories =
+currently=20
+      installed.)<BR>Removing kword ...<BR>username@ubuntu:~$ </P></DIV>
+      <P>
+      <CENTER>
+      <SCRIPT language=3DJavaScript>=0A=
+<!-- Javascripts resource by Hypergurl!! http://www.hypergurl.com -->=0A=
+<!-- hide script begin=0A=
+var m =3D "Page updated " + document.lastModified;=0A=
+var p =3D m.length-8;=0A=
+document.writeln("<center>");=0A=
+document.write(m.substring(p, 0));=0A=
+document.writeln("</center>");=0A=
+// End -->=0A=
+</SCRIPT>
+      </CENTER>
+      <P>
+      <P></P></DIV></TD></TR></TBODY></TABLE></BODY></HTML>
+
+------=_NextPart_000_0000_01C7A474.65609AE0
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://www.psychocats.net/ubuntu/styles.css
+
+A:link {
+	COLOR: #6d4c07; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #966b0e; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #9f7f39; TEXT-DECORATION: underline
+}
+A:active {
+	COLOR: #966b0e; TEXT-DECORATION: none
+}
+SPAN.terminal {
+	FONT-SIZE: 11pt; COLOR: #ff6309; FONT-FAMILY: courier new
+}
+DIV.terminal {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 11pt; =
+BORDER-LEFT-COLOR: #ffffff; BACKGROUND: #000000; BORDER-BOTTOM-COLOR: =
+#ffffff; PADDING-BOTTOM: 5px; MARGIN: 5px; COLOR: #ffffff; =
+BORDER-TOP-STYLE: double; BORDER-TOP-COLOR: #ffffff; PADDING-TOP: 5px; =
+FONT-FAMILY: courier new; BORDER-RIGHT-STYLE: double; BORDER-LEFT-STYLE: =
+double; BORDER-RIGHT-COLOR: #ffffff; BORDER-BOTTOM-STYLE: double
+}
+DIV.terminallimited {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; FONT-SIZE: 11pt; =
+BORDER-LEFT-COLOR: #ffffff; BACKGROUND: #000000; BORDER-BOTTOM-COLOR: =
+#ffffff; PADDING-BOTTOM: 5px; MARGIN: 5px; OVERFLOW: auto; WIDTH: 500px; =
+COLOR: #ffffff; BORDER-TOP-STYLE: double; BORDER-TOP-COLOR: #ffffff; =
+PADDING-TOP: 5px; FONT-FAMILY: courier new; BORDER-RIGHT-STYLE: double; =
+BORDER-LEFT-STYLE: double; BORDER-RIGHT-COLOR: #ffffff; =
+BORDER-BOTTOM-STYLE: double
+}
+DIV.regular {
+	FONT-SIZE: 11pt; COLOR: #000000
+}
+SPAN.title {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #ff6309
+}
+H1 {
+	FONT-SIZE: 16pt; MARGIN-BOTTOM: 1px; COLOR: #83807a
+}
+H2 {
+	FONT-SIZE: 15pt; MARGIN-BOTTOM: 1px; COLOR: #83807a
+}
+H3 {
+	FONT-SIZE: 14pt; MARGIN-BOTTOM: 1px; COLOR: #83807a
+}
+H4 {
+	FONT-SIZE: 13pt; MARGIN-BOTTOM: 1px; COLOR: #83807a
+}
+B {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #ff6309
+}
+
+------=_NextPart_000_0000_01C7A474.65609AE0--

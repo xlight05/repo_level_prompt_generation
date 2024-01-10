@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===========================================================================
+	//   SELECT - Result Map - get${sqlmap.model.javaName}Result
+	============================================================================ -->
+	<resultMap id="get${sqlmap.model.javaName}Result" class="${sqlmap.model.instanceName}">
+		<#list sqlmap.sqlMapFields as field>
+		<result property="${field.javaFieldName}" column="${field.databaseFieldName}" />
+		</#list>
+	</resultMap>
+
+	<!-- ===========================================================================
+	//   SELECT - selectByPrimaryKey
+	============================================================================ -->
+	<select id="selectByPrimaryKey" parameterClass="${sqlmap.model.instanceName}" resultMap="${sqlmap.model.javaName}.get${sqlmap.model.javaName}Result">
+		SELECT * FROM ${sqlmap.tableName}
+		WHERE
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName} = #${field.javaFieldName}#<#if field_has_next> AND</#if>
+			</#list>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - selectConjunctionAnywhere
+	============================================================================ -->
+	<select id="selectConjunctionAnywhere" parameterClass="${sqlmap.model.instanceName}" resultMap="${sqlmap.model.javaName}.get${sqlmap.model.javaName}Result">
+		SELECT * FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<!-- LIKE MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} LIKE #${field.javaFieldName},handler=${sqlmap.likeHandlerAlias}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+		ORDER BY
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName}<#if field_has_next>,</#if>
+			</#list>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - selectConjunctionExact
+	============================================================================ -->
+	<select id="selectConjunctionExact" parameterClass="${sqlmap.model.instanceName}" resultMap="${sqlmap.model.javaName}.get${sqlmap.model.javaName}Result">
+		SELECT * FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" AND " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+		ORDER BY
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName}<#if field_has_next>,</#if>
+			</#list>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - selectDisjunctionAnywhere
+	============================================================================ -->
+	<select id="selectDisjunctionAnywhere" parameterClass="${sqlmap.model.instanceName}" resultMap="${sqlmap.model.javaName}.get${sqlmap.model.javaName}Result">
+		SELECT * FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<!-- LIKE MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} LIKE #${field.javaFieldName},handler=${sqlmap.likeHandlerAlias}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+		ORDER BY
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName}<#if field_has_next>,</#if>
+			</#list>
+	</select>
+
+	<!-- ===========================================================================
+	//   SELECT - selectDisjunctionExact
+	============================================================================ -->
+	<select id="selectDisjunctionExact" parameterClass="${sqlmap.model.instanceName}" resultMap="${sqlmap.model.javaName}.get${sqlmap.model.javaName}Result">
+		SELECT * FROM ${sqlmap.tableName}
+		<dynamic prepend=" WHERE ">
+			<!-- EXACT MATCH -->
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.exactMatch>
+			<isNotNull prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotNull>
+			</#if>
+			</#list>
+			<#list sqlmap.sqlMapFields as field>
+			<#if field.likeMatch>
+			<isNotEmpty prepend=" OR " property="${field.javaFieldName}">${field.databaseFieldName} = #${field.javaFieldName}#</isNotEmpty>
+			</#if>
+			</#list>
+		</dynamic>
+		ORDER BY
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName}<#if field_has_next>,</#if>
+			</#list>
+	</select>

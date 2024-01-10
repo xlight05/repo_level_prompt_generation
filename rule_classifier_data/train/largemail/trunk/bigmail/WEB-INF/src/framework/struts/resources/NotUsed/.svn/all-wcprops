@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/resources/NotUsed
+END
+MessageResources.properties
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/resources/NotUsed/MessageResources.properties
+END
+dbpool.properties
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/resources/NotUsed/dbpool.properties
+END
+sample-config.properties
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/framework/struts/resources/NotUsed/sample-config.properties
+END

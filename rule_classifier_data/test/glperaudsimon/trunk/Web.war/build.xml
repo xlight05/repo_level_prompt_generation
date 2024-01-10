@@ -1,0 +1,43 @@
+<project>
+    <property name="srcdir" value="src" />
+    <property name="builddir" value="WEB-INF/classes" />
+	<property name="outputdir" value="fr.epsi.epsi5.Web" />
+	<property name="gwt.tmpdir" value=".gwt-tmp"/>
+	<property name="workspaceRoot" value="../"/>
+
+    <path id="classpath">
+    	<pathelement location="${srcdir}" />
+    	<pathelement location="${builddir}" />
+    	<pathelement location="${workspaceRoot}Entities/src"/>
+        <fileset dir="lib">
+            <include name="*.jar" />
+        </fileset>
+    </path>
+
+	<!-- ################################################# -->
+	<!-- # 				 Compilation GWT				 # -->
+	<!-- ################################################# -->
+	
+    <target name="gwt">
+        <sequential>
+        	<echo message="Compiling..."/>
+        	<taskdef resource="dk/contix/ant/gwt/ant-gwt.xml" classpathref="classpath" />
+        	<gwtcompile destdir="." optimize="true" loglevel="error" style="pretty">
+        		<fileset dir="${srcdir}">
+        	    	<include name="**/*.gwt.xml" />
+        	    </fileset>
+        	</gwtcompile>
+        	<echo message="Deleting temp files..."/>
+    		<delete includeEmptyDirs="true">
+    			<fileset dir="${gwt.tmpdir}"/>
+    		</delete>
+        </sequential>
+    </target>
+	
+	<target name="clean">
+        <delete includeEmptyDirs="true" failonerror="false">
+        	<fileset dir="${outputdir}"/>
+        	<fileset dir="${outputdir}-aux"/>
+		</delete>
+	</target>
+</project>

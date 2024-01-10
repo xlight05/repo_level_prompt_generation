@@ -1,0 +1,83 @@
+<rich:toolBar
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:rich="http://richfaces.org/rich">
+    <rich:toolBarGroup>
+        <h:outputText value="#{projectName}:"/>
+        <s:link view="/home.xhtml" value="Home" propagation="none"/>
+    </rich:toolBarGroup>
+    <s:link view="/PageDefinitionChildsList.xhtml"
+           value="PageDefinitionChilds List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/JmsMessagesList.xhtml"
+           value="JmsMessages List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/JmsRolesList.xhtml"
+           value="JmsRoles List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/JmsSubscriptionsList.xhtml"
+           value="JmsSubscriptions List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/PageDefinitionList.xhtml"
+           value="PageDefinition List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/DomainList.xhtml"
+           value="Domain List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/JmsUsersList.xhtml"
+           value="JmsUsers List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/ApplicationList.xhtml"
+           value="Application List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/PageContentList.xhtml"
+           value="PageContent List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/JmsTransactionsList.xhtml"
+           value="JmsTransactions List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/UsersList.xhtml"
+           value="Users List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/HilosequencesList.xhtml"
+           value="Hilosequences List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <s:link view="/TimersList.xhtml"
+           value="Timers List"
+     propagation="none">
+       <f:param name="from"/>
+    </s:link>
+    <!-- @newMenuItem@ -->
+    <rich:toolBarGroup location="right">
+        <h:outputText value="signed in as: #{identity.username}" rendered="#{identity.loggedIn}"/>
+        <s:link view="/login.xhtml" value="Login" rendered="#{not identity.loggedIn}" propagation="none"/>
+        <s:link view="/home.xhtml" action="#{identity.logout}" value="Logout" rendered="#{identity.loggedIn}" propagation="none"/>
+    </rich:toolBarGroup>
+</rich:toolBar>

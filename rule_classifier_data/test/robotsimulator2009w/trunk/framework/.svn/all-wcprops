@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/framework
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/2/trunk/framework/Makefile
+END
+CritterDriver.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/2/trunk/framework/CritterDriver.h
+END
+CritterDriver_debug.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/framework/CritterDriver_debug.cpp
+END
+CritterStateDrop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/framework/CritterStateDrop.cpp
+END
+RandomCommands.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/framework/RandomCommands.cpp
+END
+CritterControlDrop.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/2/trunk/framework/CritterControlDrop.cpp
+END
+CritterDriver_debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/2/trunk/framework/CritterDriver_debug.h
+END
+CritterViz.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/2/trunk/framework/CritterViz.cpp
+END
+SimulatorRobotInterface.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/framework/SimulatorRobotInterface.cpp
+END
+RandomCommands.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/framework/RandomCommands.h
+END
+CritterControlDrop.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/2/trunk/framework/CritterControlDrop.h
+END
+CritterStateDrop.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/framework/CritterStateDrop.h
+END
+Manager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/framework/Manager.cpp
+END
+CritterViz.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/2/trunk/framework/CritterViz.h
+END
+SimulatorRobotInterface.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/2/trunk/framework/SimulatorRobotInterface.h
+END
+Manager.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/2/trunk/framework/Manager.h
+END
+Photovore.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/2/trunk/framework/Photovore.cpp
+END
+CritterDriver.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/2/trunk/framework/CritterDriver.cpp
+END
+Photovore.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/2/trunk/framework/Photovore.h
+END

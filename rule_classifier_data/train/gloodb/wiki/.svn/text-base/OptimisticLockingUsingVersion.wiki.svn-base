@@ -1,0 +1,68 @@
+#summary Implementing locking
+
+= Optimistic Locking using @Version =
+
+Version a persistent class by annotating a numeric field with @Version. GlooDB uses the version field and implements an optimistic locking mechanism. The field type can be: byte, short, int, long, float, double, Byte, Short, Integer, Long, Float, Double, !BigInteger, !BigDecimal. Every update will increment the version by 1. 
+
+==== Example 1: Adding version to a persistent class ====
+{{{
+
+    public class PersistentObject implements Serializable {
+        @Identity String id;
+        @Version long version;
+
+         public PersistentObject(String id) {this.id = id;}
+         public changeObjectState() { ... }
+    }
+
+    repository.create(new PersistentObject("test));
+}}}
+
+
+==== Example 2: Optimistic locking failure in a non-transactional application ====
+{{{
+                 THREAD1                                                          THREAD2
+   Serializable obj = repository.restore("test");           
+                                                            Serializable obj = repository.restore("test");
+    obj.changeObjectState();
+    // The update increments the version
+    obj = repository.update(obj);
+                                                            obj.changeObjectState();
+                                                            // Update throws a LockingException
+                                                            // because the version is incorrect
+                                                            obj = repository.update(obj);  
+}}}
+
+==== Example 3: Optimistic locking failure due to dirty reads in a transactional application. ====
+{{{
+                 THREAD1                                                          THREAD2
+   // Potentially dirty read
+   Serializable obj = repository.restore("test");           
+                                                              // Potentially dirty read
+                                                              Serializable obj = repository.restore("test");
+    Repository tx = repository.begin();
+    try { 
+      obj.changeObjectState();
+      // The update increments the version
+      obj = tx.update(obj);
+      tx.commit();
+    } catch(LockingException le) {
+      tx.rollback();
+    }
+                                                              Repository tx = repository.begin();
+                                                              try {
+                                                                obj.changeObjectState();
+                                                                // Update throws a LockingException
+                                                                // because the version is incorrect
+                                                                obj = tx.update(obj);
+                                                                tx.commit();
+                                                              } catch(LockingException le) {
+                                                                tx.rollback();
+                                                              }                   
+}}}
+
+----
+[SpecifyingPersistentIdentity Previous] [CustomVersionManager Next]
+
+Related Test Cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/VersionIncrementTest.java VersionIncrementTest]

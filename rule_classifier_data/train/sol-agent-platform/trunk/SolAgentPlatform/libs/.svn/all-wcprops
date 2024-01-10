@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs
+END
+activation.jar
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/activation.jar
+END
+multihop_common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/multihop_common.jar
+END
+spotlib_host.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/spotlib_host.jar
+END
+mailapi.jar
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/mailapi.jar
+END
+spotclient_host.jar
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/spotclient_host.jar
+END
+RXTXcomm.jar
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/RXTXcomm.jar
+END
+pop3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/pop3.jar
+END
+mail.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/mail.jar
+END
+ipv6lib_common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/ipv6lib_common.jar
+END
+squawk_common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/squawk_common.jar
+END
+smtp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/smtp.jar
+END
+dsn.jar
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/dsn.jar
+END
+spotlib_common.jar
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/spotlib_common.jar
+END
+imap.jar
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/25/trunk/SolAgentPlatform/libs/imap.jar
+END
+signing_host.jar
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12/trunk/SolAgentPlatform/libs/signing_host.jar
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence
+END
+DatabaseUpdate.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/DatabaseUpdate.java
+END
+DatabaseConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/DatabaseConfig.java
+END
+DataListFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/DataListFactory.java
+END
+PersistenceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/PersistenceUtil.java
+END
+DatabaseConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/5/src/br/com/dyad/infrastructure/persistence/DatabaseConnection.java
+END

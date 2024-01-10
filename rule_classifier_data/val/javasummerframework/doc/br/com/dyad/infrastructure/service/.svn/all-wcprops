@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service
+END
+UserProfileService.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/UserProfileService.html
+END
+ConnectionService.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/ConnectionService.html
+END
+HibernateTree.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/HibernateTree.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/package-summary.html
+END
+RestoreServiceImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/RestoreServiceImpl.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/package-tree.html
+END
+LoginService.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/LoginService.html
+END
+LogoutService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/LogoutService.html
+END
+LookupService.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/LookupService.html
+END
+ClientWebService.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/ClientWebService.html
+END
+GetSessionId.html
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/GetSessionId.html
+END
+ConfirmPasswordService.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/ConfirmPasswordService.html
+END
+DyadService.html
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/DyadService.html
+END
+GetDatabaseFile.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/GetDatabaseFile.html
+END
+PersistenceService.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/PersistenceService.html
+END
+NavigatorService.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/NavigatorService.html
+END
+DataModelService.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/DataModelService.html
+END
+SendMailService.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/SendMailService.html
+END
+SynchronizerService.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/SynchronizerService.html
+END
+GenericServiceImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/GenericServiceImpl.html
+END

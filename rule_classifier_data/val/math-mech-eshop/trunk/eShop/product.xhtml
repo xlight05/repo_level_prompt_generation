@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+<ui:composition template="/mainTemplate.xhtml">
+	<ui:define name="content">
+		<f:loadBundle basename="ApplicationMessages" var="messages" />
+		<div class="product_on_own_page">
+			<c:if test="#{permissions.userHasRightTo['EditProduct']}">
+				<div class="product_edit_panel">
+					<h:outputLink value="admin/edit_product">
+						<f:param name="id" value="#{productPage.displayedProduct.id}" />
+						<h:outputText value="edit" />
+					</h:outputLink>
+				</div>
+			</c:if>
+			<div class="product_name">
+				<h3><h:outputText value="#{productPage.displayedProduct.name}" /></h3>
+			</div>
+			<div class="product_photo">
+				<a href="img/#{productPage.displayedProduct.photoFileName}" rel="photo" title="#{product.name}"> 
+				<img src="img/#{productPage.displayedProduct.photoFileName}"	width="100" /> </a>
+			</div>
+			<div class="product_description">
+				<h:outputText style="margin: 10px;" value="#{productPage.displayedProduct.description}" />
+			</div>
+			<div>
+			    <h:outputText value="Amount: #{productPage.displayedProduct.amount}"
+			    			  rendered="#{productPage.displayedProduct.amount > 0}"/>
+			    <h:outputText styleClass= "product_amount" value="Sorry...Product is absent at the moment"
+			    			  rendered="#{!(productPage.displayedProduct.amount > 0)}"/>
+			</div>
+			<div class="product_price">
+				<h:outputText value="#{productPage.displayedProduct.price} rur" />
+			</div>
+			<div class="product_price">
+				<h:form>
+					<h:commandLink action="#{productPage.addProductToCart}" >
+						<h:graphicImage value="images/cart.jpg"/>
+					</h:commandLink>
+				</h:form>
+			</div>
+		</div>
+		<div class="product_page_comments_list">
+			<h3><h:outputText value="Comments:" /></h3>
+			<c:forEach items="#{productPage.productComments}" var="comment">
+				<div class="product_comment">
+					<div class="comment_sender">
+						<h:outputText value="#{comment.sender.name}" 
+									rendered="#{comment.sender.name!=null}"/>
+						<h:outputText value="#{comment.sender.login}" 
+									rendered="#{comment.sender.name==null}"/>
+					</div>
+					<div class="comment_text">
+						<h:outputText value="#{comment.text}" />
+					</div>
+					<c:if test="#{permissions.userHasRightTo['DeleteComment']}">
+						<h:form >						
+							<div class="delete_comment_link">
+								<h:commandLink action="#{productPage.deleteComment}" value="delete" >
+									<f:param name="comment_id" value="#{comment.id}"/>
+								</h:commandLink>
+							</div>
+						</h:form>
+					</c:if>
+					
+				</div>
+			</c:forEach>
+		</div>
+		
+		<h:form enctype="multipart/form-data" rendered="#{permissions.userHasRightTo['WriteComment']}">
+			<h:inputTextarea value="#{productPage.comment.text}" required="true"/>
+			<h:commandButton action="#{productPage.sendComment}" value="send" />
+		</h:form>
+	</ui:define>
+</ui:composition>
+</html>

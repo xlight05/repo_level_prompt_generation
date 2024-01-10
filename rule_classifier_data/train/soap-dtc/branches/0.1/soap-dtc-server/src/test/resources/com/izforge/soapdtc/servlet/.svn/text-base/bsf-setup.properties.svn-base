@@ -1,0 +1,4 @@
+language = beanshell
+engine = bsh.util.BeanShellBSFEngine
+extensions = bsh,java
+resource = bsf-setup.bsh

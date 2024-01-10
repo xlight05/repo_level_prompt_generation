@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/7/trunk/web/resources/dojo/src
+END
+profile.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/profile.js
+END
+style.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/style.js
+END
+loader_xd.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/loader_xd.js
+END
+doc.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/doc.js
+END
+loader.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/loader.js
+END
+string.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/string.js
+END
+hostenv_wsh.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_wsh.js
+END
+data.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/data.js
+END
+json.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/json.js
+END
+date.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/date.js
+END
+hostenv_spidermonkey.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_spidermonkey.js
+END
+dom.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/dom.js
+END
+Deferred.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/Deferred.js
+END
+lang.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/lang.js
+END
+event.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/event.js
+END
+iCalendar.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/iCalendar.js
+END
+debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/debug.js
+END
+hostenv_browser.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_browser.js
+END
+flash.js
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/flash.js
+END
+experimental.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/experimental.js
+END
+bootstrap1.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/bootstrap1.js
+END
+behavior.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/behavior.js
+END
+hostenv_adobesvg.js
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_adobesvg.js
+END
+storage.js
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/storage.js
+END
+html.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/html.js
+END
+hostenv_svg.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_svg.js
+END
+io.js
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io.js
+END
+AdapterRegistry.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/AdapterRegistry.js
+END
+animation.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation.js
+END
+crypto.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/crypto.js
+END
+hostenv_jsc.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_jsc.js
+END
+hostenv_rhino.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_rhino.js
+END
+math.js
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/math.js
+END
+browser_debug.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/browser_debug.js
+END
+validate.js
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/validate.js
+END
+regexp.js
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/regexp.js
+END
+hostenv_dashboard.js
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/hostenv_dashboard.js
+END
+bootstrap2.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/bootstrap2.js
+END
+svg.js
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/svg.js
+END

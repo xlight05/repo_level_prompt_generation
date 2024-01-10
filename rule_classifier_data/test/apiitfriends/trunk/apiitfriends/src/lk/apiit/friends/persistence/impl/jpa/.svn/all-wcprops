@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/persistence/impl/jpa
+END
+UserDaoJpaImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/8/trunk/apiitfriends/src/lk/apiit/friends/persistence/impl/jpa/UserDaoJpaImpl.java
+END
+AbstractBaseDaoJpa.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/5/trunk/apiitfriends/src/lk/apiit/friends/persistence/impl/jpa/AbstractBaseDaoJpa.java
+END

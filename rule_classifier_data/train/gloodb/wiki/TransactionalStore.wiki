@@ -1,0 +1,54 @@
+#summary Tutorials: Storing a new persistent object with transactions.
+
+{{{
+                SimplePersistent persistentObject = new SimplePersistent("1");
+                persistentObject.setValue("Hello World");
+
+                Repository tx = repository.begin();
+                try {
+                        tx.store(persistentObject);
+                        tx.commit();
+                } catch (Exception ex) {
+                        tx.rollback();
+                }
+}}}
+
+ # Begin a transaction. The begin method returns a repository which internally is associated with the newly started transaction. 
+ # With the returned repository, store a persistent instance. 
+ # To complete the transaction, invoke commit. To undo the changes, invoke rollback.
+
+Until commit is invoked:
+ * other concurent transactions will not observe the store. Non-transactional operations on repository (i.e. top level transaction) does observe the not-yet-commited store.
+ * child transactions do observe the not-yet-commited store.
+ * the behaviour of the store method is same as the [NonTransactionalStore non-transactional store].
+
+Until commit or rollback are invoked on the transaction:
+ * the object identity is locked. Other concurrent transaction trying to create, remove or update this object will throw a !LockingException.
+
+*Note:* The persistent object is unchanged if the store throws and exception. However, the transaction is not marked for rollback only and it can commit.
+
+{{{
+                SimplePersistent persistentObject = new SimplePersistent("1");
+		persistentObject.setValue("First Value");
+		
+		Repository tx = repository.begin();
+		try {
+			tx.store(persistentObject);
+		} catch(KeyViolationException kve) {
+			// The transaction is unaffected by the exception and
+			// it can still commit or rollback.
+			tx.rollback();
+		} catch(Exception ex) {
+			tx.rollback();
+			throw ex;
+		}
+}}}
+
+----
+
+===== Related Articles =====
+ * [WritingASimplePersistentClass]
+ * [NonTransactionalStore]
+
+===== Related Tutorial Test Cases =====
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleStoreTest.java SimpleStoreTest]

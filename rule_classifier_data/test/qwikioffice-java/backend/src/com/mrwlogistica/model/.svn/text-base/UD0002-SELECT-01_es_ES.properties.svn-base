@@ -1,0 +1,10 @@
+_DML=SELECT CODIGO,NOMBRE,PAIS_CODIGO PAIS,REG_CODIGO RFREGION FROM T_REGION
+_DML_COLUMNS = {\
+                 "CODIGO":{"type":"String","mask":"","oper":"=","colname":"CODIGO"},\
+                 "NOMBRE":{"type":"String","mask":"","oper":"=","colname":"NOMBRE"},\
+                 "PAIS":{"type":"String","mask":"","oper":"=","colname":"PAIS_CODIGO"},\
+                 "RFREGION":{"type":"String","mask":"","oper":"=","colname":"REG_CODIGO"}\
+               }
+
+
+

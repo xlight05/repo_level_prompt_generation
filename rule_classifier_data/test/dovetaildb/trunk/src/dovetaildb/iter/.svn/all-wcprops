@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/40/trunk/src/dovetaildb/iter
+END
+LiteralIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/17/trunk/src/dovetaildb/iter/LiteralIter.java
+END
+EmptyIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/31/trunk/src/dovetaildb/iter/EmptyIter.java
+END
+MergeIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/40/trunk/src/dovetaildb/iter/MergeIter.java
+END
+Iter.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/40/trunk/src/dovetaildb/iter/Iter.java
+END
+AbstractIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/40/trunk/src/dovetaildb/iter/AbstractIter.java
+END
+SlicedIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/40/trunk/src/dovetaildb/iter/SlicedIter.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/15/Websphere
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/14/Websphere/build.gradle
+END
+settings.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/Websphere/settings.gradle
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/14/Websphere/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/14/Websphere/.project
+END

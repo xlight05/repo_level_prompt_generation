@@ -1,0 +1,60 @@
+<script>
+    $(document).ready(function(){
+        $("a#lvlConhecimento").lv();
+    });    
+</script>
+<div id="conteudoInterno">
+    <h1>{TIPO_FORMULARIO}</h1>
+    <form action="Controller" method="post" class="inline ajaxConteudo">
+        <input type="hidden" name="map" id="map" value="{ACAO_FORMULARIO}"/>
+        <fieldset>
+            <legend>Formul&aacute;rio</legend>
+
+            <input type="hidden" id="idtUsuario" name="idtUsuario" class="" value="{IDT_USUARIO}">
+
+            <label for="nmeUsuario" id="nmeUsuarioL">Nome:</label> <input type="text" id="nmeUsuario" name="nmeUsuario" class="required" value="{NME_USUARIO}"><br/>
+
+            <label for="usrLogin" id="usrLoginL">Login:</label> <input type="text" id="usrLogin" name="usrLogin" class="required" value="{USR_LOGIN}"><br/>
+
+            <label for="pwdLogin" id="pwdLoginL">Senha:</label> <input type="password" id="pwdLogin" name="pwdLogin" class="required password" value="{PWD_LOGIN}"><br/>
+
+            <label for="urlUsuario" id="urlUsuarioL">E-mail:</label> <input type="text" id="urlUsuario" name="urlUsuario" class="required email" value="{URL_USUARIO}"><br/>
+
+            <label for="endBloco" id="endBlocoL">Bloco:</label> <input type="text" id="endBloco" name="endBloco" class="" value="{END_BLOCO}"><br/>
+
+            <label for="endSala" id="endSalaL">Sala:</label> <input type="text" id="endSala" name="endSala" class="" value="{END_SALA}"><br/>
+
+            <label for="telRamal" id="telRamalL">Ramal:</label> <input type="text" id="telRamal" name="telRamal" class="" value="{TEL_RAMAL}"><br/>
+
+            <label for="obsUsuario" id="obsUsuarioL">Observa&ccedil;&atilde;o</label> <input type="text" id="obsUsuario" name="obsUsuario" class="" value="{OBS_USUARIO}"><br/>
+
+            <label id="lvlConhecimentoL">Nivel Conhecimento: </label>
+            <span id="lvlConhecimentoSpan">
+                <input type="hidden" id="codConhecimento" name="codConhecimento" class="" value="{COD_CONHECIMENTO}">
+                <input type="text" disabled="disabled" id="nmeConhecimento" name="nmeConhecimento" value="{NME_CONHECIMENTO}">
+                <a id="lvlConhecimento" class="lv" href="Controller?map=Templates_CRUDCompleto.lvConhecimento">LV</a>
+            </span><br/>
+
+            <label for="stsUsuario" id="stsUsuarioL">Status:</label>
+            <span class="radioset">
+                <input type="radio" id="stsUsuario1" name="stsUsuario" value="ativo" checked="checked"/><label for="stsUsuario1">Ativo</label>
+                <input type="radio" id="stsUsuario2" name="stsUsuario" value="inativo " /><label for="stsUsuario2">Inativo</label>
+            </span><br/>
+
+            <label for="idtPerfil" id="idtPerfilL">Permissoes: </label>
+            <select id="idtPerfil" class="multiselect" multiple="multiple" name="idtPerfil">
+                <option value="1">Administrador</option>
+                <option value="2" selected="selected" >Desenvolvedor</option>
+                <option value="3">Diretor</option>
+                <option value="4">Coordernador</option>
+                <option value="5">Tecnico</option>
+                <option value="6" selected="selected" >Funcionario</option>
+                <option value="7">Estagiario</option>
+                <option value="8">WebMaster</option>
+            </select>
+            <hr class="clearBoth"/><br/>
+            <a class="button submit">Confirmar</a><a class="button ajaxConteudo" href="Controller?map=Templates_CRUDCompleto.listar">Cancelar</a>
+
+        </fieldset>
+    </form>
+</div>

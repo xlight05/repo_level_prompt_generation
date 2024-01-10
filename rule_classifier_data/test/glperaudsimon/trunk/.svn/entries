@@ -1,0 +1,61 @@
+10
+
+dir
+172
+http://glperaudsimon.googlecode.com/svn/trunk
+http://glperaudsimon.googlecode.com/svn
+
+
+
+2009-03-16T22:28:33.680209Z
+172
+loiconline
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40912204-d03a-11dd-87b6-9d1a99559f42
+
+Web.war
+dir
+
+org.springframework.osgi.log4j.osgi.config
+dir
+
+LocalisationJavadoc
+dir
+
+DataSource
+dir
+
+DaoAndServices
+dir
+
+TargetPlatform
+dir
+
+LaunchLocalisation
+dir
+
+BundlesLauncher
+dir
+
+com.springsource.com.mchange.v2.c3p0-0.9.1.2.config
+dir
+
+Build
+dir
+
+Entities
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/328/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/WEB-INF
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/328/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/WEB-INF/faces-config.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/168/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/WEB-INF/web.xml
+END
+tobago-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/136/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/WEB-INF/tobago-config.xml
+END
+navigation.xml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/245/trunk/ftpserverremoteadmin/ftpserverremote-web/src/main/webapp/WEB-INF/navigation.xml
+END

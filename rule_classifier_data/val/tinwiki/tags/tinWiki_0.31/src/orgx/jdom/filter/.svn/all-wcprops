@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/Filter.java
+END
+OrFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/OrFilter.java
+END
+AndFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/AndFilter.java
+END
+AbstractFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/AbstractFilter.java
+END
+NegateFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/NegateFilter.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/package.html
+END
+ElementFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/ElementFilter.java
+END
+ContentFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/163/tags/tinWiki_0.31/src/orgx/jdom/filter/ContentFilter.java
+END

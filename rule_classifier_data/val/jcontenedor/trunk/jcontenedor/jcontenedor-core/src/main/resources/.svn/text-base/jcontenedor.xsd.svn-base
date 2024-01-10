@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns="http://www.jsemantic.jcontenedor/schema/contenedor"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.jsemantic.jcontenedor/schema/contenedor"
+    elementFormDefault="qualified"
+    attributeFormDefault="unqualified">
+
+   <xsd:element name="contenedor">
+      <xsd:complexType>
+      	<xsd:choice minOccurs="1" maxOccurs="unbounded">
+      		<xsd:element name="layer" type="xsd:string"/>
+      	</xsd:choice>
+      	<xsd:attribute name="id" type="xsd:ID"/>
+      </xsd:complexType>
+   </xsd:element>
+</xsd:schema>

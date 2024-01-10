@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin
+END
+runant.pl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/runant.pl
+END
+antRun.pl
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/antRun.pl
+END
+ant
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/ant
+END
+lcp.bat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/lcp.bat
+END
+complete-ant-cmd.pl
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/complete-ant-cmd.pl
+END
+ant.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/ant.cmd
+END
+envset.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/envset.cmd
+END
+ant.bat
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/ant.bat
+END
+antRun
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/antRun
+END
+runrc.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/runrc.cmd
+END
+antRun.bat
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/antRun.bat
+END
+antenv.cmd
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/antenv.cmd
+END
+runant.py
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/8/trunk/lib/apache-ant-1.6.5/bin/runant.py
+END

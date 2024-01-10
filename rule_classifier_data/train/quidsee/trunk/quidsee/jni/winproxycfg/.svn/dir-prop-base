@@ -1,0 +1,10 @@
+K 10
+svn:ignore
+V 35
+*.sdf
+ipch
+Release
+*.opensdf
+Debug
+
+END

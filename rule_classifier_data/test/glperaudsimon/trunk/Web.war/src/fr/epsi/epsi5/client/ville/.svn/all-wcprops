@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client/ville
+END
+VilleModificationPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client/ville/VilleModificationPanel.java
+END
+VilleSuppressionPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client/ville/VilleSuppressionPanel.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/153/trunk/Web.war/src/fr/epsi/epsi5/client/ville/package.html
+END
+VilleAjoutPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client/ville/VilleAjoutPanel.java
+END
+VilleWidget.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/171/trunk/Web.war/src/fr/epsi/epsi5/client/ville/VilleWidget.java
+END

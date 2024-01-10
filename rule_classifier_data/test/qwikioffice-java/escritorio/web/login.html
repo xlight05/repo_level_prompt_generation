@@ -1,0 +1,76 @@
+<!--
+    Document   : index
+    Created on : 03-mar-2010, 20:24:26
+    Author     : rcp
+-->
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Bienvenido</title>
+
+<!-- EXT -->
+<link rel="stylesheet" type="text/css" href="../Ext/2.2/resources/css/ext-all.css" />
+<script src="../Ext/2.2/adapter/ext/ext-base.js"></script>
+<script src="../Ext/2.2/ext-all.js"></script>
+
+
+<!-- LOGIN -->
+
+<link rel="stylesheet" type="text/css" href="system/login/shared.css" />
+<script src="system/login/cookies.js"></script>
+<script src="system/login/login.js"></script>
+
+<!--
+<script>
+     Ext.onReady(function(){alert(Ext.version);});
+</script>
+-->
+
+</head>
+
+<body>
+
+<div id="qo-login-panel">
+	<img src="system/login/images/blank.gif" class="qo-login-logo qo-abs-position" />
+	
+	<div class="qo-login-benefits qo-abs-position">
+		<b><p>Un entorno de escritorio familiar donde puedes acceder a todas tus aplicaciones web desde una única página</p>
+		<p>Cambia el tema, el fondo y los colores que desees</p></b>
+		<p>Todo ello desarrollado con el framework <a href="http://www.extjs.com/" target="_blank">Ext JS</a> .</p>
+	
+        </div>
+	
+	<img src="system/login/images/blank.gif" class="qo-login-screenshot qo-abs-position" />
+	
+	<span class="qo-login-supported qo-abs-position">
+		<b>Navegadores soportados</b><br/>
+		<a href="http://www.mozilla.org/download.html" target="_blank">Firefox 2+</a><br />
+		<a href="http://www.microsoft.com/windows/downloads/ie/getitnow.mspx" target="_blank">Internet Explorer 7+</a><br />
+		<a href="http://www.opera.com/download/" target="_blank">Opera 9+</a><br />
+		<a href="http://www.apple.com/safari/download/" target="_blank">Safari 2+</a>
+	</span>
+	<!--
+	<span class="qo-login-signup qo-abs-position">
+		<a href="#">I want to sign up</a>
+	</span>
+	
+	<span class="qo-login-forgot qo-abs-position">
+		<a href="#">I forgot my password</a>
+	</span>
+	-->
+	<label id="field1-label" class="qo-abs-position" accesskey="e" for="field1"><b><span class="key">U</span>suario</b></label>
+	<input class="qo-abs-position" type="text" name="field1" id="field1" value="demo" />
+	
+	<label id="field2-label" class="qo-abs-position" accesskey="p" for="field2"><b><span class="key">C</span>ontraseña</b></label>
+	<input class="qo-abs-position" type="password" name="field2" id="field2" value="demo" />
+	
+	<label id="field3-label" class="qo-abs-position" accesskey="g" for="field3"><b><span class="key">G</span>rupo</b></label>
+	<select class="qo-abs-position" name="field3" id="field3" ></select>
+	
+	<input id="submitBtn" class="qo-login-submit qo-abs-position" type="image" src="system/login/images/blank.gif" />
+</div>
+
+</body>
+</html>

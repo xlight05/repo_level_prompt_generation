@@ -1,0 +1,29 @@
+<ui:fragment xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:sl="http://seamlets.org/jsf/facelets"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich">
+    <a4j:loadStyle src="resource:///org/seamlets/cms/components/tab/security/security.css" />
+    
+    <div class="securityTab">
+    	<rich:tabPanel switchType="ajax" id="adminTabs" 
+    		width="100%" height="100%"
+			selectedTab="#{securityTab.selectedTab}">
+	        <rich:tab id="userTab"
+	        	label="#{messages['tab.usersAdmin']}">
+	        	<sl:stream uri="/org/seamlets/cms/components/tab/security/user/UserAdmin.xhtml" />
+	        </rich:tab>
+	        <rich:tab id="groupTab"
+				label="#{messages['tab.groupsAdmin']}">
+	            <sl:stream uri="/org/seamlets/cms/components/tab/security/role/RoleAdmin.xhtml" />
+	        </rich:tab>
+<!--	        <rich:tab id="permissionTab"-->
+<!--	        	label="#{messages['tab.permissionsAdmin']}">-->
+<!--	            <sl:stream uri="/org/seamlets/cms/components/tab/security/permission/PermissionAdmin.xhtml" />-->
+<!--	        </rich:tab>-->
+	    </rich:tabPanel>
+    </div>
+</ui:fragment>

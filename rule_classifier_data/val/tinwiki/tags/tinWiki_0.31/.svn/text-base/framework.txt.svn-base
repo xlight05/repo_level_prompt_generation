@@ -1,0 +1,85 @@
+== Dynamic Web Project set to J2EE 1.4 (Feb 9, 2006)
+
+name: tinWiki
+Target server v6.0
+EAR: tinWikiEAR
+Context Root: tinWiki
+Add supported for annotated Java classes: yes
+
+J2EE level: 1.4
+Java version: J2RE 1.4.2
+Servlet Specification Level: 2.4
+Supported JSP Specification Level: 2.0
+
+Development Environment Currently Used: IBM Rational Software Architect 6.0.1
+
+== Web Features
+
+Web Diagram
+Utility Tag Libraries
+Struts 1.1
+
+== Struts 1.1 (except for commons-digester.jar) verified against version distributed by Jakarta (Added Feb 9, 2005) [Tin]
+
+Struts Framework 1.1 added during project creation by RAD Arch 6.0.0.1.
+
+commons-beanutils.jar
+commons-collections.jar
+commons-digester.jar (IBM distribution does not include rss-0.91.dtd and rss-0.9.dtd)
+commons-fileupload.jar
+commons-lang.jar
+commons-logging.jar
+commons-validator.jar
+jakarta-oro.jar
+struts.jar
+struts-bean.tld
+struts-config.xml
+struts-html.tld
+struts-logic.tld
+struts-nested.tld
+struts-template.tld
+struts-tiles.tld
+
+== Utility Tag Libraries with RAD 6.0.0.1 taken from org.apache.taglibs (Added Feb 9, 2005) [Tin]
+
+taglibs-datetime.jar
+taglibs-mailer.jar
+taglibs-string.jar
+utility.jar
+
+== Tiny MCE 2.0.2 (Added Feb 9, 2005) [Tin]
+
+fileName: tinymce_2_0_2.zip
+WebContent\tinymce\*.*
+
+- upgraded to 2.0.5.1 Mar 28, 2005
+
+== JDOM 1.0 (Added Dec 28, 2006) [Tin]
+
+*** JDOM 1.0 Beta 7 is in WebSphere 6.0's own library and collides.
+jaxen-core.jar
+jaxen-jdom.jar
+jdom.jar
+saxpath.jar
+xerces.jar
+xml-apis.jar
+
+*** instead I import source and change org.jdom to x.jdom and include,
+
+jaxen-core.jar
+jaxen-jdom.jar
+saxpath.jar
+
+== SiteMesh 2.3 (Added Nov 6, 2007) [Tin]
+
+sitemesh-2.2.1.jar
+sitemesh-decorator.tld
+sitemesh-page.tld
+
+== YUI Library - Fonts 2.4.0 (Added Dec 9, 2007) [Tin]
+yui\fonts\fonts.css
+yui\fonts\fonts-min.css
+yui\fonts\README
+yui\reset\README
+yui\reset\reset.css
+yui\reset\reset-min.css

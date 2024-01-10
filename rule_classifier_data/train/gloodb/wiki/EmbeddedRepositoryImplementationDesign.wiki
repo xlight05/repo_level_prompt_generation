@@ -1,0 +1,13 @@
+#summary Embedded repository design overview.
+#labels Phase-Design
+
+[http://gloodb.googlecode.com/svn/wiki/GlooDB%20Design.png]
+
+The Repository is a map between object ids and persistent objects. Repository transactions are changes to this map and / or to the persistent objects. For example: 
+ * Create: adds an entry into the object map with the object identity as a key and the persisted object as a value. 
+ * Update: the persistent object having the specified identity is updated.
+ * Remove: the persisted object having the specified identity is removed from the storage and its map entry is deleted.
+
+Each transaction is persisted in a transaction log. At the transaction log head is the initial state of the object map. On system restart, the initial state of the object map is loaded then all transactions are applied to it resulting into the final / current map state.
+
+Object values are not stored directly in the object map, but through a storage proxy. The storage proxy contains storage address information. Object instances are retrieved from storage using this address. Depending on the storage implementation, storage operations can be time lengthy (e.g. a file based storage has to perform disk i/o and serialization / deserialization in order to save or retrieve the object). To speed up access, the storage proxy caches the proxied object value. 

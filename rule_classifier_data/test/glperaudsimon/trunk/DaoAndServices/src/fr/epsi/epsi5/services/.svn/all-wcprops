@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/151/trunk/DaoAndServices/src/fr/epsi/epsi5/services
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/151/trunk/DaoAndServices/src/fr/epsi/epsi5/services/package.html
+END
+VilleServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/151/trunk/DaoAndServices/src/fr/epsi/epsi5/services/VilleServiceImpl.java
+END
+PaysServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/151/trunk/DaoAndServices/src/fr/epsi/epsi5/services/PaysServiceImpl.java
+END
+IVilleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/94/trunk/DaoAndServices/src/fr/epsi/epsi5/services/IVilleService.java
+END
+IPaysService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/94/trunk/DaoAndServices/src/fr/epsi/epsi5/services/IPaysService.java
+END

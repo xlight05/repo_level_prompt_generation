@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/366/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/server
+END
+ServerManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/344/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/server/ServerManager.java
+END
+ServerManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/344/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/server/ServerManagerImpl.java
+END
+ServerHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/366/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/server/ServerHelper.java
+END

@@ -1,0 +1,145 @@
+<!--
+    Document   : crud-poucos_registros
+    Created on : 20/05/2011, 22:49:41
+    Author     : André
+-->
+<div id="conteudoInterno">
+    <div class="listagemCrud">
+        <h2>CRUD - Muchos Registros</h2>
+
+        <div id="TextoApresentacao">
+            <p>Esta es la pantalla que presenta los registros, mientras muchos, para los  alterar, los adicionar o los eliminar del DB (CRUD).</p>
+        </div>
+
+        <div id="IncluirRegistro" align="right">
+            <b>Añadir Nuevo Registro</b>
+            <a href="#"><img src="imagens/icones/register_add.gif" alt="add"/></a>&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+
+        <fieldset style="padding-bottom: 10px; padding-top: 10px;">
+            <legend>Lista de Registros</legend>
+            <table class="tabbedtable" width="100%" id="registros" style="border-style: dotted; border-width: 1px; border-color: #A60000;">
+                <tbody>
+                    <tr>
+                        <td>
+                            <input type="text" value="Nome do Registro" id="pesquisaRegistro">
+                            <input type="button" value="Pesquisar">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="nomeRegistro" width="40%">
+                            <b>Registro 1</b>
+                        </td>
+                        <td id="atributo1" width="25%">
+                            Atributo 1
+                        </td>
+                        <td id="atributo2" width="25%">
+                            Atributo 2
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_edit.png" alt="edit" border="0" /></a>
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_delete.gif" alt="del" border="0"/></a>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="nomeRegistro" width="40%">
+                            <b>Registro 2</b>
+                        </td>
+                        <td id="atributo1" width="25%">
+                            Atributo 1
+                        </td>
+                        <td id="atributo2" width="25%">
+                            Atributo 2
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_edit.png" alt="edit" border="0" /></a>
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_delete.gif" alt="del" border="0"/></a>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td id="nomeRegistro" width="40%">
+                            <b>Registro 3</b>
+                        </td>
+                        <td id="atributo1" width="25%">
+                            Atributo 1
+                        </td>
+                        <td id="atributo2" width="25%">
+                            Atributo 2
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_edit.png" alt="edit" border="0" /></a>
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_delete.gif" alt="del" border="0"/></a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="nomeRegistro" width="40%">
+                            <b>Registro 4</b>
+                        </td>
+                        <td id="atributo1" width="25%">
+                            Atributo 1
+                        </td>
+                        <td id="atributo2" width="25%">
+                            Atributo 2
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_edit.png" alt="edit" border="0" /></a>
+                        </td>
+                        <td width="5%">
+                            <a href="#" ><img src="imagens/icones/register_delete.gif" alt="del" border="0"/></a>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="nomeRegistro" width="40%">
+                            <b>Registro 5</b>
+                        </td>
+                        <td id="atributo1" width="25%">
+                            Atributo 1
+                        </td>
+                        <td id="atributo2" width="25%">
+                            Atributo 2
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_edit.png" alt="edit" border="0" /></a>
+                        </td>
+                        <td width="5%">
+                            <a href="#"><img src="imagens/icones/register_delete.gif" alt="del" border="0"/></a>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="paginacao">
+                <ul class="right">
+                    <li class="ui-state-default ui-corner-all seta"><a href="#" class="ui-icon ui-icon-triangle-1-w">Página Anterior</a></li>
+                    <li class="ui-state-default ui-corner-all ui-state-hover">1</li>
+                    <li class="ui-state-default ui-corner-all"><a href="#">2</a></li>
+                    <li class="ui-state-default ui-corner-all"><a href="#">3</a></li>
+                    <li class="ui-state-default ui-corner-all seta last"><a href="#" class="ui-icon ui-icon-triangle-1-e">Próxima Página</a></li>
+
+                </ul>
+            </div>
+        </fieldset>
+    </div>
+</div>
+<script type="text/javascript">
+    $(document).ready(function (){
+    
+
+        $("#pesquisaRegistro").focus(function (){
+            $("#pesquisaRegistro").val("");
+        });
+    });
+</script>

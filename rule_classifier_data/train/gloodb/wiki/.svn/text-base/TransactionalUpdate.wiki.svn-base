@@ -1,0 +1,56 @@
+#summary Tutorials: Updating an object using transactions.
+
+{{{
+		Repository tx = repository.begin();
+		try {
+                        Serializable persistentObject = tx.restore(id);
+
+                        // ... modify the persistentObject
+
+			tx.update(persistentObject);
+			tx.commit();
+		} catch (GlooException ex) {
+			tx.rollback();
+		}
+
+
+}}}
+
+ # Begin a transaction and restore the object from the repository.
+ # Set any of the object properties to new values. 
+ # Update the object in the repository and commit the transaction. To undo the changes invoke rollback.
+
+Until commit is invoked:
+ * other concurent transactions do not observe the updated object. Non-transactional operations on repository (i.e. top level transaction) do observe the not-yet-commited update.
+ * child transactions do observe the not-yet-commited update.
+ * the behaviour of the update method is same as the [NonTransactionalUpdate non-transactional update].
+
+Until commit or rollback are invoked on the transaction:
+ * the object identity is locked. Other concurrent transaction trying to create, remove or update this object will throw a !LockingException.
+
+
+*Note:* The object is not updated when update throws and exception. However the transaction is not marked for rollback and it can commit.
+
+{{{
+    		Repository tx = repository.begin();
+		try {
+                        Serializable persistentObject = tx.restore(id);
+
+                        // ... update code here
+
+			tx.update(persistentObject);
+		} catch(LockingException le) {
+			// The transaction is unaffected by the exception and
+			// it can still commit or rollback.
+			tx.rollback();
+		} catch(Exception ex) {
+			tx.rollback();
+			throw ex;
+		}
+}}}
+----
+Related tutorial articles:
+ * NonTransactionalUpdate
+Related tutorial test cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleUpdateTest.java SimpleUpdateTest]
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/UpdateWithPersistentNotFoundTest.java UpdateWithPersistentNotFoundTest]

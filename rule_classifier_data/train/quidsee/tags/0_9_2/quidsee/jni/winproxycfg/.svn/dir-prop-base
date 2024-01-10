@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 29
+*.sdf
+ipch
+Release
+*.opensdf
+
+END

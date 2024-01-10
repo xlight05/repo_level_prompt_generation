@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+	
+	<bean id="handlerMapping" class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"/>
+	   
+    <bean id="jspViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+  		<property name="prefix" value="/WEB-INF/jsp/"/>
+  		<property name="suffix" value=".html"/>
+  		<property name="order" value="1"/>
+	</bean>
+	
+	 <bean id="localeResolver" class="org.springframework.web.servlet.i18n.FixedLocaleResolver">
+        <constructor-arg value="es_ES" />    
+    </bean> 
+	
+</beans>
+
+
+
+
+

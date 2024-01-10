@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/273/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr
+END
+TxLogTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/132/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/TxLogTestBase.java
+END
+GetVersionTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/GetVersionTransaction.java
+END
+BadTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/BadTransaction.java
+END
+MockManagedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/MockManagedObject.java
+END
+MockTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/MockTransaction.java
+END
+IncrementVersionTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/IncrementVersionTransaction.java
+END
+TxManagerTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/273/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/TxManagerTestBase.java
+END
+IncrementAndGetVersionTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/64/trunk/GlooDB/GlooDBImpl/src/test/java/gloodb/txmgr/IncrementAndGetVersionTransaction.java
+END

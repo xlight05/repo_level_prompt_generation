@@ -1,0 +1,3 @@
+#!/bin/sh
+APPDIR=`dirname $0`;
+java  -Xmx256M -cp "$APPDIR/src:$APPDIR/bin:/opt/gwt/gwt-user.jar:/opt/gwt/gwt-dev-linux.jar:$APPDIR/lib/gwtext.jar" com.google.gwt.dev.GWTShell -out "$APPDIR/www" "$@" org.zls.HUCourses/HUCourses.html;

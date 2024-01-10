@@ -1,0 +1,85 @@
+<s:div id="left" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{pageInfo.showNavigationView}">
+	<h:form styleClass="navigationToolbar" id="navigationForm">
+	    <rich:panel bodyClass="navigationpanelBody" styleClass="navigationpanel" headerClass="navigationHeader">
+	        <f:facet name="header">
+	       		#{messages['admin.navigation.header']}
+	        </f:facet>
+		    	<rich:toolBar height="34" styleClass="navigationToolbar" itemSeparator="line">
+		    		<rich:toolBarGroup location="right" itemSeparator="line">
+		    			<h:commandLink action="#{addPageAction.showDialog}" 
+		    				rendered="#{not addPageAction.disabled}"
+		    				reRender="panels">
+		    				<h:graphicImage value="/img/admingui/addPage.png" styleClass="hover" 
+		    					width="24" title="#{messages['admin.navigation.addpage']}"/>
+		    			</h:commandLink>
+		    			<h:graphicImage value="/img/admingui/addPage_dis.png"
+		    					rendered="#{addPageAction.disabled}" 
+		    					width="24" title="#{messages['admin.navigation.addpage']}"/>
+		    					
+		    			<h:commandLink action="#{addFolderAction.showDialog}"
+		    				rendered="#{not addFolderAction.disabled}" 
+		    				reRender="panels">
+		    				<h:graphicImage value="/img/admingui/addFolder.png" styleClass="hover" 
+		    					width="24" title="#{messages['admin.navigation.addfolder']}"/>
+		    			</h:commandLink>
+		    			<h:graphicImage value="/img/admingui/addFolder_dis.png"
+		    					rendered="#{addFolderAction.disabled}" 
+		    					width="24" title="#{messages['admin.navigation.addfolder']}"/>
+		    					
+		    			<h:commandLink action="#{addDomainAction.showDialog}" 
+		    				reRender="panels">
+		    				<h:graphicImage value="/img/admingui/addDomain.png" styleClass="hover" 
+		    					width="24" title="#{messages['admin.navigation.adddomain']}"/>
+		    			</h:commandLink>
+					</rich:toolBarGroup>
+				</rich:toolBar>
+				<rich:tree id="navigationTree" style="width:220px"
+					reRender="cmscontent, navigationForm" changeExpandListener="#{navigationTreeStateAdviser.processExpansion}"
+					switchType="ajax" stateAdvisor="#{navigationTreeStateAdviser}" 
+					nodeSelectListener="#{navigationTreeStateAdviser.processSelection}" ajaxSubmitSelection="true">
+					
+	            	<rich:treeNodesAdaptor nodes="#{applicationController.aktiveApplication}" var="applicationNode" >
+	            		<rich:treeNode icon="/img/admingui/application_treenode.png"
+	            			iconLeaf="/img/admingui/application_treenode.png">
+	            			<h:outputText value="#{applicationNode.name}" />
+	            		</rich:treeNode>
+	            		
+	            		<rich:treeNodesAdaptor nodes="#{applicationNode.domains}" var="domainNode">
+	            			<rich:treeNode icon="/img/admingui/domain_treenode.png"
+		            			iconLeaf="/img/admingui/domain_treenode.png">
+		            			<h:outputText value="#{domainNode.rootUrl}" />
+		            		</rich:treeNode>
+		            		
+		            		<rich:recursiveTreeNodesAdaptor roots="#{domainNode.rootFolders}" var="folderNode" nodes="#{folderNode.navigationFolders}">
+		            			<rich:treeNode icon="/img/admingui/folder_treenode.png"
+			            			iconLeaf="/img/admingui/folder_treenode.png">
+			            			<h:outputText value="#{folderNode.name}" />
+			            		</rich:treeNode>
+			            		<rich:treeNodesAdaptor nodes="#{folderNode.pages}" var="pageNode">
+			            			<rich:treeNode icon="/img/admingui/page_treenode.png"
+				            			iconLeaf="/img/admingui/page_treenode.png">
+			            				<h:outputText value="#{pageNode.displayName}" />
+			            			</rich:treeNode>
+			            		</rich:treeNodesAdaptor>
+		            		</rich:recursiveTreeNodesAdaptor>
+		            		
+		            		<rich:treeNodesAdaptor nodes="#{domainNode.rootPages}" var="pageNode">
+		            			<rich:treeNode icon="/img/admingui/page_treenode.png"
+			            			iconLeaf="/img/admingui/page_treenode.png">
+		            				<h:outputText value="#{pageNode.displayName}" />
+		            			</rich:treeNode>
+		            		</rich:treeNodesAdaptor>
+		            		
+	            		</rich:treeNodesAdaptor>
+	            	</rich:treeNodesAdaptor>
+	        	</rich:tree>
+	    </rich:panel>
+    </h:form> 
+</s:div>

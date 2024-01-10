@@ -1,0 +1,99 @@
+#summary Introduction to persistency interceptors.
+
+= Persistency Interceptors =
+
+Interceptors are persistent singletons implementing the Interceptor interface. Interceptors get called around the pre / post callbacks every time instances of intercepted classes change their persistent state (create, update or remove). 
+
+Three key concepts are:
+ * interceptors implement the Interceptor interface and have a class level @Identity.
+ * persistent classes declare their interceptors using @Intercepted annotation.
+ * interceptors must exist before updating intercepted objects. The programmer can use a !RepositoryInitializer to create interceptors at repository startup.
+
+==== Example 1: Declaring an interceptor class ====
+{{{
+   @Identity
+   public class FooInterceptor implements Interceptor<Foo> {
+   
+   public void before(Class<? extends Annotation> annotationClass, Repository repository, Foo foo) throws Exception {
+       // Method is called BEFORE an update callbacks would get invoked (e.g. Pre / Post Create, Update and Remove). 
+       // The callback itself doesn't necessarily have to be declared.
+       if(PreCreate.class.equals(annotation) {
+             // Do something before invoking PreCreate callback on the foo object
+             // Throwing an exception here would prevent object creation (acts as a constraint).
+       } else if(PostCreate.class.equals(annotation) {
+            // Do something before invoking PostCreate callback on the foo object
+            // Throwing an exception here would require undoing / rollback of the state change.
+       } 
+   }
+      
+    public void after(Class<? extends Annotation> annotationClass, Repository repository, Foo foo) throws Exception {
+       // Method is called AFTER an update callbacks would get invoked (e.g. Pre / Post Create, Update and Remove). 
+       // The callback itself doesn't necessarily have to be declared.
+      if(PreCreate.class.equals(annotation) {
+          // Do something after invoking PreCreate callback on the foo object
+          // Throwing an exception here would prevent object creation (acts as a constraint).
+       } else if(PostCreate.class.equals(annotation) {
+          // Do something after invoking PostCreate callback on the foo object
+          // Throwing an exception here would require undoing / rollback of the state change.
+      }
+   }
+}}}
+
+==== Example 2: Intercepting a persistent class ====
+{{{
+  @Intercepted({FooInterceptor.class, SomeOtherInterceptor.class})
+  public class Foo implements Serializable {
+      @Identity private final Serializable id;
+
+       ...
+     
+      @PreCreate
+      void preCreate(Repository repository) {
+            // FooInterceptor is invoked before and after this call. 
+      }
+
+     // The interceptor gets invoked around the PostCreate event regardless the class defines a 
+     // a PostCreate callback or not
+  }
+}}}
+
+==== Example 3: Using !ExpressionedInterceptor utility to implement interceptors ====
+{{{
+   @Identity
+   public class FooInterceptor extends ExpressionedInterceptor<Foo> {
+      public FooInterceptor() {
+        super();
+        // Before PreCreate, PreUpdate
+        adviceBefore(new InterceptorMethod<Foo>() {
+           @Override
+           protected InterceptorMethod<Foo> evaluate(Foo foo, Class<? extends Annotation> clazz, Repository repository)  {
+                // ... your before PreCreate, PreUpdate code goes here ...
+                // ... don't forget to persist your data
+
+                // Return null to end the processing here or a new InterceptorMethod to continue.
+                return null;
+        }}, PreCreate.class, PreUpdate.class);
+
+        // After PostUpdate, PostCreate
+        adviceAfter(new InterceptorMethod<Foo>() {
+           @Override
+           protected InterceptorMethod<Foo> evaluate(Foo foo, Class<? extends Annotation> clazz, Repository repository)  {
+                // ... your after PostCreate, PostUpdate code goes here ...
+                // ... don't forget to persist your data
+
+                // Return null to end the processing here or a new InterceptorMethod to continue.
+                return null;
+        }}, PostCreate.class, PostUpdate.class);
+      }
+
+     @Override
+     public Object clone() {
+         return super.clone();
+     }
+   }
+}}}
+----
+[PersistencyCallbacks Previous] [ImplementingLazyLoading Next]
+
+Related Test Cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/InterceptorAndCallbacksTestBase.java InterceptorAndCallbackTestBase]

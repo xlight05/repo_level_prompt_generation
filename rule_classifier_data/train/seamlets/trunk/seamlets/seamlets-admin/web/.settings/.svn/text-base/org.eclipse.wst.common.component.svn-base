@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="seamlets-admin-web-1.0.0.A1-SNAPSHOT">
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+		<wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/seamlets-core/seamlets-core">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/seamlets-components-core/seamlets-components-core">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/seamlets-facelets/seamlets-facelets">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/seamlets-security/seamlets-security">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+<dependent-module deploy-path="/WEB-INF/lib" handle="module:/resource/seamlets-resource/seamlets-resource">
+<dependency-type>uses</dependency-type>
+</dependent-module>
+		<property name="java-output-path" value="target/classes"/>
+		<property name="context-root" value="admin"/>
+	</wb-module>
+</project-modules>

@@ -1,0 +1,1292 @@
+Revision: 37
+Author: waasiri
+Date: 2:12:47 PM, Wednesday, 4 October 2006
+Message:
+Work log addition initial
+----
+Added : /trunk/worklog/worklog - Asiri Wanigarathne.txt
+
+
+Revision: 36
+Author: captainhall
+Date: 12:09:01 PM, Wednesday, 4 October 2006
+Message:
+
+----
+Added : /trunk/test/OperationHandlerTest.java
+
+
+Revision: 35
+Author: captainhall
+Date: 12:05:54 PM, Wednesday, 4 October 2006
+Message:
+
+----
+Added : /trunk/lib/junit-4.1.jar
+
+
+Revision: 34
+Author: captainhall
+Date: 11:40:47 AM, Wednesday, 4 October 2006
+Message:
+
+----
+Added : /trunk/spike/ASM 3.0 and Code Metrics Library.txt
+Added : /trunk/spike/ASM 3.0.txt
+Added : /trunk/spike/GoogleCode.txt
+Added : /trunk/spike/Java Swing.txt
+Added : /trunk/spike/RRDtool.txt
+Added : /trunk/spike/Subversion.txt
+
+
+Revision: 33
+Author: captainhall
+Date: 10:52:12 PM, Tuesday, 3 October 2006
+Message:
+
+----
+Modified : /trunk/src/swin/metrictool/OperationHandler.java
+Modified : /trunk/src/swin/metrictool/Project.java
+Modified : /trunk/src/swin/metrictool/ProjectCreation.java
+Modified : /trunk/src/swin/metrictool/Version.java
+
+
+Revision: 32
+Author: captainhall
+Date: 10:50:52 PM, Tuesday, 3 October 2006
+Message:
+
+----
+Added : /trunk/lib/xpp3_min-1.1.3.4.O.jar
+Added : /trunk/lib/xstream-1.2.jar
+
+
+Revision: 31
+Author: captainhall
+Date: 1:17:16 PM, Tuesday, 3 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Ben Hall.txt
+
+
+Revision: 30
+Author: methusaleh
+Date: 7:54:28 PM, Monday, 2 October 2006
+Message:
+
+----
+Modified : /trunk
+
+
+Revision: 29
+Author: methusaleh
+Date: 7:51:20 PM, Monday, 2 October 2006
+Message:
+Hmmm Me thinks the build.xml default is broken
+----
+Modified : /trunk/.classpath
+Modified : /trunk/.project
+Modified : /trunk/build.xml
+
+
+Revision: 28
+Author: methusaleh
+Date: 7:12:32 PM, Monday, 2 October 2006
+Message:
+
+----
+Modified : /trunk
+Modified : /trunk/.classpath
+Modified : /trunk/build.xml
+
+
+Revision: 27
+Author: methusaleh
+Date: 6:32:41 PM, Monday, 2 October 2006
+Message:
+Correcting project structure under SRC
+----
+Modified : /trunk
+Added : /trunk/.classpath(Copy from path: /trunk/src/MetricTool/.classpath, Revision, 26
+Added : /trunk/.project(Copy from path: /trunk/src/MetricTool/.project, Revision, 26
+Modified : /trunk/backlog
+Modified : /trunk/bin
+Modified : /trunk/config
+Added : /trunk/config/swin.xml(Copy from path: /trunk/src/swin.xml, Revision, 26
+Modified : /trunk/db
+Modified : /trunk/demo
+Modified : /trunk/doc
+Modified : /trunk/doc/api
+Modified : /trunk/lib
+Modified : /trunk/spike
+Modified : /trunk/src
+Deleted : /trunk/src/.metadata
+Deleted : /trunk/src/MetricTool
+Added : /trunk/src/swin(Copy from path: /trunk/src/MetricTool/src/swin, Revision, 26
+Modified : /trunk/src/swin/metrictool
+Deleted : /trunk/src/swin.xml
+Modified : /trunk/test
+Modified : /trunk/worklog
+
+
+Revision: 26
+Author: methusaleh
+Date: 5:54:03 PM, Monday, 2 October 2006
+Message:
+Fixed to use new lib structure.
+----
+Modified : /trunk/build.xml
+
+
+Revision: 25
+Author: methusaleh
+Date: 5:53:29 PM, Monday, 2 October 2006
+Message:
+removed hardcoded java_home
+----
+Modified : /trunk/bin/build.cmd
+Modified : /trunk/bin/daily.cmd
+
+
+Revision: 24
+Author: methusaleh
+Date: 4:38:36 PM, Monday, 2 October 2006
+Message:
+library synchronisation utility.  simply run libsync.cmd to update lib.
+----
+Added : /trunk/bin/7z.exe
+Added : /trunk/bin/libraries.conf
+Added : /trunk/bin/libsync.cmd
+Added : /trunk/bin/wget.exe
+Added : /trunk/bin/wget.hlp
+
+
+Revision: 23
+Author: methusaleh
+Date: 4:30:17 PM, Monday, 2 October 2006
+Message:
+Removing from repository - will sync libraries via batch process.
+----
+Deleted : /trunk/lib/asm-3.0_RC1
+Deleted : /trunk/lib/junit4.1
+
+
+Revision: 22
+Author: methusaleh
+Date: 9:43:49 AM, Monday, 2 October 2006
+Message:
+Adding RC1 for ASM3.0 library
+----
+Added : /trunk/lib/asm-3.0_RC1
+Added : /trunk/lib/asm-3.0_RC1/doc
+Added : /trunk/lib/asm-3.0_RC1/doc/README.txt
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/allclasses-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/allclasses-noframe.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/constant-values.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/deprecated-list.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/help-doc.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/index-all.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/index.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/AnnotationVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/Attribute.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/ByteVector.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/ClassAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/ClassReader.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/ClassVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/ClassWriter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/FieldVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/Label.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/MethodAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/MethodVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/Opcodes.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/Type.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/AdviceAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/AnalyzerAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/CodeSizeEvaluator.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/EmptyVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/GeneratorAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/JSRInlinerAdapter.Subroutine.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/JSRInlinerAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/LocalVariablesSorter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/Method.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/SerialVersionUIDAdder.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/StaticInitMerger.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/TableSwitchGenerator.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/commons/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature/SignatureReader.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature/SignatureVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature/SignatureWriter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/signature/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/AbstractInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/AnnotationNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/ClassNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/FieldInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/FieldNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/FrameNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/IincInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/InnerClassNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/InsnList.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/InsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/IntInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/JumpInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/LabelNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/LdcInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/LineNumberNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/LocalVariableNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/LookupSwitchInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/MemberNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/MethodInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/MethodNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/MultiANewArrayInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/TableSwitchInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/TryCatchBlockNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/TypeInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/VarInsnNode.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/Analyzer.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/AnalyzerException.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/BasicInterpreter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/BasicValue.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/BasicVerifier.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/Frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/Interpreter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/SimpleVerifier.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/SourceInterpreter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/SourceValue.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/Value.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/analysis/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/tree/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/ASMifiable.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/ASMifierAbstractVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/ASMifierAnnotationVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/ASMifierClassVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/ASMifierFieldVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/ASMifierMethodVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/AbstractVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/CheckAnnotationAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/CheckClassAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/CheckFieldAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/CheckMethodAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/TraceAbstractVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/TraceAnnotationVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/TraceClassVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/TraceFieldVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/TraceMethodVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/TraceSignatureVisitor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/Traceable.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/util/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/ASMContentHandler.Rule.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/ASMContentHandler.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/Processor.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/SAXAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/SAXAnnotationAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/SAXClassAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/SAXCodeAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/SAXFieldAdapter.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/asm-xml.dtd
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/package-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/package-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/org/objectweb/asm/xml/package-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/overview-frame.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/overview-summary.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/overview-tree.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/package-list
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/resources
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/resources/inherit.gif
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/serialized-form.html
+Added : /trunk/lib/asm-3.0_RC1/doc/javadoc/user/stylesheet.css
+Added : /trunk/lib/asm-3.0_RC1/examples
+Added : /trunk/lib/asm-3.0_RC1/examples/README.txt
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/README
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/etc/execute.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/src
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/src/Adapt.java
+Added : /trunk/lib/asm-3.0_RC1/examples/adapt/src/ArraySet.java
+Added : /trunk/lib/asm-3.0_RC1/examples/analysis
+Added : /trunk/lib/asm-3.0_RC1/examples/analysis/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/analysis/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/analysis/etc/execute.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/analysis/src
+Added : /trunk/lib/asm-3.0_RC1/examples/analysis/src/Analysis.java
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations/etc/execute.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations/src
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations/src/Annotations.java
+Added : /trunk/lib/asm-3.0_RC1/examples/annotations/src/NotNull.java
+Added : /trunk/lib/asm-3.0_RC1/examples/attributes
+Added : /trunk/lib/asm-3.0_RC1/examples/attributes/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/attributes/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/attributes/etc/execute.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/attributes/src
+Added : /trunk/lib/asm-3.0_RC1/examples/attributes/src/Attributes.java
+Added : /trunk/lib/asm-3.0_RC1/examples/compile
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/README
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/etc/execute.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/src
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/src/Compile.java
+Added : /trunk/lib/asm-3.0_RC1/examples/compile/src/Expression.java
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src/org
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src/org/objectweb
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src/org/objectweb/asm
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src/org/objectweb/asm/depend
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src/org/objectweb/asm/depend/DependencyTracker.java
+Added : /trunk/lib/asm-3.0_RC1/examples/dependencies/src/org/objectweb/asm/depend/DependencyVisitor.java
+Added : /trunk/lib/asm-3.0_RC1/examples/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/etc/build.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld/README
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld/etc
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld/etc/execute.properties
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld/src
+Added : /trunk/lib/asm-3.0_RC1/examples/helloworld/src/Helloworld.java
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/jbfc.java
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/org
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/org/objectweb
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/org/objectweb/asm
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/org/objectweb/asm/jbfc
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/org/objectweb/asm/jbfc/BFCompiler.java
+Added : /trunk/lib/asm-3.0_RC1/examples/jbfc/src/org/objectweb/asm/jbfc/BFCompilerTest.java
+Added : /trunk/lib/asm-3.0_RC1/examples/xml
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/annotate.xsl
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/build.xml
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/copy.xsl
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/linenumbers.xsl
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/profile.xsl
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/readme.txt
+Added : /trunk/lib/asm-3.0_RC1/examples/xml/strip.xsl
+Added : /trunk/lib/asm-3.0_RC1/lib
+Added : /trunk/lib/asm-3.0_RC1/lib/all
+Added : /trunk/lib/asm-3.0_RC1/lib/all/README.txt
+Added : /trunk/lib/asm-3.0_RC1/lib/all/asm-all-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/all/asm-all-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-analysis-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-analysis-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-commons-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-commons-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-tree-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-tree-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-util-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-util-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-xml-3.0_RC1.jar
+Added : /trunk/lib/asm-3.0_RC1/lib/asm-xml-3.0_RC1.pom
+Added : /trunk/lib/asm-3.0_RC1/src.zip
+
+
+Revision: 21
+Author: methusaleh
+Date: 9:27:12 AM, Monday, 2 October 2006
+Message:
+Adding JUnit 4.1
+----
+Added : /trunk/lib/junit4.1
+Added : /trunk/lib/junit4.1/README.html
+Added : /trunk/lib/junit4.1/cpl-v10.html
+Added : /trunk/lib/junit4.1/doc
+Added : /trunk/lib/junit4.1/doc/cookbook
+Added : /trunk/lib/junit4.1/doc/cookbook/cookbook.htm
+Added : /trunk/lib/junit4.1/doc/cookbook/logo.gif
+Added : /trunk/lib/junit4.1/doc/cookstour
+Added : /trunk/lib/junit4.1/doc/cookstour/Image1.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/Image2.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/Image3.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/Image4.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/Image5.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/Image6.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/Image7.gif
+Added : /trunk/lib/junit4.1/doc/cookstour/cookstour.htm
+Added : /trunk/lib/junit4.1/doc/faq
+Added : /trunk/lib/junit4.1/doc/faq/faq.htm
+Added : /trunk/lib/junit4.1/doc/index.htm
+Added : /trunk/lib/junit4.1/doc/testinfected
+Added : /trunk/lib/junit4.1/doc/testinfected/IMG00001.GIF
+Added : /trunk/lib/junit4.1/doc/testinfected/IMG00002.GIF
+Added : /trunk/lib/junit4.1/doc/testinfected/IMG00003.GIF
+Added : /trunk/lib/junit4.1/doc/testinfected/logo.gif
+Added : /trunk/lib/junit4.1/doc/testinfected/testing.htm
+Added : /trunk/lib/junit4.1/javadoc
+Added : /trunk/lib/junit4.1/javadoc/allclasses-frame.html
+Added : /trunk/lib/junit4.1/javadoc/allclasses-noframe.html
+Added : /trunk/lib/junit4.1/javadoc/constant-values.html
+Added : /trunk/lib/junit4.1/javadoc/deprecated-list.html
+Added : /trunk/lib/junit4.1/javadoc/help-doc.html
+Added : /trunk/lib/junit4.1/javadoc/index-all.html
+Added : /trunk/lib/junit4.1/javadoc/index.html
+Added : /trunk/lib/junit4.1/javadoc/org
+Added : /trunk/lib/junit4.1/javadoc/org/junit
+Added : /trunk/lib/junit4.1/javadoc/org/junit/After.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/AfterClass.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/Assert.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/Before.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/BeforeClass.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/ComparisonFailure.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/Ignore.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/Test.None.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/Test.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/package-frame.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/package-summary.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/package-tree.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/Description.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/JUnitCore.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/Request.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/Result.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/RunWith.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/Runner.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/Filter.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/Filterable.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/NoTestsRemainException.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/Sortable.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/Sorter.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/package-frame.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/package-summary.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/manipulation/package-tree.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/Failure.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/RunListener.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/RunNotifier.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/StoppedByUserException.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/package-frame.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/package-summary.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/notification/package-tree.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/package-frame.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/package-summary.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runner/package-tree.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/AllTests.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/Enclosed.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/Parameterized.Parameters.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/Parameterized.RunAllParameterMethods.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/Parameterized.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/Suite.SuiteClasses.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/Suite.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/package-frame.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/package-summary.html
+Added : /trunk/lib/junit4.1/javadoc/org/junit/runners/package-tree.html
+Added : /trunk/lib/junit4.1/javadoc/overview-frame.html
+Added : /trunk/lib/junit4.1/javadoc/overview-summary.html
+Added : /trunk/lib/junit4.1/javadoc/overview-tree.html
+Added : /trunk/lib/junit4.1/javadoc/package-list
+Added : /trunk/lib/junit4.1/javadoc/resources
+Added : /trunk/lib/junit4.1/javadoc/resources/inherit.gif
+Added : /trunk/lib/junit4.1/javadoc/serialized-form.html
+Added : /trunk/lib/junit4.1/javadoc/stylesheet.css
+Added : /trunk/lib/junit4.1/junit
+Added : /trunk/lib/junit4.1/junit/samples
+Added : /trunk/lib/junit4.1/junit/samples/AllTests.class
+Added : /trunk/lib/junit4.1/junit/samples/AllTests.java
+Added : /trunk/lib/junit4.1/junit/samples/ListTest.class
+Added : /trunk/lib/junit4.1/junit/samples/ListTest.java
+Added : /trunk/lib/junit4.1/junit/samples/SimpleTest.class
+Added : /trunk/lib/junit4.1/junit/samples/SimpleTest.java
+Added : /trunk/lib/junit4.1/junit/samples/money
+Added : /trunk/lib/junit4.1/junit/samples/money/IMoney.class
+Added : /trunk/lib/junit4.1/junit/samples/money/IMoney.java
+Added : /trunk/lib/junit4.1/junit/samples/money/Money.class
+Added : /trunk/lib/junit4.1/junit/samples/money/Money.java
+Added : /trunk/lib/junit4.1/junit/samples/money/MoneyBag.class
+Added : /trunk/lib/junit4.1/junit/samples/money/MoneyBag.java
+Added : /trunk/lib/junit4.1/junit/samples/money/MoneyTest.class
+Added : /trunk/lib/junit4.1/junit/samples/money/MoneyTest.java
+Added : /trunk/lib/junit4.1/junit/samples/money/package-info.java
+Added : /trunk/lib/junit4.1/junit/samples/package-info.java
+Added : /trunk/lib/junit4.1/junit/tests
+Added : /trunk/lib/junit4.1/junit/tests/AllTests.class
+Added : /trunk/lib/junit4.1/junit/tests/AllTests.java
+Added : /trunk/lib/junit4.1/junit/tests/WasRun.class
+Added : /trunk/lib/junit4.1/junit/tests/WasRun.java
+Added : /trunk/lib/junit4.1/junit/tests/extensions
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ActiveTestTest$SuccessTest.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ActiveTestTest.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ActiveTestTest.java
+Added : /trunk/lib/junit4.1/junit/tests/extensions/AllTests.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/AllTests.java
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest$1.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest$2.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest$3.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest$4.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest$5.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest$TornDown.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/ExtensionTest.java
+Added : /trunk/lib/junit4.1/junit/tests/extensions/RepeatedTestTest$SuccessTest.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/RepeatedTestTest.class
+Added : /trunk/lib/junit4.1/junit/tests/extensions/RepeatedTestTest.java
+Added : /trunk/lib/junit4.1/junit/tests/extensions/package-info.java
+Added : /trunk/lib/junit4.1/junit/tests/framework
+Added : /trunk/lib/junit4.1/junit/tests/framework/AllTests.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/AllTests.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/AssertTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/AssertTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/ComparisonCompactorTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/ComparisonCompactorTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/ComparisonFailureTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/ComparisonFailureTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/DoublePrecisionAssertTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/DoublePrecisionAssertTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/Failure.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/Failure.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/FloatAssertTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/FloatAssertTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/InheritedTestCase.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/InheritedTestCase.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/NoArgTestCaseTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/NoArgTestCaseTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/NoTestCaseClass.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/NoTestCaseClass.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/NoTestCases.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/NoTestCases.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/NotPublicTestCase.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/NotPublicTestCase.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/NotVoidTestCase.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/NotVoidTestCase.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/OneTestCase.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/OneTestCase.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/OverrideTestCase.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/OverrideTestCase.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/Success.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/Success.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/SuiteTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/SuiteTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$1.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$10.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$2.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$3.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$4.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$5.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$6.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$7.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$8.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$9.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest$TornDown.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestCaseTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestImplementorTest$1.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestImplementorTest$DoubleTestCase$1.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestImplementorTest$DoubleTestCase.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestImplementorTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestImplementorTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestListenerTest$1.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestListenerTest$2.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestListenerTest$3.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestListenerTest.class
+Added : /trunk/lib/junit4.1/junit/tests/framework/TestListenerTest.java
+Added : /trunk/lib/junit4.1/junit/tests/framework/package-info.java
+Added : /trunk/lib/junit4.1/junit/tests/package-info.java
+Added : /trunk/lib/junit4.1/junit/tests/runner
+Added : /trunk/lib/junit4.1/junit/tests/runner/AllTests.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/AllTests.java
+Added : /trunk/lib/junit4.1/junit/tests/runner/BaseTestRunnerTest$MockRunner.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/BaseTestRunnerTest$NonStatic.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/BaseTestRunnerTest.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/BaseTestRunnerTest.java
+Added : /trunk/lib/junit4.1/junit/tests/runner/StackFilterTest.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/StackFilterTest.java
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$1.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$2.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$3.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$4.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$5.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$6.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$7.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest$TestResultPrinter.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextFeedbackTest.java
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextRunnerSingleMethodTest$InvocationTest.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextRunnerSingleMethodTest.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextRunnerSingleMethodTest.java
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextRunnerTest$1.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextRunnerTest.class
+Added : /trunk/lib/junit4.1/junit/tests/runner/TextRunnerTest.java
+Added : /trunk/lib/junit4.1/junit/tests/runner/package-info.java
+Added : /trunk/lib/junit4.1/junit-4.1-src.jar
+Added : /trunk/lib/junit4.1/junit-4.1.jar
+Added : /trunk/lib/junit4.1/org
+Added : /trunk/lib/junit4.1/org/junit
+Added : /trunk/lib/junit4.1/org/junit/samples
+Added : /trunk/lib/junit4.1/org/junit/samples/ListTest.class
+Added : /trunk/lib/junit4.1/org/junit/samples/ListTest.java
+Added : /trunk/lib/junit4.1/org/junit/samples/SimpleTest.class
+Added : /trunk/lib/junit4.1/org/junit/samples/SimpleTest.java
+Added : /trunk/lib/junit4.1/org/junit/samples/money
+Added : /trunk/lib/junit4.1/org/junit/samples/money/MoneyTest.class
+Added : /trunk/lib/junit4.1/org/junit/samples/money/MoneyTest.java
+Added : /trunk/lib/junit4.1/org/junit/samples/money/package-info.java
+Added : /trunk/lib/junit4.1/org/junit/samples/package-info.java
+Added : /trunk/lib/junit4.1/org/junit/tests
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTests.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTests.java
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTestsTest$All.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTestsTest$AllJUnit4.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTestsTest$JUnit4Test.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTestsTest$OneTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTestsTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AllTestsTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$ErrorInAfterClass.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$ErrorInBeforeClass.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$ExceptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$FailureTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$NoExceptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$NonStaticOneTimeSetup.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$OldSuiteTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$OldTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$OneTimeSetup.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$OneTimeTeardown.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$OrderTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$RunAllAfterClasses.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$RunAllAfterClassesRegardless.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$RunAllAfters.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$RunAllAftersRegardless.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SetupFailureTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SetupTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SimpleTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SubInheritance.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SubShadowing.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SubTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SuperInheritance.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SuperShadowing.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$SuperTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$TeardownAfterFailureTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$TeardownFailureTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$TeardownTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$TestAndTeardownFailureTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest$TwoTests.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AnnotationTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/AssertionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/AssertionTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/CommandLineTest$Count.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CommandLineTest$Example.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CommandLineTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CommandLineTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/CustomRunnerTest$CustomRunner$1$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CustomRunnerTest$CustomRunner$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CustomRunnerTest$CustomRunner.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CustomRunnerTest$UsesGlobalState.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CustomRunnerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/CustomRunnerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/EnclosedTest$Enclosing$A.class
+Added : /trunk/lib/junit4.1/org/junit/tests/EnclosedTest$Enclosing$B.class
+Added : /trunk/lib/junit4.1/org/junit/tests/EnclosedTest$Enclosing.class
+Added : /trunk/lib/junit4.1/org/junit/tests/EnclosedTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/EnclosedTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ExpectedTest$ExpectSuperclass.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ExpectedTest$Expected.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ExpectedTest$NoneThrown.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ExpectedTest$Unexpected.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ExpectedTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ExpectedTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/FailedConstructionTest$CantConstruct.class
+Added : /trunk/lib/junit4.1/org/junit/tests/FailedConstructionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/FailedConstructionTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest$2.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest$3.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest$ATest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest$TestResultPrinter.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityPrintingTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$BeforeClassTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$ErrorTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$ExceptionInBeforeTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$ExpectedTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$InvalidMethodTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$MarkerRunner.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$NewTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$NoExceptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$NoTests.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest$UnExpectedExceptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ForwardCompatibilityTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest$CantInitialize.class
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest$CantInitializeTests.class
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest$ErrorRememberingListener.class
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest$InitializesWithError.class
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/InitializationErrorForwardCompatibilityTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/JUnitCoreTest$Fail.class
+Added : /trunk/lib/junit4.1/org/junit/tests/JUnitCoreTest$Succeed.class
+Added : /trunk/lib/junit4.1/org/junit/tests/JUnitCoreTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/JUnitCoreTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ListenerTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ListenerTest$2.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ListenerTest$OneTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ListenerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ListenerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/OldTestClassRunnerTest$AnnotatedTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/OldTestClassRunnerTest$MyTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/OldTestClassRunnerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/OldTestClassRunnerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/OldTests.class
+Added : /trunk/lib/junit4.1/org/junit/tests/OldTests.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestMethodTest$EverythingWrong.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestMethodTest$SubShadows.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestMethodTest$SubWrong.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestMethodTest$SuperWrong.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestMethodTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestMethodTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest$BeforeAndAfter.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest$EmptyTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest$FibonacciTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest$IncorrectTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest$ProtectedParametersTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ParameterizedTestTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/PreJUnit4TestCaseRunnerTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/PreJUnit4TestCaseRunnerTest$OneTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/PreJUnit4TestCaseRunnerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/PreJUnit4TestCaseRunnerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/RunWithTest$ExampleRunner.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunWithTest$ExampleTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunWithTest$SubExampleTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunWithTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunWithTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest$Example.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest$ExampleTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest$MyListener.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest$NewExample.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/RunnerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest$OneTimeSetup.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest$OneTwoSuite.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest$ParameterizedOneTimeSetup.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest$TestOne.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest$TestTwo.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SingleMethodTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$2.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$TestClassRunnerIsSortable$Enclosing$A.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$TestClassRunnerIsSortable$Enclosing$B.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$TestClassRunnerIsSortable$Enclosing.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$TestClassRunnerIsSortable$SortMe.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$TestClassRunnerIsSortable.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$UnsortableRunnersAreHandledWithoutCrashing$Unsortable.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$UnsortableRunnersAreHandledWithoutCrashing$UnsortableRunner.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest$UnsortableRunnersAreHandledWithoutCrashing.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SortableTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteDescriptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteDescriptionTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest$All.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest$AllWithBeforeAndAfterClass.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest$AllWithOutAnnotation.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest$TestA.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest$TestB.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/SuiteTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/TestDescriptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestDescriptionTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/TestListenerTest$ErrorListener.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestListenerTest$ExceptionListener.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestListenerTest$OneTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestListenerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestListenerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest$Confused.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest$EverythingWrong.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest$IgnoredTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest$SubShadows.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest$SubWrong.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest$SuperWrong.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TestMethodTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/TextListenerTest$ErrorTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TextListenerTest$OneTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TextListenerTest$Slow.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TextListenerTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TextListenerTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest$FailureWithTimeoutRunTimeExceptionTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest$FailureWithTimeoutTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest$InfiniteLoopTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest$SuccessWithTimeoutTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest$TimeoutFailureTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/TimeoutTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/UserStopTest$OneTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/UserStopTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/UserStopTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/ValidationTest$1.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ValidationTest$WrongBeforeClass.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ValidationTest.class
+Added : /trunk/lib/junit4.1/org/junit/tests/ValidationTest.java
+Added : /trunk/lib/junit4.1/org/junit/tests/package-info.java
+
+
+Revision: 20
+Author: methusaleh
+Date: 5:40:12 PM, Friday, 29 September 2006
+Message:
+
+----
+Modified : /trunk/build.xml
+
+
+Revision: 19
+Author: methusaleh
+Date: 5:37:10 PM, Friday, 29 September 2006
+Message:
+
+----
+Modified : /trunk/config/build.version
+
+
+Revision: 18
+Author: methusaleh
+Date: 5:29:10 PM, Friday, 29 September 2006
+Message:
+
+----
+Modified : /trunk/config/build.version
+
+
+Revision: 17
+Author: methusaleh
+Date: 5:16:00 PM, Friday, 29 September 2006
+Message:
+Initial build script.
+Expects:  
+/lib/ant1.7b2
+/lib/jdk1.5.0_07
+/lib/junit4.1
+/lib/pmd-3.7
+----
+Modified : /trunk/backlog/iter1.log
+Modified : /trunk/backlog/product.log
+Added : /trunk/bin/build.cmd
+Added : /trunk/bin/daily.cmd
+Modified : /trunk/build.xml
+Added : /trunk/config/build.version
+
+
+Revision: 16
+Author: methusaleh
+Date: 2:26:34 PM, Friday, 29 September 2006
+Message:
+
+----
+Added : /trunk/doc/api
+
+
+Revision: 15
+Author: captainhall
+Date: 9:28:13 PM, Thursday, 28 September 2006
+Message:
+
+----
+Added : /trunk/src/.metadata
+Added : /trunk/src/.metadata/.lock
+Added : /trunk/src/.metadata/.log
+Added : /trunk/src/.metadata/.plugins
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/10
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/10/60e7c07bd24e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/11
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/11/d060f78cd34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/13
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/13/e0e625b9ce4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/25
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/25/10593a3ad34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/25/d0bed566db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/27
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/27/e0a62903da4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/2d
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/2d/70c2284bd34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/30
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/30/40f6cff7da4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/31
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/31/c0630521da4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/32
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/32/c0f55956cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/33
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/33/202735c0ce4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/3e
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/3e/50c334f0d24e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/3f
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/3f/407d1dd7db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/3f/906a55a3db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/4e
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/4e/409b50d4d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/4e/50ad4fa1cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/5
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/5/d0a6c39acc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/51
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/51/5059739dd34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/56
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/56/b0c390a3cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/5b
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/5b/90bafa02cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/5e
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/5e/404ca70acd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/62
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/62/b09499bdce4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/66
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/66/a0c1fd5cdb4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/6b
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/6b/70cebcb5d24e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/6b/80fd73decc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/70
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/70/e0575a10cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/77
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/77/50c414d7d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/7d
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/7d/40edde6ecc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/7e
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/7e/f00f7d94db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/81
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/81/40a4ee02db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/81/e0617ec3d24e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/85
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/85/b0e6f679db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/87
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/87/6010e718cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/8d
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/8d/90efc322cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/8e
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/8e/202c8eabda4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/93
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/93/104e8010db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/96
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/96/303182a1db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/9c
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/9c/00acbd29cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/9c/60a25dcadb4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/a
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/a/304b38d6cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/a2
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/a2/509da0e0d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/a6
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/a6/6007e268cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ab
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ab/d04ca6cbcc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ae
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ae/60c4ba35d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/b0
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/b0/30eae780d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/b3
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/b3/b04952e7d24e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/b7
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/b7/903a51a5db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/bc
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/bc/70b14558d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/bf
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/bf/b0a6a6f0cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/c1
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/c1/e07472e5cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/c2
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/c2/e00615c0cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/c7
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/c7/3070baa7cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ca
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ca/40b12ff5cc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/d2
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/d2/30c71b8bcc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/dd
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/dd/40b63f78da4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/df
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/df/c0a80768d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e1
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e1/50e6d0e1db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e3
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e3/2017aa2fcd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e4
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e4/00c08231d34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e8
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/e8/204496fdcc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/eb
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/eb/d0c0169ad34e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ef
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ef/60dd3d40cd4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/f2
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/f2/40df2ffada4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/f3
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/f3/8000e9b4ce4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/f6
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/f6/e0cb01ebcc4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ff
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.history/ff/9021a871db4e001b10bad3a81e4ef831
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/.indexes
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/.indexes/e4
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/.indexes/e4/89
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/.indexes/e4/89/b8
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/.indexes/e4/89/b8/history.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/.markers
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/org.eclipse.jdt.core
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.projects/MetricTool/org.eclipse.jdt.core/state.dat
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.root
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.root/1.tree
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.safetable
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.core.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.browser.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.editors.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs
+Added : /trunk/src/.metadata/.plugins/org.eclipse.debug.core
+Added : /trunk/src/.metadata/.plugins/org.eclipse.debug.core/.launches
+Added : /trunk/src/.metadata/.plugins/org.eclipse.debug.core/.launches/ProjectCreation.launch
+Added : /trunk/src/.metadata/.plugins/org.eclipse.debug.ui
+Added : /trunk/src/.metadata/.plugins/org.eclipse.debug.ui/launchConfigurationHistory.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/1156509110.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/1737684320.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/2585596355.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/3204780630.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/3553253732.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/3696134201.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/4093772994.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/434761339.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/973633614.index
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.debug.ui
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.debug.ui/dialog_settings.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.launching
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.ui
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.jdt.ui/dialog_settings.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ltk.ui.refactoring
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ltk.ui.refactoring/dialog_settings.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/-1153085929006.target
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/-1153085929006.target/.extensions
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/-1153085929006.target/.lazy
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/-1153085929006.target/.pluginInfo
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/-1153085929006.target/.state
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/.cache
+Added : /trunk/src/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ui.ide
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ui.ide/dialog_settings.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ui.workbench
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ui.workbench/dialog_settings.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ui.workbench/workbench.xml
+Added : /trunk/src/.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml
+Added : /trunk/src/.metadata/version.ini
+Deleted : /trunk/src/OperationHandler.java
+Deleted : /trunk/src/ProjectCreation.java
+
+
+Revision: 14
+Author: captainhall
+Date: 8:52:26 PM, Thursday, 28 September 2006
+Message:
+
+----
+Added : /trunk/src/MetricTool
+Added : /trunk/src/MetricTool/.classpath
+Added : /trunk/src/MetricTool/.project
+Added : /trunk/src/MetricTool/bin
+Added : /trunk/src/MetricTool/bin/swin
+Added : /trunk/src/MetricTool/bin/swin/metrictool
+Added : /trunk/src/MetricTool/bin/swin/metrictool/Contact.class
+Added : /trunk/src/MetricTool/bin/swin/metrictool/OperationHandler.class
+Added : /trunk/src/MetricTool/bin/swin/metrictool/Project.class
+Added : /trunk/src/MetricTool/bin/swin/metrictool/ProjectCreation.class
+Added : /trunk/src/MetricTool/bin/swin/metrictool/Version.class
+Added : /trunk/src/MetricTool/src
+Added : /trunk/src/MetricTool/src/swin
+Added : /trunk/src/MetricTool/src/swin/metrictool
+Added : /trunk/src/MetricTool/src/swin/metrictool/Contact.java
+Added : /trunk/src/MetricTool/src/swin/metrictool/OperationHandler.java
+Added : /trunk/src/MetricTool/src/swin/metrictool/Project.java
+Added : /trunk/src/MetricTool/src/swin/metrictool/ProjectCreation.java
+Added : /trunk/src/MetricTool/src/swin/metrictool/Version.java
+
+
+Revision: 13
+Author: captainhall
+Date: 8:39:07 PM, Thursday, 28 September 2006
+Message:
+
+----
+Added : /trunk/src/swin.xml
+
+
+Revision: 12
+Author: captainhall
+Date: 8:17:29 AM, Thursday, 28 September 2006
+Message:
+Updated log.
+----
+Modified : /trunk/worklog/worklog - Ben Hall.txt
+
+
+Revision: 11
+Author: methusaleh
+Date: 12:06:32 AM, Thursday, 28 September 2006
+Message:
+Weekly update
+----
+Modified : /trunk/readme.txt
+Added : /trunk/worklog/worklog - Andrew Cowan 2006-09-27.txt
+
+
+Revision: 10
+Author: captainhall
+Date: 8:40:27 PM, Wednesday, 27 September 2006
+Message:
+
+----
+Added : /trunk/worklog/worklog - Ben Hall.txt
+
+
+Revision: 9
+Author: captainhall
+Date: 8:39:53 PM, Wednesday, 27 September 2006
+Message:
+
+----
+Added : /trunk/src/OperationHandler.java
+Added : /trunk/src/ProjectCreation.java
+
+
+Revision: 8
+Author: methusaleh
+Date: 4:49:42 PM, Tuesday, 26 September 2006
+Message:
+
+----
+Modified : /trunk/backlog/product.log
+
+
+Revision: 7
+Author: methusaleh
+Date: 4:27:11 PM, Tuesday, 26 September 2006
+Message:
+
+----
+Added : /trunk/backlog/product.log
+
+
+Revision: 6
+Author: methusaleh
+Date: 4:20:21 PM, Tuesday, 26 September 2006
+Message:
+
+----
+Deleted : /trunk/.project
+
+
+Revision: 5
+Author: methusaleh
+Date: 9:40:48 PM, Wednesday, 20 September 2006
+Message:
+Project Diary
+----
+Added : /trunk/worklog/worklog - Andrew Cowan 2006-09-20.txt
+
+
+Revision: 4
+Author: methusaleh
+Date: 7:11:43 PM, Wednesday, 20 September 2006
+Message:
+Eclipse ignores *.log files by default, so these items were missed in the inital check-in.
+----
+Added : /trunk/backlog/iter1.log
+Added : /trunk/backlog/release.log
+Added : /trunk/backlog/spikes.log
+
+
+Revision: 3
+Author: methusaleh
+Date: 9:34:22 PM, Tuesday, 19 September 2006
+Message:
+create project structure
+----
+Added : /trunk/.project
+Added : /trunk/backlog
+Added : /trunk/bin
+Added : /trunk/build.xml
+Added : /trunk/config
+Added : /trunk/db
+Added : /trunk/demo
+Added : /trunk/doc
+Added : /trunk/lib
+Modified : /trunk/readme.txt
+Added : /trunk/spike
+Added : /trunk/src
+Added : /trunk/test
+Added : /trunk/worklog
+
+
+Revision: 2
+Author: captainhall
+Date: 2:18:10 PM, Thursday, 24 August 2006
+Message:
+Initial add.
+----
+Added : /trunk/readme.txt
+
+
+Revision: 1
+Author: 
+Date: 9:58:23 AM, Thursday, 24 August 2006
+Message:
+Initial directory structure.
+----
+Added : /branches
+Added : /tags
+Added : /trunk
+
+

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/providers
+END
+AuthenticationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/providers/AuthenticationProvider.java
+END
+FakeDatabaseAuthenticationProvider.java
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/providers/FakeDatabaseAuthenticationProvider.java
+END

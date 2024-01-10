@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/svn/!svn/ver/24/trunk/tests
+END
+trueAndTrue.j
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/24/trunk/tests/trueAndTrue.j
+END
+3.j
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/3/trunk/tests/3.j
+END
+4.j
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/3/trunk/tests/4.j
+END
+5.j
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/3/trunk/tests/5.j
+END
+falseAndFalse.j
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/24/trunk/tests/falseAndFalse.j
+END
+noArgs.j
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/24/trunk/tests/noArgs.j
+END
+false.j
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/24/trunk/tests/false.j
+END
+noArgs2.j
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/24/trunk/tests/noArgs2.j
+END
+true.j
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/24/trunk/tests/true.j
+END
+1.j
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/2/trunk/tests/1.j
+END
+2.j
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/3/trunk/tests/2.j
+END

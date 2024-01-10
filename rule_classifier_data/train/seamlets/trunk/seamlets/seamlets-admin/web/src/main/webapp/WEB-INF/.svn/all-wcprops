@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF
+END
+jboss-web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/402/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/jboss-web.xml
+END
+.pages.xml.spdia
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/.pages.xml.spdia
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/web.xml
+END
+pages.xml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/pages.xml
+END
+.faces-config.xml.jsfdia
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/.faces-config.xml.jsfdia
+END
+faces-config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/faces-config.xml
+END
+components.xml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/443/trunk/seamlets/seamlets-admin/web/src/main/webapp/WEB-INF/components.xml
+END

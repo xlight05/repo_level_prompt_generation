@@ -1,0 +1,18 @@
+#summary List of commands
+||Command||Logged in Only||PM Only||Master Only||Battle Only||Description||
+||!? {name}||no||no||no||no||Displays {name}'s stats and spells. If no name is given, it uses your character||
+||!cc class||yes||yes||no||no||Changes your class to class||
+||!classes||yes||yes||no||no||Shows you all of your current classes and levels.||
+||!players||no||no||no||no||Show a list of all currently logged in players.||
+||!teams||no||no||no||no||Show a list of all currently set-up teams.||
+||!join {team}||yes||no||no||no||Join {team} for a battle, or Adventurers team if no team is specified.||
+||!leave||yes||no||no||no||Leave a team.||
+||!logout||yes||no||no||no||Log out from the game.||
+||!auto||yes||yes||no||no||Toggle auto-login.||
+||!attack name||yes||no||no||yes||Issue an attack to name.||
+||!defend||yes||no||no||yes||Defend yourself, halving damage.||
+||!cast spell name|team||yes||no||no||yes||Cast spell at either a single person or a team. If it's a team, the effects are split amongst the team.||
+||!start||no||no||yes||no||Start a battle.||
+||!giveexp name amount||no||no||yes||no||Give amount of exp to name.||
+||!levelup name||no||no||yes||no||Levelup name.||
+||!reload||no||no||yes||no||Make the bot reload all scripts (classes, spells, etc)||

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee
+END
+QuidseeMain.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/QuidseeMain.java
+END
+BidderInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/BidderInfo.java
+END
+BiddersTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/BiddersTableModel.java
+END
+QuiBidUpdateResponseFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/QuiBidUpdateResponseFilter.java
+END
+QuiBidsAuctionPageResponseFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/QuiBidsAuctionPageResponseFilter.java
+END
+PriceRateCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/PriceRateCellRenderer.java
+END
+RegistryUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/RegistryUtil.java
+END
+AuctionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AuctionListener.java
+END
+AuctionFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AuctionFrame.java
+END
+QuiBid.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/QuiBid.java
+END
+AuctionTracker.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AuctionTracker.java
+END
+QuiBidListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/QuiBidListener.java
+END
+AuctionTrackerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AuctionTrackerListener.java
+END
+AligningTableCellRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AligningTableCellRenderer.java
+END
+PacServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/PacServer.java
+END
+AppFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AppFrame.java
+END
+BidType.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/BidType.java
+END
+AboutDlg.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/AboutDlg.java
+END
+RecentIntervalsTableModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/RecentIntervalsTableModel.java
+END
+Auction.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/16/tags/0_9_3/quidsee/src/main/java/com/itzg/quidsee/Auction.java
+END

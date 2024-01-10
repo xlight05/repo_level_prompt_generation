@@ -1,0 +1,153 @@
+<!DOCTYPE project>
+
+<project name="Infinispan Storage Service" default="usage" basedir=".">
+
+	<!-- get access to the env vars -->
+	<property environment="env" />
+
+	<!-- use the build.properties file -->
+	<property file="build.properties" />
+
+	<!-- set the classpath -->
+	<path id="compile.classpath">
+		<fileset dir="${build.lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="${build.classes.dir}" />
+	</path>
+
+	<!-- describe the targets in this build -->
+	<target name="usage" description="Build file usage info (default task)">
+
+		<echo>Using WORK_HOME     = ${work.home}</echo>
+		<echo>Using JAGUAR_HOME   = ${jaguar.home}</echo>
+		<echo>Using LIB_HOME      = ${lib.home}</echo>
+		<echo>Using SHIB_HOME     = ${shib.home}</echo>
+
+		<echo message=" " />
+		<echo message="${project.name} " />
+		<echo message="-------------------------------------------------------" />
+		<echo message=" " />
+		<echo message="  clean     - Delete the build and dist directories and contents" />
+		<echo message="  prepare   - Prepare directory structure and copy dependent libraries" />
+		<echo message="  compile   - Compiles the source code" />
+		<echo message="  jar       - Build jar file" />
+		<echo message="  deploy    - Copy jar file to public lib folder" />
+		<echo message="  shib      - Copy package files to the Shibboleth install/build folder" />
+		<echo message="  tomcat    - Copy jar file to the Tomcat/webapps/idp/WEB-INF/lib directory" />
+		<echo message="  zip       - Zip up a distribution file" />
+
+	</target>
+
+	<!-- clean up the environment -->
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete dir="${dist.dir}" />
+	</target>
+
+	<!-- setup the environment -->
+	<target name="prepare">
+		<mkdir dir="${build.dir}" />
+		<mkdir dir="${build.classes.dir}" />
+		<mkdir dir="${build.lib.dir}" />
+		<mkdir dir="${build.dir}/include" />
+		<mkdir dir="${dist.dir}" />
+		<mkdir dir="${dist.dir}/lib" />
+
+		<!-- copy the required jars -->
+		<copy todir="${build.lib.dir}">
+			<!-- The shibboleth libraries -->
+			<fileset dir="${lib.home}/shibboleth">
+				<include name="*.jar" />
+			</fileset>
+			<!-- The spring libraries -->
+			<fileset dir="${lib.home}/spring">
+				<include name="*.jar" />
+			</fileset>
+			<!-- The slfj libraries -->
+			<fileset dir="${lib.home}/slf4j-1.5.6">
+				<exclude name="slf4j-api-*-sources.jar" />
+				<include name="slf4j-api-*.jar" />
+			</fileset>
+			<!-- The servlet library -->
+			<fileset dir="${lib.home}/servlet">
+				<include name="*.jar" />
+			</fileset>
+			<!-- The commons http client library -->
+			<fileset dir="${lib.home}/ApacheCommons">
+				<include name="commons-lang-*.jar"/>
+				<include name="commons-collections-*.jar"/>
+				<include name="commons-codec-*.jar"/>
+				<include name="commons-logging-*.jar"/>
+			</fileset>
+			<!-- The infinispan library -->
+			<fileset dir="${lib.home}/infinispan-5.1.5.FINAL">
+				<exclude name="log4j*.jar" />
+				<include name="*.jar"/>
+			</fileset>
+			<fileset dir="${lib.home}/jodatime">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+		<!-- copy the required jars for runtime -->
+		<copy todir="${dist.dir}/lib">
+			<fileset dir="${lib.home}/ApacheCommons">
+				<include name="commons-lang-*.jar"/>
+			</fileset>
+			<!-- The infinispan library -->
+			<fileset dir="${lib.home}/infinispan-5.1.5.FINAL">
+				<exclude name="log4j*.jar" />
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- compile the java classes -->
+	<target name="compile" depends="prepare">
+		<echo message="Compiling files" />
+
+		<javac srcdir="${src.dir}" destdir="${build.classes.dir}" deprecation="true" failonerror="true" debug="true">
+			<classpath refid="compile.classpath" />
+			<compilerarg value="-version"/>
+		</javac>
+
+	</target>
+
+	<!-- build a jar file with everything needed in it -->
+	<target name="jar" depends="prepare, compile">
+		<!-- delete any prior jar file first -->
+		<delete file="${dist.dir}/${dist.name}" />
+		<jar jarfile="${dist.dir}/${dist.name}" manifest="${conf.dir}/MANIFEST.MF">
+			<fileset dir="${build.classes.dir}" />
+			<fileset dir="${build.dir}/include" />
+			<manifest>
+				<attribute name="Creator" value="${user.name}" />
+				<attribute name="Ant-Version" value="${ant.version}" />
+				<attribute name="Implementation-Vendor" value="Clareity Security, LLC"/>
+				<attribute name="Implementation-Title" value="Infinispan Storage Engine"/>
+			</manifest>
+		</jar>
+	</target>
+
+	<target name="tomcat" depends="jar">
+		<!-- copy the output jar to the tomcat webapps folder -->
+		<copy file="${dist.dir}/${dist.name}" todir="${tomcat.home}/webapps/idp/WEB-INF/lib/" />
+	</target>
+
+	<target name="shib" depends="jar">
+		<!-- copy the output jar to the tomcat webapps folder -->
+		<copy file="${dist.dir}/${dist.name}" todir="${shib.home}/lib/" />
+		<copy todir="${shib.home}/lib/">
+			<!-- The runtime libraries -->
+			<fileset dir="${dist.dir}/lib">
+				<include name="*.jar"/>
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="zip" depends="jar">
+		<!-- now make the zip file with this stuff in it -->
+		<zip destfile="${dist.dir}/${project.name}.zip" basedir="${dist.dir}" />
+	</target>
+
+</project>

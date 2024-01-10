@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_1_0.xsd"
+	version="1.0">
+
+	<persistence-unit name="seamlets-admin-datasource">
+		<provider>org.hibernate.ejb.HibernatePersistence</provider>
+		<jta-data-source>java:/seamlets-Datasource</jta-data-source>
+<!--		<jar-file>seamlets-default-components-1.0.0.A2-SNAPSHOT.jar</jar-file>-->
+		<properties>
+			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect" />
+			<property name="hibernate.hbm2ddl.auto" value="update" />
+			<property name="hibernate.show_sql" value="false" />
+			<property name="hibernate.format_sql" value="true" />
+			<property name="jboss.entity.manager.factory.jndi.name"
+				value="java:/seamletsAdminEntityManagerFactory" />
+
+			<!--
+				Envers - -> <property name="hibernate.ejb.event.post-insert"
+				value="org.jboss.envers.event.VersionsEventListener" /> <property
+				name="hibernate.ejb.event.post-update"
+				value="org.jboss.envers.event.VersionsEventListener" /> <property
+				name="hibernate.ejb.event.post-delete"
+				value="org.jboss.envers.event.VersionsEventListener" /> <property
+				name="hibernate.ejb.event.pre-collection-update"
+				value="org.jboss.envers.event.VersionsEventListener" /> <property
+				name="hibernate.ejb.event.pre-collection-remove"
+				value="org.jboss.envers.event.VersionsEventListener" /> <property
+				name="hibernate.ejb.event.post-collection-recreate"
+				value="org.jboss.envers.event.VersionsEventListener" />
+			-->
+		</properties>
+	</persistence-unit>
+
+</persistence>

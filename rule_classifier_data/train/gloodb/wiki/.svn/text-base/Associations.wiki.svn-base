@@ -1,0 +1,28 @@
+#summary Creating associations.
+
+= Creating Associations =
+
+Associations implement persistent mapping and sorting capabilities required mostly by queries. Associations are serializable data structures, which do not define their own dentity. Hence they cannot be used as persistent objects on their own but as fields of persistent objects.
+
+Associations are created by a repository specific AssociationFactory instance. For most cases, it makes sense to create and initialize these data structures as part of the PreCreate callback. 
+
+Use [PersistencyCallbacks persistency callbacks] and interceptors to maintain the association and index data structures.
+
+==== Example 1: Creating associations ====
+{{{
+  public class Foo extends Serializable {
+       @Identity private final Serializable id;
+       private OneToOneAssociation<Foo, Bar> oneToOneMapping;
+       private OneToManyAssociation<Foo, FooDetails> oneToManyMapping;
+
+       @PreCreate
+       void preCreate(Repository repository) {
+          AssociationFactory factory = AssociationFactory.getInstance(repository);
+          this.oneToOneMapping = factory.newOneToOneAssociation(Foo.class, Bar.class);
+          this.oneToManyMapping = factory.newOneToManyAssociation(Foo.class, FooDetails.class);
+       }
+  }
+}}}
+
+----
+[ImplementingObjectEmbedding Previous]

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine/__package__.js
+END
+DemoContainer.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine/DemoContainer.js
+END
+DemoPane.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine/DemoPane.js
+END
+DemoNavigator.js
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine/DemoNavigator.js
+END
+DemoItem.js
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine/DemoItem.js
+END
+SourcePane.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/widget/demoEngine/SourcePane.js
+END

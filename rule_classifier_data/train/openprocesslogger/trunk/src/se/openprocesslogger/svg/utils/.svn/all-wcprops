@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils
+END
+GraphTag.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/GraphTag.java
+END
+SvgAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/SvgAppender.java
+END
+SvgChartAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/SvgChartAppender.java
+END
+GraphProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/GraphProxy.java
+END
+StringFileWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/StringFileWriter.java
+END
+IAppendableSvg.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/IAppendableSvg.java
+END
+SBWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/SBWrapper.java
+END
+StringAppender.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/svg/utils/StringAppender.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/316/tags/seamlets/seamlets-core/seamlets-core-1.0.0.A1/src/main/java/org/seamlets/cache/impl
+END
+JbossSeamletsFaceletsCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/316/tags/seamlets/seamlets-core/seamlets-core-1.0.0.A1/src/main/java/org/seamlets/cache/impl/JbossSeamletsFaceletsCache.java
+END
+MapSeamletsFacletsCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/!svn/ver/316/tags/seamlets/seamlets-core/seamlets-core-1.0.0.A1/src/main/java/org/seamlets/cache/impl/MapSeamletsFacletsCache.java
+END
+EHCacheSeamletsFacletsCache.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/316/tags/seamlets/seamlets-core/seamlets-core-1.0.0.A1/src/main/java/org/seamlets/cache/impl/EHCacheSeamletsFacletsCache.java
+END

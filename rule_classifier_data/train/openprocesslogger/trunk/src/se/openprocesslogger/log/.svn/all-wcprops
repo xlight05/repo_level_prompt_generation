@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log
+END
+TriggerBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/TriggerBuilder.java
+END
+TriggerEvalException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/TriggerEvalException.java
+END
+TriggerEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/TriggerEval.java
+END
+AnalogTriggerEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/AnalogTriggerEval.java
+END
+TriggerOptions.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/TriggerOptions.java
+END
+ITriggerEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/ITriggerEval.java
+END
+Subscription.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/Subscription.java
+END
+ITimerTrigg.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/ITimerTrigg.java
+END
+TrigEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/TrigEvent.java
+END
+RingBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/RingBuffer.java
+END
+DigitalTriggerEval.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/DigitalTriggerEval.java
+END
+LoggingTask.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/log/LoggingTask.java
+END

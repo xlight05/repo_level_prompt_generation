@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom
+END
+IllegalDataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/IllegalDataException.java
+END
+DescendantIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/DescendantIterator.java
+END
+Text.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Text.java
+END
+DefaultJDOMFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/DefaultJDOMFactory.java
+END
+Parent.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Parent.java
+END
+IllegalNameException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/IllegalNameException.java
+END
+Element.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Element.java
+END
+UncheckedJDOMFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/UncheckedJDOMFactory.java
+END
+Namespace.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Namespace.java
+END
+DataConversionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/DataConversionException.java
+END
+FilterIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/FilterIterator.java
+END
+IllegalTargetException.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/IllegalTargetException.java
+END
+AttributeList.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/AttributeList.java
+END
+IllegalAddException.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/IllegalAddException.java
+END
+Comment.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Comment.java
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Attribute.java
+END
+Thumbs.db
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Thumbs.db
+END
+ContentList.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/ContentList.java
+END
+DocType.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/DocType.java
+END
+JDOMException.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/JDOMException.java
+END
+EntityRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/EntityRef.java
+END
+Content.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Content.java
+END
+Verifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Verifier.java
+END
+CDATA.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/CDATA.java
+END
+ProcessingInstruction.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/ProcessingInstruction.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/Document.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/package.html
+END
+JDOMFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/59/tags/tinWiki_0.19/JavaSource/orgx/jdom/JDOMFactory.java
+END

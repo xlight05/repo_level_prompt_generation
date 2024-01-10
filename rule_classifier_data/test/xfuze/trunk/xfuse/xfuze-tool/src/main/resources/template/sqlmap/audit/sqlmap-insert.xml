@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===========================================================================
+	//   INSERT - insert
+	============================================================================ -->
+	<insert id="insert" parameterClass="${audit.sqlmap.model.instanceName}">
+		INSERT INTO ${audit.sqlmap.tableName}_log (
+			change_time,
+			change_type,
+			<#list audit.sqlmap.sqlMapFields as field>
+				<#assign isPrimaryKey = false>
+				<#list  audit.sqlmap.primaryKeyFields as pkField>
+					<#if "${pkField.databaseFieldName}" == "${field.databaseFieldName}">
+						<#assign isPrimaryKey = true>
+					</#if>
+				</#list>
+				<#if isPrimaryKey>
+			${field.databaseFieldName}<#if field_has_next>,</#if>
+				<#else>
+			${field.databaseFieldName}_old,
+			${field.databaseFieldName}_new<#if field_has_next>,</#if>
+				</#if>
+			</#list>
+		) VALUES (
+			#changeTime,jdbcType=TIMESTAMP#,
+			#changeType,jdbcType=VARCHAR#,
+			<#list audit.sqlmap.sqlMapFields as field>
+				<#assign isPrimaryKey = false>
+				<#list  audit.sqlmap.primaryKeyFields as pkField>
+					<#if "${pkField.databaseFieldName}" == "${field.databaseFieldName}">
+						<#assign isPrimaryKey = true>
+					</#if>
+				</#list>
+				<#if isPrimaryKey>
+			#${field.javaFieldName},jdbcType=${field.jdbcType}#<#if field_has_next>,</#if>
+				<#else>
+			#old${field.javaPropertyName},jdbcType=${field.jdbcType}#,
+			#new${field.javaPropertyName},jdbcType=${field.jdbcType}#<#if field_has_next>,</#if>
+				</#if>
+			</#list>
+		)
+	</insert>

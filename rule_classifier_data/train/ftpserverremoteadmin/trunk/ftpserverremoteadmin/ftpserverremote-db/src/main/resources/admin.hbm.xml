@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="pl.edu.agh.iosr.ftpserverremote.data.Admin" table="Admin">
+        <id name="id" column="Id">
+            <generator class="native"/>
+        </id>
+        <property name="login" column="Login" type="java.lang.String"/>
+        <property name="password" column="Password" type="java.lang.String"/>
+        <property name="serverId" column="serverid" type="java.lang.Long"/>
+    </class>
+
+</hibernate-mapping>

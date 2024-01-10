@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/2/trunk/jata/exception
+END
+JataAssertException.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/jata/exception/JataAssertException.java
+END
+JataTestComponentException.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/2/trunk/jata/exception/JataTestComponentException.java
+END
+JataRemoteSystemPortException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/2/trunk/jata/exception/JataRemoteSystemPortException.java
+END
+JataTestCaseException.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/2/trunk/jata/exception/JataTestCaseException.java
+END
+JataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/2/trunk/jata/exception/JataException.java
+END
+JataAltException.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/2/trunk/jata/exception/JataAltException.java
+END
+JataTimerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/2/trunk/jata/exception/JataTimerException.java
+END
+JataNeverReachException.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/jata/exception/JataNeverReachException.java
+END
+Assert.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/2/trunk/jata/exception/Assert.java
+END
+JataMessageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/2/trunk/jata/exception/JataMessageException.java
+END
+JataPortException.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/2/trunk/jata/exception/JataPortException.java
+END
+JataCommonException.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/2/trunk/jata/exception/JataCommonException.java
+END
+JataSystemPortException.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/jata/exception/JataSystemPortException.java
+END
+JataPipeCenterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/2/trunk/jata/exception/JataPipeCenterException.java
+END
+DebugOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/2/trunk/jata/exception/DebugOut.java
+END

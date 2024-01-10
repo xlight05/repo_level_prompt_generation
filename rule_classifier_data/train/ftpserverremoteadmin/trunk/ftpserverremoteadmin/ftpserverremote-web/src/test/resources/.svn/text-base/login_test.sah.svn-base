@@ -1,0 +1,7 @@
+_setValue(_textbox("loginPage:adminLogin"), "admin");
+_setValue(_password("loginPage:adminPassword"), "abcd");
+_click(_button("Log In"));
+_click(_button("OK"));
+_setValue(_password("loginPage:adminPassword"), "abc");
+_click(_button("Log In"));
+_click(_button("Log Out"));

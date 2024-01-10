@@ -1,0 +1,91 @@
+<c:template xmlns:c="http://aluminumproject.googlecode.com/core">
+import sys
+from time import sleep
+
+
+   #--------------------------------------------------------------
+# check for optional argument 
+#--------------------------------------------------------------
+if (appName is None):
+appName = ""
+
+#--------------------------------------------------------------
+# set up globals
+#--------------------------------------------------------------
+global AdminConfig
+global AdminControl
+global AdminApp
+
+#--------------------------------------------------------------
+# do some sanity checking 
+#     -- do we have a node by this name? 
+#--------------------------------------------------------------
+node = AdminConfig.getid("/Node:" + ${nodeName} + "/")
+print "checking for existence of node " + ${nodeName}
+if len(node) == 0:
+   print "ex1: Error -- node not found for name " + ${nodeName}
+   return
+
+
+   #--------------------------------------------------------------
+   #     -- is a server by this name already running on the node? 
+   #--------------------------------------------------------------
+   print "checking to see if server " + ${serverName} + " is already running on node " + ${nodeName}
+   runningServer = AdminControl.completeObjectName("type=Server,node=" + ${nodeName} + ",process=" + ${serverName} + ",*")
+   if len(runningServer) > 0:
+      print "ex1: Error -- Server " + ${serverName} + " already running on node " + ${nodeName}
+      return 
+ 
+
+
+   #--------------------------------------------------------------
+   #     -- is a nodeSync MBean available on this node? 
+   #--------------------------------------------------------------
+   print "checking for the existence of a NodeSync MBean on node " + nodeName
+   nodeSync = AdminControl.completeObjectName("type=NodeSync,node=" + ${nodeName} + ",*")
+   if len(nodeSync) == 0:
+      print "ex1: Error -- NodeSync MBean not found for name " + ${nodeName}
+      return 
+      
+
+   #--------------------------------------------------------------
+   # Create a server using the supplied server name and node 
+   #--------------------------------------------------------------
+   print "creating a server " + ${serverName} + "....."
+   attributes = [["name", ${serverName}]]
+   server = AdminConfig.create("Server", node, attributes)
+
+ 
+   #--------------------------------------------------------------
+   # Change the list of transports associated with the WebContainer
+   # for this server.  Create one secure and one non-secure transport 
+   #--------------------------------------------------------------
+   print "modifying HTTP port addresses"
+   httpNonSecureAddress = [["sslEnabled", "false"], ["address", [["host", ""], ["port", ${httpNonSecurePort}]]]]
+   httpSecureAddress = [["sslEnabled", "true"], ["address", [["host", ""], ["port", ${httpSecurePort}]]], ["sslConfig", "DefaultSSLSettings"]]
+   transports = [["transports:HTTPTransport", [httpNonSecureAddress, httpSecureAddress]]]
+   webContainer = AdminConfig.list("WebContainer", server)
+   AdminConfig.modify(webContainer, transports)
+
+
+   #--------------------------------------------------------------
+   # Save all the changes 
+   #--------------------------------------------------------------
+   print "saving the configuration"
+   AdminConfig.save()
+
+   #--------------------------------------------------------------
+   # Find out if serverStartupSyncEnabled is true for this node
+   # We just created this server, so if this attribute is set to
+   # "false" we have to perform a sync.  If we do not, the node we
+   # are installing on may have an out-of-date copy of the config
+   # data. 
+   #--------------------------------------------------------------
+   enabled = AdminControl.getAttribute(nodeSync, "serverStartupSyncEnabled")
+   if enabled == "false":
+      print "Invoking synchronization for node " + nodeSync + " because serverStartupSyncEnabled is set to false..."
+      AdminControl.invoke(nodeSync, "sync")
+      sleep(20)
+      print "Done with synchronization."
+
+</c:template>

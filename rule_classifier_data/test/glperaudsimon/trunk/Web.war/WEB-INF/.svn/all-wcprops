@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/158/trunk/Web.war/WEB-INF
+END
+springmvc-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/133/trunk/Web.war/WEB-INF/springmvc-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/86/trunk/Web.war/WEB-INF/web.xml
+END
+applicationContext.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/158/trunk/Web.war/WEB-INF/applicationContext.xml
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/java/org/seamlets/identity
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/java/org/seamlets/identity/Role.java
+END
+UserPermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/java/org/seamlets/identity/UserPermission.java
+END
+Permission.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/java/org/seamlets/identity/Permission.java
+END
+RolePermission.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/java/org/seamlets/identity/RolePermission.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/440/trunk/seamlets/seamlets-security/src/main/java/org/seamlets/identity/User.java
+END

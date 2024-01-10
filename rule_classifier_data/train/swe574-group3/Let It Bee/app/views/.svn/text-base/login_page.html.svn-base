@@ -1,0 +1,379 @@
+#{set title:'Home' /}
+
+#{if isLoggedIn}
+#{extends 'logged_user.html' /}
+<div class="post" style="padding:top:0px">
+  <h3 style="padding-top:0px;">Have you seen these?</h3>
+  #{if (newOffers!=null && newOffers.size()>0) || (newRequests != null && newRequests.size()>0)}
+  <table>
+     <!-- 
+    #{list items:newHandshakes, as:'handshake'}
+    <tr>
+      #{if handshake.isOriginallyAnOffer}
+      <td>${handshake.offer.title}</td>
+      #{/if}
+      #{else}
+      <td>${handshake.request.title}</td>
+      #{/else}
+      <td>${handshake.offer.user.fullname}</td>
+      <td>${handshake.request.user.fullname}</td>
+      <td><a href="@{Handshakes.show(handshake.id)}">Details</a></td>
+    </tr>
+    #{/list}
+     -->
+    
+    #{list items:newOffers, as:'offer'}
+    <tr>
+      <td>${offer.title}</td>
+      <td>Offered by ${offer.user.fullname} at  ${offer.getCreationDate()}</td>
+      <td><a href="@{Offers.showDetails(offer.id)}">Details</a></td>
+    </tr>
+    #{/list}
+     #{list items:newRequests, as:'request'}
+    <tr>
+      <td>${request.title}</td>
+      <td>Requested by ${request.user.fullname} at ${request.getCreationDate()}</td>
+      <td><a href="@{Requests.showDetails(request.id)}">Details</a></td>
+    </tr>
+    #{/list}
+   
+  </table>
+  
+  
+  #{/if}
+  #{else}
+  <p>
+    There are no recent offers or requests near you.
+  </p>
+    
+  #{/else}
+
+</div>
+
+<div class="post" style=" border:0px solid green; width:98%">     
+  <div class="user_tabs" style="margin-top:30px; border:opx solid red">
+    <ul>
+      <li>
+        <a href="#" no="1"> New Bees</a>
+      </li> 
+      <li>
+        <a href="#" class="active" no="2"> Busy Bees</a>
+      </li>
+      <li>
+        <a href="#" no="3"> Working Bees</a>
+      </li>
+      <li>
+        <a href="#" no="4"> Bumble Bees</a>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="index_tab_content" id="index_tab_content_1" style="display:none">
+    <div class="active_users">    	
+         #{if users_new_bee}
+		  #{list items:users_new_bee, as:'usr'}		
+		  <label style="display:block;padding-left:15px;text-indent:-15px;padding-top:4px;">  
+		    &nbsp;&nbsp;&nbsp;
+			 #{if usr.photo.exists()}
+		      <img class="imgNon" src="@{Application.showUserPhoto(usr.id)}" style="width:25px" alt="$usr.fullname" />
+		      #{/if}
+		      #{else}
+		      <img class="imgNon" src="/public/images/lbi02.png" style="width:25px" alt="Default User Photo" />
+		      #{/else}	
+		      #{if usr.balance > 0}
+			 <a href="@{Users.profile(usr.id)}" style="font-weight:bold; color:gray" onmouseover="this.style.cursor='pointer'">
+			  &nbsp;${usr.fullname}, living in ${usr.address}, registered at ${usr.registrationDate.format('dd MMMM yyyy')}, has ${usr.balance} contributions.
+			  #{/if}
+		      #{else}
+		      <a href="@{Users.profile(usr.id)}" style="font-weight:bold; color:gray" onmouseover="this.style.cursor='pointer'">
+			  &nbsp;${usr.fullname}, living in ${usr.address}, registered at ${usr.registrationDate.format('dd MMMM yyyy')}, has no contributions yet.
+			  #{/else}	
+			 </a></label>
+			  #{/list}
+		#{/if}
+    	#{else}
+      		<p>No one has achieved New Bee status.</p>
+      	#{/else}
+    </div>
+  </div>
+  
+  <div class="index_tab_content" id="index_tab_content_2" style="display:block">
+    <div class="active_users">    	
+         #{if users_new_bee}
+		  #{list items:users_busy_bee, as:'usr'}		
+		  <label style="display:block;padding-left:15px;text-indent:-15px;padding-top:4px;">  
+		    &nbsp;&nbsp;&nbsp;
+			 #{if usr.photo.exists()}
+		      <img class="imgNon" src="@{Application.showUserPhoto(usr.id)}" style="width:25px" alt="$usr.fullname" />
+		      #{/if}
+		      #{else}
+		      <img class="imgNon" src="/public/images/lbi02.png" style="width:25px" alt="Default User Photo" />
+		      #{/else}	
+		 <a href="@{Users.profile(usr.id)}" style="font-weight:bold; color:gray" onmouseover="this.style.cursor='pointer'">
+		 &nbsp;${usr.fullname}, living in ${usr.address}, registered at ${usr.registrationDate.format('dd MMMM yyyy')}, has ${usr.balance} contributions.
+		 </a></label>
+		  #{/list}
+		#{/if}
+    	#{else}
+      		<p>No one has achieved Busy Bee status.</p>
+      	#{/else}
+    </div>
+  </div>
+  
+  <div class="index_tab_content" id="index_tab_content_3" style="display:none">
+    <div class="active_users">    	
+         #{if users_new_bee}
+		  #{list items:users_working_bee, as:'usr'}		
+		  <label style="display:block;padding-left:15px;text-indent:-15px;padding-top:4px;">  
+		    &nbsp;&nbsp;&nbsp;
+		     #{if usr.photo.exists()}
+		      <img class="imgNon" src="@{Application.showUserPhoto(usr.id)}" style="width:25px" alt="$usr.fullname" />
+		      #{/if}
+		      #{else}
+		      <img class="imgNon" src="/public/images/lbi02.png" style="width:25px" alt="Default User Photo" />
+		      #{/else}						  
+		 <a href="@{Users.profile(usr.id)}" style="font-weight:bold; color:gray" onmouseover="this.style.cursor='pointer'">
+		 &nbsp;${usr.fullname}, living in ${usr.address}, registered at ${usr.registrationDate.format('dd MMMM yyyy')}, has ${usr.balance} contributions.
+		 </a></label>
+		  #{/list}
+		#{/if}
+    	#{else}
+      		<p>No one has achieved Working Bee status.</p>
+      	#{/else}
+    </div>
+  </div>
+  
+  <div class="index_tab_content" id="index_tab_content_4"  style="display:none">
+    <div class="active_users">    	
+         #{if users_bumble_bee}
+		  #{list items:users_bumble_bee, as:'usr'}		
+		  <label style="display:block;padding-left:15px;text-indent:-15px;padding-top:4px;">  
+		    &nbsp;&nbsp;&nbsp;	
+		     #{if usr.photo.exists()}
+		      <img class="imgNon" src="@{Application.showUserPhoto(usr.id)}" style="width:25px" alt="$usr.fullname" />
+		      #{/if}
+		      #{else}
+		      <img class="imgNon" src="/public/images/lbi02.png" style="width:25px" alt="Default User Photo" />
+		      #{/else}		    
+			<a href="@{Users.profile(usr.id)}" style="font-weight:bold; color:gray" onmouseover="this.style.cursor='pointer'">
+		 &nbsp;${usr.fullname}, living in ${usr.address}, registered at ${usr.registrationDate.format('dd MMMM yyyy')}, has ${usr.balance} contributions.
+		 </a></label>
+		  #{/list}
+		#{/if}
+    	#{else}
+      		<p>No one has achieved Bumble Bee status.</p>
+      	#{/else}
+    </div>
+  </div>
+</div>
+
+<div class="postalt" style="border:0px solid green; width:98%">
+<div class="user_tabs" style="margin-top:30px; border:opx solid red; text-align:middle; width:100%">
+  <div class="tag_cloud_big linearBg2" style="border:0px solid green; width:360px; display:inline-block; text-align: center; ">
+  <h4>Offers in Clouds</h4>    
+</div>
+<div class="tag_cloud_big linearBg2" style="border:0px solid green; width:360px; display:inline-block; text-align: center; ">
+  <h4>Requests in Clouds</h4>    
+</div>
+  </div>
+
+<div class="index_tab_content3" id="index_tab_content_1" style="width:99.5%">
+<div class="tag_cloud_big linearBg2" style="border:0px solid green; width:350px; display:inline-block; text-align: center; vertical-align:top;">
+       <br/>
+       <ul>          
+        #{list items:tagCloudBigOffer, as:'tagItem'}
+        <li class = "${tagItem.CssClass}">  
+           <a href="${tagItem.hyperlink}" style="color:gray">${tagItem.name}</a>          
+        </li>
+        #{/list}
+       </ul>   
+       <br/>  
+</div>
+<div class="tag_cloud_big linearBg2" style="border:0px solid green; width:350px; display:inline-block;text-align:center; vertical-align:top; ">
+     <br/>
+     <ul>        
+        #{list items:tagCloudBigRequest, as:'tagItem'}
+         <li class = "${tagItem.CssClass}">  
+         	<a href="${tagItem.hyperlink}" style="color:gray">${tagItem.name}</a>
+        </li>
+        #{/list}
+       </ul> 
+       <br/>
+</div>
+</div>
+</div>
+#{/if}
+
+#{else}
+#{extends 'unlogged_user.html' /}
+<style>
+.linearBg2 {
+  /* fallback */
+  background-color: #eee;
+  background: url(images/linear_bg_2.png);
+  background-repeat: repeat-x;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #eee, #fff);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #eee, #fff);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #eee, #fff);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #eee, #fff);
+}
+.linearBg2 a {
+color:#2c76a5;
+}
+</style>
+
+<!-- 
+<div class="post" style="padding-top:12px; padding:top:00px">
+ <div class="user_tabs2" >
+    <ul>
+      <li><a href="#" class="active">Making it happen!</a>
+      </li>
+    </ul>
+  </div>
+
+<div style="vertical-align:middle; text-align:center;">
+<div class="index_tab_content2" id="index_tab_content_2" style="padding-top: 20px;padding-bottom:5px;">
+<iframe width="420" height="315" src="http://www.youtube.com/embed/RdopMqrftXs" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+</div>
+<br style="clear:both;"/>-->
+
+<div class="post" style="padding-top:5px; padding:top:00px">
+  
+  <div class="user_tabs" style="margin-top:10px;">
+    <ul>
+      <li>            
+       <a id="user_tab_a_1" href="#" class="active" no="1" onmousedown="abortTimer();">Making it happen!</a>    
+      </li>
+      <li>
+        <a id="user_tab_a_2" href="#" no="2" onmousedown="abortTimer();">A Hard Day's Cooking Night</a>
+      </li>
+      <li>
+        <a id="user_tab_a_3" href="#" no="3" onmousedown="abortTimer();">Mowers of Lawn</a>
+      </li>
+      <li>
+        <a id="user_tab_a_4" href="#" no="4" onmousedown="abortTimer();">Ain't No Spot When He Cleans</a>
+      </li>
+    </ul>
+  </div>
+  <div class="index_tab_content" id="index_tab_content_1">    
+    <div onmousedown="abortTimer();" style="text-align:center; vertical-align:middle; padding-top:20px;padding-bottom:10px;">
+      <iframe width="560" height="315" src="http://www.youtube.com/embed/UqUTDXk-dAA?rel=0" frameborder="0" allowfullscreen></iframe>
+	</div>    
+    <div style="clear:both;"></div>
+  </div>
+  <div class="index_tab_content nonvisible" id="index_tab_content_2">
+    <div class="images">
+      <div align="center"><img src="@{'/public/images/cooking1.jpg'}" /></div>
+      <div align="center"><img src="@{'/public/images/cooking2.jpg'}" /></div>
+    </div>   
+    <div class="service">
+      <b>Service:</b><br  />
+      <p>Cooking, mostly chinese, some thai</p>
+      <b>Tagline:</b><br  />
+      <p>Two people, one eager to cook, one eager to learn, none eager to clean</p>
+      <b>Quotes:</b><br  />
+      <p>- My eye, my beautiful eye!<br  />
+        - I have no idea what I am eating, but it tastes good enough.<br />
+        - Which was the bowl with vomit in it, again?</p>
+    </div>  
+    <div style="clear:both;"></div>
+  </div>
+  
+  <div class="index_tab_content nonvisible" id="index_tab_content_3">
+    <div class="images">
+      <div align="center"><img src="@{'/public/images/lawn1.jpg'}" /></div>
+      <div align="center"><img src="@{'/public/images/lawn2.jpg'}" /></div>
+    </div>
+    
+    <div class="service">
+      <b>Service:</b><br  />
+      <p>Gardening services, most importantly lawn mowing</p>
+      <b>Tagline:</b><br  />
+      <p>It was supposed to be an ordinary day in the garden</p>
+      <b>Quotes:</b><br  />
+      <p>- I drink your lemonade!<br  />
+        - I didn't know a lawn mower could do that.<br />
+        - Is everyone's fingers intact?</p>
+    </div>   
+    <div style="clear:both;"></div>
+  </div>
+  
+  <div class="index_tab_content nonvisible" id="index_tab_content_4">
+    <div class="images">
+      <div align="center"><img src="@{'/public/images/garage1.jpg'}" /></div>
+      <div align="center"><img src="@{'/public/images/garage2.jpg'}" /></div>
+    </div>
+    
+    <div class="service">
+      <b>Service:</b><br  />
+      <p>Cleaning a garage</p>
+      <b>Tagline:</b><br  />
+      <p>In the garage, no one can hear you clean</p>
+      <b>Quotes:</b><br  />
+      <p>- Do you know what this is? - No, but I'll clean the hell out of it.<br  />
+	- Is it safe to mix these stuff? - Probably not. (continues mixing cleaning materials)<br />
+        - Did I miss a spot? - (Everyone) Nooooo!</p>
+    </div>
+
+    <div style="clear:both;"></div>
+    </div>
+  </div>
+<div class="post">
+  <h4>Humble Bee of The Month</h4>
+  <div class="interview">
+    <div class="image">
+      <div align="center"><img src="@{'/public/images/hbirdman.jpg'}" /></div>
+      <div align="center">Harvey Birdman<br  /><a href="#nowhere">Working Bee</a></div>
+    </div>
+    
+    <div class="baloon">
+      <blockquote>
+        <span class="bqstart">&ldquo;</span>
+        I joined because back then I had too much spare time. Now I try to manage my schedule to create free time for services! 
+        <span class="bqend">&rdquo;</span>
+      </blockquote>
+    </div>
+    
+    <div class="story">
+      <b>Let It Bee:</b>Can you tell us about yourself?<br  />
+      <b>Harvey Birdman:</b>Well, I am an ex-superhero, currently an attorney. My power comes from the rays of the sun. I also have the power of attorney [laughs]. <br  />
+      <b>Let It Bee:</b>When did you participate in your first service?<br  />
+      <b>Harvey Birdman:</b>It was eight months ago. When I first joined I had trouble with participating in services. Then ... <a href="#nowhere">read the rest of the interview</a> <br  />
+    </div>
+    
+  </div>
+  
+</div>
+#{/else}
+
+
+<script>
+var clickIndex = 1;
+
+var tid = setTimeout(mycode, 3000); 
+function mycode() { 
+	 clickIndex ++;
+	 if (clickIndex == 5) clickIndex = 1;
+	 
+	 $('#user_tab_a_' + clickIndex.toString()).click();
+	 tid = setTimeout(mycode, 3000); 
+} 
+
+function abortTimer() 
+{ 		 
+	clearTimeout(tid); 
+} 
+</script>

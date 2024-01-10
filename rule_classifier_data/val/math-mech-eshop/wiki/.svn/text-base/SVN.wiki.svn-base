@@ -1,0 +1,42 @@
+<h1>Установка SVN плагина и работа с ним</h1>
+<b>I.</b> Идем в меню help->software updates <br>
+
+<a target='_blank' href='http://img6.imageshack.us/my.php?image=47909069.jpg'><img src='http://img6.imageshack.us/img6/3772/47909069.th.jpg' border='0'/></a><br>
+ 
+<b>II.</b> В выпавшем окошке выбираем вкладку Avaliable Software и нажимаем кнопку Add Site. В появившемся окошке пишем "http://subclipse.tigris.org/update_1.4.x". Нажимаем ok<br>
+<a target='_blank' href='http://img22.imageshack.us/my.php?image=svn1.jpg'><img src='http://img22.imageshack.us/img22/2419/svn1.th.jpg' border='0'/></a><br>
+
+<b>III.</b> Отмечаем галачкой как показано на картинке ниже. Нажимаем Install<br>
+<a target='_blank' href='http://img18.imageshack.us/my.php?image=svn2.jpg'><img src='http://img18.imageshack.us/img18/8079/svn2.th.jpg' border='0'/></a><br>
+
+<b>IV.</b> Нажимаем next, соглашаемся с условими, нажимаем Finish<br>
+<a target='_blank' href='http://img7.imageshack.us/my.php?image=svn3.jpg'><img src='http://img7.imageshack.us/img7/3228/svn3.th.jpg' border='0'/><br>
+<a target='_blank' href='http://img16.imageshack.us/my.php?image=svn4.jpg'><img src='http://img16.imageshack.us/img16/1959/svn4.th.jpg' border='0'/></a><br>
+
+<b>V.</b> Идем в меню file->new->other. В окошке в поиск вбиваем SVN, выбираем Checkout projects from SNV. Нажимаем next, и еще раз next<br>
+<a target='_blank' href='http://img15.imageshack.us/my.php?image=svn5.jpg'><img src='http://img15.imageshack.us/img15/5840/svn5.th.jpg' border='0'/><br>
+<a target='_blank' href='http://img19.imageshack.us/my.php?image=svn6.jpg'><img src='http://img19.imageshack.us/img19/5980/svn6.th.jpg' border='0'/><br>
+<a target='_blank' href='http://img14.imageshack.us/my.php?image=svn7.jpg'><img src='http://img14.imageshack.us/img14/5247/svn7.th.jpg' border='0'/></a><br>
+
+<b>VI.</b> Идем на <a href="http://code.google.com/p/math-mech-eshop/source/checkout">гугл код</a> там смотрим то, что выделено на картинке: URL, username, и пароль(тыкаете по обведенной ссылке, там большими буквами написан пароль. <b>ПАРОЛЬ ОТ АКАУНТА В ГУГЛЕ НЕ ПОДХОДИТ!</b><br> 
+<a href="http://img22.imageshack.us/my.php?image=svn8.jpg" target="_blank"><img src="http://img22.imageshack.us/img22/4268/svn8.th.jpg" border="0"/></a>
+
+<b>VII.</b> Вбиваем url из шестого пункта, в нашем случае https://math-mech-eshop.googlecode.com/svn/trunk/<br>
+<a target='_blank' href='http://img16.imageshack.us/my.php?image=svn9.jpg'><img src='http://img16.imageshack.us/img16/4308/svn9.th.jpg' border='0'/></a><br>
+
+<b>VIII.</b> Вбиваем username и password из шестого пункта.<br>
+<a target='_blank' href='http://img18.imageshack.us/my.php?image=svn11.jpg'><img src='http://img18.imageshack.us/img18/1745/svn11.th.jpg' border='0'/></a><br>
+
+<b>IX.</b> Выбираем единственный адрес в окошке, нажимаем finish.<br>
+<a target='_blank' href='http://img7.imageshack.us/my.php?image=svn12.jpg'><img src='http://img7.imageshack.us/img7/2793/svn12.th.jpg' border='0'/></a><br>
+
+<h2>Использование</h2> Правой кнопкой на проекте->team.<br>
+<a target='_blank' href='http://img16.imageshack.us/my.php?image=svn13.jpg'><img src='http://img16.imageshack.us/img16/7495/svn13.th.jpg' border='0'/></a><br>
+
+Нам нужны пока только 2 пункта: commit и update<br>
+
+Commit выглядит примерно так: <br>
+<a target='_blank' href='http://img15.imageshack.us/my.php?image=svn14.jpg'><img src='http://img15.imageshack.us/img15/937/svn14.th.jpg' border='0'/></a><br>
+Он позволяет заргузить на сервер изменения, которые вы сделали. Пока вы не выполнили коммит, никто не увидит, что вы изменили.
+
+Update позволяет загрузить изменения, которые произвели другие. Автоматически этого не происходит.

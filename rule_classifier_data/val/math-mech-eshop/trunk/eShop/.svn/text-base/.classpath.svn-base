@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="WEB-INF/src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/persistence-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/hibernate3.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="AntFiles/serverLibs/jsp-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="AntFiles/serverLibs/servlet-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/ocpsoft-pretty-faces-1.2.3_GA.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jsf-facelets.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jsf-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-el.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-beanutils.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-digester.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/jstl.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/slf4j-api.jar"/>
+	<classpathentry kind="lib" path="AntFiles/serverLibs/el-api.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/tomahawk12-1.1.8.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-fileupload-1.2.1.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="WEB-INF/lib/iText-2.1.5.jar"/>
+	<classpathentry kind="output" path="WEB-INF/classes"/>
+</classpath>

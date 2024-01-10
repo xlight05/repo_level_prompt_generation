@@ -1,0 +1,3 @@
+source.. = src
+output.. = WEB-INF/classes
+bin.includes.. = META-INF/,\

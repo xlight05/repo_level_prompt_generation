@@ -1,0 +1,18 @@
+#summary Restoring a persistent object using transactions.
+
+{{{
+    Repository tx = repository.begin();
+    SimplePersistent obj = (SimplePersistent)tx.restore("1");
+
+    // more code
+
+    tx.commit();
+}}}
+
+Begin a transaction and invoke its restore method. If there is no object with the specified identity in the repository, null is returned.
+
+The transactional restore returns the latest value mapped to the specified identity, excluding updates of not-yet-commited transactions.
+
+----
+Related articles
+ * [WritingASimplePersistentClass].

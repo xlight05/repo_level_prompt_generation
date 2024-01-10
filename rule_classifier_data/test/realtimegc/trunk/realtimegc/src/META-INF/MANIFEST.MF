@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.shautvast.realtimegc.Main
+Class-Path: lib/commons-logging-1.1.1.jar lib/jcommon-1.0.12.jar lib/jfreechart
+ -1.0.9.jar joda-time-1.6.jar

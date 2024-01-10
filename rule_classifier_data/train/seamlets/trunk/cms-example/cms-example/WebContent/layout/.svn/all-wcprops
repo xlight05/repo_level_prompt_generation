@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/layout
+END
+menu.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/layout/menu.xhtml
+END
+edit.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/layout/edit.xhtml
+END
+display.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/layout/display.xhtml
+END
+sort.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/layout/sort.xhtml
+END
+template.xhtml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/trunk/cms-example/cms-example/WebContent/layout/template.xhtml
+END

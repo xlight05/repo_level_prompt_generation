@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer
+END
+GraphMetadata.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/GraphMetadata.java
+END
+GraphViewerProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/GraphViewerProxy.java
+END
+IGraphInfoCreator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/IGraphInfoCreator.java
+END
+SingleDataInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/SingleDataInfo.java
+END
+IBatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/IBatch.java
+END
+SingleData.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/SingleData.java
+END
+BatchInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/BatchInfo.java
+END
+SingleChartInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/SingleChartInfo.java
+END
+TagTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/TagTypes.java
+END
+Batch.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/Batch.java
+END
+GraphMetadataResponse.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/4/trunk/src/se/openprocesslogger/proxy/graphviewer/GraphMetadataResponse.java
+END

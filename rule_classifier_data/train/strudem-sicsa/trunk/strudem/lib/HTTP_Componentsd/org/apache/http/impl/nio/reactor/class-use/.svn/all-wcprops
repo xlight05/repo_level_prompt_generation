@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use
+END
+AbstractIODispatch.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/AbstractIODispatch.html
+END
+AbstractIOReactor.html
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/AbstractIOReactor.html
+END
+IOReactorConfig.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/IOReactorConfig.html
+END
+SessionRequestImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SessionRequestImpl.html
+END
+SessionInputBufferImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SessionInputBufferImpl.html
+END
+SessionOutputBufferImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SessionOutputBufferImpl.html
+END
+SSLSetupHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SSLSetupHandler.html
+END
+AbstractMultiworkerIOReactor.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/AbstractMultiworkerIOReactor.html
+END
+BaseIOReactor.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/BaseIOReactor.html
+END
+ChannelEntry.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/ChannelEntry.html
+END
+SessionClosedCallback.html
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SessionClosedCallback.html
+END
+SSLIOSessionHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SSLIOSessionHandler.html
+END
+SSLIOSession.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SSLIOSession.html
+END
+ListenerEndpointClosedCallback.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/ListenerEndpointClosedCallback.html
+END
+IOSessionImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/IOSessionImpl.html
+END
+SessionHandle.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SessionHandle.html
+END
+ExceptionEvent.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/ExceptionEvent.html
+END
+DefaultConnectingIOReactor.html
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/DefaultConnectingIOReactor.html
+END
+SSLMode.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SSLMode.html
+END
+SessionRequestHandle.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/SessionRequestHandle.html
+END
+ListenerEndpointImpl.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/ListenerEndpointImpl.html
+END
+DefaultListeningIOReactor.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/impl/nio/reactor/class-use/DefaultListeningIOReactor.html
+END

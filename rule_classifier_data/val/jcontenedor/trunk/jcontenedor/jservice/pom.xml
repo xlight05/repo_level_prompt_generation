@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.jsemantic</groupId>
+		<artifactId>jcontenedor</artifactId>
+		<version>1.0</version>
+	</parent>
+	<groupId>org.jsemantic</groupId>
+	<artifactId>jservice</artifactId>
+	<version>${jservice.version}</version>
+	<packaging>jar</packaging>
+	<name>jservice</name>
+	<description>jservice</description>
+	<properties>
+		<jservice.version>0.3.1-SNAPSHOT</jservice.version>
+		<spring.version>2.5.6</spring.version>
+	</properties>
+		<dependencies>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjrt</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.aspectj</groupId>
+			<artifactId>aspectjweaver</artifactId>
+			<version>1.6.2</version>
+		</dependency>
+	</dependencies>
+</project>

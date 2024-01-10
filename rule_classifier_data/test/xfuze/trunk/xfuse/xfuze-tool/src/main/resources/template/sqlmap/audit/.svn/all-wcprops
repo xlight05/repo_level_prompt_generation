@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/76/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/audit
+END
+sqlmap.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/75/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/audit/sqlmap.xml
+END
+sqlmap-insert.xml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/76/trunk/xfuse/xfuze-tool/src/main/resources/template/sqlmap/audit/sqlmap-insert.xml
+END

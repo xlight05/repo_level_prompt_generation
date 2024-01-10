@@ -1,0 +1,298 @@
+-------------------------------------------------------------------------------
+WEEKLY PROJECT DIARY 2006-09-20
+-------------------------------------------------------------------------------
+
+PROJECT CONTRIBUTION:
+
+Populated Subversion SCM repository with initial structure.
+Populated back log with work items and create associated issue-register items to track status.
+Migrated individual spikes and documentation from the team Wiki into the SCM.
+Scanned and distributed user story analysis documentation.
+
+
+INDIVIDUAL LEARNING:
+
+Gained experience working with Google Code and its Subversion repository.
+Installed and configured Eclipse to use Subversion via the Subclipse Plug-in.
+
+
+CURRENT WORK:
+
+Writing an ANT script for the project build.  This will be the first development automation step.
+
+
+PLANNED WORK:
+
+Complete ANT script and then embark on any outstanding items in backlog.
+I am hoping to have time this week to continue spiking areas of the metrics library.
+
+
+CURRENT ISSUES:
+
+The team was down to three members this week, which will impair the group velocity.
+
+
+PROJECT DIFFICULTIES:
+
+	Knowledge/Skill/Technology Gaps:
+
+	* Knowledge Gap for Metrics Library (still outstanding)
+
+	People/Time issues:
+
+	* I remain very busy at work, which looks like it will become worse during the next month.
+	* As stated earlier, we were down to three team members this week.
+
+
+PROJECT REFLECTION:
+
+In a matter of two shorts weeks things have started to slip on the project schedule.
+And there is still no collaborative information on the team wiki, other than the information I have uploaded.
+
+
+WORK LOG WEEK 07
+
+Type Day  Date        Duration  Description
+-------------------------------------------------------------------------------
+ O   WED  2006-09-13  01:00     Agile Lecture
+ O   WED  2006-09-13  02:00     Agile Lab
+ O   WED  2006-09-13  00:05     Stand-up Meeting
+ O   WED  2006-09-13  00:30     Blog response and reading
+ O   SAT  2006-09-16  01:00     Blog reading and forum discussion
+ U   MON  2006-09-18  01:00     Project and Development Discussion
+ P   TUE  2006-09-19  02:00     Seed Subversion SCM repository
+ P   WED  2006-09-20  00:30     Update SCM with missed *.log files
+ P   WED  2006-09-20  01:00     Populate back-log work items
+ P   WED  2006-09-20  00:30     Associate issues with work items
+ P   WED  2006-09-20  00:30     Migrate spikes and documentation
+ 0   WED  2006-09-20  01:00     Blog Entry and forum discussion
+ 0   WED  2006-09-20  00:25     Project diary and work log
+
+Weekly total: 11:30  (Planned: 04:30, Unplanned: 01:00, Ongoing: 06:00)
+-------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------
+WEEKLY PROJECT DIARY 2006-09-27
+-------------------------------------------------------------------------------
+
+PROJECT CONTRIBUTION:
+
+Migrated project work items into issue register - I held off completely this last week until we could discuss this strategy as a team.
+Updated project structure and created initial build ant script functionality.
+I won't be able to check this in until tomorrow as I am waiting for team comfirmation about the versioning of tools such as ANT.
+
+
+INDIVIDUAL LEARNING:
+
+Created SVN server at work for local versioning.
+Installed TortoiseSVN onto two workstations - this product has matured wonderfully in the past few years.
+
+
+CURRENT WORK:
+
+Continue adding ant tasks to automate the project build.
+
+
+PLANNED WORK:
+
+Review and identity any issues breaking the build process (compile and tests at this stage)
+If time is available, then I will most likely work on Release Documentation for Iteration 1.
+
+
+CURRENT ISSUES:
+
+No current issues - the team will hopefully make up ground now that things seem to be running smoothly.
+
+
+PROJECT DIFFICULTIES:
+
+	Knowledge/Skill/Technology Gaps:
+
+	* None affecting my current workload
+
+	People/Time issues:
+
+	* None
+
+
+PROJECT REFLECTION:
+
+SVN has impressed me this week, and has improved much since I last had a chance to evaluate it.
+Many of the plugins and supporting tools (such as TortoiseSVN have also improved)
+On the project front, I believe the team has allocated the work items for this iteration well.
+Hopefully, we will have a valid release for interation 1.
+
+
+WORK LOG WEEK 08
+
+Type Day  Date        Duration  Description
+-------------------------------------------------------------------------------
+ U   TUE  2006-09-26  1:00      Review and update project.log
+ U   TUE  2006-09-26  1:30      Migrate project.log items into issue register
+ P   TUE  2006-09-26  2:30      Team project meeting
+ P   WED  2006-09-27  2:00      Create ANT build environment at work
+ P   WED  2006-09-27  1:30      Install TortoiseSVN and synchronise to main branch
+ O   WED  2006-09-27  2:00      Agile blog entry
+ O   WED  2006-09-27  0:30      Blog reading and forum discussion
+ O   WED  2006-09-27  1:00      Project diary and work log
+
+
+Weekly total: 12:00  (Planned: 06:00, Unplanned: 02:30, Ongoing: 03:30)
+-------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------
+WEEKLY PROJECT DIARY 2006-10-04
+-------------------------------------------------------------------------------
+
+PROJECT CONTRIBUTION:
+
+Updated project issue register to address issues with source code.
+Created ANT build to clean, compile and test project source code.
+Added additional steps to run release build, which includes generating documentation, jaring and archiving.
+Created synchronisation batch file to allow developers to update libraries dependencies.
+Ideally this would be done via an ANT task, but in this case the script would be updating the ANT runtime.
+Recreate Eclipse project using correct file locations for source code.
+Fix source code checked into SVN so that it uses project structure.
+
+
+INDIVIDUAL LEARNING:
+
+Learning differences between Java ANT and NANT.  Still troubleshooting issue with ANT 1.65 ignoring commandline target - this was working under ANT 1.7b2.
+
+
+CURRENT WORK:
+
+Need to schedule team meeting as we are rapidly getting nowhere.
+
+
+PLANNED WORK:
+
+Update to ANT 1.7b2 unless I can identify why the target is ignored.
+If time is available, then I will most likely work on Release Documentation for Iteration 1.
+
+
+CURRENT ISSUES:
+
+No current issues - the team will hopefully make up ground now that things seem to be running smoothly.
+
+
+PROJECT DIFFICULTIES:
+
+	Knowledge/Skill/Technology Gaps:
+
+	* ANT 1.65 seems to ignore command line target - only seems to run default target.  It works as expected in ANT1.7b2
+
+	People/Time issues:
+
+	* We seem have have achieved very little work these past weeks.
+	* A combined 80 hours of effort seems to have produced about 20 hours worth of results.
+
+
+PROJECT REFLECTION:
+
+Despite last weeks team meeting where work was allocated - we seem to have completed very little of the tasks.
+I don't see how we can complete next weeks tasks if we are so far behind schedule.
+
+
+WORK LOG WEEK 09
+
+Type Day  Date        Duration  Description
+-------------------------------------------------------------------------------
+ P   FRI  2006-10-29  3:00      Create ANT Targets for init, clean, compile, test, and package, etc
+ U   FRI  2006-10-29  0:30      Raise issues on broken SVN development tree
+ O   FRI  2006-10-29  2:00      Blog Entry and forum discussion
+ P   MON  2006-10-02  1:00      Checked-in and then removed development libraries for junit and ant
+ P   MON  2006-10-02  2:30      Create synclib.cmd batch script to update development libraries
+ P   MON  2006-10-02  1:30      Fix SVN project file structure and create new eclipse project
+ P   MON  2006-10-02  1:00      Debug ANT 1.65 - ignores command line targets
+ U   WED  2006-10-04  0:30      Email project team about missing documentation and release notes
+ P   WED  2006-10-04  0:30      Continue debugging ANT 1.65 - ignores command line targets
+ P   WED  2006-10-04  1:00      Update project logs and label build (Build0)
+ P   WED  2006-10-04  1:00      Update project diary
+
+Weekly total: 14:30  (Planned: 11:30, Unplanned: 01:00, Ongoing: 02:00)
+-------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------
+WEEKLY PROJECT DIARY 2006-10-11
+-------------------------------------------------------------------------------
+
+PROJECT CONTRIBUTION:
+
+Synchronising Team Communication.
+
+
+INDIVIDUAL LEARNING:
+
+More information on integrating Eclipse and ANT.
+PMD integration into the build process (partial).
+EMMA integration into the build process.
+
+
+CURRENT WORK:
+
+Running project iteration builds and managing build process integration.
+Troubleshooting development team issues.
+
+
+PLANNED WORK:
+
+Extend analysis performed by PMD and Emma code-toolkits.
+
+
+CURRENT ISSUES:
+
+We are behind schedule, but hopefully we will be provided with an time extension.
+
+
+PROJECT DIFFICULTIES:
+
+	Knowledge/Skill/Technology Gaps:
+
+	* Emma Test Coverage Tool
+	* Emma-ANT build integration
+	* PMD-ANT build integration
+
+	People/Time issues:
+
+	* Have had contact from missing team member.
+
+
+PROJECT REFLECTION:
+
+By establishing a functional and automated build process, I feel that I can better track development issues.
+So while we are still behind, I think that team members will be able to spot problems better.
+
+
+WORK LOG WEEK 10
+
+Type Day  Date        Duration  Description
+-------------------------------------------------------------------------------
+ P   WED  2006-10-04  1:00      Discuss course of action to address project schedule
+ P   TUE  2006-10-10  1:00      Update team with current issues and update backlogs
+ O   TUE  2006-10-10  1:00	Forum discussion and posting
+ O   TUE  2006-10-10  0:30      Reading blogs
+ O   TUE  2006-10-10  1:00      Blog entry
+ P   WED  2006-10-11  3:00      EMMA Integration
+ U   WED  2006-10-11  1:50      Troubleshoot Broken Build
+ P   WED  2006-10-11  1:00      Release Notes
+ P   WED  2006-10-11  1:00      Library Rationale Document
+ P   WED  2006-10-11  0:30      Project Diary
+ U   WED  2006-10-11  0:30      Restructure Spike Folders
+ P   WED  2006-10-11  1:30      Release Build and Tagging of Project Repository
+ P   WED  2006-10-11  1:30      Integration PMD
+
+Weekly total: 15:00  (Planned: 10:30, Unplanned: 02:00, Ongoing: 02:30)
+-------------------------------------------------------------------------------

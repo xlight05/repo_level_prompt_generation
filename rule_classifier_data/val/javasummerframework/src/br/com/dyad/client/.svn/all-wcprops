@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/5/src/br/com/dyad/client
+END
+RestoreService.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/src/br/com/dyad/client/RestoreService.java
+END
+KeyCodes.java
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/src/br/com/dyad/client/KeyCodes.java
+END
+ClientUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/5/src/br/com/dyad/client/ClientUtil.java
+END
+DyadBaseTreeModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/src/br/com/dyad/client/DyadBaseTreeModel.java
+END
+Test.java
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/5/src/br/com/dyad/client/Test.java
+END
+DyadInfrastructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/src/br/com/dyad/client/DyadInfrastructure.java
+END
+Restore.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/5/src/br/com/dyad/client/Restore.java
+END
+ClientServerException.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/src/br/com/dyad/client/ClientServerException.java
+END
+ProgressDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/src/br/com/dyad/client/ProgressDialog.java
+END
+DyadClientListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/5/src/br/com/dyad/client/DyadClientListener.java
+END
+Navigator.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/src/br/com/dyad/client/Navigator.java
+END
+GenericServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/client/GenericServiceAsync.java
+END
+ClientTestExtJs.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/src/br/com/dyad/client/ClientTestExtJs.java
+END
+DyadAsyncCallback.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/5/src/br/com/dyad/client/DyadAsyncCallback.java
+END
+DyadSelectionListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/src/br/com/dyad/client/DyadSelectionListener.java
+END
+DyadBaseModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/5/src/br/com/dyad/client/DyadBaseModel.java
+END
+GenericService.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/5/src/br/com/dyad/client/GenericService.java
+END
+TimerMessageBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/5/src/br/com/dyad/client/TimerMessageBox.java
+END
+DataClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/5/src/br/com/dyad/client/DataClass.java
+END
+AppException.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/src/br/com/dyad/client/AppException.java
+END
+ConfirmPasswordDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/5/src/br/com/dyad/client/ConfirmPasswordDialog.java
+END
+PromptDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/5/src/br/com/dyad/client/PromptDialog.java
+END
+RestoreServiceAsync.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/5/src/br/com/dyad/client/RestoreServiceAsync.java
+END

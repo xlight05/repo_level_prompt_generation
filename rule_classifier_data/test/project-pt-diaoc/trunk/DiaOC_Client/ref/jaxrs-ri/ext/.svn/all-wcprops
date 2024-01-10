@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext
+END
+persistence-api-1.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/persistence-api-1.0.jar
+END
+javax.annotation-api-1.2.jar
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/javax.annotation-api-1.2.jar
+END
+asm-all-repackaged-2.2.0-b21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/asm-all-repackaged-2.2.0-b21.jar
+END
+hk2-api-2.2.0-b21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/hk2-api-2.2.0-b21.jar
+END
+org.osgi.core-4.2.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/org.osgi.core-4.2.0.jar
+END
+cglib-2.2.0-b21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/cglib-2.2.0-b21.jar
+END
+jaxb-api-2.2.7.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/jaxb-api-2.2.7.jar
+END
+javax.servlet-api-3.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/javax.servlet-api-3.0.1.jar
+END
+hk2-utils-2.2.0-b21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/hk2-utils-2.2.0-b21.jar
+END
+guava-14.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/guava-14.0.1.jar
+END
+osgi-resource-locator-1.0.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/osgi-resource-locator-1.0.1.jar
+END
+javax.inject-2.2.0-b21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/javax.inject-2.2.0-b21.jar
+END
+hk2-locator-2.2.0-b21.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/hk2-locator-2.2.0-b21.jar
+END
+validation-api-1.1.0.Final.jar
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/18/trunk/DiaOC_Client/ref/jaxrs-ri/ext/validation-api-1.1.0.Final.jar
+END

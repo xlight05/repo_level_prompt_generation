@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/352/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/package.html
+END
+BlockStorage.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/BlockStorage.java
+END
+BlockAddress.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/352/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/BlockAddress.java
+END
+BlockStorageProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/BlockStorageProxy.java
+END
+BlockStorageStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/353/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/BlockStorageStrategy.java
+END
+BlockStorageConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/583/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/BlockStorageConfiguration.java
+END
+BlockStorageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/353/trunk/GlooDB/GlooDBImplFile/src/main/java/gloodb/file/storage/block/BlockStorageFactory.java
+END

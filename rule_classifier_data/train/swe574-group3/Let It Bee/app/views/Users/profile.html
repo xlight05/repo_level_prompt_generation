@@ -1,0 +1,196 @@
+#{extends 'logged_user.html' /}
+#{set title:'Profile' /}
+
+<div id="main" style="padding-top:0px">
+  <div class="post" style="padding:top:0px">
+    <div class="right">
+      <h3>${observedUser.fullname}</h3>
+      #{if observedUser.photo.exists()}
+      <img class="avatar" src="@{Application.showUserPhoto(observedUser.id)}" alt="$observedUser.fullname" />
+      #{/if}
+      #{else}
+      <img class="avatar" src="/public/images/lbi02.png" alt="Default User Photo" />
+      #{/else}
+      <p></p>      
+      <div class="user_tabs">
+        <ul>
+          <li>
+            <a href="#" class="active" no="1">Handshakes</a>
+          </li>
+	  <li>
+	    <a href="#" no="2">Offers</a>
+	  </li>
+	  <li>
+	    <a href="#" no="3">Requests</a>
+	  </li>
+        </ul>
+      </div>
+
+      #{if handshakes}
+      <div class="index_tab_content" id="index_tab_content_1" style="display:block">
+      <table class="show_data" style="margin-left:0px; width:560px;">
+        <tr class="first">
+          <th>Title</th>
+          <th>Honey Combs Made</th>
+          <th>Offerer</th>
+          <th>Requester</th>
+          <th>Details</th>
+        </tr>
+
+	#{list items:handshakes, as:'handshake'}
+	<tr>
+	  <td>
+	  #{if handshake.isOriginallyAnOffer}
+	  ${handshake.offer.title}
+	  #{/if}
+	  #{else}
+	  ${handshake.request.title}
+	  #{/else}
+	  </td>
+	  <td>${handshake.offer.credit}</td>
+	  <td>${handshake.offer.user.fullname}</td>
+	  <td>${handshake.request.user.fullname}</td>
+	  <td><a href="@{Handshakes.show(handshake.id)}">Details</a></td>
+	</tr>
+	#{/list}
+
+      </table>
+      </div>
+      #{/if}
+
+      #{if offers}
+      <div class="index_tab_content" id="index_tab_content_2" style="display:none">
+      	<table class="show_data" style="margin-left:0px; width:560px;">
+      	  <tr class="first">
+            <th>Title</th>
+            <th>Details</th>
+          </tr>
+
+      	  #{list items:offers, as:'offer'}
+      	  <tr>
+      	    <td>${offer.title}</td>
+      	    <td><a href="@{Offers.showDetails(offer.id)}">Details</a></td>
+      	  </tr>
+      	  #{/list}
+     	</table>
+	
+      </div>
+      #{/if}
+
+      #{if requests}
+      <div class="index_tab_content" id="index_tab_content_3" style="display:none">
+      	<table class="show_data" style="margin-left:0px; width:560px;">
+      	  <tr class="first">
+            <th>Title</th>
+            <th>Details</th>
+          </tr>
+
+      	  #{list items:requests, as:'request'}
+      	  <tr>
+      	    <td>${request.title}</td>
+      	    <td><a href="@{Requests.showDetails(request.id)}">Details</a></td>
+      	  </tr>
+      	  #{/list}
+     	</table>
+      </div>
+      #{/if}
+
+        <span class="title">Comments</span>
+        <ol class="commentlist">
+          #{list items:comments, as:'comment'}
+          <li class="depth-1">
+            <div class="comment-info">
+	      
+	      <a href="@{Users.profile(comment.user.id)}">
+	      #{if comment.user.photo.exists()}
+	      <img alt=" ${comment.user.fullname}'s avatar" src="@{Application.showUserPhoto(comment.user.id)}" class="lepetitavatar"/>
+	      #{/if}
+	      #{else}
+	      <img alt="Default Avatar" src="/public/images/lbi02.png" class="lepetitavatar" />
+	      #{/else}
+	      </a>
+	      <cite> <a href="@{Users.profile(comment.user.id)}">${comment.user.fullname}</a> Says: <br />
+                <span class="comment-data">${comment.date.format('dd MMMM yyyy, hh:mm')}</span> <br />
+                <span class="comment-data">About: <a href=@{Handshakes.show(comment.handshake.id)}>${comment.handshake.offer.title}</a></span>
+	      </cite>
+	    </div> 
+            <div class="comment-text">
+              <p>${comment.text}</p>
+               #{if comment.rating != null}
+              		<p>Rating: ${comment.rating} / 5</p>
+               #{/if}
+            </div>
+          </li>
+          #{/list}
+        </ol>
+
+      <!-- <div class="pager" style="margin-right:0px;"> -->
+      <!--   <a href="#">Start</a> -->
+      <!--   ... -->
+      <!--   <a href="#">6</a> -->
+      <!--   <a href="#">7</a> -->
+      <!--   <a href="#" class="current_page">8</a> -->
+      <!--   <a href="#">9</a> -->
+      <!--   <a href="#">10</a> -->
+      <!--   ... -->
+      <!--   <a href="#">End</a> -->
+      <!-- </div> -->
+      
+      
+    </div>
+    <div class="left">
+
+      <div class="post-meta">
+        <ul>
+         <li style="text-align: left">
+		  	<script type="text/javascript">
+			 $(document).ready( function() {
+				 deger = ${observedUser.reputation};  
+					for(i = 1; i < 6; i++)
+					{
+						if( i > deger)
+						{
+							$('#user_star_area').append('<img class="imgNon" style="width:26px;" src="/public/images/stars0.png" />');  
+						}
+						else
+						{
+							$('#user_star_area').append('<img class="imgNon" style="width:26px;" src="/public/images/stars1.png" />'); 
+						}
+					}
+				});
+			  </script>
+		      <div id="user_star_area" style="width:130px; text-align: left;">
+		      
+		      </div>
+		  </li>
+          <li style="text-align: left">&nbsp;Name: ${observedUser.fullname}</li>
+          <li style="text-align: left">&nbsp;${observedUser.badge.toString().toLowerCase().replace("_"," ").replace("bee","Bee").replace("new","New").replace("busy","Busy").replace("working","Working").replace("bumble","Bumble")}</li>
+	  <li style="text-align: left">&nbsp;Honey Combs: ${observedUser.balance}</li>	 
+	  <li style="text-align: left">&nbsp;City:<br/>&nbsp;&nbsp;${observedUser.address}</li>
+          <li style="text-align: left">&nbsp;Member Since: <br/>&nbsp;&nbsp;${observedUser.registrationDate.format('dd MMMM yyyy')}</li>
+		  
+        </ul>
+      </div>
+      <div class="post-meta" style="text-align: left;">
+        <h4>${observedUser.fullname}<br/>in Clouds</h4>
+          <div class="tag_cloud" style="text-transform:none !important; text-align:center">  
+          <ul>
+          <br/>                 
+	        #{list items:tagUserCloud, as:'tagItem'}
+	        <li class = "${tagItem.CssClass}">  
+	           <a href="${tagItem.hyperlink}" style="color:#147DB6">${tagItem.name}</a>          
+	        </li>
+	        #{/list}
+          </ul>          
+            <!-- <ul>
+	      #{list items:models.Tag.find('select name from Tag group by name order by count(*) desc').fetch(6), as:'poptag'}
+	      ${poptag}
+	      #{/list}
+            </ul>-->
+          </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</div>

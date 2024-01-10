@@ -1,0 +1,36 @@
+<h1>Установка плагина для работы с Google App Engine и работа с ним</h1>
+<font color="gray">Google App Engine - это сервис, на котором мы будем запускать сайт.</font><br><br>
+<h2>Установка</h2><br>
+<b>I.</b> Идем в меню help->software updates <br>
+<a target='_blank' href='http://img6.imageshack.us/my.php?image=47909069.jpg'><img src='http://img6.imageshack.us/img6/3772/47909069.th.jpg' border='0'/></a><br>
+
+<b>II.</b> В выпавшем окошке выбираем вкладку Avaliable Software и нажимаем кнопку Add Site. В появившемся окошке пишем "http://dl.google.com/eclipse/plugin/3.4". Нажимаем ok<br>
+<a target='_blank' href='http://img16.imageshack.us/my.php?image=48632052.jpg'><img src='http://img16.imageshack.us/img16/9371/48632052.th.jpg' border='0'/></a><br>
+
+<b>III.</b> Cтавим галку напротив "http://dl.google.com/eclipse/plugin/3.4". Нажимаем install<br>
+<a target='_blank' href='http://img12.imageshack.us/my.php?image=92502536.jpg'><img src='http://img12.imageshack.us/img12/1022/92502536.th.jpg' border='0'/></a><br>
+
+<b>IV.</b> Нажимаем next, соглашаемся с условими, нажимаем finish<br>
+<a target='_blank' href='http://img11.imageshack.us/my.php?image=40371158.jpg'><img src='http://img11.imageshack.us/img11/8007/40371158.th.jpg' border='0'/><br>
+<a target='_blank' href='http://img10.imageshack.us/my.php?image=60717025.jpg'><img src='http://img10.imageshack.us/img10/8255/60717025.th.jpg' border='0'/></a><br><br>
+
+<h2>Создание пробного проекта</h2>(необязательно)<br>
+
+
+<b>I.</b> Идем в меню file->new->web application project<br>
+<a target='_blank' href='http://img15.imageshack.us/my.php?image=73348095.jpg'><img src='http://img15.imageshack.us/img15/801/73348095.th.jpg' border='0'/></a><br>
+
+<b>II.</b> Пишем какое-нить название проекта и пакет. Нажимаем finish<br>
+<a target='_blank' href='http://img14.imageshack.us/my.php?image=19285369.jpg'><img src='http://img14.imageshack.us/img14/4730/19285369.th.jpg' border='0'/></a><br><br>
+Закрываем приветственное окошко(крестик рядом в welcome под панелью меню). Должно выглядеть примерно так: <br>
+<a target='_blank' href='http://img17.imageshack.us/my.php?image=16038593.jpg'><img src='http://img17.imageshack.us/img17/1181/16038593.th.jpg' border='0'/></a><br>
+
+<b>III.</b> Смотрим создавшийся проект. Чтобы ракрыть дерево надо навести мышку, сбоку появится треульничек, на него нажать.<br>
+<a target='_blank' href='http://img13.imageshack.us/my.php?image=94699904.jpg'><img src='http://img13.imageshack.us/img13/3958/94699904.th.jpg' border='0'/></a><br>
+
+Чтобы запустить необходимо нажать на выделенную иконку<br>
+<a href="http://img22.imageshack.us/my.php?image=gwt10.jpg" target="_blank"><img src="http://img22.imageshack.us/img22/5517/gwt10.th.jpg" border="0"/></a><br>
+
+Появляется что-то в этом роде:<br>
+<a href="http://img22.imageshack.us/my.php?image=gwt11.jpg" target="_blank"><img src="http://img22.imageshack.us/img22/2541/gwt11.th.jpg" border="0" alt="Free Image Hosting at www.ImageShack.us" /></a><br/>
+Только вместо странички с надпись "переход отменен" должна быть сраничка и одним текстовым полем и кнопкой. Если у кого-то выглядит точно там же, как на картинке(тоесть переход таки отменен(как у меня =))) то в любом своем браузере пишем в адресной строке <a href="http://localhost:8080/">http://localhost:8080/</a>. Если и это не помогает(опять же, как у меня ^_^) то пишем <a href="http://127.0.0.1:8080/">http://127.0.0.1:8080/</a>

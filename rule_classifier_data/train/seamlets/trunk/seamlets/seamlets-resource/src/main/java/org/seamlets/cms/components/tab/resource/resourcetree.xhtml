@@ -1,0 +1,108 @@
+<s:div styleClass="left" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:s="http://jboss.com/products/seam/taglib"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich"
+	rendered="#{pageInfo.showNavigationView}">
+	<h:form styleClass="navigationToolbar" id="resourceBrowserForm">
+	    <rich:panel bodyClass="navigationpanelBody" styleClass="navigationpanel" headerClass="navigationHeader">
+	        <f:facet name="header">
+	       		#{messages['resource.browser.header']}
+	        </f:facet>
+		    	<rich:toolBar height="34" styleClass="navigationToolbar" itemSeparator="line">
+		    		<rich:toolBarGroup location="right" itemSeparator="line">
+		    			<h:commandLink action="#{resourceTab.showDirectoryDialog}"
+		    				rendered="#{resourceTab.selectedDirectory != null}">
+		    				<h:graphicImage value="/img/admingui/addFolder.png" styleClass="hover" 
+		    					width="24"/>
+		    			</h:commandLink>
+		    			<h:graphicImage value="/img/admingui/addFolder_dis.png"
+		    				rendered="#{resourceTab.selectedDirectory == null}" width="24"/>
+		    			<h:commandLink action="#{resourceTab.deleteItem}"
+		    				rendered="#{not resourceTab.root}">
+		    				<s:graphicImage value="#{resourceTab.deleteImage}" styleClass="hover">
+            					<s:transformImageSize maintainRatio="true" width="24"/>
+            				</s:graphicImage>
+		    			</h:commandLink>
+		    			<s:graphicImage value="#{resourceTab.deleteImageDis}"
+		    				rendered="#{resourceTab.root}">
+           					<s:transformImageSize maintainRatio="true" width="24"/>
+           				</s:graphicImage>	
+					</rich:toolBarGroup>
+				</rich:toolBar>
+				<rich:tree id="resourceTree" style="width:220px"
+					reRender="resourcecontent, resourceBrowserForm" 
+					changeExpandListener="#{resourceTab.processExpansion}"
+					switchType="ajax" stateAdvisor="#{resourceTab}" 
+					nodeSelectListener="#{resourceTab.processSelection}"
+					ajaxSubmitSelection="true">
+					
+					<rich:treeNodesAdaptor nodes="#{resourceTab.roots}" var="directory">
+            			<rich:treeNode>
+	            			<f:facet name="icon">
+	            				<s:graphicImage value="#{resourceTab.rootImage}" title="#{messages['resource.root']}">
+	            					<s:transformImageSize maintainRatio="true" width="16"/>
+	            				</s:graphicImage>
+	            			</f:facet>
+	            			<f:facet name="iconLeaf" title="#{messages['resource.root']}">
+	            				<s:graphicImage value="#{resourceTab.rootImage}">
+	            					<s:transformImageSize maintainRatio="true" width="16"/>
+	            				</s:graphicImage>
+	            			</f:facet>
+	            			<h:outputText value="#{directory.name}" />
+	            		</rich:treeNode>
+	            		
+	            		<rich:recursiveTreeNodesAdaptor roots="#{directory.directories}" nodes="#{directory.directories}" var="directory">
+	            			<rich:treeNode>
+	            				<f:facet name="icon">
+		            				<s:graphicImage value="#{resourceTab.directoryImage}" title="#{messages['resource.directory']}">
+		            					<s:transformImageSize maintainRatio="true" width="16"/>
+		            				</s:graphicImage>
+		            			</f:facet>
+		            			<f:facet name="iconLeaf">
+		            				<s:graphicImage value="#{resourceTab.directoryImage}" title="#{messages['resource.directory']}">
+		            					<s:transformImageSize maintainRatio="true" width="16"/>
+		            				</s:graphicImage>
+		            			</f:facet>
+	            				<h:outputText value="#{directory.name}" />
+	            			</rich:treeNode>
+	            			<rich:treeNodesAdaptor nodes="#{directory.files}" var="file">
+		            			<rich:treeNode>
+		            				<f:facet name="icon">
+			            				<s:graphicImage value="#{file.image}" title="#{messages['resource.file']}">
+			            					<s:transformImageSize maintainRatio="true" width="16"/>
+			            				</s:graphicImage>
+			            			</f:facet>
+			            			<f:facet name="iconLeaf">
+			            				<s:graphicImage value="#{file.image}" title="#{messages['resource.file']}">
+			            					<s:transformImageSize maintainRatio="true" width="16"/>
+			            				</s:graphicImage>
+			            			</f:facet>
+		            				<h:outputText value="#{file.name}" />
+		            			</rich:treeNode>
+		            		</rich:treeNodesAdaptor>
+	            		</rich:recursiveTreeNodesAdaptor>
+	            		
+	            		<rich:treeNodesAdaptor nodes="#{directory.files}" var="file">
+	            			<rich:treeNode>
+	            				<f:facet name="icon">
+		            				<s:graphicImage value="#{file.image}" title="#{messages['resource.file']}">
+		            					<s:transformImageSize maintainRatio="true" width="16"/>
+		            				</s:graphicImage>
+		            			</f:facet>
+		            			<f:facet name="iconLeaf">
+		            				<s:graphicImage value="#{file.image}" title="#{messages['resource.file']}">
+		            					<s:transformImageSize maintainRatio="true" width="16"/>
+		            				</s:graphicImage>
+		            			</f:facet>
+	            				<h:outputText value="#{file.name}" />
+	            			</rich:treeNode>
+	            		</rich:treeNodesAdaptor>
+            		</rich:treeNodesAdaptor>
+					
+	        	</rich:tree>
+	    </rich:panel>
+    </h:form> 
+</s:div>

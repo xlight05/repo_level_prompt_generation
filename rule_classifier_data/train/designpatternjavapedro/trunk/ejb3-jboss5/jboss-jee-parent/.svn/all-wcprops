@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/35/trunk/ejb3-jboss5/jboss-jee-parent
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/.project
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/pom.xml
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/32/trunk/ejb3-jboss5/jboss-jee-parent/README.txt
+END

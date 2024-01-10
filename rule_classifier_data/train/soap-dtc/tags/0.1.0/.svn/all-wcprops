@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/31/tags/0.1.0
+END
+prepare-dist.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/31/tags/0.1.0/prepare-dist.sh
+END

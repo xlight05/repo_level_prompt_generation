@@ -1,0 +1,26 @@
+#summary Barbarian class description
+#sidebar Classes
+Table of Contents
+<wiki:toc max_depth="3">
+
+==Description==
+The Barbarian is a physical-damage oriented class.
+
+==Main Purpose==
+The Barbarian serves as a high damage dealer
+
+==Statistics==
+The Barbarian primarily uses Power, and has a Rage stat which functions as follows:
+Rage is gained and lost through battle. Rage is often gained through physical contact (missing, hitting, others).
+
+=== Prerequisites ===
+||Class||Level||
+||Fighter||2||
+
+=== Skills ===
+  * [Cry]
+  * [Cleave]
+  * [DoubleTap]
+
+=== SVN File ===
+Technical information, as well as other information, can be found [http://code.google.com/p/ircrpgbot/source/browse/RPGBot/scripts/classes/barbarian.js here].

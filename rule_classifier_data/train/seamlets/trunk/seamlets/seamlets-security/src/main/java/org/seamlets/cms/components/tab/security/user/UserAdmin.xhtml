@@ -1,0 +1,234 @@
+<ui:fragment xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich">
+
+	<ui:fragment rendered="#{securityTab.viewStateUser == 'list'}">	
+
+	    <h:form id="userSearch" styleClass="edit">
+	
+	        <rich:panel header="User Search Filter" switchType="ajax">
+	        
+	        	<h:panelGrid columns="3">
+	
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Username</ui:define>
+		                <h:inputText id="username" value="#{userList.user.username}"/>
+		            </s:decorate>
+		
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">First name</ui:define>
+		                <h:inputText id="firstName" value="#{userList.user.firstName}"/>
+		            </s:decorate>
+		
+		            <s:decorate template="/layout/display.xhtml">
+		                <ui:define name="label">Last name</ui:define>
+		                <h:inputText id="lastName" value="#{userList.user.lastName}"/>
+		            </s:decorate>
+		           
+		    	</h:panelGrid>
+	
+		   	</rich:panel>
+		   	
+		   	<div class="actionButtonsContainerList">
+		        <div class="actionButtons">
+	            	<h:commandButton id="search" value="Search" action="#{securityTab.queryUser}"/>
+	            	<s:button id="reset" value="Reset" includePageParams="false"/>
+	            	<s:button action="#{securityTab.createUser}"
+			                    id="create"
+			                 value="Create user"/>
+	        	</div>
+		   	</div>
+			   	
+	    </h:form>
+
+		<h:form id="userTable">
+		    <rich:panel styleClass="resultTable">
+		        <f:facet name="header">User Search Results</f:facet>
+		    	<div class="results" id="userList">
+	
+				    <h:outputText value="The user search returned no results."
+				               rendered="#{empty userList.resultList}"/>
+			
+			    
+			    	<rich:dataTable id="userList"
+			                var="_user"
+			              value="#{userList.dataModel}"
+			           rendered="#{not empty userList.resultList}">
+				        <h:column>
+				            <f:facet name="header">
+				                <ui:include src="/layout/sort.xhtml">
+				                    <ui:param name="entityList" value="#{userList}"/>
+				                    <ui:param name="propertyLabel" value="Username"/>
+				                    <ui:param name="propertyPath" value="user.username"/>
+				                </ui:include>
+				            </f:facet>
+				            <h:outputText value="#{_user.username}"/>
+				        </h:column>
+				        <h:column>
+				            <f:facet name="header">
+				                <ui:include src="/layout/sort.xhtml">
+				                    <ui:param name="entityList" value="#{userList}"/>
+				                    <ui:param name="propertyLabel" value="First name"/>
+				                    <ui:param name="propertyPath" value="user.firstName"/>
+				                </ui:include>
+				            </f:facet>
+				            <h:outputText value="#{_user.firstName}"/>
+				        </h:column>
+				        <h:column>
+				            <f:facet name="header">
+				                <ui:include src="/layout/sort.xhtml">
+				                    <ui:param name="entityList" value="#{userList}"/>
+				                    <ui:param name="propertyLabel" value="Last name"/>
+				                    <ui:param name="propertyPath" value="user.lastName"/>
+				                </ui:include>
+				            </f:facet>
+				            <h:outputText value="#{_user.lastName}"/>
+				        </h:column>
+				        <rich:column styleClass="action">
+				            <f:facet name="header">Action</f:facet>
+				            <s:link value="Edit"
+				                   action="#{securityTab.editUser}"
+				                      id="userEdit">
+				            	<f:param name="username" value="#{_user.username}"/>
+				        	</s:link>
+				        </rich:column>
+				    </rich:dataTable>
+				    <rich:spacer height="5"/>
+				    <rich:datascroller align="right" for="userList" maxPages="20"
+						fastControls="auto" id="sc1" rendered="#{not empty userList.resultList}"/>
+			    </div>
+		    </rich:panel>
+	    </h:form>
+    </ui:fragment>
+    
+    <rich:panel styleClass="resultEdit" rendered="#{securityTab.viewStateUser == 'edit' || securityTab.viewStateUser == 'create'}">
+        <f:facet name="header">#{userHome.managed ? 'Edit' : 'Add'} User</f:facet>
+        
+        <h:form id="user" styleClass="edit">
+			
+			<h:panelGrid columns="2">
+	            <s:decorate id="usernameField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Username</ui:define>
+	                <h:inputText id="uname"
+	                       required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{userHome.instance.username}">
+	                    <a4j:support event="onblur" reRender="usernameField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	            
+	            <ui:fragment></ui:fragment>
+	
+	            <s:decorate id="firstNameField" template="/layout/edit.xhtml">
+	                <ui:define name="label">First name</ui:define>
+	                <h:inputText id="firstName"
+	                      required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{userHome.instance.firstName}">
+	                    <a4j:support event="onblur" reRender="firstNameField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	            
+	            <s:decorate id="lastNameField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Last name</ui:define>
+	                <h:inputText id="lastName"
+	                      required="true"
+	                           size="15"
+	                      maxlength="15"
+	                          value="#{userHome.instance.lastName}">
+	                    <a4j:support event="onblur" reRender="lastNameField" bypassUpdates="true" ajaxSingle="true"/>
+	                </h:inputText>
+	            </s:decorate>
+	            
+	             <s:decorate id="passwordField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Password</ui:define>
+	                <h:inputSecret id="pw"
+	                           size="15"
+	                           autocomplete="off"
+	                           redisplay="true"
+	                      maxlength="15"
+	                          value="#{securityTab.password}">
+	                </h:inputSecret>
+	            </s:decorate>
+	
+	            <s:decorate id="passwordRepeatField" template="/layout/edit.xhtml">
+	                <ui:define name="label">Confirm Password</ui:define>
+	                <h:inputSecret id="passwordRepeat"
+	                           size="15"
+	                      maxlength="15"
+	                      autocomplete="off"
+	                      redisplay="true"
+	                          value="#{securityTab.confirmPassword}">
+	                </h:inputSecret>
+	            </s:decorate>
+	       	</h:panelGrid>
+	       	
+	       	<rich:separator height="2" lineType="beveled"/>
+	       	
+	       	<rich:listShuttle id="userAdminEditList"
+				sourceListWidth="200" sourceListHeight="300"
+				targetListWidth="200" targetListHeight="300"
+				required="false"
+				showButtonLabels="false"
+				fastMoveControlsVisible="false"
+				orderControlsVisible="false"
+				style="height: 100%;"
+				fastOrderControlsVisible="false"
+				sourceCaptionLabel="#{messages['useradmin.groups-available']}"
+	            targetCaptionLabel="#{messages['useradmin.groups-assigned']}"
+				sourceValue="#{securityTab.availableGroups}"
+	            targetValue="#{securityTab.assignedGroups}"
+	            converter="#{org.jboss.seam.ui.EntityConverter}"
+	            var="role">
+	            <rich:column styleClass="normal">
+	            	 <f:facet name="header">
+	            	 	#{messages['useradmin.header.group']}
+	            	 </f:facet>
+	            	#{role.rolename}
+	            </rich:column>
+<!--	            <a4j:support event="onlistchanged" action="#{usersadminEdit.sort}" -->
+<!--	            	status="commonstatus"-->
+<!--	            	eventsQueue="userEditQueue"-->
+<!--	            	reRender="userAdminEditList"/>-->
+	        </rich:listShuttle>
+	        
+            <div class="actionButtonsContainer">
+		        <div class="actionButtons">
+	            	<div class="requiredContainer" style="left: 10px;" >
+		                <span class="required">*</span>
+		                required fields
+		            </div>
+	
+		            <h:commandButton 
+		                          value="Add"
+		                         action="#{securityTab.saveUser}"
+		                       disabled="#{!userHome.wired}"
+		                       rendered="#{!userHome.managed}"/>
+		
+		            <h:commandButton 
+		                          value="Save"
+		                         action="#{securityTab.saveUser}"
+		                       rendered="#{userHome.managed}"/>
+		
+		            <h:commandButton 
+		                          value="Delete"
+		                         action="#{securityTab.removeUser}"
+		                      immediate="true"
+		                       rendered="#{userHome.managed}"/>
+		
+		            <s:button 
+		                   value="Cancel"
+		                   action="#{securityTab.cancelUserEdit}"/>
+		
+		        </div>
+			</div>
+		</h:form>
+	</rich:panel>
+
+</ui:fragment>

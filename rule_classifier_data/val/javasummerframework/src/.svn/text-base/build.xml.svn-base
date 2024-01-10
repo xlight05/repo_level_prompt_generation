@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<project name="DyadInfrastructure2" default="archive" basedir=".">	
+	<!-- CLASSPATH da infra -->
+	<path id="project.classpath">
+		<fileset dir="${basedir}/war/WEB-INF/lib">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	
+
+	<path id="ajde.classpath">
+    	<pathelement path="${basedir}/../../plugins/org.aspectj.ajde_1.6.5.20090618034232/ajde.jar"/>
+    	<pathelement path="${basedir}/../../plugins/org.aspectj.weaver_1.6.5.20090618034232/aspectjweaver.jar"/>
+    	<pathelement path="${basedir}/../../plugins/org.aspectj.runtime_1.6.5.20090618034232/aspectjrt.jar"/>
+  	    <fileset dir="${basedir}/../../plugins">
+  			<include name="*.jar" />
+  	 	</fileset>
+    </path>
+	
+    <taskdef resource="org/aspectj/tools/ant/taskdefs/aspectjTaskdefs.properties">
+    	<classpath refid="ajde.classpath" />
+    </taskdef>
+	
+	<target name="commons" >
+    	<ant antfile="src/build.xml" dir="${basedir}/../commons"  />
+  	</target>
+
+	<!-- apaga todos os diretórios de build e gera novamente -->
+	<target name="clean" depends="commons">
+		<delete dir="${basedir}/war/WEB-INF/classes" />
+		<delete dir="${basedir}/dist" />
+		<echo>Criando diretorio para compilacao</echo>
+		<mkdir dir="${basedir}/war/WEB-INF/classes" />
+		<echo>Criando diretorio para distribuicao</echo>
+		<mkdir dir="${basedir}/dist" />
+		<echo>Copiando o commons para a pasta lib do protejo</echo>
+		<copy todir="${basedir}/war/WEB-INF/lib">
+			<fileset dir="${basedir}/../commons/dist">
+				<include name="dyad-commons.jar" />
+			</fileset>
+		</copy>
+	</target>
+
+	<!-- Compila o projeto da infra -->
+	<target name="compile" depends="clean">
+		<echo>Compilando o projeto DyadInfrastructure</echo>
+		<property name="ajcArgFile" value=""/>
+		<iajc source="1.6" target="1.6" failonerror="true" sourceroots="${basedir}/src"  
+			destdir="${basedir}/war/WEB-INF/classes" verbose="false">
+			<classpath refid="project.classpath" /> 			
+		</iajc>
+		<echo>Compilacao da infra concluida com sucesso</echo>
+	</target>
+
+	<!-- Gera o war do projeto da infra para ser publicado no tomcat -->
+	<target name="archive" depends="compile">
+		<echo>Gerando o arquivo WAR</echo>
+		<war basedir="${basedir}/war" destfile="${basedir}/dist/dyadinfrastructure.war" />
+		<echo>WAR exportado com sucesso</echo>		
+		<delete file="${basedir}/war/WEB-INF/lib/dyad-commons.jar" />
+	</target>
+		
+</project>

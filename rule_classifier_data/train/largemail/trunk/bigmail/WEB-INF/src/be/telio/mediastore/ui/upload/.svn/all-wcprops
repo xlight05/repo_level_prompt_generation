@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload
+END
+UploadInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/UploadInfo.java
+END
+OutputStreamListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/OutputStreamListener.java
+END
+MonitoredDiskFileItemFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/MonitoredDiskFileItemFactory.java
+END
+UploadListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/UploadListener.java
+END
+MonitoredDiskFileItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/MonitoredDiskFileItem.java
+END
+UploadMonitor.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/UploadMonitor.java
+END
+MonitoredOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3/trunk/bigmail/WEB-INF/src/be/telio/mediastore/ui/upload/MonitoredOutputStream.java
+END

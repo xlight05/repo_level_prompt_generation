@@ -1,0 +1,8 @@
+<div id="conteudoInterno">
+    <form action="Controller" method="post" id="formSistema">
+        <input type="hidden" name="map" id="map" value="inicio">
+        <input type="hidden" name="pIdtSistema" id="pIdtSistema" value="0">
+        <h3>Escolha o Sistema</h3>
+        {LISTA_SISTEMAS}
+    </form>
+</div>

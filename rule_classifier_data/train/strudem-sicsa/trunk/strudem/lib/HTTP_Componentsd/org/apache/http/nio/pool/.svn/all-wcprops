@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool/package-tree.html
+END
+NIOConnFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool/NIOConnFactory.html
+END
+AbstractNIOConnPool.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool/AbstractNIOConnPool.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/nio/pool/package-frame.html
+END

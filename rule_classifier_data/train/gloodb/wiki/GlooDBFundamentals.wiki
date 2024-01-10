@@ -1,0 +1,33 @@
+#summary GlooDB design overview.
+#labels Phase-Design
+
+= Basic Concepts =
+
+The [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/main/java/gloodb/Repository.java Repository] interface abstracts GlooDB's key persistency operations and capabilities.
+
+Conceptually, the Repository is a mapping between persistent object identities and persistent object instances. The programmer uses the repository to manage (create, retrieve, delete) persistent objects. 
+
+All persistent objects have an identity which the programmer can use to manage the persistent objects. The object identity is defined in the java classes using the @Identity annotation. All persistent classes must define identity fields or methods such that every object instance is uniquely identifiable. For example:
+
+{{{
+public class SomePersistent implement Serializable {
+   // Every object in the repository has its own unique id
+   @Identity
+   private BigInteger id;
+}
+}}}
+
+Persistency is implemented using java serialization and all persistent objects must implement java.io.Serializable interface.
+
+
+In addition to these basic CRUD operations, the Repository has transactional capabilities, optimistic locking capabilities and offers an interface for querying.
+
+= Architecture =
+[http://gloodb.googlecode.com/svn/wiki/GlooDB%20Architecture.png]
+
+ * API: interfaces which blueprint the persistent object repository. Client applications using GlooDB APIs are 100% agnositc on how and where persistency services are implemented. Hence, the same application code can use, without changes, an in-memory or file-based repository implementation or it can run with an embedded repository or against a server.
+ * TxMgr: interfaces defining how repository state changes are managed and persisted. The TxMgr provides the foundation for implementing repository state changes as [http://en.wikipedia.org/wiki/ACID ACID transactions]. The actual implementation of transaction management is abstracted away from client applications.
+ * Storage:  interfaces defining how repository objects are stored and restored.
+ * Implementation: [EmbeddedRepositoryImplementationDesign an embeddable repository implementation].
+ * File: file based implementations of the transaction manager and storage interfaces.
+ * Memory: memory based implementations of the transaction manager and storage interfaces.

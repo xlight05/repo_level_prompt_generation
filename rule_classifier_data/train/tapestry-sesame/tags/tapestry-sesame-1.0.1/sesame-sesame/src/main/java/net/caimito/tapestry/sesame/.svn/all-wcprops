@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame
+END
+UsernamePasswordToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/UsernamePasswordToken.java
+END
+SesameModule.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/SesameModule.java
+END
+NotYetImplementedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/NotYetImplementedException.java
+END
+SecurityRedirectException.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/SecurityRedirectException.java
+END
+SecurityTransformationWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/SecurityTransformationWorker.java
+END
+SecurityChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/SecurityChecker.java
+END
+AuthenticationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/AuthenticationException.java
+END
+Authentication.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/Authentication.java
+END
+AuthenticationToken.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/AuthenticationToken.java
+END
+AuthenticationRequired.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/AuthenticationRequired.java
+END
+RememberMe.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/29/tags/tapestry-sesame-1.0.1/sesame-sesame/src/main/java/net/caimito/tapestry/sesame/RememberMe.java
+END

@@ -1,0 +1,46 @@
+	
+	Amrinder Singh Badwal
+		5400910
+
+    Project Diary Week 6
+Agile Development Project
+
+Contribution:-
+Write code for the exporting the Histogram data of FAN In/FAN Out.
+
+Individual Learning:
+		More about how to handle Hsitograms in JAVA and learn more about the agile methodlogies.
+
+Currently working 
+		on the Project's coding part.
+
+Next continue with coding and study about the agile methodologies.
+
+Areas struggling
+
+ A little bit with the Knowledge gaps for Project.
+
+Reflection on the project 
+
+			Every thing is going fine.
+
+===============================================================
+Work log
+
+
+
+Week 
+
+Type	Day	Date		Duration	Description
+
+P,	Thu	5-10-06	2:00		Lecture notes
+
+P,	Fri	8-09-06	2:00		Find more about the lecture notes from books and Internet
+U,	Mon	11-09-06	3:00		Discussion Board and Blog Entry.
+
+P,	Tue	12-09-06	3:00		Sit to do coding of task.
+
+P,	Wed	13-09-06	3:00		Try to learn tools which are being used for the project.
+
+Weekly total: 13:00	(Planned:	10:00,	Unplanned:	3:00)
+==========================================================

@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice
+END
+TransactionMapperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/dovetaildb/dbservice/TransactionMapperTest.java
+END
+TransactionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/22/trunk/src/dovetaildb/dbservice/TransactionMapper.java
+END
+ScoringDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/ScoringDbService.java
+END
+ScoringDbServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/ScoringDbServiceTest.java
+END
+QueryNodeIterTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/trunk/src/dovetaildb/dbservice/QueryNodeIterTest.java
+END
+QueryNodeIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/38/trunk/src/dovetaildb/dbservice/QueryNodeIter.java
+END
+TxnNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/src/dovetaildb/dbservice/TxnNotFoundException.java
+END
+DbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/DbService.java
+END
+DbServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/DbServiceTest.java
+END
+BagNotInTxnException.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/4/trunk/src/dovetaildb/dbservice/BagNotInTxnException.java
+END
+WrappingIter.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/17/trunk/src/dovetaildb/dbservice/WrappingIter.java
+END
+DbResultMapView.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/21/trunk/src/dovetaildb/dbservice/DbResultMapView.java
+END
+WrappingDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/WrappingDbService.java
+END
+QueryNodeDbResultTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/32/trunk/src/dovetaildb/dbservice/QueryNodeDbResultTest.java
+END
+QueryNodeDbResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/38/trunk/src/dovetaildb/dbservice/QueryNodeDbResult.java
+END
+DbResultLiterals.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/21/trunk/src/dovetaildb/dbservice/DbResultLiterals.java
+END
+DbResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/21/trunk/src/dovetaildb/dbservice/DbResult.java
+END
+ProcessTransactionMapperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/22/trunk/src/dovetaildb/dbservice/ProcessTransactionMapperTest.java
+END
+ProcessTransactionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/32/trunk/src/dovetaildb/dbservice/ProcessTransactionMapper.java
+END
+UnencodableValueException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/4/trunk/src/dovetaildb/dbservice/UnencodableValueException.java
+END
+BagIndexBridgeTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/33/trunk/src/dovetaildb/dbservice/BagIndexBridgeTest.java
+END
+BagIndexBridge.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/BagIndexBridge.java
+END
+DbServiceFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/39/trunk/src/dovetaildb/dbservice/DbServiceFactory.java
+END
+BagEntryFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/22/trunk/src/dovetaildb/dbservice/BagEntryFactory.java
+END
+DbServiceUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/DbServiceUtil.java
+END
+AbstractDbResult.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/38/trunk/src/dovetaildb/dbservice/AbstractDbResult.java
+END
+RebuildingDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/RebuildingDbService.java
+END
+DbResultListView.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/18/trunk/src/dovetaildb/dbservice/DbResultListView.java
+END
+BagEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/39/trunk/src/dovetaildb/dbservice/BagEntry.java
+END
+RebuildingDbServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/RebuildingDbServiceTest.java
+END
+WrongTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/18/trunk/src/dovetaildb/dbservice/WrongTypeException.java
+END
+TxnSpacedDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/TxnSpacedDbService.java
+END
+QueryNodeDbResultMarker.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/37/trunk/src/dovetaildb/dbservice/QueryNodeDbResultMarker.java
+END
+FsTransactionMapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/FsTransactionMapper.java
+END
+FsTransactionMapperTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/22/trunk/src/dovetaildb/dbservice/FsTransactionMapperTest.java
+END
+EmptyDbService.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/40/trunk/src/dovetaildb/dbservice/EmptyDbService.java
+END

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/42/trunk/strudem/src/java/dao
+END
+paseListaAsitenciaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/40/trunk/strudem/src/java/dao/paseListaAsitenciaDao.java
+END
+CuatrimestreDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/20/trunk/strudem/src/java/dao/CuatrimestreDao.java
+END
+EspecialidadDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/15/trunk/strudem/src/java/dao/EspecialidadDao.java
+END
+GrupoProfesorListaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/trunk/strudem/src/java/dao/GrupoProfesorListaDao.java
+END
+EdificioDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/20/trunk/strudem/src/java/dao/EdificioDao.java
+END
+FormatoAsistenciaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/28/trunk/strudem/src/java/dao/FormatoAsistenciaDao.java
+END
+GrupoProfesorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/GrupoProfesorDao.java
+END
+CarreraDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3/trunk/strudem/src/java/dao/CarreraDao.java
+END
+GruposDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/strudem/src/java/dao/GruposDao.java
+END
+MateriaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/40/trunk/strudem/src/java/dao/MateriaDao.java
+END
+AulaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/strudem/src/java/dao/AulaDao.java
+END
+HistorialAcademicoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/24/trunk/strudem/src/java/dao/HistorialAcademicoDao.java
+END
+UsuarioDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/UsuarioDao.java
+END
+MisGruposDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/28/trunk/strudem/src/java/dao/MisGruposDao.java
+END
+SeleccionHorarioDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/28/trunk/strudem/src/java/dao/SeleccionHorarioDao.java
+END
+misGruposDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/misGruposDao.java
+END
+MiHorarioDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/MiHorarioDao.java
+END
+AlumnoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/AlumnoDao.java
+END
+UnidadesDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/UnidadesDao.java
+END
+UbicacionDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/12/trunk/strudem/src/java/dao/UbicacionDao.java
+END
+consultaPaseListaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/40/trunk/strudem/src/java/dao/consultaPaseListaDao.java
+END
+ListadoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/28/trunk/strudem/src/java/dao/ListadoDao.java
+END
+HorariosTodosDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/HorariosTodosDao.java
+END
+ProfesorDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/ProfesorDao.java
+END
+PeriodoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/strudem/src/java/dao/PeriodoDao.java
+END
+HorarioDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/28/trunk/strudem/src/java/dao/HorarioDao.java
+END

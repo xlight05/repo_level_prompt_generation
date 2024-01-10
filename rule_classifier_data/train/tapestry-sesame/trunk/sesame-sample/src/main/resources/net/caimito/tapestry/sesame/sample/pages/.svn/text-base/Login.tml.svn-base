@@ -1,0 +1,10 @@
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+    <head>
+        <title>security-sns Start Page</title>
+    </head>
+    <body>
+        <h1>Login Page</h1>
+
+		<t:beaneditform object="usernamePasswordToken"/>        
+    </body>
+</html>

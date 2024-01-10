@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io
+END
+ASCIIReader.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/ASCIIReader.html
+END
+Latin1Reader.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/Latin1Reader.html
+END
+UCSReader.html
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/UCSReader.html
+END
+MalformedByteSequenceException.html
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/MalformedByteSequenceException.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/package-frame.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/package-summary.html
+END
+UTF16Reader.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/UTF16Reader.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/package-tree.html
+END
+UTF8Reader.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/3/RPGBot/src/xml/xerces-2_11_0/docs/javadocs/xerces2/org/apache/xerces/impl/io/UTF8Reader.html
+END

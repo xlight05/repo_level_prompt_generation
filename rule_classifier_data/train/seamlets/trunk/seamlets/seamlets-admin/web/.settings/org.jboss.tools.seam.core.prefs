@@ -1,0 +1,17 @@
+#Thu Jan 22 21:54:35 CET 2009
+action.package=org.seamlets.cms.admin.content
+action.sources=/seamlets-admin-ejb/src/main/java
+eclipse.preferences.version=1
+model.package=org.seamlets.cms.admin.content
+model.sources=/seamlets-admin-ejb/src/main/java
+seam.ear.project=seamlets-admin-web
+seam.ejb.project=seamlets-admin-ejb
+seam.project.connection.profile=CMS DB
+seam.project.deployment.type=ear
+seam.project.settings.version=1.1
+seam.project.web.root.folder=/seamlets-admin-web/src/main/webapp
+seam.runtime.name=jboss-seam-2.1.1.GA
+seam.test.creating=false
+seam.test.project=seamlets-admin-web
+test.package=org.seamlets.cms.admin.test
+test.sources=/seamlets-admin-web/src/main

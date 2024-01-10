@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/172/trunk/LaunchLocalisation
+END
+org.eclipse.equinox.common_3.4.0.v20080421-2006.jar
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/162/trunk/LaunchLocalisation/org.eclipse.equinox.common_3.4.0.v20080421-2006.jar
+END
+org.eclipse.update.configurator_3.2.100.v20070615.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/162/trunk/LaunchLocalisation/org.eclipse.update.configurator_3.2.100.v20070615.jar
+END
+launchLocalisation.bat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/162/trunk/LaunchLocalisation/launchLocalisation.bat
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/162/trunk/LaunchLocalisation/.project
+END
+org.eclipse.osgi-3.5.0.v20081201-1815.jar
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/162/trunk/LaunchLocalisation/org.eclipse.osgi-3.5.0.v20081201-1815.jar
+END
+launchLocalisation.sh
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/162/trunk/LaunchLocalisation/launchLocalisation.sh
+END
+BundlesLauncher_1.0.0.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/162/trunk/LaunchLocalisation/BundlesLauncher_1.0.0.jar
+END

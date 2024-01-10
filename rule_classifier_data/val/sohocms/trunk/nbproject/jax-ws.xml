@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="NodeTypeService">
+      <implementation-class>nl.sanderspies.cms.business.NodeTypeService</implementation-class>
+    </service>
+    <service name="NodeTypeService_1">
+      <implementation-class>nl.sanderspies.cms.business.nodetype.NodeTypeService</implementation-class>
+    </service>
+    <service name="NodeTypeService_2">
+      <implementation-class>nl.sanderspies.cms.business.nodetype.NodeTypeService</implementation-class>
+    </service>
+    <service name="NodeTypeService_3">
+      <implementation-class>nl.sanderspies.cms.business.nodetype.NodeTypeService</implementation-class>
+    </service>
+    <service name="NodeTypeService_4">
+      <implementation-class>nl.sanderspies.cms.business.nodetype.NodeTypeService</implementation-class>
+    </service>
+    <service name="NodeTypeService_5">
+      <implementation-class>nl.sanderspies.cms.business.nodetype.NodeTypeService</implementation-class>
+    </service>
+    <service name="NodeTypeWebService">
+      <implementation-class>nl.sanderspies.cms.business.nodetype.NodeTypeService</implementation-class>
+    </service>
+  </services>
+  <clients/>
+  <jsr109>false</jsr109>
+</jax-ws>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/16/tags/0_9_3/quidsee
+END
+log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/16/tags/0_9_3/quidsee/log.txt
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/16/tags/0_9_3/quidsee/.classpath
+END
+quidsee-launch4j-cfg.xml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/16/tags/0_9_3/quidsee/quidsee-launch4j-cfg.xml
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/16/tags/0_9_3/quidsee/.project
+END
+gen-jni-headers.sh
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/16/tags/0_9_3/quidsee/gen-jni-headers.sh
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/16/tags/0_9_3/quidsee/pom.xml
+END

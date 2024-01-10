@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/escritorio">
+  <Resource auth="Container" driverClassName="com.mysql.jdbc.Driver" maxActive="100" maxIdle="30" maxWait="10000" name="jdbc/TestDB" password="" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/qwikioffice-distro?autoReconnect=true" username="root"/>
+  <!--
+               <Resource name="jdbcRes"
+          auth="Container"
+		  type="javax.sql.DataSource"
+		  factory="org.apache.tomcat.dbcp.dbcp.BasicDataSourceFactory"
+          username="user"
+          password="user"
+          driverClassName="oracle.jdbc.OracleDriver"
+          url="jdbc:oracle:thin:@192.168.100.119:1521:orcl"
+		  accessToUnderlyingConnectionAllowed="true"
+          maxActive="20" maxIdle="10" maxwait="-1"/>
+
+-->
+</Context>

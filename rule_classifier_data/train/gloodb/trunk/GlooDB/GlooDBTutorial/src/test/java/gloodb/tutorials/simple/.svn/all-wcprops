@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/380/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple
+END
+SimpleRemoveTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleRemoveTest.java
+END
+SimpleCreateRollbackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleCreateRollbackTest.java
+END
+SimpleUpdateTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleUpdateTest.java
+END
+UpdateWithPersistentNotFoundTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/UpdateWithPersistentNotFoundTest.java
+END
+SimpleCreateTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleCreateTest.java
+END
+CreateWithKeyViolationTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/CreateWithKeyViolationTest.java
+END
+SimpleRestoreTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleRestoreTest.java
+END
+SimpleTransactionTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleTransactionTest.java
+END
+SimpleStoreRollbackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/380/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleStoreRollbackTest.java
+END
+SimpleRemoveRollbackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleRemoveRollbackTest.java
+END
+SimpleStoreTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/380/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleStoreTest.java
+END
+SimpleUpdateRollbackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/271/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleUpdateRollbackTest.java
+END

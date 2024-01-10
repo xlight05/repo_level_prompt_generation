@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:jsp="http://java.sun.com/xml/ns/javaee/jsp" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>OpenProcessLogger</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>JSONRPCServlet</servlet-name>
+    <servlet-class>org.jabsorb.JSONRPCServlet</servlet-class>
+    <init-param>
+      <param-name>gzip_threshold</param-name>
+      <param-value>200</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>JSONRPCServlet</servlet-name>
+    <url-pattern>/JSON-RPC</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CSVExportServlet</display-name>
+    <servlet-name>CSVExportServlet</servlet-name>
+    <servlet-class>se.openprocesslogger.servlet.CSVExportServlet</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CSVExportServlet</servlet-name>
+    <url-pattern>/CSVExportServlet</url-pattern>
+  </servlet-mapping>
+  <jsp-config>
+    <taglib>
+      <taglib-uri>svglib</taglib-uri>
+      <taglib-location>/WEB-INF/svglib.tld</taglib-location>
+    </taglib>
+  </jsp-config>
+</web-app>

@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command
+END
+ServerStartCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/ServerStartCommand.java
+END
+ChangeLoggingLevelCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/ChangeLoggingLevelCommand.java
+END
+ServerResumeCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/ServerResumeCommand.java
+END
+ServerSuspendCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/ServerSuspendCommand.java
+END
+DisconnectCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/DisconnectCommand.java
+END
+LogOutCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/LogOutCommand.java
+END
+SpyUserCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/SpyUserCommand.java
+END
+DataService.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/359/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/DataService.java
+END
+ServerStopCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/ServerStopCommand.java
+END
+DataServiceImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/!svn/ver/359/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/DataServiceImpl.java
+END
+StopSpyingUserCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/!svn/ver/360/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/StopSpyingUserCommand.java
+END
+Command.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/359/trunk/ftpserverremoteadmin/ftpserverremote-core/src/main/java/pl/edu/agh/iosr/ftpserverremote/command/Command.java
+END

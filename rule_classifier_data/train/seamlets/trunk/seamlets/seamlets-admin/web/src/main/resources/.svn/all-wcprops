@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/403/trunk/seamlets/seamlets-admin/web/src/main/resources
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/403/trunk/seamlets/seamlets-admin/web/src/main/resources/messages.properties
+END
+messages_en.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/messages_en.properties
+END
+editorParameters.properties
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/editorParameters.properties
+END
+messages_tr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/messages_tr.properties
+END
+messages_fr.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/messages_fr.properties
+END
+messages_bg.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/messages_bg.properties
+END
+messages_de.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/messages_de.properties
+END
+messages_it.properties
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/messages_it.properties
+END
+seam.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/web/src/main/resources/seam.properties
+END

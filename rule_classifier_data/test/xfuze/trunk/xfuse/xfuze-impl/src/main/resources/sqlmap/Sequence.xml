@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
+
+<sqlMap namespace="Sequence">
+	<!-- ===========================================================================
+	//   SELECT - getCurrentId
+	============================================================================ -->
+	<select id="getCurrentId" parameterClass="java.lang.String" resultClass="java.lang.Long">
+		SELECT current_id FROM sequence_tb
+		WHERE
+			model = #model#
+	</select>
+
+	<!-- ===========================================================================
+	//   UPDATE - updateCurrentId
+	============================================================================ -->
+	<update id="updateCurrentId" parameterClass="java.lang.String">
+		UPDATE sequence_tb SET
+			current_id = current_id + 1
+		WHERE
+			model = #model#
+	</update>
+
+</sqlMap>

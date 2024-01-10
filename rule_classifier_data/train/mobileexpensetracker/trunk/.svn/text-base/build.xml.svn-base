@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+
+<project name="MET" default="build" basedir=".">
+
+	<!--
+		Define the Wireless Toolkit home directory. Needed by the tasks.
+	-->
+
+	<property name="wtk.home" value="C:/WTK2.5.2_01" />
+	<!--  Ensure that we do the build for MIDP 2.0 -->
+	<property name="wtk.cldc.version" value="1.1" />
+	<property name="wtk.midp.version" value="2.0" />
+	<property name="wtk.optionalpda.enabled" value="true" />
+	<property name="wtk.proguard.home" value="C:\\Ragu\\Projects\\Opensource\\proguard4.4" />
+
+
+	<!-- Define the tasks. -->
+
+	<taskdef resource="antenna.properties"
+		classpath="C:\\Ragu\\tOOLS\\antenna-bin-1.2.0-beta\\antenna.properties" />
+	<target name="build">
+
+		<!-- Create a JAD file. -->
+
+		<wtkjad jadfile="MET.jad" jarfile="MET.jar" name="MET"
+			vendor="Ragupathi Palaniappan, ragupathipalaniappan.com" version="1.2.1"
+			update="false" manifest="Manifest.mf">
+
+			<midlet name="Expence Tracker" class="org.met.j2me.MasterMidlet"
+				icon="expense_tracker_icon_32 copy.png" />
+			<!--
+				MicroEdition-Configuration: CLDC-1.0 MicroEdition-Profile: MIDP-1.0
+			-->
+		</wtkjad>
+
+		<delete dir="classes" />
+		<mkdir dir="classes" />
+
+		<!-- Compile everything, but don't preverify (yet). -->
+
+		<wtkbuild srcdir="src" destdir="classes" preverify="false" />
+
+		<!--
+			Package everything. Most of the necessary information is contained in
+			the JAD file. Also preverify the result this time. To obfuscate
+			everything, set the corresponding parameter to "true" (requires
+			RetroGuard or ProGuard). The version parameter increments the
+			MIDlet-Version by one.
+		-->
+
+		<wtkpackage jarfile="MET.jar" jadfile="MET.jad" obfuscate="false"
+			preverify="true">
+
+			<!-- Package our newly compiled classes. -->
+			<fileset dir="res" />
+			<fileset dir="classes" />
+
+		</wtkpackage>
+
+		<!-- Start the MIDlet suite
+		<wtkrun jadfile="MET.jad" device="MediaControlSkin" wait="true" />-->
+
+
+	</target>
+
+</project>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:service="http://www.jsemantic.service/schema/loggingservice"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.jsemantic.service/schema/loggingservice 	http://www.jsemantic.service/schema/loggingservice/loggingservice.xsd">
+	
+	<import resource="classpath:META-INF/log-service/aop-service.xml"/>
+
+	<service:loggingService id="loggingService" logType="${log.service.type}"/>
+						
+	<bean id="log" factory-bean="loggingService" factory-method="getInstance" scope="prototype"/>
+	
+</beans>

@@ -1,0 +1,99 @@
+#summary A component to display formatted numbers and dates according to locale, using literals (integer, decimal, currency, date(MASK) or date).
+
+Component for output data, not for input.
+It's based on Tapestry Output component.
+
+== TestOutputLocale.java ==
+
+{{{
+public class TestOutputLocale
+{
+        private float _valor=12345.6789f;
+
+        public float getValor() {
+                return _valor;
+        }
+
+        private Date _someDate = new Date();
+
+        public Date getSomeDate() {
+                return _someDate;
+        }
+
+}
+}}}
+
+== TestOutputLocale.tml ==
+
+{{{
+<html xmlns:t="http://tapestry.apache.org/schema/tapestry_5_0_0.xsd">
+        <head>
+                <title>Output Locale</title>
+        </head>
+
+        <body>
+        <center>
+
+        <h1>Output Locale Number</h1>
+
+        <form t:type="Form">
+
+                <p>Number is 12345.6789</p>
+
+                <p>using expansion<br/>
+                        ${valor}</p>
+
+                <p>using format="literal:integer"<br/>
+                        <span t:type="myt5lib/OutputLocale" value="valor" format="literal:integer"/></p>
+
+                <p>using format="literal:decimal"<br/>
+                        <t:myt5lib.OutputLocale value="valor" format="literal:decimal"/></p>
+
+                <p>using format="literal:currency"<br/>
+                        <span t:type="myt5lib/OutputLocale" value="valor" format="literal:currency"/></p>
+
+                <p>using format="literal:date"<br/>
+                        <span t:type="myt5lib/OutputLocale" value="someDate" format="literal:date"/></p>
+
+                <p>using format="literal:date(yyyy-MM-dd)"<br/>
+                        <span t:type="myt5lib/OutputLocale" value="someDate" format="literal:date(yyyy-MM-dd)"/></p>
+
+                <p>using format="someFormat" acts exactly like in Output component</p>
+
+        </form>
+        
+        </center>
+        </body>
+</html>
+
+}}}
+
+== Testing ==
+{{{
+Output Locale Number
+
+Number is 12345.6789
+
+using expansion
+12345.679
+
+using format="literal:integer"
+12.346
+
+using format="literal:decimal"
+12.345,679
+
+using format="literal:currency"
+R$ 12.345,68
+
+using format="literal:date"
+20/06/2008 to Portuguese
+06/20/2008 to English
+
+
+using format="literal:date(yyyy-MM-dd)"
+2008-06-20
+
+using format="someFormat"
+exactly like Output component
+}}}

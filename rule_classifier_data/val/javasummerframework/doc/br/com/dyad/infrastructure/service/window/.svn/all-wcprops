@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window
+END
+GetFieldInformation.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GetFieldInformation.html
+END
+ExecuteServerMethod.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/ExecuteServerMethod.html
+END
+GridPost.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridPost.html
+END
+GridCancel.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridCancel.html
+END
+SetFieldValue.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/SetFieldValue.html
+END
+GridFirst.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridFirst.html
+END
+RestoreWindowsAfterRefresh.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/RestoreWindowsAfterRefresh.html
+END
+OnCloseAction.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/OnCloseAction.html
+END
+InteractionBack.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/InteractionBack.html
+END
+InteractionGo.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/InteractionGo.html
+END
+GridSearchNextOccur.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridSearchNextOccur.html
+END
+GetWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GetWindow.html
+END
+GridDelete.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridDelete.html
+END
+GridLast.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridLast.html
+END
+GridInsert.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridInsert.html
+END
+GridSearch.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridSearch.html
+END
+NewWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/NewWindow.html
+END
+DestroyWindow.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/DestroyWindow.html
+END
+GridPrevious.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridPrevious.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/package-frame.html
+END
+ActionClick.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/ActionClick.html
+END
+GridNext.html
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridNext.html
+END
+GridExpand.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridExpand.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/package-use.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/package-summary.html
+END
+GridChangeView.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridChangeView.html
+END
+TableViewGridSelectRecord.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/TableViewGridSelectRecord.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/package-tree.html
+END
+GridLicense.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/6/doc/br/com/dyad/infrastructure/service/window/GridLicense.html
+END

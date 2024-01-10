@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib
+END
+taglibs-datetime.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/taglibs-datetime.jar
+END
+commons-digester.jar
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-digester.jar
+END
+sitemesh-2.3.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/sitemesh-2.3.jar
+END
+commons-collections.jar
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-collections.jar
+END
+taglibs-string.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/taglibs-string.jar
+END
+commons-lang.jar
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-lang.jar
+END
+jaxen-core.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/jaxen-core.jar
+END
+jaxen-jdom.jar
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/jaxen-jdom.jar
+END
+taglibs-mailer.jar
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/taglibs-mailer.jar
+END
+commons-fileupload.jar
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-fileupload.jar
+END
+commons-validator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-validator.jar
+END
+commons-beanutils.jar
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-beanutils.jar
+END
+commons-logging.jar
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/commons-logging.jar
+END
+utility.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/utility.jar
+END
+struts.jar
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/struts.jar
+END
+saxpath.jar
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/saxpath.jar
+END
+jakarta-oro.jar
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/jakarta-oro.jar
+END
+jstl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/178/trunk/A/tinWiki/WebContent/WEB-INF/lib/jstl.jar
+END

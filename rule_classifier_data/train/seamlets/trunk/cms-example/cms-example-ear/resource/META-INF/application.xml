@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" version="5">
+  <display-name>cms-example-ear</display-name>
+  <module>
+    <web>
+      <web-uri>cms-example.war</web-uri>
+      <context-root>/example</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>cms-example-ejb.jar</ejb>
+  </module>
+  <module>
+    <ejb>jboss-seam-2.1.1.GA.jar</ejb>
+  </module>
+  <module>
+    <ejb>seamlets-components-core-1.0.0.A2-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <ejb>seamlets-security-1.0.0.A2-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <java>seamlets-cms-transformer-1.0.0.A2-SNAPSHOT.jar</java>
+  </module>
+  <module>
+    <java>seamlets-core-1.0.0.A2-SNAPSHOT.jar</java>
+  </module>
+  <module>
+    <ejb>seamlets-default-components-1.0.0.A2-SNAPSHOT.jar</ejb>
+  </module>
+</application>

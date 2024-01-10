@@ -62,11 +62,15 @@ def generate_prediction(prompt):
   generate predictions using Codex
   '''
   try:
-    response = openai.Completion.create(engine='code-davinci-001',\
+    print ("Prompt")
+    print (prompt)
+    response = openai.Completion.create(engine='gpt-3.5-turbo-instruct',\
                                       prompt=prompt,stop='\n',\
                                       temperature=0.0)
 
-  except:
+  except Exception as e:
+    print ("Prompt")
+    print (prompt)
     print ("Waiting")
     response = None
   return response

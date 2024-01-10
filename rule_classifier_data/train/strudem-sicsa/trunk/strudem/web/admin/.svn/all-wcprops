@@ -1,0 +1,263 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/42/trunk/strudem/web/admin
+END
+claseLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/38/trunk/strudem/web/admin/claseLista.jsp
+END
+usuarioLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/42/trunk/strudem/web/admin/usuarioLista.jsp
+END
+usuarioBuscar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/strudem/web/admin/usuarioBuscar.jsp
+END
+ubicacionLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/strudem/web/admin/ubicacionLista.jsp
+END
+unidadesLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/42/trunk/strudem/web/admin/unidadesLista.jsp
+END
+periodoLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/42/trunk/strudem/web/admin/periodoLista.jsp
+END
+usuarioInsertar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/42/trunk/strudem/web/admin/usuarioInsertar.jsp
+END
+HorariosTodos.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/42/trunk/strudem/web/admin/HorariosTodos.jsp
+END
+claseInsertar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/38/trunk/strudem/web/admin/claseInsertar.jsp
+END
+unidadLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/38/trunk/strudem/web/admin/unidadLista.jsp
+END
+menu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/42/trunk/strudem/web/admin/menu.jsp
+END
+especialidadLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/strudem/web/admin/especialidadLista.jsp
+END
+edificioLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/38/trunk/strudem/web/admin/edificioLista.jsp
+END
+modules.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/17/trunk/strudem/web/admin/modules.jsp
+END
+alumnoModificar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/40/trunk/strudem/web/admin/alumnoModificar.jsp
+END
+formatoAsistencia.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/28/trunk/strudem/web/admin/formatoAsistencia.jsp
+END
+respuesta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/26/trunk/strudem/web/admin/respuesta.jsp
+END
+gruposLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/42/trunk/strudem/web/admin/gruposLista.jsp
+END
+carreraLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/42/trunk/strudem/web/admin/carreraLista.jsp
+END
+profesorModificar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/42/trunk/strudem/web/admin/profesorModificar.jsp
+END
+PaseLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/40/trunk/strudem/web/admin/PaseLista.jsp
+END
+configuracion.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/strudem/web/admin/configuracion.jsp
+END
+MiHorarioLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/strudem/web/admin/MiHorarioLista.jsp
+END
+alumnoLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/38/trunk/strudem/web/admin/alumnoLista.jsp
+END
+SeleccionHorario.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/web/admin/SeleccionHorario.jsp
+END
+MisGrupos.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/42/trunk/strudem/web/admin/MisGrupos.jsp
+END
+materiaInsertar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/29/trunk/strudem/web/admin/materiaInsertar.jsp
+END
+aulaInsertar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3/trunk/strudem/web/admin/aulaInsertar.jsp
+END
+profesorLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/42/trunk/strudem/web/admin/profesorLista.jsp
+END
+HorariosTodosLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/25/trunk/strudem/web/admin/HorariosTodosLista.jsp
+END
+aulaModificar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3/trunk/strudem/web/admin/aulaModificar.jsp
+END
+materiaModificar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/27/trunk/strudem/web/admin/materiaModificar.jsp
+END
+alumnoInsertar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/29/trunk/strudem/web/admin/alumnoInsertar.jsp
+END
+cuatrimestreLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/38/trunk/strudem/web/admin/cuatrimestreLista.jsp
+END
+claseModificar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/38/trunk/strudem/web/admin/claseModificar.jsp
+END
+usuarioModificar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/web/admin/usuarioModificar.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/42/trunk/strudem/web/admin/index.jsp
+END
+historialAlumnoLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/38/trunk/strudem/web/admin/historialAlumnoLista.jsp
+END
+profesorInsertar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/42/trunk/strudem/web/admin/profesorInsertar.jsp
+END
+template.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3/trunk/strudem/web/admin/template.jsp
+END
+profesorLista1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/42/trunk/strudem/web/admin/profesorLista1.jsp
+END
+materiaLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/38/trunk/strudem/web/admin/materiaLista.jsp
+END
+aulaLista.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/42/trunk/strudem/web/admin/aulaLista.jsp
+END

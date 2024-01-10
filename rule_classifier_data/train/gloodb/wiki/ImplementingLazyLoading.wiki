@@ -1,0 +1,64 @@
+#summary Using lazy loading utilities.
+
+= Lazy References =
+
+The Lazy class is a simple utility class which simplifies coding of deferred fetching and caching of persistent objects. A lazy reference persists only the identity of the referred object. The application must explicitly fetch the object itself from the repository. When fetched, the object is also cached such that repository access is minimized.
+
+==== Example 1: Defining a lazy field ====
+{{{
+  public class Foo implements Serializable {
+      @Identity private final Serializable id;
+      
+      private Lazy<FooDetail> fooDetailReference;
+
+      public Foo(Serializable id) {
+         this.id = id;
+     }
+
+     public void setDetail(Serializable detailId) {
+         this.fooDetailReference = new Lazy<FooDetail>(detailId);
+     }
+
+     public Lazy<FooDetail> getDetail() {
+         return this.fooDetailReference;
+     }
+  }
+}}}
+
+==== Example 2: Getting the value of a lazy variable ====
+{{{
+       // Restore the object containing the lazy reference
+       Foo foo = (Foo)repository.restore(fooId);
+
+       // Fetch the lazy reference and then get the referred value.
+       FooDetail detail = foo.getDetail().fetch(repository).get();
+
+       // If the referred value doesn't exit in the repository, the fetched value is null.
+
+       // Subsequent Lazy.get() calls return the cached value.
+       assertSame(detail, foo.getDetail().get());
+
+       // Fetching again refreshes the cache.
+       assertNotSame(detail, foo.getDetail().fetch(repository).get());
+}}}
+
+==== Example 3: Setting a lazy variable ====
+{{{
+       // Restore the object containing the lazy reference
+       Foo foo = (Foo)repository.restore(fooId);
+
+       // Assuming that the referred object already exists in the repository.
+       // (otherwise it would have to be created).
+       Serializable detailId = calculateDetailId();
+
+       // Set the lazy variable and update the container object.
+       // Updating the container persists the referred object id
+       // (as part of the Lazy reference).
+       foo.setDetail(detailId);
+       foo = repository.update(foo);
+
+        // After the update, the lazy variable requires fetching
+        detail = foo.getDetail().fetch(repository).get();
+}}}
+----
+[PersistencyInterceptors Previous] [ImplementingObjectEmbedding Next]

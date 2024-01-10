@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/41/trunk/src/dovetaildb/api
+END
+ApiServiceTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ApiServiceTest.java
+END
+ApiService.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ApiService.java
+END
+PluginList.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/PluginList.java
+END
+AutocommitBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/AutocommitBuffer.java
+END
+ChangesetBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ChangesetBuffer.java
+END
+ChangesetBufferTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ChangesetBufferTest.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/Plugin.java
+END
+WrappingApiService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/WrappingApiService.java
+END
+ApiBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ApiBuffer.java
+END
+ScriptedApiService.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ScriptedApiService.java
+END
+ApiException.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/41/trunk/src/dovetaildb/api/ApiException.java
+END

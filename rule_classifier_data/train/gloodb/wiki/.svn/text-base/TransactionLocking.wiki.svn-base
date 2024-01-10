@@ -1,0 +1,39 @@
+#summary Automatic object locking from transaction updates.
+
+= Object Locking from Update Transactions =
+
+Update transactions lock objects which are created, updated or removed. The lock is removed when the transaction commits or rollbacks. Attempting to update the same object from another transaction will fail with an !LockingException.
+
+==== Example 1: Object locking failure due to concurrent updates in a transactional application. ====
+{{{
+                 THREAD1                                                          THREAD2
+    Repository tx = repository.begin();
+    try { 
+      // Repeatable read
+      Serializable obj = tx.restore("test");           
+      obj.changeObjectState();
+      // The update increments the version
+      obj = tx.update(obj);
+                                                              Repository tx = repository.begin();
+                                                              try {
+                                                               // Repeatable read
+                                                                Serializable obj = tx.restore("test");
+                                                                obj.changeObjectState();
+                                                                // A LockingException is throw
+                                                                // because the object is locked by another transaction
+                                                                obj = tx.update(obj);
+                                                                tx.commit();
+                                                              } catch(LockingException le) {
+                                                                tx.rollback();
+                                                              }                   
+
+      tx.commit();
+    } catch(LockingException le) {
+      tx.rollback();
+    }
+}}}
+----
+[CustomVersionManager Previous] [PersistencyCallbacks Next]
+
+Related Test Cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/TransactionalRepositoryTestBase.java TransactionRepositoryTestBase]

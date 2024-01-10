@@ -1,0 +1,275 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http
+END
+HttpServerConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpServerConnection.html
+END
+HttpResponseFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpResponseFactory.html
+END
+HttpConnectionMetrics.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpConnectionMetrics.html
+END
+Header.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/Header.html
+END
+HttpRequest.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpRequest.html
+END
+ContentTooLongException.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ContentTooLongException.html
+END
+StatusLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/StatusLine.html
+END
+HttpResponse.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpResponse.html
+END
+HeaderIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HeaderIterator.html
+END
+HttpRequestInterceptor.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpRequestInterceptor.html
+END
+NoHttpResponseException.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/NoHttpResponseException.html
+END
+HttpResponseInterceptor.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpResponseInterceptor.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/package-frame.html
+END
+HttpStatus.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpStatus.html
+END
+HttpMessage.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpMessage.html
+END
+ReasonPhraseCatalog.html
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ReasonPhraseCatalog.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/package-use.html
+END
+HttpVersion.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpVersion.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/package-summary.html
+END
+ConnectionReuseStrategy.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ConnectionReuseStrategy.html
+END
+MethodNotSupportedException.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/MethodNotSupportedException.html
+END
+HttpEntityEnclosingRequest.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpEntityEnclosingRequest.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/package-tree.html
+END
+NameValuePair.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/NameValuePair.html
+END
+ParseException.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ParseException.html
+END
+TokenIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/TokenIterator.html
+END
+HttpClientConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpClientConnection.html
+END
+HttpException.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpException.html
+END
+FormattedHeader.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/FormattedHeader.html
+END
+HttpConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpConnection.html
+END
+RequestLine.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/RequestLine.html
+END
+TruncatedChunkException.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/TruncatedChunkException.html
+END
+MalformedChunkCodingException.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/MalformedChunkCodingException.html
+END
+HeaderElement.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HeaderElement.html
+END
+ProtocolVersion.html
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ProtocolVersion.html
+END
+ConnectionClosedException.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ConnectionClosedException.html
+END
+Consts.html
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/Consts.html
+END
+HttpHeaders.html
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpHeaders.html
+END
+HeaderElementIterator.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HeaderElementIterator.html
+END
+HttpEntity.html
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpEntity.html
+END
+HttpHost.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpHost.html
+END
+UnsupportedHttpVersionException.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/UnsupportedHttpVersionException.html
+END
+HttpInetConnection.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpInetConnection.html
+END
+HttpRequestFactory.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/HttpRequestFactory.html
+END
+ProtocolException.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/ProtocolException.html
+END

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 25
+/svn/!svn/ver/8/trunk/bin
+END
+7z.exe
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/8/trunk/bin/7z.exe
+END
+libraries.conf
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/8/trunk/bin/libraries.conf
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/8/trunk/bin/build.bat
+END
+linecount.bat
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/8/trunk/bin/linecount.bat
+END
+wget.exe
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/8/trunk/bin/wget.exe
+END
+daily.bat
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/8/trunk/bin/daily.bat
+END
+wget.hlp
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/8/trunk/bin/wget.hlp
+END
+libsync.bat
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/8/trunk/bin/libsync.bat
+END
+wc.exe
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/8/trunk/bin/wc.exe
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/8/trunk/bin/run.bat
+END
+runtests.bat
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/8/trunk/bin/runtests.bat
+END

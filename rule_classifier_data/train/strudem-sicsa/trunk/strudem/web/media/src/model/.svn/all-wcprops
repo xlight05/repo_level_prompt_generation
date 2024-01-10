@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model
+END
+model.column.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.column.js
+END
+model.ext.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.ext.js
+END
+model.settings.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.settings.js
+END
+model.search.js
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.search.js
+END
+model.defaults.columns.js
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.defaults.columns.js
+END
+model.row.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.row.js
+END
+model.defaults.js
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/29/trunk/strudem/web/media/src/model/model.defaults.js
+END

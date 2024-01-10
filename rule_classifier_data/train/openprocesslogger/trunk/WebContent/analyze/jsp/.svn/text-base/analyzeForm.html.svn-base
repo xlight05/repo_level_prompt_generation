@@ -1,0 +1,76 @@
+<div dojoType="dijit.layout.ContentPane" id="analyzeSettingsContainer" title="Analyze settings" class="tundra">
+
+	<div id="analyzeWelcome">
+		
+		Choose a trigger from the menu to the left or flipp trough the calendar below to inspect a graph.
+		
+	</div>
+  <div id="timeChooseContainer" style="display: none;">
+    <table border="0" class="tundra">
+      <tr>
+        <th colspan="4">Choose date-time span to analyze</th>
+      </tr>
+      <tr>
+        <td>
+          <b>Start date:</b>
+        </td>
+        <td width="50">
+          <input id="timeAnalyze_dateStart" type="text" name="analyzeDateStart"
+            dojoType="dijit.form.DateTextBox" required="true"
+            constraints="{datePattern:'yyyy-MM-dd'}"
+            promptMessage="year-month-date"
+            invalidMessage="Invalid date. Use yyyy-MM-dd format." 
+            style="width:100px"/>
+             
+        </td>
+        <td style="padding-left:20px">
+          <b>Start time:</b>
+        </td>
+        <td>
+          <input id="timeAnalyze_timeStart" type="text" name="analyzeTimeStart"
+            dojoType="dijit.form.TimeTextBox" required="true"
+            promptMessage="hh:mm"
+            constraints="{timePattern:'HH:mm:ss'}" 
+            invalidMessage="Invalid time specified"
+            style="width:100px" />
+        </td>
+        <td rowspan="2" style="padding-left:40px">
+          <button dojoType="dijit.form.Button" onclick="timeAnalyze_createGraph()" value="Load data" name="button">Create graph</button>
+        </td>
+      </tr>  
+      <tr>
+        <td>
+          <b>End date:</b>
+        </td>
+        <td> 
+          <input id="timeAnalyze_dateEnd" type="text" name="analyzeDateEnd"
+            dojoType="dijit.form.DateTextBox" required="true"
+            constraints="{datePattern:'yyyy-MM-dd'}"
+            promptMessage="year-month-date"
+            invalidMessage="Invalid date. Use yyyy-MM-dd format." 
+            style="width:100px"/>
+        </td>
+        <td style="padding-left:20px">
+          <b>End time:</b>
+        </td>
+        <td>
+          <input id="timeAnalyze_timeEnd" type="text" name="analyzeTimeEnd"
+            dojoType="dijit.form.TimeTextBox" required="true"
+            promptMessage="hh:mm:ss"
+            constraints="{timePattern:'HH:mm:ss'}" 
+            invalidMessage="Invalid time specified" 
+            style="width:100px"/>
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div id="logTaskTableContainer" class="taskList">
+    
+  </div>
+  <div id="createButtonDiv" class="taskList" style="visibility:hidden">
+    <button dojoType="dijit.form.Button" id="analyze_CreateGraphButton" onclick="timeAnalyze_createGraph()">Create graph</button>
+  </div>
+  <div id="noDataDiv" class="taskList" style="visibility:hidden">
+    <i>No data in selected interval</i>
+  </div>
+</div>

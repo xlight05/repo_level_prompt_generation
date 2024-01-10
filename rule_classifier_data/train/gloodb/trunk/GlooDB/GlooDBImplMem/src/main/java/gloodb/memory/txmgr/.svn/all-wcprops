@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImplMem/src/main/java/gloodb/memory/txmgr
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/243/trunk/GlooDB/GlooDBImplMem/src/main/java/gloodb/memory/txmgr/package.html
+END
+MemoryTxLogConfiguration.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/62/trunk/GlooDB/GlooDBImplMem/src/main/java/gloodb/memory/txmgr/MemoryTxLogConfiguration.java
+END
+MemoryTxLogFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/132/trunk/GlooDB/GlooDBImplMem/src/main/java/gloodb/memory/txmgr/MemoryTxLogFactory.java
+END
+MemoryTxManagerStrategy.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/353/trunk/GlooDB/GlooDBImplMem/src/main/java/gloodb/memory/txmgr/MemoryTxManagerStrategy.java
+END
+MemoryTxLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBImplMem/src/main/java/gloodb/memory/txmgr/MemoryTxLog.java
+END

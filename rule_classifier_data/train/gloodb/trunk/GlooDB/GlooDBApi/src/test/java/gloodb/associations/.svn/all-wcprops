@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/590/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations
+END
+UniqueIndexTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations/UniqueIndexTestBase.java
+END
+OneToOneAssociationTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations/OneToOneAssociationTestBase.java
+END
+OneToManyAssociationTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations/OneToManyAssociationTestBase.java
+END
+ManyToManyAssociationTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/590/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations/ManyToManyAssociationTestBase.java
+END
+NonUniqueIndexTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations/NonUniqueIndexTestBase.java
+END
+SortedSerializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/360/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/associations/SortedSerializable.java
+END

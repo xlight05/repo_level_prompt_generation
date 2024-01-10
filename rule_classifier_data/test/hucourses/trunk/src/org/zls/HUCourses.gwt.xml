@@ -1,0 +1,15 @@
+<module>
+      <inherits name='com.google.gwt.user.User'/>
+      <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+      <inherits name='com.gwtext.GwtExt' />
+
+      <entry-point class='org.zls.client.HUCourses'/>
+
+      <stylesheet src="js/ext/resources/css/ext-all.css" />
+      <stylesheet src='HUCourses.css' />
+      
+      <script src="js/ext/adapter/ext/ext-base.js" />
+      <script src="js/ext/ext-all.js" />
+          
+      <servlet path="/server" class="org.zls.server.ServerServiceImpl" />	
+</module>

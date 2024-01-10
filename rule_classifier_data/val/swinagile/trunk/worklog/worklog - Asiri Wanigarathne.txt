@@ -1,0 +1,162 @@
+Weekly Project Diary Weak 7 - Asiri Wanigarathne 2293641
+
+ 
+Project Contribution
+--------------------
+Finally found the XStream and done IT
+
+Individual Learning
+-------------------
+ 
+Xstream object to xml ,xml to object mapping
+
+
+Current Work
+------------
+Do planing forstory 1-4
+
+
+Planned Work
+------------
+ 	
+spike the Xtream upload to wiki
+meeting on monday
+
+Current Issues
+--------------
+ 
+it seems we going to be 3people group
+
+
+Project Difficulties
+--------------------
+I had a typin error on xstream search but now i found it.
+my work getting much stressed as they have given me to work on 3 projects and ones dead line is end of octomber.
+
+Project Reflection
+------------------
+Didnt have much idea of planing when we started the task but managed to planing for 3 user stories
+
+Work Log Week 07
+----------------
+ 
+Type Day  Date        Duration  Description
+ O   WED  2006-09-13  03:00     Agile Lecture/Lab
+ O   SAT  2006-09-16  01:00     Blog reading and forum discussion
+ U   MON  2006-09-18  03:00     Project and Development Discussion
+ P   TUE  2006-09-19  03:00     
+Try the Xstream and write a simple doc how to use i-t
+ P   TUE  2006-09-19  02:00     User story planing
+ 0   WED  2006-09-20  00:15     Project diary and work log
+ 
+Weekly total: 12:15  (Planned: 05:00, Unplanned: 03:00, Ongoing: 04:15)
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Weekly Project Diary Weak 8 - Asiri Wanigarathne 2293641
+
+ 
+Project Contribution
+--------------------
+Start with user story 3-4
+
+
+Individual Learning
+-------------------
+ 
+Subeclipse
+
+
+Current Work
+------------
+User story 3-4 extract the jar/class file and create structure which can convert to xml
+
+
+Planned Work
+------------
+ 	
+Finish off user story 3-4
+
+Current Issues
+--------------
+ 
+get Fan-in done
+asm library
+
+
+Project Difficulties
+--------------------
+i was sick and was behind my planing
+
+Project Reflection
+------------------
+it seems we can get something working. 
+Xstream is nice to store the config and slo the data extracted.
+might be able to store in one xml file got to see is it ok . one xml file for the project
+
+Work Log Week 08
+----------------
+ 
+Type Day  Date        Duration  Description
+ O   WED  2006-09-13  01:15     checking discussion board and respond
+ P   TUE  2006-09-24  02:00     Meeting 
+ P   TUE  2006-10-03  04:00     User story 3 design/ class diagram
+ O   WED  2006-10-04  01:00     Getting work log sorted on svn
+ U   WED  2006-10-04  01:30     Setup subclipse and get copy of project from svn
+ 
+Weekly total: 9:45  (Planned: 06:00, Unplanned: 01:30, Ongoing: 02:15)
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Weekly Project Diary Weak 9 - Asiri Wanigarathne 2293641
+
+ 
+Project Contribution
+--------------------
+Complete most part of US03 except some issues with metrics and extracting classes out of jar
+
+
+Individual Learning
+-------------------
+ 
+XStream utilisation in the project. it is very powerful and easy
+
+
+Current Work
+------------
+Extract class files out of jar and process them
+Fix up metics data and finish off US03
+
+
+Planned Work
+------------
+ 	
+COmplete US-04
+
+Current Issues
+--------------
+Extract class files out of jar 
+get Fan-in done
+asm library
+
+
+Project Difficulties
+--------------------
+there is lot of work to be done apart from coding and we are lot behind with those
+
+Project Reflection
+------------------
+I was struck on extracting class files from jar and also couldnt get good grasp of the data avaliable from the 
+given metrics data extraction tool. Also i coulnt say US-03 partly completed to put in to release log but it is 
+some parts are 100% done.
+
+Work Log Week 08
+----------------
+ 
+Type Day  Date        Duration  Description
+ O   WED  2006-10-04  01:30     Lecturer and tutorial
+ P   SUN  2006-10-08  03:00     Code Version/class data store files 
+ P   MON  2006-10-09  04:00     Postpone data extraction extract data for class coded, 
+ O   TUE  2006-10-10  03:00     SVN upload, write to xml files extracted data and config
+
+ 
+Weekly total:   (Planned: , Unplanned: , Ongoing: )

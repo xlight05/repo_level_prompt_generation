@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core" xmlns:a4j="http://richfaces.org/a4j"
+	xmlns:rich="http://richfaces.org/rich" xmlns:s="http://jboss.com/products/seam/taglib"
+	template="/layout/template.xhtml">
+
+	<!-- page parameter -->
+	<ui:param name="showHotLinks" value="true" />
+	<ui:param name="showInfoLinks" value="false" />
+	<ui:param name="showTitle" value="true" />
+	<ui:param name="showSubtitle" value="true" />
+	<ui:param name="showNavigationView" value="true" />
+	<ui:param name="showLogout" value="#{applicationconfig.showLogout}" />
+	<ui:param name="showSystemMessages" value="false" />
+	<ui:param name="showIdle" value="false" />
+	
+	<!-- content -->
+	<ui:define name="body">
+		<h:form id="input">
+			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="form">
+				<tr>
+					<td class="form-head" style="text-align: left">#{messages['GroupsAdminProcess.form']}</td>
+				</tr>
+	
+				<tr>
+					<td class="form-label" style="text-align: left">
+						<rich:message for="groupAdminMessages" errorClass="errortext"
+							errorMarkerClass="errortext" errorLabelClass="errortext">
+							<f:facet name="infoMarker">
+								<h:graphicImage value="/images/common/decoration/info.gif" />
+							</f:facet>
+							<f:facet name="warnMarker">
+								<h:graphicImage value="/images/common/decoration/warn.gif" />
+							</f:facet>
+							<f:facet name="errorMarker">
+								<h:graphicImage value="/images/common/decoration/error.gif" />
+							</f:facet>
+							<f:facet name="fatalMarker">
+								<h:graphicImage value="/images/common/decoration/fatal.gif" />
+							</f:facet>
+						</rich:message>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-label" style="text-align: left">
+						<h:outputText id="groupAdminMessages" value="#{messages['GroupsAdminProcess.group']}"/>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-input" style="text-align: left">
+						<s:decorate>
+							<h:inputText id="groupname" value="#{groupsAdmin.groupname}">
+								<s:validate />
+							</h:inputText>
+						</s:decorate>
+						<rich:message for="groupname" styleClass="errortext" />
+					</td>
+				</tr>
+
+				<tr>
+					<td class="form-label" style="text-align: left">
+						#{messages['GroupsAdminProcess.permissionFilter']}
+					</td>
+				</tr>
+				<tr>
+					<td class="form-input" style="text-align: left">
+						<h:selectOneMenu id="selectgroupmenu"
+							value="#{groupsAdmin.permissionFilter}">
+							<s:selectItems
+								noSelectionLabel="-"
+								hideNoSelection="false"
+								value="#{groupsAdmin.permissions}"
+								var="permission"
+								label="#{permission.identifier}"/>
+						</h:selectOneMenu>
+					</td>
+				</tr>
+				<tr>
+					<td class="form-foot" align="right">
+						<a4j:commandButton id="addButton"
+							rendered="#{s:hasPermission('Show','GroupsAdminAdd', null)}"
+							action="#{groupsAdmin.addGroup}"
+							value="#{messages['button.add']}"
+							status="commonstatus"
+							reRender="table_container, groupname"
+							type="submit"
+							styleClass="button" /> 
+						<a4j:commandButton id="queryButton"
+							action="#{groupsAdmin.showGroup}"
+							value="#{messages['button.query']}"
+							status="commonstatus"
+							reRender="table_container"
+							type="submit"
+							styleClass="button" /> 
+					</td>
+				</tr>
+			</table>
+
+			<br />
+	
+			<s:div id="table_container">
+				<rich:dataTable id="groupTable" cellpadding="0" cellspacing="0" border="0" width="100%" columnsWidth="84%,8%,8%"
+					styleClass="data" headerClass="data" columnClasses="data"
+					rowClasses="data-rowA,data-rowB"
+					var="group" value="#{groups}">
+					<f:facet name="header">
+						<rich:columnGroup>
+							<h:column>Group</h:column>
+							<h:column>&#160;</h:column>
+							<h:column>&#160;</h:column>
+						</rich:columnGroup>
+					</f:facet>
+					<rich:column style="text-align: right;">
+				       	#{group.identifier}
+				    </rich:column>
+					<rich:column style="text-align: center;" rendered="#{s:hasPermission('Show','GroupsAdminEdit', null)}">
+						<s:link id="editBotton"
+							value="#{messages['button.edit']}"
+							action="#{groupsAdminEdit.popup(group)}"
+							view="/administration/GroupsAdminEdit.xhtml"
+							target="_blank"
+							styleClass="button"/>
+					</rich:column>
+					<rich:column style="text-align: center;" rendered="#{s:hasPermission('Show','GroupsAdminDelete', null)}">
+						<s:button id="deleteButton" 
+							title="#{group.identifier}"
+							action="#{groupsAdmin.deleteGroup}"
+							value="#{messages['button.delete']}"
+							styleClass="button toConfirm"/> 
+					</rich:column>
+				</rich:dataTable>
+				<rich:jQuery selector=".toConfirm" query="each(function(){jQuery(this).replaceOnClick({id:'modal-confirm-window', title:'#{messages['GroupsAdminProcess.delete-message']}', ok_label:'#{messages['GroupsAdminProcess.delete-message.ok']}', cancel_label:'#{messages['GroupsAdminProcess.delete-message.cancel']}'});})"/>
+				<rich:jQuery selector="#groupTable tr:odd" query="mouseover(function(){jQuery(this).removeClass('data-rowA');jQuery(this).addClass('active-row');})"/>
+			    <rich:jQuery selector="#groupTable tr:odd" query="mouseout(function(){jQuery(this).addClass('data-rowA');jQuery(this).removeClass('active-row');})"/>
+			    <rich:jQuery selector="#groupTable tr:even" query="mouseover(function(){jQuery(this).removeClass('data-rowB');jQuery(this).addClass('active-row');})"/>
+			    <rich:jQuery selector="#groupTable tr:even" query="mouseout(function(){jQuery(this).addClass('data-rowB');jQuery(this).removeClass('active-row');})"/>
+		    </s:div>
+		</h:form>
+		<rich:spacer height="20"/>
+	</ui:define>
+</ui:composition>

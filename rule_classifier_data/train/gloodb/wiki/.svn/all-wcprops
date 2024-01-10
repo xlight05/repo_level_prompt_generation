@@ -1,0 +1,191 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/620/wiki
+END
+GlooDBTips.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/358/wiki/GlooDBTips.wiki
+END
+GlooDBFundamentals.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/427/wiki/GlooDBFundamentals.wiki
+END
+PersistencyCallbacks.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/537/wiki/PersistencyCallbacks.wiki
+END
+PersistencyInterceptors.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/620/wiki/PersistencyInterceptors.wiki
+END
+GlooDBTutorials.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/570/wiki/GlooDBTutorials.wiki
+END
+TransactionalStore.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/445/wiki/TransactionalStore.wiki
+END
+TransactionalRemove.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/444/wiki/TransactionalRemove.wiki
+END
+NonTransactionalRestore.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/431/wiki/NonTransactionalRestore.wiki
+END
+RuntimeObjectIdentity.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/595/wiki/RuntimeObjectIdentity.wiki
+END
+TransactionalCreate.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/442/wiki/TransactionalCreate.wiki
+END
+MavenSettings.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/478/wiki/MavenSettings.wiki
+END
+NonTransactionalRemove.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/436/wiki/NonTransactionalRemove.wiki
+END
+SpecifyingPersistentIdentity.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/550/wiki/SpecifyingPersistentIdentity.wiki
+END
+TransactionLocking.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/598/wiki/TransactionLocking.wiki
+END
+NonTransactionalCreate.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/432/wiki/NonTransactionalCreate.wiki
+END
+TransactionalUpdate.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/443/wiki/TransactionalUpdate.wiki
+END
+WritingASimplePersistentClass.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/490/wiki/WritingASimplePersistentClass.wiki
+END
+TransactionalRestore.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/440/wiki/TransactionalRestore.wiki
+END
+OptimisticLockingUsingVersion.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/596/wiki/OptimisticLockingUsingVersion.wiki
+END
+CustomVersionManager.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/597/wiki/CustomVersionManager.wiki
+END
+ImplementingObjectEmbedding.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/521/wiki/ImplementingObjectEmbedding.wiki
+END
+NonTransactionalUpdate.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/433/wiki/NonTransactionalUpdate.wiki
+END
+GlooDB Design.png
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/330/wiki/GlooDB%20Design.png
+END
+ImplementingLazyLoading.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/538/wiki/ImplementingLazyLoading.wiki
+END
+Cloning.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/568/wiki/Cloning.wiki
+END
+EmbeddedRepositoryImplementationDesign.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/428/wiki/EmbeddedRepositoryImplementationDesign.wiki
+END
+GlooDB Architecture.png
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/328/wiki/GlooDB%20Architecture.png
+END
+NonTransactionalStore.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/437/wiki/NonTransactionalStore.wiki
+END
+TableOfContents.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/518/wiki/TableOfContents.wiki
+END
+Configurations.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/579/wiki/Configurations.wiki
+END
+Associations.wiki
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/528/wiki/Associations.wiki
+END

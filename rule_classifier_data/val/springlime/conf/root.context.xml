@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  
+   <bean class="com.lime.bean.ModularApplication" id="TestDescriptor" >
+   		<constructor-arg>
+			<value>
+				Test
+   			</value>
+		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			classpath*:spring.xml
+   			</value>
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			classpath*:spring.ext.xml
+   			</value>
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>ASD</value>
+   				<value>SDF</value>
+   				<value>DFG</value>
+   				<value>FGH</value>
+   				<value>GHJ</value>
+   			</list>
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>ASD</value>
+   				<value>SDF</value>
+   				<value>DFG</value>
+   				<value>FGH</value>
+   				<value>GHJ</value>
+   			</list>
+   		</constructor-arg>
+   </bean>
+   
+   <bean class="com.lime.bean.ModularApplication" id="FabasiDescriptor">
+   		<constructor-arg>
+			<value>
+				Fabasi
+   			</value>
+		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			spring/fabasi.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			spring/fabasi.ext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>ScriptLoader</value>
+   				<value>Logging</value>
+   				<value>Session</value>
+   				<value>Elor</value>
+   			</list>
+   		</constructor-arg>
+   </bean>
+   
+    <bean class="com.lime.bean.ModularApplication" id="TestContextDescriptor">
+   		<constructor-arg>
+			<value>
+				TestContext
+   			</value>
+		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/testcontext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/testcontext.ext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>TestContextModule1</value>
+   				<value>TestContextModule2</value>
+   			</list>
+   		</constructor-arg>
+   </bean>
+
+	<bean class="com.lime.bean.ModularApplication" id="TestCssDescriptor">
+		<!-- Application name -->
+		<constructor-arg>
+			<value>
+				TestCss
+   			</value>
+		</constructor-arg>
+		<!-- Application name -->
+		<!-- Common context descriptors pattern  -->
+		<constructor-arg>
+			<value>
+				conf/*context.xml
+   			</value>
+		</constructor-arg>
+		<!-- Common context descriptors pattern  -->
+		<!-- Module context descriptors pattern  -->
+		<constructor-arg>
+			<value>
+				conf/*context.ext.xml
+   			</value>
+		</constructor-arg>
+		<!-- Module context descriptors pattern  -->
+		<!-- Required modules -->
+		<constructor-arg>
+			<list>
+				<value>TestCssConsumer</value>
+			</list>
+		</constructor-arg>
+		<!-- Required modules -->
+		<!-- Optional modules -->
+		<constructor-arg>
+			<list>
+				<value>TestCssModule</value>
+			</list>
+		</constructor-arg>
+		<!-- Optional modules -->
+	</bean>
+   
+    <bean class="com.lime.bean.ModularApplication" id="TestLogDescriptor">
+   		<constructor-arg>
+			<value>
+				TestLog
+   			</value>
+		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/testcontext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/testcontext.ext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>TestLogConsumer</value>
+   				<value>TestLogProvider</value>
+   			</list>
+   		</constructor-arg>
+   </bean>
+
+    <bean class="com.lime.bean.ModularApplication" id="TestServiceDescriptor">
+   		<constructor-arg>
+			<value>
+				TestService
+   			</value>
+		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/testcontext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/testcontext.ext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>TestServiceConsumer</value>
+   				<value>TestServiceProvider</value>
+   			</list>
+   		</constructor-arg>
+   </bean>
+   
+   <bean class="com.lime.bean.ModularApplication" id="LimePortalDescriptor">
+   		<constructor-arg>
+			<value>
+				LimePortal
+   			</value>
+		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/limeportalcontext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<value>
+   			conf/limeportalcontext.ext.xml
+   			</value>  			
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>LimePortal</value>
+   			</list>
+   		</constructor-arg>
+   		<constructor-arg>
+   			<list>
+   				<value>LimePortalBar</value>
+   			</list>
+   		</constructor-arg>
+   </bean>
+  
+</beans>

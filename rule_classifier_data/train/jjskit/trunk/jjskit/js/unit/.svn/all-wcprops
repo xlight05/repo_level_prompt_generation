@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/78/trunk/jjskit/js/unit
+END
+print.js
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/75/trunk/jjskit/js/unit/print.js
+END
+assert.js
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/78/trunk/jjskit/js/unit/assert.js
+END
+run.js
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/75/trunk/jjskit/js/unit/run.js
+END

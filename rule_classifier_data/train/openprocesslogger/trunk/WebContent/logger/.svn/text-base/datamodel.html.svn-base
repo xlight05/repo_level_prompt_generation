@@ -1,0 +1,98 @@
+<div id="trLogSettingsMessage" class="formInfoArea">
+	<div><b>Please choose a template or task in the left side list.</b></div>
+	<div style="float: left;">&nbsp;&nbsp;</div>
+</div>
+
+<div id="logTaskSettingsBody" style="display:none;">
+	<div id="logTaskSettingsPane" class="formInfoArea">
+	
+		<div id="trTemplateName">
+			<h3>Template:</h3>
+	 		<div id="templateDisplayName" class="formSubArea"></div>
+	 		<div id="templateName" class="formSubArea" style="display:none;"></div>
+		</div>
+		
+		<div id="trEquipmentID">
+			<h3>Logging task name:</h3>
+			<div class="formSubArea">
+				<input dojoType="dijit.form.TextBox" promptMessage="Enter the name of the logging task" id="logTaskName" maxlength="40">
+			</div>
+		</div>
+	
+		<div id="trLogInfo">
+			<h3>Logging task description:</h3>
+			<div class="formSubArea">
+				<textarea dojoType="dijit.form.Textarea" id="loggingTaskInfo" style="width:600px;"></textarea>
+			</div>
+		</div>
+
+		<h3>Subscriptions:</h3>
+		<div id="activeLogTaskTreeHolder" class="formSubArea"></div>
+
+		<div id="timerContainer">
+			<div id="taskTimer" class="column">
+				<h3>Timer</h3>
+				
+				<div class="tcolumn">
+					<h5>Start date:</h5>
+					<input id="dtbStart" type="text" name="dateStart"
+					dojoType="dijit.form.DateTextBox" required="true"
+					constraints="{datePattern:'yyyy-MM-dd'}"
+					promptMessage="Year-month-date"
+					autocomplete="off" 
+					invalidMessage="Invalid date. Use yyyy-MM-dd format." style="width:100px"/>
+	
+					<h5>End date:</h5>
+					<input id="dtbEnd" type="text" name="dateEnd"
+					dojoType="dijit.form.DateTextBox" required="true"
+					constraints="{datePattern:'yyyy-MM-dd'}"
+					promptMessage="Year-month-date"
+					autocomplete="off" 
+					invalidMessage="Invalid date. Use yyyy-MM-dd format." style="width:100px"/>
+				</div>
+	
+				<div class="tcolumn">
+					<h5>Start time:</h5>
+					<input id="dtbStartTime" type="text" name="timeStart"
+					dojoType="dijit.form.TimeTextBox" required="true"
+					promptMessage="Start time"
+					constraints="{timePattern:'HH:mm'}" 
+					autocomplete="off" 
+					invalidMessage="Invalid time specified" style="width:100px"/>
+	
+					<h5>End time:</h5>
+					<input id="dtbEndTime" type="text" name="timeEnd"
+					dojoType="dijit.form.TimeTextBox" required="true"
+					promptMessage="End time"
+					autocomplete="off" 
+					constraints="{timePattern:'HH:mm'}" 
+					invalidMessage="Invalid time specified" style="width:100px"/>
+				</div>
+				
+				<br class="clear">
+			</div>
+			
+			<div id="taskQuickstart" style="display:none;" class="column">
+				<h3>Quickstart</h3>
+				<div class="formSubArea">
+					<button dojoType="dijit.form.Button" onclick="logging_startLogTask();" id="startLoggingButton">Start logging</button>
+				</div>
+			</div>
+			
+			<br class="clear">
+			
+			<div id="tastTQSwitch">
+				<button id="toggletimer" dojoType="dijit.form.Button" onclick="toggleTimer();">Switch Timer/Quickstart</button>
+			</div>
+		</div>
+		
+		<div id="trSave" class="aright">
+			<div id="taskStopButton" style="display: none;"><button dojoType="dijit.form.Button" onclick="logging_stopLogTask();">Stop logging</button></div>
+			<button dojoType="dijit.form.Button" onclick="gui_cancelForm(false);">Cancel</button>
+			<button id="saveLogTaskButton" dojoType="dijit.form.Button" onclick="saveLogTask();">Save</button>
+		</div>
+		
+	</div>
+</div>
+<div id="logTaskId" style="visibility:hidden"></div>
+<div id="logTaskIndex" style="visibility:hidden"></div>

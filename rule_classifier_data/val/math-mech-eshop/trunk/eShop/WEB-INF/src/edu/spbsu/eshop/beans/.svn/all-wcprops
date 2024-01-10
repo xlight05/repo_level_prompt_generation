@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/59/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans
+END
+ErrorBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/ErrorBean.java
+END
+RegistrationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/RegistrationBean.java
+END
+PermissionsBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/PermissionsBean.java
+END
+ProductPageBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/59/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/ProductPageBean.java
+END
+OrdersBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/59/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/OrdersBean.java
+END
+NavigationBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/57/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/NavigationBean.java
+END
+AuthBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/AuthBean.java
+END
+SessionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/SessionBean.java
+END
+SearchBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/beans/SearchBean.java
+END

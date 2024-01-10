@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11/backend/src/com/mrwlogistica/servlet
+END
+ServletActionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/backend/src/com/mrwlogistica/servlet/ServletActionManager.java
+END
+servletLineasxCupon.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/11/backend/src/com/mrwlogistica/servlet/servletLineasxCupon.java
+END
+servletConsulta.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/11/backend/src/com/mrwlogistica/servlet/servletConsulta.java
+END
+ServletConfigManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/11/backend/src/com/mrwlogistica/servlet/ServletConfigManager.java
+END
+servletAccionesxCupon.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/11/backend/src/com/mrwlogistica/servlet/servletAccionesxCupon.java
+END

@@ -1,0 +1,68 @@
+<script>
+    $(document).ready(function(){
+        $("a#lvAluno").lv({
+            idDialog:"lvAlunoDialog"
+        });
+        $("a#lvMateria").lv({
+            idDialog:"lvMateriaDialog",
+            data: $("#codArea")
+        });
+        $("a#lvArea").lv({
+            idDialog:"lvAreaDialog"
+        });
+        $("a#addTable").bind("click", function(){
+            $("#dtBoletin").dataTable().fnAddData( [
+                $("#nmeAluno").val()+'<input type="hidden" id="codAluno" name="codAluno" class="" value="'+$("#codAluno").val()+'">',
+                $("#nmeMateria").val()+'<input type="hidden" id="codMateria" name="codMateria" class="" value="'+$("#codMateria").val()+'">',
+                $("#numNota").val()+'<input type="hidden" id="numNota" name="numNota" value="'+$("#numNota").val()+'">'
+            ] );
+        });   
+        $("a#submitTabela").bind("click", function(){
+            var sData = $('input', $("#dtBoletin").dataTable().fnGetNodes()).serialize(); 
+            executarAjaxConteudo("Controller?map=Template_TabelaDinamica.listar&ajax=true", sData);
+        });
+    });    
+</script>
+<div id="conteudoInterno">
+    <h1>Registro de Notas</h1>
+    <fieldset>
+        <legend>Formul&aacute;rio</legend>
+        <form>
+            <label id="nmeAlunoL" for="nmeAluno">Aluno: </label>
+            <span id="alunoSpan">
+                <input type="hidden" id="codAluno" name="codAluno" class="" >
+                <input type="text" readonly="readonly" id="nmeAluno" name="nmeAluno">
+                <a id="lvAluno" class="lv" href="Controller?map=Template_TabelaDinamica.lvAluno">LV</a>
+            </span><br/>
+
+            <label id="nmeAreaL" for="nmeArea">Area do conheciemnto: </label>
+            <span id="areaSpan">
+                <input type="hidden" id="codArea" name="codArea" class="">
+                <input type="text" readonly="readonly" id="nmeArea" name="nmeArea" class="">
+                <a id="lvArea" class="lv" href="Controller?map=Template_TabelaDinamica.lvAreaConhecimento">LV</a>
+            </span><br/>
+            <label id="nmeMateriaL" for="nmeArea">Materia: </label>
+            <span id="materiaSpan">
+                <input type="hidden" id="codMateria" name="codMateria" class="" >
+                <input type="text" readonly="readonly" id="nmeMateria" name="nmeMateria" >
+                <a id="lvMateria" class="lv" href="Controller?map=Template_TabelaDinamica.lvMateria">LV</a>
+            </span><br/>
+
+            <label id="numNotaL" for="numNota">Nota: </label><input type="text" id="numNota" name="numNota"><br/>
+
+            <a id="addTable" class="adicionar">Adicionar</a>
+
+            <table id="dtBoletin" class="grid">
+                <thead>
+                    <tr>
+                        <td>Aluno</td>
+                        <td>Materia</td>
+                        <td>Nota</td>
+                    </tr>                
+                </thead>                
+            </table>
+            <hr class="clearBoth"/><br/>
+            <a id="submitTabela" class="button">Confirmar</a>
+        </form>
+    </fieldset>
+</div>

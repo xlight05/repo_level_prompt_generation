@@ -1,0 +1,4 @@
+#Mon Dec 01 19:49:28 CET 2008
+default.configuration=seamlets-admin-ejb
+eclipse.preferences.version=1
+hibernate3.enabled=true

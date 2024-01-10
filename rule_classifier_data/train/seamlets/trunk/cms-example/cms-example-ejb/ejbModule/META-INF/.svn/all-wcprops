@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/428/trunk/cms-example/cms-example-ejb/ejbModule/META-INF
+END
+persistence.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/401/trunk/cms-example/cms-example-ejb/ejbModule/META-INF/persistence.xml
+END
+MANIFEST.MF
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/428/trunk/cms-example/cms-example-ejb/ejbModule/META-INF/MANIFEST.MF
+END
+ejb-jar.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/15/trunk/cms-example/cms-example-ejb/ejbModule/META-INF/ejb-jar.xml
+END

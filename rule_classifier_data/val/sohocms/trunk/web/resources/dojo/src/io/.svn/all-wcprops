@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io
+END
+RepubsubIO.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/RepubsubIO.js
+END
+ShortBusIO.js
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/ShortBusIO.js
+END
+ScriptSrcIO.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/ScriptSrcIO.js
+END
+ShortBusInit.html
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/ShortBusInit.html
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/__package__.js
+END
+RhinoIO.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/RhinoIO.js
+END
+cookie.js
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/cookie.js
+END
+BrowserIO.js
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/BrowserIO.js
+END
+IframeIO.js
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/IframeIO.js
+END
+cookies.js
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/io/cookies.js
+END

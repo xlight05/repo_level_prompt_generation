@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/357/trunk/ftpserverremoteadmin/ftpserverremote-web
+END
+catalog.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/92/trunk/ftpserverremoteadmin/ftpserverremote-web/catalog.xml
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/151/trunk/ftpserverremoteadmin/ftpserverremote-web/pom.xml
+END
+profiles.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/64/trunk/ftpserverremoteadmin/ftpserverremote-web/profiles.xml
+END

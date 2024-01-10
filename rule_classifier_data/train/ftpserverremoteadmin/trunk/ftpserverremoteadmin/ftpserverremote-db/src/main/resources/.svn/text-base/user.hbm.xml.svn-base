@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+
+    <class name="pl.edu.agh.iosr.ftpserverremote.data.User" table="User">
+        <id name="id" column="Id">
+            <generator class="native"/>
+        </id>
+        <property name="name" column="uid" type="java.lang.String"/>
+        <property name="password" column="userpassword" type="java.lang.String"/>
+        <property name="rootDirectory" column="homedirectory" type="java.lang.String"/>
+        <property name="enabled" column="enableflag" type="java.lang.String"/>
+        <property name="writePermission" column="writepermission" type="java.lang.String"/>
+        <property name="maxLoginNumber" column="maxloginnumber" type="java.lang.Integer"/>
+        <property name="maxLoginFromSameIP" column="maxloginperip" type="java.lang.Integer"/>
+        <property name="maxIdleTime" column="idletime" type="java.lang.Integer"/>
+        <property name="maxUpload" column="uploadrate" type="java.lang.Integer"/>
+        <property name="maxDownload" column="downloadrate" type="java.lang.Integer"/>
+        <property name="serverId" column="serverid" type="java.lang.Long"/>
+    </class>
+
+</hibernate-mapping>

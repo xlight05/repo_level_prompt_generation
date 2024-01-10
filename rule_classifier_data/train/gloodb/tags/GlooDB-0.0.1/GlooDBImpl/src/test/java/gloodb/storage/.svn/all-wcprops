@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/test/java/gloodb/storage
+END
+MockManagedObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/test/java/gloodb/storage/MockManagedObject.java
+END
+StorageTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/412/tags/GlooDB-0.0.1/GlooDBImpl/src/test/java/gloodb/storage/StorageTestBase.java
+END

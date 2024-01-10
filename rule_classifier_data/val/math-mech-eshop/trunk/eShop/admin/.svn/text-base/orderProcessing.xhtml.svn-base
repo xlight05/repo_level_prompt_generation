@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href="/admin.css" rel="stylesheet" type="text/css" />
+<title>Math-Mech eShop</title>
+</head>
+<f:view>
+	<body>
+	<h:dataTable 
+		value="#{admin.orderProcessingPage.orders}" 
+		var="foundOrder">
+		
+		<h:column>
+			
+			<h:outputText value="#{foundOrder.id}"></h:outputText>
+		</h:column>
+
+		<h:column>
+			
+			<h:outputText value="#{foundOrder.customer.id}"></h:outputText>
+		</h:column>
+		
+		<h:column>
+			
+			<h:outputText value="#{foundOrder.customer.login}"></h:outputText>
+		</h:column>
+		
+		<h:column>
+			
+			<h:form>
+				<h:commandLink action="#{admin.orderProcessingPage.showProducts}" value="Show Products">
+					<f:param name="id" value="#{foundOrder.id}" />
+				</h:commandLink>
+			</h:form>
+		</h:column>
+	
+	</h:dataTable>
+	
+	<h:dataTable 
+		rendered="#{admin.orderProcessingPage.foundProducts != null}"
+		value="#{admin.orderProcessingPage.foundProducts}" 
+		var="product"
+		styleClass="data_table">
+		
+		<h:column>
+			<f:facet name="header345">
+				<h:outputText value="Product id" />
+			</f:facet>
+			<h:outputText value="#{product.id}"></h:outputText>
+		</h:column>
+
+		<h:column>
+			<f:facet name="header456">
+				<h:outputText value="Product name" />
+			</f:facet>
+			<h:outputText value="#{product.name}"></h:outputText>
+		</h:column>
+		
+		<h:column>
+			<f:facet name="header126">
+				<h:outputText value="Product price" />
+			</f:facet>
+			<h:outputText value="#{product.price}"></h:outputText>
+		</h:column>
+		
+		<h:column>
+			<f:facet name="header2154">
+				<h:outputText value="Product photo" />
+			</f:facet>
+			<a	href="img/#{product.photoFileName}" rel="photo"
+				title="#{product.name}"> 
+            	<img src="img/#{product.photoFileName}" width="100"/> 
+       		</a> 
+       	</h:column>
+	
+	</h:dataTable>
+
+	
+	<h:form>
+		<h:commandButton action="#{admin.orderProcessingPage.save}" value="Save Order" />
+	</h:form>
+	</body>
+</f:view>
+</html>

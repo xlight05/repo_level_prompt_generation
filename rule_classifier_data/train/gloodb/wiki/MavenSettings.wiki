@@ -1,0 +1,20 @@
+#summary Maven pom.xml settings for using gloodb.
+
+=== Repository Settings ===
+
+Add your content here.
+
+{{{
+		<repository>
+			<id>sonatype</id>
+			<name>Sonatype Repository</name>
+			<url>https://oss.sonatype.org/content/groups/public</url>
+		</repository>
+
+}}}
+
+=== Dependencies ===
+
+For defining dependencies in your pom files use:
+ * groupId: com.gloodb
+ * artifactId: one of GlooDBApi, GlooDBImpl, GlooDBImplFile, GlooDBImplMem, GlooDBEnterprise

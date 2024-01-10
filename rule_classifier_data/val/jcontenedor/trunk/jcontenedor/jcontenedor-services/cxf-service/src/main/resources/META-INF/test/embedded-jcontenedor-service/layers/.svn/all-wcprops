@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/cxf-service/src/main/resources/META-INF/test/embedded-jcontenedor-service/layers
+END
+services-registry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 158
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/cxf-service/src/main/resources/META-INF/test/embedded-jcontenedor-service/layers/services-registry.xml
+END
+business-services-layer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/svn/!svn/ver/58/trunk/jcontenedor/jcontenedor-services/cxf-service/src/main/resources/META-INF/test/embedded-jcontenedor-service/layers/business-services-layer.xml
+END

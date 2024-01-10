@@ -1,0 +1,24 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Add your content here.
+作成中です。
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
+
+フォルダの構造に関して。。。
+
+largemail -- java
+          -- php
+
+トップから各言語別フォルダ名を分離・管理する予定。
+
+
+ 
+ 

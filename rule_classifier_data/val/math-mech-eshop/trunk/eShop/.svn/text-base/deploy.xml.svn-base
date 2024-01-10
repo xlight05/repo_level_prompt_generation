@@ -1,0 +1,123 @@
+<project name="Ant Builder" default="deploy" basedir=".">
+	
+	<!-- proxy settings (Ignore this section if proxy is not used) -->
+	<setproxy proxyhost="cache" proxyport="3128"/>
+	
+	<!-- project settings -->
+	<property name="project.app.name" value="Math Mach eShop" />
+	<property name="project.web-inf" location="WEB-INF" />
+	<property name="project.lib.dir" location="${project.web-inf}/lib" />
+	<property name="project.ant.files.dir" location="AntFiles/" />
+	<property name="project.src.dir" location="${project.web-inf}/src" />
+	<property name="project.build.dir" location="${project.web-inf}/classes" />
+	<property name="project.war.file.name" location="ROOT" />
+
+	<!-- ant settings -->
+	<property name="tomcat.ant.lib" location="${project.ant.files.dir}/catalina-ant.jar" />
+
+	<!-- hibernate settings -->
+	<property name="hibernate.entitymanager.settings.file" location="${project.web-inf}/persistence.xml" />
+	<property name="hibernate.entitymanager.settings.requried.folder" location="${project.web-inf}/classes/META-INF" />
+
+	<!-- JSF settings-->
+	<property name="jsf.application.messages.file" location="${project.src.dir}/ApplicationMessages.properties"/>
+	<property name="jsf.application.messages_ru_RU.file" location="${project.src.dir}/ApplicationMessages_ru_RU.properties"/>
+	
+	<!-- load host, data base, tomcat servers settings from file-->
+	<property file="${project.ant.files.dir}/server.properties" />
+
+	<!-- define tomcat(catalina) tasks: deploy,undeploy, etc -->
+	<taskdef resource="org/apache/catalina/ant/antlib.xml">
+		<classpath>
+			<pathelement path="${tomcat.ant.lib}" />
+		</classpath>
+	</taskdef>
+	<taskdef resource="net/sf/antcontrib/antlib.xml">
+		<classpath>
+			<pathelement location="${project.ant.files.dir}/ant-contrib-1.0b2.jar" />
+		</classpath>
+	</taskdef>
+
+
+	<!--persistence.xml file has some server dependent parameters
+		this task will fill it with setteings goten from server.properties -->
+	<target name="fill_settings" description="fill persistence.xml with server properties">
+		<replace file="${hibernate.entitymanager.settings.file}">
+			<replacefilter token="{password}" value="${db.password}" />
+			<replacefilter token="{username}" value="${db.username}" />
+			<replacefilter token="{server}" value="${db.server}" />
+			<replacefilter token="{port}" value="${db.port}" />
+		</replace>
+	</target>
+
+
+	<!-- create build directory if needed-->
+	<target name="init" depends="clean">
+		<delete dir="${project.build.dir}"/>
+		<mkdir dir="${project.build.dir}" />
+	</target>
+
+
+	<!-- Compile the java code from src into build directory -->
+	<target name="compile" depends="init" description="compile the source ">
+		<javac srcdir="${project.src.dir}" destdir="${project.build.dir}">
+			<classpath>
+				<fileset dir="${project.lib.dir}" includes="*.jar" />
+				<fileset dir="${project.ant.files.dir}/serverLibs" includes="*.jar" />
+			</classpath>
+		</javac>
+	</target>
+
+	<!-- remove temporal files-->
+	<target name="clean" description="clean up">		
+		<delete dir="${hibernate.entitymanager.settings.requried.folder}" />
+		<delete file="${project.war.file.name}.war" />
+		<delete dir="work" />
+	</target>
+
+	<!-- Hibernate requires persistance.xml file in /WEB-INF/src/META-INF folder
+		for comfort this file placed in WEB-INF folder. 
+		This task runs fill_settings task and copy persistance.xml
+		to required folder -->
+	<target name="copying" depends="init" description="copy hibernate entity manager settings files to required folder">
+		<copy file="${jsf.application.messages.file}" todir="${project.build.dir}"></copy>
+		<copy file="${jsf.application.messages_ru_RU.file}" todir="${project.build.dir}"></copy>
+		<copy file="${hibernate.entitymanager.settings.file}" tofile="${hibernate.entitymanager.settings.file}.cpy" />
+		<antcall target="fill_settings" />
+		<mkdir dir="${hibernate.entitymanager.settings.requried.folder}" />
+		<move file="${hibernate.entitymanager.settings.file}" todir="${hibernate.entitymanager.settings.requried.folder}" />
+		<move file="${hibernate.entitymanager.settings.file}.cpy" tofile="${hibernate.entitymanager.settings.file}" />
+	</target>
+
+	<!-- archive necessary files to web archive-->
+	<target name="war" depends="compile,copying" description="Builds the WAR file for installation.">
+		<war destfile="${project.war.file.name}.war" webxml="WEB-INF/web.xml">
+			<fileset dir=".">
+				<exclude name="WEB-INF/scr/**" />
+				<exclude name="${hibernate.entitymanager.settings.file}" />
+				<exclude name="*.svn" />
+				<exclude name="**/*.java" />
+				<exclude name="*.war" />
+				<exclude name="${project.ant.files}/" />
+				<exclude name="work/**" />
+			</fileset>
+		</war>
+	</target>
+
+	<!-- deploys web archive to host and calls clean-->
+	<target name="deploy" depends="war" description="deploy to server by ftp">
+		<trycatch>
+			<try>
+				<undeploy url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/" />
+
+			</try>
+			<catch>
+				<echo message="${project.war.file.name} is already undeplyed" />
+			</catch>
+		</trycatch>
+		<deploy url="${tomcat.manager.url}" username="${tomcat.username}" password="${tomcat.password}" path="/" war="file:${basedir}/ROOT.war" />
+		<antcall target="clean" />
+	</target>
+
+
+</project>

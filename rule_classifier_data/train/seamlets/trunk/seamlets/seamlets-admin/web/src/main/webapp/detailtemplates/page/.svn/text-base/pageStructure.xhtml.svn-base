@@ -1,0 +1,103 @@
+<ui:fragment
+	xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:s="http://jboss.com/products/seam/taglib"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:rich="http://richfaces.org/rich"
+    xmlns:sl="http://seamlets.org/jsf/facelets"
+    xmlns:a4j="http://richfaces.org/a4j">
+    
+	<rich:panel header="#{messages['components.header']}" bodyClass="componentsBody" styleClass="pageComponents" >
+		<rich:tree styleClass="componentPanelTree" switchType="ajax" 
+			changeExpandListener="#{componentTreeStateAdviser.processExpansion}"
+			stateAdvisor="#{componentTreeStateAdviser}">
+			<rich:treeNodesAdaptor nodes="#{pageContentProvider.componentCategories}" var="componentCategory">
+				<rich:treeNode>
+					<h:outputText value="#{messages[componentCategory.key]}" />
+				</rich:treeNode>
+				
+				<rich:treeNodesAdaptor nodes="#{componentCategory.value}" var="componentItem">
+					<rich:treeNode dragType="component"
+						dragIndicator="treeDragIndicator" 
+						dragValue="#{componentItem}"
+						adviseNodeSelected="#{componentTreeStateAdviser.adviseNodeSelected}"
+						adviseNodeOpened="#{componentTreeStateAdviser.adviseNodeOpened}"
+						changeExpandListener="#{componentTreeStateAdviser.processExpansion}">
+						<f:facet name="iconLeaf">
+           					<s:graphicImage value="#{componentItem.componentImage}">
+           						<s:transformImageSize width="16" maintainRatio="true"/>
+           					</s:graphicImage>
+           				</f:facet>
+						<h:outputText value="#{componentItem.displayName}" />
+						<rich:dndParam name="label" type="drag" value="#{componentItem.displayName}" />
+					</rich:treeNode>
+				</rich:treeNodesAdaptor>
+			</rich:treeNodesAdaptor>
+		</rich:tree>
+	</rich:panel>
+		
+	<s:div id="templatePart" styleClass="pageStructure" rendered="#{selectedPage.template != null}">
+		<ui:fragment rendered="#{selectedPage.template.configurationView != null}">
+			<rich:panel>
+				<f:facet name="header">Panel Bar demo</f:facet>
+				<ui:include src="#{selectedPage.template.configurationView}" />
+			</rich:panel>
+			<rich:spacer height="10"/>
+		</ui:fragment>
+		
+		<rich:panel styleClass="pageStructureTree">
+			<f:facet name="header">#{messages['detailtemplate.pageselected.page.structur']}</f:facet>
+			<rich:tree style="height: 100%"
+				switchType="ajax"
+				ondrop="location.reload(true);"
+				reRender="templatePart"
+				nodeSelectListener="#{pageStructureController.processSelection}"
+				stateAdvisor="#{pageStructureController}"
+				changeExpandListener="#{pageStructureController.processExpansion}"
+            	ajaxSubmitSelection="true">
+				<rich:treeNodesAdaptor  nodes="#{selectedPage.viewParts}" var="viewPart">
+					<rich:treeNode icon="/img/admingui/domain_treenode.png"
+						acceptedTypes="component"
+						dropValue="#{viewPart}"
+            			dropListener="#{componentDragDrop.processDrop}"
+            			iconLeaf="/img/admingui/domain_treenode.png">
+            			<h:outputText value="#{viewPart.name}" />
+            		</rich:treeNode>
+            		
+            		<rich:recursiveTreeNodesAdaptor roots="#{viewPart.viewPartContent}" 
+            			var="componentItem" 
+            			nodes="#{componentItem.childContent}">
+            			<rich:treeNode 
+            				acceptedTypes="component"
+            				dropValue="#{componentItem}"
+            				dropListener="#{componentDragDrop.processDrop}">
+            				<f:facet name="iconLeaf">
+            					<s:graphicImage value="#{componentItem.componentImage}">
+            						<s:transformImageSize width="16" maintainRatio="true"/>
+            					</s:graphicImage>
+            				</f:facet>
+	            			<f:facet name="icon">
+            					<s:graphicImage value="#{componentItem.componentImage}">
+            						<s:transformImageSize width="16" maintainRatio="true"/>
+            					</s:graphicImage>
+            				</f:facet>
+	            			<h:outputText value="#{componentItem.id}" />
+	            		</rich:treeNode>
+            		</rich:recursiveTreeNodesAdaptor>
+				</rich:treeNodesAdaptor>
+			</rich:tree>
+		</rich:panel>
+		
+		<rich:panel styleClass="pageComponentDetail" bodyClass="pageComponentDetailBody">	
+			<f:facet name="header">#{messages['detailtemplate.pageselected.page.component']}</f:facet>
+			<s:fragment rendered="#{selectedComponent.componentDetailPage != null}">
+				<sl:stream value="#{selectedComponent.componentDetailPage}" />
+			</s:fragment>
+			<s:fragment rendered="#{selectedComponent.componentDetailPage == null}">
+				No Component selected!
+			</s:fragment>
+		</rich:panel>
+	</s:div>
+   			    	
+</ui:fragment>

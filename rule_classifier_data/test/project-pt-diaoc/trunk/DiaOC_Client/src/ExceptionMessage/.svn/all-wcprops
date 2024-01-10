@@ -1,0 +1,233 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage
+END
+MaGiaTienKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaGiaTienKhongHopLe.java
+END
+NgayKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/NgayKhongHopLe.java
+END
+ThuKoHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/ThuKoHopLe.java
+END
+KyHieuDaTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/KyHieuDaTonTai.java
+END
+MaThamChieu_ToBuom_PhieuDK.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_ToBuom_PhieuDK.java
+END
+MaThamChieu.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu.java
+END
+MaThamChieu_HinhAnh_NoiDungQC.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_HinhAnh_NoiDungQC.java
+END
+MaThamChieuDiaOc_LoaiDiaOc.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieuDiaOc_LoaiDiaOc.java
+END
+UserNameTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/UserNameTonTai.java
+END
+MaLoaiBangKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaLoaiBangKhongTonTai.java
+END
+MaThamChieuChiTietBao_Bao.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieuChiTietBao_Bao.java
+END
+MaThamChieu_QCBao_PhieuDK.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_QCBao_PhieuDK.java
+END
+MaBaoDaTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaBaoDaTonTai.java
+END
+SoLuongKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/SoLuongKhongHopLe.java
+END
+MaThamChieu_QCBang_NoiDungQC.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_QCBang_NoiDungQC.java
+END
+MaQCBaoKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaQCBaoKhongTonTai.java
+END
+MaPhieuDKKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaPhieuDKKhongTonTai.java
+END
+MaQCBangKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaQCBangKhongTonTai.java
+END
+ServiceException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/ServiceException.java
+END
+MaThamChieu_ToBuom_NoiDungQC.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_ToBuom_NoiDungQC.java
+END
+ExceptionHttpStatusResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/ExceptionHttpStatusResolver.java
+END
+MaBaoKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaBaoKhongTonTai.java
+END
+MaKHKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaKHKhongTonTai.java
+END
+MaToBuomKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaToBuomKhongTonTai.java
+END
+MaCTKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaCTKhongTonTai.java
+END
+MaPhuongKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaPhuongKhongHopLe.java
+END
+ExecuteFail.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/ExecuteFail.java
+END
+GiaTienKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/GiaTienKhongHopLe.java
+END
+MaHinhAnhKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaHinhAnhKhongTonTai.java
+END
+MaThamChieu_QCBao_NoiDungQC.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_QCBao_NoiDungQC.java
+END
+MaQuanKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaQuanKhongHopLe.java
+END
+MaDiaOcKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaDiaOcKhongTonTai.java
+END
+DienTichKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/DienTichKhongHopLe.java
+END
+MaThanhPhoKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThanhPhoKhongHopLe.java
+END
+MaLoaiDiaOcKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaLoaiDiaOcKhongTonTai.java
+END
+MaThamChieu_QCBang_PhieuDK.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaThamChieu_QCBang_PhieuDK.java
+END
+MaNDQCKhongTonTai.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaNDQCKhongTonTai.java
+END
+MaDuongKhongHopLe.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/18/trunk/DiaOC_Client/src/ExceptionMessage/MaDuongKhongHopLe.java
+END

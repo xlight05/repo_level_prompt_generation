@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth
+END
+L2CAPConnectionNotifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/L2CAPConnectionNotifier.java
+END
+L2CAPConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/L2CAPConnection.java
+END
+DataElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/DataElement.java
+END
+BluetoothConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/BluetoothConnectionException.java
+END
+BluetoothStateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/BluetoothStateException.java
+END
+DeviceClass.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/DeviceClass.java
+END
+UUID.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/UUID.java
+END
+DiscoveryAgent.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/DiscoveryAgent.java
+END
+ServiceRegistrationException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/ServiceRegistrationException.java
+END
+LocalDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/LocalDevice.java
+END
+RemoteDevice.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/RemoteDevice.java
+END
+DiscoveryListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/DiscoveryListener.java
+END
+ServiceRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/45/trunk/SolAgentPlatform/src/javax/bluetooth/ServiceRecord.java
+END

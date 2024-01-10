@@ -1,0 +1,47 @@
+function checkUserActions() {
+        _setValue(_textbox("loginPage:adminLogin"), "admin");
+        _setValue(_password("loginPage:adminPassword"), "abc");
+        _click(_button("Log In"));
+        _click(_byId("configurationPage:tabs.0::1"));
+        _setValue(_textbox("configurationPage:usersInc:j_id_jsp_719853177_13j_id_1"), "user_add");
+        _setValue(_password("configurationPage:usersInc:passwordField"), "abc");
+        _setValue(_password("configurationPage:usersInc:j_id_jsp_719853177_26j_id_1"), "abc");
+        _setValue(_textbox("configurationPage:usersInc:j_id_jsp_719853177_30j_id_1"), "/test_dir");
+        _setValue(_textbox("configurationPage:usersInc:j_id_jsp_719853177_36j_id_1"), "10");
+        _setValue(_textbox("configurationPage:usersInc:j_id_jsp_719853177_38j_id_1"), "10");
+        _setSelected(_select("configurationPage:usersInc:j_id_jsp_719853177_40j_id_1"), "60");
+        _setSelected(_select("configurationPage:usersInc:j_id_jsp_719853177_43j_id_1"), "1200");
+        _setSelected(_select("configurationPage:usersInc:j_id_jsp_719853177_46j_id_1"), "1200");
+        _click(_button("Save"));
+        _click(_button("Reload"));
+        _assertNotNull(_textbox("configurationPage:usersInc:j_id_jsp_719853177_13j_id_1"));
+        _assertEqual("user_add", _textbox("configurationPage:usersInc:j_id_jsp_719853177_13j_id_1").value);
+        _assertNotNull(_password("configurationPage:usersInc:passwordField"));
+        _assertEqual("abc", _password("configurationPage:usersInc:passwordField").value);
+        _assertNotNull(_password("configurationPage:usersInc:j_id_jsp_719853177_26j_id_1"));
+        _assertEqual("abc", _password("configurationPage:usersInc:j_id_jsp_719853177_26j_id_1").value);
+        _click(_checkbox("configurationPage:usersInc:j_id_jsp_719853177_28j_id_1"));
+        _click(_checkbox("configurationPage:usersInc:j_id_jsp_719853177_28j_id_1"));
+        _assertNotNull(_textbox("configurationPage:usersInc:j_id_jsp_719853177_30j_id_1"));
+        _assertEqual("/test_dir", _textbox("configurationPage:usersInc:j_id_jsp_719853177_30j_id_1").value);
+        _assertNotNull(_textbox("configurationPage:usersInc:j_id_jsp_719853177_36j_id_1"));
+        _assertEqual("10", _textbox("configurationPage:usersInc:j_id_jsp_719853177_36j_id_1").value);
+        _assertNotNull(_spandiv(01200240048009600144002880057600));
+        _assertContainsText("01200240048009600144002880057600", _spandiv(01200240048009600144002880057600));
+        _assertNotNull(_select("configurationPage:usersInc:j_id_jsp_719853177_40j_id_1"));
+        _assertEqual("60", _getSelectedText(_select("configurationPage:usersInc:j_id_jsp_719853177_40j_id_1")));
+        _assertNotNull(_select("configurationPage:usersInc:j_id_jsp_719853177_43j_id_1"));
+        _assertEqual("1200", _getSelectedText(_select("configurationPage:usersInc:j_id_jsp_719853177_43j_id_1")));
+        _assertNotNull(_select("configurationPage:usersInc:j_id_jsp_719853177_46j_id_1"));
+        _assertEqual("1200", _getSelectedText(_select("configurationPage:usersInc:j_id_jsp_719853177_46j_id_1")));
+        _click(_button("Generate"));
+        _click(_button("OK"));
+        _click(_checkbox("configurationPage:usersInc:j_id_jsp_719853177_28j_id_1"));
+        _click(_button("Save"));
+        _assertNotNull(_password("configurationPage:usersInc:passwordField"));
+        _assertEqual("", _password("configurationPage:usersInc:passwordField").value);
+        _click(_button("Delete"));
+        _click(_button("Log Out"));
+}
+
+checkUserActions()

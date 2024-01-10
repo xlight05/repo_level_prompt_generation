@@ -1,0 +1,578 @@
+Revision: 87
+Author: methusaleh
+Date: 4:56:37 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Deleted : /trunk/doc/jfreechart_tutorial.pdf
+
+
+Revision: 86
+Author: methusaleh
+Date: 4:55:49 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Andrew Cowan.txt
+
+
+Revision: 85
+Author: methusaleh
+Date: 4:53:51 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/doc/Release Notes.txt
+
+
+Revision: 84
+Author: methusaleh
+Date: 4:48:08 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Deleted : /trunk/spike/ANT-Eclipse
+Added : /trunk/spike/ASM 3.0
+Added : /trunk/spike/ASM 3.0/ASM 3.0 and Code Metrics Library.txt(Copy from path: /trunk/spike/ASM 3.0 and Code Metrics Library.txt, Revision, 70
+Added : /trunk/spike/ASM 3.0/ASM 3.0.txt(Copy from path: /trunk/spike/ASM 3.0.txt, Revision, 70
+Deleted : /trunk/spike/ASM 3.0 and Code Metrics Library.txt
+Deleted : /trunk/spike/ASM 3.0.txt
+Added : /trunk/spike/Eclipse(Copy from path: /trunk/spike/ANT-Eclipse, Revision, 70
+Deleted : /trunk/spike/GoogleCode.txt
+Added : /trunk/spike/JFreeChart
+Added : /trunk/spike/JFreeChart/JFreeChart.txt(Copy from path: /trunk/spike/JFreeChart.txt, Revision, 70
+Added : /trunk/spike/JFreeChart/RRDtool.txt(Copy from path: /trunk/spike/RRDtool.txt, Revision, 70
+Added : /trunk/spike/JFreeChart/jfreechart_tutorial.pdf(Copy from path: /trunk/doc/jfreechart_tutorial.pdf, Revision, 74
+Deleted : /trunk/spike/JFreeChart.txt
+Deleted : /trunk/spike/Java Swing.txt
+Deleted : /trunk/spike/RRDtool.txt
+Added : /trunk/spike/Subversion
+Added : /trunk/spike/Subversion/GoogleCode.txt(Copy from path: /trunk/spike/GoogleCode.txt, Revision, 70
+Added : /trunk/spike/Subversion/Subversion.txt(Copy from path: /trunk/spike/Subversion.txt, Revision, 70
+Deleted : /trunk/spike/Subversion.txt
+Added : /trunk/spike/Swing
+Added : /trunk/spike/Swing/Java Swing.txt(Copy from path: /trunk/spike/Java Swing.txt, Revision, 70
+
+
+Revision: 83
+Author: methusaleh
+Date: 4:45:40 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/lib/Readme.txt
+
+
+Revision: 82
+Author: methusaleh
+Date: 4:43:03 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/lib/Readme.txt
+
+
+Revision: 81
+Author: methusaleh
+Date: 4:38:40 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/build.xml
+
+
+Revision: 80
+Author: methusaleh
+Date: 4:38:20 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/backlog/iter2.log
+Modified : /trunk/backlog/release.log
+
+
+Revision: 79
+Author: methusaleh
+Date: 4:37:22 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/doc/api/ClassMetricExtractor.html
+Added : /trunk/doc/api/ExtractedClassData.html
+Added : /trunk/doc/api/ExtractedVersionData.html
+Added : /trunk/doc/api/VersionConfig.html
+Modified : /trunk/doc/api/allclasses-frame.html
+Modified : /trunk/doc/api/allclasses-noframe.html
+Modified : /trunk/doc/api/constant-values.html
+Modified : /trunk/doc/api/deprecated-list.html
+Modified : /trunk/doc/api/help-doc.html
+Modified : /trunk/doc/api/index-all.html
+Modified : /trunk/doc/api/index.html
+Added : /trunk/doc/api/overview-frame.html
+Added : /trunk/doc/api/overview-summary.html
+Modified : /trunk/doc/api/overview-tree.html
+Added : /trunk/doc/api/package-frame.html
+Modified : /trunk/doc/api/package-list
+Added : /trunk/doc/api/package-summary.html
+Added : /trunk/doc/api/package-tree.html
+Modified : /trunk/doc/api/swin/metrictool/ChartMaker.html
+Modified : /trunk/doc/api/swin/metrictool/ClassData.html
+Modified : /trunk/doc/api/swin/metrictool/Project.html
+Modified : /trunk/doc/api/swin/metrictool/Version.html
+Modified : /trunk/doc/api/swin/metrictool/VersionData.html
+Modified : /trunk/doc/api/swin/metrictool/package-frame.html
+Modified : /trunk/doc/api/swin/metrictool/package-summary.html
+Modified : /trunk/doc/api/swin/metrictool/package-tree.html
+Added : /trunk/doc/api/us03.html
+
+
+Revision: 78
+Author: methusaleh
+Date: 4:34:48 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/target/trunk-1.1.zip
+
+
+Revision: 77
+Author: methusaleh
+Date: 4:33:57 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/config/build.version
+
+
+Revision: 76
+Author: methusaleh
+Date: 4:31:58 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/bin/run.bat
+
+
+Revision: 75
+Author: methusaleh
+Date: 4:01:16 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/doc/coverage/_files
+Added : /trunk/doc/coverage/_files/0.html
+Added : /trunk/doc/coverage/_files/1.html
+Added : /trunk/doc/coverage/_files/2.html
+Added : /trunk/doc/coverage/_files/3.html
+Added : /trunk/doc/coverage/_files/4.html
+Added : /trunk/doc/coverage/_files/5.html
+Added : /trunk/doc/coverage/_files/6.html
+Added : /trunk/doc/coverage/_files/7.html
+Added : /trunk/doc/coverage/_files/8.html
+Added : /trunk/doc/coverage/_files/9.html
+Added : /trunk/doc/coverage/_files/a.html
+Added : /trunk/doc/coverage/_files/b.html
+Added : /trunk/doc/coverage/_files/c.html
+Added : /trunk/doc/coverage/coverage.html
+Added : /trunk/doc/coverage/coverage.txt
+
+
+Revision: 74
+Author: methusaleh
+Date: 3:55:22 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/doc/coverage
+
+
+Revision: 73
+Author: methusaleh
+Date: 3:49:00 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/lib/Readme.txt
+
+
+Revision: 72
+Author: methusaleh
+Date: 3:18:49 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/bin/libraries.conf
+
+
+Revision: 71
+Author: methusaleh
+Date: 3:04:14 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Added : /trunk/lib/emma.jar
+Added : /trunk/lib/emma_ant.jar
+
+
+Revision: 70
+Author: apodemous
+Date: 1:07:06 PM, Wednesday, 11 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Ian Fieldhouse.txt
+
+
+Revision: 69
+Author: captainhall
+Date: 9:58:39 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Ben Hall.txt
+
+
+Revision: 68
+Author: waasiri
+Date: 9:57:40 PM, Tuesday, 10 October 2006
+Message:
+Adding code for US-03
+Spike XStream 
+work log
+ASM library
+----
+Modified : /trunk/backlog/spikes.log
+Added : /trunk/lib/asm-all-3.0_beta2.jar
+Added : /trunk/src/swin/metrictool/ClassMetricExtractor.java
+Added : /trunk/src/swin/metrictool/ExtractedClassData.java
+Added : /trunk/src/swin/metrictool/ExtractedVersionData.java
+Added : /trunk/src/swin/metrictool/VersionConfig.java
+Added : /trunk/src/swin/metrictool/us03.java
+Modified : /trunk/worklog/worklog - Asiri Wanigarathne.txt
+
+
+Revision: 67
+Author: captainhall
+Date: 9:56:38 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Added : /trunk/src/data
+Added : /trunk/src/data/data.dat
+Modified : /trunk/src/swin/metrictool/OperationHandler.java
+Modified : /trunk/src/swin/metrictool/Project.java
+Modified : /trunk/src/swin/metrictool/ProjectCreation.java
+
+
+Revision: 66
+Author: methusaleh
+Date: 9:21:30 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Modified : /trunk
+Added : /trunk/.externalToolBuilders
+Added : /trunk/.externalToolBuilders/ANT.launch
+Modified : /trunk/.project
+Modified : /trunk/build.xml
+
+
+Revision: 65
+Author: methusaleh
+Date: 9:02:36 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Added : /trunk/.project
+
+
+Revision: 64
+Author: methusaleh
+Date: 8:23:34 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Deleted : /trunk/.classpath
+Deleted : /trunk/.project
+
+
+Revision: 63
+Author: methusaleh
+Date: 8:01:16 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Modified : /trunk/.classpath
+Modified : /trunk/.project
+Modified : /trunk/build.xml
+Deleted : /trunk/worklog/worklog - Andrew Cowan 2006-09-20.txt
+Deleted : /trunk/worklog/worklog - Andrew Cowan 2006-09-27.txt
+Deleted : /trunk/worklog/worklog - Andrew Cowan 2006-10-04.txt
+Added : /trunk/worklog/worklog - Andrew Cowan.txt
+
+
+Revision: 62
+Author: captainhall
+Date: 7:51:38 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Added : /trunk/src/.classpath
+Added : /trunk/src/.project
+
+
+Revision: 61
+Author: captainhall
+Date: 7:42:10 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Modified : /trunk/backlog/iter2.log
+
+
+Revision: 60
+Author: methusaleh
+Date: 7:10:19 PM, Tuesday, 10 October 2006
+Message:
+New Tasks
+----
+Modified : /trunk/backlog/release.log
+
+
+Revision: 59
+Author: methusaleh
+Date: 7:08:28 PM, Tuesday, 10 October 2006
+Message:
+Updated
+----
+Modified : /trunk/backlog/iter1.log
+Added : /trunk/backlog/iter2.log
+Deleted : /trunk/backlog/product.log
+Modified : /trunk/backlog/release.log
+Modified : /trunk/backlog/spikes.log
+
+
+Revision: 58
+Author: captainhall
+Date: 4:06:21 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Ben Hall.txt
+
+
+Revision: 57
+Author: apodemous
+Date: 2:50:36 PM, Tuesday, 10 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Ian Fieldhouse.txt
+
+
+Revision: 56
+Author: methusaleh
+Date: 12:01:22 PM, Monday, 9 October 2006
+Message:
+
+----
+Added : /trunk/spike/ANT-Eclipse
+Added : /trunk/spike/ANT-Eclipse/AntEclipse.pdf
+Added : /trunk/spike/ANT-Eclipse/Readme.txt
+
+
+Revision: 55
+Author: methusaleh
+Date: 11:50:29 AM, Monday, 9 October 2006
+Message:
+
+----
+Modified : /trunk/build.xml
+
+
+Revision: 54
+Author: methusaleh
+Date: 11:50:12 AM, Monday, 9 October 2006
+Message:
+
+----
+Deleted : /trunk/target/trunk-1.00.zip
+
+
+Revision: 53
+Author: methusaleh
+Date: 11:49:36 AM, Monday, 9 October 2006
+Message:
+
+----
+Modified : /trunk/config/build.version
+
+
+Revision: 52
+Author: methusaleh
+Date: 11:49:14 AM, Monday, 9 October 2006
+Message:
+
+----
+Added : /trunk/target/trunk-1.0.zip(Copy from path: /trunk/target/trunk-1.00.zip, Revision, 50
+
+
+Revision: 51
+Author: methusaleh
+Date: 11:48:00 AM, Monday, 9 October 2006
+Message:
+Regenerated
+----
+Modified : /trunk/doc/api/allclasses-frame.html
+Modified : /trunk/doc/api/allclasses-noframe.html
+Modified : /trunk/doc/api/constant-values.html
+Modified : /trunk/doc/api/deprecated-list.html
+Modified : /trunk/doc/api/help-doc.html
+Modified : /trunk/doc/api/index-all.html
+Modified : /trunk/doc/api/index.html
+Modified : /trunk/doc/api/overview-tree.html
+Added : /trunk/doc/api/swin/metrictool/ChartMaker.html
+Added : /trunk/doc/api/swin/metrictool/ClassData.html
+Modified : /trunk/doc/api/swin/metrictool/Project.html
+Modified : /trunk/doc/api/swin/metrictool/Version.html
+Added : /trunk/doc/api/swin/metrictool/VersionData.html
+Modified : /trunk/doc/api/swin/metrictool/package-frame.html
+Modified : /trunk/doc/api/swin/metrictool/package-summary.html
+Modified : /trunk/doc/api/swin/metrictool/package-tree.html
+
+
+Revision: 50
+Author: apodemous
+Date: 4:06:31 PM, Saturday, 7 October 2006
+Message:
+
+----
+Modified : /trunk/worklog/worklog - Ian Fieldhouse.txt
+
+
+Revision: 49
+Author: apodemous
+Date: 4:04:33 PM, Saturday, 7 October 2006
+Message:
+
+----
+Added : /trunk/src/swin/metrictool/ChartMaker.java
+Added : /trunk/src/swin/metrictool/ClassData.java
+Added : /trunk/src/swin/metrictool/VersionData.java
+
+
+Revision: 48
+Author: apodemous
+Date: 1:04:10 PM, Friday, 6 October 2006
+Message:
+
+----
+Added : /trunk/worklog/worklog - Ian Fieldhouse.txt
+
+
+Revision: 47
+Author: methusaleh
+Date: 6:20:34 PM, Thursday, 5 October 2006
+Message:
+First run of API documentation
+----
+Added : /trunk/doc/api/allclasses-frame.html
+Added : /trunk/doc/api/allclasses-noframe.html
+Added : /trunk/doc/api/constant-values.html
+Added : /trunk/doc/api/deprecated-list.html
+Added : /trunk/doc/api/help-doc.html
+Added : /trunk/doc/api/index-all.html
+Added : /trunk/doc/api/index.html
+Added : /trunk/doc/api/overview-tree.html
+Added : /trunk/doc/api/package-list
+Added : /trunk/doc/api/resources
+Added : /trunk/doc/api/resources/inherit.gif
+Added : /trunk/doc/api/stylesheet.css
+Added : /trunk/doc/api/swin
+Added : /trunk/doc/api/swin/metrictool
+Added : /trunk/doc/api/swin/metrictool/Project.html
+Added : /trunk/doc/api/swin/metrictool/Version.html
+Added : /trunk/doc/api/swin/metrictool/package-frame.html
+Added : /trunk/doc/api/swin/metrictool/package-summary.html
+Added : /trunk/doc/api/swin/metrictool/package-tree.html
+
+
+Revision: 46
+Author: methusaleh
+Date: 6:15:28 PM, Thursday, 5 October 2006
+Message:
+
+----
+Modified : /trunk/build.xml
+Added : /trunk/target
+Added : /trunk/target/trunk-1.00.zip
+
+
+Revision: 45
+Author: methusaleh
+Date: 6:08:48 PM, Thursday, 5 October 2006
+Message:
+Updated to Annotation Style TestCases
+----
+Modified : /trunk/test/swin/metrictool/OperationHandlerTest.java
+
+
+Revision: 44
+Author: methusaleh
+Date: 5:45:43 PM, Thursday, 5 October 2006
+Message:
+Updated to stop build breaking.
+----
+Deleted : /trunk/test/OperationHandlerTest.java
+Added : /trunk/test/swin
+Added : /trunk/test/swin/metrictool
+Added : /trunk/test/swin/metrictool/OperationHandlerTest.java(Copy from path: /trunk/test/OperationHandlerTest.java, Revision, 42
+
+
+Revision: 43
+Author: methusaleh
+Date: 4:06:05 PM, Thursday, 5 October 2006
+Message:
+Fix for ANT 1.65 command line bug (classpath termination)
+Rename batch files to *.bat
+----
+Added : /trunk/bin/build.bat(Copy from path: /trunk/bin/build.cmd, Revision, 42
+Deleted : /trunk/bin/build.cmd
+Added : /trunk/bin/daily.bat(Copy from path: /trunk/bin/daily.cmd, Revision, 42
+Deleted : /trunk/bin/daily.cmd
+Added : /trunk/bin/libsync.bat(Copy from path: /trunk/bin/libsync.cmd, Revision, 42
+Deleted : /trunk/bin/libsync.cmd
+Added : /trunk/bin/run.bat(Copy from path: /trunk/bin/run.cmd, Revision, 42
+Deleted : /trunk/bin/run.cmd
+Added : /trunk/bin/runtests.bat(Copy from path: /trunk/bin/runtests.cmd, Revision, 42
+Deleted : /trunk/bin/runtests.cmd
+
+
+Revision: 42
+Author: apodemous
+Date: 12:49:39 PM, Thursday, 5 October 2006
+Message:
+
+----
+Added : /trunk/spike/JFreeChart.txt
+
+
+Revision: 41
+Author: apodemous
+Date: 12:47:38 PM, Thursday, 5 October 2006
+Message:
+
+----
+Added : /trunk/doc/jfreechart_tutorial.pdf
+
+
+Revision: 40
+Author: apodemous
+Date: 12:40:12 PM, Thursday, 5 October 2006
+Message:
+
+----
+Added : /trunk/lib/jcommon-1.0.0.jar
+Added : /trunk/lib/jfreechart-1.0.1.jar
+
+

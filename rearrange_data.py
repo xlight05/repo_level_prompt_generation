@@ -12,7 +12,6 @@ random.seed(seed)
 np.random.seed(seed)
 
 projects = { 'train': [
-                    'gfsfa',
                     'sol-agent-platform',
                     'gloodb',
                     'rsbotownversion',
@@ -42,7 +41,6 @@ projects = { 'train': [
                     'swinagile', 
                     'math-mech-eshop', 
                     'jata4test', 
-                    'affinity_propagation_java', 
                     'navigablep2p', 
                     'springlime', 
                     'sohocms', 

@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol
+END
+HTTP.html
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HTTP.html
+END
+ImmutableHttpProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/ImmutableHttpProcessor.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/package-frame.html
+END
+SyncBasicHttpContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/SyncBasicHttpContext.html
+END
+HttpDateGenerator.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpDateGenerator.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/package-use.html
+END
+RequestDate.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/RequestDate.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/package-summary.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/package-tree.html
+END
+ResponseDate.html
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/ResponseDate.html
+END
+RequestExpectContinue.html
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/RequestExpectContinue.html
+END
+RequestUserAgent.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/RequestUserAgent.html
+END
+HttpRequestExecutor.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpRequestExecutor.html
+END
+ExecutionContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/ExecutionContext.html
+END
+HttpRequestHandlerRegistry.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpRequestHandlerRegistry.html
+END
+HttpProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpProcessor.html
+END
+HttpExpectationVerifier.html
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpExpectationVerifier.html
+END
+BasicHttpProcessor.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/BasicHttpProcessor.html
+END
+RequestContent.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/RequestContent.html
+END
+HttpContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpContext.html
+END
+ResponseServer.html
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/ResponseServer.html
+END
+BasicHttpContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/BasicHttpContext.html
+END
+HttpRequestHandler.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpRequestHandler.html
+END
+ResponseContent.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/ResponseContent.html
+END
+RequestTargetHost.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/RequestTargetHost.html
+END
+HttpService.html
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpService.html
+END
+UriPatternMatcher.html
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/UriPatternMatcher.html
+END
+DefaultedHttpContext.html
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/DefaultedHttpContext.html
+END
+HttpRequestInterceptorList.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpRequestInterceptorList.html
+END
+RequestConnControl.html
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/RequestConnControl.html
+END
+HttpRequestHandlerResolver.html
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpRequestHandlerResolver.html
+END
+HttpResponseInterceptorList.html
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/HttpResponseInterceptorList.html
+END
+ResponseConnControl.html
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/26/trunk/strudem/lib/HTTP_Componentsd/org/apache/http/protocol/ResponseConnControl.html
+END

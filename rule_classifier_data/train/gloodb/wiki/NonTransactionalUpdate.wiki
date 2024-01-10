@@ -1,0 +1,34 @@
+#summary Tutorials: Updating an object without transactions.
+#labels Phase-Support
+
+{{{
+		SimplePersistent persistentObject = (SimplePersistent) repository.restore("1");
+		persistentObject.setValue("First Value");
+		
+		repository.update(persistentObject);
+
+}}}
+
+ # Restore the object from the repository. 
+ # Set any of the object properties to new values. 
+ # Update the object in the repository.
+
+The update throws a !PersistentNotFoundException when the updated object does not exist in the repository.
+
+{{{
+		try {
+			repository.update(persistentObject);
+		} catch(PersistentNotFoundException pnfe){
+			// Expected when the repository doesn't contain another object 
+                        // with the same identity as the persistentObject.
+                        ... handling code
+		}
+
+}}}
+
+*Note* Update will overwrite the pre-existing object in the repository, regardless it is of the same class or not.
+
+----
+Related tutorial test cases
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/SimpleUpdateTest.java SimpleUpdateTest]
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/test/java/gloodb/tutorials/simple/UpdateWithPersistentNotFoundTest.java UpdateWithPersistentNotFoundTest]

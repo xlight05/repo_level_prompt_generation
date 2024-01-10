@@ -1,0 +1,41 @@
+#summary Writing a simple persistent class.
+
+
+Any persistent class must implement at minimum:
+ * the Serializable interface
+ * at least one field annotated with @Identity
+
+{{{
+public class SimplePersistent implements Serializable {
+        private static final long serialVersionUID = 2040293748261517013L;
+        
+        @Identity
+        private final String id;
+        
+        private String value;
+        
+        public SimplePersistent(String id) {
+                super();
+                this.id = id;
+        }
+
+        public String getId() {
+                return id;
+        }
+
+        public SimplePersistent setValue(String value) {
+                this.value = value;
+                return this;
+        }
+
+        public String getValue() {
+                return value;
+        }
+}
+}}}
+
+----
+[SpecifyingPersistentIdentity Next]
+
+Related tutorial sample code:
+ * [http://code.google.com/p/gloodb/source/browse/trunk/GlooDB/GlooDBTutorial/src/main/java/gloodb/tutorials/simple/SimplePersistent.java SimplePersistent]

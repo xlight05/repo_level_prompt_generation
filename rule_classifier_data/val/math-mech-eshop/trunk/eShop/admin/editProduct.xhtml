@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core"
+	xmlns:t="http://myfaces.apache.org/tomahawk">
+<body>
+
+<h:form enctype="multipart/form-data">
+	<h:panelGrid columns="2">
+		<h:outputText value="name:" />
+		<h:inputText value="#{admin.editProductPage.currentProduct.name}" />
+		<h:outputText value="description:" />
+		<h:inputTextarea
+			value="#{admin.editProductPage.currentProduct.description}" />
+		
+		<h:outputText value="photo" />
+		<t:inputFileUpload value="#{admin.editProductPage.photo}" />
+		
+		<h:outputText value="amount:"/>
+		<h:inputText value="#{admin.editProductPage.currentProduct.amount}" />
+		
+		<h:panelGroup rendered="#{permissions.userHasRightTo['EditProductsPrice']}">
+			<h:outputText value="price:" />
+			<h:inputText value="#{admin.editProductPage.currentProduct.price}" />
+		</h:panelGroup>
+		
+
+	</h:panelGrid>
+	<h:commandButton action="#{admin.editProductPage.save}" value="save" />
+</h:form>
+
+</body>
+</html>

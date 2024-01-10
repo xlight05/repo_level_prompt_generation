@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/93/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis
+END
+UpdateAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/UpdateAwareDaoImpl.java
+END
+CreateReadUpdateDeleteAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateReadUpdateDeleteAwareDaoImpl.java
+END
+CreateReadPagingAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateReadPagingAwareDaoImpl.java
+END
+CreateDeleteAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateDeleteAwareDaoImpl.java
+END
+CreateReadUpdatePagingAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateReadUpdatePagingAwareDaoImpl.java
+END
+SequenceDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/33/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/SequenceDaoImpl.java
+END
+CountAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CountAwareDaoImpl.java
+END
+CreateReadUpdateDeleteCountAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/93/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateReadUpdateDeleteCountAwareDaoImpl.java
+END
+DaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/67/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/DaoImpl.java
+END
+ReadPagingAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/ReadPagingAwareDaoImpl.java
+END
+DeleteAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/DeleteAwareDaoImpl.java
+END
+CreateReadUpdateAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateReadUpdateAwareDaoImpl.java
+END
+CreateAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateAwareDaoImpl.java
+END
+PagingAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/PagingAwareDaoImpl.java
+END
+AuditAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/AuditAwareDaoImpl.java
+END
+ReadAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/ReadAwareDaoImpl.java
+END
+CreateReadUpdateDeletePagingAwareDaoImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/82/trunk/xfuse/xfuze-impl/src/main/java/org/xfuze/dao/impl/ibatis/CreateReadUpdateDeletePagingAwareDaoImpl.java
+END

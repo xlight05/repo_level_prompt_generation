@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices/src/main/resources/META-INF/invoices/layers
+END
+mvc-layer.xml
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices/src/main/resources/META-INF/invoices/layers/mvc-layer.xml
+END
+services-registry.xml
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/58/trunk/jcontenedor/examples/invoices/src/main/resources/META-INF/invoices/layers/services-registry.xml
+END

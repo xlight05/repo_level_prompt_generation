@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util
+END
+LogProducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/LogProducer.java
+END
+RegionReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/RegionReaderTest.java
+END
+BlockingStringBufferTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/BlockingStringBufferTest.java
+END
+Content.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/Content.java
+END
+AllTests.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/AllTests.java
+END
+TailReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/TailReaderTest.java
+END
+NBInputstreamReaderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/NBInputstreamReaderTest.java
+END
+ValidXmlTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3/trunk/realtimegc/test/com/xebia/gclogviewer/util/ValidXmlTest.java
+END

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<project name="HUCourses" default="all" basedir=".">
+	<description>
+    HUCourses
+  </description>
+
+	<property name="gwt.module" value="HUCourses" />
+	<property name="GWT_HOME" value="/opt/gwt" />
+	<property name="app_packge" value="org.zls" />
+
+	<!-- set classpath -->
+	<path id="project.class.path">
+		<pathelement path="${java.class.path}/" />
+		<pathelement path="${GWT_HOME}/gwt-user.jar"/>
+		<pathelement path="lib/gwtext.jar" />
+	</path>
+
+	<target name="build" description="Compile src to bin">
+		<mkdir dir="bin" />
+		<javac srcdir="src" destdir="bin" includes="**" debug="on" debuglevel="lines,vars,source" source="1.5">
+			<classpath refid="project.class.path" />
+		</javac>
+	</target>
+
+	<target name="jar" depends="build" description="Package up the project as a jar">
+		<mkdir dir="www/${gwt.module}/WEB-INF/lib" />
+		<jar destfile="www/${gwt.module}/WEB-INF/lib/HUCourses.jar">
+			<fileset dir="bin">
+				<include name="**/*.class" />
+			</fileset>
+			<fileset dir="src">
+				<include name="**" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="gwt" description="Compiles Java to JavaScript">
+		<exec spawn="false" executable="./${gwt.module}-compile" />
+		<copy todir="www/${gwt.module}">
+			<fileset dir="www/${app_packge}.${gwt.module}">
+				<include name="**" />
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="war" depends="jar,gwt" description="Builds the war file">
+		<mkdir dir="www/${gwt.module}/WEB-INF/lib" />
+		<copy file="${GWT_HOME}/gwt-servlet.jar" todir="www/${gwt.module}/WEB-INF/lib" />
+		<jar destfile="HUCourses.war" basedir="www/${gwt.module}" duplicate="preserve" />
+	</target>
+
+	<target name="clean">
+		<!-- Delete the bin directory tree -->
+		<delete dir="bin" />
+		<delete dir="www/${gwt.module}" />
+		<delete file="HUCourses.war" />
+	</target>
+
+	<target name="all" depends="war" />
+
+</project>

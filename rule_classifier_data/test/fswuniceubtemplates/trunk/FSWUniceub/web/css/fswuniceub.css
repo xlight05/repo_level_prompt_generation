@@ -1,0 +1,390 @@
+/* --------------------------------------------------------------
+
+   fswuniceub.css
+   * Folha de estilo especifica para os projetos do FSWUniCEUB
+
+   @Author: FSWUniCEUB - Celula AT - 1/2011
+
+-------------------------------------------------------------- */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a, a:visited, a:active  {
+    color:#D40000;
+    text-decoration:none;
+}
+a:hover{
+    color:#FB0000;
+    text-decoration:underline;
+}
+a:visited  {
+    color:#FB0000;
+    text-decoration:underline;
+}
+body {
+    background:url('../imagens/layout/bg.png') repeat-x;
+}
+
+input, select, textarea {
+    padding: 2px;
+}
+#cabecalho {
+    height:45px;
+    background:url('../imagens/layout/cabecalho.png') no-repeat;
+    padding:5px;
+}
+#corpo { 
+    min-height:300px; 
+    background:url('../imagens/layout/bgMenu.png') repeat-y;
+}
+#menu {
+    background:url('../imagens/layout/topoMenu.png') no-repeat;
+    width:228px;
+    min-height:27px;
+    padding-top:20px;
+    float:left;
+}
+#menu ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+#menu #nav  li a {
+    width:207px;
+    display:block;
+    padding: 5px 0 5px 20px;
+    background:url('../imagens/setas/rC.png') no-repeat #CDCDCD 10px 10px; 
+    border:1px solid #A3A3A3;
+    border-top:none;
+    border-left:none;
+    color:#3B3B3B;
+}
+#menu #nav > li > a  {
+    background:url('../imagens/setas/rB.png') no-repeat #A3A3A3 95% 50%;
+    width:215px;
+    padding: 5px 0 5px 12px;
+    font-weight: bold;
+    color:#EF;
+    cursor:default;
+}
+#menu #nav > li > a.menuOpen {
+    background:url('../imagens/setas/bB.png') no-repeat #A3A3A3 95% 50%;
+}
+#menu #nav a:hover {
+    text-decoration:none;
+}
+#menu #nav > li > ul  a:hover {
+    background:url('../imagens/setas/rB.png') no-repeat #A60000 10px 10px; 
+    color:#FFF;
+}
+
+#conteudo {
+    width:722px;
+    float:right;
+}
+#conteudoInterno {
+    padding:10px;
+}
+#breadcrumbs {
+    background:url('../imagens/layout/cantoConteudo.png') no-repeat;
+    min-height:20px;
+    padding-left:15px;
+    clear:both;
+    text-align:right;
+}
+#breadcrumbs p {
+    border-bottom: 1px dotted #E8E8E8;
+    display:inline;
+    padding:0 5px;
+}
+#breadcrumbs p a {
+    background:url('../imagens/setas/rV.png') no-repeat right;
+    padding-right:14px;
+    margin-right:5px;
+}
+#rodape {
+    height:20px;
+    padding-top:20px;
+
+    background:url('../imagens/layout/bgRodape.png') no-repeat;
+    color:white;
+    clear:both;
+}
+#rodape p {
+    text-align:right;
+    padding:0 5px;
+    margin:0 10px 0 0 ;
+}
+#container {
+    padding:0 16px;
+    background:url('../imagens/layout/bgSombra.png') repeat-y;
+}
+form {
+    margin-top:5px;
+}
+form.inline p label {margin-right:3px;}
+fieldset {
+    padding-top:0;
+    border-color:#A60000;
+}
+fieldset legend {
+    font-size:12px;
+    padding:0 5px;
+}
+
+fieldset fieldset.botoes {
+    margin-top: 20px;
+    border: none;
+}
+
+fieldset p[class^=campo] {
+    float: left;
+    font-weight: bold;
+    margin: 10px 0px 0px 0px;
+    padding: 0px 10px 0px 0px;
+}
+
+fieldset p[class^=campo] span {
+    font-weight: normal;
+    
+}
+
+fieldset p[class^=campo] a.button {
+    height: 20px;
+    vertical-align: bottom;
+    padding: 0px 10px !important;
+}
+
+fieldset p[class^=campo] a.button span {
+     height: inherit;
+     padding: 0px !important;
+     vertical-align: middle !important;
+}
+
+fieldset p.campoMini {
+    width: 100px;
+}
+
+fieldset p.campoPequeno {
+    width: 200px;
+}
+
+fieldset p.campoMedio {
+    width: 300px;
+}
+
+fieldset p.campoGrande {
+    width: 410px;
+}
+
+fieldset p.campoGigante {
+    clear: both;
+    width: 610px;
+}
+
+fieldset p.primeiro {
+    clear: both;
+}
+
+fieldset p[class^=campo] input, fieldset p[class^=campo] textarea, fieldset p[class^=campo] select {
+    margin: 0px;
+    width: inherit;
+}
+
+fieldset fieldset.semBorda {
+    border: none;
+}
+
+fieldset table {
+    margin: 10px 0px 0px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    border-bottom:1px dotted #A60000;
+    margin-bottom:0;
+}
+table.listagem  {
+    border: 1px solid #A60000;
+    border-left: none;
+}
+table.listagem thead th {
+    background-color: #A60000;
+    color: white;
+}
+table.listagem tbody tr:nth-child(2n), tbody tr.even {
+    background-color: #EFEFEF;
+}
+table.listagem tbody tr:nth-child(2n) td, tbody tr.even td {
+    background-color: transparent;
+}
+table.listagem tbody tr:hover {
+    background-color:#FFCACA;
+}
+table.listagem tbody td {
+    border-left:1px solid #A60000;
+}
+table.listagem tbody td a {
+    cursor: pointer;
+}
+table.crud  {
+    border: 1px solid #A60000;
+    border-left: none;
+    text-align: center;
+}
+table.crud thead th {
+    background-color: #A60000;
+    color: white;
+}
+table.crud tbody tr:nth-child(2n), tbody tr.even {
+    background-color: #EFEFEF;
+}
+table.crud tbody tr:nth-child(2n) td, tbody tr.even td {
+    background-color: transparent;
+}
+table.crud tbody tr:hover {
+    background-color:#FFCACA;
+}
+table.crud tbody td {
+    border-left:none;
+}
+div.paginacao {
+    height:20px; 
+    margin-top:-10px;
+}
+div.paginacao ul {
+    list-style-type:none;
+    width:auto;
+    text-align:center;
+}
+div.paginacao ul li {
+    width:20px;
+    cursor:default;
+    text-align:center;
+    margin-left:5px;
+    float:left;
+    font-weight:normal;
+    color:#CCC
+}
+
+div.paginacao ul li.seta {
+    width:16px;
+}
+div.paginacao ul li a, div.acoes p a {
+    color:#D40000 !important;
+}
+div.visualizacao {
+    margin-top:5px;
+    font-size: 14px;
+}
+div.visualizacao p {
+    margin:0;
+}
+div.visualizacao p span.label {
+    font-weight:bold;
+
+}
+.campoData{
+    width:75px;
+}
+#ui-datepicker-div {
+    font-size:11px;
+}
+
+hr.clearBoth{
+    height:0px;
+    clear:both;
+    margin:0;
+    padding:0;
+}
+
+.frameworkerror {
+    padding:0.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+    background:white;
+    color:black;
+    border-color:#E67875;
+}
+
+.frameworkerror a {color:#8a1f11;}
+
+span#login{
+    padding-left: 5px;
+    float: right;
+    vertical-align: bottom;
+}
+span#login a{
+    padding: 5px;
+    margin:3px;
+    color:#D40000;
+}
+form#formLogin {
+    width:300px;
+    margin:auto;
+    border:1px solid #CCC;
+    padding:20px;
+    background-color:#EFEFEF;
+}
+textarea{
+    max-width: 100%;
+    resize: none;   
+}
+div.frameworkerror, div.error, div.notice, div.info, div.success{
+    margin-left: 10px;
+    margin-right: 10px
+}
+a .ui-button-text {
+    color: #212121;
+}
+.splitColunms{
+    float: left;
+    list-style-type: none;
+}
+label.error {
+    background: url("../imagens/icones/unchecked.gif") no-repeat scroll 0 0 transparent;
+    border: medium none;
+    color: #EA5200;
+    font-weight: bold;
+    margin: 10px;
+    padding: 0 0 0 18px;
+}
+input.error, select.error{
+    background-color: #FFFFFF;
+    border-color: #A62F00;
+    border-width: 2px;
+    padding: 0;
+}
+input.error:focus{
+    border-color: #FF7640;
+    border-width: 2px;
+    padding: 0;
+}
+.noErrorLabel label.error{
+    position: absolute;
+    visibility: hidden;
+}
+.botaoTitulo {
+    float: right;
+    position: relative;
+    top: -35px;
+}
+.visualizacaoEntidade {margin:5px;}
+.visualizacaoEntidade p {margin:0}
+.nolistStyle{
+    list-style-type: none;
+}
+.DataTables_sort_icon{
+    margin-top: -17px;
+    margin-left: 90%;
+}
+
+#boxLV #pesquisaLV {
+    height: 50px;
+}
+
+#boxLV #resultadoLV {
+    height: 250px;
+    overflow: auto;
+}

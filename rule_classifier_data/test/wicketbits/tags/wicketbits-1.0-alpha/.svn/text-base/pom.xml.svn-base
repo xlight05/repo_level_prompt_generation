@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/*  
+* Copyright (c) 2008 Edward Mostrom.
+* This file is licensed to You under the Apache License, Version 2.0
+* (the "License"); you may not use this file except in compliance with
+* the License.  You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+-->
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.googlecode.wicketbits</groupId>
+	<artifactId>wicketbits</artifactId>
+	<version>1.0-alpha</version>
+	<packaging>pom</packaging>
+	
+	<name>Wicket Bits</name>
+	<url>http://wicketbits.aexiz.com</url>
+	<description>Top level project for Wicket Bits.</description>
+	
+	<inceptionYear>2008</inceptionYear>
+
+	<organization>
+		<name>Aezix</name>
+		<url>http://www.aezix.com</url>
+	</organization>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<scm>
+		<url>scm:svn:https://wicketbits.googlecode.com/svn/tags/wicketbits-1.0-alpha</url>
+		<developerConnection>scm:svn:https://wicketbits.googlecode.com/svn/tags/wicketbits-1.0-alpha</developerConnection>
+	</scm>
+
+	<issueManagement>
+		<system>Google Code</system>
+		<url>http://code.google.com/p/wicketbits/issues/list</url>
+	</issueManagement>
+	
+	<modules>
+		<module>wicketbits-auto</module>
+		<module>wicketbits-annot</module>
+		<module>wicketbits-14annot</module>
+	</modules>
+
+	<build>
+		<extensions>
+      			<extension>
+        			<groupId>org.apache.maven.wagon</groupId>
+         			<artifactId>wagon-ftp</artifactId>
+         			<version>1.0-beta-2</version>
+      			</extension>
+    		</extensions>
+		
+		<plugins>
+			<plugin>
+				<artifactId>maven-site-plugin</artifactId>
+       				 <configuration>
+					 <stagingDirectory>c:/stage</stagingDirectory>
+        			</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<tagBase>https://wicketbits.googlecode.com/svn/tags</tagBase>
+					<goals>deploy</goals>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.googlecode.wicketbits</groupId>
+				<artifactId>wicketbits-auto</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.googlecode.wicketbits</groupId>
+				<artifactId>wicketbits-annot</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>com.googlecode.wicketbits</groupId>
+				<artifactId>wicketbits-14annot</artifactId>
+				<version>${project.version}</version>
+				<type>jar</type>
+			</dependency>
+			<dependency>
+				<groupId>org.apache.wicket</groupId>
+				<artifactId>wicket</artifactId>
+				<version>1.3.3</version>
+				<type>jar</type>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>junit</groupId>
+				<artifactId>junit</artifactId>
+				<version>3.8.1</version>
+				<type>jar</type>
+				<scope>test</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-project-info-reports-plugin</artifactId>
+				<version>2.0.1</version>
+				<reportSets>
+					<reportSet>
+						<reports>
+							<report>license</report>
+							<report>scm</report>
+							<report>issue-tracking</report>
+						</reports>
+					</reportSet>
+				</reportSets>
+			</plugin>
+		</plugins>
+	</reporting>
+
+	<distributionManagement>
+    		<site>
+			<id>wicketbits-site</id>
+      			<name>Wicket Bits Site</name>
+			<url>ftp://ftp.aezix.com</url>
+    		</site>
+		<repository>
+      			<uniqueVersion>false</uniqueVersion>
+      			<id>aezix-repo</id>
+      			<name>Aezix Release Repo</name>
+      			<url>ftp://repo.aezix.com</url>
+      			<layout>default</layout>
+    		</repository>
+    		<snapshotRepository>
+      			<uniqueVersion>false</uniqueVersion>
+      			<id>aezix-snapshot</id>
+      			<name>Aezix Snapshot Repo</name>
+      			<url>ftp://snapshot.aezix.com</url>
+      			<layout>default</layout>
+    		</snapshotRepository>
+  	</distributionManagement>
+  
+</project>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mapeamento>
+    <Grupo nome="Inicio" permissao="Administrador,Usuario">
+        <Item>
+            <nome>Home</nome>
+            <classe></classe>
+            <metodo>inicio</metodo>
+            <permissao>Administrador,Usuario</permissao>
+        </Item>    
+        <Item>
+            <nome>Identidade Visual - Exemplos</nome>
+            <classe></classe>
+            <metodo>exemplos</metodo>
+            <permissao>Administrador</permissao>
+        </Item>
+    </Grupo>
+    <Grupo nome="Telas" permissao="Administrador,Usuario">
+        <Item>
+            <nome>Exemplo - Listagem</nome>
+            <classe></classe>
+            <metodo>listagem</metodo>
+            <permissao>Administrador,Usuario</permissao>
+        </Item>
+        <Item>
+            <nome>FK - Poucos Registros</nome>
+            <classe></classe>
+            <metodo>fk-poucos</metodo>
+            <permissao>Administrador,Usuario</permissao>
+        </Item>
+        <Item>
+            <nome>FK - Muitos Registro</nome>
+            <classe></classe>
+            <metodo>fk-muitos</metodo>
+            <permissao>Administrador,Usuario</permissao>
+        </Item>
+        <Item>
+            <nome>Cadastro - Poucos Campos</nome>
+            <classe></classe>
+            <metodo>cadastro-poucos</metodo>
+            <permissao>Administrador,Usuario</permissao>
+        
+        </Item>
+        <Item>
+            <nome>CRUD - Poucos Campos</nome>
+            <classe></classe>
+            <metodo>crud-poucos_registros</metodo>
+            <permissao>Administrador,Usuario</permissao>
+        
+        </Item>
+        <Item>
+            <nome>CRUD - Muitos Campos</nome>
+            <classe></classe>
+            <metodo>crud-muitos_registros</metodo>
+            <permissao>Administrador,Usuario</permissao>
+
+        </Item>
+    </Grupo>
+    <Grupo nome="Exemplos" permissao="Administrador">
+        <Item>
+            <nome>Exemplos de Mensagens</nome>
+            <classe>Exemplos</classe>
+            <metodo>mensagens</metodo>
+            <permissao>Administrador</permissao>
+        </Item>
+    </Grupo>
+</Mapeamento>
+

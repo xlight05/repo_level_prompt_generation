@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>parent</artifactId>
+		<groupId>org.seamlets.jboss.seam</groupId>
+		<version>2.1.1.GA</version>
+	</parent>
+	<groupId>org.seamlets.cms</groupId>
+	<artifactId>seamlets-default-components</artifactId>
+	<packaging>ejb</packaging>
+	<version>1.0.0.A1</version>
+	<name>Seamlets Default CMS Components EJB Project</name>
+
+	<scm>
+		<connection>scm:svn:https://svn.seamlets.org/tags/seamlets/seamlets-default-components/seamlets-default-components-1.0.0.A1</connection>
+		<developerConnection>scm:svn:https://svn.seamlets.org/tags/seamlets/seamlets-default-components/seamlets-default-components-1.0.0.A1</developerConnection>
+	</scm>
+
+	<inceptionYear>2009</inceptionYear>
+	<licenses>
+		<license>
+			<name>LGPL</name>
+			<url>http://www.gnu.org/licenses/lgpl.html</url>
+		</license>
+		<license>
+			<name>MPL</name>
+			<url>http://www.mozilla.org/MPL/MPL-1.1.html</url>
+		</license>
+	</licenses>
+	
+	<dependencies>
+		<dependency>
+			<groupId>org.seamlets</groupId>
+			<artifactId>seamlets-components-core</artifactId>
+			<version>RELEASE</version>
+		</dependency>
+	</dependencies>
+
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Seamlets Release Repository</name>
+			<uniqueVersion>true</uniqueVersion>
+			<url>http://maven.seamlets.org/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Seamlets Snapshot Repository</name>
+			<uniqueVersion>false</uniqueVersion>
+			<url>http://maven.seamlets.org/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<configuration>
+					<tagBase>https://svn.seamlets.org/tags/seamlets/${project.artifactId}</tagBase>
+					<branchName>https://svn.seamlets.org/branches/seamlets/${project.artifactId}/${project.artifactId}-${project.version}</branchName>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>build-helper-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

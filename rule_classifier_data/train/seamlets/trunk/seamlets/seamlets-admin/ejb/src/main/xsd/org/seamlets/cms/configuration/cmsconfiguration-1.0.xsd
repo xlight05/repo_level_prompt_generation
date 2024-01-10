@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified" targetNamespace="http://seamlets.org/cms/cmsconfiguration"
+	xmlns:conf="http://seamlets.org/cms/cmsconfiguration"
+	xmlns:components="http://jboss.com/products/seam/components"
+	attributeFormDefault="unqualified">
+
+	<xsd:import namespace="http://jboss.com/products/seam/components"
+		schemaLocation="http://jboss.com/products/seam/components-2.1.xsd" />
+
+	<xsd:element name="cmsconfiguration" type="conf:Configuration"></xsd:element>
+
+	<xsd:complexType name="Configuration">
+		<xsd:attribute name="updateTemplates" type="components:boolean"
+			use="optional" />
+	</xsd:complexType>
+
+	<xsd:element name="applicationConfiguration"
+		type="conf:ApplicationConfiguration">
+	</xsd:element>
+
+	<xsd:complexType name="ApplicationConfiguration">
+		<xsd:attribute name="applicationName" type="components:string"></xsd:attribute>
+		<xsd:attribute name="application" type="components:componentName"></xsd:attribute>
+		<xsd:attribute name="domainName" type="components:string"></xsd:attribute>
+		<xsd:attribute name="domain" type="components:componentName"></xsd:attribute>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/619/trunk/GlooDB/GlooDBApi/src/test/java/gloodb
+END
+PersistencyAttributesTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistencyAttributesTest.java
+END
+SimpleIntercepted.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleIntercepted.java
+END
+SimpleSerializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleSerializable.java
+END
+InvalidPersistentIdentityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/449/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/InvalidPersistentIdentityTest.java
+END
+PersistentFactorySimpleVersioned.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactorySimpleVersioned.java
+END
+PersistentInvalidCallbackTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentInvalidCallbackTest.java
+END
+SimpleValuedWIthCallbacks.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/318/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleValuedWIthCallbacks.java
+END
+PersistentFactorySimpleSerializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactorySimpleSerializable.java
+END
+SimpleSerializableEmbedded.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleSerializableEmbedded.java
+END
+VersionIncrementTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/359/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/VersionIncrementTest.java
+END
+NestedTransactionCommitRepositoryTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/NestedTransactionCommitRepositoryTestBase.java
+END
+TransactionalRepositoryTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/TransactionalRepositoryTestBase.java
+END
+PersistentFactoryCloneable.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactoryCloneable.java
+END
+SimpleCloneable.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/566/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleCloneable.java
+END
+PersistentFactorySimpleValuedWithCallbacks.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/318/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactorySimpleValuedWithCallbacks.java
+END
+SimpleVersionedSerializable.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleVersionedSerializable.java
+END
+QueryResultTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/461/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/QueryResultTest.java
+END
+SimpleInterceptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/581/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleInterceptor.java
+END
+NonTransactionalRepositoryTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/591/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/NonTransactionalRepositoryTestBase.java
+END
+PersistentIdentityTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/370/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentIdentityTest.java
+END
+InterceptorAndCallbacksTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/608/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/InterceptorAndCallbacksTestBase.java
+END
+TopTransactionRollbackRepositoryTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/317/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/TopTransactionRollbackRepositoryTestBase.java
+END
+SimpleSerializableLazy.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/370/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleSerializableLazy.java
+END
+SimpleDerivedIntercepted.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleDerivedIntercepted.java
+END
+PersistentFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactory.java
+END
+PersistentFactorySimpleIntercepted.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactorySimpleIntercepted.java
+END
+SimpleValued.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/SimpleValued.java
+END
+NestedTransactionRollbackRepositoryTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/378/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/NestedTransactionRollbackRepositoryTestBase.java
+END
+PersistentFactorySimpleValued.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/PersistentFactorySimpleValued.java
+END
+InvalidInterceptorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/315/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/InvalidInterceptorTest.java
+END
+TimeOperationTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/608/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/TimeOperationTestBase.java
+END
+TopTransactionCommitRepositoryTestBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/317/trunk/GlooDB/GlooDBApi/src/test/java/gloodb/TopTransactionCommitRepositoryTestBase.java
+END

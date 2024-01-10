@@ -1,0 +1,63 @@
+<div id="taskanalyze_statusMessage">
+      <div><b>No info loaded. Choose a log task in the left side list.</b></div>
+      <div style="float: left;">&nbsp;&nbsp;</div>
+</div>
+
+<div id="taskanalyze_settingsBodyDiv" style="visibility:hidden" class="formInfoArea">
+  <div id="taskanalyze_trLogTaskName">
+        <div><b>Logging task name:</b></div>
+        <div id="taskanalyze_nameDiv" class="formSubArea"></div>
+  </div>
+  <br/>
+  <div>
+        <div><b>Logging task information:</b></div>
+        <div id="taskanalyze_infoDiv" class="formSubArea"></div>
+  </div>
+  <br/>
+  <div>
+        <div><b>Start time:</b></div>
+        <div id="taskanalyze_startTimeDiv" class="formSubArea"></div>
+  </div>
+  <br/>
+  <div>
+        <div><b>End time:</b></div>
+        <div id="taskanalyze_endTimeDiv" class="formSubArea"></div>
+  </div>
+  <br/>
+  <hr class="spacer">
+      
+  <div id="taskanalyze_trTaskListTreeName">
+        <div><b>Logged variables:</b></div>
+        <div style="float: left;">&nbsp;&nbsp;</div>
+        <div id="taskanalyze_taskListTree">
+        </div>
+  </div>
+  
+  <hr class="spacer">
+  
+  <div id="taskanalyze_trSelectedVariablesName">
+        <div><b>Selected variables:</div>
+        <div style="float: left;">&nbsp;&nbsp;</div>
+        <div id="taskanalyze_selectedVariablesListHolder">
+          <ul id="taskanalyze_selectedVariablesList"></ul>
+        </div>
+  </div>
+  
+  <hr class="spacer">
+  <div id="taskanalyze_trLogTaskName">
+        <div><b>Compare with data from other task:</b></div>
+        <div style="float: left;">&nbsp;&nbsp;</div>
+        <div id="taskanalyze_taskSelectHolder"></div>
+  </div>
+  
+  <hr class="spacer">
+  <div id="taskanalyze_trUseAsStep">
+        <div><b>Use this variable as machine state (bar below all graphs):</b></div>
+        <div style="float: left;">&nbsp;&nbsp;</div>
+        <div id="taskanalyze_varSelectHolder"></div>
+  </div>
+  
+  <hr class="spacer">
+  
+  <button id="taskanalyze_viewAnalyzeButton" dojoType="dijit.form.Button" onclick="taskanalyze_viewAnalyze()">View data</button>
+</div>

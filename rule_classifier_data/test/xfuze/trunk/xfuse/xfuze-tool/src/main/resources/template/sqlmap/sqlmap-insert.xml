@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===========================================================================
+	//   INSERT - insert
+	============================================================================ -->
+	<insert id="insert" parameterClass="${sqlmap.model.instanceName}">
+		INSERT INTO ${sqlmap.tableName} (
+			<#list sqlmap.sqlMapFields as field>
+			${field.databaseFieldName}<#if field_has_next>,</#if>
+			</#list>
+		) VALUES (
+			<#list sqlmap.sqlMapFields as field>
+			#${field.javaFieldName},jdbcType=${field.jdbcType}#<#if field_has_next>,</#if>
+			</#list>
+		)
+		<#if sqlmap.database == "MSSQL">
+
+		<selectKey resultClass="java.lang.Long" keyProperty="id">
+			SELECT @@IDENTITY AS id
+		</selectKey>
+		<#elseif sqlmap.database == "MYSQL">
+
+		<selectKey resultClass="java.lang.Long" keyProperty="id">
+			SELECT LAST_INSERT_ID() AS id
+		</selectKey>
+		<#elseif sqlmap.database == "ORACLE">
+
+		<selectKey resultClass="java.lang.Long" keyProperty="id" type="pre">
+			SELECT ${sqlmap.model.instanceName}_seq.NEXTVAL AS id FROM DUAL
+		</selectKey>
+		</#if>
+	</insert>

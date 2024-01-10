@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages
+END
+AbstractOnPageRequestAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/AbstractOnPageRequestAction.java
+END
+OrderProcessingPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/OrderProcessingPage.java
+END
+AbstractAdminRoomPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/AbstractAdminRoomPage.java
+END
+GroupsPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/GroupsPage.java
+END
+UsersPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/UsersPage.java
+END
+EditGroupPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/EditGroupPage.java
+END
+OnPageRequestAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/OnPageRequestAction.java
+END
+EditUserPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/EditUserPage.java
+END
+CategoriesPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/CategoriesPage.java
+END
+AdminRoomPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/AdminRoomPage.java
+END
+EditProductPage.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/55/trunk/eShop/WEB-INF/src/edu/spbsu/eshop/admin/pages/EditProductPage.java
+END

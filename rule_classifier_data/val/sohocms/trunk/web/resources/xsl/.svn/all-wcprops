@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/7/trunk/web/resources/xsl
+END
+flickr-search.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/7/trunk/web/resources/xsl/flickr-search.xsl
+END
+flickr-rss.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/web/resources/xsl/flickr-rss.xsl
+END
+yahoo-geocoder.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/7/trunk/web/resources/xsl/yahoo-geocoder.xsl
+END
+rss.xsl
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/7/trunk/web/resources/xsl/rss.xsl
+END

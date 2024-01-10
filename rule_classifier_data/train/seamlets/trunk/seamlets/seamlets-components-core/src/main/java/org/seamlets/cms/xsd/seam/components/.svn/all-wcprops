@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components
+END
+Components.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/Components.java
+END
+Factory.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/Factory.java
+END
+Action.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/Action.java
+END
+ObjectFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/ObjectFactory.java
+END
+MultiValuedProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/MultiValuedProperty.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/Event.java
+END
+MapProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/MapProperty.java
+END
+Component.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/Component.java
+END
+package-info.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/package-info.java
+END
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/77/trunk/seamlets/seamlets-components-core/src/main/java/org/seamlets/cms/xsd/seam/components/Property.java
+END

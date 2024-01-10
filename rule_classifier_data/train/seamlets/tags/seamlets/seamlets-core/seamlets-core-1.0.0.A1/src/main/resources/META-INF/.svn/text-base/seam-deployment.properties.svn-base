@@ -1,0 +1,4 @@
+# For standard deployment
+org.jboss.seam.deployment.deploymentHandlers=org.seamlets.deploy.DotXsltDotTemplateDotXslDeploymentHandler
+# For hot deployment
+org.jboss.seam.deployment.hotDeploymentHandlers=org.seamlets.deploy.DotXsltDotTemplateDotXslDeploymentHandler

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:c="http://java.sun.com/jstl/core">
+<ui:composition template="/mainTemplate.xhtml">
+	<ui:define name="content">
+		<div id="login">
+		<h:form>
+			<h:panelGrid columns="2">
+
+				<h:outputText value="Login:" />
+				<h:inputText id="login" required="true" value="#{auth.login}" />
+				
+
+				<h:outputLabel value="Password:" />
+				<h:inputSecret id="password" required="true" value="#{auth.pass}" />
+	
+				<h:outputText value="Remember me" />
+				<h:selectBooleanCheckbox value="#{auth.remember}" />								
+
+			</h:panelGrid>			
+			
+			<h:commandButton value="Login" action="#{auth.auth}" />
+			<br/>
+			<br/>
+			<h:outputLink value="/register"><h:outputText value="Regiser" /></h:outputLink>
+		</h:form>
+		</div>
+	</ui:define>
+</ui:composition>
+</html>

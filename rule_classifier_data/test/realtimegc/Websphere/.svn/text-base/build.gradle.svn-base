@@ -1,0 +1,37 @@
+allprojects {
+	group = 'wehkamp'
+	version = '1.0'
+	apply plugin: 'java'
+    apply plugin: 'eclipse'
+
+    repositories {
+	
+		
+        ['central', 'thirdparty'].each {String repo ->
+            mavenRepo url: "http://repo1.maven.org/maven2"
+        }
+    }
+
+    test {
+        useTestNG()
+    }
+}
+
+
+
+dependencies {
+   	compile 'org.springframework:spring-aop:2.5.6'
+	compile 'org.springframework:spring-web:2.5.6'
+	compile 'org.springframework:spring-jdbc:2.5.6'
+	compile 'org.springframework:spring-context:2.5.6'
+	compile 'org.springframework:spring-tx:2.5.6'
+	compile 'org.springframework:spring-jms:2.5.6'
+	compile 'org.springframework:spring-beans:2.5.6'
+	compile 'org.springframework:spring-core:2.5.6'
+	
+    compile fileTree(dir: '/home/stijn/apps/aluminum/lib', include: '*.jar')
+	
+	testCompile 'org.springframework:spring-test:2.5.6'
+	testCompile 'junit:junit:4.8.1'
+	runtime 'javax.mail:mail:1.4.4'
+}

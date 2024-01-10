@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core
+END
+JSONString.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONString.java
+END
+JSONObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONObject.java
+END
+JSONTokener.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONTokener.java
+END
+JSONWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONWriter.java
+END
+JSONStringer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONStringer.java
+END
+JSONException.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONException.java
+END
+JSONArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3/qwikiofficejava/src/java/rcp/json/core/JSONArray.java
+END

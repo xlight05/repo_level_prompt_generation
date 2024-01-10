@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+	<!-- ===========================================================================
+	//   DELETE - delete
+	============================================================================ -->
+	<delete id="delete" parameterClass="${sqlmap.model.instanceName}">
+		DELETE FROM ${sqlmap.tableName}
+		WHERE
+			<#list sqlmap.primaryKeyFields as field>
+			${field.databaseFieldName} = #${field.javaFieldName}# <#if field_has_next>AND</#if>
+			</#list>
+	</delete>

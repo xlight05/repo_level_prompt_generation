@@ -1,0 +1,2636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<players>
+    <Player autologin="true" name="Seiyria" password="traveller"
+        time="Wed Feb 23 08:54:11 CST 2011" user="EllyMent">
+        <LastClass name="Rogue"/>
+        <Classes>
+            <Class name="Barbarian">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="14"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="2400"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="225"/>
+                    <maximum value="875"/>
+                    <initial value="225"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="84"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="40"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Speed>
+                <Other name="Rage">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="139"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Constitution>
+            </Class>
+            <Class name="Warlock">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="180"/>
+                    <maximum value="250"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="74"/>
+                    <maximum value="74"/>
+                    <initial value="60"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="16"/>
+                    <maximum value="999"/>
+                    <initial value="11"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="244"/>
+                    <maximum value="244"/>
+                    <initial value="200"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="4"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Constitution>
+            </Class>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="50"/>
+                    <maximum value="1550"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="120"/>
+                    <maximum value="140"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="21"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="320"/>
+                    <initial value="200"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Juggernaut">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="130"/>
+                    <maximum value="250"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="712"/>
+                    <maximum value="712"/>
+                    <initial value="500"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="67"/>
+                    <maximum value="999"/>
+                    <initial value="40"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Constitution>
+            </Class>
+            <Class name="Bloodbarian">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="775"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="414"/>
+                    <maximum value="857"/>
+                    <initial value="400"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="79"/>
+                    <maximum value="999"/>
+                    <initial value="25"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="17"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Constitution>
+            </Class>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="4600"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="860"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="69"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="22"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="55"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Glass Cannon">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="25"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="10"/>
+                    <initial value="10"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="40"/>
+                    <maximum value="999"/>
+                    <initial value="40"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="450"/>
+                    <maximum value="450"/>
+                    <initial value="450"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Rogue">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="250"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="128"/>
+                    <maximum value="128"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="14"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Speed>
+                <Other name="Energy">
+                    <minimum value="0"/>
+                    <current value="110"/>
+                    <maximum value="110"/>
+                    <initial value="100"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Apple" password="cheesecake"
+        time="Wed Feb 23 21:53:16 CST 2011" user="EllyMent">
+        <LastClass name=""/>
+        <Classes>
+            <Class name="Fighter">
+                <Level>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="1"/>
+                </Level>
+                <Health>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="200"/>
+                    <boosted value="0"/>
+                    <initial value="200"/>
+                </Health>
+                <Power>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <boosted value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck>
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Sei" password="cake"
+        time="Sat Feb 26 16:55:55 CST 2011" user="EllyMent">
+        <LastClass name="Cleric"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="500"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="100"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="70"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+            </Class>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="25"/>
+                    <maximum value="600"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="350"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="22"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="10"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Barbarian">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="39"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="225"/>
+                    <maximum value="225"/>
+                    <initial value="225"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Speed>
+                <Other name="Rage">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Constitution>
+            </Class>
+            <Class name="Cleric">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="775"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="225"/>
+                    <maximum value="225"/>
+                    <initial value="150"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="105"/>
+                    <maximum value="105"/>
+                    <initial value="45"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Chase" password="143526"
+        time="Fri Mar 18 19:24:21 CDT 2011" user="Chase">
+        <LastClass name="Barbarian"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="80"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="120"/>
+                    <maximum value="120"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="70"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+            </Class>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="600"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="400"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="27"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Barbarian">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="55"/>
+                    <maximum value="250"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="225"/>
+                    <maximum value="275"/>
+                    <initial value="225"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Speed>
+                <Other name="Rage">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="103"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Knight" password="tacos"
+        time="Fri Mar 18 20:12:59 CDT 2011" user="KnightTurtle">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Water Wizard">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="100"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="170"/>
+                    <maximum value="170"/>
+                    <initial value="170"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="60"/>
+                    <maximum value="875"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="350"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="24"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="19"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Robot">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="185"/>
+                    <maximum value="185"/>
+                    <initial value="185"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="4"/>
+                </Power>
+                <ChargeUpPower name="ChargeUpPower">
+                    <minimum value="0"/>
+                    <current value="17"/>
+                    <maximum value="999"/>
+                    <initial value="17"/>
+                </ChargeUpPower>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="99"/>
+                    <initial value="7"/>
+                </Speed>
+                <Other name="Charge">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Constitution>
+            </Class>
+            <Class name="Bard">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="250"/>
+                    <maximum value="250"/>
+                    <initial value="250"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="245"/>
+                    <maximum value="245"/>
+                    <initial value="245"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Constitution>
+            </Class>
+            <Class name="Cleric">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="95"/>
+                    <maximum value="475"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="150"/>
+                    <maximum value="200"/>
+                    <initial value="150"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="45"/>
+                    <maximum value="85"/>
+                    <initial value="45"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="650"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="110"/>
+                    <maximum value="110"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="230"/>
+                    <initial value="200"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Electric" password="idunnowhattoput"
+        time="Fri Mar 18 20:13:08 CDT 2011" user="Electric">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="115"/>
+                    <maximum value="500"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="475"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="140"/>
+                    <maximum value="140"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="17"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="82"/>
+                    <maximum value="130"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Zage" password="pancakes"
+        time="Fri Mar 18 20:13:44 CDT 2011" user="Zage">
+        <LastClass name="Water Wizard"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="500"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="100"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Water Wizard">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="400"/>
+                    <maximum value="775"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="75"/>
+                    <maximum value="130"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="27"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="210"/>
+                    <maximum value="215"/>
+                    <initial value="170"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Teddus" password="bananacakes"
+        time="Fri Mar 18 20:14:00 CDT 2011" user="Teddy">
+        <LastClass name="Fighter"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="500"/>
+                    <boosted value="0"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="200"/>
+                    <boosted value="0"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <boosted value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <boosted value="0"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="KayArr" password="hurpdedurp"
+        time="Sat Mar 19 12:18:19 CDT 2011" user="KR">
+        <LastClass name="Bloodbarian"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="375"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="120"/>
+                    <maximum value="120"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="13"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="130"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+            </Class>
+            <Class name="Cleric">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="250"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="150"/>
+                    <maximum value="175"/>
+                    <initial value="150"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="8"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="8"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="45"/>
+                    <maximum value="65"/>
+                    <initial value="45"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="180"/>
+                    <maximum value="750"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="425"/>
+                    <maximum value="425"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="29"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="11"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="11"/>
+                    <maximum value="11"/>
+                    <initial value="1"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="13"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Barbarian">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="1150"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="225"/>
+                    <maximum value="375"/>
+                    <initial value="225"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="24"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Speed>
+                <Other name="Rage">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="109"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="17"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Constitution>
+            </Class>
+            <Class name="Bloodbarian">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="50"/>
+                    <maximum value="300"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="414"/>
+                    <maximum value="414"/>
+                    <initial value="414"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="25"/>
+                    <maximum value="999"/>
+                    <initial value="25"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="999"/>
+                    <initial value="0"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Shion" password="Blahblah1"
+        time="Sun Mar 20 12:51:45 CDT 2011" user="DarkblizerII">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="650"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="275"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="17"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="13"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Water Wizard">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="100"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="6"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="170"/>
+                    <maximum value="170"/>
+                    <initial value="170"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="20"/>
+                    <maximum value="650"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="110"/>
+                    <maximum value="110"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="230"/>
+                    <initial value="200"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="booshka" password="tsutarja"
+        time="Tue Mar 22 13:09:34 CDT 2011" user="Booshka">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="500"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="100"/>
+                    <initial value="100"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Mion" password="Blahblah1"
+        time="Tue Mar 22 21:50:55 CDT 2011" user="Darkblizer">
+        <LastClass name="Druid"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="500"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="750"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="120"/>
+                    <maximum value="160"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="17"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="6"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="70"/>
+                    <maximum value="190"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+            <Class name="Druid">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="160"/>
+                    <maximum value="4150"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="120"/>
+                    <maximum value="120"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Spirit">
+                    <minimum value="0"/>
+                    <current value="35"/>
+                    <maximum value="70"/>
+                    <initial value="50"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Mocuto" password="200523"
+        time="Tue Mar 22 22:07:26 CDT 2011" user="Mocuto">
+        <LastClass name="Fighter"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="150"/>
+                    <maximum value="500"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="7"/>
+                    <maximum value="999"/>
+                    <initial value="7"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="HyperMan" password="rstlne"
+        time="Wed Mar 23 19:34:26 CDT 2011" user="FriezaKirby">
+        <LastClass name="Fighter"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="Cakebot" password="cake"
+        time="Wed Mar 23 19:46:40 CDT 2011" user="EllyMent">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="100"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="200"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="10"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="0"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="1"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="170"/>
+                    <maximum value="375"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="140"/>
+                    <maximum value="140"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="11"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="130"/>
+                    <maximum value="130"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="true" name="kimmy" password="123456"
+        time="Wed Mar 23 21:17:38 CDT 2011" user="kimmy">
+        <LastClass name="Fighter"/>
+        <Classes>
+            <Class name="Fighter">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="15"/>
+                    <maximum value="375"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="200"/>
+                    <maximum value="350"/>
+                    <initial value="200"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="20"/>
+                    <maximum value="999"/>
+                    <initial value="10"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="9"/>
+                    <maximum value="999"/>
+                    <initial value="5"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="20"/>
+                    <initial value="0"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Luck>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="false" name="FireFreek" password="freekiscool"
+        time="Fri Mar 25 19:11:47 CDT 2011" user="FireFreek">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="285"/>
+                    <maximum value="475"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="140"/>
+                    <maximum value="140"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="5"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="15"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="130"/>
+                    <maximum value="130"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+    <Player autologin="false" name="Lightblizer"
+        password="iamasickguitarplayer"
+        time="Sat Mar 26 17:34:32 PDT 2011" user="Ramza">
+        <LastClass/>
+        <Classes/>
+    </Player>
+    <Player autologin="false" name="MetalBlazer" password="guitarissick"
+        time="Sat Mar 26 17:35:41 PDT 2011" user="Ramza">
+        <LastClass name="Mage"/>
+        <Classes>
+            <Class name="Mage">
+                <Level name="Level">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Level>
+                <Exp name="Exp">
+                    <minimum value="0"/>
+                    <current value="0"/>
+                    <maximum value="250"/>
+                    <initial value="0"/>
+                </Exp>
+                <Health name="Health">
+                    <minimum value="0"/>
+                    <current value="130"/>
+                    <maximum value="130"/>
+                    <initial value="120"/>
+                </Health>
+                <Power name="Power">
+                    <minimum value="0"/>
+                    <current value="4"/>
+                    <maximum value="999"/>
+                    <initial value="3"/>
+                </Power>
+                <Magic name="Magic">
+                    <minimum value="0"/>
+                    <current value="12"/>
+                    <maximum value="999"/>
+                    <initial value="9"/>
+                </Magic>
+                <Speed name="Speed">
+                    <minimum value="0"/>
+                    <current value="3"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Speed>
+                <Other name="Mana">
+                    <minimum value="0"/>
+                    <current value="100"/>
+                    <maximum value="100"/>
+                    <initial value="70"/>
+                </Other>
+                <Luck name="Luck">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="2"/>
+                </Luck>
+                <Constitution name="Constitution">
+                    <minimum value="0"/>
+                    <current value="2"/>
+                    <maximum value="999"/>
+                    <initial value="1"/>
+                </Constitution>
+            </Class>
+        </Classes>
+    </Player>
+</players>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images
+END
+pageActive.png
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images/pageActive.png
+END
+pageInactive.png
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images/pageInactive.png
+END
+vPrevious.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images/vPrevious.png
+END
+hPrevious.png
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images/hPrevious.png
+END
+vNext.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images/vNext.png
+END
+hNext.png
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/4/trunk/WebContent/scripts/dojo-release-1.3.2/dojox/widget/Pager/images/hNext.png
+END

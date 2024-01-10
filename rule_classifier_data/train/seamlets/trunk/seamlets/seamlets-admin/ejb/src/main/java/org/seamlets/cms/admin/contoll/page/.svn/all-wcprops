@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/448/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page
+END
+PageController.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page/PageController.java
+END
+PageStructureController.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/!svn/ver/406/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page/PageStructureController.java
+END
+AddPageAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/351/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page/AddPageAction.java
+END
+PageControllerBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/!svn/ver/448/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page/PageControllerBean.java
+END
+PageStructureControllerBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/!svn/ver/406/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page/PageStructureControllerBean.java
+END
+AddPageActionBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/448/trunk/seamlets/seamlets-admin/ejb/src/main/java/org/seamlets/cms/admin/contoll/page/AddPageActionBean.java
+END

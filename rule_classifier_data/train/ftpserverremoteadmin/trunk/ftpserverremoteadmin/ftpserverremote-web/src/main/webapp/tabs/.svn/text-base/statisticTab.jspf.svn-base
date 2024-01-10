@@ -1,0 +1,50 @@
+<f:subview  
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:tc="http://myfaces.apache.org/tobago/component"
+    xmlns:tx="http://myfaces.apache.org/tobago/extension"
+    id="statisticInc" >
+    
+    <tc:panel>
+        
+        <f:facet name="layout">
+            <tc:gridLayout columns="*" rows="22px;*;22px" />
+        </f:facet>     
+        
+        <tx:selectOneChoice label="#{messages.server}" value="#{StatisticsBean.serverLabel}" >
+            <f:facet name="change">
+                <tc:command action="#{StatisticsBean.reload}" />
+            </f:facet>
+            <f:selectItems value="#{StatisticsBean.serverLabels}" />
+        </tx:selectOneChoice>
+    
+        
+        <tc:sheet columns="1*;1*" value="#{StatisticsBean.statistics}"
+                  var="stat" state=""
+                  rows="25"
+                  showRowRange="left" showPageRange="right" showDirectLinks="center"
+                  showHeader="true">
+            
+            <tc:column id="stat_name" label="#{messages.name}" sortable="false"
+                       rendered="true">
+                <tc:out value="#{stat.statName}"/>
+            </tc:column>
+            
+            <tc:column id="stat_val" label="#{messages.value}" sortable="false"
+                       rendered="true">
+                <tc:out value="#{stat.statValue}" />
+            </tc:column>        
+        </tc:sheet>
+        
+        <tc:panel>
+            <f:facet name="layout">
+                <tc:gridLayout columns="*;70px;70px;*" rows="*" />
+            </f:facet>
+            <tc:out value="" /> 
+            <tc:button label="#{messages.reload}" action="#{StatisticsBean.reload}" width="60px"/>
+            <tc:button label="#{messages.reset}" width="60px"/>
+        <tc:out value="" /> 
+    </tc:panel> 
+    
+    </tc:panel>
+    </f:subview>

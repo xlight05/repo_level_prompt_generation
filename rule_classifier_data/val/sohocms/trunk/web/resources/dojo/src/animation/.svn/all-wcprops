@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation
+END
+Animation.js
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation/Animation.js
+END
+Timer.js
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation/Timer.js
+END
+AnimationEvent.js
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation/AnimationEvent.js
+END
+__package__.js
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation/__package__.js
+END
+AnimationSequence.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/7/trunk/web/resources/dojo/src/animation/AnimationSequence.js
+END

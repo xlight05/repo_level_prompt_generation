@@ -1,0 +1,4 @@
+#Sun Feb 15 11:42:56 CET 2009
+classpath.helper/org.eclipse.jst.server.core.container\:\:org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget\:\:Bitcube\ 4.2/owners=jst.seam\:2.0
+classpath.helper/org.eclipse.jst.server.core.container\:\:org.jboss.ide.eclipse.as.core.server.runtime.runtimeTarget\:\:J4.2.3/owners=jst.jsf\:1.2;jst.web\:2.5
+eclipse.preferences.version=1

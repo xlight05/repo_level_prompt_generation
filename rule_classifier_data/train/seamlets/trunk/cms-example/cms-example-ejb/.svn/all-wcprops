@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/439/trunk/cms-example/cms-example-ejb
+END
+hibernate-console.properties
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/15/trunk/cms-example/cms-example-ejb/hibernate-console.properties
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/439/trunk/cms-example/cms-example-ejb/.classpath
+END
+cms-example-ejb.launch
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/15/trunk/cms-example/cms-example-ejb/cms-example-ejb.launch
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/15/trunk/cms-example/cms-example-ejb/.project
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/356/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata
+END
+FakeFtpServerContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 148
+/svn/!svn/ver/356/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/FakeFtpServerContext.java
+END
+ServerLogsLevelProviderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/345/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerLogsLevelProviderTest.java
+END
+ServerSideStatisticsObserverTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/svn/!svn/ver/337/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerSideStatisticsObserverTest.java
+END
+ServerDataContainerImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/299/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataContainerImplTest.java
+END
+ServerDataListenerImplTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/!svn/ver/298/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataListenerImplTest.java
+END
+ServerdataSuite.java
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/svn/!svn/ver/320/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerdataSuite.java
+END
+FakeFtpStatistics.java
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/!svn/ver/356/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/FakeFtpStatistics.java
+END
+FakeContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/!svn/ver/302/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/FakeContext.java
+END
+ServerDataProviderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/302/trunk/ftpserverremoteadmin/ftpserverremote-core/src/test/java/pl/edu/agh/iosr/ftpserverremote/serverdata/ServerDataProviderTest.java
+END

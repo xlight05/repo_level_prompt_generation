@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native
+END
+SystemInformation.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native/SystemInformation.h
+END
+gen_header.bat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native/gen_header.bat
+END
+compile.txt
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native/compile.txt
+END
+libsysmon.dll
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native/libsysmon.dll
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native/README.txt
+END
+SystemInformation.c
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/60/tags/xfuze/REL_1.0.1/xfuze-tool/src/main/native/SystemInformation.c
+END
